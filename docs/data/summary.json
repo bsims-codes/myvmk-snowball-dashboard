@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2025-12-18T04:32:00.996Z",
-  "totalRows": 41184,
-  "totalUsers": 411,
+  "generatedAt": "2025-12-18T05:20:35.431Z",
+  "totalRows": 41189,
+  "totalUsers": 413,
   "teamStats": {
     "Penguin": {
-      "users": 180,
+      "users": 181,
       "attacks": 21639,
-      "hitsTaken": 20298
+      "hitsTaken": 20303
     },
     "Reindeer": {
-      "users": 231,
-      "attacks": 19545,
+      "users": 232,
+      "attacks": 19550,
       "hitsTaken": 20886
     },
     "Unknown": {
@@ -26,7 +26,7 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 19417
+      "count": 19422
     },
     {
       "pair": "Penguin → Penguin",
@@ -85,7 +85,7 @@
     },
     {
       "user": "MagicMinnieMare",
-      "attacks": 1018,
+      "attacks": 1019,
       "team": "Reindeer"
     },
     {
@@ -372,9 +372,9 @@
     {
       "user": "MagicMinnieMare",
       "team": "Reindeer",
-      "attacks": 1018,
+      "attacks": 1019,
       "hitsTaken": 597,
-      "ratio": 1.7051926298157454
+      "ratio": 1.7068676716917923
     },
     {
       "user": "goatduck",
@@ -2134,6 +2134,13 @@
       "ratio": 0.11764705882352941
     },
     {
+      "user": "stitchfr",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 19,
+      "ratio": 0
+    },
+    {
       "user": "RockaHula",
       "team": "Reindeer",
       "attacks": 0,
@@ -2160,13 +2167,6 @@
       "attacks": 7,
       "hitsTaken": 11,
       "ratio": 0.6363636363636364
-    },
-    {
-      "user": "stitchfr",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 18,
-      "ratio": 0
     },
     {
       "user": "PrincessRain",
@@ -2715,6 +2715,13 @@
       "ratio": 0.3333333333333333
     },
     {
+      "user": "Muuula1",
+      "team": "Reindeer",
+      "attacks": 4,
+      "hitsTaken": 0,
+      "ratio": 4
+    },
+    {
       "user": "BeefyPeaches",
       "team": "Reindeer",
       "attacks": 0,
@@ -2787,6 +2794,13 @@
     {
       "user": "Blake",
       "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 4,
+      "ratio": 0
+    },
+    {
+      "user": "EllyPantz",
+      "team": "Penguin",
       "attacks": 0,
       "hitsTaken": 4,
       "ratio": 0
@@ -3172,30 +3186,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.5171363241716334,
-      "intercept": 48.38505504942932,
+      "slope": 0.5174083559479696,
+      "intercept": 48.129460597721746,
       "xMin": 0,
       "xMax": 2422,
-      "y1": 48.38505504942932,
-      "y2": 1300.8892321931255,
+      "y1": 48.129460597721746,
+      "y2": 1301.2924987037043,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.4551121241154669,
-      "intercept": 58.05460414591895,
+      "slope": 0.455428755040891,
+      "intercept": 57.72363077165835,
       "xMin": 0,
       "xMax": 2422,
-      "y1": 58.05460414591895,
-      "y2": 1160.3361687535798,
+      "y1": 57.72363077165835,
+      "y2": 1160.7720754806965,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.6209098066548066,
-      "intercept": 37.88016376160955,
+      "slope": 0.6211283370850589,
+      "intercept": 37.68509056028922,
       "xMin": 0,
       "xMax": 2422,
-      "y1": 37.88016376160955,
-      "y2": 1541.723715479551,
+      "y1": 37.68509056028922,
+      "y2": 1542.0579229803018,
       "label": "Reindeer"
     }
   },
@@ -3214,9 +3228,9 @@
     },
     {
       "roomName": "Town Square",
-      "hitCount": 3660,
+      "hitCount": 3661,
       "avgUserRatio": 0.78,
-      "activeUsers": 226
+      "activeUsers": 227
     },
     {
       "roomName": "Central Plaza",
@@ -3292,9 +3306,9 @@
     },
     {
       "roomName": "VMK Esplanade",
-      "hitCount": 287,
-      "avgUserRatio": 1.41,
-      "activeUsers": 63
+      "hitCount": 291,
+      "avgUserRatio": 1.43,
+      "activeUsers": 65
     },
     {
       "roomName": "Sci-Fi Dine-In",
