@@ -68,6 +68,25 @@
       .team-stat .label { font-size: 0.75rem; color: var(--text-muted); }
       .team-stat .value { font-size: 1.25rem; font-weight: 600; }
 
+      .search-bar {
+        margin-bottom: 16px;
+      }
+
+      .search-bar input {
+        padding: 10px 14px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        font-size: 0.9rem;
+        width: 320px;
+        max-width: 100%;
+      }
+
+      .search-bar input:focus {
+        outline: none;
+        border-color: var(--penguin-color);
+        box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+      }
+
       .row {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -247,6 +266,10 @@
       <div class="team-stats" id="teamStats"></div>
     </div>
 
+    <div class="search-bar">
+      <input id="userSearch" placeholder="Search username (highlights on chart)..." />
+    </div>
+
     <div class="stats-panel" id="statsPanel">
       <div class="user-name" id="statsPanelUser"></div>
       <div class="stats-grid" id="statsPanelGrid"></div>
@@ -263,7 +286,6 @@
       <div class="card">
         <h3>Users <span id="userCount" style="font-weight:normal;color:var(--text-muted);font-size:0.875rem;"></span></h3>
         <div class="toolbar">
-          <input id="userSearch" placeholder="Search username..." />
           <input id="filterExpr" placeholder="Filter: attacks > 100, ratio >= 2" />
           <select id="teamFilter">
             <option value="All">All Teams</option>
