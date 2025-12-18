@@ -30,18 +30,20 @@
       .header {
         display: flex;
         justify-content: space-between;
-        align-items: flex-start;
-        flex-wrap: wrap;
+        align-items: center;
         gap: 16px;
         margin-bottom: 20px;
       }
 
-      .logo-header {
-        text-align: center;
-        margin-bottom: 20px;
+      .header-left {
+        flex: 1;
       }
 
-      .logo-header .logo {
+      .logo-center {
+        flex: 0 0 auto;
+      }
+
+      .logo-center .logo {
         height: 150px;
         width: auto;
       }
@@ -57,9 +59,11 @@
       }
 
       .team-stats {
+        flex: 1;
         display: flex;
         gap: 12px;
         flex-wrap: wrap;
+        justify-content: flex-end;
       }
 
       .team-stat {
@@ -268,16 +272,13 @@
     </style>
   </head>
   <body>
-    <div class="logo-header">
-      <img src="./snowy-logo.png" alt="Snowball Fight" class="logo" />
-    </div>
-
     <div class="header">
       <div class="header-left">
-        <div>
-          <h1>MyVMK Snowball Fight Dashboard</h1>
-          <small id="meta">Loading...</small>
-        </div>
+        <h1>MyVMK Snowball Fight Dashboard</h1>
+        <small id="meta">Loading...</small>
+      </div>
+      <div class="logo-center">
+        <img src="./snowy-logo.png" alt="Snowball Fight" class="logo" />
       </div>
       <div class="team-stats" id="teamStats"></div>
     </div>
