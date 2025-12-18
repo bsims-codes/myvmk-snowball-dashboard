@@ -12,7 +12,6 @@
       :root {
         --penguin-color: #3b82f6;
         --reindeer-color: #ef4444;
-        --unknown-color: #9ca3af;
         --bg: #fafafa;
         --card-bg: #fff;
         --border: #e5e7eb;
@@ -80,10 +79,10 @@
 
       .team-stat.penguin { border-left: 4px solid var(--penguin-color); }
       .team-stat.reindeer { border-left: 4px solid var(--reindeer-color); }
-      .team-stat.unknown { border-left: 4px solid var(--unknown-color); }
 
       .team-stat .label { font-size: 0.75rem; color: var(--text-muted); }
       .team-stat .value { font-size: 1.25rem; font-weight: 600; }
+      .team-stat .team-logo { width: 28px; height: 28px; margin-bottom: 4px; }
 
       .search-bar {
         margin-bottom: 16px;
@@ -261,7 +260,6 @@
 
       .pill.penguin { background: #dbeafe; color: #1e40af; }
       .pill.reindeer { background: #fee2e2; color: #991b1b; }
-      .pill.unknown { background: #f3f4f6; color: #4b5563; }
 
       .chart-container {
         position: relative;
@@ -325,7 +323,7 @@
           <canvas id="scatter"></canvas>
         </div>
         <p class="legend-note" id="scatterHint">
-          Drag to zoom (Zoom mode). Use Pan to move. Double-click to zoom in; Shift + double-click to zoom out. Reset to full view.
+          Scroll to zoom. Drag to select area (Zoom mode) or move chart (Pan mode). Double-click to zoom in; Shift+double-click to zoom out.
         </p>
       </div>
       <div class="card">

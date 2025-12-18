@@ -30,8 +30,7 @@ function parseSearchNames(input) {
 // Team colors for charts
 const TEAM_COLORS = {
   Penguin: { bg: "rgba(59, 130, 246, 0.7)", border: "#3b82f6" },
-  Reindeer: { bg: "rgba(239, 68, 68, 0.7)", border: "#ef4444" },
-  Unknown: { bg: "rgba(156, 163, 175, 0.5)", border: "#9ca3af" }
+  Reindeer: { bg: "rgba(239, 68, 68, 0.7)", border: "#ef4444" }
 };
 
 const TREND_COLORS = {
@@ -154,15 +153,17 @@ function renderTeamStats(summary) {
 
   const items = [
     { team: "penguin", label: "Penguin", data: ts.Penguin || {} },
-    { team: "reindeer", label: "Reindeer", data: ts.Reindeer || {} },
-    { team: "unknown", label: "Unknown", data: ts.Unknown || {} }
+    { team: "reindeer", label: "Reindeer", data: ts.Reindeer || {} }
   ];
 
-  // Filter out Unknown if no users
-  const visibleItems = items.filter(item => item.team !== "unknown" || (item.data.users || 0) > 0);
+  const logoMap = {
+    penguin: 'penguin.png',
+    reindeer: 'reindeer.png'
+  };
 
-  container.innerHTML = visibleItems.map(item => `
+  container.innerHTML = items.map(item => `
     <div class="team-stat ${item.team}">
+      ${logoMap[item.team] ? `<img src="${logoMap[item.team]}" alt="${item.label}" class="team-logo">` : ''}
       <div class="label">${item.label}</div>
       <div class="value">${item.data.users || 0}</div>
       <div class="label">${fmt(item.data.attacks || 0, 0)} atk</div>
@@ -181,7 +182,7 @@ function renderTopLists(summary) {
         ${(summary.topAttackers || []).slice(0, 10).map(u => `
           <tr>
             <td>${escapeHtml(u.user)}</td>
-            <td><span class="pill ${(u.team || "unknown").toLowerCase()}">${u.team || "?"}</span></td>
+            <td><span class="pill ${u.team.toLowerCase()}">${u.team}</span></td>
             <td>${u.attacks}</td>
           </tr>
         `).join("")}
@@ -197,7 +198,7 @@ function renderTopLists(summary) {
         ${(summary.topVictims || []).slice(0, 10).map(u => `
           <tr>
             <td>${escapeHtml(u.user)}</td>
-            <td><span class="pill ${(u.team || "unknown").toLowerCase()}">${u.team || "?"}</span></td>
+            <td><span class="pill ${u.team.toLowerCase()}">${u.team}</span></td>
             <td>${u.hitsTaken}</td>
           </tr>
         `).join("")}
@@ -266,12 +267,12 @@ function buildUsersTable() {
   }).join("")}</tr>`;
 
   const body = viewRows.map(r => {
-    const teamClass = (r.team || "unknown").toLowerCase();
+    const teamClass = r.team.toLowerCase();
 
     return `
       <tr data-user="${escapeHtml(r.user)}" class="${state.selectedUsers.has(r.user) ? 'highlight' : ''}">
         <td>${escapeHtml(r.user)}</td>
-        <td><span class="pill ${teamClass}">${r.team || "Unknown"}</span></td>
+        <td><span class="pill ${teamClass}">${r.team}</span></td>
         <td>${r.attacks}</td>
         <td>${r.hitsTaken}</td>
         <td>${fmt(r.ratio)}</td>
@@ -342,10 +343,10 @@ function updateSelectionUI() {
   panel.classList.add("visible");
   nameEl.textContent = `Selected Users (${users.length})`;
   gridEl.innerHTML = users.map(u => {
-    const teamClass = (u.team || "unknown").toLowerCase();
+    const teamClass = u.team.toLowerCase();
     return `
       <div class="stat-item">
-        <div class="stat-label">${escapeHtml(u.user)} <span class="pill ${teamClass}">${u.team || "Unknown"}</span></div>
+        <div class="stat-label">${escapeHtml(u.user)} <span class="pill ${teamClass}">${u.team}</span></div>
         <div class="stat-value">Atk ${u.attacks} | Taken ${u.hitsTaken} | Ratio ${fmt(u.ratio)}</div>
       </div>
     `;
@@ -376,8 +377,7 @@ function createScatter(ctx, summary) {
 
   const byTeam = {
     Penguin: pts.filter(p => p.team === "Penguin"),
-    Reindeer: pts.filter(p => p.team === "Reindeer"),
-    Unknown: pts.filter(p => p.team === "Unknown")
+    Reindeer: pts.filter(p => p.team === "Reindeer")
   };
 
   const datasets = [
@@ -398,15 +398,6 @@ function createScatter(ctx, summary) {
       borderColor: TEAM_COLORS.Reindeer.border,
       pointRadius: (ctx) => state.selectedUsers.has(ctx.raw?.user) ? 10 : 5,
       pointHoverRadius: 8
-    },
-    {
-      label: "Unknown",
-      data: byTeam.Unknown.map(p => ({ x: p.attacks, y: p.hitsTaken, user: p.user })),
-      parsing: false,
-      backgroundColor: TEAM_COLORS.Unknown.bg,
-      borderColor: TEAM_COLORS.Unknown.border,
-      pointRadius: (ctx) => state.selectedUsers.has(ctx.raw?.user) ? 10 : 4,
-      pointHoverRadius: 7
     }
   ];
 
@@ -442,25 +433,23 @@ function createScatter(ctx, summary) {
         legend: { position: "bottom" },
         zoom: {
           limits: {
-            x: { min: 0, max: maxX * 1.1 },
-            y: { min: 0, max: maxY * 1.1 }
+            x: { min: 0, max: maxX * 1.1, minRange: 10 },
+            y: { min: 0, max: maxY * 1.1, minRange: 10 }
           },
           zoom: {
-            wheel: { enabled: true },
+            wheel: { enabled: true, speed: 0.1 },
             pinch: { enabled: true },
             drag: {
               enabled: true,
               borderColor: "#3b82f6",
-              borderWidth: 1,
-              backgroundColor: "rgba(59, 130, 246, 0.08)"
+              borderWidth: 2,
+              backgroundColor: "rgba(59, 130, 246, 0.15)"
             },
-            mode: "xy",
-            overScaleMode: "xy"
+            mode: "xy"
           },
           pan: {
-            enabled: true,
-            mode: "xy",
-            modifierKey: "ctrl"
+            enabled: false,
+            mode: "xy"
           }
         }
       },
@@ -511,15 +500,13 @@ function updateScatterData() {
 
   const filtered = {
     Penguin: pts.filter(p => p.team === "Penguin" && (!set || set.has(p.user.toLowerCase()))),
-    Reindeer: pts.filter(p => p.team === "Reindeer" && (!set || set.has(p.user.toLowerCase()))),
-    Unknown: pts.filter(p => p.team === "Unknown" && (!set || set.has(p.user.toLowerCase())))
+    Reindeer: pts.filter(p => p.team === "Reindeer" && (!set || set.has(p.user.toLowerCase())))
   };
 
   const datasets = chart.data.datasets;
-  if (datasets.length >= 3) {
+  if (datasets.length >= 2) {
     datasets[0].data = filtered.Penguin.map(p => ({ x: p.attacks, y: p.hitsTaken, user: p.user }));
     datasets[1].data = filtered.Reindeer.map(p => ({ x: p.attacks, y: p.hitsTaken, user: p.user }));
-    datasets[2].data = filtered.Unknown.map(p => ({ x: p.attacks, y: p.hitsTaken, user: p.user }));
   }
 }
 
@@ -541,12 +528,12 @@ function setScatterMode(mode) {
 
   const zoomOpts = chart.options.plugins.zoom;
   const isPan = mode === "pan";
-  // Toggle drag zoom vs pan
+
+  // Wheel zoom always enabled for smooth zooming
+  zoomOpts.zoom.wheel.enabled = true;
+  // Toggle between drag-to-zoom and drag-to-pan
   zoomOpts.zoom.drag.enabled = !isPan;
-  zoomOpts.zoom.wheel.enabled = !isPan;
   zoomOpts.pan.enabled = isPan;
-  // Require Ctrl for incidental panning only when in zoom mode
-  zoomOpts.pan.modifierKey = isPan ? undefined : "ctrl";
 
   chart.update("none");
 
