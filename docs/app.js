@@ -1003,6 +1003,15 @@ function compareHeadToHead() {
   const user2Wins = user2HitsOnUser1 > user1HitsOnUser2;
   const isTie = user1HitsOnUser2 === user2HitsOnUser1;
 
+  // Calculate comparison stats
+  const totalHits = user1HitsOnUser2 + user2HitsOnUser1;
+  const user1WinRate = totalHits > 0 ? Math.round((user1HitsOnUser2 / totalHits) * 100) : 0;
+  const user2WinRate = totalHits > 0 ? 100 - user1WinRate : 0;
+  const user1NetDiff = user1HitsOnUser2 - user2HitsOnUser1;
+  const user2NetDiff = -user1NetDiff;
+
+  const formatNetDiff = (diff) => diff > 0 ? `+${diff}` : diff.toString();
+
   const getTeamLogo = (team) => team.toLowerCase() === 'penguin' ? 'penguin.png' : 'reindeer.png';
 
   resultDiv.style.display = "block";
@@ -1013,6 +1022,12 @@ function compareHeadToHead() {
       <div class="h2h-stat"><span class="pill ${user1.team.toLowerCase()}">${user1.team}</span></div>
       <div class="h2h-value ${user1Wins ? 'h2h-winner' : ''}">${user1HitsOnUser2}</div>
       <div class="h2h-stat">hits on ${escapeHtml(user2.user)}</div>
+      <div class="h2h-stat" style="margin-top:8px;font-size:0.9rem;">
+        <span style="font-weight:600;${user1Wins ? 'color:#16a34a;' : ''}">${user1WinRate}%</span> win rate
+      </div>
+      <div class="h2h-stat" style="font-size:0.9rem;">
+        <span style="font-weight:600;${user1NetDiff > 0 ? 'color:#16a34a;' : user1NetDiff < 0 ? 'color:#dc2626;' : ''}">${formatNetDiff(user1NetDiff)}</span> net
+      </div>
     </div>
     <div class="h2h-vs">VS</div>
     <div>
@@ -1021,6 +1036,12 @@ function compareHeadToHead() {
       <div class="h2h-stat"><span class="pill ${user2.team.toLowerCase()}">${user2.team}</span></div>
       <div class="h2h-value ${user2Wins ? 'h2h-winner' : ''}">${user2HitsOnUser1}</div>
       <div class="h2h-stat">hits on ${escapeHtml(user1.user)}</div>
+      <div class="h2h-stat" style="margin-top:8px;font-size:0.9rem;">
+        <span style="font-weight:600;${user2Wins ? 'color:#16a34a;' : ''}">${user2WinRate}%</span> win rate
+      </div>
+      <div class="h2h-stat" style="font-size:0.9rem;">
+        <span style="font-weight:600;${user2NetDiff > 0 ? 'color:#16a34a;' : user2NetDiff < 0 ? 'color:#dc2626;' : ''}">${formatNetDiff(user2NetDiff)}</span> net
+      </div>
     </div>
   `;
 }
