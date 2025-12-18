@@ -1041,13 +1041,17 @@ function renderHeatmap() {
     }
   }
 
-  // Count events
+  // Count events (timestamps are in Eastern time)
   state.allEvents.forEach(e => {
-    const date = new Date(e.time.replace(" ", "T"));
+    // Parse as local time since data is already in Eastern time
+    const [datePart, timePart] = e.time.split(" ");
+    const [year, month, day] = datePart.split("-").map(Number);
+    const [hour, minute, second] = timePart.split(":").map(Number);
+    const date = new Date(year, month - 1, day, hour, minute, second);
     if (isNaN(date.getTime())) return;
-    const hour = date.getUTCHours();
-    const day = date.getUTCDay();
-    matrix[hour][day]++;
+    const h = date.getHours();
+    const d = date.getDay();
+    matrix[h][d]++;
   });
 
   // Find max for scaling
@@ -1074,7 +1078,7 @@ function renderHeatmap() {
       const val = matrix[h][d];
       const intensity = maxVal > 0 ? val / maxVal : 0;
       const bg = getHeatmapColor(intensity);
-      html += `<div class="heatmap-cell" style="background:${bg};" title="${days[d]} ${h}:00 UTC - ${val} attacks"></div>`;
+      html += `<div class="heatmap-cell" style="background:${bg};" title="${days[d]} ${h}:00 ET - ${val} attacks"></div>`;
     }
   }
 
