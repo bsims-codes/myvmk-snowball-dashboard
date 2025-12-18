@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2025-12-18T02:26:37.748Z",
-  "totalRows": 40951,
+  "generatedAt": "2025-12-18T02:38:08.209Z",
+  "totalRows": 40952,
   "totalUsers": 408,
   "teamStats": {
     "Penguin": {
       "users": 178,
       "attacks": 21579,
-      "hitsTaken": 20131
+      "hitsTaken": 20132
     },
     "Reindeer": {
       "users": 230,
-      "attacks": 19372,
+      "attacks": 19373,
       "hitsTaken": 20820
     },
     "Unknown": {
@@ -26,7 +26,7 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 19267
+      "count": 19268
     },
     {
       "pair": "Penguin → Penguin",
@@ -65,7 +65,7 @@
     },
     {
       "user": "Neocissa",
-      "attacks": 1351,
+      "attacks": 1352,
       "team": "Reindeer"
     },
     {
@@ -360,9 +360,9 @@
       "user": "Neocissa",
       "team": "Reindeer",
       "teamConfidence": 1,
-      "attacks": 1351,
+      "attacks": 1352,
       "hitsTaken": 399,
-      "ratio": 3.3859649122807016
+      "ratio": 3.388471177944862
     },
     {
       "user": "Meg",
@@ -641,8 +641,8 @@
       "team": "Penguin",
       "teamConfidence": 1,
       "attacks": 318,
-      "hitsTaken": 221,
-      "ratio": 1.4389140271493213
+      "hitsTaken": 222,
+      "ratio": 1.4324324324324325
     },
     {
       "user": "AmandaJeanne",
@@ -3559,37 +3559,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.520337050578304,
-      "intercept": 48.14381725923498,
+      "slope": 0.5203120851411063,
+      "intercept": 48.14749874828778,
       "xMin": 0,
       "xMax": 2422,
-      "y1": 48.14381725923498,
-      "y2": 1308.4001537598874,
+      "y1": 48.14749874828778,
+      "y2": 1308.3433689600472,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.4536519540398054,
-      "intercept": 58.099126313342914,
+      "slope": 0.4536618291083245,
+      "intercept": 58.10354713298577,
       "xMin": 0,
       "xMax": 2422,
-      "y1": 58.099126313342914,
-      "y2": 1156.8441589977515,
+      "y1": 58.10354713298577,
+      "y2": 1156.8724972333478,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.6357319549073296,
-      "intercept": 36.97652421537048,
+      "slope": 0.6356177796625962,
+      "intercept": 36.98337719389793,
       "xMin": 0,
       "xMax": 2422,
-      "y1": 36.97652421537048,
-      "y2": 1576.7193190009227,
+      "y1": 36.98337719389793,
+      "y2": 1576.449639536706,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
-      "roomName": "Inner-Space Shrinking Machine",
-      "hitCount": 19017,
+      "roomName": "Captain's Quest Quarters",
+      "hitCount": 19018,
       "avgUserRatio": 0.88,
       "activeUsers": 234
     },
@@ -3612,13 +3612,13 @@
       "activeUsers": 151
     },
     {
-      "roomName": "Castle Forecourt",
+      "roomName": "Matterhorn",
       "hitCount": 1094,
       "avgUserRatio": 2.56,
       "activeUsers": 79
     },
     {
-      "roomName": "291",
+      "roomName": "Epcot Entrance",
       "hitCount": 976,
       "avgUserRatio": 1.02,
       "activeUsers": 79
@@ -3630,31 +3630,31 @@
       "activeUsers": 47
     },
     {
-      "roomName": "VMK Central",
+      "roomName": "Fantasyland in The Sky",
       "hitCount": 570,
       "avgUserRatio": 1.9,
       "activeUsers": 41
     },
     {
-      "roomName": "320",
+      "roomName": "Anandapur",
       "hitCount": 543,
       "avgUserRatio": 0.77,
       "activeUsers": 24
     },
     {
-      "roomName": "Fantasyland in The Sky",
+      "roomName": "Snow White Hide 'n Seek Forest",
       "hitCount": 539,
       "avgUserRatio": 1.24,
       "activeUsers": 26
     },
     {
-      "roomName": "Big Thunder Mountain Mine",
+      "roomName": "Frontierland Hub",
       "hitCount": 506,
       "avgUserRatio": 1.35,
       "activeUsers": 40
     },
     {
-      "roomName": "293",
+      "roomName": "Mickey's Courtyard",
       "hitCount": 431,
       "avgUserRatio": 6.7,
       "activeUsers": 27
@@ -3666,43 +3666,43 @@
       "activeUsers": 33
     },
     {
-      "roomName": "Inner-Space Ray Room",
+      "roomName": "Autopia Off Road on Mars",
       "hitCount": 310,
       "avgUserRatio": 1.05,
       "activeUsers": 29
     },
     {
-      "roomName": "Mermaid Lagoon",
+      "roomName": "VMK Gallery",
       "hitCount": 299,
       "avgUserRatio": 1.22,
       "activeUsers": 35
     },
     {
-      "roomName": "Pirate Prison",
+      "roomName": "VMK Esplanade",
       "hitCount": 287,
       "avgUserRatio": 1.41,
       "activeUsers": 63
     },
     {
-      "roomName": "Captain's Quest Quarters",
+      "roomName": "Sci-Fi Dine-In",
       "hitCount": 238,
       "avgUserRatio": 5.07,
       "activeUsers": 32
     },
     {
-      "roomName": "Battle on Captain Hook's Ship",
+      "roomName": "New Orleans Square",
       "hitCount": 177,
       "avgUserRatio": 1.23,
       "activeUsers": 19
     },
     {
-      "roomName": "Snow White Hide 'n Seek Forest",
+      "roomName": "Castle Forecourt",
       "hitCount": 160,
       "avgUserRatio": 1.21,
       "activeUsers": 42
     },
     {
-      "roomName": "Splash Mountain",
+      "roomName": "Tomorrowland Hub",
       "hitCount": 145,
       "avgUserRatio": 2.75,
       "activeUsers": 22
@@ -3720,7 +3720,7 @@
       "activeUsers": 17
     },
     {
-      "roomName": "Nautilus Grotto",
+      "roomName": "Autopia Quest Track",
       "hitCount": 114,
       "avgUserRatio": 2.39,
       "activeUsers": 9
