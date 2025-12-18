@@ -59,7 +59,10 @@ function renderTeamStats(summary) {
     { team: "unknown", label: "Unknown", data: ts.Unknown || {} }
   ];
 
-  container.innerHTML = items.map(item => `
+  // Filter out Unknown if no users
+  const visibleItems = items.filter(item => item.team !== "unknown" || (item.data.users || 0) > 0);
+
+  container.innerHTML = visibleItems.map(item => `
     <div class="team-stat ${item.team}">
       <div class="label">${item.label}</div>
       <div class="value">${item.data.users || 0}</div>
