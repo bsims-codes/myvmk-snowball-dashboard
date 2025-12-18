@@ -52,7 +52,6 @@ const state = {
   sortDir: "desc",
   selectedUsers: new Set(),
   scatterChart: null,
-  scatterMode: "zoom",
   scatterBasePoints: [],
   roomsChart: null
 };
@@ -429,16 +428,10 @@ function createScatter(ctx, summary) {
           zoom: {
             wheel: { enabled: true, speed: 0.1 },
             pinch: { enabled: true },
-            drag: {
-              enabled: true,
-              borderColor: "#3b82f6",
-              borderWidth: 2,
-              backgroundColor: "rgba(59, 130, 246, 0.15)"
-            },
             mode: "xy"
           },
           pan: {
-            enabled: false,
+            enabled: true,
             mode: "xy"
           }
         }
@@ -510,30 +503,6 @@ function wireScatterDblClick() {
   });
 }
 
-function setScatterMode(mode) {
-  state.scatterMode = mode;
-  const chart = state.scatterChart;
-  if (!chart) return;
-
-  const zoomOpts = chart.options.plugins.zoom;
-  const isPan = mode === "pan";
-
-  // Wheel zoom always enabled for smooth zooming
-  zoomOpts.zoom.wheel.enabled = true;
-  // Toggle between drag-to-zoom and drag-to-pan
-  zoomOpts.zoom.drag.enabled = !isPan;
-  zoomOpts.pan.enabled = isPan;
-
-  chart.update("none");
-
-  const zoomBtn = document.getElementById("scatterModeZoom");
-  const panBtn = document.getElementById("scatterModePan");
-  if (zoomBtn && panBtn) {
-    zoomBtn.classList.toggle("active", !isPan);
-    panBtn.classList.toggle("active", isPan);
-  }
-}
-
 function wireScatterControls() {
   const resetBtn = document.getElementById("resetScatterZoom");
   if (resetBtn) {
@@ -541,18 +510,6 @@ function wireScatterControls() {
       state.scatterChart?.resetZoom();
     };
   }
-
-  const zoomBtn = document.getElementById("scatterModeZoom");
-  const panBtn = document.getElementById("scatterModePan");
-
-  if (zoomBtn) {
-    zoomBtn.onclick = () => setScatterMode("zoom");
-  }
-  if (panBtn) {
-    panBtn.onclick = () => setScatterMode("pan");
-  }
-
-  setScatterMode(state.scatterMode);
 }
 
 function createRoomsChart(ctx, roomsSummary) {

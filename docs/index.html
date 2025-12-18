@@ -313,17 +313,13 @@
       <div class="card">
         <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px;">
           <h3 style="margin:0;">Attacks vs Hits Taken</h3>
-          <div style="display:flex;gap:6px;flex-wrap:wrap;">
-            <button class="chip-btn active" id="scatterModeZoom">Zoom</button>
-            <button class="chip-btn" id="scatterModePan">Pan</button>
-            <button class="chip-btn" id="resetScatterZoom">Reset</button>
-          </div>
+          <button class="chip-btn" id="resetScatterZoom">Reset View</button>
         </div>
         <div class="chart-container">
           <canvas id="scatter"></canvas>
         </div>
-        <p class="legend-note" id="scatterHint">
-          Scroll to zoom. Drag to select area (Zoom mode) or move chart (Pan mode). Double-click to zoom in; Shift+double-click to zoom out.
+        <p class="legend-note">
+          Scroll to zoom. Drag to pan. Double-click to zoom in; Shift+double-click to zoom out.
         </p>
       </div>
       <div class="card">
