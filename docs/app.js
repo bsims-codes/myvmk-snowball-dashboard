@@ -1,5 +1,35 @@
 // MyVMK Snowball Dashboard - Frontend
 
+// Dark mode initialization (runs immediately)
+(function initTheme() {
+  const saved = localStorage.getItem("theme");
+  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  if (saved === "dark" || (!saved && prefersDark)) {
+    document.documentElement.setAttribute("data-theme", "dark");
+  }
+})();
+
+function toggleDarkMode() {
+  const html = document.documentElement;
+  const isDark = html.getAttribute("data-theme") === "dark";
+  if (isDark) {
+    html.removeAttribute("data-theme");
+    localStorage.setItem("theme", "light");
+  } else {
+    html.setAttribute("data-theme", "dark");
+    localStorage.setItem("theme", "dark");
+  }
+  updateThemeToggleIcon();
+}
+
+function updateThemeToggleIcon() {
+  const btn = document.getElementById("themeToggle");
+  if (btn) {
+    const isDark = document.documentElement.getAttribute("data-theme") === "dark";
+    btn.textContent = isDark ? "☀️" : "🌙";
+  }
+}
+
 async function loadJSON(path) {
   const res = await fetch(path, { cache: "no-store" });
   if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
@@ -60,7 +90,11 @@ const state = {
   filteredEvents: [],
   eventsSearch: "",
   eventsTeamFilter: "All",
+  eventsRoomFilter: "All",
+  eventsDateFrom: "",
+  eventsDateTo: "",
   eventsSort: "time-desc",
+  allRooms: [],
   // Victim breakdown state
   victimBreakdown: [],
   victimSearch: "",
@@ -810,6 +844,9 @@ function renderEventsTable() {
   const table = document.getElementById("eventsTable");
   const search = state.eventsSearch.toLowerCase();
   const teamFilter = state.eventsTeamFilter;
+  const roomFilter = state.eventsRoomFilter;
+  const dateFrom = state.eventsDateFrom;
+  const dateTo = state.eventsDateTo;
   const [sortKey, sortDir] = state.eventsSort.split("-");
 
   let filtered = state.allEvents;
@@ -822,6 +859,15 @@ function renderEventsTable() {
   }
   if (teamFilter !== "All") {
     filtered = filtered.filter(e => e.attackerTeam === teamFilter);
+  }
+  if (roomFilter !== "All") {
+    filtered = filtered.filter(e => e.roomName === roomFilter);
+  }
+  if (dateFrom) {
+    filtered = filtered.filter(e => e.time.split(" ")[0] >= dateFrom);
+  }
+  if (dateTo) {
+    filtered = filtered.filter(e => e.time.split(" ")[0] <= dateTo);
   }
 
   // Sort
@@ -918,6 +964,149 @@ function downloadEventsCSV() {
   URL.revokeObjectURL(url);
 }
 
+function compareHeadToHead() {
+  const user1Input = document.getElementById("h2hUser1").value.trim().toLowerCase();
+  const user2Input = document.getElementById("h2hUser2").value.trim().toLowerCase();
+  const resultDiv = document.getElementById("h2hResult");
+  const statsDiv = document.getElementById("h2hStats");
+
+  if (!user1Input || !user2Input) {
+    resultDiv.style.display = "none";
+    return;
+  }
+
+  // Find users (case-insensitive)
+  const user1 = state.allUsers.find(u => u.user.toLowerCase() === user1Input);
+  const user2 = state.allUsers.find(u => u.user.toLowerCase() === user2Input);
+
+  if (!user1 || !user2) {
+    resultDiv.style.display = "block";
+    statsDiv.innerHTML = `<div style="grid-column:1/-1;color:var(--text-muted);">One or both users not found.</div>`;
+    return;
+  }
+
+  // Count attacks between users
+  let user1HitsOnUser2 = 0;
+  let user2HitsOnUser1 = 0;
+
+  state.allEvents.forEach(e => {
+    const attacker = e.attacker.toLowerCase();
+    const victim = e.victim.toLowerCase();
+    if (attacker === user1.user.toLowerCase() && victim === user2.user.toLowerCase()) {
+      user1HitsOnUser2++;
+    } else if (attacker === user2.user.toLowerCase() && victim === user1.user.toLowerCase()) {
+      user2HitsOnUser1++;
+    }
+  });
+
+  const user1Wins = user1HitsOnUser2 > user2HitsOnUser1;
+  const user2Wins = user2HitsOnUser1 > user1HitsOnUser2;
+  const isTie = user1HitsOnUser2 === user2HitsOnUser1;
+
+  resultDiv.style.display = "block";
+  statsDiv.innerHTML = `
+    <div>
+      <div class="h2h-user">${escapeHtml(user1.user)}</div>
+      <div class="h2h-stat"><span class="pill ${user1.team.toLowerCase()}">${user1.team}</span></div>
+      <div class="h2h-value ${user1Wins ? 'h2h-winner' : ''}">${user1HitsOnUser2}</div>
+      <div class="h2h-stat">hits on ${escapeHtml(user2.user)}</div>
+    </div>
+    <div class="h2h-vs">VS</div>
+    <div>
+      <div class="h2h-user">${escapeHtml(user2.user)}</div>
+      <div class="h2h-stat"><span class="pill ${user2.team.toLowerCase()}">${user2.team}</span></div>
+      <div class="h2h-value ${user2Wins ? 'h2h-winner' : ''}">${user2HitsOnUser1}</div>
+      <div class="h2h-stat">hits on ${escapeHtml(user1.user)}</div>
+    </div>
+  `;
+}
+
+function renderHeatmap() {
+  const container = document.getElementById("heatmap");
+  if (!container) return;
+
+  // Build hour x day-of-week matrix
+  const matrix = {};
+  const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+  // Initialize matrix
+  for (let h = 0; h < 24; h++) {
+    matrix[h] = {};
+    for (let d = 0; d < 7; d++) {
+      matrix[h][d] = 0;
+    }
+  }
+
+  // Count events
+  state.allEvents.forEach(e => {
+    const date = new Date(e.time.replace(" ", "T"));
+    if (isNaN(date.getTime())) return;
+    const hour = date.getUTCHours();
+    const day = date.getUTCDay();
+    matrix[hour][day]++;
+  });
+
+  // Find max for scaling
+  let maxVal = 0;
+  for (let h = 0; h < 24; h++) {
+    for (let d = 0; d < 7; d++) {
+      if (matrix[h][d] > maxVal) maxVal = matrix[h][d];
+    }
+  }
+
+  // Build grid HTML
+  let html = '<div class="heatmap-grid" style="grid-template-columns: auto repeat(24, 1fr);">';
+
+  // Header row with hours
+  html += '<div class="heatmap-label"></div>';
+  for (let h = 0; h < 24; h++) {
+    html += `<div class="heatmap-label">${h}</div>`;
+  }
+
+  // Data rows
+  for (let d = 0; d < 7; d++) {
+    html += `<div class="heatmap-label">${days[d]}</div>`;
+    for (let h = 0; h < 24; h++) {
+      const val = matrix[h][d];
+      const intensity = maxVal > 0 ? val / maxVal : 0;
+      const bg = getHeatmapColor(intensity);
+      html += `<div class="heatmap-cell" style="background:${bg};" title="${days[d]} ${h}:00 UTC - ${val} attacks"></div>`;
+    }
+  }
+
+  html += '</div>';
+  container.innerHTML = html;
+}
+
+function getHeatmapColor(intensity) {
+  // Blue gradient from light to dark
+  const minL = 95; // Very light
+  const maxL = 30; // Dark blue
+  const lightness = minL - (minL - maxL) * intensity;
+  return `hsl(220, 80%, ${lightness}%)`;
+}
+
+function populateRoomFilter() {
+  const select = document.getElementById("eventsRoomFilter");
+  if (!select) return;
+
+  // Extract unique rooms
+  const rooms = new Set();
+  state.allEvents.forEach(e => {
+    if (e.roomName) rooms.add(e.roomName);
+  });
+
+  const sortedRooms = Array.from(rooms).sort();
+  state.allRooms = sortedRooms;
+
+  // Build options
+  let html = '<option value="All">All Rooms</option>';
+  sortedRooms.forEach(room => {
+    html += `<option value="${escapeHtml(room)}">${escapeHtml(room)}</option>`;
+  });
+  select.innerHTML = html;
+}
+
 function setupEventListeners() {
   // Search input
   const searchInput = document.getElementById("userSearch");
@@ -1008,6 +1197,45 @@ function setupEventListeners() {
   // Download button
   const downloadBtn = document.getElementById("downloadEventsBtn");
   downloadBtn?.addEventListener("click", downloadEventsCSV);
+
+  // Room filter
+  const eventsRoomFilter = document.getElementById("eventsRoomFilter");
+  eventsRoomFilter?.addEventListener("change", () => {
+    state.eventsRoomFilter = eventsRoomFilter.value;
+    renderEventsTable();
+  });
+
+  // Date filters
+  const eventsDateFrom = document.getElementById("eventsDateFrom");
+  eventsDateFrom?.addEventListener("change", () => {
+    state.eventsDateFrom = eventsDateFrom.value;
+    renderEventsTable();
+  });
+
+  const eventsDateTo = document.getElementById("eventsDateTo");
+  eventsDateTo?.addEventListener("change", () => {
+    state.eventsDateTo = eventsDateTo.value;
+    renderEventsTable();
+  });
+
+  // Head-to-head comparison
+  const h2hCompare = document.getElementById("h2hCompare");
+  h2hCompare?.addEventListener("click", compareHeadToHead);
+
+  // Also trigger on Enter key in h2h inputs
+  const h2hUser1 = document.getElementById("h2hUser1");
+  const h2hUser2 = document.getElementById("h2hUser2");
+  h2hUser1?.addEventListener("keypress", (e) => {
+    if (e.key === "Enter") compareHeadToHead();
+  });
+  h2hUser2?.addEventListener("keypress", (e) => {
+    if (e.key === "Enter") compareHeadToHead();
+  });
+
+  // Theme toggle
+  const themeToggle = document.getElementById("themeToggle");
+  themeToggle?.addEventListener("click", toggleDarkMode);
+  updateThemeToggleIcon();
 }
 
 (async function main() {
@@ -1047,7 +1275,11 @@ function setupEventListeners() {
 
     // Render new tables
     renderVictimBreakdownTable();
+    populateRoomFilter();
     renderEventsTable();
+
+    // Render heatmap
+    renderHeatmap();
 
     // Setup event listeners
     setupEventListeners();
