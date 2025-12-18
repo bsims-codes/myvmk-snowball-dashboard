@@ -63,18 +63,18 @@
     "ratio": 1.1692954784437435
   },
   {
+    "user": "Meg",
+    "team": "Penguin",
+    "attacks": 1019,
+    "hitsTaken": 745,
+    "ratio": 1.367785234899329
+  },
+  {
     "user": "MagicMinnieMare",
     "team": "Reindeer",
     "attacks": 1019,
     "hitsTaken": 597,
     "ratio": 1.7068676716917923
-  },
-  {
-    "user": "Meg",
-    "team": "Penguin",
-    "attacks": 1012,
-    "hitsTaken": 733,
-    "ratio": 1.3806275579809004
   },
   {
     "user": "Chime",
@@ -128,9 +128,9 @@
   {
     "user": "Kronkx",
     "team": "Reindeer",
-    "attacks": 633,
-    "hitsTaken": 357,
-    "ratio": 1.773109243697479
+    "attacks": 646,
+    "hitsTaken": 364,
+    "ratio": 1.7747252747252746
   },
   {
     "user": "taymeow",
@@ -2888,6 +2888,13 @@
     "team": "Penguin",
     "attacks": 0,
     "hitsTaken": 4,
+    "ratio": 0
+  },
+  {
+    "user": "Mendls",
+    "team": "Penguin",
+    "attacks": 0,
+    "hitsTaken": 1,
     "ratio": 0
   }
 ]
