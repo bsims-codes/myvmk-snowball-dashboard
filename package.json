@@ -1,0 +1,8 @@
+{
+  "name": "myvmk-hits-dashboard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:data": "node scripts/build-data.mjs"
+  }
+}

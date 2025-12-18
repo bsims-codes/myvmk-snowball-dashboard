@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:data:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: MyVMK Snowball Dashboard\n\nFeatures:\n- Build script with BFS team inference and conflict detection\n- Team assignments propagated from seeded teams.json via attacker/victim graph\n- Confidence scoring based on edge evidence\n- Conflict detection output \\(team_conflicts.json\\)\n\nDashboard features:\n- User table with search, team filter, sortable columns\n- Scatter plot \\(attacks vs hits taken\\) colored by team\n- Trend lines \\(overall + per-team linear regression\\)\n- Interactive highlighting with stats panel\n- Dual-axis rooms chart \\(hits + avg user ratio\\)\n- Team stats summary cards\nEOF\n\\)\")"
+    ]
+  }
+}

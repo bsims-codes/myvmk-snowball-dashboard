@@ -1,0 +1,323 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>MyVMK Snowball Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+      :root {
+        --penguin-color: #3b82f6;
+        --reindeer-color: #ef4444;
+        --unknown-color: #9ca3af;
+        --bg: #fafafa;
+        --card-bg: #fff;
+        --border: #e5e7eb;
+        --text: #111827;
+        --text-muted: #6b7280;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        font-family: system-ui, -apple-system, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background: var(--bg);
+        color: var(--text);
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-bottom: 20px;
+      }
+
+      .header-left h1 {
+        margin: 0 0 4px 0;
+        font-size: 1.75rem;
+      }
+
+      .header-left small {
+        color: var(--text-muted);
+        font-size: 0.875rem;
+      }
+
+      .team-stats {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+
+      .team-stat {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 8px 14px;
+        text-align: center;
+        min-width: 100px;
+      }
+
+      .team-stat.penguin { border-left: 4px solid var(--penguin-color); }
+      .team-stat.reindeer { border-left: 4px solid var(--reindeer-color); }
+      .team-stat.unknown { border-left: 4px solid var(--unknown-color); }
+
+      .team-stat .label { font-size: 0.75rem; color: var(--text-muted); }
+      .team-stat .value { font-size: 1.25rem; font-weight: 600; }
+
+      .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        margin-bottom: 16px;
+      }
+
+      @media (max-width: 900px) {
+        .row { grid-template-columns: 1fr; }
+      }
+
+      .card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 16px;
+      }
+
+      .card h3 {
+        margin: 0 0 12px 0;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+
+      .toolbar {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        margin-bottom: 16px;
+        flex-wrap: wrap;
+      }
+
+      .toolbar input {
+        padding: 8px 12px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        font-size: 0.875rem;
+        min-width: 280px;
+      }
+
+      .toolbar input:focus {
+        outline: none;
+        border-color: var(--penguin-color);
+        box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+      }
+
+      .toolbar select {
+        padding: 8px 12px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        font-size: 0.875rem;
+        background: var(--card-bg);
+        cursor: pointer;
+      }
+
+      .toolbar select:focus {
+        outline: none;
+        border-color: var(--penguin-color);
+      }
+
+      .stats-panel {
+        background: #f3f4f6;
+        border-radius: 8px;
+        padding: 12px 16px;
+        margin-bottom: 12px;
+        display: none;
+      }
+
+      .stats-panel.visible { display: block; }
+
+      .stats-panel .user-name {
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin-bottom: 8px;
+      }
+
+      .stats-panel .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 8px;
+      }
+
+      .stats-panel .stat-item {
+        text-align: center;
+      }
+
+      .stats-panel .stat-label {
+        font-size: 0.7rem;
+        color: var(--text-muted);
+        text-transform: uppercase;
+      }
+
+      .stats-panel .stat-value {
+        font-size: 1rem;
+        font-weight: 600;
+      }
+
+      .scroll {
+        max-height: 480px;
+        overflow: auto;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.875rem;
+      }
+
+      th, td {
+        border-bottom: 1px solid var(--border);
+        padding: 8px 10px;
+        text-align: left;
+      }
+
+      th {
+        cursor: pointer;
+        user-select: none;
+        position: sticky;
+        top: 0;
+        background: var(--card-bg);
+        font-weight: 600;
+        white-space: nowrap;
+      }
+
+      th:hover { background: #f9fafb; }
+
+      tr:hover { background: #f9fafb; }
+      tr.highlight { background: #fef3c7 !important; }
+
+      .pill {
+        display: inline-block;
+        padding: 2px 8px;
+        border-radius: 999px;
+        font-size: 0.75rem;
+        font-weight: 500;
+      }
+
+      .pill.penguin { background: #dbeafe; color: #1e40af; }
+      .pill.reindeer { background: #fee2e2; color: #991b1b; }
+      .pill.unknown { background: #f3f4f6; color: #4b5563; }
+
+      .confidence-bar {
+        display: inline-block;
+        width: 50px;
+        height: 6px;
+        background: #e5e7eb;
+        border-radius: 3px;
+        overflow: hidden;
+        vertical-align: middle;
+        margin-right: 4px;
+      }
+
+      .confidence-bar .fill {
+        height: 100%;
+        background: #10b981;
+        border-radius: 3px;
+      }
+
+      .chart-container {
+        position: relative;
+        height: 350px;
+      }
+
+      .legend-note {
+        font-size: 0.75rem;
+        color: var(--text-muted);
+        margin-top: 8px;
+      }
+
+      #topLists {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+
+      #topLists table {
+        font-size: 0.8rem;
+      }
+
+      #topLists th, #topLists td {
+        padding: 4px 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-left">
+        <h1>MyVMK Snowball Fight Dashboard</h1>
+        <small id="meta">Loading...</small>
+      </div>
+      <div class="team-stats" id="teamStats"></div>
+    </div>
+
+    <div class="toolbar">
+      <input id="userSearch" placeholder="Search user (exact match highlights on chart)..." />
+      <select id="teamFilter">
+        <option value="All">All Teams</option>
+        <option value="Penguin">Penguin</option>
+        <option value="Reindeer">Reindeer</option>
+        <option value="Unknown">Unknown</option>
+      </select>
+      <select id="sortSelect">
+        <option value="attacks-desc">Sort: Attacks (High to Low)</option>
+        <option value="attacks-asc">Sort: Attacks (Low to High)</option>
+        <option value="hitsTaken-desc">Sort: Hits Taken (High to Low)</option>
+        <option value="hitsTaken-asc">Sort: Hits Taken (Low to High)</option>
+        <option value="ratio-desc">Sort: Ratio (High to Low)</option>
+        <option value="ratio-asc">Sort: Ratio (Low to High)</option>
+        <option value="user-asc">Sort: Username (A-Z)</option>
+        <option value="user-desc">Sort: Username (Z-A)</option>
+      </select>
+    </div>
+
+    <div class="stats-panel" id="statsPanel">
+      <div class="user-name" id="statsPanelUser"></div>
+      <div class="stats-grid" id="statsPanelGrid"></div>
+    </div>
+
+    <div class="row">
+      <div class="card">
+        <h3>Attacks vs Hits Taken</h3>
+        <div class="chart-container">
+          <canvas id="scatter"></canvas>
+        </div>
+        <p class="legend-note">Trend lines show linear regression. Larger points = highlighted user.</p>
+      </div>
+      <div class="card">
+        <h3>Users <span id="userCount" style="font-weight:normal;color:var(--text-muted);font-size:0.875rem;"></span></h3>
+        <div class="scroll">
+          <table id="usersTable"></table>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="card">
+        <h3>Hits by Room (with Avg User Ratio)</h3>
+        <div class="chart-container">
+          <canvas id="roomsChart"></canvas>
+        </div>
+        <p class="legend-note">Bars = total hits in room. Line = average user attack/defense ratio in that room.</p>
+      </div>
+      <div class="card">
+        <h3>Top Performers</h3>
+        <div id="topLists"></div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
