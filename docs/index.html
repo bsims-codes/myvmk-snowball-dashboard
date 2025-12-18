@@ -36,14 +36,13 @@
         margin-bottom: 20px;
       }
 
-      .header-left {
-        display: flex;
-        align-items: center;
-        gap: 16px;
+      .logo-header {
+        text-align: center;
+        margin-bottom: 20px;
       }
 
-      .header-left .logo {
-        height: 60px;
+      .logo-header .logo {
+        height: 150px;
         width: auto;
       }
 
@@ -269,9 +268,12 @@
     </style>
   </head>
   <body>
+    <div class="logo-header">
+      <img src="./snowy-logo.png" alt="Snowball Fight" class="logo" />
+    </div>
+
     <div class="header">
       <div class="header-left">
-        <img src="./snowy-logo.png" alt="Snowball Fight" class="logo" />
         <div>
           <h1>MyVMK Snowball Fight Dashboard</h1>
           <small id="meta">Loading...</small>
