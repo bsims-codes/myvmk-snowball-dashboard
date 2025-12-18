@@ -285,6 +285,42 @@
       #topLists th, #topLists td {
         padding: 4px 8px;
       }
+
+      /* Collapsible table styles */
+      .collapsible-table .parent-row {
+        cursor: pointer;
+        background: var(--card-bg);
+      }
+      .collapsible-table .parent-row:hover {
+        background: #f3f4f6;
+      }
+      .collapsible-table .parent-row td:first-child::before {
+        content: "▶ ";
+        font-size: 0.7rem;
+        color: var(--text-muted);
+      }
+      .collapsible-table .parent-row.expanded td:first-child::before {
+        content: "▼ ";
+      }
+      .collapsible-table .child-row {
+        display: none;
+        background: #f9fafb;
+      }
+      .collapsible-table .child-row.visible {
+        display: table-row;
+      }
+      .collapsible-table .child-row td {
+        padding-left: 28px;
+        font-size: 0.8rem;
+        color: var(--text-muted);
+      }
+      .collapsible-table .child-row td:first-child {
+        border-left: 2px solid var(--border);
+      }
+      .collapsible-table .total-row {
+        font-weight: 600;
+        background: #f3f4f6;
+      }
     </style>
   </head>
   <body>
@@ -369,6 +405,48 @@
           <canvas id="dailyChart"></canvas>
         </div>
         <p class="legend-note">Hover over bars to see top 10 attackers for each team on that day.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="card" style="grid-column: span 2;">
+        <h3>User Victim Breakdown</h3>
+        <div class="toolbar">
+          <input id="victimTableSearch" placeholder="Search attacker..." />
+          <select id="victimTableTeam">
+            <option value="All">All Teams</option>
+            <option value="Penguin">Penguin</option>
+            <option value="Reindeer">Reindeer</option>
+          </select>
+        </div>
+        <div class="scroll" style="max-height: 500px;">
+          <table id="victimBreakdownTable" class="collapsible-table"></table>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="card" style="grid-column: span 2;">
+        <h3>All Events <span id="eventsCount" style="font-weight:normal;color:var(--text-muted);font-size:0.875rem;"></span></h3>
+        <div class="toolbar">
+          <input id="eventsSearch" placeholder="Search attacker or victim..." />
+          <select id="eventsTeamFilter">
+            <option value="All">All Teams</option>
+            <option value="Penguin">Penguin</option>
+            <option value="Reindeer">Reindeer</option>
+          </select>
+          <select id="eventsSort">
+            <option value="time-desc">Newest First</option>
+            <option value="time-asc">Oldest First</option>
+            <option value="attacker-asc">Attacker (A-Z)</option>
+            <option value="attacker-desc">Attacker (Z-A)</option>
+            <option value="victim-asc">Victim (A-Z)</option>
+            <option value="victim-desc">Victim (Z-A)</option>
+          </select>
+        </div>
+        <div class="scroll" style="max-height: 500px;">
+          <table id="eventsTable"></table>
+        </div>
       </div>
     </div>
 

@@ -54,7 +54,16 @@ const state = {
   scatterChart: null,
   scatterBasePoints: [],
   roomsChart: null,
-  dailyChart: null
+  dailyChart: null,
+  // Events table state
+  allEvents: [],
+  eventsSearch: "",
+  eventsTeamFilter: "All",
+  eventsSort: "time-desc",
+  // Victim breakdown state
+  victimBreakdown: [],
+  victimSearch: "",
+  victimTeamFilter: "All"
 };
 
 /**
@@ -703,6 +712,149 @@ function createDailyChart(ctx, events) {
   return state.dailyChart;
 }
 
+function buildVictimBreakdown(events) {
+  // Build attacker -> victim -> count mapping
+  const breakdown = {};
+
+  events.forEach(e => {
+    const attacker = e.attacker;
+    const victim = e.victim;
+    const team = e.attackerTeam;
+    if (!attacker || !victim) return;
+
+    if (!breakdown[attacker]) {
+      breakdown[attacker] = { team, victims: {}, total: 0 };
+    }
+    breakdown[attacker].victims[victim] = (breakdown[attacker].victims[victim] || 0) + 1;
+    breakdown[attacker].total++;
+  });
+
+  // Convert to array and sort by total attacks
+  return Object.entries(breakdown)
+    .map(([attacker, data]) => ({
+      attacker,
+      team: data.team,
+      total: data.total,
+      victims: Object.entries(data.victims)
+        .map(([victim, count]) => ({ victim, count }))
+        .sort((a, b) => b.count - a.count)
+    }))
+    .sort((a, b) => b.total - a.total);
+}
+
+function renderVictimBreakdownTable() {
+  const table = document.getElementById("victimBreakdownTable");
+  const search = state.victimSearch.toLowerCase();
+  const teamFilter = state.victimTeamFilter;
+
+  let filtered = state.victimBreakdown;
+
+  if (search) {
+    filtered = filtered.filter(u => u.attacker.toLowerCase().includes(search));
+  }
+  if (teamFilter !== "All") {
+    filtered = filtered.filter(u => u.team === teamFilter);
+  }
+
+  const head = `<tr><th>Attacker</th><th>Team</th><th>Total Attacks</th></tr>`;
+
+  const body = filtered.map((u, idx) => {
+    const teamClass = u.team?.toLowerCase() || "";
+    const parentRow = `
+      <tr class="parent-row" data-idx="${idx}">
+        <td>${escapeHtml(u.attacker)}</td>
+        <td><span class="pill ${teamClass}">${u.team || ""}</span></td>
+        <td>${u.total}</td>
+      </tr>
+    `;
+
+    const childRows = u.victims.map(v => `
+      <tr class="child-row" data-parent="${idx}">
+        <td>${escapeHtml(v.victim)}</td>
+        <td></td>
+        <td>${v.count}</td>
+      </tr>
+    `).join("");
+
+    const totalRow = `
+      <tr class="child-row total-row" data-parent="${idx}">
+        <td>${escapeHtml(u.attacker)} Total</td>
+        <td></td>
+        <td>${u.total}</td>
+      </tr>
+    `;
+
+    return parentRow + childRows + totalRow;
+  }).join("");
+
+  table.innerHTML = head + body;
+
+  // Wire up collapse/expand
+  table.querySelectorAll(".parent-row").forEach(row => {
+    row.onclick = () => {
+      const idx = row.dataset.idx;
+      const isExpanded = row.classList.toggle("expanded");
+      table.querySelectorAll(`.child-row[data-parent="${idx}"]`).forEach(child => {
+        child.classList.toggle("visible", isExpanded);
+      });
+    };
+  });
+}
+
+function renderEventsTable() {
+  const table = document.getElementById("eventsTable");
+  const search = state.eventsSearch.toLowerCase();
+  const teamFilter = state.eventsTeamFilter;
+  const [sortKey, sortDir] = state.eventsSort.split("-");
+
+  let filtered = state.allEvents;
+
+  if (search) {
+    filtered = filtered.filter(e =>
+      e.attacker.toLowerCase().includes(search) ||
+      e.victim.toLowerCase().includes(search)
+    );
+  }
+  if (teamFilter !== "All") {
+    filtered = filtered.filter(e => e.attackerTeam === teamFilter);
+  }
+
+  // Sort
+  const dir = sortDir === "asc" ? 1 : -1;
+  filtered = [...filtered].sort((a, b) => {
+    if (sortKey === "time") {
+      return (a.time > b.time ? 1 : -1) * dir;
+    } else if (sortKey === "attacker") {
+      return a.attacker.localeCompare(b.attacker) * dir;
+    } else if (sortKey === "victim") {
+      return a.victim.localeCompare(b.victim) * dir;
+    }
+    return 0;
+  });
+
+  // Limit to 500 for performance
+  const limited = filtered.slice(0, 500);
+
+  document.getElementById("eventsCount").textContent =
+    `(${limited.length}${filtered.length > 500 ? " of " + filtered.length : ""} shown)`;
+
+  const head = `<tr><th>Date/Time</th><th>Attacker</th><th>Team</th><th>Victim</th></tr>`;
+
+  const body = limited.map(e => {
+    const teamClass = e.attackerTeam?.toLowerCase() || "";
+    return `
+      <tr>
+        <td>${escapeHtml(e.time)}</td>
+        <td>${escapeHtml(e.attacker)}</td>
+        <td><span class="pill ${teamClass}">${e.attackerTeam || ""}</span></td>
+        <td>${escapeHtml(e.victim)}</td>
+      </tr>
+    `;
+  }).join("");
+
+  table.innerHTML = head + body;
+}
+
 function setupEventListeners() {
   // Search input
   const searchInput = document.getElementById("userSearch");
@@ -757,6 +909,38 @@ function setupEventListeners() {
     buildUsersTable();
     updateSelectionUI();
   });
+
+  // Victim breakdown table controls
+  const victimSearch = document.getElementById("victimTableSearch");
+  victimSearch?.addEventListener("input", () => {
+    state.victimSearch = victimSearch.value || "";
+    renderVictimBreakdownTable();
+  });
+
+  const victimTeamFilter = document.getElementById("victimTableTeam");
+  victimTeamFilter?.addEventListener("change", () => {
+    state.victimTeamFilter = victimTeamFilter.value;
+    renderVictimBreakdownTable();
+  });
+
+  // Events table controls
+  const eventsSearch = document.getElementById("eventsSearch");
+  eventsSearch?.addEventListener("input", () => {
+    state.eventsSearch = eventsSearch.value || "";
+    renderEventsTable();
+  });
+
+  const eventsTeamFilter = document.getElementById("eventsTeamFilter");
+  eventsTeamFilter?.addEventListener("change", () => {
+    state.eventsTeamFilter = eventsTeamFilter.value;
+    renderEventsTable();
+  });
+
+  const eventsSort = document.getElementById("eventsSort");
+  eventsSort?.addEventListener("change", () => {
+    state.eventsSort = eventsSort.value;
+    renderEventsTable();
+  });
 }
 
 (async function main() {
@@ -777,6 +961,8 @@ function setupEventListeners() {
     // Initialize state
     state.allUsers = users;
     state.usersIndex = new Map(users.map(u => [u.user, u]));
+    state.allEvents = events;
+    state.victimBreakdown = buildVictimBreakdown(events);
 
     // Render components
     renderTeamStats(summary);
@@ -791,6 +977,10 @@ function setupEventListeners() {
   createScatter(document.getElementById("scatter"), summary);
     createRoomsChart(document.getElementById("roomsChart"), roomsSummary);
     createDailyChart(document.getElementById("dailyChart"), events);
+
+    // Render new tables
+    renderVictimBreakdownTable();
+    renderEventsTable();
 
     // Setup event listeners
     setupEventListeners();
