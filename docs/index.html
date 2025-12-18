@@ -94,18 +94,19 @@
 
       .toolbar {
         display: flex;
-        gap: 12px;
+        gap: 8px;
         align-items: center;
-        margin-bottom: 16px;
+        margin-bottom: 12px;
         flex-wrap: wrap;
       }
 
       .toolbar input {
-        padding: 8px 12px;
+        padding: 6px 10px;
         border: 1px solid var(--border);
-        border-radius: 8px;
-        font-size: 0.875rem;
-        min-width: 280px;
+        border-radius: 6px;
+        font-size: 0.8rem;
+        flex: 1;
+        min-width: 120px;
       }
 
       .toolbar input:focus {
@@ -115,10 +116,10 @@
       }
 
       .toolbar select {
-        padding: 8px 12px;
+        padding: 6px 10px;
         border: 1px solid var(--border);
-        border-radius: 8px;
-        font-size: 0.875rem;
+        border-radius: 6px;
+        font-size: 0.8rem;
         background: var(--card-bg);
         cursor: pointer;
       }
@@ -246,26 +247,6 @@
       <div class="team-stats" id="teamStats"></div>
     </div>
 
-    <div class="toolbar">
-      <input id="userSearch" placeholder="Search username..." />
-      <input id="filterExpr" placeholder="Filter: attacks > 100, ratio >= 2, hitsTaken = 0" />
-      <select id="teamFilter">
-        <option value="All">All Teams</option>
-        <option value="Penguin">Penguin</option>
-        <option value="Reindeer">Reindeer</option>
-      </select>
-      <select id="sortSelect">
-        <option value="attacks-desc">Sort: Attacks (High to Low)</option>
-        <option value="attacks-asc">Sort: Attacks (Low to High)</option>
-        <option value="hitsTaken-desc">Sort: Hits Taken (High to Low)</option>
-        <option value="hitsTaken-asc">Sort: Hits Taken (Low to High)</option>
-        <option value="ratio-desc">Sort: Ratio (High to Low)</option>
-        <option value="ratio-asc">Sort: Ratio (Low to High)</option>
-        <option value="user-asc">Sort: Username (A-Z)</option>
-        <option value="user-desc">Sort: Username (Z-A)</option>
-      </select>
-    </div>
-
     <div class="stats-panel" id="statsPanel">
       <div class="user-name" id="statsPanelUser"></div>
       <div class="stats-grid" id="statsPanelGrid"></div>
@@ -281,6 +262,25 @@
       </div>
       <div class="card">
         <h3>Users <span id="userCount" style="font-weight:normal;color:var(--text-muted);font-size:0.875rem;"></span></h3>
+        <div class="toolbar">
+          <input id="userSearch" placeholder="Search username..." />
+          <input id="filterExpr" placeholder="Filter: attacks > 100, ratio >= 2" />
+          <select id="teamFilter">
+            <option value="All">All Teams</option>
+            <option value="Penguin">Penguin</option>
+            <option value="Reindeer">Reindeer</option>
+          </select>
+          <select id="sortSelect">
+            <option value="attacks-desc">Attacks (High-Low)</option>
+            <option value="attacks-asc">Attacks (Low-High)</option>
+            <option value="hitsTaken-desc">Hits Taken (High-Low)</option>
+            <option value="hitsTaken-asc">Hits Taken (Low-High)</option>
+            <option value="ratio-desc">Ratio (High-Low)</option>
+            <option value="ratio-asc">Ratio (Low-High)</option>
+            <option value="user-asc">Username (A-Z)</option>
+            <option value="user-desc">Username (Z-A)</option>
+          </select>
+        </div>
         <div class="scroll">
           <table id="usersTable"></table>
         </div>

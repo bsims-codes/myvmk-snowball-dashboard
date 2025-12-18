@@ -554,10 +554,11 @@ function setupEventListeners() {
     applyFilterSort();
     buildUsersTable();
 
-    // Exact match highlighting
-    const exact = state.query.trim();
-    if (state.usersIndex.has(exact)) {
-      state.highlight = exact;
+    // Exact match highlighting (case-insensitive)
+    const exact = state.query.trim().toLowerCase();
+    const matchedUser = state.allUsers.find(u => u.user.toLowerCase() === exact);
+    if (matchedUser) {
+      state.highlight = matchedUser.user; // Use actual username with correct case
     } else {
       state.highlight = null;
     }
