@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 19019,
+    "hitCount": 19022,
     "avgUserRatio": 0.88,
-    "activeUsers": 234
+    "activeUsers": 235
   },
   {
     "roomName": "Main Street",
@@ -31,8 +31,8 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 978,
-    "avgUserRatio": 1.01,
+    "hitCount": 980,
+    "avgUserRatio": 1.02,
     "activeUsers": 80
   },
   {
@@ -40,6 +40,12 @@
     "hitCount": 775,
     "avgUserRatio": 2.41,
     "activeUsers": 47
+  },
+  {
+    "roomName": "Snow White Hide 'n Seek Forest",
+    "hitCount": 763,
+    "avgUserRatio": 1.1,
+    "activeUsers": 33
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -52,12 +58,6 @@
     "hitCount": 543,
     "avgUserRatio": 0.77,
     "activeUsers": 24
-  },
-  {
-    "roomName": "Snow White Hide 'n Seek Forest",
-    "hitCount": 539,
-    "avgUserRatio": 1.24,
-    "activeUsers": 26
   },
   {
     "roomName": "Frontierland Hub",
