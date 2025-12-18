@@ -313,8 +313,7 @@ function buildUsersTable() {
       }
       updateSelectionUI();
       buildUsersTable();
-      updateScatterData();
-      state.scatterChart?.update();
+      updateScatterHighlights();
     };
   });
 }
@@ -372,8 +371,6 @@ function computeLineDataset(regLine, color, dash) {
 function createScatter(ctx, summary) {
   const pts = summary.scatterPoints || [];
   state.scatterBasePoints = pts;
-  const maxX = Math.max(10, ...pts.map(p => p.attacks || 0));
-  const maxY = Math.max(10, ...pts.map(p => p.hitsTaken || 0));
 
   const byTeam = {
     Penguin: pts.filter(p => p.team === "Penguin"),
@@ -384,19 +381,17 @@ function createScatter(ctx, summary) {
     {
       label: "Penguin",
       data: byTeam.Penguin.map(p => ({ x: p.attacks, y: p.hitsTaken, user: p.user })),
-      parsing: false,
       backgroundColor: TEAM_COLORS.Penguin.bg,
       borderColor: TEAM_COLORS.Penguin.border,
-      pointRadius: (ctx) => state.selectedUsers.has(ctx.raw?.user) ? 10 : 5,
+      pointRadius: 5,
       pointHoverRadius: 8
     },
     {
       label: "Reindeer",
       data: byTeam.Reindeer.map(p => ({ x: p.attacks, y: p.hitsTaken, user: p.user })),
-      parsing: false,
       backgroundColor: TEAM_COLORS.Reindeer.bg,
       borderColor: TEAM_COLORS.Reindeer.border,
-      pointRadius: (ctx) => state.selectedUsers.has(ctx.raw?.user) ? 10 : 5,
+      pointRadius: 5,
       pointHoverRadius: 8
     }
   ];
@@ -417,7 +412,6 @@ function createScatter(ctx, summary) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      parsing: false,
       plugins: {
         tooltip: {
           callbacks: {
@@ -432,10 +426,6 @@ function createScatter(ctx, summary) {
         },
         legend: { position: "bottom" },
         zoom: {
-          limits: {
-            x: { min: 0, max: maxX * 1.1, minRange: 10 },
-            y: { min: 0, max: maxY * 1.1, minRange: 10 }
-          },
           zoom: {
             wheel: { enabled: true, speed: 0.1 },
             pinch: { enabled: true },
@@ -455,10 +445,13 @@ function createScatter(ctx, summary) {
       },
       scales: {
         x: {
+          type: "linear",
+          position: "bottom",
           title: { display: true, text: "Attacks Made" },
           beginAtZero: true
         },
         y: {
+          type: "linear",
           title: { display: true, text: "Hits Taken" },
           beginAtZero: true
         }
@@ -477,8 +470,7 @@ function createScatter(ctx, summary) {
             }
             updateSelectionUI();
             buildUsersTable();
-            updateScatterData();
-            state.scatterChart.update();
+            updateScatterHighlights();
           }
         }
       }
@@ -491,23 +483,20 @@ function createScatter(ctx, summary) {
   return state.scatterChart;
 }
 
-function updateScatterData() {
+function updateScatterHighlights() {
   const chart = state.scatterChart;
   if (!chart) return;
 
-  const set = state.searchNames.length ? new Set(state.searchNames.map(n => n.toLowerCase())) : null;
-  const pts = state.scatterBasePoints || [];
-
-  const filtered = {
-    Penguin: pts.filter(p => p.team === "Penguin" && (!set || set.has(p.user.toLowerCase()))),
-    Reindeer: pts.filter(p => p.team === "Reindeer" && (!set || set.has(p.user.toLowerCase())))
-  };
-
   const datasets = chart.data.datasets;
-  if (datasets.length >= 2) {
-    datasets[0].data = filtered.Penguin.map(p => ({ x: p.attacks, y: p.hitsTaken, user: p.user }));
-    datasets[1].data = filtered.Reindeer.map(p => ({ x: p.attacks, y: p.hitsTaken, user: p.user }));
+
+  // Update point sizes based on selection
+  for (let i = 0; i < 2 && i < datasets.length; i++) {
+    const data = datasets[i].data;
+    const radii = data.map(p => state.selectedUsers.has(p.user) ? 10 : 5);
+    datasets[i].pointRadius = radii;
   }
+
+  chart.update("none");
 }
 
 function wireScatterDblClick() {
@@ -667,8 +656,7 @@ function setupEventListeners() {
     applyFilterSort();
     buildUsersTable();
     updateSelectionUI();
-    updateScatterData();
-    state.scatterChart?.update();
+    updateScatterHighlights();
   });
 
   // Filter expression input
