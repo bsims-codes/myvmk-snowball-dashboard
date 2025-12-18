@@ -57,6 +57,7 @@ const state = {
   dailyChart: null,
   // Events table state
   allEvents: [],
+  filteredEvents: [],
   eventsSearch: "",
   eventsTeamFilter: "All",
   eventsSort: "time-desc",
@@ -756,7 +757,7 @@ function renderVictimBreakdownTable() {
     filtered = filtered.filter(u => u.team === teamFilter);
   }
 
-  const head = `<tr><th>Attacker</th><th>Team</th><th>Total Attacks</th></tr>`;
+  const head = `<tr><th>Attacker</th><th>Team</th><th>Victims</th><th>Total Attacks</th></tr>`;
 
   const body = filtered.map((u, idx) => {
     const teamClass = u.team?.toLowerCase() || "";
@@ -767,6 +768,7 @@ function renderVictimBreakdownTable() {
       <tr class="parent-row" data-idx="${idx}">
         <td>${escapeHtml(u.attacker)}</td>
         <td><span class="pill ${teamClass}">${u.team || ""}</span></td>
+        <td>${totalVictims}</td>
         <td>${u.total}</td>
       </tr>
     `;
@@ -775,14 +777,14 @@ function renderVictimBreakdownTable() {
       <tr class="child-row" data-parent="${idx}">
         <td>${escapeHtml(v.victim)}</td>
         <td></td>
+        <td></td>
         <td>${v.count}</td>
       </tr>
     `).join("");
 
     const summaryRow = `
       <tr class="child-row total-row" data-parent="${idx}">
-        <td>Total victims: ${totalVictims}, Total attacks: ${u.total}</td>
-        <td></td>
+        <td colspan="3">Total: ${totalVictims} victims, ${u.total} attacks</td>
         <td></td>
       </tr>
     `;
@@ -831,9 +833,16 @@ function renderEventsTable() {
       return a.attacker.localeCompare(b.attacker) * dir;
     } else if (sortKey === "victim") {
       return a.victim.localeCompare(b.victim) * dir;
+    } else if (sortKey === "team") {
+      return (a.attackerTeam || "").localeCompare(b.attackerTeam || "") * dir;
+    } else if (sortKey === "room") {
+      return (a.roomName || "").localeCompare(b.roomName || "") * dir;
     }
     return 0;
   });
+
+  // Store filtered for download
+  state.filteredEvents = filtered;
 
   // Limit to 500 for performance
   const limited = filtered.slice(0, 500);
@@ -841,7 +850,18 @@ function renderEventsTable() {
   document.getElementById("eventsCount").textContent =
     `(${limited.length}${filtered.length > 500 ? " of " + filtered.length : ""} shown)`;
 
-  const head = `<tr><th>Date/Time</th><th>Attacker</th><th>Team</th><th>Victim</th><th>Room</th></tr>`;
+  const columns = [
+    { key: "time", label: "Date/Time" },
+    { key: "attacker", label: "Attacker" },
+    { key: "team", label: "Team" },
+    { key: "victim", label: "Victim" },
+    { key: "room", label: "Room" }
+  ];
+
+  const head = `<tr>${columns.map(col => {
+    const arrow = sortKey === col.key ? (sortDir === "asc" ? " ▲" : " ▼") : "";
+    return `<th data-sort="${col.key}">${col.label}${arrow}</th>`;
+  }).join("")}</tr>`;
 
   const body = limited.map(e => {
     const teamClass = e.attackerTeam?.toLowerCase() || "";
@@ -857,6 +877,45 @@ function renderEventsTable() {
   }).join("");
 
   table.innerHTML = head + body;
+
+  // Wire up column header sorting
+  table.querySelectorAll("th[data-sort]").forEach(th => {
+    th.onclick = () => {
+      const key = th.dataset.sort;
+      const [currentKey, currentDir] = state.eventsSort.split("-");
+      if (currentKey === key) {
+        state.eventsSort = `${key}-${currentDir === "asc" ? "desc" : "asc"}`;
+      } else {
+        state.eventsSort = `${key}-asc`;
+      }
+      document.getElementById("eventsSort").value = state.eventsSort;
+      renderEventsTable();
+    };
+  });
+}
+
+function downloadEventsCSV() {
+  const events = state.filteredEvents || state.allEvents;
+  const headers = ["Date/Time", "Attacker", "Attacker Team", "Victim", "Room"];
+  const rows = events.map(e => [
+    e.time,
+    e.attacker,
+    e.attackerTeam || "",
+    e.victim,
+    e.roomName || ""
+  ]);
+
+  const csvContent = [headers, ...rows]
+    .map(row => row.map(cell => `"${String(cell).replace(/"/g, '""')}"`).join(","))
+    .join("\n");
+
+  const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `snowball-events-${new Date().toISOString().split("T")[0]}.csv`;
+  link.click();
+  URL.revokeObjectURL(url);
 }
 
 function setupEventListeners() {
@@ -945,6 +1004,10 @@ function setupEventListeners() {
     state.eventsSort = eventsSort.value;
     renderEventsTable();
   });
+
+  // Download button
+  const downloadBtn = document.getElementById("downloadEventsBtn");
+  downloadBtn?.addEventListener("click", downloadEventsCSV);
 }
 
 (async function main() {
