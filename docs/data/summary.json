@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-18T14:20:06.106Z",
-  "totalRows": 41209,
+  "generatedAt": "2025-12-18T15:20:10.042Z",
+  "totalRows": 41219,
   "totalUsers": 414,
   "teamStats": {
     "Penguin": {
       "users": 182,
-      "attacks": 21646,
-      "hitsTaken": 20316
+      "attacks": 21651,
+      "hitsTaken": 20321
     },
     "Reindeer": {
       "users": 232,
-      "attacks": 19563,
-      "hitsTaken": 20893
+      "attacks": 19568,
+      "hitsTaken": 20898
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 20765
+      "count": 20770
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 19435
+      "count": 19440
     },
     {
       "pair": "Penguin → Penguin",
@@ -85,7 +85,7 @@
     },
     {
       "user": "Meg",
-      "attacks": 1019,
+      "attacks": 1023,
       "team": "Penguin"
     },
     {
@@ -130,7 +130,7 @@
     },
     {
       "user": "Kronkx",
-      "attacks": 646,
+      "attacks": 651,
       "team": "Reindeer"
     },
     {
@@ -202,7 +202,7 @@
     },
     {
       "user": "Meg",
-      "hitsTaken": 745,
+      "hitsTaken": 750,
       "team": "Penguin"
     },
     {
@@ -358,9 +358,9 @@
     {
       "user": "Meg",
       "team": "Penguin",
-      "attacks": 1019,
-      "hitsTaken": 745,
-      "ratio": 1.367785234899329
+      "attacks": 1023,
+      "hitsTaken": 750,
+      "ratio": 1.364
     },
     {
       "user": "Mirk",
@@ -435,9 +435,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 646,
-      "hitsTaken": 364,
-      "ratio": 1.7747252747252746
+      "attacks": 651,
+      "hitsTaken": 368,
+      "ratio": 1.7690217391304348
     },
     {
       "user": "Magenta",
@@ -1805,6 +1805,13 @@
       "ratio": 11.333333333333334
     },
     {
+      "user": "ObeyTheSun",
+      "team": "Penguin",
+      "attacks": 11,
+      "hitsTaken": 26,
+      "ratio": 0.4230769230769231
+    },
+    {
       "user": "CircleOfLifeSoul",
       "team": "Reindeer",
       "attacks": 0,
@@ -1812,18 +1819,18 @@
       "ratio": 0
     },
     {
-      "user": "ObeyTheSun",
-      "team": "Penguin",
-      "attacks": 10,
-      "hitsTaken": 26,
-      "ratio": 0.38461538461538464
-    },
-    {
       "user": "Sar.",
       "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 36,
       "ratio": 0
+    },
+    {
+      "user": "Bernardo_S_Rocks",
+      "team": "Reindeer",
+      "attacks": 4,
+      "hitsTaken": 31,
+      "ratio": 0.12903225806451613
     },
     {
       "user": "MoonlightDream",
@@ -1852,13 +1859,6 @@
       "attacks": 26,
       "hitsTaken": 8,
       "ratio": 3.25
-    },
-    {
-      "user": "Bernardo_S_Rocks",
-      "team": "Reindeer",
-      "attacks": 4,
-      "hitsTaken": 30,
-      "ratio": 0.13333333333333333
     },
     {
       "user": "TheIdolMara",
@@ -3193,30 +3193,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.5178276440010772,
-      "intercept": 47.99478410231791,
+      "slope": 0.5179521711018221,
+      "intercept": 47.994032510516895,
       "xMin": 0,
       "xMax": 2422,
-      "y1": 47.99478410231791,
-      "y2": 1302.1733378729268,
+      "y1": 47.994032510516895,
+      "y2": 1302.47419091913,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.45623529908194094,
-      "intercept": 57.364454483913775,
+      "slope": 0.45642341033123635,
+      "intercept": 57.357015070980225,
       "xMin": 0,
       "xMax": 2422,
-      "y1": 57.364454483913775,
-      "y2": 1162.3663488603747,
+      "y1": 57.357015070980225,
+      "y2": 1162.8145148932347,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.6209963774509561,
-      "intercept": 37.69158563761614,
+      "slope": 0.6210008093812655,
+      "intercept": 37.69938000873878,
       "xMin": 0,
       "xMax": 2422,
-      "y1": 37.69158563761614,
-      "y2": 1541.744811823832,
+      "y1": 37.69938000873878,
+      "y2": 1541.7633403301636,
       "label": "Reindeer"
     }
   },
@@ -3235,9 +3235,9 @@
     },
     {
       "roomName": "Town Square",
-      "hitCount": 3661,
+      "hitCount": 3662,
       "avgUserRatio": 0.78,
-      "activeUsers": 227
+      "activeUsers": 228
     },
     {
       "roomName": "Central Plaza",
@@ -3319,8 +3319,8 @@
     },
     {
       "roomName": "Sci-Fi Dine-In",
-      "hitCount": 258,
-      "avgUserRatio": 4.77,
+      "hitCount": 264,
+      "avgUserRatio": 4.78,
       "activeUsers": 33
     },
     {

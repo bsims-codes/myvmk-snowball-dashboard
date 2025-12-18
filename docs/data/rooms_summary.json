@@ -13,9 +13,9 @@
   },
   {
     "roomName": "Town Square",
-    "hitCount": 3661,
+    "hitCount": 3662,
     "avgUserRatio": 0.78,
-    "activeUsers": 227
+    "activeUsers": 228
   },
   {
     "roomName": "Central Plaza",
@@ -97,8 +97,8 @@
   },
   {
     "roomName": "Sci-Fi Dine-In",
-    "hitCount": 258,
-    "avgUserRatio": 4.77,
+    "hitCount": 264,
+    "avgUserRatio": 4.78,
     "activeUsers": 33
   },
   {
@@ -222,6 +222,12 @@
     "activeUsers": 2
   },
   {
+    "roomName": "Monorail Station",
+    "hitCount": 15,
+    "avgUserRatio": 1.62,
+    "activeUsers": 7
+  },
+  {
     "roomName": "\"it's a small world\" Imports",
     "hitCount": 14,
     "avgUserRatio": 1.03,
@@ -232,12 +238,6 @@
     "hitCount": 14,
     "avgUserRatio": 1.27,
     "activeUsers": 11
-  },
-  {
-    "roomName": "Monorail Station",
-    "hitCount": 12,
-    "avgUserRatio": 1.29,
-    "activeUsers": 7
   },
   {
     "roomName": "Tom Sawyer's Island",
