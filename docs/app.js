@@ -41,6 +41,7 @@ const state = {
   usersIndex: new Map(),
   viewRows: [],
   query: "",
+  filterExpr: "",
   teamFilter: "All",
   sortKey: "attacks",
   sortDir: "desc",
@@ -48,6 +49,96 @@ const state = {
   scatterChart: null,
   roomsChart: null
 };
+
+/**
+ * Parse and evaluate filter expressions like "attacks > 100, ratio >= 2"
+ * Supports: =, !=, <, <=, >, >=
+ * Fields: attacks, hitsTaken, ratio, user, team
+ */
+function parseFilterExpr(expr) {
+  if (!expr || !expr.trim()) return null;
+
+  const conditions = expr.split(',').map(c => c.trim()).filter(c => c);
+  const parsed = [];
+
+  for (const cond of conditions) {
+    // Match: field operator value
+    const match = cond.match(/^(\w+)\s*(>=|<=|!=|=|>|<)\s*(.+)$/);
+    if (!match) continue;
+
+    const [, field, op, rawValue] = match;
+    const fieldLower = field.toLowerCase();
+
+    // Map common field names
+    const fieldMap = {
+      'attacks': 'attacks',
+      'attack': 'attacks',
+      'hitstaken': 'hitsTaken',
+      'hits': 'hitsTaken',
+      'taken': 'hitsTaken',
+      'ratio': 'ratio',
+      'user': 'user',
+      'username': 'user',
+      'team': 'team'
+    };
+
+    const mappedField = fieldMap[fieldLower];
+    if (!mappedField) continue;
+
+    // Parse value
+    let value = rawValue.trim();
+    // Remove quotes if present
+    if ((value.startsWith('"') && value.endsWith('"')) ||
+        (value.startsWith("'") && value.endsWith("'"))) {
+      value = value.slice(1, -1);
+    }
+
+    // Try to parse as number
+    const numValue = parseFloat(value);
+    const isNumeric = !isNaN(numValue);
+
+    parsed.push({ field: mappedField, op, value: isNumeric ? numValue : value, isNumeric });
+  }
+
+  return parsed.length > 0 ? parsed : null;
+}
+
+function evaluateFilter(row, conditions) {
+  if (!conditions) return true;
+
+  for (const { field, op, value, isNumeric } of conditions) {
+    const rowValue = row[field];
+
+    let result = false;
+
+    if (isNumeric && typeof rowValue === 'number') {
+      switch (op) {
+        case '=': result = rowValue === value; break;
+        case '!=': result = rowValue !== value; break;
+        case '>': result = rowValue > value; break;
+        case '>=': result = rowValue >= value; break;
+        case '<': result = rowValue < value; break;
+        case '<=': result = rowValue <= value; break;
+      }
+    } else {
+      // String comparison (case-insensitive)
+      const strRow = String(rowValue).toLowerCase();
+      const strVal = String(value).toLowerCase();
+      switch (op) {
+        case '=': result = strRow === strVal; break;
+        case '!=': result = strRow !== strVal; break;
+        case '>': result = strRow > strVal; break;
+        case '>=': result = strRow >= strVal; break;
+        case '<': result = strRow < strVal; break;
+        case '<=': result = strRow <= strVal; break;
+      }
+    }
+
+    if (!result) return false; // AND logic - all conditions must pass
+  }
+
+  return true;
+}
 
 function renderTeamStats(summary) {
   const container = document.getElementById("teamStats");
@@ -112,6 +203,7 @@ function renderTopLists(summary) {
 function applyFilterSort() {
   const q = state.query.trim().toLowerCase();
   const teamFilter = state.teamFilter;
+  const filterConditions = parseFilterExpr(state.filterExpr);
 
   let rows = state.allUsers;
 
@@ -120,9 +212,14 @@ function applyFilterSort() {
     rows = rows.filter(r => r.user.toLowerCase().includes(q));
   }
 
-  // Filter by team
+  // Filter by team dropdown
   if (teamFilter !== "All") {
     rows = rows.filter(r => r.team === teamFilter);
+  }
+
+  // Filter by expression
+  if (filterConditions) {
+    rows = rows.filter(r => evaluateFilter(r, filterConditions));
   }
 
   // Sort
@@ -466,6 +563,14 @@ function setupEventListeners() {
     }
     updateHighlight();
     if (state.scatterChart) state.scatterChart.update();
+  });
+
+  // Filter expression input
+  const filterInput = document.getElementById("filterExpr");
+  filterInput.addEventListener("input", () => {
+    state.filterExpr = filterInput.value || "";
+    applyFilterSort();
+    buildUsersTable();
   });
 
   // Team filter
