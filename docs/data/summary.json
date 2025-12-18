@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-18T03:54:10.734Z",
+  "generatedAt": "2025-12-18T04:32:00.996Z",
   "totalRows": 41184,
   "totalUsers": 411,
   "teamStats": {
     "Penguin": {
       "users": 180,
-      "attacks": 21650,
-      "hitsTaken": 20294
+      "attacks": 21639,
+      "hitsTaken": 20298
     },
     "Reindeer": {
       "users": 231,
-      "attacks": 19534,
-      "hitsTaken": 20890
+      "attacks": 19545,
+      "hitsTaken": 20886
     },
     "Unknown": {
       "users": 0,
@@ -22,19 +22,19 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 20785
+      "count": 20758
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 19429
+      "count": 19417
     },
     {
       "pair": "Penguin → Penguin",
-      "count": 865
+      "count": 881
     },
     {
       "pair": "Reindeer → Reindeer",
-      "count": 105
+      "count": 128
     }
   ],
   "topAttackers": [
@@ -2044,7 +2044,7 @@
     },
     {
       "user": "Horse",
-      "team": "Penguin",
+      "team": "Reindeer",
       "attacks": 14,
       "hitsTaken": 9,
       "ratio": 1.5555555555555556
@@ -2226,7 +2226,7 @@
     },
     {
       "user": "CandyCars",
-      "team": "Reindeer",
+      "team": "Penguin",
       "attacks": 3,
       "hitsTaken": 13,
       "ratio": 0.23076923076923078
@@ -3181,21 +3181,21 @@
       "label": "All"
     },
     "penguin": {
-      "slope": 0.45513443414183014,
-      "intercept": 58.00188611571876,
+      "slope": 0.4551121241154669,
+      "intercept": 58.05460414591895,
       "xMin": 0,
       "xMax": 2422,
-      "y1": 58.00188611571876,
-      "y2": 1160.3374856072312,
+      "y1": 58.05460414591895,
+      "y2": 1160.3361687535798,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.62087007314492,
-      "intercept": 37.93040688825598,
+      "slope": 0.6209098066548066,
+      "intercept": 37.88016376160955,
       "xMin": 0,
       "xMax": 2422,
-      "y1": 37.93040688825598,
-      "y2": 1541.6777240452523,
+      "y1": 37.88016376160955,
+      "y2": 1541.723715479551,
       "label": "Reindeer"
     }
   },
