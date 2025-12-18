@@ -53,7 +53,8 @@ const state = {
   selectedUsers: new Set(),
   scatterChart: null,
   scatterBasePoints: [],
-  roomsChart: null
+  roomsChart: null,
+  dailyChart: null
 };
 
 /**
@@ -590,6 +591,118 @@ function createRoomsChart(ctx, roomsSummary) {
   return state.roomsChart;
 }
 
+function createDailyChart(ctx, events) {
+  if (!ctx || !events?.length) return;
+
+  // Process events by day and team
+  const dailyData = {};
+
+  events.forEach(e => {
+    const date = e.time.split(" ")[0]; // "2025-12-10"
+    const team = e.attackerTeam;
+    if (!team || team === "Unknown") return;
+
+    if (!dailyData[date]) {
+      dailyData[date] = {
+        Penguin: { total: 0, attackers: {} },
+        Reindeer: { total: 0, attackers: {} }
+      };
+    }
+
+    dailyData[date][team].total++;
+    const attacker = e.attacker;
+    dailyData[date][team].attackers[attacker] = (dailyData[date][team].attackers[attacker] || 0) + 1;
+  });
+
+  // Sort dates and take last 7 days
+  const sortedDates = Object.keys(dailyData).sort();
+  const last7 = sortedDates.slice(-7);
+
+  // Prepare chart data
+  const labels = last7.map(d => {
+    const date = new Date(d + "T00:00:00");
+    return date.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" });
+  });
+
+  const penguinData = last7.map(d => dailyData[d]?.Penguin?.total || 0);
+  const reindeerData = last7.map(d => dailyData[d]?.Reindeer?.total || 0);
+
+  // Store top attackers for tooltips
+  const topAttackersPerDay = last7.map(d => {
+    const day = dailyData[d];
+    const getTop10 = (teamData) => {
+      if (!teamData?.attackers) return [];
+      return Object.entries(teamData.attackers)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 10)
+        .map(([name, count]) => ({ name, count }));
+    };
+    return {
+      Penguin: getTop10(day?.Penguin),
+      Reindeer: getTop10(day?.Reindeer)
+    };
+  });
+
+  state.dailyChart = new Chart(ctx, {
+    type: "bar",
+    data: {
+      labels,
+      datasets: [
+        {
+          label: "Penguin",
+          data: penguinData,
+          backgroundColor: TEAM_COLORS.Penguin.bg,
+          borderColor: TEAM_COLORS.Penguin.border,
+          borderWidth: 1
+        },
+        {
+          label: "Reindeer",
+          data: reindeerData,
+          backgroundColor: TEAM_COLORS.Reindeer.bg,
+          borderColor: TEAM_COLORS.Reindeer.border,
+          borderWidth: 1
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: "bottom" },
+        tooltip: {
+          callbacks: {
+            afterBody: (tooltipItems) => {
+              const item = tooltipItems[0];
+              if (!item) return "";
+              const dayIndex = item.dataIndex;
+              const team = item.dataset.label;
+              const topList = topAttackersPerDay[dayIndex]?.[team] || [];
+              if (!topList.length) return "";
+
+              const lines = ["\nTop 10 Attackers:"];
+              topList.forEach((a, i) => {
+                lines.push(`${i + 1}. ${a.name}: ${a.count}`);
+              });
+              return lines.join("\n");
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          ticks: { font: { size: 11 } }
+        },
+        y: {
+          beginAtZero: true,
+          title: { display: true, text: "Attacks" }
+        }
+      }
+    }
+  });
+
+  return state.dailyChart;
+}
+
 function setupEventListeners() {
   // Search input
   const searchInput = document.getElementById("userSearch");
@@ -648,10 +761,11 @@ function setupEventListeners() {
 
 (async function main() {
   try {
-    const [summary, users, roomsSummary] = await Promise.all([
+    const [summary, users, roomsSummary, events] = await Promise.all([
       loadJSON("./data/summary.json"),
       loadJSON("./data/users.json"),
-      loadJSON("./data/rooms_summary.json")
+      loadJSON("./data/rooms_summary.json"),
+      loadJSON("./data/events.json")
     ]);
 
     // Update metadata
@@ -676,6 +790,7 @@ function setupEventListeners() {
   // Create charts
   createScatter(document.getElementById("scatter"), summary);
     createRoomsChart(document.getElementById("roomsChart"), roomsSummary);
+    createDailyChart(document.getElementById("dailyChart"), events);
 
     // Setup event listeners
     setupEventListeners();
