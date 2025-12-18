@@ -22,6 +22,11 @@ function escapeHtml(str) {
   }[c]));
 }
 
+function parseSearchNames(input) {
+  if (!input) return [];
+  return input.split(",").map(s => s.trim()).filter(Boolean).map(s => s.toLowerCase());
+}
+
 // Team colors for charts
 const TEAM_COLORS = {
   Penguin: { bg: "rgba(59, 130, 246, 0.7)", border: "#3b82f6" },
@@ -41,12 +46,15 @@ const state = {
   usersIndex: new Map(),
   viewRows: [],
   query: "",
+  searchNames: [],
   filterExpr: "",
   teamFilter: "All",
   sortKey: "attacks",
   sortDir: "desc",
-  highlight: null,
+  selectedUsers: new Set(),
   scatterChart: null,
+  scatterMode: "zoom",
+  scatterBasePoints: [],
   roomsChart: null
 };
 
@@ -204,11 +212,15 @@ function applyFilterSort() {
   const q = state.query.trim().toLowerCase();
   const teamFilter = state.teamFilter;
   const filterConditions = parseFilterExpr(state.filterExpr);
+  const searchSet = state.searchNames.length ? new Set(state.searchNames.map(n => n.toLowerCase())) : null;
 
   let rows = state.allUsers;
 
-  // Filter by search query (substring match)
-  if (q) {
+  // Filter by search names (exact match, case-insensitive) if provided
+  if (searchSet && searchSet.size > 0) {
+    rows = rows.filter(r => searchSet.has(r.user.toLowerCase()));
+  } else if (q) {
+    // Fallback substring match when no explicit names
     rows = rows.filter(r => r.user.toLowerCase().includes(q));
   }
 
@@ -257,7 +269,7 @@ function buildUsersTable() {
     const teamClass = (r.team || "unknown").toLowerCase();
 
     return `
-      <tr data-user="${escapeHtml(r.user)}" class="${state.highlight === r.user ? 'highlight' : ''}">
+      <tr data-user="${escapeHtml(r.user)}" class="${state.selectedUsers.has(r.user) ? 'highlight' : ''}">
         <td>${escapeHtml(r.user)}</td>
         <td><span class="pill ${teamClass}">${r.team || "Unknown"}</span></td>
         <td>${r.attacks}</td>
@@ -293,59 +305,51 @@ function buildUsersTable() {
   el.querySelectorAll("tr[data-user]").forEach(tr => {
     tr.onclick = () => {
       const user = tr.getAttribute("data-user");
-      if (state.highlight === user) {
-        state.highlight = null;
+      if (state.selectedUsers.has(user)) {
+        state.selectedUsers.delete(user);
       } else {
-        state.highlight = user;
+        state.selectedUsers.add(user);
       }
-      updateHighlight();
-      if (state.scatterChart) state.scatterChart.update();
+      updateSelectionUI();
+      buildUsersTable();
+      updateScatterData();
+      state.scatterChart?.update();
     };
   });
 }
 
-function updateHighlight() {
+function updateSelectionUI() {
   const panel = document.getElementById("statsPanel");
   const nameEl = document.getElementById("statsPanelUser");
   const gridEl = document.getElementById("statsPanelGrid");
 
   // Update table row highlights
   document.querySelectorAll("tr.highlight").forEach(tr => tr.classList.remove("highlight"));
+  state.selectedUsers.forEach(user => {
+    const row = document.querySelector(`tr[data-user="${CSS.escape(user)}"]`);
+    if (row) row.classList.add("highlight");
+  });
 
-  if (!state.highlight) {
+  const users = Array.from(state.selectedUsers)
+    .map(u => state.usersIndex.get(u))
+    .filter(Boolean);
+
+  if (!users.length) {
     panel.classList.remove("visible");
     return;
   }
 
-  const u = state.usersIndex.get(state.highlight);
-  if (!u) {
-    panel.classList.remove("visible");
-    return;
-  }
-
-  // Show stats panel
   panel.classList.add("visible");
-  const teamClass = (u.team || "unknown").toLowerCase();
-  nameEl.innerHTML = `${escapeHtml(u.user)} <span class="pill ${teamClass}">${u.team || "Unknown"}</span>`;
-
-  gridEl.innerHTML = `
-    <div class="stat-item">
-      <div class="stat-label">Attacks</div>
-      <div class="stat-value">${u.attacks}</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-label">Hits Taken</div>
-      <div class="stat-value">${u.hitsTaken}</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-label">Ratio</div>
-      <div class="stat-value">${fmt(u.ratio)}</div>
-    </div>
-  `;
-
-  // Highlight row in table
-  const row = document.querySelector(`tr[data-user="${CSS.escape(u.user)}"]`);
-  if (row) row.classList.add("highlight");
+  nameEl.textContent = `Selected Users (${users.length})`;
+  gridEl.innerHTML = users.map(u => {
+    const teamClass = (u.team || "unknown").toLowerCase();
+    return `
+      <div class="stat-item">
+        <div class="stat-label">${escapeHtml(u.user)} <span class="pill ${teamClass}">${u.team || "Unknown"}</span></div>
+        <div class="stat-value">Atk ${u.attacks} | Taken ${u.hitsTaken} | Ratio ${fmt(u.ratio)}</div>
+      </div>
+    `;
+  }).join("");
 }
 
 function computeLineDataset(regLine, color, dash) {
@@ -366,6 +370,9 @@ function computeLineDataset(regLine, color, dash) {
 
 function createScatter(ctx, summary) {
   const pts = summary.scatterPoints || [];
+  state.scatterBasePoints = pts;
+  const maxX = Math.max(10, ...pts.map(p => p.attacks || 0));
+  const maxY = Math.max(10, ...pts.map(p => p.hitsTaken || 0));
 
   const byTeam = {
     Penguin: pts.filter(p => p.team === "Penguin"),
@@ -380,7 +387,7 @@ function createScatter(ctx, summary) {
       parsing: false,
       backgroundColor: TEAM_COLORS.Penguin.bg,
       borderColor: TEAM_COLORS.Penguin.border,
-      pointRadius: (ctx) => state.highlight && ctx.raw?.user === state.highlight ? 10 : 5,
+      pointRadius: (ctx) => state.selectedUsers.has(ctx.raw?.user) ? 10 : 5,
       pointHoverRadius: 8
     },
     {
@@ -389,7 +396,7 @@ function createScatter(ctx, summary) {
       parsing: false,
       backgroundColor: TEAM_COLORS.Reindeer.bg,
       borderColor: TEAM_COLORS.Reindeer.border,
-      pointRadius: (ctx) => state.highlight && ctx.raw?.user === state.highlight ? 10 : 5,
+      pointRadius: (ctx) => state.selectedUsers.has(ctx.raw?.user) ? 10 : 5,
       pointHoverRadius: 8
     },
     {
@@ -398,7 +405,7 @@ function createScatter(ctx, summary) {
       parsing: false,
       backgroundColor: TEAM_COLORS.Unknown.bg,
       borderColor: TEAM_COLORS.Unknown.border,
-      pointRadius: (ctx) => state.highlight && ctx.raw?.user === state.highlight ? 10 : 4,
+      pointRadius: (ctx) => state.selectedUsers.has(ctx.raw?.user) ? 10 : 4,
       pointHoverRadius: 7
     }
   ];
@@ -432,7 +439,30 @@ function createScatter(ctx, summary) {
             }
           }
         },
-        legend: { position: "bottom" }
+        legend: { position: "bottom" },
+        zoom: {
+          limits: {
+            x: { min: 0, max: maxX * 1.1 },
+            y: { min: 0, max: maxY * 1.1 }
+          },
+          zoom: {
+            wheel: { enabled: true },
+            pinch: { enabled: true },
+            drag: {
+              enabled: true,
+              borderColor: "#3b82f6",
+              borderWidth: 1,
+              backgroundColor: "rgba(59, 130, 246, 0.08)"
+            },
+            mode: "xy",
+            overScaleMode: "xy"
+          },
+          pan: {
+            enabled: true,
+            mode: "xy",
+            modifierKey: "ctrl"
+          }
+        }
       },
       scales: {
         x: {
@@ -451,13 +481,14 @@ function createScatter(ctx, summary) {
           const index = el.index;
           const point = state.scatterChart.data.datasets[datasetIndex].data[index];
           if (point?.user) {
-            if (state.highlight === point.user) {
-              state.highlight = null;
+            if (state.selectedUsers.has(point.user)) {
+              state.selectedUsers.delete(point.user);
             } else {
-              state.highlight = point.user;
+              state.selectedUsers.add(point.user);
             }
-            updateHighlight();
+            updateSelectionUI();
             buildUsersTable();
+            updateScatterData();
             state.scatterChart.update();
           }
         }
@@ -465,7 +496,87 @@ function createScatter(ctx, summary) {
     }
   });
 
+  wireScatterControls();
+  wireScatterDblClick();
+
   return state.scatterChart;
+}
+
+function updateScatterData() {
+  const chart = state.scatterChart;
+  if (!chart) return;
+
+  const set = state.searchNames.length ? new Set(state.searchNames.map(n => n.toLowerCase())) : null;
+  const pts = state.scatterBasePoints || [];
+
+  const filtered = {
+    Penguin: pts.filter(p => p.team === "Penguin" && (!set || set.has(p.user.toLowerCase()))),
+    Reindeer: pts.filter(p => p.team === "Reindeer" && (!set || set.has(p.user.toLowerCase()))),
+    Unknown: pts.filter(p => p.team === "Unknown" && (!set || set.has(p.user.toLowerCase())))
+  };
+
+  const datasets = chart.data.datasets;
+  if (datasets.length >= 3) {
+    datasets[0].data = filtered.Penguin.map(p => ({ x: p.attacks, y: p.hitsTaken, user: p.user }));
+    datasets[1].data = filtered.Reindeer.map(p => ({ x: p.attacks, y: p.hitsTaken, user: p.user }));
+    datasets[2].data = filtered.Unknown.map(p => ({ x: p.attacks, y: p.hitsTaken, user: p.user }));
+  }
+}
+
+function wireScatterDblClick() {
+  const chart = state.scatterChart;
+  if (!chart?.canvas) return;
+
+  chart.canvas.addEventListener("dblclick", (evt) => {
+    const factor = evt.shiftKey ? 0.7 : 1.4;
+    const point = { x: evt.offsetX, y: evt.offsetY };
+    chart.zoom({ x: factor, y: factor }, point);
+  });
+}
+
+function setScatterMode(mode) {
+  state.scatterMode = mode;
+  const chart = state.scatterChart;
+  if (!chart) return;
+
+  const zoomOpts = chart.options.plugins.zoom;
+  const isPan = mode === "pan";
+  // Toggle drag zoom vs pan
+  zoomOpts.zoom.drag.enabled = !isPan;
+  zoomOpts.zoom.wheel.enabled = !isPan;
+  zoomOpts.pan.enabled = isPan;
+  // Require Ctrl for incidental panning only when in zoom mode
+  zoomOpts.pan.modifierKey = isPan ? undefined : "ctrl";
+
+  chart.update("none");
+
+  const zoomBtn = document.getElementById("scatterModeZoom");
+  const panBtn = document.getElementById("scatterModePan");
+  if (zoomBtn && panBtn) {
+    zoomBtn.classList.toggle("active", !isPan);
+    panBtn.classList.toggle("active", isPan);
+  }
+}
+
+function wireScatterControls() {
+  const resetBtn = document.getElementById("resetScatterZoom");
+  if (resetBtn) {
+    resetBtn.onclick = () => {
+      state.scatterChart?.resetZoom();
+    };
+  }
+
+  const zoomBtn = document.getElementById("scatterModeZoom");
+  const panBtn = document.getElementById("scatterModePan");
+
+  if (zoomBtn) {
+    zoomBtn.onclick = () => setScatterMode("zoom");
+  }
+  if (panBtn) {
+    panBtn.onclick = () => setScatterMode("pan");
+  }
+
+  setScatterMode(state.scatterMode);
 }
 
 function createRoomsChart(ctx, roomsSummary) {
@@ -550,20 +661,27 @@ function setupEventListeners() {
   // Search input
   const searchInput = document.getElementById("userSearch");
   searchInput.addEventListener("input", () => {
-    state.query = searchInput.value || "";
+    const raw = searchInput.value || "";
+    state.query = raw;
+    const parsedNames = parseSearchNames(raw);
+    const isMulti = parsedNames.length > 1;
+    state.searchNames = isMulti ? parsedNames : [];
+
+    if (isMulti) {
+      const matches = state.allUsers.filter(u => state.searchNames.includes(u.user.toLowerCase()));
+      state.selectedUsers = new Set(matches.map(m => m.user));
+    } else if (parsedNames.length === 1) {
+      const exact = state.allUsers.find(u => u.user.toLowerCase() === parsedNames[0]);
+      state.selectedUsers = exact ? new Set([exact.user]) : new Set();
+    } else {
+      state.selectedUsers = new Set();
+    }
+
     applyFilterSort();
     buildUsersTable();
-
-    // Exact match highlighting (case-insensitive)
-    const exact = state.query.trim().toLowerCase();
-    const matchedUser = state.allUsers.find(u => u.user.toLowerCase() === exact);
-    if (matchedUser) {
-      state.highlight = matchedUser.user; // Use actual username with correct case
-    } else {
-      state.highlight = null;
-    }
-    updateHighlight();
-    if (state.scatterChart) state.scatterChart.update();
+    updateSelectionUI();
+    updateScatterData();
+    state.scatterChart?.update();
   });
 
   // Filter expression input
@@ -572,6 +690,7 @@ function setupEventListeners() {
     state.filterExpr = filterInput.value || "";
     applyFilterSort();
     buildUsersTable();
+    updateSelectionUI();
   });
 
   // Team filter
@@ -580,6 +699,7 @@ function setupEventListeners() {
     state.teamFilter = teamFilter.value;
     applyFilterSort();
     buildUsersTable();
+    updateSelectionUI();
   });
 
   // Sort dropdown
@@ -590,6 +710,7 @@ function setupEventListeners() {
     state.sortDir = dir;
     applyFilterSort();
     buildUsersTable();
+    updateSelectionUI();
   });
 }
 
@@ -615,12 +736,13 @@ function setupEventListeners() {
     renderTeamStats(summary);
     renderTopLists(summary);
 
-    // Apply initial filter/sort
-    applyFilterSort();
-    buildUsersTable();
+  // Apply initial filter/sort
+  applyFilterSort();
+  buildUsersTable();
+  updateSelectionUI();
 
-    // Create charts
-    createScatter(document.getElementById("scatter"), summary);
+  // Create charts
+  createScatter(document.getElementById("scatter"), summary);
     createRoomsChart(document.getElementById("roomsChart"), roomsSummary);
 
     // Setup event listeners
