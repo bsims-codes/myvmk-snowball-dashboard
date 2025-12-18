@@ -1,7 +1,8 @@
 import fs from "fs";
 import path from "path";
 
-const URL = "https://www.myvmk.com/api/gethits";
+const HITS_URL = "https://www.myvmk.com/api/gethits";
+const TEAMS_URL = "https://www.myvmk.com/api/getsnowteams";
 
 function loadJSON(relPath, fallback = {}) {
   const p = path.join(process.cwd(), relPath);
@@ -64,199 +65,56 @@ function safeRatio(attacks, hitsTaken) {
   return attacks / hitsTaken;
 }
 
-function opposite(team) {
-  if (team === "Reindeer") return "Penguin";
-  if (team === "Penguin") return "Reindeer";
-  return "Unknown";
-}
-
 /**
- * BFS-based team inference with conflict detection.
- *
- * Two-team assumption: for each hit, attacker and victim should be opposite teams.
- * Seed with teams.json, then propagate labels across the attacker↔victim "opposite" edges.
- *
- * Returns:
- * - teamMap: { user: "Penguin" | "Reindeer" | "Unknown" }
- * - conflicts: [{ user1, team1, user2, team2, expected, edge }]
- * - confidence: { user: 0..1 }
- * - inferenceSource: { user: "seeded" | "inferred" }
+ * Fetch team assignments from the official API.
+ * CSV format: Username,Team (0=Reindeer, 1=Penguin)
  */
-function inferTeamsWithBFS(events, seedTeams) {
-  // Build adjacency list: user -> Map<opponent, count>
-  const adj = new Map();
+async function fetchTeamsFromAPI() {
+  console.log("Fetching teams from", TEAMS_URL);
 
-  const addEdge = (a, b) => {
-    if (!adj.has(a)) adj.set(a, new Map());
-    if (!adj.has(b)) adj.set(b, new Map());
-    adj.get(a).set(b, (adj.get(a).get(b) || 0) + 1);
-    adj.get(b).set(a, (adj.get(b).get(a) || 0) + 1);
-  };
-
-  // Collect all users
-  const allUsers = new Set();
-  for (const e of events) {
-    if (e.attacker) {
-      allUsers.add(e.attacker);
-      if (e.victim) addEdge(e.attacker, e.victim);
-    }
-    if (e.victim) allUsers.add(e.victim);
+  const res = await fetch(TEAMS_URL);
+  if (!res.ok) {
+    console.warn(`Warning: Could not fetch teams API (HTTP ${res.status}), will use fallback`);
+    return null;
   }
 
-  // Initialize team assignments from seed
-  const teamOf = new Map();
-  const inferenceSource = new Map(); // "seeded" or "inferred"
-  const confidence = new Map();
-  const conflicts = [];
+  const csvText = await res.text();
+  const parsed = parseCSV(csvText);
 
-  // Track evidence for inferred users: { penguinVotes, reindeerVotes }
-  const evidence = new Map();
-
-  // Seed known teams
-  for (const [user, team] of Object.entries(seedTeams)) {
-    if (team === "Penguin" || team === "Reindeer") {
-      teamOf.set(user, team);
-      inferenceSource.set(user, "seeded");
-      confidence.set(user, 1.0);
-    }
+  if (parsed.length < 2) {
+    console.warn("Warning: Teams API returned no data");
+    return null;
   }
 
-  // BFS queue: start with all seeded users
-  const queue = [...teamOf.keys()];
-  const visited = new Set(queue);
+  const headers = parsed[0];
+  const dataRows = parsed.slice(1);
 
-  while (queue.length > 0) {
-    const u = queue.shift();
-    const ut = teamOf.get(u);
-    const neighbors = adj.get(u);
+  // Find column indices
+  const usernameIdx = headers.findIndex(h => h.toLowerCase() === "username");
+  const teamIdx = headers.findIndex(h => h.toLowerCase() === "team");
 
-    if (!neighbors) continue;
+  if (usernameIdx === -1 || teamIdx === -1) {
+    console.warn("Warning: Teams API CSV missing expected columns");
+    return null;
+  }
 
-    for (const [v, edgeCount] of neighbors.entries()) {
-      const expectedTeam = opposite(ut);
-      const currentTeam = teamOf.get(v);
+  const teamMap = {};
+  for (const row of dataRows) {
+    const username = normUser(row[usernameIdx]);
+    const teamValue = row[teamIdx]?.trim();
 
-      if (!currentTeam) {
-        // User not yet assigned - infer from neighbor
-        teamOf.set(v, expectedTeam);
-        inferenceSource.set(v, "inferred");
+    if (!username) continue;
 
-        // Track evidence
-        if (!evidence.has(v)) evidence.set(v, { penguinVotes: 0, reindeerVotes: 0, totalEdges: 0 });
-        const ev = evidence.get(v);
-        if (expectedTeam === "Penguin") ev.penguinVotes += edgeCount;
-        else ev.reindeerVotes += edgeCount;
-        ev.totalEdges += edgeCount;
-
-        if (!visited.has(v)) {
-          visited.add(v);
-          queue.push(v);
-        }
-      } else if (currentTeam !== expectedTeam) {
-        // Conflict detected
-        // Only record conflict if at least one is seeded, or both are inferred but disagree
-        const uSource = inferenceSource.get(u);
-        const vSource = inferenceSource.get(v);
-
-        conflicts.push({
-          user1: u,
-          team1: ut,
-          source1: uSource,
-          user2: v,
-          team2: currentTeam,
-          source2: vSource,
-          expected: expectedTeam,
-          edgeCount,
-          description: `${u} (${ut}, ${uSource}) hit/was hit by ${v} (${currentTeam}, ${vSource}), expected ${v} to be ${expectedTeam}`
-        });
-      } else {
-        // Agreement - add more evidence
-        if (inferenceSource.get(v) === "inferred") {
-          if (!evidence.has(v)) evidence.set(v, { penguinVotes: 0, reindeerVotes: 0, totalEdges: 0 });
-          const ev = evidence.get(v);
-          if (expectedTeam === "Penguin") ev.penguinVotes += edgeCount;
-          else ev.reindeerVotes += edgeCount;
-          ev.totalEdges += edgeCount;
-        }
-      }
+    // 0 = Reindeer, 1 = Penguin
+    if (teamValue === "0") {
+      teamMap[username] = "Reindeer";
+    } else if (teamValue === "1") {
+      teamMap[username] = "Penguin";
     }
   }
 
-  // Calculate confidence for inferred users
-  for (const [user, ev] of evidence.entries()) {
-    if (inferenceSource.get(user) === "inferred") {
-      const total = ev.penguinVotes + ev.reindeerVotes;
-      if (total === 0) {
-        confidence.set(user, 0);
-        continue;
-      }
-
-      const majority = Math.max(ev.penguinVotes, ev.reindeerVotes);
-      const margin = Math.abs(ev.penguinVotes - ev.reindeerVotes);
-
-      // Confidence based on:
-      // 1. Margin of agreement (how consistent is the evidence)
-      // 2. Total evidence (more edges = more confidence)
-      const marginRatio = margin / total;
-      const evidenceBonus = Math.min(1, total / 20); // Cap at 20 edges for full bonus
-
-      // Combined confidence: average of margin ratio and evidence bonus
-      const conf = (marginRatio * 0.6 + evidenceBonus * 0.4);
-      confidence.set(user, Math.round(conf * 100) / 100);
-    }
-  }
-
-  // Check for users with conflicting evidence and potentially reassign
-  for (const [user, ev] of evidence.entries()) {
-    if (inferenceSource.get(user) === "inferred") {
-      const assignedTeam = teamOf.get(user);
-      const penguinVotes = ev.penguinVotes;
-      const reindeerVotes = ev.reindeerVotes;
-
-      // If votes are heavily against the assigned team, flag as conflict
-      if (assignedTeam === "Penguin" && reindeerVotes > penguinVotes * 2) {
-        conflicts.push({
-          user1: user,
-          team1: assignedTeam,
-          source1: "inferred",
-          user2: null,
-          team2: null,
-          source2: null,
-          expected: "Reindeer",
-          edgeCount: reindeerVotes,
-          description: `${user} was inferred as Penguin but ${reindeerVotes} edges suggest Reindeer (only ${penguinVotes} suggest Penguin)`
-        });
-      } else if (assignedTeam === "Reindeer" && penguinVotes > reindeerVotes * 2) {
-        conflicts.push({
-          user1: user,
-          team1: assignedTeam,
-          source1: "inferred",
-          user2: null,
-          team2: null,
-          source2: null,
-          expected: "Penguin",
-          edgeCount: penguinVotes,
-          description: `${user} was inferred as Reindeer but ${penguinVotes} edges suggest Penguin (only ${reindeerVotes} suggest Reindeer)`
-        });
-      }
-    }
-  }
-
-  // Assign "Unknown" to any remaining users
-  for (const user of allUsers) {
-    if (!teamOf.has(user)) {
-      teamOf.set(user, "Unknown");
-      confidence.set(user, 0);
-      inferenceSource.set(user, "unknown");
-    }
-  }
-
-  return {
-    teamMap: Object.fromEntries(teamOf),
-    conflicts,
-    confidence: Object.fromEntries(confidence),
-    inferenceSource: Object.fromEntries(inferenceSource)
-  };
+  console.log(`Loaded ${Object.keys(teamMap).length} team assignments from API`);
+  return teamMap;
 }
 
 function topN(map, n, keyName, valName) {
@@ -286,15 +144,19 @@ function linearRegression(points) {
 }
 
 async function main() {
-  console.log("Fetching data from", URL);
+  console.log("Fetching hits data from", HITS_URL);
 
   const roomsMap = loadJSON("docs/data/rooms.json", {});
-  const seedTeams = loadJSON("docs/data/teams.json", {});
+
+  // Fetch teams from API (authoritative source)
+  const apiTeams = await fetchTeamsFromAPI();
+
+  // Use API teams, or empty if API failed
+  const teamMap = apiTeams || {};
 
   console.log(`Loaded ${Object.keys(roomsMap).length} room mappings`);
-  console.log(`Loaded ${Object.keys(seedTeams).length} seeded team assignments`);
 
-  const res = await fetch(URL);
+  const res = await fetch(HITS_URL);
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const csvText = await res.text();
 
@@ -302,7 +164,7 @@ async function main() {
   const headers = parsed[0];
   const dataRows = parsed.slice(1);
 
-  console.log(`Parsed ${dataRows.length} data rows`);
+  console.log(`Parsed ${dataRows.length} hit events`);
 
   const rawRows = dataRows.map(cols => {
     const obj = {};
@@ -327,23 +189,30 @@ async function main() {
     };
   });
 
-  // Run BFS team inference
-  console.log("Running BFS team inference...");
-  const inference = inferTeamsWithBFS(baseEvents, seedTeams);
-  const { teamMap, conflicts, confidence, inferenceSource } = inference;
+  // Collect all users from events
+  const allUsersSet = new Set();
+  for (const e of baseEvents) {
+    if (e.attacker) allUsersSet.add(e.attacker);
+    if (e.victim) allUsersSet.add(e.victim);
+  }
+
+  // Assign teams - anyone not in API gets "Unknown"
+  const resolvedTeams = {};
+  for (const user of allUsersSet) {
+    resolvedTeams[user] = teamMap[user] || "Unknown";
+  }
 
   const teamCounts = { Penguin: 0, Reindeer: 0, Unknown: 0 };
-  for (const team of Object.values(teamMap)) {
+  for (const team of Object.values(resolvedTeams)) {
     teamCounts[team] = (teamCounts[team] || 0) + 1;
   }
   console.log(`Team assignments: Penguin=${teamCounts.Penguin}, Reindeer=${teamCounts.Reindeer}, Unknown=${teamCounts.Unknown}`);
-  console.log(`Found ${conflicts.length} conflicts`);
 
   // Enrich events with resolved teams
   const events = baseEvents.map(e => ({
     ...e,
-    attackerTeam: teamMap[e.attacker] || "Unknown",
-    victimTeam: teamMap[e.victim] || "Unknown"
+    attackerTeam: resolvedTeams[e.attacker] || "Unknown",
+    victimTeam: resolvedTeams[e.victim] || "Unknown"
   }));
 
   // --- USER AGGREGATES ---
@@ -392,15 +261,11 @@ async function main() {
     const attacks = attacksByUser.get(user) || 0;
     const hitsTaken = hitsTakenByUser.get(user) || 0;
     const ratio = safeRatio(attacks, hitsTaken);
-    const team = teamMap[user] || "Unknown";
-    const teamConfidence = confidence[user] ?? 0;
-    const source = inferenceSource[user] || "unknown";
+    const team = resolvedTeams[user] || "Unknown";
 
     return {
       user,
       team,
-      teamConfidence,
-      teamSource: source,
       attacks,
       hitsTaken,
       ratio
@@ -414,8 +279,7 @@ async function main() {
 
   const scatterPoints = topUsersList.map(u => ({
     user: u,
-    team: teamMap[u] || "Unknown",
-    teamConfidence: confidence[u] ?? 0,
+    team: resolvedTeams[u] || "Unknown",
     attacks: attacksByUser.get(u) || 0,
     hitsTaken: hitsTakenByUser.get(u) || 0,
     ratio: safeRatio(attacksByUser.get(u) || 0, hitsTakenByUser.get(u) || 0)
@@ -491,9 +355,7 @@ async function main() {
       reindeer: regLine(reinReg, "Reindeer")
     },
 
-    topRooms: roomsSummary.slice(0, 25),
-
-    conflictCount: conflicts.length
+    topRooms: roomsSummary.slice(0, 25)
   };
 
   // Write output files
@@ -504,18 +366,12 @@ async function main() {
   fs.writeFileSync(path.join(outDir, "users.json"), JSON.stringify(users, null, 2));
   fs.writeFileSync(path.join(outDir, "rooms_summary.json"), JSON.stringify(roomsSummary, null, 2));
   fs.writeFileSync(path.join(outDir, "summary.json"), JSON.stringify(summary, null, 2));
-  fs.writeFileSync(path.join(outDir, "team_conflicts.json"), JSON.stringify({
-    generatedAt: new Date().toISOString(),
-    totalConflicts: conflicts.length,
-    conflicts: conflicts.slice(0, 500) // Limit to 500 for readability
-  }, null, 2));
 
   console.log("\nOutput files written:");
   console.log("  - docs/data/events.json");
   console.log("  - docs/data/users.json");
   console.log("  - docs/data/rooms_summary.json");
   console.log("  - docs/data/summary.json");
-  console.log("  - docs/data/team_conflicts.json");
   console.log("\nBuild complete!");
 }
 

@@ -145,8 +145,7 @@ function buildUsersTable() {
     { key: "team", label: "Team" },
     { key: "attacks", label: "Attacks" },
     { key: "hitsTaken", label: "Hits Taken" },
-    { key: "ratio", label: "Ratio" },
-    { key: "teamConfidence", label: "Confidence" }
+    { key: "ratio", label: "Ratio" }
   ];
 
   const head = `<tr>${headers.map(h => {
@@ -156,8 +155,6 @@ function buildUsersTable() {
 
   const body = viewRows.map(r => {
     const teamClass = (r.team || "unknown").toLowerCase();
-    const confPct = Math.round((r.teamConfidence || 0) * 100);
-    const confBar = `<span class="confidence-bar"><span class="fill" style="width:${confPct}%"></span></span>${confPct}%`;
 
     return `
       <tr data-user="${escapeHtml(r.user)}" class="${state.highlight === r.user ? 'highlight' : ''}">
@@ -166,7 +163,6 @@ function buildUsersTable() {
         <td>${r.attacks}</td>
         <td>${r.hitsTaken}</td>
         <td>${fmt(r.ratio)}</td>
-        <td>${confBar}</td>
       </tr>
     `;
   }).join("");
@@ -244,14 +240,6 @@ function updateHighlight() {
     <div class="stat-item">
       <div class="stat-label">Ratio</div>
       <div class="stat-value">${fmt(u.ratio)}</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-label">Team Confidence</div>
-      <div class="stat-value">${Math.round((u.teamConfidence || 0) * 100)}%</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-label">Team Source</div>
-      <div class="stat-value">${u.teamSource || "unknown"}</div>
     </div>
   `;
 
@@ -508,8 +496,7 @@ function setupEventListeners() {
     document.getElementById("meta").textContent =
       `Last updated: ${new Date(summary.generatedAt).toLocaleString()} | ` +
       `${summary.totalRows?.toLocaleString() || 0} events | ` +
-      `${summary.totalUsers?.toLocaleString() || 0} users | ` +
-      `${summary.conflictCount || 0} conflicts`;
+      `${summary.totalUsers?.toLocaleString() || 0} users`;
 
     // Initialize state
     state.allUsers = users;
