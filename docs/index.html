@@ -437,7 +437,7 @@
     </div>
 
     <div class="row">
-      <div class="card">
+      <div class="card" style="grid-column: span 2;">
         <h3>Head-to-Head Lookup</h3>
         <div class="toolbar">
           <input id="h2hUser1" placeholder="User 1..." style="flex:1;" />
@@ -449,13 +449,6 @@
           <div id="h2hStats" style="display:grid;grid-template-columns:1fr auto 1fr;gap:16px;text-align:center;"></div>
         </div>
         <p class="legend-note">Enter two usernames to see their head-to-head battle history.</p>
-      </div>
-      <div class="card">
-        <h3>Activity Heatmap</h3>
-        <div id="heatmapContainer" style="overflow-x:auto;">
-          <div id="heatmap"></div>
-        </div>
-        <p class="legend-note">Hours (UTC) vs days. Darker = more attacks.</p>
       </div>
     </div>
 
@@ -513,12 +506,19 @@
     </div>
 
     <div class="row">
-      <div class="card" style="grid-column: span 2;">
+      <div class="card">
         <h3>Daily Attacks (Last 7 Days)</h3>
         <div class="chart-container">
           <canvas id="dailyChart"></canvas>
         </div>
         <p class="legend-note">Hover over bars to see top 10 attackers for each team on that day.</p>
+      </div>
+      <div class="card">
+        <h3>Activity Heatmap</h3>
+        <div id="heatmapContainer" style="overflow-x:auto;">
+          <div id="heatmap"></div>
+        </div>
+        <p class="legend-note">Hours (UTC) vs days. Darker = more attacks.</p>
       </div>
     </div>
 

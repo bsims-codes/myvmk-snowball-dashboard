@@ -1003,9 +1003,12 @@ function compareHeadToHead() {
   const user2Wins = user2HitsOnUser1 > user1HitsOnUser2;
   const isTie = user1HitsOnUser2 === user2HitsOnUser1;
 
+  const getTeamLogo = (team) => team.toLowerCase() === 'penguin' ? 'penguin.png' : 'reindeer.png';
+
   resultDiv.style.display = "block";
   statsDiv.innerHTML = `
     <div>
+      <img src="${getTeamLogo(user1.team)}" alt="${user1.team}" style="width:48px;height:48px;margin-bottom:8px;">
       <div class="h2h-user">${escapeHtml(user1.user)}</div>
       <div class="h2h-stat"><span class="pill ${user1.team.toLowerCase()}">${user1.team}</span></div>
       <div class="h2h-value ${user1Wins ? 'h2h-winner' : ''}">${user1HitsOnUser2}</div>
@@ -1013,6 +1016,7 @@ function compareHeadToHead() {
     </div>
     <div class="h2h-vs">VS</div>
     <div>
+      <img src="${getTeamLogo(user2.team)}" alt="${user2.team}" style="width:48px;height:48px;margin-bottom:8px;">
       <div class="h2h-user">${escapeHtml(user2.user)}</div>
       <div class="h2h-stat"><span class="pill ${user2.team.toLowerCase()}">${user2.team}</span></div>
       <div class="h2h-value ${user2Wins ? 'h2h-winner' : ''}">${user2HitsOnUser1}</div>
