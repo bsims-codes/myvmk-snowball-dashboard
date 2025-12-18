@@ -760,6 +760,9 @@ function renderVictimBreakdownTable() {
 
   const body = filtered.map((u, idx) => {
     const teamClass = u.team?.toLowerCase() || "";
+    const totalVictims = u.victims.length;
+    const top10Victims = u.victims.slice(0, 10);
+
     const parentRow = `
       <tr class="parent-row" data-idx="${idx}">
         <td>${escapeHtml(u.attacker)}</td>
@@ -768,7 +771,7 @@ function renderVictimBreakdownTable() {
       </tr>
     `;
 
-    const childRows = u.victims.map(v => `
+    const childRows = top10Victims.map(v => `
       <tr class="child-row" data-parent="${idx}">
         <td>${escapeHtml(v.victim)}</td>
         <td></td>
@@ -776,15 +779,15 @@ function renderVictimBreakdownTable() {
       </tr>
     `).join("");
 
-    const totalRow = `
+    const summaryRow = `
       <tr class="child-row total-row" data-parent="${idx}">
-        <td>${escapeHtml(u.attacker)} Total</td>
+        <td>Total victims: ${totalVictims}, Total attacks: ${u.total}</td>
         <td></td>
-        <td>${u.total}</td>
+        <td></td>
       </tr>
     `;
 
-    return parentRow + childRows + totalRow;
+    return parentRow + childRows + summaryRow;
   }).join("");
 
   table.innerHTML = head + body;
@@ -838,7 +841,7 @@ function renderEventsTable() {
   document.getElementById("eventsCount").textContent =
     `(${limited.length}${filtered.length > 500 ? " of " + filtered.length : ""} shown)`;
 
-  const head = `<tr><th>Date/Time</th><th>Attacker</th><th>Team</th><th>Victim</th></tr>`;
+  const head = `<tr><th>Date/Time</th><th>Attacker</th><th>Team</th><th>Victim</th><th>Room</th></tr>`;
 
   const body = limited.map(e => {
     const teamClass = e.attackerTeam?.toLowerCase() || "";
@@ -848,6 +851,7 @@ function renderEventsTable() {
         <td>${escapeHtml(e.attacker)}</td>
         <td><span class="pill ${teamClass}">${e.attackerTeam || ""}</span></td>
         <td>${escapeHtml(e.victim)}</td>
+        <td>${escapeHtml(e.roomName || "")}</td>
       </tr>
     `;
   }).join("");
