@@ -1149,6 +1149,13 @@ function setupEventListeners() {
     if (isMulti) {
       const matches = state.allUsers.filter(u => state.searchNames.includes(u.user.toLowerCase()));
       state.selectedUsers = new Set(matches.map(m => m.user));
+
+      // Auto-trigger H2H when exactly 2 users are matched
+      if (matches.length === 2) {
+        document.getElementById("h2hUser1").value = matches[0].user;
+        document.getElementById("h2hUser2").value = matches[1].user;
+        compareHeadToHead();
+      }
     } else if (parsedNames.length === 1) {
       const exact = state.allUsers.find(u => u.user.toLowerCase() === parsedNames[0]);
       state.selectedUsers = exact ? new Set([exact.user]) : new Set();
