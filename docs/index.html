@@ -411,6 +411,69 @@
         color: var(--text-muted);
         align-self: center;
       }
+
+      /* Combo box / autocomplete styles */
+      .combo-box {
+        position: relative;
+        display: inline-block;
+      }
+
+      .combo-box input {
+        width: 100%;
+      }
+
+      .combo-dropdown {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        max-height: 200px;
+        overflow-y: auto;
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-top: none;
+        border-radius: 0 0 8px 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        display: none;
+      }
+
+      .combo-dropdown.visible {
+        display: block;
+      }
+
+      .combo-option {
+        padding: 8px 12px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .combo-option:hover,
+      .combo-option.highlighted {
+        background: var(--hover-bg);
+      }
+
+      .combo-option .pill {
+        font-size: 0.7rem;
+      }
+
+      .combo-no-results {
+        padding: 8px 12px;
+        color: var(--text-muted);
+        font-style: italic;
+      }
+
+      .search-bar .combo-box {
+        width: 320px;
+        max-width: 100%;
+      }
+
+      .toolbar .combo-box {
+        flex: 1;
+        min-width: 120px;
+      }
     </style>
   </head>
   <body>
@@ -427,7 +490,10 @@
     </div>
 
     <div class="search-bar">
-      <input id="userSearch" placeholder="Search username (highlights on chart)..." />
+      <div class="combo-box">
+        <input id="userSearch" placeholder="Search username (highlights on chart)..." autocomplete="off" />
+        <div class="combo-dropdown" id="userSearchDropdown"></div>
+      </div>
       <span style="margin-left:8px;font-size:0.8rem;color:var(--text-muted);">Tip: search multiple users with commas.</span>
     </div>
 
@@ -440,9 +506,15 @@
       <div class="card" style="grid-column: span 2;">
         <h3>Head-to-Head Lookup</h3>
         <div class="toolbar">
-          <input id="h2hUser1" placeholder="User 1..." style="flex:1;" />
+          <div class="combo-box">
+            <input id="h2hUser1" placeholder="User 1..." autocomplete="off" />
+            <div class="combo-dropdown" id="h2hUser1Dropdown"></div>
+          </div>
           <span style="color:var(--text-muted);">vs</span>
-          <input id="h2hUser2" placeholder="User 2..." style="flex:1;" />
+          <div class="combo-box">
+            <input id="h2hUser2" placeholder="User 2..." autocomplete="off" />
+            <div class="combo-dropdown" id="h2hUser2Dropdown"></div>
+          </div>
           <button class="chip-btn" id="h2hCompare">Compare</button>
         </div>
         <div id="h2hResult" style="display:none;margin-top:12px;">

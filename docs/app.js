@@ -57,6 +57,163 @@ function parseSearchNames(input) {
   return input.split(",").map(s => s.trim()).filter(Boolean).map(s => s.toLowerCase());
 }
 
+/**
+ * Initialize a combo box with autocomplete for user search
+ * @param {string} inputId - The input element ID
+ * @param {string} dropdownId - The dropdown element ID
+ * @param {object} options - Configuration options
+ *   - onSelect: callback when a user is selected (receives user object)
+ *   - onInput: callback on input change (receives raw input value)
+ *   - multiSelect: if true, supports comma-separated users
+ */
+function initComboBox(inputId, dropdownId, options = {}) {
+  const input = document.getElementById(inputId);
+  const dropdown = document.getElementById(dropdownId);
+  if (!input || !dropdown) return;
+
+  let highlightedIndex = -1;
+  let currentResults = [];
+
+  function getSearchTerm() {
+    const value = input.value;
+    if (options.multiSelect) {
+      // Get the last term after the last comma
+      const parts = value.split(",");
+      return parts[parts.length - 1].trim().toLowerCase();
+    }
+    return value.trim().toLowerCase();
+  }
+
+  function filterUsers(term) {
+    if (!term) return [];
+    return state.allUsers
+      .filter(u => u.user.toLowerCase().includes(term))
+      .slice(0, 10); // Limit to 10 results
+  }
+
+  function renderDropdown(results, searchTerm) {
+    currentResults = results;
+    highlightedIndex = -1;
+
+    if (!searchTerm) {
+      dropdown.classList.remove("visible");
+      dropdown.innerHTML = "";
+      return;
+    }
+
+    if (results.length === 0) {
+      dropdown.innerHTML = `<div class="combo-no-results">No user matching "${escapeHtml(searchTerm)}"</div>`;
+      dropdown.classList.add("visible");
+      return;
+    }
+
+    dropdown.innerHTML = results.map((user, idx) => {
+      const teamClass = user.team.toLowerCase();
+      return `<div class="combo-option" data-index="${idx}" data-user="${escapeHtml(user.user)}">
+        <span>${escapeHtml(user.user)}</span>
+        <span class="pill ${teamClass}">${user.team}</span>
+      </div>`;
+    }).join("");
+
+    dropdown.classList.add("visible");
+  }
+
+  function selectUser(user) {
+    if (options.multiSelect) {
+      // Replace the last term with the selected user
+      const parts = input.value.split(",");
+      parts[parts.length - 1] = " " + user.user;
+      input.value = parts.join(",").replace(/^,\s*/, "").trim();
+    } else {
+      input.value = user.user;
+    }
+
+    dropdown.classList.remove("visible");
+    dropdown.innerHTML = "";
+
+    if (options.onSelect) {
+      options.onSelect(user);
+    }
+
+    // Trigger input event for existing handlers
+    input.dispatchEvent(new Event("input", { bubbles: true }));
+  }
+
+  function updateHighlight() {
+    dropdown.querySelectorAll(".combo-option").forEach((opt, idx) => {
+      opt.classList.toggle("highlighted", idx === highlightedIndex);
+    });
+
+    // Scroll highlighted item into view
+    const highlighted = dropdown.querySelector(".combo-option.highlighted");
+    if (highlighted) {
+      highlighted.scrollIntoView({ block: "nearest" });
+    }
+  }
+
+  // Input event - filter and show dropdown
+  input.addEventListener("input", () => {
+    const term = getSearchTerm();
+    const results = filterUsers(term);
+    renderDropdown(results, term);
+
+    if (options.onInput) {
+      options.onInput(input.value);
+    }
+  });
+
+  // Focus event - show dropdown if there's text
+  input.addEventListener("focus", () => {
+    const term = getSearchTerm();
+    if (term) {
+      const results = filterUsers(term);
+      renderDropdown(results, term);
+    }
+  });
+
+  // Keyboard navigation
+  input.addEventListener("keydown", (e) => {
+    if (!dropdown.classList.contains("visible")) return;
+
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      highlightedIndex = Math.min(highlightedIndex + 1, currentResults.length - 1);
+      updateHighlight();
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      highlightedIndex = Math.max(highlightedIndex - 1, -1);
+      updateHighlight();
+    } else if (e.key === "Enter") {
+      if (highlightedIndex >= 0 && highlightedIndex < currentResults.length) {
+        e.preventDefault();
+        selectUser(currentResults[highlightedIndex]);
+      }
+    } else if (e.key === "Escape") {
+      dropdown.classList.remove("visible");
+      highlightedIndex = -1;
+    }
+  });
+
+  // Click on dropdown option
+  dropdown.addEventListener("click", (e) => {
+    const option = e.target.closest(".combo-option");
+    if (option) {
+      const idx = parseInt(option.dataset.index, 10);
+      if (currentResults[idx]) {
+        selectUser(currentResults[idx]);
+      }
+    }
+  });
+
+  // Close dropdown when clicking outside
+  document.addEventListener("click", (e) => {
+    if (!input.contains(e.target) && !dropdown.contains(e.target)) {
+      dropdown.classList.remove("visible");
+      highlightedIndex = -1;
+    }
+  });
+}
+
 // Team colors for charts
 const TEAM_COLORS = {
   Penguin: { bg: "rgba(59, 130, 246, 0.7)", border: "#3b82f6" },
@@ -1137,6 +1294,32 @@ function populateRoomFilter() {
 }
 
 function setupEventListeners() {
+  // Initialize combo boxes for user search (dropdown autocomplete)
+  initComboBox("userSearch", "userSearchDropdown", { multiSelect: true });
+
+  // Initialize combo boxes for H2H inputs
+  initComboBox("h2hUser1", "h2hUser1Dropdown", {
+    onSelect: () => {
+      // Auto-compare when both users are filled
+      const user1 = document.getElementById("h2hUser1").value.trim();
+      const user2 = document.getElementById("h2hUser2").value.trim();
+      if (user1 && user2) {
+        compareHeadToHead();
+      }
+    }
+  });
+
+  initComboBox("h2hUser2", "h2hUser2Dropdown", {
+    onSelect: () => {
+      // Auto-compare when both users are filled
+      const user1 = document.getElementById("h2hUser1").value.trim();
+      const user2 = document.getElementById("h2hUser2").value.trim();
+      if (user1 && user2) {
+        compareHeadToHead();
+      }
+    }
+  });
+
   // Search input
   const searchInput = document.getElementById("userSearch");
   searchInput.addEventListener("input", () => {
