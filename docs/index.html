@@ -474,6 +474,49 @@
         flex: 1;
         min-width: 120px;
       }
+
+      /* Data mode toggle */
+      .data-toggle {
+        display: flex;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        overflow: hidden;
+        font-size: 0.8rem;
+      }
+
+      .data-toggle-btn {
+        padding: 6px 12px;
+        border: none;
+        background: var(--card-bg);
+        color: var(--text-muted);
+        cursor: pointer;
+        transition: all 0.2s;
+        font-size: 0.8rem;
+      }
+
+      .data-toggle-btn:not(:last-child) {
+        border-right: 1px solid var(--border);
+      }
+
+      .data-toggle-btn:hover {
+        background: var(--hover-bg);
+      }
+
+      .data-toggle-btn.active {
+        background: var(--penguin-color);
+        color: white;
+      }
+
+      .data-mode-indicator {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .data-mode-label {
+        font-size: 0.75rem;
+        color: var(--text-muted);
+      }
     </style>
   </head>
   <body>
@@ -486,6 +529,13 @@
         <img src="./snowy-logo.png" alt="Snowball Fight" class="logo" />
       </div>
       <div class="team-stats" id="teamStats"></div>
+      <div class="data-mode-indicator">
+        <span class="data-mode-label">Data:</span>
+        <div class="data-toggle">
+          <button class="data-toggle-btn active" id="dataModeLive" title="View live data">Live</button>
+          <button class="data-toggle-btn" id="dataModePreReset" title="View pre-reset historical data">Pre-Reset</button>
+        </div>
+      </div>
       <button class="theme-toggle" id="themeToggle" title="Toggle dark mode">🌙</button>
     </div>
 

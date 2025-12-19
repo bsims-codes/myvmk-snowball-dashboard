@@ -255,8 +255,113 @@ const state = {
   // Victim breakdown state
   victimBreakdown: [],
   victimSearch: "",
-  victimTeamFilter: "All"
+  victimTeamFilter: "All",
+  // Data mode: "live" or "pre-reset"
+  dataMode: "live"
 };
+
+/**
+ * Get the data path based on current data mode
+ */
+function getDataPath() {
+  return state.dataMode === "pre-reset" ? "./data/archive/pre-reset" : "./data";
+}
+
+/**
+ * Update data mode toggle UI
+ */
+function updateDataModeUI() {
+  const liveBtn = document.getElementById("dataModeLive");
+  const preResetBtn = document.getElementById("dataModePreReset");
+
+  if (liveBtn && preResetBtn) {
+    liveBtn.classList.toggle("active", state.dataMode === "live");
+    preResetBtn.classList.toggle("active", state.dataMode === "pre-reset");
+  }
+}
+
+/**
+ * Load all data and refresh the entire dashboard
+ */
+async function loadAndRefreshData() {
+  const basePath = getDataPath();
+
+  try {
+    document.getElementById("meta").textContent = "Loading data...";
+
+    const [summary, users, roomsSummary, events] = await Promise.all([
+      loadJSON(`${basePath}/summary.json`),
+      loadJSON(`${basePath}/users.json`),
+      loadJSON(`${basePath}/rooms_summary.json`),
+      loadJSON(`${basePath}/events.json`)
+    ]);
+
+    // Update metadata with data mode indicator
+    const modeLabel = state.dataMode === "pre-reset" ? " [PRE-RESET]" : "";
+    document.getElementById("meta").textContent =
+      `Last updated: ${new Date(summary.generatedAt).toLocaleString()}${modeLabel} | ` +
+      `${summary.totalRows?.toLocaleString() || 0} events | ` +
+      `${summary.totalUsers?.toLocaleString() || 0} users`;
+
+    // Update state
+    state.allUsers = users;
+    state.usersIndex = new Map(users.map(u => [u.user, u]));
+    state.allEvents = events;
+    state.victimBreakdown = buildVictimBreakdown(events);
+
+    // Render components
+    renderTeamStats(summary);
+    renderTopLists(summary);
+
+    // Apply initial filter/sort
+    applyFilterSort();
+    buildUsersTable();
+    updateSelectionUI();
+
+    // Destroy existing charts before recreating
+    if (state.scatterChart) {
+      state.scatterChart.destroy();
+      state.scatterChart = null;
+    }
+    if (state.roomsChart) {
+      state.roomsChart.destroy();
+      state.roomsChart = null;
+    }
+    if (state.dailyChart) {
+      state.dailyChart.destroy();
+      state.dailyChart = null;
+    }
+
+    // Create charts
+    createScatter(document.getElementById("scatter"), summary);
+    createRoomsChart(document.getElementById("roomsChart"), roomsSummary);
+    createDailyChart(document.getElementById("dailyChart"), events);
+
+    // Render tables
+    renderVictimBreakdownTable();
+    populateRoomFilter();
+    renderEventsTable();
+
+    // Render heatmap
+    renderHeatmap();
+
+  } catch (err) {
+    console.error(err);
+    document.getElementById("meta").textContent = `Error loading data: ${err.message}`;
+  }
+}
+
+/**
+ * Switch data mode and reload
+ */
+async function switchDataMode(mode) {
+  if (state.dataMode === mode) return;
+
+  state.dataMode = mode;
+  localStorage.setItem("dataMode", mode);
+  updateDataModeUI();
+  await loadAndRefreshData();
+}
 
 /**
  * Parse and evaluate filter expressions like "attacks > 100, ratio >= 2"
@@ -1455,53 +1560,28 @@ function setupEventListeners() {
   const themeToggle = document.getElementById("themeToggle");
   themeToggle?.addEventListener("click", toggleDarkMode);
   updateThemeToggleIcon();
+
+  // Data mode toggle
+  const dataModeLive = document.getElementById("dataModeLive");
+  const dataModePreReset = document.getElementById("dataModePreReset");
+  dataModeLive?.addEventListener("click", () => switchDataMode("live"));
+  dataModePreReset?.addEventListener("click", () => switchDataMode("pre-reset"));
 }
 
 (async function main() {
   try {
-    const [summary, users, roomsSummary, events] = await Promise.all([
-      loadJSON("./data/summary.json"),
-      loadJSON("./data/users.json"),
-      loadJSON("./data/rooms_summary.json"),
-      loadJSON("./data/events.json")
-    ]);
+    // Restore saved data mode preference (default to "live")
+    const savedMode = localStorage.getItem("dataMode");
+    if (savedMode === "pre-reset") {
+      state.dataMode = "pre-reset";
+    }
+    updateDataModeUI();
 
-    // Update metadata
-    document.getElementById("meta").textContent =
-      `Last updated: ${new Date(summary.generatedAt).toLocaleString()} | ` +
-      `${summary.totalRows?.toLocaleString() || 0} events | ` +
-      `${summary.totalUsers?.toLocaleString() || 0} users`;
-
-    // Initialize state
-    state.allUsers = users;
-    state.usersIndex = new Map(users.map(u => [u.user, u]));
-    state.allEvents = events;
-    state.victimBreakdown = buildVictimBreakdown(events);
-
-    // Render components
-    renderTeamStats(summary);
-    renderTopLists(summary);
-
-  // Apply initial filter/sort
-  applyFilterSort();
-  buildUsersTable();
-  updateSelectionUI();
-
-  // Create charts
-  createScatter(document.getElementById("scatter"), summary);
-    createRoomsChart(document.getElementById("roomsChart"), roomsSummary);
-    createDailyChart(document.getElementById("dailyChart"), events);
-
-    // Render new tables
-    renderVictimBreakdownTable();
-    populateRoomFilter();
-    renderEventsTable();
-
-    // Render heatmap
-    renderHeatmap();
-
-    // Setup event listeners
+    // Setup event listeners first (for combo boxes to work during data load)
     setupEventListeners();
+
+    // Load and render all data
+    await loadAndRefreshData();
 
   } catch (err) {
     console.error(err);
