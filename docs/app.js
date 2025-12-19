@@ -46,13 +46,14 @@ async function fetchTeamTotals() {
     if (!res.ok) return null;
 
     const text = await res.text();
-    const lines = text.trim().split("\n").slice(1); // Skip header row
+    // Handle both \r\n and \n line endings
+    const lines = text.trim().split(/\r?\n/).slice(1); // Skip header row
 
     let penguin = 0;
     let reindeer = 0;
 
     for (const line of lines) {
-      const [, team] = line.split(",");
+      const team = line.split(",")[1]?.trim();
       if (team === "1") penguin++;
       else if (team === "0") reindeer++;
     }
