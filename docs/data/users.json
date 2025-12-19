@@ -16,9 +16,9 @@
   {
     "user": "bunny",
     "team": "Penguin",
-    "attacks": 114,
-    "hitsTaken": 45,
-    "ratio": 2.533333333333333
+    "attacks": 118,
+    "hitsTaken": 47,
+    "ratio": 2.5106382978723403
   },
   {
     "user": "VMKNeec",
@@ -65,9 +65,16 @@
   {
     "user": "Meg",
     "team": "Penguin",
-    "attacks": 72,
-    "hitsTaken": 53,
-    "ratio": 1.3584905660377358
+    "attacks": 74,
+    "hitsTaken": 54,
+    "ratio": 1.3703703703703705
+  },
+  {
+    "user": "Kronkx",
+    "team": "Reindeer",
+    "attacks": 64,
+    "hitsTaken": 43,
+    "ratio": 1.4883720930232558
   },
   {
     "user": "Mirk",
@@ -75,13 +82,6 @@
     "attacks": 61,
     "hitsTaken": 29,
     "ratio": 2.103448275862069
-  },
-  {
-    "user": "Kronkx",
-    "team": "Reindeer",
-    "attacks": 55,
-    "hitsTaken": 38,
-    "ratio": 1.4473684210526316
   },
   {
     "user": "BluPirate",
@@ -119,11 +119,18 @@
     "ratio": 0.6097560975609756
   },
   {
+    "user": "Devgirlforever",
+    "team": "Penguin",
+    "attacks": 24,
+    "hitsTaken": 50,
+    "ratio": 0.48
+  },
+  {
     "user": "tuna",
     "team": "Penguin",
     "attacks": 24,
-    "hitsTaken": 3,
-    "ratio": 8
+    "hitsTaken": 4,
+    "ratio": 6
   },
   {
     "user": "Redsox",
@@ -138,13 +145,6 @@
     "attacks": 21,
     "hitsTaken": 33,
     "ratio": 0.6363636363636364
-  },
-  {
-    "user": "Devgirlforever",
-    "team": "Penguin",
-    "attacks": 21,
-    "hitsTaken": 45,
-    "ratio": 0.4666666666666667
   },
   {
     "user": "SammyxxFairy",
@@ -381,7 +381,14 @@
     "user": "RootsieRoo",
     "team": "Reindeer",
     "attacks": 0,
-    "hitsTaken": 1,
+    "hitsTaken": 3,
+    "ratio": 0
+  },
+  {
+    "user": "bbgigi",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 2,
     "ratio": 0
   }
 ]

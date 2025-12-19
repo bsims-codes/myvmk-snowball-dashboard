@@ -31,9 +31,9 @@
   },
   {
     "roomName": "Gallery",
-    "hitCount": 35,
-    "avgUserRatio": 1.24,
-    "activeUsers": 16
+    "hitCount": 44,
+    "avgUserRatio": 1.25,
+    "activeUsers": 17
   },
   {
     "roomName": "Pixar Pier Entrance",
@@ -73,8 +73,8 @@
   },
   {
     "roomName": "WS - Mexico",
-    "hitCount": 15,
-    "avgUserRatio": 1.06,
+    "hitCount": 17,
+    "avgUserRatio": 1.04,
     "activeUsers": 5
   },
   {
@@ -120,6 +120,12 @@
     "activeUsers": 4
   },
   {
+    "roomName": "Shrunken Ned's Shop",
+    "hitCount": 6,
+    "avgUserRatio": 1.2,
+    "activeUsers": 5
+  },
+  {
     "roomName": "Nautilus Grotto",
     "hitCount": 6,
     "avgUserRatio": 1.17,
@@ -144,22 +150,16 @@
     "activeUsers": 5
   },
   {
-    "roomName": "Shrunken Ned's Shop",
+    "roomName": "Castle Gardens",
     "hitCount": 4,
-    "avgUserRatio": 2,
-    "activeUsers": 2
+    "avgUserRatio": 0.67,
+    "activeUsers": 6
   },
   {
     "roomName": "Lost Safari Party",
     "hitCount": 3,
     "avgUserRatio": 1.5,
     "activeUsers": 2
-  },
-  {
-    "roomName": "Castle Gardens",
-    "hitCount": 3,
-    "avgUserRatio": 0.75,
-    "activeUsers": 4
   },
   {
     "roomName": "WS - Norway",
@@ -186,6 +186,12 @@
     "activeUsers": 2
   },
   {
+    "roomName": "Banquet Hall",
+    "hitCount": 2,
+    "avgUserRatio": 1,
+    "activeUsers": 2
+  },
+  {
     "roomName": "WS - United Kingdom",
     "hitCount": 1,
     "avgUserRatio": 0.5,
@@ -193,6 +199,18 @@
   },
   {
     "roomName": "Everest Entrance",
+    "hitCount": 1,
+    "avgUserRatio": 0.5,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "Forbidden Temple",
+    "hitCount": 1,
+    "avgUserRatio": 0.5,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "Discovery Trading Company",
     "hitCount": 1,
     "avgUserRatio": 0.5,
     "activeUsers": 2
