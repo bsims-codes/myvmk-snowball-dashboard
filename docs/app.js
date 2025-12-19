@@ -36,6 +36,34 @@ async function loadJSON(path) {
   return res.json();
 }
 
+/**
+ * Fetch total team member counts from the snow teams API
+ * Returns { Penguin: number, Reindeer: number }
+ */
+async function fetchTeamTotals() {
+  try {
+    const res = await fetch("https://www.myvmk.com/api/getsnowteams", { cache: "no-store" });
+    if (!res.ok) return null;
+
+    const text = await res.text();
+    const lines = text.trim().split("\n").slice(1); // Skip header row
+
+    let penguin = 0;
+    let reindeer = 0;
+
+    for (const line of lines) {
+      const [, team] = line.split(",");
+      if (team === "1") penguin++;
+      else if (team === "0") reindeer++;
+    }
+
+    return { Penguin: penguin, Reindeer: reindeer };
+  } catch (err) {
+    console.warn("Failed to fetch team totals:", err);
+    return null;
+  }
+}
+
 function fmt(n, decimals = 2) {
   if (n == null) return "";
   if (typeof n === "number") {
@@ -289,11 +317,14 @@ async function loadAndRefreshData() {
   try {
     document.getElementById("meta").textContent = "Loading data...";
 
-    const [summary, users, roomsSummary, events] = await Promise.all([
+    // Load data files and fetch team totals in parallel
+    const [summary, users, roomsSummary, events, teamTotals] = await Promise.all([
       loadJSON(`${basePath}/summary.json`),
       loadJSON(`${basePath}/users.json`),
       loadJSON(`${basePath}/rooms_summary.json`),
-      loadJSON(`${basePath}/events.json`)
+      loadJSON(`${basePath}/events.json`),
+      // Only fetch live team totals for live mode (pre-reset teams no longer exist in API)
+      state.dataMode === "live" ? fetchTeamTotals() : Promise.resolve(null)
     ]);
 
     // Update metadata with data mode indicator
@@ -309,8 +340,8 @@ async function loadAndRefreshData() {
     state.allEvents = events;
     state.victimBreakdown = buildVictimBreakdown(events);
 
-    // Render components
-    renderTeamStats(summary);
+    // Render components (pass team totals for accurate member counts)
+    renderTeamStats(summary, teamTotals);
     renderTopLists(summary);
 
     // Apply initial filter/sort
@@ -453,7 +484,7 @@ function evaluateFilter(row, conditions) {
   return true;
 }
 
-function renderTeamStats(summary) {
+function renderTeamStats(summary, teamTotals) {
   const container = document.getElementById("teamStats");
   const ts = summary.teamStats || {};
 
@@ -467,14 +498,20 @@ function renderTeamStats(summary) {
     reindeer: 'reindeer.png'
   };
 
-  container.innerHTML = items.map(item => `
-    <div class="team-stat ${item.team}">
-      ${logoMap[item.team] ? `<img src="${logoMap[item.team]}" alt="${item.label}" class="team-logo">` : ''}
-      <div class="label">${item.label}</div>
-      <div class="value">${item.data.users || 0}</div>
-      <div class="label">${fmt(item.data.attacks || 0, 0)} atk</div>
-    </div>
-  `).join("");
+  container.innerHTML = items.map(item => {
+    // Use API total if available, otherwise fall back to participant count
+    const totalMembers = teamTotals?.[item.label] ?? item.data.users ?? 0;
+    const participants = item.data.users || 0;
+
+    return `
+      <div class="team-stat ${item.team}">
+        ${logoMap[item.team] ? `<img src="${logoMap[item.team]}" alt="${item.label}" class="team-logo">` : ''}
+        <div class="label">${item.label}</div>
+        <div class="value">${totalMembers}</div>
+        <div class="label">${participants} active · ${fmt(item.data.attacks || 0, 0)} atk</div>
+      </div>
+    `;
+  }).join("");
 }
 
 function renderTopLists(summary) {
