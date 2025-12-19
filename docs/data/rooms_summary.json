@@ -1,15 +1,15 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 612,
-    "avgUserRatio": 2.06,
-    "activeUsers": 34
+    "hitCount": 621,
+    "avgUserRatio": 2.02,
+    "activeUsers": 35
   },
   {
     "roomName": "Monorail Station",
-    "hitCount": 447,
-    "avgUserRatio": 2.45,
-    "activeUsers": 21
+    "hitCount": 486,
+    "avgUserRatio": 2.54,
+    "activeUsers": 25
   },
   {
     "roomName": "Central Plaza",
@@ -18,10 +18,28 @@
     "activeUsers": 17
   },
   {
+    "roomName": "Monorail Train",
+    "hitCount": 116,
+    "avgUserRatio": 3.14,
+    "activeUsers": 13
+  },
+  {
+    "roomName": "Pixar Pier Entrance",
+    "hitCount": 78,
+    "avgUserRatio": 1.56,
+    "activeUsers": 17
+  },
+  {
     "roomName": "VMK Esplanade",
     "hitCount": 68,
     "avgUserRatio": 1.29,
     "activeUsers": 27
+  },
+  {
+    "roomName": "Tomorrowland Hub",
+    "hitCount": 59,
+    "avgUserRatio": 1.72,
+    "activeUsers": 13
   },
   {
     "roomName": "Pirate Treehouse",
@@ -36,10 +54,16 @@
     "activeUsers": 17
   },
   {
-    "roomName": "Pixar Pier Entrance",
-    "hitCount": 32,
-    "avgUserRatio": 1.08,
-    "activeUsers": 15
+    "roomName": "Town Square",
+    "hitCount": 26,
+    "avgUserRatio": 1.14,
+    "activeUsers": 18
+  },
+  {
+    "roomName": "Jungle Cruise Dock",
+    "hitCount": 26,
+    "avgUserRatio": 1.56,
+    "activeUsers": 8
   },
   {
     "roomName": "Discovery Island",
@@ -58,12 +82,6 @@
     "hitCount": 22,
     "avgUserRatio": 2.03,
     "activeUsers": 9
-  },
-  {
-    "roomName": "Town Square",
-    "hitCount": 17,
-    "avgUserRatio": 1.06,
-    "activeUsers": 14
   },
   {
     "roomName": "Dungeon",
@@ -90,22 +108,10 @@
     "activeUsers": 9
   },
   {
-    "roomName": "Monorail Train",
-    "hitCount": 11,
-    "avgUserRatio": 0.83,
-    "activeUsers": 5
-  },
-  {
     "roomName": "Spell Room",
     "hitCount": 10,
     "avgUserRatio": 1.29,
     "activeUsers": 7
-  },
-  {
-    "roomName": "Jungle Cruise Dock",
-    "hitCount": 9,
-    "avgUserRatio": 1.5,
-    "activeUsers": 6
   },
   {
     "roomName": "Blue Bayou",
@@ -211,6 +217,12 @@
   },
   {
     "roomName": "Discovery Trading Company",
+    "hitCount": 1,
+    "avgUserRatio": 0.5,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "Festival of the Lion King",
     "hitCount": 1,
     "avgUserRatio": 0.5,
     "activeUsers": 2
