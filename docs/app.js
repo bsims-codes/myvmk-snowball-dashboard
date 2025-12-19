@@ -78,7 +78,7 @@ async function fetchTeamData() {
 /**
  * Render team roster tables
  */
-function renderTeamRosters(teamData) {
+function renderTeamRosters(teamData, penguinFilter = "", reindeerFilter = "") {
   const penguinTable = document.getElementById("penguinRosterTable");
   const reindeerTable = document.getElementById("reindeerRosterTable");
   const penguinCount = document.getElementById("penguinRosterCount");
@@ -95,15 +95,38 @@ function renderTeamRosters(teamData) {
 
   const { rosters } = teamData;
 
-  // Update counts
-  if (penguinCount) penguinCount.textContent = `(${rosters.Penguin.length})`;
-  if (reindeerCount) reindeerCount.textContent = `(${rosters.Reindeer.length})`;
+  // Filter rosters
+  const penguinFilterLower = penguinFilter.toLowerCase();
+  const reindeerFilterLower = reindeerFilter.toLowerCase();
+
+  const filteredPenguin = penguinFilter
+    ? rosters.Penguin.filter(u => u.toLowerCase().includes(penguinFilterLower))
+    : rosters.Penguin;
+
+  const filteredReindeer = reindeerFilter
+    ? rosters.Reindeer.filter(u => u.toLowerCase().includes(reindeerFilterLower))
+    : rosters.Reindeer;
+
+  // Update counts (show filtered/total)
+  if (penguinCount) {
+    penguinCount.textContent = penguinFilter
+      ? `(${filteredPenguin.length}/${rosters.Penguin.length})`
+      : `(${rosters.Penguin.length})`;
+  }
+  if (reindeerCount) {
+    reindeerCount.textContent = reindeerFilter
+      ? `(${filteredReindeer.length}/${rosters.Reindeer.length})`
+      : `(${rosters.Reindeer.length})`;
+  }
 
   // Render Penguin roster
   if (penguinTable) {
     penguinTable.innerHTML = `
       <tr><th>Username</th></tr>
-      ${rosters.Penguin.map(u => `<tr><td>${escapeHtml(u)}</td></tr>`).join("")}
+      ${filteredPenguin.length > 0
+        ? filteredPenguin.map(u => `<tr><td>${escapeHtml(u)}</td></tr>`).join("")
+        : `<tr><td style="color:var(--text-muted);">No members matching "${escapeHtml(penguinFilter)}"</td></tr>`
+      }
     `;
   }
 
@@ -111,10 +134,16 @@ function renderTeamRosters(teamData) {
   if (reindeerTable) {
     reindeerTable.innerHTML = `
       <tr><th>Username</th></tr>
-      ${rosters.Reindeer.map(u => `<tr><td>${escapeHtml(u)}</td></tr>`).join("")}
+      ${filteredReindeer.length > 0
+        ? filteredReindeer.map(u => `<tr><td>${escapeHtml(u)}</td></tr>`).join("")
+        : `<tr><td style="color:var(--text-muted);">No members matching "${escapeHtml(reindeerFilter)}"</td></tr>`
+      }
     `;
   }
 }
+
+// Store team data globally for filtering
+let currentTeamData = null;
 
 function fmt(n, decimals = 2) {
   if (n == null) return "";
@@ -411,10 +440,19 @@ async function loadAndRefreshData() {
     state.allEvents = events;
     state.victimBreakdown = buildVictimBreakdown(events);
 
+    // Store team data for roster filtering
+    currentTeamData = teamData;
+
     // Render components (pass team totals for accurate member counts)
     renderTeamStats(summary, teamData?.totals);
     renderTopLists(summary);
     renderTeamRosters(teamData);
+
+    // Clear roster search inputs
+    const penguinSearch = document.getElementById("penguinRosterSearch");
+    const reindeerSearch = document.getElementById("reindeerRosterSearch");
+    if (penguinSearch) penguinSearch.value = "";
+    if (reindeerSearch) reindeerSearch.value = "";
 
     // Apply initial filter/sort
     applyFilterSort();
@@ -1675,6 +1713,22 @@ function setupEventListeners() {
   const dataModePreReset = document.getElementById("dataModePreReset");
   dataModeLive?.addEventListener("click", () => switchDataMode("live"));
   dataModePreReset?.addEventListener("click", () => switchDataMode("pre-reset"));
+
+  // Roster search filters
+  const penguinRosterSearch = document.getElementById("penguinRosterSearch");
+  const reindeerRosterSearch = document.getElementById("reindeerRosterSearch");
+
+  penguinRosterSearch?.addEventListener("input", () => {
+    const penguinFilter = penguinRosterSearch.value || "";
+    const reindeerFilter = reindeerRosterSearch?.value || "";
+    renderTeamRosters(currentTeamData, penguinFilter, reindeerFilter);
+  });
+
+  reindeerRosterSearch?.addEventListener("input", () => {
+    const penguinFilter = penguinRosterSearch?.value || "";
+    const reindeerFilter = reindeerRosterSearch.value || "";
+    renderTeamRosters(currentTeamData, penguinFilter, reindeerFilter);
+  });
 }
 
 (async function main() {

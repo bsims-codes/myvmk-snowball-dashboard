@@ -526,7 +526,6 @@
       }
 
       .section-link-btn {
-        opacity: 0;
         background: none;
         border: none;
         color: var(--text-muted);
@@ -534,12 +533,7 @@
         padding: 2px 6px;
         font-size: 0.85rem;
         border-radius: 4px;
-        transition: opacity 0.2s, background 0.2s;
-      }
-
-      .section-header:hover .section-link-btn,
-      .section-link-btn:focus {
-        opacity: 1;
+        transition: background 0.2s, color 0.2s;
       }
 
       .section-link-btn:hover {
@@ -707,6 +701,9 @@
           <span id="penguinRosterCount" style="font-weight:normal;color:var(--text-muted);font-size:0.875rem;"></span>
           <button class="section-link-btn" onclick="copySectionLink('penguin-roster', this)" title="Copy link to section">🔗</button>
         </h3>
+        <div class="toolbar">
+          <input id="penguinRosterSearch" placeholder="Search Penguin members..." />
+        </div>
         <div class="scroll" style="max-height:300px;">
           <table id="penguinRosterTable"></table>
         </div>
@@ -718,6 +715,9 @@
           <span id="reindeerRosterCount" style="font-weight:normal;color:var(--text-muted);font-size:0.875rem;"></span>
           <button class="section-link-btn" onclick="copySectionLink('reindeer-roster', this)" title="Copy link to section">🔗</button>
         </h3>
+        <div class="toolbar">
+          <input id="reindeerRosterSearch" placeholder="Search Reindeer members..." />
+        </div>
         <div class="scroll" style="max-height:300px;">
           <table id="reindeerRosterTable"></table>
         </div>
