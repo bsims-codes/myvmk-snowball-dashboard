@@ -6,16 +6,16 @@
     "activeUsers": 21
   },
   {
+    "roomName": "Captain's Quest Quarters",
+    "hitCount": 436,
+    "avgUserRatio": 2.81,
+    "activeUsers": 30
+  },
+  {
     "roomName": "Central Plaza",
     "hitCount": 244,
     "avgUserRatio": 1.43,
     "activeUsers": 17
-  },
-  {
-    "roomName": "Captain's Quest Quarters",
-    "hitCount": 175,
-    "avgUserRatio": 1.8,
-    "activeUsers": 28
   },
   {
     "roomName": "Pirate Treehouse",
@@ -36,16 +36,16 @@
     "activeUsers": 5
   },
   {
+    "roomName": "Autopia Off Road on Mars",
+    "hitCount": 23,
+    "avgUserRatio": 1.31,
+    "activeUsers": 11
+  },
+  {
     "roomName": "Castle Forecourt",
     "hitCount": 22,
     "avgUserRatio": 2.03,
     "activeUsers": 9
-  },
-  {
-    "roomName": "Autopia Off Road on Mars",
-    "hitCount": 19,
-    "avgUserRatio": 1.11,
-    "activeUsers": 10
   },
   {
     "roomName": "Main Street",
@@ -60,28 +60,46 @@
     "activeUsers": 5
   },
   {
+    "roomName": "Town Square",
+    "hitCount": 11,
+    "avgUserRatio": 0.86,
+    "activeUsers": 11
+  },
+  {
+    "roomName": "Matterhorn",
+    "hitCount": 11,
+    "avgUserRatio": 1.02,
+    "activeUsers": 9
+  },
+  {
     "roomName": "Monorail Train",
     "hitCount": 11,
     "avgUserRatio": 0.83,
     "activeUsers": 5
   },
   {
-    "roomName": "Town Square",
-    "hitCount": 10,
-    "avgUserRatio": 0.82,
-    "activeUsers": 11
-  },
-  {
-    "roomName": "Matterhorn",
-    "hitCount": 9,
-    "avgUserRatio": 1.31,
-    "activeUsers": 6
-  },
-  {
     "roomName": "Jungle Cruise Dock",
     "hitCount": 9,
     "avgUserRatio": 1.5,
     "activeUsers": 6
+  },
+  {
+    "roomName": "Blue Bayou",
+    "hitCount": 8,
+    "avgUserRatio": 1.6,
+    "activeUsers": 5
+  },
+  {
+    "roomName": "Nautilus Grotto",
+    "hitCount": 6,
+    "avgUserRatio": 1.17,
+    "activeUsers": 3
+  },
+  {
+    "roomName": "Autopia Quest Track",
+    "hitCount": 5,
+    "avgUserRatio": 1.42,
+    "activeUsers": 3
   },
   {
     "roomName": "Dungeon",
@@ -96,12 +114,6 @@
     "activeUsers": 4
   },
   {
-    "roomName": "Blue Bayou",
-    "hitCount": 4,
-    "avgUserRatio": 2,
-    "activeUsers": 2
-  },
-  {
     "roomName": "Shrunken Ned's Shop",
     "hitCount": 4,
     "avgUserRatio": 2,
@@ -114,13 +126,13 @@
     "activeUsers": 2
   },
   {
-    "roomName": "Shipwreck Graveyard",
-    "hitCount": 2,
-    "avgUserRatio": 1,
+    "roomName": "VMK Gallery",
+    "hitCount": 3,
+    "avgUserRatio": 1.25,
     "activeUsers": 2
   },
   {
-    "roomName": "Autopia Quest Track",
+    "roomName": "Shipwreck Graveyard",
     "hitCount": 2,
     "avgUserRatio": 1,
     "activeUsers": 2
@@ -139,6 +151,12 @@
   },
   {
     "roomName": "WS - United Kingdom",
+    "hitCount": 1,
+    "avgUserRatio": 0.5,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "Epcot Entrance",
     "hitCount": 1,
     "avgUserRatio": 0.5,
     "activeUsers": 2
