@@ -1,8 +1,8 @@
 [
   {
     "roomName": "Monorail Station",
-    "hitCount": 445,
-    "avgUserRatio": 2.43,
+    "hitCount": 447,
+    "avgUserRatio": 2.45,
     "activeUsers": 21
   },
   {
@@ -13,9 +13,9 @@
   },
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 163,
-    "avgUserRatio": 1.82,
-    "activeUsers": 22
+    "hitCount": 175,
+    "avgUserRatio": 1.8,
+    "activeUsers": 28
   },
   {
     "roomName": "Pirate Treehouse",
@@ -25,9 +25,9 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 40,
-    "avgUserRatio": 1.25,
-    "activeUsers": 15
+    "hitCount": 42,
+    "avgUserRatio": 1.16,
+    "activeUsers": 17
   },
   {
     "roomName": "Discovery Island",
@@ -54,6 +54,12 @@
     "activeUsers": 7
   },
   {
+    "roomName": "Gallery",
+    "hitCount": 12,
+    "avgUserRatio": 1.07,
+    "activeUsers": 5
+  },
+  {
     "roomName": "Monorail Train",
     "hitCount": 11,
     "avgUserRatio": 0.83,
@@ -78,6 +84,12 @@
     "activeUsers": 6
   },
   {
+    "roomName": "Dungeon",
+    "hitCount": 5,
+    "avgUserRatio": 0.67,
+    "activeUsers": 6
+  },
+  {
     "roomName": "Adventureland Bazaar",
     "hitCount": 5,
     "avgUserRatio": 0.88,
@@ -93,12 +105,6 @@
     "roomName": "Shrunken Ned's Shop",
     "hitCount": 4,
     "avgUserRatio": 2,
-    "activeUsers": 2
-  },
-  {
-    "roomName": "Gallery",
-    "hitCount": 4,
-    "avgUserRatio": 1.67,
     "activeUsers": 2
   },
   {
@@ -126,9 +132,15 @@
     "activeUsers": 3
   },
   {
-    "roomName": "Dungeon",
+    "roomName": "Fantasyland in The Sky",
     "hitCount": 2,
     "avgUserRatio": 1,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "WS - United Kingdom",
+    "hitCount": 1,
+    "avgUserRatio": 0.5,
     "activeUsers": 2
   }
 ]
