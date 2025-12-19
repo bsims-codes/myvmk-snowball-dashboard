@@ -1,10 +1,45 @@
 [
   {
+    "user": "bunny",
+    "team": "Penguin",
+    "attacks": 63,
+    "hitsTaken": 26,
+    "ratio": 2.423076923076923
+  },
+  {
     "user": "Kronkx",
     "team": "Reindeer",
+    "attacks": 23,
+    "hitsTaken": 10,
+    "ratio": 2.3
+  },
+  {
+    "user": "CaptainBubbles",
+    "team": "Reindeer",
+    "attacks": 22,
+    "hitsTaken": 29,
+    "ratio": 0.7586206896551724
+  },
+  {
+    "user": "VMKNeec",
+    "team": "Penguin",
+    "attacks": 19,
+    "hitsTaken": 21,
+    "ratio": 0.9047619047619048
+  },
+  {
+    "user": "shelbitb",
+    "team": "Reindeer",
     "attacks": 15,
-    "hitsTaken": 5,
-    "ratio": 3
+    "hitsTaken": 23,
+    "ratio": 0.6521739130434783
+  },
+  {
+    "user": "lotuskitty",
+    "team": "Reindeer",
+    "attacks": 12,
+    "hitsTaken": 9,
+    "ratio": 1.3333333333333333
   },
   {
     "user": "Mali",
@@ -14,31 +49,52 @@
     "ratio": 0.8333333333333334
   },
   {
-    "user": "lotuskitty",
-    "team": "Reindeer",
-    "attacks": 10,
-    "hitsTaken": 8,
-    "ratio": 1.25
-  },
-  {
-    "user": "rockin_rachael",
-    "team": "Reindeer",
-    "attacks": 3,
-    "hitsTaken": 0,
+    "user": "Meg",
+    "team": "Penguin",
+    "attacks": 9,
+    "hitsTaken": 3,
     "ratio": 3
   },
   {
     "user": "PhatPotato",
     "team": "Penguin",
-    "attacks": 2,
-    "hitsTaken": 15,
-    "ratio": 0.13333333333333333
+    "attacks": 4,
+    "hitsTaken": 17,
+    "ratio": 0.23529411764705882
   },
   {
-    "user": "VMKNeec",
-    "team": "Penguin",
+    "user": "protozoa",
+    "team": "Reindeer",
+    "attacks": 4,
+    "hitsTaken": 7,
+    "ratio": 0.5714285714285714
+  },
+  {
+    "user": "rockin_rachael",
+    "team": "Reindeer",
+    "attacks": 3,
+    "hitsTaken": 1,
+    "ratio": 3
+  },
+  {
+    "user": "wildgirlpony",
+    "team": "Reindeer",
+    "attacks": 3,
+    "hitsTaken": 25,
+    "ratio": 0.12
+  },
+  {
+    "user": "therealbear",
+    "team": "Reindeer",
     "attacks": 1,
     "hitsTaken": 1,
     "ratio": 1
+  },
+  {
+    "user": "Ash_Mccash",
+    "team": "Penguin",
+    "attacks": 0,
+    "hitsTaken": 4,
+    "ratio": 0
   }
 ]

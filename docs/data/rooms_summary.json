@@ -1,15 +1,57 @@
 [
   {
+    "roomName": "Central Plaza",
+    "hitCount": 83,
+    "avgUserRatio": 1.19,
+    "activeUsers": 6
+  },
+  {
+    "roomName": "Captain's Quest Quarters",
+    "hitCount": 32,
+    "avgUserRatio": 3.3,
+    "activeUsers": 6
+  },
+  {
     "roomName": "Discovery Island",
     "hitCount": 25,
     "avgUserRatio": 3.49,
     "activeUsers": 5
   },
   {
+    "roomName": "Autopia Off Road on Mars",
+    "hitCount": 12,
+    "avgUserRatio": 1.09,
+    "activeUsers": 7
+  },
+  {
     "roomName": "Pirate Treehouse",
     "hitCount": 11,
     "avgUserRatio": 1.92,
     "activeUsers": 4
+  },
+  {
+    "roomName": "Castle Forecourt",
+    "hitCount": 6,
+    "avgUserRatio": 0.83,
+    "activeUsers": 4
+  },
+  {
+    "roomName": "Blue Bayou",
+    "hitCount": 4,
+    "avgUserRatio": 2,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "Monorail Station",
+    "hitCount": 4,
+    "avgUserRatio": 1.17,
+    "activeUsers": 3
+  },
+  {
+    "roomName": "Matterhorn",
+    "hitCount": 3,
+    "avgUserRatio": 1.25,
+    "activeUsers": 2
   },
   {
     "roomName": "Shipwreck Graveyard",
@@ -24,7 +66,19 @@
     "activeUsers": 2
   },
   {
-    "roomName": "Captain's Quest Quarters",
+    "roomName": "Autopia Quest Track",
+    "hitCount": 2,
+    "avgUserRatio": 1,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "Storybookland",
+    "hitCount": 1,
+    "avgUserRatio": 0.5,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "Main Street",
     "hitCount": 1,
     "avgUserRatio": 0.5,
     "activeUsers": 2
