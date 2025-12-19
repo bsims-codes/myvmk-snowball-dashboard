@@ -145,6 +145,256 @@ function renderTeamRosters(teamData, penguinFilter = "", reindeerFilter = "") {
 // Store team data globally for filtering
 let currentTeamData = null;
 
+// Room ID to name mapping (loaded once)
+let roomMapping = null;
+
+/**
+ * Load room mapping from static JSON
+ */
+async function loadRoomMapping() {
+  if (roomMapping) return roomMapping;
+  try {
+    roomMapping = await loadJSON("./data/rooms.json");
+    return roomMapping;
+  } catch (err) {
+    console.warn("Failed to load room mapping:", err);
+    return {};
+  }
+}
+
+/**
+ * Fetch and process live data directly from MyVMK APIs
+ * Returns { summary, users, events, roomsSummary, teamData }
+ */
+async function fetchLiveData() {
+  // Fetch all data in parallel
+  const [hitsResponse, teamsResponse, rooms] = await Promise.all([
+    fetch("https://www.myvmk.com/api/gethits", { cache: "no-store" }),
+    fetch("https://www.myvmk.com/api/getsnowteams", { cache: "no-store" }),
+    loadRoomMapping()
+  ]);
+
+  if (!hitsResponse.ok) throw new Error("Failed to fetch hits data");
+  if (!teamsResponse.ok) throw new Error("Failed to fetch teams data");
+
+  const hitsText = await hitsResponse.text();
+  const teamsText = await teamsResponse.text();
+
+  // Parse teams CSV -> { username: team }
+  const teamMap = {};
+  const rosters = { Penguin: [], Reindeer: [] };
+  const teamsLines = teamsText.trim().split(/\r?\n/).slice(1);
+  for (const line of teamsLines) {
+    const [username, team] = line.split(",").map(s => s?.trim());
+    if (username && team) {
+      const teamName = team === "1" ? "Penguin" : "Reindeer";
+      teamMap[username.toLowerCase()] = teamName;
+      rosters[teamName].push(username);
+    }
+  }
+  rosters.Penguin.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
+  rosters.Reindeer.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
+
+  // Parse hits CSV
+  const hitsLines = hitsText.trim().split(/\r?\n/).slice(1);
+  const events = [];
+  const userStats = {};
+  const roomStats = {};
+
+  for (const line of hitsLines) {
+    const parts = line.split(",");
+    if (parts.length < 4) continue;
+
+    const time = parts[0]?.trim();
+    const attacker = parts[1]?.trim();
+    const victim = parts[2]?.trim();
+    const roomId = parts[3]?.trim();
+
+    if (!attacker || !victim) continue;
+
+    const attackerTeam = teamMap[attacker.toLowerCase()] || "Unknown";
+    const roomName = rooms[roomId] || `Room ${roomId}`;
+
+    // Build event
+    events.push({
+      time,
+      attacker,
+      victim,
+      attackerTeam,
+      roomName
+    });
+
+    // Track attacker stats
+    if (!userStats[attacker]) {
+      userStats[attacker] = { attacks: 0, hitsTaken: 0, team: attackerTeam };
+    }
+    userStats[attacker].attacks++;
+
+    // Track victim stats
+    if (!userStats[victim]) {
+      const victimTeam = teamMap[victim.toLowerCase()] || "Unknown";
+      userStats[victim] = { attacks: 0, hitsTaken: 0, team: victimTeam };
+    }
+    userStats[victim].hitsTaken++;
+
+    // Track room stats
+    if (!roomStats[roomName]) {
+      roomStats[roomName] = { hitCount: 0, users: new Set() };
+    }
+    roomStats[roomName].hitCount++;
+    roomStats[roomName].users.add(attacker);
+  }
+
+  // Build users array
+  const users = Object.entries(userStats).map(([user, stats]) => ({
+    user,
+    team: stats.team,
+    attacks: stats.attacks,
+    hitsTaken: stats.hitsTaken,
+    ratio: stats.hitsTaken > 0 ? stats.attacks / stats.hitsTaken : stats.attacks
+  })).sort((a, b) => b.attacks - a.attacks);
+
+  // Build team stats
+  const teamStats = {
+    Penguin: { users: 0, attacks: 0, hitsTaken: 0 },
+    Reindeer: { users: 0, attacks: 0, hitsTaken: 0 }
+  };
+  users.forEach(u => {
+    if (u.team === "Penguin" || u.team === "Reindeer") {
+      teamStats[u.team].users++;
+      teamStats[u.team].attacks += u.attacks;
+      teamStats[u.team].hitsTaken += u.hitsTaken;
+    }
+  });
+
+  // Build rooms summary
+  const roomsSummary = Object.entries(roomStats)
+    .map(([roomName, stats]) => {
+      const roomUsers = Array.from(stats.users);
+      const avgRatio = roomUsers.reduce((sum, u) => {
+        const user = users.find(usr => usr.user === u);
+        return sum + (user?.ratio || 1);
+      }, 0) / (roomUsers.length || 1);
+
+      return {
+        roomName,
+        hitCount: stats.hitCount,
+        avgUserRatio: Math.round(avgRatio * 100) / 100,
+        activeUsers: roomUsers.length
+      };
+    })
+    .sort((a, b) => b.hitCount - a.hitCount);
+
+  // Build scatter points
+  const scatterPoints = users.map(u => ({
+    user: u.user,
+    team: u.team,
+    attacks: u.attacks,
+    hitsTaken: u.hitsTaken
+  }));
+
+  // Build top attackers/victims
+  const topAttackers = [...users].sort((a, b) => b.attacks - a.attacks).slice(0, 10);
+  const topVictims = [...users].sort((a, b) => b.hitsTaken - a.hitsTaken).slice(0, 10);
+
+  // Build summary
+  const summary = {
+    generatedAt: new Date().toISOString(),
+    totalRows: events.length,
+    totalUsers: users.length,
+    teamStats,
+    scatterPoints,
+    topAttackers,
+    topVictims
+  };
+
+  // Build team data for roster display
+  const teamData = {
+    totals: { Penguin: rosters.Penguin.length, Reindeer: rosters.Reindeer.length },
+    rosters
+  };
+
+  return { summary, users, events, roomsSummary, teamData };
+}
+
+/**
+ * Refresh dashboard with live API data
+ */
+async function refreshFromAPI() {
+  const refreshBtn = document.getElementById("refreshDataBtn");
+  const refreshIcon = document.getElementById("refreshIcon");
+
+  try {
+    // Show loading state
+    if (refreshBtn) refreshBtn.disabled = true;
+    if (refreshIcon) refreshIcon.style.animation = "spin 1s linear infinite";
+    document.getElementById("meta").textContent = "Fetching live data from API...";
+
+    const { summary, users, events, roomsSummary, teamData } = await fetchLiveData();
+
+    // Update state
+    state.allUsers = users;
+    state.usersIndex = new Map(users.map(u => [u.user, u]));
+    state.allEvents = events;
+    state.victimBreakdown = buildVictimBreakdown(events);
+    currentTeamData = teamData;
+
+    // Update metadata
+    document.getElementById("meta").textContent =
+      `Live data fetched: ${new Date().toLocaleString()} | ` +
+      `${summary.totalRows?.toLocaleString() || 0} events | ` +
+      `${summary.totalUsers?.toLocaleString() || 0} users`;
+
+    // Render components
+    renderTeamStats(summary, teamData?.totals);
+    renderTopLists(summary);
+    renderTeamRosters(teamData);
+
+    // Clear roster search inputs
+    const penguinSearch = document.getElementById("penguinRosterSearch");
+    const reindeerSearch = document.getElementById("reindeerRosterSearch");
+    if (penguinSearch) penguinSearch.value = "";
+    if (reindeerSearch) reindeerSearch.value = "";
+
+    // Apply filter/sort and rebuild tables
+    applyFilterSort();
+    buildUsersTable();
+    updateSelectionUI();
+
+    // Destroy and recreate charts
+    if (state.scatterChart) {
+      state.scatterChart.destroy();
+      state.scatterChart = null;
+    }
+    if (state.roomsChart) {
+      state.roomsChart.destroy();
+      state.roomsChart = null;
+    }
+    if (state.dailyChart) {
+      state.dailyChart.destroy();
+      state.dailyChart = null;
+    }
+
+    createScatter(document.getElementById("scatter"), summary);
+    createRoomsChart(document.getElementById("roomsChart"), roomsSummary);
+    createDailyChart(document.getElementById("dailyChart"), events);
+
+    // Render tables
+    renderVictimBreakdownTable();
+    populateRoomFilter();
+    renderEventsTable();
+    renderHeatmap();
+
+  } catch (err) {
+    console.error("Failed to refresh from API:", err);
+    document.getElementById("meta").textContent = `Error refreshing: ${err.message}. Using cached data.`;
+  } finally {
+    // Reset button state
+    if (refreshBtn) refreshBtn.disabled = false;
+    if (refreshIcon) refreshIcon.style.animation = "";
+  }
+}
+
 function fmt(n, decimals = 2) {
   if (n == null) return "";
   if (typeof n === "number") {
@@ -1713,6 +1963,16 @@ function setupEventListeners() {
   const dataModePreReset = document.getElementById("dataModePreReset");
   dataModeLive?.addEventListener("click", () => switchDataMode("live"));
   dataModePreReset?.addEventListener("click", () => switchDataMode("pre-reset"));
+
+  // Refresh button (only works in live mode)
+  const refreshBtn = document.getElementById("refreshDataBtn");
+  refreshBtn?.addEventListener("click", () => {
+    if (state.dataMode === "pre-reset") {
+      alert("Refresh is only available in Live mode. Switch to Live mode to fetch fresh data.");
+      return;
+    }
+    refreshFromAPI();
+  });
 
   // Roster search filters
   const penguinRosterSearch = document.getElementById("penguinRosterSearch");

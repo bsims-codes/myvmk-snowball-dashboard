@@ -549,6 +549,16 @@
       [id] {
         scroll-margin-top: 20px;
       }
+
+      /* Refresh button spin animation */
+      @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+
+      #refreshIcon {
+        display: inline-block;
+      }
     </style>
   </head>
   <body>
@@ -568,6 +578,9 @@
           <button class="data-toggle-btn" id="dataModePreReset" title="View pre-reset historical data">Pre-Reset</button>
         </div>
       </div>
+      <button class="chip-btn" id="refreshDataBtn" title="Refresh data from API" style="display:flex;align-items:center;gap:4px;">
+        <span id="refreshIcon">🔄</span> Refresh
+      </button>
       <button class="theme-toggle" id="themeToggle" title="Toggle dark mode">🌙</button>
     </div>
 
