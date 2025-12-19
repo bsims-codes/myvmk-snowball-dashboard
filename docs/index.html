@@ -690,8 +690,9 @@
     </div>
 
     <div class="row">
-      <div class="card" style="grid-column: span 2;" id="victim-breakdown">
+      <div class="card" id="victim-breakdown">
         <h3 class="section-header">User Victim Breakdown <button class="section-link-btn" onclick="copySectionLink('victim-breakdown', this)" title="Copy link to section">🔗</button></h3>
+        <p class="legend-note" style="margin-top:0;">Who did each attacker hit?</p>
         <div class="toolbar">
           <input id="victimTableSearch" placeholder="Search attacker..." />
           <select id="victimTableTeam">
@@ -702,6 +703,21 @@
         </div>
         <div class="scroll" style="max-height: 500px;">
           <table id="victimBreakdownTable" class="collapsible-table"></table>
+        </div>
+      </div>
+      <div class="card" id="attacker-breakdown">
+        <h3 class="section-header">User Attacker Breakdown <button class="section-link-btn" onclick="copySectionLink('attacker-breakdown', this)" title="Copy link to section">🔗</button></h3>
+        <p class="legend-note" style="margin-top:0;">Who targeted each victim? Find if someone is being singled out.</p>
+        <div class="toolbar">
+          <input id="attackerTableSearch" placeholder="Search victim..." />
+          <select id="attackerTableTeam">
+            <option value="All">All Teams</option>
+            <option value="Penguin">Penguin</option>
+            <option value="Reindeer">Reindeer</option>
+          </select>
+        </div>
+        <div class="scroll" style="max-height: 500px;">
+          <table id="attackerBreakdownTable" class="collapsible-table"></table>
         </div>
       </div>
     </div>

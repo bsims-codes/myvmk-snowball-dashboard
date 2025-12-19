@@ -337,6 +337,7 @@ async function refreshFromAPI() {
     state.usersIndex = new Map(users.map(u => [u.user, u]));
     state.allEvents = events;
     state.victimBreakdown = buildVictimBreakdown(events);
+    state.attackerBreakdown = buildAttackerBreakdown(events);
     currentTeamData = teamData;
 
     // Update metadata
@@ -381,6 +382,7 @@ async function refreshFromAPI() {
 
     // Render tables
     renderVictimBreakdownTable();
+    renderAttackerBreakdownTable();
     populateRoomFilter();
     renderEventsTable();
     renderHeatmap();
@@ -618,6 +620,7 @@ const state = {
   selectedUsers: new Set(),
   scatterChart: null,
   scatterBasePoints: [],
+  regressionData: {},
   roomsChart: null,
   dailyChart: null,
   // Events table state
@@ -634,6 +637,10 @@ const state = {
   victimBreakdown: [],
   victimSearch: "",
   victimTeamFilter: "All",
+  // Attacker breakdown state (inverse of victim breakdown)
+  attackerBreakdown: [],
+  attackerSearch: "",
+  attackerTeamFilter: "All",
   // Data mode: "live" or "pre-reset"
   dataMode: "live"
 };
@@ -689,6 +696,7 @@ async function loadAndRefreshData() {
     state.usersIndex = new Map(users.map(u => [u.user, u]));
     state.allEvents = events;
     state.victimBreakdown = buildVictimBreakdown(events);
+    state.attackerBreakdown = buildAttackerBreakdown(events);
 
     // Store team data for roster filtering
     currentTeamData = teamData;
@@ -730,6 +738,7 @@ async function loadAndRefreshData() {
 
     // Render tables
     renderVictimBreakdownTable();
+    renderAttackerBreakdownTable();
     populateRoomFilter();
     renderEventsTable();
 
@@ -1055,7 +1064,7 @@ function updateSelectionUI() {
   }).join("");
 }
 
-function computeLineDataset(regLine, color, dash) {
+function computeLineDataset(regLine, color, regKey) {
   if (!regLine) return null;
   const { xMin, xMax, y1, y2, label } = regLine;
   return {
@@ -1063,17 +1072,24 @@ function computeLineDataset(regLine, color, dash) {
     label: `Trend (${label || "All"})`,
     data: [{ x: xMin, y: Math.max(0, y1) }, { x: xMax, y: Math.max(0, y2) }],
     parsing: false,
-    pointRadius: 0,
+    pointRadius: 4,
+    pointHoverRadius: 8,
+    pointBackgroundColor: color.border,
+    pointBorderColor: color.border,
     borderWidth: 2,
     borderColor: color.border,
     borderDash: color.dash || [],
-    tension: 0
+    tension: 0,
+    regKey: regKey // Store key to access regression data in tooltip
   };
 }
 
 function createScatter(ctx, summary) {
   const pts = summary.scatterPoints || [];
   state.scatterBasePoints = pts;
+
+  // Store regression data for tooltip access
+  state.regressionData = summary.regression || {};
 
   const byTeam = {
     Penguin: pts.filter(p => p.team === "Penguin"),
@@ -1099,11 +1115,11 @@ function createScatter(ctx, summary) {
     }
   ];
 
-  // Add trend lines
+  // Add trend lines with regression metadata
   const reg = summary.regression || {};
-  const overallLine = computeLineDataset(reg.overall, TREND_COLORS.overall);
-  const pengLine = computeLineDataset(reg.penguin, TREND_COLORS.penguin);
-  const reinLine = computeLineDataset(reg.reindeer, TREND_COLORS.reindeer);
+  const overallLine = computeLineDataset(reg.overall, TREND_COLORS.overall, "overall");
+  const pengLine = computeLineDataset(reg.penguin, TREND_COLORS.penguin, "penguin");
+  const reinLine = computeLineDataset(reg.reindeer, TREND_COLORS.reindeer, "reindeer");
 
   if (overallLine) datasets.push(overallLine);
   if (pengLine) datasets.push(pengLine);
@@ -1118,9 +1134,57 @@ function createScatter(ctx, summary) {
       plugins: {
         tooltip: {
           callbacks: {
+            title: (items) => {
+              if (!items.length) return "";
+              const item = items[0];
+              const dataset = item.dataset;
+              // Check if this is a trend line
+              if (dataset.regKey) {
+                const regData = state.regressionData?.[dataset.regKey];
+                if (regData) {
+                  return `📈 ${dataset.label}`;
+                }
+              }
+              return "";
+            },
             label: (item) => {
               const raw = item.raw;
-              if (!raw?.user) return item.dataset.label || "";
+              const dataset = item.dataset;
+
+              // Check if this is a trend line dataset
+              if (dataset.regKey) {
+                const regData = state.regressionData?.[dataset.regKey];
+                if (regData) {
+                  const lines = [];
+                  if (regData.slope != null) {
+                    const slopeDir = regData.slope > 0 ? "↗" : regData.slope < 0 ? "↘" : "→";
+                    lines.push(`${slopeDir} Slope: ${fmt(regData.slope, 3)}`);
+                  }
+                  if (regData.intercept != null) {
+                    lines.push(`Intercept: ${fmt(regData.intercept, 2)}`);
+                  }
+                  if (regData.r2 != null) {
+                    lines.push(`R²: ${fmt(regData.r2, 4)} (${(regData.r2 * 100).toFixed(1)}% fit)`);
+                  }
+                  if (regData.n != null) {
+                    lines.push(`Sample size: ${regData.n} users`);
+                  }
+                  // Add interpretation
+                  if (regData.slope != null) {
+                    const interpretation = regData.slope > 1
+                      ? "Attackers take more hits than they deal"
+                      : regData.slope < 1
+                        ? "Attackers deal more hits than they take"
+                        : "Balanced attack/defense ratio";
+                    lines.push(`→ ${interpretation}`);
+                  }
+                  return lines;
+                }
+                return dataset.label || "";
+              }
+
+              // Regular user point
+              if (!raw?.user) return dataset.label || "";
               const u = state.usersIndex.get(raw.user);
               if (!u) return raw.user;
               return `${u.user} (${u.team}) — attacks=${u.attacks}, taken=${u.hitsTaken}, ratio=${fmt(u.ratio)}`;
@@ -1436,6 +1500,39 @@ function buildVictimBreakdown(events) {
     .sort((a, b) => b.total - a.total);
 }
 
+function buildAttackerBreakdown(events) {
+  // Build victim -> attacker -> count mapping (inverse of victim breakdown)
+  const breakdown = {};
+
+  events.forEach(e => {
+    const attacker = e.attacker;
+    const victim = e.victim;
+    if (!attacker || !victim) return;
+
+    // Get victim's team from usersIndex if available
+    const victimData = state.usersIndex.get(victim);
+    const victimTeam = victimData?.team || "Unknown";
+
+    if (!breakdown[victim]) {
+      breakdown[victim] = { team: victimTeam, attackers: {}, total: 0 };
+    }
+    breakdown[victim].attackers[attacker] = (breakdown[victim].attackers[attacker] || 0) + 1;
+    breakdown[victim].total++;
+  });
+
+  // Convert to array and sort by total hits taken
+  return Object.entries(breakdown)
+    .map(([victim, data]) => ({
+      victim,
+      team: data.team,
+      total: data.total,
+      attackers: Object.entries(data.attackers)
+        .map(([attacker, count]) => ({ attacker, count }))
+        .sort((a, b) => b.count - a.count)
+    }))
+    .sort((a, b) => b.total - a.total);
+}
+
 function renderVictimBreakdownTable() {
   const table = document.getElementById("victimBreakdownTable");
   const search = state.victimSearch.toLowerCase();
@@ -1478,6 +1575,71 @@ function renderVictimBreakdownTable() {
     const summaryRow = `
       <tr class="child-row total-row" data-parent="${idx}">
         <td colspan="3">Total: ${totalVictims} victims, ${u.total} attacks</td>
+        <td></td>
+      </tr>
+    `;
+
+    return parentRow + childRows + summaryRow;
+  }).join("");
+
+  table.innerHTML = head + body;
+
+  // Wire up collapse/expand
+  table.querySelectorAll(".parent-row").forEach(row => {
+    row.onclick = () => {
+      const idx = row.dataset.idx;
+      const isExpanded = row.classList.toggle("expanded");
+      table.querySelectorAll(`.child-row[data-parent="${idx}"]`).forEach(child => {
+        child.classList.toggle("visible", isExpanded);
+      });
+    };
+  });
+}
+
+function renderAttackerBreakdownTable() {
+  const table = document.getElementById("attackerBreakdownTable");
+  if (!table) return;
+
+  const search = state.attackerSearch.toLowerCase();
+  const teamFilter = state.attackerTeamFilter;
+
+  let filtered = state.attackerBreakdown;
+
+  if (search) {
+    filtered = filtered.filter(u => u.victim.toLowerCase().includes(search));
+  }
+  if (teamFilter !== "All") {
+    filtered = filtered.filter(u => u.team === teamFilter);
+  }
+
+  const head = `<tr><th>Victim</th><th>Team</th><th>Attackers</th><th>Total Hits Taken</th></tr>`;
+
+  const body = filtered.map((u, idx) => {
+    const teamClass = u.team?.toLowerCase() || "";
+    const totalAttackers = u.attackers.length;
+    const top10Attackers = u.attackers.slice(0, 10);
+
+    const parentRow = `
+      <tr class="parent-row" data-idx="${idx}">
+        <td>${escapeHtml(u.victim)}</td>
+        <td><span class="pill ${teamClass}">${u.team || ""}</span></td>
+        <td>${totalAttackers}</td>
+        <td>${u.total}</td>
+      </tr>
+    `;
+
+    const childRows = top10Attackers.map(a => `
+      <tr class="child-row" data-parent="${idx}">
+        <td>${escapeHtml(a.attacker)}</td>
+        <td></td>
+        <td></td>
+        <td>${a.count}</td>
+      </tr>
+    `).join("");
+
+    const summaryRow = `
+      <tr class="child-row total-row" data-parent="${idx}">
+        <td colspan="3">Total: ${totalAttackers} attackers, ${u.total} hits taken</td>
         <td></td>
       </tr>
     `;
@@ -1894,6 +2056,19 @@ function setupEventListeners() {
   victimTeamFilter?.addEventListener("change", () => {
     state.victimTeamFilter = victimTeamFilter.value;
     renderVictimBreakdownTable();
+  });
+
+  // Attacker breakdown table controls
+  const attackerSearch = document.getElementById("attackerTableSearch");
+  attackerSearch?.addEventListener("input", () => {
+    state.attackerSearch = attackerSearch.value || "";
+    renderAttackerBreakdownTable();
+  });
+
+  const attackerTeamFilter = document.getElementById("attackerTableTeam");
+  attackerTeamFilter?.addEventListener("change", () => {
+    state.attackerTeamFilter = attackerTeamFilter.value;
+    renderAttackerBreakdownTable();
   });
 
   // Events table controls
