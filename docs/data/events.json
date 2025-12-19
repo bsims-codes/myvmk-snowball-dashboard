@@ -21171,16 +21171,6 @@
   },
   {
     "time": "2025-12-19 15:25:08",
-    "attacker": "CaptainBubbles",
-    "victim": "BuckyBarnes",
-    "roomId": "3",
-    "roomName": "Town Square",
-    "value": 1.15789,
-    "attackerTeam": "Reindeer",
-    "victimTeam": "Penguin"
-  },
-  {
-    "time": "2025-12-19 15:25:08",
     "attacker": "Luckymaxer",
     "victim": "MatthewC",
     "roomId": "15",
@@ -21188,6 +21178,16 @@
     "value": 1,
     "attackerTeam": "Penguin",
     "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 15:25:08",
+    "attacker": "CaptainBubbles",
+    "victim": "BuckyBarnes",
+    "roomId": "3",
+    "roomName": "Town Square",
+    "value": 1.15789,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
   },
   {
     "time": "2025-12-19 15:25:10",
@@ -21201,16 +21201,6 @@
   },
   {
     "time": "2025-12-19 15:25:13",
-    "attacker": "Luckymaxer",
-    "victim": "MatthewC",
-    "roomId": "15",
-    "roomName": "Monorail Train",
-    "value": 1,
-    "attackerTeam": "Penguin",
-    "victimTeam": "Reindeer"
-  },
-  {
-    "time": "2025-12-19 15:25:13",
     "attacker": "CaptainBubbles",
     "victim": "BuckyBarnes",
     "roomId": "3",
@@ -21218,6 +21208,16 @@
     "value": 1.15789,
     "attackerTeam": "Reindeer",
     "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 15:25:13",
+    "attacker": "Luckymaxer",
+    "victim": "MatthewC",
+    "roomId": "15",
+    "roomName": "Monorail Train",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
   },
   {
     "time": "2025-12-19 15:25:17",
@@ -21891,16 +21891,6 @@
   },
   {
     "time": "2025-12-19 15:30:30",
-    "attacker": "VMKNeec",
-    "victim": "MatthewC",
-    "roomId": "2",
-    "roomName": "Central Plaza",
-    "value": 1,
-    "attackerTeam": "Penguin",
-    "victimTeam": "Reindeer"
-  },
-  {
-    "time": "2025-12-19 15:30:30",
     "attacker": "CaptainBubbles",
     "victim": "Meg",
     "roomId": "5",
@@ -21908,6 +21898,16 @@
     "value": 1.4,
     "attackerTeam": "Reindeer",
     "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 15:30:30",
+    "attacker": "VMKNeec",
+    "victim": "MatthewC",
+    "roomId": "2",
+    "roomName": "Central Plaza",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
   },
   {
     "time": "2025-12-19 15:30:48",
@@ -22442,7 +22442,7 @@
   {
     "time": "2025-12-19 15:36:29",
     "attacker": "taymeow",
-    "victim": "BuckyBarnes",
+    "victim": "Mali",
     "roomId": "300",
     "roomName": "Pixar Pier Entrance",
     "value": 1.22222,
@@ -22452,7 +22452,7 @@
   {
     "time": "2025-12-19 15:36:29",
     "attacker": "taymeow",
-    "victim": "Mali",
+    "victim": "BuckyBarnes",
     "roomId": "300",
     "roomName": "Pixar Pier Entrance",
     "value": 1.22222,
@@ -22521,16 +22521,6 @@
   },
   {
     "time": "2025-12-19 15:36:55",
-    "attacker": "CaptainBubbles",
-    "victim": "VMKNeec",
-    "roomId": "76",
-    "roomName": "Captain's Quest Quarters",
-    "value": 1.15,
-    "attackerTeam": "Reindeer",
-    "victimTeam": "Penguin"
-  },
-  {
-    "time": "2025-12-19 15:36:55",
     "attacker": "VMKNeec",
     "victim": "Rex",
     "roomId": "76",
@@ -22538,6 +22528,16 @@
     "value": 1,
     "attackerTeam": "Penguin",
     "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 15:36:55",
+    "attacker": "CaptainBubbles",
+    "victim": "VMKNeec",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.15,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
   },
   {
     "time": "2025-12-19 15:37:00",
@@ -22801,16 +22801,6 @@
   },
   {
     "time": "2025-12-19 15:44:49",
-    "attacker": "FlameLegend",
-    "victim": "goatduck",
-    "roomId": "76",
-    "roomName": "Captain's Quest Quarters",
-    "value": 1.1,
-    "attackerTeam": "Reindeer",
-    "victimTeam": "Penguin"
-  },
-  {
-    "time": "2025-12-19 15:44:49",
     "attacker": "BuckyBarnes",
     "victim": "FlameLegend",
     "roomId": "76",
@@ -22818,6 +22808,16 @@
     "value": 1,
     "attackerTeam": "Penguin",
     "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 15:44:49",
+    "attacker": "FlameLegend",
+    "victim": "goatduck",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
   },
   {
     "time": "2025-12-19 15:44:51",
@@ -23341,16 +23341,6 @@
   },
   {
     "time": "2025-12-19 15:49:26",
-    "attacker": "BuckyBarnes",
-    "victim": "FlameLegend",
-    "roomId": "76",
-    "roomName": "Captain's Quest Quarters",
-    "value": 1,
-    "attackerTeam": "Penguin",
-    "victimTeam": "Reindeer"
-  },
-  {
-    "time": "2025-12-19 15:49:26",
     "attacker": "FlameLegend",
     "victim": "BuckyBarnes",
     "roomId": "76",
@@ -23358,6 +23348,16 @@
     "value": 1,
     "attackerTeam": "Reindeer",
     "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 15:49:26",
+    "attacker": "BuckyBarnes",
+    "victim": "FlameLegend",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
   },
   {
     "time": "2025-12-19 15:49:33",
@@ -23591,16 +23591,6 @@
   },
   {
     "time": "2025-12-19 15:51:47",
-    "attacker": "FlameLegend",
-    "victim": "BuckyBarnes",
-    "roomId": "76",
-    "roomName": "Captain's Quest Quarters",
-    "value": 1.05,
-    "attackerTeam": "Reindeer",
-    "victimTeam": "Penguin"
-  },
-  {
-    "time": "2025-12-19 15:51:47",
     "attacker": "goatduck",
     "victim": "FlameLegend",
     "roomId": "76",
@@ -23608,6 +23598,16 @@
     "value": 1,
     "attackerTeam": "Penguin",
     "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 15:51:47",
+    "attacker": "FlameLegend",
+    "victim": "BuckyBarnes",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
   },
   {
     "time": "2025-12-19 15:51:53",
@@ -23761,16 +23761,6 @@
   },
   {
     "time": "2025-12-19 15:55:30",
-    "attacker": "CaptainBubbles",
-    "victim": "Devgirlforever",
-    "roomId": "47",
-    "roomName": "Tomorrowland Hub",
-    "value": 1,
-    "attackerTeam": "Reindeer",
-    "victimTeam": "Penguin"
-  },
-  {
-    "time": "2025-12-19 15:55:30",
     "attacker": "Meg",
     "victim": "CaptainBubbles",
     "roomId": "47",
@@ -23778,6 +23768,16 @@
     "value": 1.10526,
     "attackerTeam": "Penguin",
     "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 15:55:30",
+    "attacker": "CaptainBubbles",
+    "victim": "Devgirlforever",
+    "roomId": "47",
+    "roomName": "Tomorrowland Hub",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
   },
   {
     "time": "2025-12-19 15:55:44",
@@ -24705,6 +24705,3816 @@
     "victim": "CaptainCorgi",
     "roomId": "13",
     "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:16:32",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainCorgi",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:16:37",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainCorgi",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:16:40",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:16:46",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:16:50",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainCorgi",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:16:52",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:16:57",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:17:00",
+    "attacker": "CaptainCorgi",
+    "victim": "Devgirlforever",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1.21053,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:17:01",
+    "attacker": "kazino",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:17:06",
+    "attacker": "CaptainCorgi",
+    "victim": "Devgirlforever",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1.21053,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:17:06",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:17:10",
+    "attacker": "kazino",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:17:12",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainCorgi",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:17:13",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:17:16",
+    "attacker": "kazino",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:17:21",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:17:24",
+    "attacker": "kazino",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:17:31",
+    "attacker": "CaptainBubbles",
+    "victim": "HappyToughFish",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.29412,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:17:33",
+    "attacker": "CaptainBubbles",
+    "victim": "Focus",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.29412,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:17:37",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainCorgi",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:17:44",
+    "attacker": "CaptainBubbles",
+    "victim": "Focus",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.21053,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:17:46",
+    "attacker": "Devgirlforever",
+    "victim": "MatthewC",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:17:51",
+    "attacker": "Devgirlforever",
+    "victim": "MatthewC",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:17:56",
+    "attacker": "CaptainCorgi",
+    "victim": "Devgirlforever",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1.21053,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:17:56",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainCorgi",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:18:08",
+    "attacker": "kazino",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:18:12",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:18:13",
+    "attacker": "kazino",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:18:16",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainCorgi",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:18:16",
+    "attacker": "Devgirlforever",
+    "victim": "MatthewC",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:18:20",
+    "attacker": "CaptainBubbles",
+    "victim": "HappyToughFish",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.15789,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:18:21",
+    "attacker": "Devgirlforever",
+    "victim": "MatthewC",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:18:21",
+    "attacker": "CaptainBubbles",
+    "victim": "kazino",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.15789,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:18:22",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainCorgi",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:18:27",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainCorgi",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:18:30",
+    "attacker": "MatthewC",
+    "victim": "Luckymaxer",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1.22222,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:18:31",
+    "attacker": "kazino",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:18:35",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainCorgi",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:18:36",
+    "attacker": "Luckymaxer",
+    "victim": "MatthewC",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:18:37",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:18:41",
+    "attacker": "Luckymaxer",
+    "victim": "MatthewC",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:18:42",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainCorgi",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:18:47",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainCorgi",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:18:50",
+    "attacker": "Luckymaxer",
+    "victim": "MatthewC",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:18:56",
+    "attacker": "Luckymaxer",
+    "victim": "MatthewC",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:18:59",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainCorgi",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:19:02",
+    "attacker": "CaptainBubbles",
+    "victim": "HappyToughFish",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.22222,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:19:03",
+    "attacker": "Luckymaxer",
+    "victim": "MatthewC",
+    "roomId": "13",
+    "roomName": "Dungeon",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:19:05",
+    "attacker": "CaptainBubbles",
+    "victim": "Focus",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.22222,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:19:07",
+    "attacker": "CaptainBubbles",
+    "victim": "HappyToughFish",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.22222,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:19:26",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "33",
+    "roomName": "Matterhorn",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:19:31",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "33",
+    "roomName": "Matterhorn",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:19:36",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainCorgi",
+    "roomId": "33",
+    "roomName": "Matterhorn",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:19:41",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "33",
+    "roomName": "Matterhorn",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:19:46",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "33",
+    "roomName": "Matterhorn",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:19:54",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "33",
+    "roomName": "Matterhorn",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:19:55",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:19:59",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainCorgi",
+    "roomId": "33",
+    "roomName": "Matterhorn",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:20:04",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "33",
+    "roomName": "Matterhorn",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:20:06",
+    "attacker": "CaptainBubbles",
+    "victim": "Luckymaxer",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.22222,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:20:09",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "33",
+    "roomName": "Matterhorn",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:20:10",
+    "attacker": "CaptainBubbles",
+    "victim": "Luckymaxer",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.22222,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:20:14",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "33",
+    "roomName": "Matterhorn",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:20:15",
+    "attacker": "CaptainBubbles",
+    "victim": "Luckymaxer",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.16667,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:20:19",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "33",
+    "roomName": "Matterhorn",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:20:22",
+    "attacker": "CaptainBubbles",
+    "victim": "Luckymaxer",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.16667,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:20:24",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "33",
+    "roomName": "Matterhorn",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:20:25",
+    "attacker": "MatthewC",
+    "victim": "HappyToughFish",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.16667,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:20:28",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:20:34",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:20:40",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:20:44",
+    "attacker": "Devgirlforever",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:20:50",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:20:50",
+    "attacker": "MatthewC",
+    "victim": "Devgirlforever",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.16667,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:20:55",
+    "attacker": "Tarabellah",
+    "victim": "HappyToughFish",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.16667,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:20:56",
+    "attacker": "kazino",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:20:59",
+    "attacker": "CaptainBubbles",
+    "victim": "Devgirlforever",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.16667,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:21:05",
+    "attacker": "Devgirlforever",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:21:08",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:21:11",
+    "attacker": "Devgirlforever",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:21:14",
+    "attacker": "VMKNeec",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:21:17",
+    "attacker": "CaptainBubbles",
+    "victim": "Mali",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.16667,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:21:24",
+    "attacker": "Devgirlforever",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:21:25",
+    "attacker": "CaptainBubbles",
+    "victim": "PepaRaindrops",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.17647,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:21:27",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:21:36",
+    "attacker": "Devgirlforever",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:21:36",
+    "attacker": "PepaRaindrops",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:21:41",
+    "attacker": "PepaRaindrops",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:21:43",
+    "attacker": "Devgirlforever",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:21:46",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:21:50",
+    "attacker": "Mali",
+    "victim": "Tinkfaniam",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:21:52",
+    "attacker": "PepaRaindrops",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:21:58",
+    "attacker": "VMKNeec",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:21:58",
+    "attacker": "CaptainBubbles",
+    "victim": "VMKNeec",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.10526,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:21:59",
+    "attacker": "Tarabellah",
+    "victim": "HappyToughFish",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.10526,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:22:03",
+    "attacker": "kazino",
+    "victim": "Tinkfaniam",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:22:05",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:22:09",
+    "attacker": "Tarabellah",
+    "victim": "kazino",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:22:09",
+    "attacker": "VMKNeec",
+    "victim": "Tinkfaniam",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:22:10",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:22:15",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:22:20",
+    "attacker": "VMKNeec",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:22:23",
+    "attacker": "CaptainBubbles",
+    "victim": "Devgirlforever",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:22:24",
+    "attacker": "VMKNeec",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:22:29",
+    "attacker": "kazino",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:22:31",
+    "attacker": "PepaRaindrops",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:22:35",
+    "attacker": "VMKNeec",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:22:37",
+    "attacker": "PepaRaindrops",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:22:37",
+    "attacker": "CaptainBubbles",
+    "victim": "Retro",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.10526,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:22:41",
+    "attacker": "kazino",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:22:42",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:22:44",
+    "attacker": "Tarabellah",
+    "victim": "HappyToughFish",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.10526,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:22:44",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:22:48",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:22:52",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:22:57",
+    "attacker": "kazino",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:23:00",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:23:06",
+    "attacker": "Mali",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:23:12",
+    "attacker": "kazino",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:23:12",
+    "attacker": "VMKNeec",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:23:17",
+    "attacker": "PepaRaindrops",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:23:22",
+    "attacker": "PepaRaindrops",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:23:27",
+    "attacker": "PepaRaindrops",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:23:33",
+    "attacker": "PepaRaindrops",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:23:40",
+    "attacker": "kazino",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:23:44",
+    "attacker": "Tarabellah",
+    "victim": "HappyToughFish",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05263,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:23:45",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:23:49",
+    "attacker": "kazino",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:23:54",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:24:00",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:24:05",
+    "attacker": "PepaRaindrops",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:24:06",
+    "attacker": "Devgirlforever",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:24:10",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:24:15",
+    "attacker": "kazino",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:24:20",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:24:27",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:24:35",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:24:40",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:24:45",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:24:50",
+    "attacker": "Mali",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:24:56",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:25:10",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:25:18",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05556,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:25:26",
+    "attacker": "PepaRaindrops",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:25:31",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:25:33",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:25:38",
+    "attacker": "PepaRaindrops",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:25:43",
+    "attacker": "PepaRaindrops",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05556,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:25:44",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05556,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:25:50",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05556,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:25:51",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05556,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:25:55",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:25:56",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:26:00",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:26:01",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:26:07",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:26:18",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05556,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:26:25",
+    "attacker": "CaptainBubbles",
+    "victim": "Mali",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:26:32",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.11111,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:26:34",
+    "attacker": "CaptainBubbles",
+    "victim": "Luckymaxer",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:26:34",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.11111,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:26:40",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.11111,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:26:41",
+    "attacker": "CaptainBubbles",
+    "victim": "HappyToughFish",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:26:47",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05556,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:26:54",
+    "attacker": "kazino",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05556,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:27:03",
+    "attacker": "kazino",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05556,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:27:08",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05556,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:27:08",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05556,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:27:16",
+    "attacker": "PepaRaindrops",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.11111,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:27:17",
+    "attacker": "Devgirlforever",
+    "victim": "MatthewC",
+    "roomId": "48",
+    "roomName": "VMK Esplanade",
+    "value": 1.11111,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:27:20",
+    "attacker": "kazino",
+    "victim": "SmileyKileyCat",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.11111,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:27:23",
+    "attacker": "CaptainBubbles",
+    "victim": "HappyToughFish",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:27:23",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.11111,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:27:26",
+    "attacker": "Devgirlforever",
+    "victim": "MatthewC",
+    "roomId": "48",
+    "roomName": "VMK Esplanade",
+    "value": 1.05882,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:27:28",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05882,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:27:29",
+    "attacker": "CaptainBubbles",
+    "victim": "HappyToughFish",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:27:32",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05882,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:27:35",
+    "attacker": "Devgirlforever",
+    "victim": "MatthewC",
+    "roomId": "48",
+    "roomName": "VMK Esplanade",
+    "value": 1.05882,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:27:37",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05882,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:27:39",
+    "attacker": "kazino",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.11111,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:27:39",
+    "attacker": "CaptainBubbles",
+    "victim": "HappyToughFish",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:27:41",
+    "attacker": "Devgirlforever",
+    "victim": "MatthewC",
+    "roomId": "48",
+    "roomName": "VMK Esplanade",
+    "value": 1.11111,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:27:42",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.11111,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:27:44",
+    "attacker": "kazino",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.11111,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:27:51",
+    "attacker": "CaptainBubbles",
+    "victim": "PepaRaindrops",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:27:51",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.11111,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:27:59",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:28:06",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:28:11",
+    "attacker": "Devgirlforever",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:28:12",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:28:12",
+    "attacker": "PepaRaindrops",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:28:18",
+    "attacker": "Mali",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:28:21",
+    "attacker": "kazino",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:28:24",
+    "attacker": "PepaRaindrops",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:28:26",
+    "attacker": "kazino",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05263,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:28:30",
+    "attacker": "kazino",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05263,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:28:32",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05263,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:28:35",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:28:36",
+    "attacker": "kazino",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:28:43",
+    "attacker": "kazino",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:28:45",
+    "attacker": "Mali",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:28:48",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:28:51",
+    "attacker": "Devgirlforever",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:28:55",
+    "attacker": "miszpink_",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:28:58",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:01",
+    "attacker": "kazino",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:03",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:07",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:09",
+    "attacker": "CaptainBubbles",
+    "victim": "Devgirlforever",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:29:09",
+    "attacker": "miszpink_",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:14",
+    "attacker": "kazino",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:15",
+    "attacker": "PepaRaindrops",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:15",
+    "attacker": "CaptainBubbles",
+    "victim": "HappyToughFish",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:29:19",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:22",
+    "attacker": "miszpink_",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:22",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:27",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:30",
+    "attacker": "miszpink_",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:30",
+    "attacker": "Mali",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:36",
+    "attacker": "Devgirlforever",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:39",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:41",
+    "attacker": "Devgirlforever",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:47",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:48",
+    "attacker": "CaptainBubbles",
+    "victim": "HappyToughFish",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:29:49",
+    "attacker": "miszpink_",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:50",
+    "attacker": "PepaRaindrops",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:55",
+    "attacker": "Devgirlforever",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:56",
+    "attacker": "kazino",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:29:57",
+    "attacker": "miszpink_",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:30:01",
+    "attacker": "Devgirlforever",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:30:04",
+    "attacker": "miszpink_",
+    "victim": "MatthewC",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:30:05",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:30:10",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:30:14",
+    "attacker": "kazino",
+    "victim": "-Misty-",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:30:20",
+    "attacker": "CaptainBubbles",
+    "victim": "PepaRaindrops",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:30:21",
+    "attacker": "VMKNeec",
+    "victim": "-Misty-",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:30:22",
+    "attacker": "kazino",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:30:27",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:30:32",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:30:34",
+    "attacker": "CaptainBubbles",
+    "victim": "PepaRaindrops",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:30:41",
+    "attacker": "kazino",
+    "victim": "Rex",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:30:42",
+    "attacker": "CaptainBubbles",
+    "victim": "kazino",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:30:46",
+    "attacker": "VMKNeec",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:30:47",
+    "attacker": "CaptainBubbles",
+    "victim": "HappyToughFish",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:30:49",
+    "attacker": "kazino",
+    "victim": "Rex",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.15789,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:30:51",
+    "attacker": "PepaRaindrops",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.15789,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:30:52",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.15789,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:30:57",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.10526,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:31:07",
+    "attacker": "Devgirlforever",
+    "victim": "pizzarollz",
+    "roomId": "77",
+    "roomName": "Autopia Quest Track",
+    "value": 1.11111,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:31:09",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.11111,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:31:12",
+    "attacker": "Devgirlforever",
+    "victim": "pizzarollz",
+    "roomId": "77",
+    "roomName": "Autopia Quest Track",
+    "value": 1.11111,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:31:17",
+    "attacker": "Devgirlforever",
+    "victim": "pizzarollz",
+    "roomId": "77",
+    "roomName": "Autopia Quest Track",
+    "value": 1.16667,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:31:22",
+    "attacker": "PepaRaindrops",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.16667,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:31:29",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.11765,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:31:34",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.11765,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:31:40",
+    "attacker": "VMKNeec",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.16667,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:31:53",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.16667,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:32:03",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.16667,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:32:12",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.10526,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:32:23",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.10526,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:32:28",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.10526,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:32:34",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.10526,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:32:40",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.10526,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:32:48",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.10526,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:32:53",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:33:14",
+    "attacker": "PepaRaindrops",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:33:48",
+    "attacker": "Tarabellah",
+    "victim": "kazino",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:33:56",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:34:02",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:34:11",
+    "attacker": "PepaRaindrops",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.10526,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:34:22",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.10526,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:34:29",
+    "attacker": "PepaRaindrops",
+    "victim": "Rex",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:34:32",
+    "attacker": "PepaRaindrops",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:34:39",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:34:46",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:34:51",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:34:57",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:35:02",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:35:07",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:35:12",
+    "attacker": "Meg",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:35:18",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:35:26",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:35:31",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:35:37",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:35:43",
+    "attacker": "Tarabellah",
+    "victim": "BrightEyes",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.10526,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:35:43",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:35:49",
+    "attacker": "Meg",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:35:57",
+    "attacker": "Meg",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:36:06",
+    "attacker": "Tarabellah",
+    "victim": "Luckymaxer",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.10526,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:36:09",
+    "attacker": "Meg",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:36:14",
+    "attacker": "Meg",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:36:27",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:36:32",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:36:37",
+    "attacker": "sapphire",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:36:43",
+    "attacker": "sapphire",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:36:55",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:37:02",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:37:07",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:37:13",
+    "attacker": "Devgirlforever",
+    "victim": "Konzo",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:37:16",
+    "attacker": "PepaRaindrops",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:37:18",
+    "attacker": "Luckymaxer",
+    "victim": "Konzo",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:37:24",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:37:26",
+    "attacker": "Konzo",
+    "victim": "Devgirlforever",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05263,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:37:27",
+    "attacker": "PepaRaindrops",
+    "victim": "Konzo",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:37:33",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:37:33",
+    "attacker": "Devgirlforever",
+    "victim": "Konzo",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:37:35",
+    "attacker": "Konzo",
+    "victim": "Luckymaxer",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05263,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:37:38",
+    "attacker": "Devgirlforever",
+    "victim": "Konzo",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:37:40",
+    "attacker": "Tarabellah",
+    "victim": "BrightEyes",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:37:43",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:37:44",
+    "attacker": "kazino",
+    "victim": "Konzo",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:37:45",
+    "attacker": "Konzo",
+    "victim": "Luckymaxer",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:37:49",
+    "attacker": "Tarabellah",
+    "victim": "Devgirlforever",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:37:50",
+    "attacker": "sapphire",
+    "victim": "Konzo",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:37:51",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:37:57",
+    "attacker": "sapphire",
+    "victim": "Konzo",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:37:58",
+    "attacker": "Tarabellah",
+    "victim": "BrightEyes",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:38:01",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:38:06",
+    "attacker": "Konzo",
+    "victim": "HappyToughFish",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:38:07",
+    "attacker": "Konzo",
+    "victim": "kazino",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:38:08",
+    "attacker": "Konzo",
+    "victim": "sapphire",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:38:12",
+    "attacker": "Luckymaxer",
+    "victim": "Konzo",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:38:12",
+    "attacker": "Tarabellah",
+    "victim": "Luckymaxer",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.05,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:38:16",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:38:17",
+    "attacker": "Devgirlforever",
+    "victim": "Konzo",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:38:23",
+    "attacker": "Meg",
+    "victim": "Konzo",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:38:27",
+    "attacker": "Tarabellah",
+    "victim": "Luckymaxer",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:38:27",
+    "attacker": "Meg",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:38:48",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:38:53",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:39:08",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:39:15",
+    "attacker": "PepaRaindrops",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:39:22",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.04545,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:39:23",
+    "attacker": "Tarabellah",
+    "victim": "BrightEyes",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:39:28",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:39:34",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.04762,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:39:39",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.04545,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:39:40",
+    "attacker": "Tarabellah",
+    "victim": "Luckymaxer",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:39:40",
+    "attacker": "Konzo",
+    "victim": "Mali",
+    "roomId": "4",
+    "roomName": "Main Street",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:39:43",
+    "attacker": "Konzo",
+    "victim": "miszpink_",
+    "roomId": "4",
+    "roomName": "Main Street",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:39:43",
+    "attacker": "Devgirlforever",
+    "victim": "Konzo",
+    "roomId": "4",
+    "roomName": "Main Street",
+    "value": 1.09091,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:39:44",
+    "attacker": "kazino",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.09091,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:39:46",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.09091,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:39:49",
+    "attacker": "Luckymaxer",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.09091,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:39:49",
+    "attacker": "Devgirlforever",
+    "victim": "Konzo",
+    "roomId": "4",
+    "roomName": "Main Street",
+    "value": 1.09091,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:39:52",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.09091,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:39:58",
+    "attacker": "Konzo",
+    "victim": "Devgirlforever",
+    "roomId": "4",
+    "roomName": "Main Street",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:39:58",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.09524,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:39:59",
+    "attacker": "sapphire",
+    "victim": "Tarabellah",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.09524,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:40:02",
+    "attacker": "Konzo",
+    "victim": "Mali",
+    "roomId": "4",
+    "roomName": "Main Street",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:40:07",
+    "attacker": "Konzo",
+    "victim": "Devgirlforever",
+    "roomId": "4",
+    "roomName": "Main Street",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:40:07",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.04762,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:40:14",
+    "attacker": "PepaRaindrops",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:40:20",
+    "attacker": "Konzo",
+    "victim": "miszpink_",
+    "roomId": "4",
+    "roomName": "Main Street",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2025-12-19 16:40:29",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:40:37",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:40:43",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:40:48",
+    "attacker": "sapphire",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:40:55",
+    "attacker": "sapphire",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:41:00",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:41:05",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:41:11",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:41:16",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:41:24",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:41:29",
+    "attacker": "sapphire",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:41:34",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:41:42",
+    "attacker": "Luckymaxer",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:41:52",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:41:58",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:42:05",
+    "attacker": "kazino",
+    "victim": "CaptainCorgi",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:42:58",
+    "attacker": "Mali",
+    "victim": "pizzarollz",
+    "roomId": "77",
+    "roomName": "Autopia Quest Track",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:43:09",
+    "attacker": "Mali",
+    "victim": "pizzarollz",
+    "roomId": "77",
+    "roomName": "Autopia Quest Track",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:43:15",
+    "attacker": "Mali",
+    "victim": "pizzarollz",
+    "roomId": "77",
+    "roomName": "Autopia Quest Track",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:43:20",
+    "attacker": "Devgirlforever",
+    "victim": "pizzarollz",
+    "roomId": "77",
+    "roomName": "Autopia Quest Track",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:43:36",
+    "attacker": "Mali",
+    "victim": "pizzarollz",
+    "roomId": "77",
+    "roomName": "Autopia Quest Track",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:43:45",
+    "attacker": "Mali",
+    "victim": "pizzarollz",
+    "roomId": "77",
+    "roomName": "Autopia Quest Track",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:44:19",
+    "attacker": "Mali",
+    "victim": "pizzarollz",
+    "roomId": "77",
+    "roomName": "Autopia Quest Track",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:44:31",
+    "attacker": "Mali",
+    "victim": "pizzarollz",
+    "roomId": "77",
+    "roomName": "Autopia Quest Track",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:45:59",
+    "attacker": "bunny",
+    "victim": "pizzarollz",
+    "roomId": "77",
+    "roomName": "Autopia Quest Track",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:46:56",
+    "attacker": "bunny",
+    "victim": "pizzarollz",
+    "roomId": "77",
+    "roomName": "Autopia Quest Track",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2025-12-19 16:48:51",
+    "attacker": "bunny",
+    "victim": "CaptainBubbles",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
     "value": 1,
     "attackerTeam": "Penguin",
     "victimTeam": "Reindeer"

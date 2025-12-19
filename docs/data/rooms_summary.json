@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 771,
-    "avgUserRatio": 1.61,
-    "activeUsers": 38
+    "hitCount": 1089,
+    "avgUserRatio": 1.87,
+    "activeUsers": 47
   },
   {
     "roomName": "Monorail Station",
@@ -25,9 +25,9 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 116,
-    "avgUserRatio": 2.35,
-    "activeUsers": 28
+    "hitCount": 120,
+    "avgUserRatio": 2.29,
+    "activeUsers": 29
   },
   {
     "roomName": "Pixar Pier Entrance",
@@ -60,6 +60,18 @@
     "activeUsers": 17
   },
   {
+    "roomName": "Dungeon",
+    "hitCount": 44,
+    "avgUserRatio": 2.04,
+    "activeUsers": 14
+  },
+  {
+    "roomName": "Autopia Quest Track",
+    "hitCount": 33,
+    "avgUserRatio": 3.58,
+    "activeUsers": 9
+  },
+  {
     "roomName": "Jungle Cruise Dock",
     "hitCount": 26,
     "avgUserRatio": 1.56,
@@ -78,16 +90,22 @@
     "activeUsers": 11
   },
   {
+    "roomName": "Matterhorn",
+    "hitCount": 23,
+    "avgUserRatio": 1.76,
+    "activeUsers": 12
+  },
+  {
     "roomName": "Castle Forecourt",
     "hitCount": 22,
     "avgUserRatio": 2.03,
     "activeUsers": 9
   },
   {
-    "roomName": "Autopia Quest Track",
+    "roomName": "Main Street",
     "hitCount": 20,
-    "avgUserRatio": 2.75,
-    "activeUsers": 7
+    "avgUserRatio": 1.45,
+    "activeUsers": 11
   },
   {
     "roomName": "Epcot Entrance",
@@ -96,28 +114,10 @@
     "activeUsers": 8
   },
   {
-    "roomName": "Dungeon",
-    "hitCount": 18,
-    "avgUserRatio": 1.2,
-    "activeUsers": 13
-  },
-  {
     "roomName": "WS - Mexico",
     "hitCount": 17,
     "avgUserRatio": 1.04,
     "activeUsers": 5
-  },
-  {
-    "roomName": "Main Street",
-    "hitCount": 12,
-    "avgUserRatio": 1.71,
-    "activeUsers": 7
-  },
-  {
-    "roomName": "Matterhorn",
-    "hitCount": 11,
-    "avgUserRatio": 1.02,
-    "activeUsers": 9
   },
   {
     "roomName": "Adventureland Bazaar",
