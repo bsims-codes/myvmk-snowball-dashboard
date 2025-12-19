@@ -7,9 +7,15 @@
   },
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 135,
-    "avgUserRatio": 2.05,
-    "activeUsers": 15
+    "hitCount": 137,
+    "avgUserRatio": 1.86,
+    "activeUsers": 17
+  },
+  {
+    "roomName": "Pirate Treehouse",
+    "hitCount": 48,
+    "avgUserRatio": 1.89,
+    "activeUsers": 12
   },
   {
     "roomName": "Discovery Island",
@@ -19,15 +25,9 @@
   },
   {
     "roomName": "Autopia Off Road on Mars",
-    "hitCount": 17,
-    "avgUserRatio": 1.03,
+    "hitCount": 19,
+    "avgUserRatio": 1.11,
     "activeUsers": 10
-  },
-  {
-    "roomName": "Pirate Treehouse",
-    "hitCount": 13,
-    "avgUserRatio": 1.61,
-    "activeUsers": 6
   },
   {
     "roomName": "Matterhorn",
@@ -37,9 +37,15 @@
   },
   {
     "roomName": "Castle Forecourt",
-    "hitCount": 6,
-    "avgUserRatio": 0.83,
-    "activeUsers": 4
+    "hitCount": 8,
+    "avgUserRatio": 0.89,
+    "activeUsers": 6
+  },
+  {
+    "roomName": "Town Square",
+    "hitCount": 7,
+    "avgUserRatio": 0.72,
+    "activeUsers": 9
   },
   {
     "roomName": "Blue Bayou",
@@ -60,13 +66,19 @@
     "activeUsers": 2
   },
   {
-    "roomName": "Shipwreck Graveyard",
-    "hitCount": 2,
-    "avgUserRatio": 1,
+    "roomName": "Gallery",
+    "hitCount": 4,
+    "avgUserRatio": 1.67,
     "activeUsers": 2
   },
   {
-    "roomName": "Town Square",
+    "roomName": "Lost Safari Party",
+    "hitCount": 3,
+    "avgUserRatio": 1.5,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "Shipwreck Graveyard",
     "hitCount": 2,
     "avgUserRatio": 1,
     "activeUsers": 2
@@ -85,6 +97,12 @@
   },
   {
     "roomName": "VMK Esplanade",
+    "hitCount": 2,
+    "avgUserRatio": 1,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "Dungeon",
     "hitCount": 2,
     "avgUserRatio": 1,
     "activeUsers": 2
