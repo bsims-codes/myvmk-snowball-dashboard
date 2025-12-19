@@ -402,7 +402,8 @@ function fmt(n, decimals = 2) {
   if (typeof n === "number") {
     if (!Number.isFinite(n)) return String(n);
     const fixed = n.toFixed(decimals);
-    return fixed.replace(/\.?0+$/, "") || "0";
+    // Only strip trailing zeros after a decimal point, not from integers
+    return fixed.replace(/(\.\d*?)0+$/, "$1").replace(/\.$/, "") || "0";
   }
   return String(n);
 }
@@ -1207,8 +1208,9 @@ function createScatter(ctx, summary) {
               // Check if this is a trend line
               if (dataset.regKey) {
                 const regData = state.regressionData?.[dataset.regKey];
-                if (regData) {
-                  return `📈 ${dataset.label}`;
+                if (regData && regData.slope != null) {
+                  const sign = regData.intercept >= 0 ? "+" : "";
+                  return `Hits Taken = ${fmt(regData.slope, 4)} * Attacks ${sign} ${fmt(regData.intercept, 2)}`;
                 }
               }
               return "";
@@ -1223,23 +1225,26 @@ function createScatter(ctx, summary) {
                 if (regData) {
                   const lines = [];
 
-                  // Simple interpretation of what the trend means
-                  if (regData.slope != null) {
-                    const ratio = fmt(regData.slope, 2);
-                    if (regData.slope < 0.9) {
-                      lines.push(`For every 1 hit taken, users deal ~${fmt(1/regData.slope, 1)} hits`);
-                      lines.push(`→ Attackers have the advantage`);
-                    } else if (regData.slope > 1.1) {
-                      lines.push(`For every 1 hit dealt, users take ~${ratio} hits`);
-                      lines.push(`→ Getting hit more than hitting`);
-                    } else {
-                      lines.push(`Users deal and take hits roughly equally`);
-                      lines.push(`→ Balanced fighting`);
-                    }
+                  // R² value
+                  if (regData.r2 != null) {
+                    lines.push(`R²=${fmt(regData.r2, 4)}`);
                   }
 
-                  if (regData.n != null) {
-                    lines.push(`Based on ${regData.n} users`);
+                  lines.push("");  // blank line
+
+                  // Team name
+                  const teamLabel = dataset.regKey === "overall" ? "All" :
+                    dataset.regKey.charAt(0).toUpperCase() + dataset.regKey.slice(1);
+                  lines.push(`Team=${teamLabel}`);
+
+                  // Attacks Made (x value of hovered point)
+                  const x = raw?.x ?? 0;
+                  lines.push(`Attacks Made=${fmt(x, 0)}`);
+
+                  // Predicted Hits Taken from trend line
+                  if (regData.slope != null && regData.intercept != null) {
+                    const predicted = regData.slope * x + regData.intercept;
+                    lines.push(`Hits Taken=${fmt(predicted, 2)} (trend)`);
                   }
 
                   return lines;
