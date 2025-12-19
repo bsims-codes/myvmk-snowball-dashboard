@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-19T04:32:12.599Z",
-  "totalRows": 42466,
+  "generatedAt": "2025-12-19T05:19:26.320Z",
+  "totalRows": 42468,
   "totalUsers": 422,
   "teamStats": {
     "Penguin": {
       "users": 189,
-      "attacks": 22060,
+      "attacks": 22062,
       "hitsTaken": 21159
     },
     "Reindeer": {
       "users": 233,
       "attacks": 20406,
-      "hitsTaken": 21307
+      "hitsTaken": 21309
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 21179
+      "count": 21181
     },
     {
       "pair": "Reindeer → Penguin",
@@ -519,9 +519,9 @@
     {
       "user": "sapphire",
       "team": "Penguin",
-      "attacks": 291,
+      "attacks": 293,
       "hitsTaken": 494,
-      "ratio": 0.5890688259109311
+      "ratio": 0.5931174089068826
     },
     {
       "user": "CaptainBubbles",
@@ -2638,6 +2638,13 @@
       "ratio": 0.2
     },
     {
+      "user": "Muuula1",
+      "team": "Reindeer",
+      "attacks": 4,
+      "hitsTaken": 2,
+      "ratio": 2
+    },
+    {
       "user": "alternative",
       "team": "Penguin",
       "attacks": 0,
@@ -2741,13 +2748,6 @@
       "attacks": 1,
       "hitsTaken": 3,
       "ratio": 0.3333333333333333
-    },
-    {
-      "user": "Muuula1",
-      "team": "Reindeer",
-      "attacks": 4,
-      "hitsTaken": 0,
-      "ratio": 4
     },
     {
       "user": "RainyDaze",
@@ -3249,30 +3249,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.5256921950956437,
-      "intercept": 47.72975176082558,
+      "slope": 0.5256979460371205,
+      "intercept": 47.73142091870988,
       "xMin": 0,
       "xMax": 2422,
-      "y1": 47.72975176082558,
-      "y2": 1320.9562482824747,
+      "y1": 47.73142091870988,
+      "y2": 1320.9718462206156,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.4647505354403039,
-      "intercept": 57.70689517559204,
+      "slope": 0.4647718709305967,
+      "intercept": 57.69948668533956,
       "xMin": 0,
       "xMax": 2422,
-      "y1": 57.70689517559204,
-      "y2": 1183.3326920120082,
+      "y1": 57.69948668533956,
+      "y2": 1183.3769580792446,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.623835857815412,
-      "intercept": 36.8111823408528,
+      "slope": 0.6238225847327046,
+      "intercept": 36.8209284804482,
       "xMin": 0,
       "xMax": 2422,
-      "y1": 36.8111823408528,
-      "y2": 1547.7416299697807,
+      "y1": 36.8209284804482,
+      "y2": 1547.7192287030587,
       "label": "Reindeer"
     }
   },
@@ -3285,9 +3285,9 @@
     },
     {
       "roomName": "Main Street",
-      "hitCount": 6621,
-      "avgUserRatio": 1.01,
-      "activeUsers": 227
+      "hitCount": 6622,
+      "avgUserRatio": 1,
+      "activeUsers": 228
     },
     {
       "roomName": "Town Square",
@@ -3411,9 +3411,9 @@
     },
     {
       "roomName": "Autopia Quest Track",
-      "hitCount": 114,
-      "avgUserRatio": 2.39,
-      "activeUsers": 9
+      "hitCount": 115,
+      "avgUserRatio": 2.05,
+      "activeUsers": 11
     },
     {
       "roomName": "Forbidden Temple",
