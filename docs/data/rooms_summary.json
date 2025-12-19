@@ -1,15 +1,21 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 1106,
-    "avgUserRatio": 1.9,
-    "activeUsers": 47
+    "hitCount": 1593,
+    "avgUserRatio": 1.53,
+    "activeUsers": 62
   },
   {
     "roomName": "Monorail Station",
     "hitCount": 486,
     "avgUserRatio": 2.54,
     "activeUsers": 25
+  },
+  {
+    "roomName": "Town Square",
+    "hitCount": 463,
+    "avgUserRatio": 1.08,
+    "activeUsers": 58
   },
   {
     "roomName": "Central Plaza",
@@ -30,22 +36,16 @@
     "activeUsers": 29
   },
   {
+    "roomName": "Tomorrowland Hub",
+    "hitCount": 97,
+    "avgUserRatio": 1.61,
+    "activeUsers": 21
+  },
+  {
     "roomName": "Pixar Pier Entrance",
     "hitCount": 90,
     "avgUserRatio": 1.59,
     "activeUsers": 22
-  },
-  {
-    "roomName": "Town Square",
-    "hitCount": 82,
-    "avgUserRatio": 1.24,
-    "activeUsers": 20
-  },
-  {
-    "roomName": "Tomorrowland Hub",
-    "hitCount": 74,
-    "avgUserRatio": 1.91,
-    "activeUsers": 16
   },
   {
     "roomName": "Pirate Treehouse",
@@ -72,6 +72,18 @@
     "activeUsers": 9
   },
   {
+    "roomName": "Epcot Entrance",
+    "hitCount": 30,
+    "avgUserRatio": 1.24,
+    "activeUsers": 11
+  },
+  {
+    "roomName": "Main Street",
+    "hitCount": 26,
+    "avgUserRatio": 1.25,
+    "activeUsers": 17
+  },
+  {
     "roomName": "Jungle Cruise Dock",
     "hitCount": 26,
     "avgUserRatio": 1.56,
@@ -84,16 +96,16 @@
     "activeUsers": 5
   },
   {
+    "roomName": "Matterhorn",
+    "hitCount": 25,
+    "avgUserRatio": 1.76,
+    "activeUsers": 13
+  },
+  {
     "roomName": "Autopia Off Road on Mars",
     "hitCount": 23,
     "avgUserRatio": 1.31,
     "activeUsers": 11
-  },
-  {
-    "roomName": "Matterhorn",
-    "hitCount": 23,
-    "avgUserRatio": 1.76,
-    "activeUsers": 12
   },
   {
     "roomName": "Castle Forecourt",
@@ -102,22 +114,16 @@
     "activeUsers": 9
   },
   {
-    "roomName": "Main Street",
-    "hitCount": 20,
-    "avgUserRatio": 1.45,
-    "activeUsers": 11
-  },
-  {
-    "roomName": "Epcot Entrance",
-    "hitCount": 20,
-    "avgUserRatio": 1.31,
-    "activeUsers": 8
-  },
-  {
     "roomName": "WS - Mexico",
     "hitCount": 17,
     "avgUserRatio": 1.04,
     "activeUsers": 5
+  },
+  {
+    "roomName": "Inner-Space Ray Room",
+    "hitCount": 14,
+    "avgUserRatio": 0.93,
+    "activeUsers": 3
   },
   {
     "roomName": "Adventureland Bazaar",
@@ -132,12 +138,6 @@
     "activeUsers": 7
   },
   {
-    "roomName": "Inner-Space Ray Room",
-    "hitCount": 10,
-    "avgUserRatio": 1,
-    "activeUsers": 2
-  },
-  {
     "roomName": "Storybookland",
     "hitCount": 9,
     "avgUserRatio": 1.8,
@@ -148,6 +148,12 @@
     "hitCount": 8,
     "avgUserRatio": 1.6,
     "activeUsers": 5
+  },
+  {
+    "roomName": "Inner-Space Shop",
+    "hitCount": 7,
+    "avgUserRatio": 2.33,
+    "activeUsers": 3
   },
   {
     "roomName": "Shrunken Ned's Shop",
@@ -208,12 +214,6 @@
     "hitCount": 2,
     "avgUserRatio": 0.67,
     "activeUsers": 3
-  },
-  {
-    "roomName": "Inner-Space Shop",
-    "hitCount": 2,
-    "avgUserRatio": 1,
-    "activeUsers": 2
   },
   {
     "roomName": "WS - United Kingdom",
