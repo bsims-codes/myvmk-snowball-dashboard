@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "roomName": "Discovery Island",
+    "hitCount": 25,
+    "avgUserRatio": 3.49,
+    "activeUsers": 5
+  },
+  {
+    "roomName": "Pirate Treehouse",
+    "hitCount": 11,
+    "avgUserRatio": 1.92,
+    "activeUsers": 4
+  },
+  {
+    "roomName": "Shipwreck Graveyard",
+    "hitCount": 2,
+    "avgUserRatio": 1,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "Town Square",
+    "hitCount": 2,
+    "avgUserRatio": 1,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "Captain's Quest Quarters",
+    "hitCount": 1,
+    "avgUserRatio": 0.5,
+    "activeUsers": 2
+  }
+]

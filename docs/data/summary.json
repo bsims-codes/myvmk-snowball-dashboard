@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-19T13:31:06.983Z",
-  "totalRows": 0,
-  "totalUsers": 0,
+  "generatedAt": "2025-12-19T14:18:46.018Z",
+  "totalRows": 41,
+  "totalUsers": 6,
   "teamStats": {
     "Penguin": {
-      "users": 0,
-      "attacks": 0,
-      "hitsTaken": 0
+      "users": 3,
+      "attacks": 13,
+      "hitsTaken": 28
     },
     "Reindeer": {
-      "users": 0,
-      "attacks": 0,
-      "hitsTaken": 0
+      "users": 3,
+      "attacks": 28,
+      "hitsTaken": 13
     },
     "Unknown": {
       "users": 0,
@@ -19,14 +19,183 @@
       "hitsTaken": 0
     }
   },
-  "teamVsTeam": [],
-  "topAttackers": [],
-  "topVictims": [],
-  "scatterPoints": [],
+  "teamVsTeam": [
+    {
+      "pair": "Reindeer → Penguin",
+      "count": 28
+    },
+    {
+      "pair": "Penguin → Reindeer",
+      "count": 13
+    }
+  ],
+  "topAttackers": [
+    {
+      "user": "Kronkx",
+      "attacks": 15,
+      "team": "Reindeer"
+    },
+    {
+      "user": "Mali",
+      "attacks": 10,
+      "team": "Penguin"
+    },
+    {
+      "user": "lotuskitty",
+      "attacks": 10,
+      "team": "Reindeer"
+    },
+    {
+      "user": "rockin_rachael",
+      "attacks": 3,
+      "team": "Reindeer"
+    },
+    {
+      "user": "PhatPotato",
+      "attacks": 2,
+      "team": "Penguin"
+    },
+    {
+      "user": "VMKNeec",
+      "attacks": 1,
+      "team": "Penguin"
+    }
+  ],
+  "topVictims": [
+    {
+      "user": "PhatPotato",
+      "hitsTaken": 15,
+      "team": "Penguin"
+    },
+    {
+      "user": "Mali",
+      "hitsTaken": 12,
+      "team": "Penguin"
+    },
+    {
+      "user": "lotuskitty",
+      "hitsTaken": 8,
+      "team": "Reindeer"
+    },
+    {
+      "user": "Kronkx",
+      "hitsTaken": 5,
+      "team": "Reindeer"
+    },
+    {
+      "user": "VMKNeec",
+      "hitsTaken": 1,
+      "team": "Penguin"
+    },
+    {
+      "user": "rockin_rachael",
+      "hitsTaken": 0,
+      "team": "Reindeer"
+    }
+  ],
+  "scatterPoints": [
+    {
+      "user": "Mali",
+      "team": "Penguin",
+      "attacks": 10,
+      "hitsTaken": 12,
+      "ratio": 0.8333333333333334
+    },
+    {
+      "user": "Kronkx",
+      "team": "Reindeer",
+      "attacks": 15,
+      "hitsTaken": 5,
+      "ratio": 3
+    },
+    {
+      "user": "lotuskitty",
+      "team": "Reindeer",
+      "attacks": 10,
+      "hitsTaken": 8,
+      "ratio": 1.25
+    },
+    {
+      "user": "PhatPotato",
+      "team": "Penguin",
+      "attacks": 2,
+      "hitsTaken": 15,
+      "ratio": 0.13333333333333333
+    },
+    {
+      "user": "rockin_rachael",
+      "team": "Reindeer",
+      "attacks": 3,
+      "hitsTaken": 0,
+      "ratio": 3
+    },
+    {
+      "user": "VMKNeec",
+      "team": "Penguin",
+      "attacks": 1,
+      "hitsTaken": 1,
+      "ratio": 1
+    }
+  ],
   "regression": {
-    "overall": null,
-    "penguin": null,
-    "reindeer": null
+    "overall": {
+      "slope": 0.1626442812172088,
+      "intercept": 5.72193074501574,
+      "xMin": 0,
+      "xMax": 15,
+      "y1": 5.72193074501574,
+      "y2": 8.161594963273872,
+      "label": "All"
+    },
+    "penguin": {
+      "slope": 0.6095890410958904,
+      "intercept": 6.691780821917807,
+      "xMin": 0,
+      "xMax": 15,
+      "y1": 6.691780821917807,
+      "y2": 15.835616438356162,
+      "label": "Penguin"
+    },
+    "reindeer": {
+      "slope": 0.463302752293578,
+      "intercept": 0.009174311926605819,
+      "xMin": 0,
+      "xMax": 15,
+      "y1": 0.009174311926605819,
+      "y2": 6.958715596330276,
+      "label": "Reindeer"
+    }
   },
-  "topRooms": []
+  "topRooms": [
+    {
+      "roomName": "Discovery Island",
+      "hitCount": 25,
+      "avgUserRatio": 3.49,
+      "activeUsers": 5
+    },
+    {
+      "roomName": "Pirate Treehouse",
+      "hitCount": 11,
+      "avgUserRatio": 1.92,
+      "activeUsers": 4
+    },
+    {
+      "roomName": "Shipwreck Graveyard",
+      "hitCount": 2,
+      "avgUserRatio": 1,
+      "activeUsers": 2
+    },
+    {
+      "roomName": "Town Square",
+      "hitCount": 2,
+      "avgUserRatio": 1,
+      "activeUsers": 2
+    },
+    {
+      "roomName": "Captain's Quest Quarters",
+      "hitCount": 1,
+      "avgUserRatio": 0.5,
+      "activeUsers": 2
+    }
+  ]
 }

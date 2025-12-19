@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "user": "Kronkx",
+    "team": "Reindeer",
+    "attacks": 15,
+    "hitsTaken": 5,
+    "ratio": 3
+  },
+  {
+    "user": "Mali",
+    "team": "Penguin",
+    "attacks": 10,
+    "hitsTaken": 12,
+    "ratio": 0.8333333333333334
+  },
+  {
+    "user": "lotuskitty",
+    "team": "Reindeer",
+    "attacks": 10,
+    "hitsTaken": 8,
+    "ratio": 1.25
+  },
+  {
+    "user": "rockin_rachael",
+    "team": "Reindeer",
+    "attacks": 3,
+    "hitsTaken": 0,
+    "ratio": 3
+  },
+  {
+    "user": "PhatPotato",
+    "team": "Penguin",
+    "attacks": 2,
+    "hitsTaken": 15,
+    "ratio": 0.13333333333333333
+  },
+  {
+    "user": "VMKNeec",
+    "team": "Penguin",
+    "attacks": 1,
+    "hitsTaken": 1,
+    "ratio": 1
+  }
+]
