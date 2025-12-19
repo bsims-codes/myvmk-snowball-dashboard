@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 461,
-    "avgUserRatio": 2.7,
-    "activeUsers": 31
+    "hitCount": 612,
+    "avgUserRatio": 2.06,
+    "activeUsers": 34
   },
   {
     "roomName": "Monorail Station",
@@ -18,16 +18,28 @@
     "activeUsers": 17
   },
   {
+    "roomName": "VMK Esplanade",
+    "hitCount": 68,
+    "avgUserRatio": 1.29,
+    "activeUsers": 27
+  },
+  {
     "roomName": "Pirate Treehouse",
     "hitCount": 48,
     "avgUserRatio": 1.89,
     "activeUsers": 12
   },
   {
-    "roomName": "VMK Esplanade",
-    "hitCount": 42,
-    "avgUserRatio": 1.16,
-    "activeUsers": 17
+    "roomName": "Gallery",
+    "hitCount": 35,
+    "avgUserRatio": 1.24,
+    "activeUsers": 16
+  },
+  {
+    "roomName": "Pixar Pier Entrance",
+    "hitCount": 32,
+    "avgUserRatio": 1.08,
+    "activeUsers": 15
   },
   {
     "roomName": "Discovery Island",
@@ -48,22 +60,28 @@
     "activeUsers": 9
   },
   {
+    "roomName": "Town Square",
+    "hitCount": 17,
+    "avgUserRatio": 1.06,
+    "activeUsers": 14
+  },
+  {
+    "roomName": "Dungeon",
+    "hitCount": 17,
+    "avgUserRatio": 1.32,
+    "activeUsers": 11
+  },
+  {
+    "roomName": "WS - Mexico",
+    "hitCount": 15,
+    "avgUserRatio": 1.06,
+    "activeUsers": 5
+  },
+  {
     "roomName": "Main Street",
     "hitCount": 12,
     "avgUserRatio": 1.71,
     "activeUsers": 7
-  },
-  {
-    "roomName": "Gallery",
-    "hitCount": 12,
-    "avgUserRatio": 1.07,
-    "activeUsers": 5
-  },
-  {
-    "roomName": "Town Square",
-    "hitCount": 11,
-    "avgUserRatio": 0.86,
-    "activeUsers": 11
   },
   {
     "roomName": "Matterhorn",
@@ -78,6 +96,12 @@
     "activeUsers": 5
   },
   {
+    "roomName": "Spell Room",
+    "hitCount": 10,
+    "avgUserRatio": 1.29,
+    "activeUsers": 7
+  },
+  {
     "roomName": "Jungle Cruise Dock",
     "hitCount": 9,
     "avgUserRatio": 1.5,
@@ -88,6 +112,12 @@
     "hitCount": 8,
     "avgUserRatio": 1.6,
     "activeUsers": 5
+  },
+  {
+    "roomName": "Epcot Entrance",
+    "hitCount": 8,
+    "avgUserRatio": 0.79,
+    "activeUsers": 4
   },
   {
     "roomName": "Nautilus Grotto",
@@ -102,16 +132,16 @@
     "activeUsers": 3
   },
   {
-    "roomName": "Dungeon",
-    "hitCount": 5,
-    "avgUserRatio": 0.67,
-    "activeUsers": 6
-  },
-  {
     "roomName": "Adventureland Bazaar",
     "hitCount": 5,
     "avgUserRatio": 0.88,
     "activeUsers": 4
+  },
+  {
+    "roomName": "VMK Gallery",
+    "hitCount": 5,
+    "avgUserRatio": 0.9,
+    "activeUsers": 5
   },
   {
     "roomName": "Shrunken Ned's Shop",
@@ -126,10 +156,16 @@
     "activeUsers": 2
   },
   {
-    "roomName": "VMK Gallery",
+    "roomName": "Castle Gardens",
     "hitCount": 3,
-    "avgUserRatio": 1.25,
-    "activeUsers": 2
+    "avgUserRatio": 0.75,
+    "activeUsers": 4
+  },
+  {
+    "roomName": "WS - Norway",
+    "hitCount": 3,
+    "avgUserRatio": 1,
+    "activeUsers": 3
   },
   {
     "roomName": "Shipwreck Graveyard",
@@ -156,7 +192,7 @@
     "activeUsers": 2
   },
   {
-    "roomName": "Epcot Entrance",
+    "roomName": "Everest Entrance",
     "hitCount": 1,
     "avgUserRatio": 0.5,
     "activeUsers": 2
