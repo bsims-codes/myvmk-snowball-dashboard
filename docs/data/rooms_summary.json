@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 621,
-    "avgUserRatio": 2.02,
-    "activeUsers": 35
+    "hitCount": 771,
+    "avgUserRatio": 1.61,
+    "activeUsers": 38
   },
   {
     "roomName": "Monorail Station",
@@ -13,33 +13,39 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 244,
-    "avgUserRatio": 1.43,
-    "activeUsers": 17
+    "hitCount": 313,
+    "avgUserRatio": 2.02,
+    "activeUsers": 21
   },
   {
     "roomName": "Monorail Train",
-    "hitCount": 116,
-    "avgUserRatio": 3.14,
-    "activeUsers": 13
-  },
-  {
-    "roomName": "Pixar Pier Entrance",
-    "hitCount": 78,
-    "avgUserRatio": 1.56,
-    "activeUsers": 17
+    "hitCount": 179,
+    "avgUserRatio": 3.59,
+    "activeUsers": 14
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 68,
-    "avgUserRatio": 1.29,
-    "activeUsers": 27
+    "hitCount": 116,
+    "avgUserRatio": 2.35,
+    "activeUsers": 28
+  },
+  {
+    "roomName": "Pixar Pier Entrance",
+    "hitCount": 90,
+    "avgUserRatio": 1.59,
+    "activeUsers": 22
+  },
+  {
+    "roomName": "Town Square",
+    "hitCount": 82,
+    "avgUserRatio": 1.24,
+    "activeUsers": 20
   },
   {
     "roomName": "Tomorrowland Hub",
-    "hitCount": 59,
-    "avgUserRatio": 1.72,
-    "activeUsers": 13
+    "hitCount": 74,
+    "avgUserRatio": 1.91,
+    "activeUsers": 16
   },
   {
     "roomName": "Pirate Treehouse",
@@ -52,12 +58,6 @@
     "hitCount": 44,
     "avgUserRatio": 1.25,
     "activeUsers": 17
-  },
-  {
-    "roomName": "Town Square",
-    "hitCount": 26,
-    "avgUserRatio": 1.14,
-    "activeUsers": 18
   },
   {
     "roomName": "Jungle Cruise Dock",
@@ -84,10 +84,22 @@
     "activeUsers": 9
   },
   {
+    "roomName": "Autopia Quest Track",
+    "hitCount": 20,
+    "avgUserRatio": 2.75,
+    "activeUsers": 7
+  },
+  {
+    "roomName": "Epcot Entrance",
+    "hitCount": 20,
+    "avgUserRatio": 1.31,
+    "activeUsers": 8
+  },
+  {
     "roomName": "Dungeon",
-    "hitCount": 17,
-    "avgUserRatio": 1.32,
-    "activeUsers": 11
+    "hitCount": 18,
+    "avgUserRatio": 1.2,
+    "activeUsers": 13
   },
   {
     "roomName": "WS - Mexico",
@@ -108,6 +120,12 @@
     "activeUsers": 9
   },
   {
+    "roomName": "Adventureland Bazaar",
+    "hitCount": 11,
+    "avgUserRatio": 0.83,
+    "activeUsers": 6
+  },
+  {
     "roomName": "Spell Room",
     "hitCount": 10,
     "avgUserRatio": 1.29,
@@ -120,12 +138,6 @@
     "activeUsers": 5
   },
   {
-    "roomName": "Epcot Entrance",
-    "hitCount": 8,
-    "avgUserRatio": 0.79,
-    "activeUsers": 4
-  },
-  {
     "roomName": "Shrunken Ned's Shop",
     "hitCount": 6,
     "avgUserRatio": 1.2,
@@ -136,18 +148,6 @@
     "hitCount": 6,
     "avgUserRatio": 1.17,
     "activeUsers": 3
-  },
-  {
-    "roomName": "Autopia Quest Track",
-    "hitCount": 5,
-    "avgUserRatio": 1.42,
-    "activeUsers": 3
-  },
-  {
-    "roomName": "Adventureland Bazaar",
-    "hitCount": 5,
-    "avgUserRatio": 0.88,
-    "activeUsers": 4
   },
   {
     "roomName": "VMK Gallery",
@@ -198,6 +198,12 @@
     "activeUsers": 2
   },
   {
+    "roomName": "Big Thunder Mountain",
+    "hitCount": 2,
+    "avgUserRatio": 0.67,
+    "activeUsers": 3
+  },
+  {
     "roomName": "WS - United Kingdom",
     "hitCount": 1,
     "avgUserRatio": 0.5,
@@ -223,6 +229,24 @@
   },
   {
     "roomName": "Festival of the Lion King",
+    "hitCount": 1,
+    "avgUserRatio": 0.5,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "\"it's a small world\" Imports",
+    "hitCount": 1,
+    "avgUserRatio": 0.5,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "Star Commander Lobby",
+    "hitCount": 1,
+    "avgUserRatio": 0.5,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "Sci-Fi Dine-In",
     "hitCount": 1,
     "avgUserRatio": 0.5,
     "activeUsers": 2
