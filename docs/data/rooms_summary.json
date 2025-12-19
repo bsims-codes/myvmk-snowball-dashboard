@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 19412,
+    "hitCount": 19478,
     "avgUserRatio": 0.9,
     "activeUsers": 237
   },
@@ -246,6 +246,12 @@
     "activeUsers": 5
   },
   {
+    "roomName": "Penny Arcade",
+    "hitCount": 11,
+    "avgUserRatio": 1.15,
+    "activeUsers": 9
+  },
+  {
     "roomName": "Elephant Bathing Pool",
     "hitCount": 10,
     "avgUserRatio": 1.06,
@@ -280,12 +286,6 @@
     "hitCount": 4,
     "avgUserRatio": 2,
     "activeUsers": 2
-  },
-  {
-    "roomName": "Penny Arcade",
-    "hitCount": 4,
-    "avgUserRatio": 0.8,
-    "activeUsers": 5
   },
   {
     "roomName": "Autopia Space Race",

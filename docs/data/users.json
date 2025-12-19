@@ -105,18 +105,18 @@
     "ratio": 2.830449826989619
   },
   {
+    "user": "SammyxxFairy",
+    "team": "Reindeer",
+    "attacks": 757,
+    "hitsTaken": 1445,
+    "ratio": 0.5238754325259516
+  },
+  {
     "user": "CartNarcs",
     "team": "Penguin",
     "attacks": 739,
     "hitsTaken": 410,
     "ratio": 1.802439024390244
-  },
-  {
-    "user": "SammyxxFairy",
-    "team": "Reindeer",
-    "attacks": 712,
-    "hitsTaken": 1445,
-    "ratio": 0.49273356401384083
   },
   {
     "user": "MrChemistry",
@@ -128,9 +128,9 @@
   {
     "user": "Kronkx",
     "team": "Reindeer",
-    "attacks": 655,
-    "hitsTaken": 369,
-    "ratio": 1.7750677506775068
+    "attacks": 672,
+    "hitsTaken": 373,
+    "ratio": 1.801608579088472
   },
   {
     "user": "taymeow",
@@ -205,9 +205,9 @@
   {
     "user": "tizzi",
     "team": "Reindeer",
-    "attacks": 428,
-    "hitsTaken": 377,
-    "ratio": 1.1352785145888593
+    "attacks": 434,
+    "hitsTaken": 378,
+    "ratio": 1.1481481481481481
   },
   {
     "user": "FlameLegend",
@@ -380,9 +380,9 @@
   {
     "user": "Magenta",
     "team": "Penguin",
-    "attacks": 182,
-    "hitsTaken": 805,
-    "ratio": 0.22608695652173913
+    "attacks": 186,
+    "hitsTaken": 811,
+    "ratio": 0.22934648581997533
   },
   {
     "user": "alphablue",
@@ -1053,8 +1053,8 @@
     "user": "SoopaVillain",
     "team": "Penguin",
     "attacks": 20,
-    "hitsTaken": 571,
-    "ratio": 0.03502626970227671
+    "hitsTaken": 627,
+    "ratio": 0.03189792663476874
   },
   {
     "user": "hannahmontana",
@@ -1197,6 +1197,13 @@
     "ratio": 1.5555555555555556
   },
   {
+    "user": "Diamond-J",
+    "team": "Penguin",
+    "attacks": 14,
+    "hitsTaken": 30,
+    "ratio": 0.4666666666666667
+  },
+  {
     "user": "Zanze",
     "team": "Reindeer",
     "attacks": 13,
@@ -1209,13 +1216,6 @@
     "attacks": 13,
     "hitsTaken": 11,
     "ratio": 1.1818181818181819
-  },
-  {
-    "user": "Diamond-J",
-    "team": "Penguin",
-    "attacks": 13,
-    "hitsTaken": 27,
-    "ratio": 0.48148148148148145
   },
   {
     "user": "agentish",
@@ -1438,8 +1438,8 @@
     "user": "Diamond-K",
     "team": "Penguin",
     "attacks": 6,
-    "hitsTaken": 2,
-    "ratio": 3
+    "hitsTaken": 3,
+    "ratio": 2
   },
   {
     "user": "AlecDaMan",
@@ -2944,6 +2944,13 @@
     "team": "Reindeer",
     "attacks": 0,
     "hitsTaken": 3,
+    "ratio": 0
+  },
+  {
+    "user": "CIover",
+    "team": "Penguin",
+    "attacks": 0,
+    "hitsTaken": 2,
     "ratio": 0
   }
 ]
