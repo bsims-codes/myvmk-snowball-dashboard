@@ -132,6 +132,25 @@ function escapeHtml(str) {
   }[c]));
 }
 
+/**
+ * Copy section link to clipboard
+ */
+function copySectionLink(sectionId, button) {
+  const url = `${window.location.origin}${window.location.pathname}#${sectionId}`;
+  navigator.clipboard.writeText(url).then(() => {
+    // Show feedback
+    button.classList.add("copied");
+    const originalText = button.textContent;
+    button.textContent = "Copied!";
+    setTimeout(() => {
+      button.classList.remove("copied");
+      button.textContent = originalText;
+    }, 1500);
+  }).catch(err => {
+    console.error("Failed to copy link:", err);
+  });
+}
+
 function parseSearchNames(input) {
   if (!input) return [];
   return input.split(",").map(s => s.trim()).filter(Boolean).map(s => s.toLowerCase());

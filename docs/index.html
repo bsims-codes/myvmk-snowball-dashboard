@@ -517,6 +517,44 @@
         font-size: 0.75rem;
         color: var(--text-muted);
       }
+
+      /* Section link button */
+      .section-header {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .section-link-btn {
+        opacity: 0;
+        background: none;
+        border: none;
+        color: var(--text-muted);
+        cursor: pointer;
+        padding: 2px 6px;
+        font-size: 0.85rem;
+        border-radius: 4px;
+        transition: opacity 0.2s, background 0.2s;
+      }
+
+      .section-header:hover .section-link-btn,
+      .section-link-btn:focus {
+        opacity: 1;
+      }
+
+      .section-link-btn:hover {
+        background: var(--hover-bg);
+        color: var(--text);
+      }
+
+      .section-link-btn.copied {
+        color: #16a34a;
+      }
+
+      /* Scroll margin for anchor links */
+      [id] {
+        scroll-margin-top: 20px;
+      }
     </style>
   </head>
   <body>
@@ -553,8 +591,8 @@
     </div>
 
     <div class="row">
-      <div class="card" style="grid-column: span 2;">
-        <h3>Head-to-Head Lookup</h3>
+      <div class="card" style="grid-column: span 2;" id="head-to-head">
+        <h3 class="section-header">Head-to-Head Lookup <button class="section-link-btn" onclick="copySectionLink('head-to-head', this)" title="Copy link to section">🔗</button></h3>
         <div class="toolbar">
           <div class="combo-box">
             <input id="h2hUser1" placeholder="User 1..." autocomplete="off" />
@@ -575,9 +613,9 @@
     </div>
 
     <div class="row">
-      <div class="card">
+      <div class="card" id="scatter-chart">
         <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px;">
-          <h3 style="margin:0;">Attacks vs Hits Taken</h3>
+          <h3 style="margin:0;" class="section-header">Attacks vs Hits Taken <button class="section-link-btn" onclick="copySectionLink('scatter-chart', this)" title="Copy link to section">🔗</button></h3>
           <button class="chip-btn" id="resetScatterZoom">Reset View</button>
         </div>
         <div class="chart-container">
@@ -587,8 +625,8 @@
           Scroll to zoom. Drag to pan. Double-click to zoom in; Shift+double-click to zoom out.
         </p>
       </div>
-      <div class="card">
-        <h3>Users <span id="userCount" style="font-weight:normal;color:var(--text-muted);font-size:0.875rem;"></span></h3>
+      <div class="card" id="users">
+        <h3 class="section-header">Users <span id="userCount" style="font-weight:normal;color:var(--text-muted);font-size:0.875rem;"></span> <button class="section-link-btn" onclick="copySectionLink('users', this)" title="Copy link to section">🔗</button></h3>
         <div class="toolbar">
           <input id="filterExpr" placeholder="Filter examples: attacks > 100, ratio >= 2" />
           <select id="teamFilter">
@@ -614,29 +652,29 @@
     </div>
 
     <div class="row">
-      <div class="card">
-        <h3>Hits by Room (with Avg User Ratio)</h3>
+      <div class="card" id="rooms">
+        <h3 class="section-header">Hits by Room (with Avg User Ratio) <button class="section-link-btn" onclick="copySectionLink('rooms', this)" title="Copy link to section">🔗</button></h3>
         <div class="chart-container">
           <canvas id="roomsChart"></canvas>
         </div>
         <p class="legend-note">Bars = total hits in room. Line = average user attack/defense ratio in that room.</p>
       </div>
-      <div class="card">
-        <h3>Top Performers</h3>
+      <div class="card" id="top-performers">
+        <h3 class="section-header">Top Performers <button class="section-link-btn" onclick="copySectionLink('top-performers', this)" title="Copy link to section">🔗</button></h3>
         <div id="topLists"></div>
       </div>
     </div>
 
     <div class="row">
-      <div class="card">
-        <h3>Daily Attacks (Last 7 Days)</h3>
+      <div class="card" id="daily-attacks">
+        <h3 class="section-header">Daily Attacks (Last 7 Days) <button class="section-link-btn" onclick="copySectionLink('daily-attacks', this)" title="Copy link to section">🔗</button></h3>
         <div class="chart-container">
           <canvas id="dailyChart"></canvas>
         </div>
         <p class="legend-note">Hover over bars to see top 10 attackers for each team on that day.</p>
       </div>
-      <div class="card">
-        <h3>Activity Heatmap</h3>
+      <div class="card" id="heatmap-section">
+        <h3 class="section-header">Activity Heatmap <button class="section-link-btn" onclick="copySectionLink('heatmap-section', this)" title="Copy link to section">🔗</button></h3>
         <div id="heatmapContainer" style="overflow-x:auto;">
           <div id="heatmap"></div>
         </div>
@@ -645,8 +683,8 @@
     </div>
 
     <div class="row">
-      <div class="card" style="grid-column: span 2;">
-        <h3>User Victim Breakdown</h3>
+      <div class="card" style="grid-column: span 2;" id="victim-breakdown">
+        <h3 class="section-header">User Victim Breakdown <button class="section-link-btn" onclick="copySectionLink('victim-breakdown', this)" title="Copy link to section">🔗</button></h3>
         <div class="toolbar">
           <input id="victimTableSearch" placeholder="Search attacker..." />
           <select id="victimTableTeam">
@@ -662,21 +700,23 @@
     </div>
 
     <div class="row">
-      <div class="card">
-        <h3 style="display:flex;align-items:center;gap:8px;">
+      <div class="card" id="penguin-roster">
+        <h3 class="section-header" style="display:flex;align-items:center;gap:8px;">
           <img src="penguin.png" alt="Penguin" style="width:24px;height:24px;">
           Penguin Roster
           <span id="penguinRosterCount" style="font-weight:normal;color:var(--text-muted);font-size:0.875rem;"></span>
+          <button class="section-link-btn" onclick="copySectionLink('penguin-roster', this)" title="Copy link to section">🔗</button>
         </h3>
         <div class="scroll" style="max-height:300px;">
           <table id="penguinRosterTable"></table>
         </div>
       </div>
-      <div class="card">
-        <h3 style="display:flex;align-items:center;gap:8px;">
+      <div class="card" id="reindeer-roster">
+        <h3 class="section-header" style="display:flex;align-items:center;gap:8px;">
           <img src="reindeer.png" alt="Reindeer" style="width:24px;height:24px;">
           Reindeer Roster
           <span id="reindeerRosterCount" style="font-weight:normal;color:var(--text-muted);font-size:0.875rem;"></span>
+          <button class="section-link-btn" onclick="copySectionLink('reindeer-roster', this)" title="Copy link to section">🔗</button>
         </h3>
         <div class="scroll" style="max-height:300px;">
           <table id="reindeerRosterTable"></table>
@@ -685,9 +725,9 @@
     </div>
 
     <div class="row">
-      <div class="card" style="grid-column: span 2;">
+      <div class="card" style="grid-column: span 2;" id="all-events">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
-          <h3 style="margin:0;">All Events <span id="eventsCount" style="font-weight:normal;color:var(--text-muted);font-size:0.875rem;"></span></h3>
+          <h3 style="margin:0;" class="section-header">All Events <span id="eventsCount" style="font-weight:normal;color:var(--text-muted);font-size:0.875rem;"></span> <button class="section-link-btn" onclick="copySectionLink('all-events', this)" title="Copy link to section">🔗</button></h3>
           <button class="chip-btn" id="downloadEventsBtn">Download CSV</button>
         </div>
         <div class="toolbar" style="flex-wrap:wrap;">
