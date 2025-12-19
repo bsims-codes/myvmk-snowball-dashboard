@@ -1,21 +1,21 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 1593,
-    "avgUserRatio": 1.53,
-    "activeUsers": 62
+    "hitCount": 1673,
+    "avgUserRatio": 1.48,
+    "activeUsers": 65
+  },
+  {
+    "roomName": "Town Square",
+    "hitCount": 1248,
+    "avgUserRatio": 0.99,
+    "activeUsers": 78
   },
   {
     "roomName": "Monorail Station",
     "hitCount": 486,
     "avgUserRatio": 2.54,
     "activeUsers": 25
-  },
-  {
-    "roomName": "Town Square",
-    "hitCount": 463,
-    "avgUserRatio": 1.08,
-    "activeUsers": 58
   },
   {
     "roomName": "Central Plaza",
@@ -31,9 +31,9 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 120,
-    "avgUserRatio": 2.29,
-    "activeUsers": 29
+    "hitCount": 151,
+    "avgUserRatio": 2.13,
+    "activeUsers": 33
   },
   {
     "roomName": "Tomorrowland Hub",
@@ -72,16 +72,16 @@
     "activeUsers": 9
   },
   {
+    "roomName": "Main Street",
+    "hitCount": 30,
+    "avgUserRatio": 1.15,
+    "activeUsers": 22
+  },
+  {
     "roomName": "Epcot Entrance",
     "hitCount": 30,
     "avgUserRatio": 1.24,
     "activeUsers": 11
-  },
-  {
-    "roomName": "Main Street",
-    "hitCount": 26,
-    "avgUserRatio": 1.25,
-    "activeUsers": 17
   },
   {
     "roomName": "Jungle Cruise Dock",
@@ -102,16 +102,22 @@
     "activeUsers": 13
   },
   {
+    "roomName": "Castle Forecourt",
+    "hitCount": 25,
+    "avgUserRatio": 2.13,
+    "activeUsers": 10
+  },
+  {
     "roomName": "Autopia Off Road on Mars",
     "hitCount": 23,
     "avgUserRatio": 1.31,
     "activeUsers": 11
   },
   {
-    "roomName": "Castle Forecourt",
-    "hitCount": 22,
-    "avgUserRatio": 2.03,
-    "activeUsers": 9
+    "roomName": "VMK Gallery",
+    "hitCount": 17,
+    "avgUserRatio": 1.52,
+    "activeUsers": 6
   },
   {
     "roomName": "WS - Mexico",
@@ -168,12 +174,6 @@
     "activeUsers": 3
   },
   {
-    "roomName": "VMK Gallery",
-    "hitCount": 5,
-    "avgUserRatio": 0.9,
-    "activeUsers": 5
-  },
-  {
     "roomName": "Castle Gardens",
     "hitCount": 4,
     "avgUserRatio": 0.67,
@@ -214,6 +214,12 @@
     "hitCount": 2,
     "avgUserRatio": 0.67,
     "activeUsers": 3
+  },
+  {
+    "roomName": "Elephant Bathing Pool",
+    "hitCount": 2,
+    "avgUserRatio": 1,
+    "activeUsers": 2
   },
   {
     "roomName": "WS - United Kingdom",
