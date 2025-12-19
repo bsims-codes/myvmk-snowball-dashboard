@@ -594,6 +594,55 @@ function initComboBox(inputId, dropdownId, options = {}) {
   });
 }
 
+/**
+ * Compute OLS (Ordinary Least Squares) linear regression
+ * Returns { slope, intercept, r2, n, xMin, xMax, y1, y2 }
+ */
+function computeOLS(points) {
+  const n = points.length;
+  if (n < 2) return null;
+
+  // Calculate means
+  let sumX = 0, sumY = 0;
+  for (const p of points) {
+    sumX += p.x;
+    sumY += p.y;
+  }
+  const meanX = sumX / n;
+  const meanY = sumY / n;
+
+  // Calculate slope and intercept
+  let numerator = 0, denominator = 0;
+  for (const p of points) {
+    const dx = p.x - meanX;
+    const dy = p.y - meanY;
+    numerator += dx * dy;
+    denominator += dx * dx;
+  }
+
+  if (denominator === 0) return null;
+
+  const slope = numerator / denominator;
+  const intercept = meanY - slope * meanX;
+
+  // Calculate R² (coefficient of determination)
+  let ssTot = 0, ssRes = 0;
+  for (const p of points) {
+    const predicted = slope * p.x + intercept;
+    ssTot += (p.y - meanY) ** 2;
+    ssRes += (p.y - predicted) ** 2;
+  }
+  const r2 = ssTot > 0 ? 1 - (ssRes / ssTot) : 0;
+
+  // Calculate line endpoints
+  const xMin = Math.min(...points.map(p => p.x));
+  const xMax = Math.max(...points.map(p => p.x));
+  const y1 = slope * xMin + intercept;
+  const y2 = slope * xMax + intercept;
+
+  return { slope, intercept, r2, n, xMin, xMax, y1, y2 };
+}
+
 // Team colors for charts
 const TEAM_COLORS = {
   Penguin: { bg: "rgba(59, 130, 246, 0.7)", border: "#3b82f6" },
@@ -1088,12 +1137,30 @@ function createScatter(ctx, summary) {
   const pts = summary.scatterPoints || [];
   state.scatterBasePoints = pts;
 
-  // Store regression data for tooltip access
-  state.regressionData = summary.regression || {};
-
   const byTeam = {
     Penguin: pts.filter(p => p.team === "Penguin"),
     Reindeer: pts.filter(p => p.team === "Reindeer")
+  };
+
+  // Convert to x/y points for OLS
+  const allPoints = pts.map(p => ({ x: p.attacks, y: p.hitsTaken }));
+  const penguinPoints = byTeam.Penguin.map(p => ({ x: p.attacks, y: p.hitsTaken }));
+  const reindeerPoints = byTeam.Reindeer.map(p => ({ x: p.attacks, y: p.hitsTaken }));
+
+  // Compute OLS regression on the fly
+  const overallOLS = computeOLS(allPoints);
+  const penguinOLS = computeOLS(penguinPoints);
+  const reindeerOLS = computeOLS(reindeerPoints);
+
+  // Add labels for tooltip display
+  if (overallOLS) overallOLS.label = "All Users";
+  if (penguinOLS) penguinOLS.label = "Penguin";
+  if (reindeerOLS) reindeerOLS.label = "Reindeer";
+
+  state.regressionData = {
+    overall: overallOLS,
+    penguin: penguinOLS,
+    reindeer: reindeerOLS
   };
 
   const datasets = [
@@ -1115,11 +1182,10 @@ function createScatter(ctx, summary) {
     }
   ];
 
-  // Add trend lines with regression metadata
-  const reg = summary.regression || {};
-  const overallLine = computeLineDataset(reg.overall, TREND_COLORS.overall, "overall");
-  const pengLine = computeLineDataset(reg.penguin, TREND_COLORS.penguin, "penguin");
-  const reinLine = computeLineDataset(reg.reindeer, TREND_COLORS.reindeer, "reindeer");
+  // Add OLS trend lines
+  const overallLine = computeLineDataset(state.regressionData.overall, TREND_COLORS.overall, "overall");
+  const pengLine = computeLineDataset(state.regressionData.penguin, TREND_COLORS.penguin, "penguin");
+  const reinLine = computeLineDataset(state.regressionData.reindeer, TREND_COLORS.reindeer, "reindeer");
 
   if (overallLine) datasets.push(overallLine);
   if (pengLine) datasets.push(pengLine);
@@ -1156,28 +1222,26 @@ function createScatter(ctx, summary) {
                 const regData = state.regressionData?.[dataset.regKey];
                 if (regData) {
                   const lines = [];
+
+                  // Simple interpretation of what the trend means
                   if (regData.slope != null) {
-                    const slopeDir = regData.slope > 0 ? "↗" : regData.slope < 0 ? "↘" : "→";
-                    lines.push(`${slopeDir} Slope: ${fmt(regData.slope, 3)}`);
+                    const ratio = fmt(regData.slope, 2);
+                    if (regData.slope < 0.9) {
+                      lines.push(`For every 1 hit taken, users deal ~${fmt(1/regData.slope, 1)} hits`);
+                      lines.push(`→ Attackers have the advantage`);
+                    } else if (regData.slope > 1.1) {
+                      lines.push(`For every 1 hit dealt, users take ~${ratio} hits`);
+                      lines.push(`→ Getting hit more than hitting`);
+                    } else {
+                      lines.push(`Users deal and take hits roughly equally`);
+                      lines.push(`→ Balanced fighting`);
+                    }
                   }
-                  if (regData.intercept != null) {
-                    lines.push(`Intercept: ${fmt(regData.intercept, 2)}`);
-                  }
-                  if (regData.r2 != null) {
-                    lines.push(`R²: ${fmt(regData.r2, 4)} (${(regData.r2 * 100).toFixed(1)}% fit)`);
-                  }
+
                   if (regData.n != null) {
-                    lines.push(`Sample size: ${regData.n} users`);
+                    lines.push(`Based on ${regData.n} users`);
                   }
-                  // Add interpretation
-                  if (regData.slope != null) {
-                    const interpretation = regData.slope > 1
-                      ? "Attackers take more hits than they deal"
-                      : regData.slope < 1
-                        ? "Attackers deal more hits than they take"
-                        : "Balanced attack/defense ratio";
-                    lines.push(`→ ${interpretation}`);
-                  }
+
                   return lines;
                 }
                 return dataset.label || "";
