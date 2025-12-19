@@ -1,15 +1,15 @@
 [
   {
     "roomName": "Central Plaza",
-    "hitCount": 226,
-    "avgUserRatio": 1.57,
-    "activeUsers": 15
+    "hitCount": 244,
+    "avgUserRatio": 1.43,
+    "activeUsers": 17
   },
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 32,
-    "avgUserRatio": 3.3,
-    "activeUsers": 6
+    "hitCount": 135,
+    "avgUserRatio": 2.05,
+    "activeUsers": 15
   },
   {
     "roomName": "Discovery Island",
@@ -19,15 +19,15 @@
   },
   {
     "roomName": "Autopia Off Road on Mars",
-    "hitCount": 12,
-    "avgUserRatio": 1.09,
-    "activeUsers": 7
+    "hitCount": 17,
+    "avgUserRatio": 1.03,
+    "activeUsers": 10
   },
   {
     "roomName": "Pirate Treehouse",
-    "hitCount": 11,
-    "avgUserRatio": 1.92,
-    "activeUsers": 4
+    "hitCount": 13,
+    "avgUserRatio": 1.61,
+    "activeUsers": 6
   },
   {
     "roomName": "Matterhorn",
@@ -79,8 +79,14 @@
   },
   {
     "roomName": "Storybookland",
-    "hitCount": 1,
-    "avgUserRatio": 0.5,
+    "hitCount": 2,
+    "avgUserRatio": 0.67,
+    "activeUsers": 3
+  },
+  {
+    "roomName": "VMK Esplanade",
+    "hitCount": 2,
+    "avgUserRatio": 1,
     "activeUsers": 2
   },
   {
