@@ -1,8 +1,8 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 1089,
-    "avgUserRatio": 1.87,
+    "hitCount": 1106,
+    "avgUserRatio": 1.9,
     "activeUsers": 47
   },
   {
@@ -132,6 +132,18 @@
     "activeUsers": 7
   },
   {
+    "roomName": "Inner-Space Ray Room",
+    "hitCount": 10,
+    "avgUserRatio": 1,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "Storybookland",
+    "hitCount": 9,
+    "avgUserRatio": 1.8,
+    "activeUsers": 5
+  },
+  {
     "roomName": "Blue Bayou",
     "hitCount": 8,
     "avgUserRatio": 1.6,
@@ -180,12 +192,6 @@
     "activeUsers": 2
   },
   {
-    "roomName": "Storybookland",
-    "hitCount": 2,
-    "avgUserRatio": 0.67,
-    "activeUsers": 3
-  },
-  {
     "roomName": "Fantasyland in The Sky",
     "hitCount": 2,
     "avgUserRatio": 1,
@@ -202,6 +208,12 @@
     "hitCount": 2,
     "avgUserRatio": 0.67,
     "activeUsers": 3
+  },
+  {
+    "roomName": "Inner-Space Shop",
+    "hitCount": 2,
+    "avgUserRatio": 1,
+    "activeUsers": 2
   },
   {
     "roomName": "WS - United Kingdom",
@@ -247,6 +259,12 @@
   },
   {
     "roomName": "Sci-Fi Dine-In",
+    "hitCount": 1,
+    "avgUserRatio": 0.5,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "Space Mountain Quest Deck",
     "hitCount": 1,
     "avgUserRatio": 0.5,
     "activeUsers": 2

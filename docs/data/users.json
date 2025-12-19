@@ -2,9 +2,9 @@
   {
     "user": "CaptainBubbles",
     "team": "Reindeer",
-    "attacks": 342,
-    "hitsTaken": 452,
-    "ratio": 0.7566371681415929
+    "attacks": 349,
+    "hitsTaken": 461,
+    "ratio": 0.7570498915401301
   },
   {
     "user": "kazino",
@@ -23,9 +23,9 @@
   {
     "user": "Luckymaxer",
     "team": "Penguin",
-    "attacks": 229,
+    "attacks": 230,
     "hitsTaken": 76,
-    "ratio": 3.013157894736842
+    "ratio": 3.026315789473684
   },
   {
     "user": "VMKNeec",
@@ -37,9 +37,16 @@
   {
     "user": "PepaRaindrops",
     "team": "Penguin",
-    "attacks": 161,
+    "attacks": 164,
     "hitsTaken": 59,
-    "ratio": 2.7288135593220337
+    "ratio": 2.7796610169491527
+  },
+  {
+    "user": "Devgirlforever",
+    "team": "Penguin",
+    "attacks": 157,
+    "hitsTaken": 93,
+    "ratio": 1.6881720430107527
   },
   {
     "user": "Meg",
@@ -49,32 +56,25 @@
     "ratio": 1.775
   },
   {
-    "user": "Devgirlforever",
-    "team": "Penguin",
-    "attacks": 142,
-    "hitsTaken": 88,
-    "ratio": 1.6136363636363635
-  },
-  {
     "user": "bunny",
     "team": "Penguin",
-    "attacks": 121,
+    "attacks": 128,
     "hitsTaken": 47,
-    "ratio": 2.574468085106383
+    "ratio": 2.723404255319149
   },
   {
     "user": "goatduck",
     "team": "Penguin",
-    "attacks": 120,
+    "attacks": 121,
     "hitsTaken": 27,
-    "ratio": 4.444444444444445
+    "ratio": 4.481481481481482
   },
   {
     "user": "MagicMinnieMare",
     "team": "Reindeer",
     "attacks": 105,
-    "hitsTaken": 160,
-    "ratio": 0.65625
+    "hitsTaken": 175,
+    "ratio": 0.6
   },
   {
     "user": "BuckyBarnes",
@@ -100,9 +100,9 @@
   {
     "user": "Mali",
     "team": "Penguin",
-    "attacks": 61,
-    "hitsTaken": 43,
-    "ratio": 1.4186046511627908
+    "attacks": 64,
+    "hitsTaken": 45,
+    "ratio": 1.4222222222222223
   },
   {
     "user": "Mirk",
@@ -206,8 +206,8 @@
     "user": "MatthewC",
     "team": "Reindeer",
     "attacks": 11,
-    "hitsTaken": 199,
-    "ratio": 0.05527638190954774
+    "hitsTaken": 204,
+    "ratio": 0.05392156862745098
   },
   {
     "user": "Tinkfaniam",
@@ -486,7 +486,7 @@
     "user": "SmileyKileyCat",
     "team": "Reindeer",
     "attacks": 0,
-    "hitsTaken": 1,
+    "hitsTaken": 2,
     "ratio": 0
   },
   {
