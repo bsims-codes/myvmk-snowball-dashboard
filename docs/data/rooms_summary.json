@@ -1,21 +1,21 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 19125,
-    "avgUserRatio": 0.89,
-    "activeUsers": 236
+    "hitCount": 19412,
+    "avgUserRatio": 0.9,
+    "activeUsers": 237
   },
   {
     "roomName": "Main Street",
-    "hitCount": 6610,
-    "avgUserRatio": 0.96,
+    "hitCount": 6621,
+    "avgUserRatio": 1.01,
     "activeUsers": 227
   },
   {
     "roomName": "Town Square",
-    "hitCount": 4357,
-    "avgUserRatio": 0.74,
-    "activeUsers": 244
+    "hitCount": 4408,
+    "avgUserRatio": 0.76,
+    "activeUsers": 246
   },
   {
     "roomName": "Central Plaza",
@@ -192,6 +192,12 @@
     "activeUsers": 8
   },
   {
+    "roomName": "Jungle Cruise Dock",
+    "hitCount": 31,
+    "avgUserRatio": 1.57,
+    "activeUsers": 17
+  },
+  {
     "roomName": "WS - Norway",
     "hitCount": 31,
     "avgUserRatio": 15.5,
@@ -207,12 +213,6 @@
     "roomName": "Storybookland",
     "hitCount": 22,
     "avgUserRatio": 1.47,
-    "activeUsers": 15
-  },
-  {
-    "roomName": "Jungle Cruise Dock",
-    "hitCount": 20,
-    "avgUserRatio": 1.04,
     "activeUsers": 15
   },
   {
