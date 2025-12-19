@@ -37,10 +37,10 @@ async function loadJSON(path) {
 }
 
 /**
- * Fetch total team member counts from the snow teams API
- * Returns { Penguin: number, Reindeer: number }
+ * Fetch team data from the snow teams API
+ * Returns { totals: { Penguin, Reindeer }, rosters: { Penguin: [], Reindeer: [] } }
  */
-async function fetchTeamTotals() {
+async function fetchTeamData() {
   try {
     const res = await fetch("https://www.myvmk.com/api/getsnowteams", { cache: "no-store" });
     if (!res.ok) return null;
@@ -49,19 +49,70 @@ async function fetchTeamTotals() {
     // Handle both \r\n and \n line endings
     const lines = text.trim().split(/\r?\n/).slice(1); // Skip header row
 
-    let penguin = 0;
-    let reindeer = 0;
+    const rosters = { Penguin: [], Reindeer: [] };
 
     for (const line of lines) {
-      const team = line.split(",")[1]?.trim();
-      if (team === "1") penguin++;
-      else if (team === "0") reindeer++;
+      const parts = line.split(",");
+      const username = parts[0]?.trim();
+      const team = parts[1]?.trim();
+      if (username) {
+        if (team === "1") rosters.Penguin.push(username);
+        else if (team === "0") rosters.Reindeer.push(username);
+      }
     }
 
-    return { Penguin: penguin, Reindeer: reindeer };
+    // Sort rosters alphabetically
+    rosters.Penguin.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
+    rosters.Reindeer.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
+
+    return {
+      totals: { Penguin: rosters.Penguin.length, Reindeer: rosters.Reindeer.length },
+      rosters
+    };
   } catch (err) {
-    console.warn("Failed to fetch team totals:", err);
+    console.warn("Failed to fetch team data:", err);
     return null;
+  }
+}
+
+/**
+ * Render team roster tables
+ */
+function renderTeamRosters(teamData) {
+  const penguinTable = document.getElementById("penguinRosterTable");
+  const reindeerTable = document.getElementById("reindeerRosterTable");
+  const penguinCount = document.getElementById("penguinRosterCount");
+  const reindeerCount = document.getElementById("reindeerRosterCount");
+
+  if (!teamData || !teamData.rosters) {
+    // No data available (e.g., pre-reset mode)
+    if (penguinTable) penguinTable.innerHTML = "<tr><td style='color:var(--text-muted);'>Team roster not available</td></tr>";
+    if (reindeerTable) reindeerTable.innerHTML = "<tr><td style='color:var(--text-muted);'>Team roster not available</td></tr>";
+    if (penguinCount) penguinCount.textContent = "";
+    if (reindeerCount) reindeerCount.textContent = "";
+    return;
+  }
+
+  const { rosters } = teamData;
+
+  // Update counts
+  if (penguinCount) penguinCount.textContent = `(${rosters.Penguin.length})`;
+  if (reindeerCount) reindeerCount.textContent = `(${rosters.Reindeer.length})`;
+
+  // Render Penguin roster
+  if (penguinTable) {
+    penguinTable.innerHTML = `
+      <tr><th>Username</th></tr>
+      ${rosters.Penguin.map(u => `<tr><td>${escapeHtml(u)}</td></tr>`).join("")}
+    `;
+  }
+
+  // Render Reindeer roster
+  if (reindeerTable) {
+    reindeerTable.innerHTML = `
+      <tr><th>Username</th></tr>
+      ${rosters.Reindeer.map(u => `<tr><td>${escapeHtml(u)}</td></tr>`).join("")}
+    `;
   }
 }
 
@@ -318,14 +369,14 @@ async function loadAndRefreshData() {
   try {
     document.getElementById("meta").textContent = "Loading data...";
 
-    // Load data files and fetch team totals in parallel
-    const [summary, users, roomsSummary, events, teamTotals] = await Promise.all([
+    // Load data files and fetch team data in parallel
+    const [summary, users, roomsSummary, events, teamData] = await Promise.all([
       loadJSON(`${basePath}/summary.json`),
       loadJSON(`${basePath}/users.json`),
       loadJSON(`${basePath}/rooms_summary.json`),
       loadJSON(`${basePath}/events.json`),
-      // Only fetch live team totals for live mode (pre-reset teams no longer exist in API)
-      state.dataMode === "live" ? fetchTeamTotals() : Promise.resolve(null)
+      // Only fetch live team data for live mode (pre-reset teams no longer exist in API)
+      state.dataMode === "live" ? fetchTeamData() : Promise.resolve(null)
     ]);
 
     // Update metadata with data mode indicator
@@ -342,8 +393,9 @@ async function loadAndRefreshData() {
     state.victimBreakdown = buildVictimBreakdown(events);
 
     // Render components (pass team totals for accurate member counts)
-    renderTeamStats(summary, teamTotals);
+    renderTeamStats(summary, teamData?.totals);
     renderTopLists(summary);
+    renderTeamRosters(teamData);
 
     // Apply initial filter/sort
     applyFilterSort();
@@ -509,7 +561,7 @@ function renderTeamStats(summary, teamTotals) {
         ${logoMap[item.team] ? `<img src="${logoMap[item.team]}" alt="${item.label}" class="team-logo">` : ''}
         <div class="label">${item.label}</div>
         <div class="value">${totalMembers}</div>
-        <div class="label">${participants} active · ${fmt(item.data.attacks || 0, 0)} atk</div>
+        <div class="label">${participants} active · ${fmt(item.data.attacks || 0, 0)} hits</div>
       </div>
     `;
   }).join("");
