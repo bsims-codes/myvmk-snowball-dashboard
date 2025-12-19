@@ -1,5 +1,11 @@
 [
   {
+    "roomName": "Monorail Station",
+    "hitCount": 445,
+    "avgUserRatio": 2.43,
+    "activeUsers": 21
+  },
+  {
     "roomName": "Central Plaza",
     "hitCount": 244,
     "avgUserRatio": 1.43,
@@ -7,9 +13,9 @@
   },
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 137,
-    "avgUserRatio": 1.86,
-    "activeUsers": 17
+    "hitCount": 163,
+    "avgUserRatio": 1.82,
+    "activeUsers": 22
   },
   {
     "roomName": "Pirate Treehouse",
@@ -18,10 +24,22 @@
     "activeUsers": 12
   },
   {
+    "roomName": "VMK Esplanade",
+    "hitCount": 40,
+    "avgUserRatio": 1.25,
+    "activeUsers": 15
+  },
+  {
     "roomName": "Discovery Island",
     "hitCount": 25,
     "avgUserRatio": 3.49,
     "activeUsers": 5
+  },
+  {
+    "roomName": "Castle Forecourt",
+    "hitCount": 22,
+    "avgUserRatio": 2.03,
+    "activeUsers": 9
   },
   {
     "roomName": "Autopia Off Road on Mars",
@@ -30,34 +48,46 @@
     "activeUsers": 10
   },
   {
+    "roomName": "Main Street",
+    "hitCount": 12,
+    "avgUserRatio": 1.71,
+    "activeUsers": 7
+  },
+  {
+    "roomName": "Monorail Train",
+    "hitCount": 11,
+    "avgUserRatio": 0.83,
+    "activeUsers": 5
+  },
+  {
+    "roomName": "Town Square",
+    "hitCount": 10,
+    "avgUserRatio": 0.82,
+    "activeUsers": 11
+  },
+  {
     "roomName": "Matterhorn",
     "hitCount": 9,
     "avgUserRatio": 1.31,
     "activeUsers": 6
   },
   {
-    "roomName": "Castle Forecourt",
-    "hitCount": 8,
-    "avgUserRatio": 0.89,
+    "roomName": "Jungle Cruise Dock",
+    "hitCount": 9,
+    "avgUserRatio": 1.5,
     "activeUsers": 6
   },
   {
-    "roomName": "Town Square",
-    "hitCount": 7,
-    "avgUserRatio": 0.72,
-    "activeUsers": 9
+    "roomName": "Adventureland Bazaar",
+    "hitCount": 5,
+    "avgUserRatio": 0.88,
+    "activeUsers": 4
   },
   {
     "roomName": "Blue Bayou",
     "hitCount": 4,
     "avgUserRatio": 2,
     "activeUsers": 2
-  },
-  {
-    "roomName": "Monorail Station",
-    "hitCount": 4,
-    "avgUserRatio": 1.17,
-    "activeUsers": 3
   },
   {
     "roomName": "Shrunken Ned's Shop",
@@ -96,21 +126,9 @@
     "activeUsers": 3
   },
   {
-    "roomName": "VMK Esplanade",
-    "hitCount": 2,
-    "avgUserRatio": 1,
-    "activeUsers": 2
-  },
-  {
     "roomName": "Dungeon",
     "hitCount": 2,
     "avgUserRatio": 1,
-    "activeUsers": 2
-  },
-  {
-    "roomName": "Main Street",
-    "hitCount": 1,
-    "avgUserRatio": 0.5,
     "activeUsers": 2
   }
 ]
