@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Central Plaza",
-    "hitCount": 83,
-    "avgUserRatio": 1.19,
-    "activeUsers": 6
+    "hitCount": 110,
+    "avgUserRatio": 1.55,
+    "activeUsers": 14
   },
   {
     "roomName": "Captain's Quest Quarters",
@@ -30,6 +30,12 @@
     "activeUsers": 4
   },
   {
+    "roomName": "Matterhorn",
+    "hitCount": 9,
+    "avgUserRatio": 1.31,
+    "activeUsers": 6
+  },
+  {
     "roomName": "Castle Forecourt",
     "hitCount": 6,
     "avgUserRatio": 0.83,
@@ -48,9 +54,9 @@
     "activeUsers": 3
   },
   {
-    "roomName": "Matterhorn",
-    "hitCount": 3,
-    "avgUserRatio": 1.25,
+    "roomName": "Shrunken Ned's Shop",
+    "hitCount": 4,
+    "avgUserRatio": 2,
     "activeUsers": 2
   },
   {
