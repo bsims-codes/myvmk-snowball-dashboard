@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 3196,
-    "avgUserRatio": 1.28,
-    "activeUsers": 87
+    "hitCount": 3548,
+    "avgUserRatio": 1.4,
+    "activeUsers": 91
   },
   {
     "roomName": "Town Square",
@@ -19,15 +19,15 @@
   },
   {
     "roomName": "Monorail Station",
-    "hitCount": 523,
-    "avgUserRatio": 2.46,
-    "activeUsers": 26
+    "hitCount": 534,
+    "avgUserRatio": 2.37,
+    "activeUsers": 28
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 383,
-    "avgUserRatio": 1.73,
-    "activeUsers": 29
+    "hitCount": 391,
+    "avgUserRatio": 1.74,
+    "activeUsers": 30
   },
   {
     "roomName": "Banquet Hall",
@@ -49,21 +49,21 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 141,
-    "avgUserRatio": 1.27,
-    "activeUsers": 41
+    "hitCount": 143,
+    "avgUserRatio": 1.25,
+    "activeUsers": 43
   },
   {
     "roomName": "Tomorrowland Hub",
-    "hitCount": 116,
-    "avgUserRatio": 1.67,
+    "hitCount": 119,
+    "avgUserRatio": 1.65,
     "activeUsers": 25
   },
   {
     "roomName": "Pixar Pier Entrance",
-    "hitCount": 90,
-    "avgUserRatio": 1.59,
-    "activeUsers": 22
+    "hitCount": 95,
+    "avgUserRatio": 1.46,
+    "activeUsers": 26
   },
   {
     "roomName": "Gallery",
@@ -73,8 +73,8 @@
   },
   {
     "roomName": "New Orleans Square",
-    "hitCount": 72,
-    "avgUserRatio": 2.82,
+    "hitCount": 74,
+    "avgUserRatio": 2.93,
     "activeUsers": 10
   },
   {
@@ -85,14 +85,14 @@
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 65,
-    "avgUserRatio": 1.6,
-    "activeUsers": 19
+    "hitCount": 67,
+    "avgUserRatio": 1.62,
+    "activeUsers": 20
   },
   {
     "roomName": "Dungeon",
-    "hitCount": 53,
-    "avgUserRatio": 1.62,
+    "hitCount": 54,
+    "avgUserRatio": 1.66,
     "activeUsers": 22
   },
   {
@@ -102,28 +102,28 @@
     "activeUsers": 12
   },
   {
+    "roomName": "Autopia Quest Track",
+    "hitCount": 46,
+    "avgUserRatio": 3.33,
+    "activeUsers": 12
+  },
+  {
     "roomName": "VMK Gallery",
     "hitCount": 45,
     "avgUserRatio": 1.28,
     "activeUsers": 18
   },
   {
+    "roomName": "Penny Arcade",
+    "hitCount": 42,
+    "avgUserRatio": 1.52,
+    "activeUsers": 15
+  },
+  {
     "roomName": "Castle Forecourt",
     "hitCount": 39,
     "avgUserRatio": 1.77,
     "activeUsers": 17
-  },
-  {
-    "roomName": "Penny Arcade",
-    "hitCount": 39,
-    "avgUserRatio": 1.53,
-    "activeUsers": 13
-  },
-  {
-    "roomName": "Autopia Quest Track",
-    "hitCount": 38,
-    "avgUserRatio": 3.53,
-    "activeUsers": 10
   },
   {
     "roomName": "Frontierland Hub",
@@ -349,6 +349,12 @@
   },
   {
     "roomName": "\"it's a small world\" Imports",
+    "hitCount": 1,
+    "avgUserRatio": 0.5,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "Gibbons",
     "hitCount": 1,
     "avgUserRatio": 0.5,
     "activeUsers": 2
