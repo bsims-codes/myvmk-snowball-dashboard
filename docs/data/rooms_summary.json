@@ -1,8 +1,8 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 3124,
-    "avgUserRatio": 1.34,
+    "hitCount": 3196,
+    "avgUserRatio": 1.28,
     "activeUsers": 87
   },
   {
@@ -19,15 +19,15 @@
   },
   {
     "roomName": "Monorail Station",
-    "hitCount": 486,
-    "avgUserRatio": 2.54,
-    "activeUsers": 25
+    "hitCount": 523,
+    "avgUserRatio": 2.46,
+    "activeUsers": 26
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 342,
-    "avgUserRatio": 1.75,
-    "activeUsers": 26
+    "hitCount": 383,
+    "avgUserRatio": 1.73,
+    "activeUsers": 29
   },
   {
     "roomName": "Banquet Hall",
@@ -48,16 +48,16 @@
     "activeUsers": 35
   },
   {
+    "roomName": "Main Street",
+    "hitCount": 141,
+    "avgUserRatio": 1.27,
+    "activeUsers": 41
+  },
+  {
     "roomName": "Tomorrowland Hub",
     "hitCount": 116,
     "avgUserRatio": 1.67,
     "activeUsers": 25
-  },
-  {
-    "roomName": "Main Street",
-    "hitCount": 103,
-    "avgUserRatio": 1.26,
-    "activeUsers": 38
   },
   {
     "roomName": "Pixar Pier Entrance",
@@ -70,6 +70,12 @@
     "hitCount": 83,
     "avgUserRatio": 1.76,
     "activeUsers": 20
+  },
+  {
+    "roomName": "New Orleans Square",
+    "hitCount": 72,
+    "avgUserRatio": 2.82,
+    "activeUsers": 10
   },
   {
     "roomName": "Epcot Entrance",
@@ -85,9 +91,9 @@
   },
   {
     "roomName": "Dungeon",
-    "hitCount": 52,
-    "avgUserRatio": 1.73,
-    "activeUsers": 20
+    "hitCount": 53,
+    "avgUserRatio": 1.62,
+    "activeUsers": 22
   },
   {
     "roomName": "Pirate Treehouse",
@@ -246,12 +252,6 @@
     "activeUsers": 3
   },
   {
-    "roomName": "New Orleans Square",
-    "hitCount": 7,
-    "avgUserRatio": 1.4,
-    "activeUsers": 5
-  },
-  {
     "roomName": "Tom Sawyer's Island",
     "hitCount": 7,
     "avgUserRatio": 1.75,
@@ -294,6 +294,12 @@
     "activeUsers": 3
   },
   {
+    "roomName": "Star Commander Lobby",
+    "hitCount": 3,
+    "avgUserRatio": 0.75,
+    "activeUsers": 4
+  },
+  {
     "roomName": "VMK Central",
     "hitCount": 3,
     "avgUserRatio": 0.75,
@@ -318,6 +324,12 @@
     "activeUsers": 2
   },
   {
+    "roomName": "Autopia Space Race",
+    "hitCount": 2,
+    "avgUserRatio": 1,
+    "activeUsers": 2
+  },
+  {
     "roomName": "WS - United Kingdom",
     "hitCount": 1,
     "avgUserRatio": 0.5,
@@ -337,12 +349,6 @@
   },
   {
     "roomName": "\"it's a small world\" Imports",
-    "hitCount": 1,
-    "avgUserRatio": 0.5,
-    "activeUsers": 2
-  },
-  {
-    "roomName": "Star Commander Lobby",
     "hitCount": 1,
     "avgUserRatio": 0.5,
     "activeUsers": 2
