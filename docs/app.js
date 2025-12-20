@@ -163,6 +163,45 @@ async function loadRoomMapping() {
 }
 
 /**
+ * Sum adjusted point values per attacker team.
+ */
+function computeTeamAdjustedPoints(events) {
+  const totals = { Penguin: 0, Reindeer: 0, Unknown: 0 };
+  if (!Array.isArray(events)) return totals;
+
+  for (const evt of events) {
+    const value = Number(evt?.value);
+    if (!Number.isFinite(value)) continue;
+
+    const team = evt?.attackerTeam === "Penguin" || evt?.attackerTeam === "Reindeer"
+      ? evt.attackerTeam
+      : "Unknown";
+
+    totals[team] += value;
+  }
+
+  return totals;
+}
+
+/**
+ * Ensure summary has adjustedPoints populated from events.
+ */
+function applyAdjustedPointsToSummary(summary, events) {
+  if (!summary) return summary;
+
+  const adjusted = computeTeamAdjustedPoints(events);
+  summary.teamStats = summary.teamStats || {};
+
+  ["Penguin", "Reindeer", "Unknown"].forEach(team => {
+    const bucket = summary.teamStats[team] || { users: 0, attacks: 0, hitsTaken: 0 };
+    bucket.adjustedPoints = adjusted[team] || 0;
+    summary.teamStats[team] = bucket;
+  });
+
+  return summary;
+}
+
+/**
  * Fetch and process live data directly from MyVMK APIs
  * Returns { summary, users, events, roomsSummary, teamData }
  */
@@ -209,6 +248,7 @@ async function fetchLiveData() {
     const attacker = parts[1]?.trim();
     const victim = parts[2]?.trim();
     const roomId = parts[3]?.trim();
+    const value = Number(parts[4]?.trim());
 
     if (!attacker || !victim) continue;
 
@@ -221,7 +261,8 @@ async function fetchLiveData() {
       attacker,
       victim,
       attackerTeam,
-      roomName
+      roomName,
+      value: Number.isFinite(value) ? value : 0
     });
 
     // Track attacker stats
@@ -255,9 +296,11 @@ async function fetchLiveData() {
   })).sort((a, b) => b.attacks - a.attacks);
 
   // Build team stats
+  const adjustedPointsByTeam = computeTeamAdjustedPoints(events);
   const teamStats = {
-    Penguin: { users: 0, attacks: 0, hitsTaken: 0 },
-    Reindeer: { users: 0, attacks: 0, hitsTaken: 0 }
+    Penguin: { users: 0, attacks: 0, hitsTaken: 0, adjustedPoints: adjustedPointsByTeam.Penguin || 0 },
+    Reindeer: { users: 0, attacks: 0, hitsTaken: 0, adjustedPoints: adjustedPointsByTeam.Reindeer || 0 },
+    Unknown: { users: 0, attacks: 0, hitsTaken: 0, adjustedPoints: adjustedPointsByTeam.Unknown || 0 }
   };
   users.forEach(u => {
     if (u.team === "Penguin" || u.team === "Reindeer") {
@@ -307,6 +350,8 @@ async function fetchLiveData() {
     topAttackers,
     topVictims
   };
+
+  applyAdjustedPointsToSummary(summary, events);
 
   // Build team data for roster display
   const teamData = {
@@ -734,6 +779,8 @@ async function loadAndRefreshData() {
       state.dataMode === "live" ? fetchTeamData() : Promise.resolve(null)
     ]);
 
+    applyAdjustedPointsToSummary(summary, events);
+
     // Update metadata with data mode indicator
     const modeLabel = state.dataMode === "pre-reset" ? " [PRE-RESET]" : "";
     document.getElementById("meta").textContent =
@@ -921,13 +968,18 @@ function renderTeamStats(summary, teamTotals) {
     // Use API total if available, otherwise fall back to participant count
     const totalMembers = teamTotals?.[item.label] ?? item.data.users ?? 0;
     const participants = item.data.users || 0;
+    const adjusted = item.data.adjustedPoints || 0;
 
     return `
       <div class="team-stat ${item.team}">
         ${logoMap[item.team] ? `<img src="${logoMap[item.team]}" alt="${item.label}" class="team-logo">` : ''}
         <div class="label">${item.label}</div>
-        <div class="value">${totalMembers}</div>
-        <div class="label">${participants} active · ${fmt(item.data.attacks || 0, 0)} hits</div>
+        <div class="value">${totalMembers} users</div>
+        <div class="stat-row">
+          <span class="label">${participants} active users</span>
+          <span class="hits-strong">${fmt(item.data.attacks || 0, 0)} hits</span>
+        </div>
+        <div class="adjusted">Adj. points ${fmt(adjusted, 1)}</div>
       </div>
     `;
   }).join("");
