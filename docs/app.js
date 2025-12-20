@@ -1992,6 +1992,12 @@ function renderHeatmap() {
   const container = document.getElementById("heatmap");
   if (!container) return;
 
+  const formatHour = (h) => {
+    const hour = h % 12 === 0 ? 12 : h % 12;
+    const suffix = h < 12 ? "AM" : "PM";
+    return `${hour}${suffix}`;
+  };
+
   // Build hour x day-of-week matrix
   const matrix = {};
   const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
@@ -2031,7 +2037,7 @@ function renderHeatmap() {
   // Header row with hours
   html += '<div class="heatmap-label"></div>';
   for (let h = 0; h < 24; h++) {
-    html += `<div class="heatmap-label">${h}</div>`;
+    html += `<div class="heatmap-label">${formatHour(h)}</div>`;
   }
 
   // Data rows
@@ -2041,7 +2047,7 @@ function renderHeatmap() {
       const val = matrix[h][d];
       const intensity = maxVal > 0 ? val / maxVal : 0;
       const bg = getHeatmapColor(intensity);
-      html += `<div class="heatmap-cell" style="background:${bg};" title="${days[d]} ${h}:00 ET - ${val} attacks"></div>`;
+      html += `<div class="heatmap-cell" style="background:${bg};" title="${days[d]} ${formatHour(h)} ET - ${val} attacks"></div>`;
     }
   }
 
