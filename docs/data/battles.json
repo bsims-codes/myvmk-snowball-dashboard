@@ -2410,6 +2410,93 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-14",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2025-12-20T12:52:53.000Z",
+    "end": "2025-12-20T13:02:46.000Z",
+    "durationMinutes": 10,
+    "hitCount": 107,
+    "uniqueUsers": 6,
+    "topAttackers": [
+      {
+        "user": "mikgriz",
+        "team": "Penguin",
+        "attacks": 52
+      },
+      {
+        "user": "BluPirate",
+        "team": "Penguin",
+        "attacks": 50
+      },
+      {
+        "user": "SmileyKileyCat",
+        "team": "Reindeer",
+        "attacks": 2
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "MatthewC",
+        "team": "Reindeer",
+        "hitsTaken": 62
+      },
+      {
+        "user": "RockStar_Olivia",
+        "team": "Reindeer",
+        "hitsTaken": 39
+      },
+      {
+        "user": "BluPirate",
+        "team": "Penguin",
+        "hitsTaken": 3
+      }
+    ],
+    "participants": [
+      {
+        "user": "MatthewC",
+        "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 62,
+        "ratio": 0.016129032258064516
+      },
+      {
+        "user": "BluPirate",
+        "team": "Penguin",
+        "attacks": 50,
+        "hitsTaken": 3,
+        "ratio": 16.666666666666668
+      },
+      {
+        "user": "mikgriz",
+        "team": "Penguin",
+        "attacks": 52,
+        "hitsTaken": 1,
+        "ratio": 52
+      },
+      {
+        "user": "RockStar_Olivia",
+        "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 39,
+        "ratio": 0.02564102564102564
+      },
+      {
+        "user": "SmileyKileyCat",
+        "team": "Reindeer",
+        "attacks": 2,
+        "hitsTaken": 2,
+        "ratio": 1
+      },
+      {
+        "user": "Retro",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-4",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-19T15:43:38.000Z",
