@@ -1,15 +1,15 @@
 [
   {
     "roomName": "Town Square",
-    "hitCount": 2209,
-    "avgUserRatio": 0.86,
-    "activeUsers": 101
+    "hitCount": 2428,
+    "avgUserRatio": 0.87,
+    "activeUsers": 102
   },
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 1737,
-    "avgUserRatio": 1.44,
-    "activeUsers": 67
+    "hitCount": 1946,
+    "avgUserRatio": 1.4,
+    "activeUsers": 70
   },
   {
     "roomName": "Monorail Station",
@@ -19,9 +19,15 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 315,
-    "avgUserRatio": 1.96,
-    "activeUsers": 22
+    "hitCount": 316,
+    "avgUserRatio": 1.88,
+    "activeUsers": 23
+  },
+  {
+    "roomName": "Banquet Hall",
+    "hitCount": 185,
+    "avgUserRatio": 1.43,
+    "activeUsers": 19
   },
   {
     "roomName": "Monorail Train",
@@ -31,9 +37,9 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 152,
-    "avgUserRatio": 2.09,
-    "activeUsers": 34
+    "hitCount": 163,
+    "avgUserRatio": 2.02,
+    "activeUsers": 35
   },
   {
     "roomName": "Tomorrowland Hub",
@@ -48,16 +54,22 @@
     "activeUsers": 22
   },
   {
+    "roomName": "Gallery",
+    "hitCount": 83,
+    "avgUserRatio": 1.76,
+    "activeUsers": 20
+  },
+  {
     "roomName": "Epcot Entrance",
-    "hitCount": 58,
+    "hitCount": 60,
     "avgUserRatio": 0.79,
     "activeUsers": 14
   },
   {
     "roomName": "Main Street",
-    "hitCount": 50,
-    "avgUserRatio": 1.27,
-    "activeUsers": 26
+    "hitCount": 54,
+    "avgUserRatio": 1.32,
+    "activeUsers": 28
   },
   {
     "roomName": "Pirate Treehouse",
@@ -67,14 +79,14 @@
   },
   {
     "roomName": "Dungeon",
-    "hitCount": 45,
-    "avgUserRatio": 1.92,
-    "activeUsers": 15
+    "hitCount": 46,
+    "avgUserRatio": 1.86,
+    "activeUsers": 16
   },
   {
-    "roomName": "Gallery",
-    "hitCount": 44,
-    "avgUserRatio": 1.25,
+    "roomName": "Castle Forecourt",
+    "hitCount": 39,
+    "avgUserRatio": 1.77,
     "activeUsers": 17
   },
   {
@@ -90,6 +102,18 @@
     "activeUsers": 14
   },
   {
+    "roomName": "Castle Gardens",
+    "hitCount": 32,
+    "avgUserRatio": 1.21,
+    "activeUsers": 14
+  },
+  {
+    "roomName": "Matterhorn",
+    "hitCount": 29,
+    "avgUserRatio": 1.69,
+    "activeUsers": 14
+  },
+  {
     "roomName": "Jungle Cruise Dock",
     "hitCount": 26,
     "avgUserRatio": 1.56,
@@ -102,22 +126,16 @@
     "activeUsers": 5
   },
   {
-    "roomName": "Matterhorn",
-    "hitCount": 25,
-    "avgUserRatio": 1.76,
-    "activeUsers": 13
-  },
-  {
-    "roomName": "Castle Forecourt",
-    "hitCount": 25,
-    "avgUserRatio": 2.13,
-    "activeUsers": 10
-  },
-  {
     "roomName": "Autopia Off Road on Mars",
     "hitCount": 23,
     "avgUserRatio": 1.31,
     "activeUsers": 11
+  },
+  {
+    "roomName": "Sci-Fi Dine-In",
+    "hitCount": 18,
+    "avgUserRatio": 1.01,
+    "activeUsers": 7
   },
   {
     "roomName": "WS - Mexico",
@@ -180,16 +198,10 @@
     "activeUsers": 3
   },
   {
-    "roomName": "Sci-Fi Dine-In",
+    "roomName": "Festival of the Lion King",
     "hitCount": 6,
-    "avgUserRatio": 1,
+    "avgUserRatio": 1.31,
     "activeUsers": 4
-  },
-  {
-    "roomName": "Castle Gardens",
-    "hitCount": 4,
-    "avgUserRatio": 0.67,
-    "activeUsers": 6
   },
   {
     "roomName": "Lost Safari Party",
@@ -198,25 +210,25 @@
     "activeUsers": 2
   },
   {
+    "roomName": "Fantasyland in The Sky",
+    "hitCount": 3,
+    "avgUserRatio": 0.75,
+    "activeUsers": 4
+  },
+  {
     "roomName": "WS - Norway",
     "hitCount": 3,
     "avgUserRatio": 1,
     "activeUsers": 3
   },
   {
+    "roomName": "Splash Mountain",
+    "hitCount": 3,
+    "avgUserRatio": 1.5,
+    "activeUsers": 2
+  },
+  {
     "roomName": "Shipwreck Graveyard",
-    "hitCount": 2,
-    "avgUserRatio": 1,
-    "activeUsers": 2
-  },
-  {
-    "roomName": "Fantasyland in The Sky",
-    "hitCount": 2,
-    "avgUserRatio": 1,
-    "activeUsers": 2
-  },
-  {
-    "roomName": "Banquet Hall",
     "hitCount": 2,
     "avgUserRatio": 1,
     "activeUsers": 2
@@ -253,12 +265,6 @@
   },
   {
     "roomName": "Discovery Trading Company",
-    "hitCount": 1,
-    "avgUserRatio": 0.5,
-    "activeUsers": 2
-  },
-  {
-    "roomName": "Festival of the Lion King",
     "hitCount": 1,
     "avgUserRatio": 0.5,
     "activeUsers": 2
