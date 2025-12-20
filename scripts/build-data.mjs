@@ -4,6 +4,9 @@ import path from "path";
 const HITS_URL = "https://www.myvmk.com/api/gethits";
 const TEAMS_URL = "https://www.myvmk.com/api/getsnowteams";
 
+const BATTLE_MIN_HITS = 30;
+const BATTLE_MAX_GAP_SECONDS = 120;
+
 function loadJSON(relPath, fallback = {}) {
   const p = path.join(process.cwd(), relPath);
   if (!fs.existsSync(p)) return fallback;
@@ -63,6 +66,123 @@ function normRoomId(r) {
 function safeRatio(attacks, hitsTaken) {
   if (!hitsTaken) return attacks ? attacks / 1 : 0;
   return attacks / hitsTaken;
+}
+
+function parseEventTime(str) {
+  if (!str) return null;
+  const [datePart, timePart] = str.split(" ");
+  if (!datePart || !timePart) return null;
+  const [year, month, day] = datePart.split("-").map(Number);
+  const [hour, minute, second] = timePart.split(":").map(Number);
+  if ([year, month, day, hour, minute, second].some(v => Number.isNaN(v))) return null;
+  return new Date(year, month - 1, day, hour, minute, second);
+}
+
+function detectBattles(events) {
+  const byRoom = new Map();
+  for (const evt of events) {
+    const room = evt.roomName || evt.roomId || "Unknown";
+    if (!byRoom.has(room)) byRoom.set(room, []);
+    byRoom.get(room).push(evt);
+  }
+
+  const battles = [];
+  for (const [roomName, roomEvents] of byRoom.entries()) {
+    const sorted = [...roomEvents]
+      .map(e => ({ ...e, __t: parseEventTime(e.time) }))
+      .filter(e => e.__t)
+      .sort((a, b) => a.__t - b.__t);
+
+    if (!sorted.length) continue;
+
+    let cluster = [];
+    let prevTime = null;
+    let roomCounter = 1;
+
+    const flushCluster = () => {
+      if (!cluster.length) return;
+      const hitCount = cluster.length;
+      if (hitCount < BATTLE_MIN_HITS) {
+        cluster = [];
+        return;
+      }
+
+      const start = cluster[0].__t;
+      const end = cluster[cluster.length - 1].__t;
+      const durationMinutes = Math.max(1, Math.round((end - start) / 60000));
+
+      const byUser = new Map();
+      const userSet = new Set();
+
+      for (const evt of cluster) {
+        if (evt.attacker) {
+          userSet.add(evt.attacker);
+          const stats = byUser.get(evt.attacker) || { user: evt.attacker, team: evt.attackerTeam || "Unknown", attacks: 0, hitsTaken: 0 };
+          stats.attacks++;
+          byUser.set(evt.attacker, stats);
+        }
+        if (evt.victim) {
+          userSet.add(evt.victim);
+          const stats = byUser.get(evt.victim) || { user: evt.victim, team: evt.victimTeam || "Unknown", attacks: 0, hitsTaken: 0 };
+          stats.hitsTaken++;
+          byUser.set(evt.victim, stats);
+        }
+      }
+
+      const participants = [...byUser.values()].map(s => ({
+        ...s,
+        ratio: safeRatio(s.attacks, s.hitsTaken)
+      })).sort((a, b) => (b.attacks + b.hitsTaken) - (a.attacks + a.hitsTaken));
+
+      const topAttackers = [...participants]
+        .filter(p => p.attacks > 0)
+        .sort((a, b) => b.attacks - a.attacks)
+        .slice(0, 3)
+        .map(p => ({ user: p.user, team: p.team, attacks: p.attacks }));
+
+      const topVictims = [...participants]
+        .filter(p => p.hitsTaken > 0)
+        .sort((a, b) => b.hitsTaken - a.hitsTaken)
+        .slice(0, 3)
+        .map(p => ({ user: p.user, team: p.team, hitsTaken: p.hitsTaken }));
+
+      battles.push({
+        id: `${roomName}-${roomCounter++}`,
+        roomName,
+        start: start.toISOString(),
+        end: end.toISOString(),
+        durationMinutes,
+        hitCount,
+        uniqueUsers: userSet.size,
+        topAttackers,
+        topVictims,
+        participants
+      });
+
+      cluster = [];
+    };
+
+    for (const evt of sorted) {
+      if (!prevTime) {
+        cluster.push(evt);
+        prevTime = evt.__t;
+        continue;
+      }
+
+      const gapSeconds = (evt.__t - prevTime) / 1000;
+      if (gapSeconds <= BATTLE_MAX_GAP_SECONDS) {
+        cluster.push(evt);
+      } else {
+        flushCluster();
+        cluster = [evt];
+      }
+      prevTime = evt.__t;
+    }
+
+    flushCluster();
+  }
+
+  return battles.sort((a, b) => b.hitCount - a.hitCount || new Date(b.start) - new Date(a.start));
 }
 
 /**
@@ -358,6 +478,8 @@ async function main() {
     topRooms: roomsSummary.slice(0, 25)
   };
 
+  const battles = detectBattles(events);
+
   // Write output files
   const outDir = path.join(process.cwd(), "docs", "data");
   fs.mkdirSync(outDir, { recursive: true });
@@ -366,12 +488,14 @@ async function main() {
   fs.writeFileSync(path.join(outDir, "users.json"), JSON.stringify(users, null, 2));
   fs.writeFileSync(path.join(outDir, "rooms_summary.json"), JSON.stringify(roomsSummary, null, 2));
   fs.writeFileSync(path.join(outDir, "summary.json"), JSON.stringify(summary, null, 2));
+  fs.writeFileSync(path.join(outDir, "battles.json"), JSON.stringify(battles, null, 2));
 
   console.log("\nOutput files written:");
   console.log("  - docs/data/events.json");
   console.log("  - docs/data/users.json");
   console.log("  - docs/data/rooms_summary.json");
   console.log("  - docs/data/summary.json");
+  console.log("  - docs/data/battles.json");
   console.log("\nBuild complete!");
 }
 

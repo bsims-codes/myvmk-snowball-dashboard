@@ -201,6 +201,131 @@ function applyAdjustedPointsToSummary(summary, events) {
   return summary;
 }
 
+function safeRatio(attacks, hitsTaken) {
+  if (!hitsTaken) return attacks ? attacks / 1 : 0;
+  return attacks / hitsTaken;
+}
+
+const BATTLE_MIN_HITS = 30;
+const BATTLE_MAX_GAP_SECONDS = 120;
+
+function parseEventTime(str) {
+  if (!str) return null;
+  const [datePart, timePart] = str.split(" ");
+  if (!datePart || !timePart) return null;
+  const [year, month, day] = datePart.split("-").map(Number);
+  const [hour, minute, second] = timePart.split(":").map(Number);
+  if ([year, month, day, hour, minute, second].some(v => Number.isNaN(v))) return null;
+  return new Date(year, month - 1, day, hour, minute, second);
+}
+
+function detectBattles(events) {
+  const byRoom = new Map();
+  events.forEach(evt => {
+    const room = evt.roomName || evt.roomId || "Unknown";
+    if (!byRoom.has(room)) byRoom.set(room, []);
+    byRoom.get(room).push(evt);
+  });
+
+  const battles = [];
+
+  for (const [roomName, roomEvents] of byRoom.entries()) {
+    const sorted = [...roomEvents]
+      .map(e => ({ ...e, __t: parseEventTime(e.time) }))
+      .filter(e => e.__t)
+      .sort((a, b) => a.__t - b.__t);
+
+    if (!sorted.length) continue;
+
+    let cluster = [];
+    let prev = null;
+    let roomCounter = 1;
+
+    const flush = () => {
+      if (!cluster.length) return;
+      const hitCount = cluster.length;
+      if (hitCount < BATTLE_MIN_HITS) {
+        cluster = [];
+        return;
+      }
+
+      const start = cluster[0].__t;
+      const end = cluster[cluster.length - 1].__t;
+      const durationMinutes = Math.max(1, Math.round((end - start) / 60000));
+
+      const byUser = new Map();
+      const userSet = new Set();
+
+      cluster.forEach(evt => {
+        if (evt.attacker) {
+          userSet.add(evt.attacker);
+          const s = byUser.get(evt.attacker) || { user: evt.attacker, team: evt.attackerTeam || "Unknown", attacks: 0, hitsTaken: 0 };
+          s.attacks++;
+          byUser.set(evt.attacker, s);
+        }
+        if (evt.victim) {
+          userSet.add(evt.victim);
+          const s = byUser.get(evt.victim) || { user: evt.victim, team: evt.victimTeam || "Unknown", attacks: 0, hitsTaken: 0 };
+          s.hitsTaken++;
+          byUser.set(evt.victim, s);
+        }
+      });
+
+      const participants = [...byUser.values()].map(p => ({
+        ...p,
+        ratio: safeRatio(p.attacks, p.hitsTaken)
+      })).sort((a, b) => (b.attacks + b.hitsTaken) - (a.attacks + a.hitsTaken));
+
+      const topAttackers = [...participants]
+        .filter(p => p.attacks > 0)
+        .sort((a, b) => b.attacks - a.attacks)
+        .slice(0, 3)
+        .map(p => ({ user: p.user, team: p.team, attacks: p.attacks }));
+
+      const topVictims = [...participants]
+        .filter(p => p.hitsTaken > 0)
+        .sort((a, b) => b.hitsTaken - a.hitsTaken)
+        .slice(0, 3)
+        .map(p => ({ user: p.user, team: p.team, hitsTaken: p.hitsTaken }));
+
+      battles.push({
+        id: `${roomName}-${roomCounter++}`,
+        roomName,
+        start: start.toISOString(),
+        end: end.toISOString(),
+        durationMinutes,
+        hitCount,
+        uniqueUsers: userSet.size,
+        topAttackers,
+        topVictims,
+        participants
+      });
+
+      cluster = [];
+    };
+
+    for (const evt of sorted) {
+      if (!prev) {
+        cluster.push(evt);
+        prev = evt.__t;
+        continue;
+      }
+      const gapSeconds = (evt.__t - prev) / 1000;
+      if (gapSeconds <= BATTLE_MAX_GAP_SECONDS) {
+        cluster.push(evt);
+      } else {
+        flush();
+        cluster = [evt];
+      }
+      prev = evt.__t;
+    }
+
+    flush();
+  }
+
+  return battles.sort((a, b) => b.hitCount - a.hitCount || new Date(b.start) - new Date(a.start));
+}
+
 /**
  * Fetch and process live data directly from MyVMK APIs
  * Returns { summary, users, events, roomsSummary, teamData }
@@ -351,6 +476,8 @@ async function fetchLiveData() {
     topVictims
   };
 
+  const battles = detectBattles(events);
+
   applyAdjustedPointsToSummary(summary, events);
 
   // Build team data for roster display
@@ -359,7 +486,7 @@ async function fetchLiveData() {
     rosters
   };
 
-  return { summary, users, events, roomsSummary, teamData };
+  return { summary, users, events, roomsSummary, teamData, battles };
 }
 
 /**
@@ -375,7 +502,7 @@ async function refreshFromAPI() {
     if (refreshIcon) refreshIcon.style.animation = "spin 1s linear infinite";
     document.getElementById("meta").textContent = "Fetching live data from API...";
 
-    const { summary, users, events, roomsSummary, teamData } = await fetchLiveData();
+    const { summary, users, events, roomsSummary, teamData, battles } = await fetchLiveData();
 
     // Update state
     state.allUsers = users;
@@ -384,6 +511,8 @@ async function refreshFromAPI() {
     state.victimBreakdown = buildVictimBreakdown(events);
     state.attackerBreakdown = buildAttackerBreakdown(events);
     currentTeamData = teamData;
+    state.allBattles = battles || [];
+    state.selectedBattleId = null;
 
     // Update metadata
     document.getElementById("meta").textContent =
@@ -395,6 +524,7 @@ async function refreshFromAPI() {
     renderTeamStats(summary, teamData?.totals);
     renderTopLists(summary);
     renderTeamRosters(teamData);
+    renderBattlesTable();
 
     // Clear roster search inputs
     const penguinSearch = document.getElementById("penguinRosterSearch");
@@ -737,7 +867,12 @@ const state = {
   attackerSearch: "",
   attackerTeamFilter: "All",
   // Data mode: "live" or "pre-reset"
-  dataMode: "live"
+  dataMode: "live",
+  // Battles
+  allBattles: [],
+  battleRoomFilter: "All",
+  battleMinHits: 30,
+  selectedBattleId: null
 };
 
 /**
@@ -769,14 +904,17 @@ async function loadAndRefreshData() {
   try {
     document.getElementById("meta").textContent = "Loading data...";
 
+    const battlesPromise = loadJSON(`${basePath}/battles.json`).catch(() => []);
+
     // Load data files and fetch team data in parallel
-    const [summary, users, roomsSummary, events, teamData] = await Promise.all([
+    const [summary, users, roomsSummary, events, teamData, battles] = await Promise.all([
       loadJSON(`${basePath}/summary.json`),
       loadJSON(`${basePath}/users.json`),
       loadJSON(`${basePath}/rooms_summary.json`),
       loadJSON(`${basePath}/events.json`),
       // Only fetch live team data for live mode (pre-reset teams no longer exist in API)
-      state.dataMode === "live" ? fetchTeamData() : Promise.resolve(null)
+      state.dataMode === "live" ? fetchTeamData() : Promise.resolve(null),
+      battlesPromise
     ]);
 
     applyAdjustedPointsToSummary(summary, events);
@@ -795,6 +933,9 @@ async function loadAndRefreshData() {
     state.victimBreakdown = buildVictimBreakdown(events);
     state.attackerBreakdown = buildAttackerBreakdown(events);
 
+    state.allBattles = battles || [];
+    state.selectedBattleId = null;
+
     // Store team data for roster filtering
     currentTeamData = teamData;
 
@@ -802,6 +943,7 @@ async function loadAndRefreshData() {
     renderTeamStats(summary, teamData?.totals);
     renderTopLists(summary);
     renderTeamRosters(teamData);
+    renderBattlesTable();
 
     // Clear roster search inputs
     const penguinSearch = document.getElementById("penguinRosterSearch");
@@ -2055,6 +2197,134 @@ function renderHeatmap() {
   container.innerHTML = html;
 }
 
+function populateBattleRoomFilter() {
+  const select = document.getElementById("battleRoomFilter");
+  if (!select) return;
+  const rooms = new Set();
+  state.allBattles.forEach(b => rooms.add(b.roomName));
+  const sorted = [...rooms].sort();
+  let options = '<option value="All">All Rooms</option>';
+  sorted.forEach(r => { options += `<option value="${escapeHtml(r)}">${escapeHtml(r)}</option>`; });
+  select.innerHTML = options;
+  select.value = state.battleRoomFilter;
+}
+
+function formatBattleTime(ts) {
+  if (!ts) return "";
+  const d = new Date(ts);
+  if (Number.isNaN(d.getTime())) return ts;
+  return d.toLocaleString("en-US", { timeZoneName: "short" });
+}
+
+function renderBattleDetail() {
+  const detail = document.getElementById("battleDetail");
+  if (!detail) return;
+  const battle = state.allBattles.find(b => b.id === state.selectedBattleId);
+  if (!battle) {
+    detail.innerHTML = '<p class="legend-note" style="margin:0;">Select a battle to see participant stats.</p>';
+    return;
+  }
+
+  const rows = (battle.participants || []).map(p => `
+    <tr>
+      <td>${escapeHtml(p.user)}</td>
+      <td>${escapeHtml(p.team || "Unknown")}</td>
+      <td>${p.attacks}</td>
+      <td>${p.hitsTaken}</td>
+      <td>${fmt(p.ratio)}</td>
+    </tr>
+  `).join("");
+
+  detail.innerHTML = `
+    <div class="legend-note" style="margin:0 0 6px 0; display:flex; justify-content:space-between; align-items:center; gap:8px;">
+      <span>${escapeHtml(battle.roomName)} | ${formatBattleTime(battle.start)} to ${formatBattleTime(battle.end)} | ${battle.hitCount} hits, ${battle.uniqueUsers} users</span>
+      <button id="battleDetailClose" class="pill">✕</button>
+    </div>
+    <div class="scroll" style="max-height:240px;">
+      <table class="collapsible-table">
+        <thead>
+          <tr><th>User</th><th>Team</th><th>Attacks</th><th>Hits Taken</th><th>Ratio</th></tr>
+        </thead>
+        <tbody>
+          ${rows || '<tr><td colspan="5" style="color:var(--text-muted);">No participant data</td></tr>'}
+        </tbody>
+      </table>
+    </div>
+  `;
+
+  const closeBtn = detail.querySelector("#battleDetailClose");
+  closeBtn?.addEventListener("click", () => {
+    state.selectedBattleId = null;
+    renderBattlesTable();
+  });
+}
+
+function getFilteredBattles() {
+  const minHits = Number.isFinite(state.battleMinHits) ? state.battleMinHits : 0;
+  return state.allBattles.filter(b => {
+    if (b.hitCount < minHits) return false;
+    if (state.battleRoomFilter !== "All" && b.roomName !== state.battleRoomFilter) return false;
+    return true;
+  });
+}
+
+function renderBattlesTable() {
+  const table = document.getElementById("battlesTable");
+  if (!table) return;
+
+  populateBattleRoomFilter();
+
+  const minHitsInput = document.getElementById("battleMinHits");
+  if (minHitsInput) {
+    minHitsInput.value = state.battleMinHits;
+  }
+
+  const battles = getFilteredBattles();
+  if (!battles.length) {
+    table.innerHTML = '<p class="legend-note" style="margin:0;">No battles match the current filters.</p>';
+    renderBattleDetail();
+    return;
+  }
+
+  const rows = battles.map(b => {
+    const topAtt = b.topAttackers?.[0];
+    const topVict = b.topVictims?.[0];
+    const selectedClass = b.id === state.selectedBattleId ? "battle-selected" : "";
+    return `
+      <tr data-battle="${escapeHtml(b.id)}" class="${selectedClass}">
+        <td>${escapeHtml(b.roomName)}</td>
+        <td>${formatBattleTime(b.start)}</td>
+        <td>${formatBattleTime(b.end)}</td>
+        <td>${b.durationMinutes} min</td>
+        <td>${b.hitCount}</td>
+        <td>${b.uniqueUsers}</td>
+        <td>${topAtt ? `${escapeHtml(topAtt.user)} (${topAtt.attacks})` : "-"}</td>
+        <td>${topVict ? `${escapeHtml(topVict.user)} (${topVict.hitsTaken})` : "-"}</td>
+      </tr>
+    `;
+  }).join("");
+
+  table.innerHTML = `
+    <table class="collapsible-table">
+      <thead>
+        <tr>
+          <th>Room</th>
+          <th>Start</th>
+          <th>End</th>
+          <th>Duration</th>
+          <th>Hits</th>
+          <th>Users</th>
+          <th>Top Attacker</th>
+          <th>Top Victim</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
+
+  renderBattleDetail();
+}
+
 function getHeatmapColor(intensity) {
   // Blue gradient from light to dark
   const minL = 95; // Very light
@@ -2290,6 +2560,28 @@ function setupEventListeners() {
     const penguinFilter = penguinRosterSearch?.value || "";
     const reindeerFilter = reindeerRosterSearch.value || "";
     renderTeamRosters(currentTeamData, penguinFilter, reindeerFilter);
+  });
+
+  const battleRoomFilter = document.getElementById("battleRoomFilter");
+  battleRoomFilter?.addEventListener("change", () => {
+    state.battleRoomFilter = battleRoomFilter.value;
+    renderBattlesTable();
+  });
+
+  const battleMinHits = document.getElementById("battleMinHits");
+  battleMinHits?.addEventListener("input", () => {
+    const parsed = parseInt(battleMinHits.value, 10);
+    state.battleMinHits = Number.isFinite(parsed) ? Math.max(0, parsed) : 0;
+    renderBattlesTable();
+  });
+
+  const battlesTable = document.getElementById("battlesTable");
+  battlesTable?.addEventListener("click", (e) => {
+    const row = e.target.closest("[data-battle]");
+    if (!row) return;
+    const id = row.getAttribute("data-battle");
+    state.selectedBattleId = state.selectedBattleId === id ? null : id;
+    renderBattlesTable();
   });
 }
 

@@ -1,15 +1,15 @@
 [
   {
+    "roomName": "Captain's Quest Quarters",
+    "hitCount": 2641,
+    "avgUserRatio": 1.24,
+    "activeUsers": 81
+  },
+  {
     "roomName": "Town Square",
     "hitCount": 2428,
     "avgUserRatio": 0.87,
     "activeUsers": 102
-  },
-  {
-    "roomName": "Captain's Quest Quarters",
-    "hitCount": 1946,
-    "avgUserRatio": 1.4,
-    "activeUsers": 70
   },
   {
     "roomName": "Monorail Station",
@@ -25,9 +25,9 @@
   },
   {
     "roomName": "Banquet Hall",
-    "hitCount": 185,
-    "avgUserRatio": 1.43,
-    "activeUsers": 19
+    "hitCount": 187,
+    "avgUserRatio": 1.41,
+    "activeUsers": 20
   },
   {
     "roomName": "Monorail Train",
@@ -43,9 +43,9 @@
   },
   {
     "roomName": "Tomorrowland Hub",
-    "hitCount": 97,
-    "avgUserRatio": 1.61,
-    "activeUsers": 21
+    "hitCount": 113,
+    "avgUserRatio": 1.69,
+    "activeUsers": 24
   },
   {
     "roomName": "Pixar Pier Entrance",
@@ -60,16 +60,22 @@
     "activeUsers": 20
   },
   {
-    "roomName": "Epcot Entrance",
-    "hitCount": 60,
-    "avgUserRatio": 0.79,
-    "activeUsers": 14
+    "roomName": "Main Street",
+    "hitCount": 68,
+    "avgUserRatio": 1.3,
+    "activeUsers": 32
   },
   {
-    "roomName": "Main Street",
-    "hitCount": 54,
-    "avgUserRatio": 1.32,
-    "activeUsers": 28
+    "roomName": "Epcot Entrance",
+    "hitCount": 63,
+    "avgUserRatio": 0.72,
+    "activeUsers": 16
+  },
+  {
+    "roomName": "Dungeon",
+    "hitCount": 49,
+    "avgUserRatio": 1.76,
+    "activeUsers": 18
   },
   {
     "roomName": "Pirate Treehouse",
@@ -78,16 +84,16 @@
     "activeUsers": 12
   },
   {
-    "roomName": "Dungeon",
-    "hitCount": 46,
-    "avgUserRatio": 1.86,
-    "activeUsers": 16
-  },
-  {
     "roomName": "Castle Forecourt",
     "hitCount": 39,
     "avgUserRatio": 1.77,
     "activeUsers": 17
+  },
+  {
+    "roomName": "Frontierland Hub",
+    "hitCount": 37,
+    "avgUserRatio": 0.86,
+    "activeUsers": 8
   },
   {
     "roomName": "Autopia Quest Track",
@@ -109,9 +115,9 @@
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 29,
-    "avgUserRatio": 1.69,
-    "activeUsers": 14
+    "hitCount": 31,
+    "avgUserRatio": 1.6,
+    "activeUsers": 16
   },
   {
     "roomName": "Jungle Cruise Dock",
@@ -132,6 +138,12 @@
     "activeUsers": 11
   },
   {
+    "roomName": "Mickey's Courtyard",
+    "hitCount": 19,
+    "avgUserRatio": 0.9,
+    "activeUsers": 5
+  },
+  {
     "roomName": "Sci-Fi Dine-In",
     "hitCount": 18,
     "avgUserRatio": 1.01,
@@ -148,6 +160,24 @@
     "hitCount": 14,
     "avgUserRatio": 0.93,
     "activeUsers": 3
+  },
+  {
+    "roomName": "Elephant Bathing Pool",
+    "hitCount": 13,
+    "avgUserRatio": 3.25,
+    "activeUsers": 4
+  },
+  {
+    "roomName": "Snow White Hide 'n Seek Forest",
+    "hitCount": 13,
+    "avgUserRatio": 1.35,
+    "activeUsers": 4
+  },
+  {
+    "roomName": "Storybookland",
+    "hitCount": 12,
+    "avgUserRatio": 1.5,
+    "activeUsers": 8
   },
   {
     "roomName": "Adventureland Bazaar",
@@ -168,12 +198,6 @@
     "activeUsers": 7
   },
   {
-    "roomName": "Storybookland",
-    "hitCount": 9,
-    "avgUserRatio": 1.8,
-    "activeUsers": 5
-  },
-  {
     "roomName": "Blue Bayou",
     "hitCount": 8,
     "avgUserRatio": 1.6,
@@ -183,12 +207,6 @@
     "roomName": "Inner-Space Shop",
     "hitCount": 7,
     "avgUserRatio": 2.33,
-    "activeUsers": 3
-  },
-  {
-    "roomName": "Mickey's Courtyard",
-    "hitCount": 7,
-    "avgUserRatio": 1,
     "activeUsers": 3
   },
   {
@@ -205,9 +223,15 @@
   },
   {
     "roomName": "Lost Safari Party",
-    "hitCount": 3,
-    "avgUserRatio": 1.5,
-    "activeUsers": 2
+    "hitCount": 4,
+    "avgUserRatio": 1,
+    "activeUsers": 4
+  },
+  {
+    "roomName": "Splash Mountain",
+    "hitCount": 4,
+    "avgUserRatio": 1.11,
+    "activeUsers": 3
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -222,12 +246,6 @@
     "activeUsers": 3
   },
   {
-    "roomName": "Splash Mountain",
-    "hitCount": 3,
-    "avgUserRatio": 1.5,
-    "activeUsers": 2
-  },
-  {
     "roomName": "Shipwreck Graveyard",
     "hitCount": 2,
     "avgUserRatio": 1,
@@ -240,7 +258,7 @@
     "activeUsers": 3
   },
   {
-    "roomName": "Elephant Bathing Pool",
+    "roomName": "Mark Twain",
     "hitCount": 2,
     "avgUserRatio": 1,
     "activeUsers": 2

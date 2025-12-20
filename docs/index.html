@@ -391,6 +391,26 @@
         color: var(--text-muted);
       }
 
+      /* Battles */
+      .battle-controls {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 8px;
+      }
+      .battle-controls input,
+      .battle-controls select {
+        padding: 6px 8px;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        background: var(--input-bg);
+        color: var(--text);
+      }
+      .battle-selected {
+        background: var(--hover-bg);
+      }
+
       /* H2H styles */
       .h2h-user {
         font-weight: 600;
@@ -689,6 +709,22 @@
           <div id="heatmap"></div>
         </div>
         <p class="legend-note">Times are shown in Eastern (New York). Darker = more attacks.</p>
+      </div>
+    </div>
+
+    <div class="row" style="grid-template-columns: 1fr;">
+      <div class="card" id="battles-section">
+        <h3 class="section-header">Major Battles <button class="section-link-btn" onclick="copySectionLink('battles-section', this)" title="Copy link to section">🔗</button></h3>
+        <div class="battle-controls">
+          <select id="battleRoomFilter">
+            <option value="All">All Rooms</option>
+          </select>
+          <label class="legend-note" for="battleMinHits">Min hits</label>
+          <input id="battleMinHits" type="number" min="0" value="30" aria-label="Minimum hits for battle" />
+          <span class="legend-note">Filters apply to detected high-activity clusters.</span>
+        </div>
+        <div id="battlesTable" class="scroll" style="max-height:240px;"></div>
+        <div id="battleDetail" style="margin-top:10px;"></div>
       </div>
     </div>
 
