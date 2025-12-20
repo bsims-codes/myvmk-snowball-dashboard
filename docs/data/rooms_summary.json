@@ -102,6 +102,12 @@
     "activeUsers": 9
   },
   {
+    "roomName": "Fantasyland in The Sky",
+    "hitCount": 33,
+    "avgUserRatio": 1.15,
+    "activeUsers": 10
+  },
+  {
     "roomName": "VMK Gallery",
     "hitCount": 33,
     "avgUserRatio": 0.85,
@@ -232,12 +238,6 @@
     "hitCount": 4,
     "avgUserRatio": 1.11,
     "activeUsers": 3
-  },
-  {
-    "roomName": "Fantasyland in The Sky",
-    "hitCount": 3,
-    "avgUserRatio": 0.75,
-    "activeUsers": 4
   },
   {
     "roomName": "WS - Norway",

@@ -2,21 +2,21 @@
   {
     "id": "Town Square-2",
     "roomName": "Town Square",
-    "start": "2025-12-19T23:01:24.000Z",
-    "end": "2025-12-20T00:24:05.000Z",
+    "start": "2025-12-19T18:01:24.000Z",
+    "end": "2025-12-19T19:24:05.000Z",
     "durationMinutes": 83,
     "hitCount": 2335,
     "uniqueUsers": 94,
     "topAttackers": [
       {
-        "user": "Kate.",
-        "team": "Penguin",
-        "attacks": 13
-      },
-      {
         "user": "PepaRaindrops",
         "team": "Penguin",
         "attacks": 257
+      },
+      {
+        "user": "Jewelsy",
+        "team": "Reindeer",
+        "attacks": 231
       },
       {
         "user": "Tobyy",
@@ -31,14 +31,14 @@
         "hitsTaken": 343
       },
       {
-        "user": "PepaRaindrops",
+        "user": "bittahmercenary",
         "team": "Penguin",
-        "hitsTaken": 98
+        "hitsTaken": 180
       },
       {
-        "user": "Tobyy",
+        "user": "MagicMinnieMare",
         "team": "Reindeer",
-        "hitsTaken": 114
+        "hitsTaken": 133
       }
     ],
     "participants": [
@@ -705,26 +705,26 @@
   {
     "id": "Captain's Quest Quarters-12",
     "roomName": "Captain's Quest Quarters",
-    "start": "2025-12-20T01:58:01.000Z",
-    "end": "2025-12-20T02:29:01.000Z",
+    "start": "2025-12-19T20:58:01.000Z",
+    "end": "2025-12-19T21:29:01.000Z",
     "durationMinutes": 31,
     "hitCount": 587,
     "uniqueUsers": 21,
     "topAttackers": [
-      {
-        "user": "CartNarcs",
-        "team": "Penguin",
-        "attacks": 81
-      },
       {
         "user": "MagicMinnieMare",
         "team": "Reindeer",
         "attacks": 86
       },
       {
-        "user": "CaptainBubbles",
-        "team": "Reindeer",
-        "attacks": 45
+        "user": "CartNarcs",
+        "team": "Penguin",
+        "attacks": 81
+      },
+      {
+        "user": "Luckymaxer",
+        "team": "Penguin",
+        "attacks": 53
       }
     ],
     "topVictims": [
@@ -739,9 +739,9 @@
         "hitsTaken": 88
       },
       {
-        "user": "CaptainBubbles",
+        "user": "jenn",
         "team": "Reindeer",
-        "hitsTaken": 53
+        "hitsTaken": 68
       }
     ],
     "participants": [
@@ -897,26 +897,26 @@
   {
     "id": "Captain's Quest Quarters-6",
     "roomName": "Captain's Quest Quarters",
-    "start": "2025-12-19T22:40:00.000Z",
-    "end": "2025-12-19T23:09:36.000Z",
+    "start": "2025-12-19T17:40:00.000Z",
+    "end": "2025-12-19T18:09:36.000Z",
     "durationMinutes": 30,
     "hitCount": 449,
     "uniqueUsers": 37,
     "topAttackers": [
-      {
-        "user": "MagicMinnieMare",
-        "team": "Reindeer",
-        "attacks": 37
-      },
       {
         "user": "Mirk",
         "team": "Penguin",
         "attacks": 55
       },
       {
-        "user": "EpicRose",
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 53
+      },
+      {
+        "user": "MagicMinnieMare",
         "team": "Reindeer",
-        "attacks": 22
+        "attacks": 37
       }
     ],
     "topVictims": [
@@ -926,14 +926,14 @@
         "hitsTaken": 149
       },
       {
-        "user": "Mirk",
-        "team": "Penguin",
-        "hitsTaken": 23
-      },
-      {
         "user": "EpicRose",
         "team": "Reindeer",
         "hitsTaken": 45
+      },
+      {
+        "user": "CaptainBubbles",
+        "team": "Reindeer",
+        "hitsTaken": 27
       }
     ],
     "participants": [
@@ -1201,8 +1201,8 @@
   {
     "id": "Monorail Station-1",
     "roomName": "Monorail Station",
-    "start": "2025-12-19T17:39:56.000Z",
-    "end": "2025-12-19T18:01:22.000Z",
+    "start": "2025-12-19T12:39:56.000Z",
+    "end": "2025-12-19T13:01:22.000Z",
     "durationMinutes": 21,
     "hitCount": 443,
     "uniqueUsers": 18,
@@ -1213,22 +1213,17 @@
         "attacks": 70
       },
       {
-        "user": "CaptainBubbles",
-        "team": "Reindeer",
-        "attacks": 33
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 56
       },
       {
-        "user": "MagicMinnieMare",
-        "team": "Reindeer",
-        "attacks": 26
+        "user": "kazino",
+        "team": "Penguin",
+        "attacks": 47
       }
     ],
     "topVictims": [
-      {
-        "user": "Winnie",
-        "team": "Penguin",
-        "hitsTaken": 35
-      },
       {
         "user": "CaptainBubbles",
         "team": "Reindeer",
@@ -1238,6 +1233,11 @@
         "user": "MagicMinnieMare",
         "team": "Reindeer",
         "hitsTaken": 63
+      },
+      {
+        "user": "FlameLegend",
+        "team": "Reindeer",
+        "hitsTaken": 41
       }
     ],
     "participants": [
@@ -1372,17 +1372,12 @@
   {
     "id": "Captain's Quest Quarters-2",
     "roomName": "Captain's Quest Quarters",
-    "start": "2025-12-19T18:09:09.000Z",
-    "end": "2025-12-19T18:38:27.000Z",
+    "start": "2025-12-19T13:09:09.000Z",
+    "end": "2025-12-19T13:38:27.000Z",
     "durationMinutes": 29,
     "hitCount": 433,
     "uniqueUsers": 27,
     "topAttackers": [
-      {
-        "user": "SammyxxFairy",
-        "team": "Reindeer",
-        "attacks": 20
-      },
       {
         "user": "Winnie",
         "team": "Penguin",
@@ -1392,6 +1387,11 @@
         "user": "MagicMinnieMare",
         "team": "Reindeer",
         "attacks": 52
+      },
+      {
+        "user": "Mirk",
+        "team": "Penguin",
+        "attacks": 42
       }
     ],
     "topVictims": [
@@ -1401,9 +1401,9 @@
         "hitsTaken": 165
       },
       {
-        "user": "Winnie",
-        "team": "Penguin",
-        "hitsTaken": 20
+        "user": "wildgirlpony",
+        "team": "Reindeer",
+        "hitsTaken": 46
       },
       {
         "user": "MagicMinnieMare",
@@ -1606,21 +1606,21 @@
   {
     "id": "Captain's Quest Quarters-5",
     "roomName": "Captain's Quest Quarters",
-    "start": "2025-12-19T21:16:40.000Z",
-    "end": "2025-12-19T21:42:05.000Z",
+    "start": "2025-12-19T16:16:40.000Z",
+    "end": "2025-12-19T16:42:05.000Z",
     "durationMinutes": 25,
     "hitCount": 317,
     "uniqueUsers": 22,
     "topAttackers": [
       {
-        "user": "Tarabellah",
-        "team": "Reindeer",
-        "attacks": 15
-      },
-      {
         "user": "kazino",
         "team": "Penguin",
         "attacks": 110
+      },
+      {
+        "user": "Luckymaxer",
+        "team": "Penguin",
+        "attacks": 56
       },
       {
         "user": "CaptainBubbles",
@@ -1635,14 +1635,14 @@
         "hitsTaken": 133
       },
       {
-        "user": "kazino",
-        "team": "Penguin",
-        "hitsTaken": 5
-      },
-      {
         "user": "CaptainBubbles",
         "team": "Reindeer",
         "hitsTaken": 61
+      },
+      {
+        "user": "MatthewC",
+        "team": "Reindeer",
+        "hitsTaken": 26
       }
     ],
     "participants": [
@@ -1805,8 +1805,8 @@
   {
     "id": "Captain's Quest Quarters-10",
     "roomName": "Captain's Quest Quarters",
-    "start": "2025-12-20T01:00:40.000Z",
-    "end": "2025-12-20T01:15:06.000Z",
+    "start": "2025-12-19T20:00:40.000Z",
+    "end": "2025-12-19T20:15:06.000Z",
     "durationMinutes": 14,
     "hitCount": 204,
     "uniqueUsers": 12,
@@ -1817,14 +1817,14 @@
         "attacks": 68
       },
       {
-        "user": "Tarabellah",
-        "team": "Reindeer",
-        "attacks": 17
+        "user": "VMKNeec",
+        "team": "Penguin",
+        "attacks": 25
       },
       {
-        "user": "Mali",
+        "user": "OGBlondie_",
         "team": "Penguin",
-        "attacks": 15
+        "attacks": 24
       }
     ],
     "topVictims": [
@@ -1934,26 +1934,26 @@
   {
     "id": "Banquet Hall-1",
     "roomName": "Banquet Hall",
-    "start": "2025-12-20T00:33:42.000Z",
-    "end": "2025-12-20T00:44:19.000Z",
+    "start": "2025-12-19T19:33:42.000Z",
+    "end": "2025-12-19T19:44:19.000Z",
     "durationMinutes": 11,
     "hitCount": 180,
     "uniqueUsers": 16,
     "topAttackers": [
+      {
+        "user": "VMKNeec",
+        "team": "Penguin",
+        "attacks": 26
+      },
       {
         "user": "MagicMinnieMare",
         "team": "Reindeer",
         "attacks": 25
       },
       {
-        "user": "CaptainBubbles",
-        "team": "Reindeer",
-        "attacks": 14
-      },
-      {
-        "user": "PuffyOldDragon",
-        "team": "Reindeer",
-        "attacks": 14
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 25
       }
     ],
     "topVictims": [
@@ -2091,26 +2091,26 @@
   {
     "id": "Monorail Train-1",
     "roomName": "Monorail Train",
-    "start": "2025-12-19T20:13:25.000Z",
-    "end": "2025-12-19T20:26:08.000Z",
+    "start": "2025-12-19T15:13:25.000Z",
+    "end": "2025-12-19T15:26:08.000Z",
     "durationMinutes": 13,
     "hitCount": 168,
     "uniqueUsers": 12,
     "topAttackers": [
       {
-        "user": "MatthewC",
-        "team": "Reindeer",
-        "attacks": 3
+        "user": "Luckymaxer",
+        "team": "Penguin",
+        "attacks": 55
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 25
       },
       {
         "user": "CaptainBubbles",
         "team": "Reindeer",
         "attacks": 19
-      },
-      {
-        "user": "Luckymaxer",
-        "team": "Penguin",
-        "attacks": 55
       }
     ],
     "topVictims": [
@@ -2125,9 +2125,9 @@
         "hitsTaken": 48
       },
       {
-        "user": "Luckymaxer",
-        "team": "Penguin",
-        "hitsTaken": 5
+        "user": "ArrowToTheHeart",
+        "team": "Reindeer",
+        "hitsTaken": 8
       }
     ],
     "participants": [
@@ -2220,8 +2220,8 @@
   {
     "id": "Captain's Quest Quarters-4",
     "roomName": "Captain's Quest Quarters",
-    "start": "2025-12-19T20:43:38.000Z",
-    "end": "2025-12-19T20:52:07.000Z",
+    "start": "2025-12-19T15:43:38.000Z",
+    "end": "2025-12-19T15:52:07.000Z",
     "durationMinutes": 8,
     "hitCount": 97,
     "uniqueUsers": 9,
@@ -2237,9 +2237,9 @@
         "attacks": 20
       },
       {
-        "user": "Tarabellah",
-        "team": "Reindeer",
-        "attacks": 4
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 13
       }
     ],
     "topVictims": [
@@ -2249,14 +2249,14 @@
         "hitsTaken": 45
       },
       {
-        "user": "BuckyBarnes",
-        "team": "Penguin",
-        "hitsTaken": 9
-      },
-      {
         "user": "Tarabellah",
         "team": "Reindeer",
         "hitsTaken": 21
+      },
+      {
+        "user": "BuckyBarnes",
+        "team": "Penguin",
+        "hitsTaken": 9
       }
     ],
     "participants": [
@@ -2328,8 +2328,8 @@
   {
     "id": "Central Plaza-1",
     "roomName": "Central Plaza",
-    "start": "2025-12-19T15:06:30.000Z",
-    "end": "2025-12-19T15:21:17.000Z",
+    "start": "2025-12-19T10:06:30.000Z",
+    "end": "2025-12-19T10:21:17.000Z",
     "durationMinutes": 15,
     "hitCount": 90,
     "uniqueUsers": 8,
@@ -2352,11 +2352,6 @@
     ],
     "topVictims": [
       {
-        "user": "bunny",
-        "team": "Penguin",
-        "hitsTaken": 18
-      },
-      {
         "user": "CaptainBubbles",
         "team": "Reindeer",
         "hitsTaken": 26
@@ -2365,6 +2360,11 @@
         "user": "shelbitb",
         "team": "Reindeer",
         "hitsTaken": 23
+      },
+      {
+        "user": "bunny",
+        "team": "Penguin",
+        "hitsTaken": 18
       }
     ],
     "participants": [
@@ -2429,17 +2429,12 @@
   {
     "id": "Captain's Quest Quarters-11",
     "roomName": "Captain's Quest Quarters",
-    "start": "2025-12-20T01:39:20.000Z",
-    "end": "2025-12-20T01:54:12.000Z",
+    "start": "2025-12-19T20:39:20.000Z",
+    "end": "2025-12-19T20:54:12.000Z",
     "durationMinutes": 15,
     "hitCount": 78,
     "uniqueUsers": 7,
     "topAttackers": [
-      {
-        "user": "DarthTater",
-        "team": "Penguin",
-        "attacks": 6
-      },
       {
         "user": "CaptainBubbles",
         "team": "Reindeer",
@@ -2449,6 +2444,11 @@
         "user": "Kronkx",
         "team": "Reindeer",
         "attacks": 19
+      },
+      {
+        "user": "DarthTater",
+        "team": "Penguin",
+        "attacks": 6
       }
     ],
     "topVictims": [
@@ -2463,9 +2463,9 @@
         "hitsTaken": 5
       },
       {
-        "user": "Tinkfaniam",
-        "team": "Reindeer",
-        "hitsTaken": 2
+        "user": "Meg",
+        "team": "Penguin",
+        "hitsTaken": 3
       }
     ],
     "participants": [
@@ -2523,8 +2523,8 @@
   {
     "id": "Central Plaza-3",
     "roomName": "Central Plaza",
-    "start": "2025-12-19T16:16:58.000Z",
-    "end": "2025-12-19T16:24:54.000Z",
+    "start": "2025-12-19T11:16:58.000Z",
+    "end": "2025-12-19T11:24:54.000Z",
     "durationMinutes": 8,
     "hitCount": 77,
     "uniqueUsers": 6,
@@ -2535,26 +2535,26 @@
         "attacks": 38
       },
       {
-        "user": "TheOhanaGryphoness",
-        "team": "Penguin",
-        "attacks": 8
-      },
-      {
         "user": "PepaRaindrops",
         "team": "Penguin",
         "attacks": 16
+      },
+      {
+        "user": "TheOhanaGryphoness",
+        "team": "Penguin",
+        "attacks": 8
       }
     ],
     "topVictims": [
       {
-        "user": "CaptainBubbles",
-        "team": "Reindeer",
-        "hitsTaken": 13
-      },
-      {
         "user": "TheOhanaGryphoness",
         "team": "Penguin",
         "hitsTaken": 38
+      },
+      {
+        "user": "CaptainBubbles",
+        "team": "Reindeer",
+        "hitsTaken": 13
       },
       {
         "user": "PepaRaindrops",
@@ -2610,26 +2610,26 @@
   {
     "id": "Central Plaza-4",
     "roomName": "Central Plaza",
-    "start": "2025-12-19T20:26:20.000Z",
-    "end": "2025-12-19T20:32:52.000Z",
+    "start": "2025-12-19T15:26:20.000Z",
+    "end": "2025-12-19T15:32:52.000Z",
     "durationMinutes": 7,
     "hitCount": 69,
     "uniqueUsers": 10,
     "topAttackers": [
       {
-        "user": "MatthewC",
-        "team": "Reindeer",
-        "attacks": 2
-      },
-      {
-        "user": "CaptainBubbles",
-        "team": "Reindeer",
-        "attacks": 6
-      },
-      {
         "user": "PepaRaindrops",
         "team": "Penguin",
         "attacks": 15
+      },
+      {
+        "user": "VMKNeec",
+        "team": "Penguin",
+        "attacks": 14
+      },
+      {
+        "user": "BuckyBarnes",
+        "team": "Penguin",
+        "attacks": 10
       }
     ],
     "topVictims": [
@@ -2644,9 +2644,9 @@
         "hitsTaken": 17
       },
       {
-        "user": "PepaRaindrops",
-        "team": "Penguin",
-        "hitsTaken": 1
+        "user": "shelbitb",
+        "team": "Reindeer",
+        "hitsTaken": 5
       }
     ],
     "participants": [
@@ -2725,8 +2725,8 @@
   {
     "id": "Town Square-1",
     "roomName": "Town Square",
-    "start": "2025-12-19T20:19:18.000Z",
-    "end": "2025-12-19T20:26:38.000Z",
+    "start": "2025-12-19T15:19:18.000Z",
+    "end": "2025-12-19T15:26:38.000Z",
     "durationMinutes": 7,
     "hitCount": 58,
     "uniqueUsers": 8,
@@ -2826,12 +2826,17 @@
   {
     "id": "Tomorrowland Hub-1",
     "roomName": "Tomorrowland Hub",
-    "start": "2025-12-19T19:56:57.000Z",
-    "end": "2025-12-19T20:02:33.000Z",
+    "start": "2025-12-19T14:56:57.000Z",
+    "end": "2025-12-19T15:02:33.000Z",
     "durationMinutes": 6,
     "hitCount": 53,
     "uniqueUsers": 9,
     "topAttackers": [
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 16
+      },
       {
         "user": "CaptainBubbles",
         "team": "Reindeer",
@@ -2841,28 +2846,23 @@
         "user": "Winnie",
         "team": "Penguin",
         "attacks": 8
-      },
-      {
-        "user": "PepaRaindrops",
-        "team": "Penguin",
-        "attacks": 16
       }
     ],
     "topVictims": [
-      {
-        "user": "CaptainBubbles",
-        "team": "Reindeer",
-        "hitsTaken": 12
-      },
       {
         "user": "Winnie",
         "team": "Penguin",
         "hitsTaken": 15
       },
       {
-        "user": "PepaRaindrops",
-        "team": "Penguin",
-        "hitsTaken": 4
+        "user": "CaptainBubbles",
+        "team": "Reindeer",
+        "hitsTaken": 12
+      },
+      {
+        "user": "lotuskitty",
+        "team": "Reindeer",
+        "hitsTaken": 12
       }
     ],
     "participants": [
@@ -2934,21 +2934,21 @@
   {
     "id": "Captain's Quest Quarters-1",
     "roomName": "Captain's Quest Quarters",
-    "start": "2025-12-19T16:37:53.000Z",
-    "end": "2025-12-19T16:42:14.000Z",
+    "start": "2025-12-19T11:37:53.000Z",
+    "end": "2025-12-19T11:42:14.000Z",
     "durationMinutes": 4,
     "hitCount": 47,
     "uniqueUsers": 7,
     "topAttackers": [
       {
-        "user": "CaptainBubbles",
-        "team": "Reindeer",
-        "attacks": 14
-      },
-      {
         "user": "PepaRaindrops",
         "team": "Penguin",
         "attacks": 16
+      },
+      {
+        "user": "CaptainBubbles",
+        "team": "Reindeer",
+        "attacks": 14
       },
       {
         "user": "BuckyBarnes",
@@ -2963,14 +2963,14 @@
         "hitsTaken": 17
       },
       {
-        "user": "PepaRaindrops",
+        "user": "HappyToughFish",
         "team": "Penguin",
-        "hitsTaken": 6
+        "hitsTaken": 8
       },
       {
-        "user": "BuckyBarnes",
-        "team": "Penguin",
-        "hitsTaken": 3
+        "user": "taymeow",
+        "team": "Reindeer",
+        "hitsTaken": 7
       }
     ],
     "participants": [
@@ -3028,26 +3028,26 @@
   {
     "id": "Pixar Pier Entrance-2",
     "roomName": "Pixar Pier Entrance",
-    "start": "2025-12-19T19:38:30.000Z",
-    "end": "2025-12-19T19:44:08.000Z",
+    "start": "2025-12-19T14:38:30.000Z",
+    "end": "2025-12-19T14:44:08.000Z",
     "durationMinutes": 6,
     "hitCount": 46,
     "uniqueUsers": 4,
     "topAttackers": [
-      {
-        "user": "FlameLegend",
-        "team": "Reindeer",
-        "attacks": 14
-      },
       {
         "user": "Winnie",
         "team": "Penguin",
         "attacks": 20
       },
       {
-        "user": "Devgirlforever",
+        "user": "FlameLegend",
+        "team": "Reindeer",
+        "attacks": 14
+      },
+      {
+        "user": "Meg",
         "team": "Penguin",
-        "attacks": 4
+        "attacks": 8
       }
     ],
     "topVictims": [
@@ -3057,14 +3057,14 @@
         "hitsTaken": 32
       },
       {
-        "user": "Winnie",
-        "team": "Penguin",
-        "hitsTaken": 2
-      },
-      {
         "user": "Devgirlforever",
         "team": "Penguin",
         "hitsTaken": 10
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "hitsTaken": 2
       }
     ],
     "participants": [
@@ -3101,8 +3101,8 @@
   {
     "id": "VMK Esplanade-2",
     "roomName": "VMK Esplanade",
-    "start": "2025-12-19T21:07:22.000Z",
-    "end": "2025-12-19T21:13:06.000Z",
+    "start": "2025-12-19T16:07:22.000Z",
+    "end": "2025-12-19T16:13:06.000Z",
     "durationMinutes": 6,
     "hitCount": 44,
     "uniqueUsers": 6,
@@ -3118,9 +3118,9 @@
         "attacks": 17
       },
       {
-        "user": "CaptainBubbles",
-        "team": "Reindeer",
-        "attacks": 2
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 5
       }
     ],
     "topVictims": [
@@ -3130,14 +3130,14 @@
         "hitsTaken": 34
       },
       {
-        "user": "Devgirlforever",
-        "team": "Penguin",
-        "hitsTaken": 2
-      },
-      {
         "user": "CaptainBubbles",
         "team": "Reindeer",
         "hitsTaken": 7
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "hitsTaken": 2
       }
     ],
     "participants": [
@@ -3188,8 +3188,8 @@
   {
     "id": "Central Plaza-2",
     "roomName": "Central Plaza",
-    "start": "2025-12-19T16:00:00.000Z",
-    "end": "2025-12-19T16:05:17.000Z",
+    "start": "2025-12-19T11:00:00.000Z",
+    "end": "2025-12-19T11:05:17.000Z",
     "durationMinutes": 5,
     "hitCount": 44,
     "uniqueUsers": 8,
@@ -3217,12 +3217,12 @@
         "hitsTaken": 17
       },
       {
-        "user": "CaptainBubbles",
+        "user": "MagicMinnieMare",
         "team": "Reindeer",
-        "hitsTaken": 5
+        "hitsTaken": 6
       },
       {
-        "user": "GelatinfishJr",
+        "user": "CaptainBubbles",
         "team": "Reindeer",
         "hitsTaken": 5
       }
@@ -3289,8 +3289,8 @@
   {
     "id": "Monorail Station-2",
     "roomName": "Monorail Station",
-    "start": "2025-12-19T20:10:01.000Z",
-    "end": "2025-12-19T20:13:11.000Z",
+    "start": "2025-12-19T15:10:01.000Z",
+    "end": "2025-12-19T15:13:11.000Z",
     "durationMinutes": 3,
     "hitCount": 39,
     "uniqueUsers": 9,
@@ -3306,9 +3306,9 @@
         "attacks": 9
       },
       {
-        "user": "CaptainBubbles",
-        "team": "Reindeer",
-        "attacks": 2
+        "user": "VMKNeec",
+        "team": "Penguin",
+        "attacks": 8
       }
     ],
     "topVictims": [
@@ -3318,14 +3318,14 @@
         "hitsTaken": 30
       },
       {
-        "user": "Luckymaxer",
-        "team": "Penguin",
-        "hitsTaken": 1
-      },
-      {
         "user": "CaptainBubbles",
         "team": "Reindeer",
         "hitsTaken": 7
+      },
+      {
+        "user": "Luckymaxer",
+        "team": "Penguin",
+        "hitsTaken": 1
       }
     ],
     "participants": [
@@ -3397,8 +3397,8 @@
   {
     "id": "Captain's Quest Quarters-9",
     "roomName": "Captain's Quest Quarters",
-    "start": "2025-12-20T00:05:22.000Z",
-    "end": "2025-12-20T00:09:20.000Z",
+    "start": "2025-12-19T19:05:22.000Z",
+    "end": "2025-12-19T19:09:20.000Z",
     "durationMinutes": 4,
     "hitCount": 38,
     "uniqueUsers": 3,
@@ -3421,14 +3421,14 @@
         "hitsTaken": 15
       },
       {
-        "user": "CaptainBubbles",
-        "team": "Reindeer",
-        "hitsTaken": 9
-      },
-      {
         "user": "SammyxxFairy",
         "team": "Reindeer",
         "hitsTaken": 14
+      },
+      {
+        "user": "CaptainBubbles",
+        "team": "Reindeer",
+        "hitsTaken": 9
       }
     ],
     "participants": [
@@ -3458,8 +3458,8 @@
   {
     "id": "Captain's Quest Quarters-7",
     "roomName": "Captain's Quest Quarters",
-    "start": "2025-12-19T23:14:46.000Z",
-    "end": "2025-12-19T23:17:11.000Z",
+    "start": "2025-12-19T18:14:46.000Z",
+    "end": "2025-12-19T18:17:11.000Z",
     "durationMinutes": 2,
     "hitCount": 38,
     "uniqueUsers": 9,
@@ -3487,9 +3487,9 @@
         "hitsTaken": 10
       },
       {
-        "user": "Luckymaxer",
+        "user": "SleepToken",
         "team": "Penguin",
-        "hitsTaken": 4
+        "hitsTaken": 7
       },
       {
         "user": "Tinkfaniam",
@@ -3566,8 +3566,8 @@
   {
     "id": "Frontierland Hub-1",
     "roomName": "Frontierland Hub",
-    "start": "2025-12-20T02:22:04.000Z",
-    "end": "2025-12-20T02:25:07.000Z",
+    "start": "2025-12-19T21:22:04.000Z",
+    "end": "2025-12-19T21:25:07.000Z",
     "durationMinutes": 3,
     "hitCount": 37,
     "uniqueUsers": 8,
@@ -3590,19 +3590,19 @@
     ],
     "topVictims": [
       {
-        "user": "CaptainBubbles",
-        "team": "Reindeer",
-        "hitsTaken": 12
-      },
-      {
         "user": "Mali",
         "team": "Penguin",
         "hitsTaken": 14
       },
       {
-        "user": "MagicMinnieMare",
+        "user": "CaptainBubbles",
         "team": "Reindeer",
-        "hitsTaken": 4
+        "hitsTaken": 12
+      },
+      {
+        "user": "Annie",
+        "team": "Penguin",
+        "hitsTaken": 5
       }
     ],
     "participants": [
@@ -3667,8 +3667,8 @@
   {
     "id": "Captain's Quest Quarters-3",
     "roomName": "Captain's Quest Quarters",
-    "start": "2025-12-19T20:34:15.000Z",
-    "end": "2025-12-19T20:37:07.000Z",
+    "start": "2025-12-19T15:34:15.000Z",
+    "end": "2025-12-19T15:37:07.000Z",
     "durationMinutes": 3,
     "hitCount": 36,
     "uniqueUsers": 11,
@@ -3701,9 +3701,9 @@
         "hitsTaken": 5
       },
       {
-        "user": "PepaRaindrops",
+        "user": "flamesmolderton",
         "team": "Penguin",
-        "hitsTaken": 2
+        "hitsTaken": 5
       }
     ],
     "participants": [
@@ -3789,8 +3789,8 @@
   {
     "id": "Pirate Treehouse-1",
     "roomName": "Pirate Treehouse",
-    "start": "2025-12-19T17:29:12.000Z",
-    "end": "2025-12-19T17:32:26.000Z",
+    "start": "2025-12-19T12:29:12.000Z",
+    "end": "2025-12-19T12:32:26.000Z",
     "durationMinutes": 3,
     "hitCount": 34,
     "uniqueUsers": 6,
@@ -3818,13 +3818,13 @@
         "hitsTaken": 25
       },
       {
-        "user": "MagicMinnieMare",
-        "team": "Reindeer",
-        "hitsTaken": 2
-      },
-      {
         "user": "CaptainBubbles",
         "team": "Reindeer",
+        "hitsTaken": 3
+      },
+      {
+        "user": "kazino",
+        "team": "Penguin",
         "hitsTaken": 3
       }
     ],
@@ -3876,17 +3876,12 @@
   {
     "id": "VMK Esplanade-1",
     "roomName": "VMK Esplanade",
-    "start": "2025-12-19T17:56:09.000Z",
-    "end": "2025-12-19T18:01:03.000Z",
+    "start": "2025-12-19T12:56:09.000Z",
+    "end": "2025-12-19T13:01:03.000Z",
     "durationMinutes": 5,
     "hitCount": 33,
     "uniqueUsers": 10,
     "topAttackers": [
-      {
-        "user": "Magenta",
-        "team": "Penguin",
-        "attacks": 5
-      },
       {
         "user": "CaptainBubbles",
         "team": "Reindeer",
@@ -3896,6 +3891,11 @@
         "user": "Kronkx",
         "team": "Reindeer",
         "attacks": 6
+      },
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "attacks": 5
       }
     ],
     "topVictims": [
@@ -3905,14 +3905,14 @@
         "hitsTaken": 17
       },
       {
-        "user": "CaptainBubbles",
-        "team": "Reindeer",
-        "hitsTaken": 3
-      },
-      {
         "user": "Kronkx",
         "team": "Reindeer",
         "hitsTaken": 5
+      },
+      {
+        "user": "CaptainBubbles",
+        "team": "Reindeer",
+        "hitsTaken": 3
       }
     ],
     "participants": [
@@ -3991,16 +3991,16 @@
   {
     "id": "Pixar Pier Entrance-1",
     "roomName": "Pixar Pier Entrance",
-    "start": "2025-12-19T18:57:39.000Z",
-    "end": "2025-12-19T18:58:58.000Z",
+    "start": "2025-12-19T13:57:39.000Z",
+    "end": "2025-12-19T13:58:58.000Z",
     "durationMinutes": 1,
     "hitCount": 31,
     "uniqueUsers": 14,
     "topAttackers": [
       {
-        "user": "Myth",
-        "team": "Reindeer",
-        "attacks": 3
+        "user": "mikgriz",
+        "team": "Penguin",
+        "attacks": 5
       },
       {
         "user": "TealMouse",
@@ -4008,9 +4008,9 @@
         "attacks": 4
       },
       {
-        "user": "mikgriz",
+        "user": "goatduck",
         "team": "Penguin",
-        "attacks": 5
+        "attacks": 4
       }
     ],
     "topVictims": [
@@ -4025,9 +4025,9 @@
         "hitsTaken": 4
       },
       {
-        "user": "mikgriz",
+        "user": "goatduck",
         "team": "Penguin",
-        "hitsTaken": 2
+        "hitsTaken": 3
       }
     ],
     "participants": [
@@ -4132,10 +4132,104 @@
     ]
   },
   {
+    "id": "Fantasyland in The Sky-1",
+    "roomName": "Fantasyland in The Sky",
+    "start": "2025-12-19T22:10:44.000Z",
+    "end": "2025-12-19T22:13:06.000Z",
+    "durationMinutes": 2,
+    "hitCount": 30,
+    "uniqueUsers": 7,
+    "topAttackers": [
+      {
+        "user": "CaptainBubbles",
+        "team": "Reindeer",
+        "attacks": 7
+      },
+      {
+        "user": "Diamond-K",
+        "team": "Penguin",
+        "attacks": 6
+      },
+      {
+        "user": "Tggrhny",
+        "team": "Reindeer",
+        "attacks": 6
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Diamond-K",
+        "team": "Penguin",
+        "hitsTaken": 8
+      },
+      {
+        "user": "Pollywolly",
+        "team": "Penguin",
+        "hitsTaken": 6
+      },
+      {
+        "user": "Diamond-J",
+        "team": "Penguin",
+        "hitsTaken": 4
+      }
+    ],
+    "participants": [
+      {
+        "user": "Diamond-K",
+        "team": "Penguin",
+        "attacks": 6,
+        "hitsTaken": 8,
+        "ratio": 0.75
+      },
+      {
+        "user": "Tggrhny",
+        "team": "Reindeer",
+        "attacks": 6,
+        "hitsTaken": 3,
+        "ratio": 2
+      },
+      {
+        "user": "CaptainBubbles",
+        "team": "Reindeer",
+        "attacks": 7,
+        "hitsTaken": 2,
+        "ratio": 3.5
+      },
+      {
+        "user": "Pollywolly",
+        "team": "Penguin",
+        "attacks": 2,
+        "hitsTaken": 6,
+        "ratio": 0.3333333333333333
+      },
+      {
+        "user": "Diamond-J",
+        "team": "Penguin",
+        "attacks": 4,
+        "hitsTaken": 4,
+        "ratio": 1
+      },
+      {
+        "user": "SmileyKileyCat",
+        "team": "Reindeer",
+        "attacks": 3,
+        "hitsTaken": 4,
+        "ratio": 0.75
+      },
+      {
+        "user": "tizzi",
+        "team": "Reindeer",
+        "attacks": 2,
+        "hitsTaken": 3,
+        "ratio": 0.6666666666666666
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-8",
     "roomName": "Captain's Quest Quarters",
-    "start": "2025-12-19T23:30:34.000Z",
-    "end": "2025-12-19T23:34:09.000Z",
+    "start": "2025-12-19T18:30:34.000Z",
+    "end": "2025-12-19T18:34:09.000Z",
     "durationMinutes": 4,
     "hitCount": 30,
     "uniqueUsers": 6,

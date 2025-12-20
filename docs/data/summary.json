@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-20T02:50:49.079Z",
-  "totalRows": 7384,
-  "totalUsers": 146,
+  "generatedAt": "2025-12-20T03:13:06.871Z",
+  "totalRows": 7414,
+  "totalUsers": 150,
   "teamStats": {
     "Penguin": {
-      "users": 71,
-      "attacks": 4201,
-      "hitsTaken": 3183
+      "users": 74,
+      "attacks": 4213,
+      "hitsTaken": 3201
     },
     "Reindeer": {
-      "users": 75,
-      "attacks": 3183,
-      "hitsTaken": 4201
+      "users": 76,
+      "attacks": 3201,
+      "hitsTaken": 4213
     },
     "Unknown": {
       "users": 0,
@@ -22,17 +22,17 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 4201
+      "count": 4213
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 3183
+      "count": 3201
     }
   ],
   "topAttackers": [
     {
       "user": "CaptainBubbles",
-      "attacks": 682,
+      "attacks": 689,
       "team": "Reindeer"
     },
     {
@@ -159,7 +159,7 @@
   "topVictims": [
     {
       "user": "CaptainBubbles",
-      "hitsTaken": 710,
+      "hitsTaken": 712,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "CaptainBubbles",
       "team": "Reindeer",
-      "attacks": 682,
-      "hitsTaken": 710,
-      "ratio": 0.9605633802816902
+      "attacks": 689,
+      "hitsTaken": 712,
+      "ratio": 0.9676966292134831
     },
     {
       "user": "MagicMinnieMare",
@@ -852,6 +852,13 @@
       "ratio": 0.5454545454545454
     },
     {
+      "user": "SmileyKileyCat",
+      "team": "Reindeer",
+      "attacks": 3,
+      "hitsTaken": 14,
+      "ratio": 0.21428571428571427
+    },
+    {
       "user": "GelatinfishJr",
       "team": "Reindeer",
       "attacks": 6,
@@ -859,11 +866,25 @@
       "ratio": 0.6
     },
     {
+      "user": "Tggrhny",
+      "team": "Reindeer",
+      "attacks": 6,
+      "hitsTaken": 9,
+      "ratio": 0.6666666666666666
+    },
+    {
       "user": "CityscapeNight",
       "team": "Penguin",
       "attacks": 4,
       "hitsTaken": 10,
       "ratio": 0.4
+    },
+    {
+      "user": "Diamond-K",
+      "team": "Penguin",
+      "attacks": 6,
+      "hitsTaken": 8,
+      "ratio": 0.75
     },
     {
       "user": "DapperChandler",
@@ -908,13 +929,6 @@
       "ratio": 0.6666666666666666
     },
     {
-      "user": "SmileyKileyCat",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 10,
-      "ratio": 0
-    },
-    {
       "user": "Princessmagic",
       "team": "Penguin",
       "attacks": 0,
@@ -948,6 +962,20 @@
       "attacks": 0,
       "hitsTaken": 9,
       "ratio": 0
+    },
+    {
+      "user": "Pollywolly",
+      "team": "Penguin",
+      "attacks": 2,
+      "hitsTaken": 6,
+      "ratio": 0.3333333333333333
+    },
+    {
+      "user": "Diamond-J",
+      "team": "Penguin",
+      "attacks": 4,
+      "hitsTaken": 4,
+      "ratio": 1
     },
     {
       "user": "Whispers",
@@ -985,18 +1013,18 @@
       "ratio": 1
     },
     {
-      "user": "Tggrhny",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 6,
-      "ratio": 0
-    },
-    {
       "user": "rockin_rachael",
       "team": "Reindeer",
       "attacks": 4,
       "hitsTaken": 1,
       "ratio": 4
+    },
+    {
+      "user": "tizzi",
+      "team": "Reindeer",
+      "attacks": 2,
+      "hitsTaken": 3,
+      "ratio": 0.6666666666666666
     },
     {
       "user": "LoopyDoodleChicken",
@@ -1309,30 +1337,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.5930016237075889,
-      "intercept": 20.58408226399427,
+      "slope": 0.5949349733084855,
+      "intercept": 20.02101405260592,
       "xMin": 0,
-      "xMax": 682,
-      "y1": 20.58408226399427,
-      "y2": 425.01118963256994,
+      "xMax": 689,
+      "y1": 20.02101405260592,
+      "y2": 429.93121066215247,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3198274966382958,
-      "intercept": 25.907108262289007,
+      "slope": 0.3228478013957332,
+      "intercept": 24.87624611783481,
       "xMin": 0,
-      "xMax": 682,
-      "y1": 25.907108262289007,
-      "y2": 244.02946096960673,
+      "xMax": 689,
+      "y1": 24.87624611783481,
+      "y2": 247.318381279495,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 1.018235487236261,
-      "intercept": 12.799419255026423,
+      "slope": 1.0145088398284572,
+      "intercept": 12.704700048804062,
       "xMin": 0,
-      "xMax": 682,
-      "y1": 12.799419255026423,
-      "y2": 707.2360215501564,
+      "xMax": 689,
+      "y1": 12.704700048804062,
+      "y2": 711.701290690611,
       "label": "Reindeer"
     }
   },
@@ -1440,6 +1468,12 @@
       "activeUsers": 9
     },
     {
+      "roomName": "Fantasyland in The Sky",
+      "hitCount": 33,
+      "avgUserRatio": 1.15,
+      "activeUsers": 10
+    },
+    {
       "roomName": "VMK Gallery",
       "hitCount": 33,
       "avgUserRatio": 0.85,
@@ -1480,12 +1514,6 @@
       "hitCount": 19,
       "avgUserRatio": 0.9,
       "activeUsers": 5
-    },
-    {
-      "roomName": "Sci-Fi Dine-In",
-      "hitCount": 18,
-      "avgUserRatio": 1.01,
-      "activeUsers": 7
     }
   ]
 }
