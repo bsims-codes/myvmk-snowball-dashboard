@@ -85,9 +85,9 @@
   },
   {
     "roomName": "Dungeon",
-    "hitCount": 49,
-    "avgUserRatio": 1.76,
-    "activeUsers": 18
+    "hitCount": 52,
+    "avgUserRatio": 1.73,
+    "activeUsers": 20
   },
   {
     "roomName": "Pirate Treehouse",
@@ -240,16 +240,16 @@
     "activeUsers": 4
   },
   {
+    "roomName": "Splash Mountain",
+    "hitCount": 6,
+    "avgUserRatio": 1.07,
+    "activeUsers": 5
+  },
+  {
     "roomName": "Lost Safari Party",
     "hitCount": 4,
     "avgUserRatio": 1,
     "activeUsers": 4
-  },
-  {
-    "roomName": "Splash Mountain",
-    "hitCount": 4,
-    "avgUserRatio": 1.11,
-    "activeUsers": 3
   },
   {
     "roomName": "WS - Norway",

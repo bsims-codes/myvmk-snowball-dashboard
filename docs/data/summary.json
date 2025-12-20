@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-20T05:17:32.037Z",
-  "totalRows": 8265,
-  "totalUsers": 159,
+  "generatedAt": "2025-12-20T06:26:57.156Z",
+  "totalRows": 8270,
+  "totalUsers": 161,
   "teamStats": {
     "Penguin": {
-      "users": 75,
-      "attacks": 4684,
+      "users": 76,
+      "attacks": 4689,
       "hitsTaken": 3581
     },
     "Reindeer": {
-      "users": 84,
+      "users": 85,
       "attacks": 3581,
-      "hitsTaken": 4684
+      "hitsTaken": 4689
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 4684
+      "count": 4689
     },
     {
       "pair": "Reindeer → Penguin",
@@ -1055,6 +1055,13 @@
       "ratio": 0.25
     },
     {
+      "user": "MrChemistry",
+      "team": "Penguin",
+      "attacks": 5,
+      "hitsTaken": 0,
+      "ratio": 5
+    },
+    {
       "user": "LoopyDoodleChicken",
       "team": "Penguin",
       "attacks": 0,
@@ -1070,6 +1077,13 @@
     },
     {
       "user": "magickate",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 5,
+      "ratio": 0
+    },
+    {
+      "user": "micky-dude777",
       "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 5,
@@ -1400,30 +1414,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.5860536999736303,
-      "intercept": 21.517397293823556,
+      "slope": 0.5869343084209319,
+      "intercept": 21.21772216993102,
       "xMin": 0,
       "xMax": 789,
-      "y1": 21.517397293823556,
-      "y2": 483.9137665730179,
+      "y1": 21.21772216993102,
+      "y2": 484.30889151404625,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3369955672549365,
-      "intercept": 26.700170173038366,
+      "slope": 0.3382111277113731,
+      "intercept": 26.25168450212331,
       "xMin": 0,
       "xMax": 789,
-      "y1": 26.700170173038366,
-      "y2": 292.58967273718326,
+      "y1": 26.25168450212331,
+      "y2": 293.1002642663967,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.9646386727368531,
-      "intercept": 14.63843943963487,
+      "slope": 0.9650842209766842,
+      "intercept": 14.506275349205808,
       "xMin": 0,
       "xMax": 789,
-      "y1": 14.63843943963487,
-      "y2": 775.738352229012,
+      "y1": 14.506275349205808,
+      "y2": 775.9577256998097,
       "label": "Reindeer"
     }
   },
@@ -1514,9 +1528,9 @@
     },
     {
       "roomName": "Dungeon",
-      "hitCount": 49,
-      "avgUserRatio": 1.76,
-      "activeUsers": 18
+      "hitCount": 52,
+      "avgUserRatio": 1.73,
+      "activeUsers": 20
     },
     {
       "roomName": "Pirate Treehouse",
