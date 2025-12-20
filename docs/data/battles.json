@@ -2518,6 +2518,86 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-13",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2025-12-20T11:47:25.000Z",
+    "end": "2025-12-20T11:57:15.000Z",
+    "durationMinutes": 10,
+    "hitCount": 94,
+    "uniqueUsers": 5,
+    "topAttackers": [
+      {
+        "user": "BuckyBarnes",
+        "team": "Penguin",
+        "attacks": 36
+      },
+      {
+        "user": "VMKNeec",
+        "team": "Penguin",
+        "attacks": 23
+      },
+      {
+        "user": "Chime",
+        "team": "Reindeer",
+        "attacks": 18
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "MatthewC",
+        "team": "Reindeer",
+        "hitsTaken": 63
+      },
+      {
+        "user": "Chime",
+        "team": "Reindeer",
+        "hitsTaken": 13
+      },
+      {
+        "user": "Meg",
+        "team": "Penguin",
+        "hitsTaken": 10
+      }
+    ],
+    "participants": [
+      {
+        "user": "MatthewC",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 63,
+        "ratio": 0
+      },
+      {
+        "user": "BuckyBarnes",
+        "team": "Penguin",
+        "attacks": 36,
+        "hitsTaken": 6,
+        "ratio": 6
+      },
+      {
+        "user": "Chime",
+        "team": "Reindeer",
+        "attacks": 18,
+        "hitsTaken": 13,
+        "ratio": 1.3846153846153846
+      },
+      {
+        "user": "Meg",
+        "team": "Penguin",
+        "attacks": 17,
+        "hitsTaken": 10,
+        "ratio": 1.7
+      },
+      {
+        "user": "VMKNeec",
+        "team": "Penguin",
+        "attacks": 23,
+        "hitsTaken": 2,
+        "ratio": 11.5
+      }
+    ]
+  },
+  {
     "id": "Central Plaza-1",
     "roomName": "Central Plaza",
     "start": "2025-12-19T10:06:30.000Z",

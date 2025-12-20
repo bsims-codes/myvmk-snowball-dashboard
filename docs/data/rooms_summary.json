@@ -1,8 +1,8 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 2650,
-    "avgUserRatio": 1.23,
+    "hitCount": 2744,
+    "avgUserRatio": 1.24,
     "activeUsers": 81
   },
   {
@@ -25,9 +25,9 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 316,
-    "avgUserRatio": 1.88,
-    "activeUsers": 23
+    "hitCount": 338,
+    "avgUserRatio": 1.84,
+    "activeUsers": 24
   },
   {
     "roomName": "Banquet Hall",
@@ -73,15 +73,15 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 63,
-    "avgUserRatio": 0.72,
-    "activeUsers": 16
+    "hitCount": 64,
+    "avgUserRatio": 0.69,
+    "activeUsers": 18
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 55,
-    "avgUserRatio": 1.5,
-    "activeUsers": 18
+    "hitCount": 59,
+    "avgUserRatio": 1.63,
+    "activeUsers": 19
   },
   {
     "roomName": "Dungeon",
@@ -180,6 +180,12 @@
     "activeUsers": 5
   },
   {
+    "roomName": "Space Mountain Quest Deck",
+    "hitCount": 17,
+    "avgUserRatio": 0.82,
+    "activeUsers": 4
+  },
+  {
     "roomName": "Inner-Space Ray Room",
     "hitCount": 14,
     "avgUserRatio": 0.93,
@@ -204,15 +210,15 @@
     "activeUsers": 6
   },
   {
+    "roomName": "Spell Room",
+    "hitCount": 11,
+    "avgUserRatio": 1.11,
+    "activeUsers": 9
+  },
+  {
     "roomName": "Shrunken Ned's Shop",
     "hitCount": 10,
     "avgUserRatio": 1.36,
-    "activeUsers": 7
-  },
-  {
-    "roomName": "Spell Room",
-    "hitCount": 10,
-    "avgUserRatio": 1.29,
     "activeUsers": 7
   },
   {
@@ -319,12 +325,6 @@
   },
   {
     "roomName": "Star Commander Lobby",
-    "hitCount": 1,
-    "avgUserRatio": 0.5,
-    "activeUsers": 2
-  },
-  {
-    "roomName": "Space Mountain Quest Deck",
     "hitCount": 1,
     "avgUserRatio": 0.5,
     "activeUsers": 2
