@@ -273,6 +273,13 @@
     "ratio": 0.2484076433121019
   },
   {
+    "user": "SammyxxFairy",
+    "team": "Reindeer",
+    "attacks": 35,
+    "hitsTaken": 207,
+    "ratio": 0.16908212560386474
+  },
+  {
     "user": "TealMouse",
     "team": "Reindeer",
     "attacks": 35,
@@ -334,13 +341,6 @@
     "attacks": 25,
     "hitsTaken": 51,
     "ratio": 0.49019607843137253
-  },
-  {
-    "user": "SammyxxFairy",
-    "team": "Reindeer",
-    "attacks": 25,
-    "hitsTaken": 207,
-    "ratio": 0.12077294685990338
   },
   {
     "user": "Myth",
@@ -1166,6 +1166,13 @@
     "team": "Reindeer",
     "attacks": 0,
     "hitsTaken": 1,
+    "ratio": 0
+  },
+  {
+    "user": "SoopaVillain",
+    "team": "Penguin",
+    "attacks": 0,
+    "hitsTaken": 10,
     "ratio": 0
   }
 ]
