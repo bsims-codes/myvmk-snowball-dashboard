@@ -582,6 +582,92 @@
       #refreshIcon {
         display: inline-block;
       }
+
+      /* Admin panel / Clone detection styles */
+      .admin-card {
+        border: 2px solid #ef4444;
+        background: linear-gradient(135deg, var(--card-bg) 0%, rgba(239, 68, 68, 0.05) 100%);
+      }
+
+      .suspicion-score {
+        display: inline-block;
+        padding: 2px 8px;
+        border-radius: 12px;
+        font-weight: 600;
+        font-size: 0.85rem;
+      }
+
+      .score-high {
+        background: #fee2e2;
+        color: #dc2626;
+      }
+
+      .score-medium {
+        background: #fef3c7;
+        color: #d97706;
+      }
+
+      .score-low {
+        background: #e0e7ff;
+        color: #4f46e5;
+      }
+
+      [data-theme="dark"] .score-high {
+        background: rgba(220, 38, 38, 0.2);
+        color: #fca5a5;
+      }
+
+      [data-theme="dark"] .score-medium {
+        background: rgba(217, 119, 6, 0.2);
+        color: #fcd34d;
+      }
+
+      [data-theme="dark"] .score-low {
+        background: rgba(79, 70, 229, 0.2);
+        color: #a5b4fc;
+      }
+
+      .clone-flags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        align-items: center;
+      }
+
+      .flag-item {
+        background: #fef3c7;
+        color: #92400e;
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-size: 0.8rem;
+      }
+
+      [data-theme="dark"] .flag-item {
+        background: rgba(251, 191, 36, 0.15);
+        color: #fbbf24;
+      }
+
+      #cloneDetectionPanel .parent-row {
+        cursor: pointer;
+      }
+
+      #cloneDetectionPanel .parent-row:hover {
+        background: var(--hover-bg);
+      }
+
+      #cloneDetectionPanel .child-row {
+        display: none;
+        background: var(--hover-bg);
+      }
+
+      #cloneDetectionPanel .child-row.expanded {
+        display: table-row;
+      }
+
+      #cloneDetectionPanel .parent-row.expanded {
+        background: var(--hover-bg);
+        font-weight: 500;
+      }
     </style>
   </head>
   <body>
@@ -827,6 +913,27 @@
           <table id="eventsTable"></table>
         </div>
         <p class="legend-note">Click column headers to sort. Download exports all filtered results.</p>
+      </div>
+    </div>
+
+    <!-- Admin-only section (hidden by default, enabled via ?admin=true) -->
+    <div id="admin-section" style="display:none;">
+      <div class="row" style="grid-template-columns: 1fr;">
+        <div class="card admin-card" id="clone-detection">
+          <h3 class="section-header" style="display:flex;align-items:center;gap:8px;">
+            <span style="color:#ef4444;">&#9888;</span>
+            Clone Detection (Admin Only)
+            <span id="suspiciousCount" style="font-weight:normal;color:var(--text-muted);font-size:0.875rem;"></span>
+            <button class="section-link-btn" onclick="copySectionLink('clone-detection', this)" title="Copy link to section">&#128279;</button>
+          </h3>
+          <p class="legend-note" style="margin-top:0;">
+            Flagged accounts with suspicious patterns: low attacks, high victim count, hits concentrated from 1-2 attackers.
+            Click a row to expand details.
+          </p>
+          <div class="scroll" style="max-height:500px;">
+            <div id="cloneDetectionPanel"></div>
+          </div>
+        </div>
       </div>
     </div>
 

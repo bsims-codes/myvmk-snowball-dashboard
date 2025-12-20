@@ -562,6 +562,11 @@ async function refreshFromAPI() {
     renderEventsTable();
     renderHeatmap();
 
+    // Update admin panel if visible
+    if (isAdminMode()) {
+      renderCloneDetection();
+    }
+
   } catch (err) {
     console.error("Failed to refresh from API:", err);
     document.getElementById("meta").textContent = `Error refreshing: ${err.message}. Using cached data.`;
@@ -983,6 +988,11 @@ async function loadAndRefreshData() {
 
     // Render heatmap
     renderHeatmap();
+
+    // Update admin panel if visible
+    if (isAdminMode()) {
+      renderCloneDetection();
+    }
 
   } catch (err) {
     console.error(err);
@@ -1761,6 +1771,216 @@ function buildVictimBreakdown(events) {
         .sort((a, b) => b.count - a.count)
     }))
     .sort((a, b) => b.total - a.total);
+}
+
+/**
+ * Check if admin mode is enabled via URL parameter
+ */
+function isAdminMode() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get("admin") === "true";
+}
+
+/**
+ * Detect potential clone accounts based on suspicious patterns
+ * Returns array of suspicious users with details about why they're flagged
+ */
+function detectSuspiciousClones(events) {
+  // Build victim -> { attackers: { attacker: count }, totalHits, attacks } mapping
+  const userStats = {};
+
+  events.forEach(e => {
+    const attacker = e.attacker;
+    const victim = e.victim;
+    if (!attacker || !victim) return;
+
+    // Track victim stats
+    if (!userStats[victim]) {
+      userStats[victim] = { attackers: {}, totalHits: 0, attacks: 0, team: null };
+    }
+    userStats[victim].attackers[attacker] = (userStats[victim].attackers[attacker] || 0) + 1;
+    userStats[victim].totalHits++;
+
+    // Track attack counts
+    if (!userStats[attacker]) {
+      userStats[attacker] = { attackers: {}, totalHits: 0, attacks: 0, team: null };
+    }
+    userStats[attacker].attacks++;
+
+    // Get team info
+    if (e.victimTeam && !userStats[victim].team) {
+      userStats[victim].team = e.victimTeam;
+    }
+    if (e.attackerTeam && !userStats[attacker].team) {
+      userStats[attacker].team = e.attackerTeam;
+    }
+  });
+
+  const suspicious = [];
+
+  for (const [user, stats] of Object.entries(userStats)) {
+    // Skip if not enough hits to be meaningful
+    if (stats.totalHits < 15) continue;
+
+    const attackerList = Object.entries(stats.attackers)
+      .map(([attacker, count]) => ({ attacker, count }))
+      .sort((a, b) => b.count - a.count);
+
+    const uniqueAttackers = attackerList.length;
+    const topAttacker = attackerList[0];
+    const topAttackerPct = topAttacker ? (topAttacker.count / stats.totalHits) * 100 : 0;
+
+    // Calculate concentration - what % of hits come from top 2 attackers
+    const top2Hits = attackerList.slice(0, 2).reduce((sum, a) => sum + a.count, 0);
+    const top2Pct = (top2Hits / stats.totalHits) * 100;
+
+    // Suspicion scoring
+    let suspicionScore = 0;
+    const flags = [];
+
+    // Very low attack count relative to being hit
+    if (stats.attacks <= 5 && stats.totalHits >= 20) {
+      suspicionScore += 30;
+      flags.push(`Only ${stats.attacks} attacks but hit ${stats.totalHits} times`);
+    } else if (stats.attacks <= 10 && stats.totalHits >= 30) {
+      suspicionScore += 20;
+      flags.push(`Low attacks (${stats.attacks}) vs high victim count (${stats.totalHits})`);
+    }
+
+    // Very few unique attackers
+    if (uniqueAttackers <= 2 && stats.totalHits >= 20) {
+      suspicionScore += 35;
+      flags.push(`Only ${uniqueAttackers} unique attacker(s)`);
+    } else if (uniqueAttackers <= 3 && stats.totalHits >= 30) {
+      suspicionScore += 20;
+      flags.push(`Only ${uniqueAttackers} unique attackers for ${stats.totalHits} hits`);
+    }
+
+    // Top attacker concentration
+    if (topAttackerPct >= 80) {
+      suspicionScore += 30;
+      flags.push(`${Math.round(topAttackerPct)}% of hits from "${topAttacker.attacker}"`);
+    } else if (topAttackerPct >= 60) {
+      suspicionScore += 15;
+      flags.push(`${Math.round(topAttackerPct)}% of hits from "${topAttacker.attacker}"`);
+    }
+
+    // Top 2 concentration
+    if (top2Pct >= 90 && uniqueAttackers >= 2) {
+      suspicionScore += 15;
+      flags.push(`Top 2 attackers account for ${Math.round(top2Pct)}% of hits`);
+    }
+
+    // Only flag if suspicion score is high enough
+    if (suspicionScore >= 50) {
+      suspicious.push({
+        user,
+        team: stats.team || "Unknown",
+        attacks: stats.attacks,
+        totalHits: stats.totalHits,
+        uniqueAttackers,
+        topAttacker: topAttacker?.attacker || "N/A",
+        topAttackerHits: topAttacker?.count || 0,
+        topAttackerPct: Math.round(topAttackerPct),
+        suspicionScore,
+        flags,
+        attackerBreakdown: attackerList.slice(0, 5)
+      });
+    }
+  }
+
+  // Sort by suspicion score descending
+  return suspicious.sort((a, b) => b.suspicionScore - a.suspicionScore);
+}
+
+/**
+ * Render the clone detection admin panel
+ */
+function renderCloneDetection() {
+  const container = document.getElementById("cloneDetectionPanel");
+  if (!container) return;
+
+  const suspicious = detectSuspiciousClones(state.allEvents);
+  const countEl = document.getElementById("suspiciousCount");
+  if (countEl) {
+    countEl.textContent = `(${suspicious.length} flagged)`;
+  }
+
+  if (suspicious.length === 0) {
+    container.innerHTML = `<p style="color:var(--text-muted);text-align:center;padding:20px;">No suspicious accounts detected.</p>`;
+    return;
+  }
+
+  const rows = suspicious.map((s, idx) => {
+    const teamClass = s.team?.toLowerCase() || "";
+    const attackerDetails = s.attackerBreakdown
+      .map(a => `${escapeHtml(a.attacker)}: ${a.count}`)
+      .join(", ");
+
+    return `
+      <tr class="parent-row" data-clone-idx="${idx}">
+        <td><strong>${escapeHtml(s.user)}</strong></td>
+        <td><span class="pill ${teamClass}">${s.team}</span></td>
+        <td>${s.attacks}</td>
+        <td>${s.totalHits}</td>
+        <td>${s.uniqueAttackers}</td>
+        <td>${escapeHtml(s.topAttacker)} (${s.topAttackerHits} hits, ${s.topAttackerPct}%)</td>
+        <td><span class="suspicion-score score-${s.suspicionScore >= 80 ? 'high' : s.suspicionScore >= 60 ? 'medium' : 'low'}">${s.suspicionScore}</span></td>
+      </tr>
+      <tr class="child-row" data-clone-parent="${idx}">
+        <td colspan="7" style="padding-left:24px;">
+          <div class="clone-flags">
+            <strong>Flags:</strong> ${s.flags.map(f => `<span class="flag-item">${escapeHtml(f)}</span>`).join(" ")}
+          </div>
+          <div class="clone-attackers" style="margin-top:4px;">
+            <strong>Top attackers:</strong> ${attackerDetails}
+          </div>
+        </td>
+      </tr>
+    `;
+  }).join("");
+
+  container.innerHTML = `
+    <table class="collapsible-table">
+      <tr>
+        <th>User</th>
+        <th>Team</th>
+        <th>Attacks</th>
+        <th>Hits Taken</th>
+        <th>Unique Attackers</th>
+        <th>Top Attacker</th>
+        <th>Score</th>
+      </tr>
+      ${rows}
+    </table>
+  `;
+
+  // Wire up row expansion
+  container.querySelectorAll(".parent-row").forEach(row => {
+    row.addEventListener("click", () => {
+      const idx = row.getAttribute("data-clone-idx");
+      const childRow = container.querySelector(`[data-clone-parent="${idx}"]`);
+      if (childRow) {
+        childRow.classList.toggle("expanded");
+        row.classList.toggle("expanded");
+      }
+    });
+  });
+}
+
+/**
+ * Initialize admin panel visibility
+ */
+function initAdminPanel() {
+  const adminSection = document.getElementById("admin-section");
+  if (adminSection) {
+    if (isAdminMode()) {
+      adminSection.style.display = "block";
+      renderCloneDetection();
+    } else {
+      adminSection.style.display = "none";
+    }
+  }
 }
 
 function buildAttackerBreakdown(events) {
@@ -2599,6 +2819,9 @@ function setupEventListeners() {
 
     // Load and render all data
     await loadAndRefreshData();
+
+    // Initialize admin panel if in admin mode
+    initAdminPanel();
 
   } catch (err) {
     console.error(err);
