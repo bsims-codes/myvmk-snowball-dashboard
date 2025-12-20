@@ -4580,6 +4580,55 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-16",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2025-12-20T16:05:42.000Z",
+    "end": "2025-12-20T16:11:22.000Z",
+    "durationMinutes": 6,
+    "hitCount": 32,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 18
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 14
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "hitsTaken": 18
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "hitsTaken": 14
+      }
+    ],
+    "participants": [
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 18,
+        "hitsTaken": 14,
+        "ratio": 1.2857142857142858
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 14,
+        "hitsTaken": 18,
+        "ratio": 0.7777777777777778
+      }
+    ]
+  },
+  {
     "id": "Pixar Pier Entrance-1",
     "roomName": "Pixar Pier Entrance",
     "start": "2025-12-19T13:57:39.000Z",
