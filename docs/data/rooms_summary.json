@@ -1,15 +1,15 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 2862,
-    "avgUserRatio": 1.87,
-    "activeUsers": 83
+    "hitCount": 3050,
+    "avgUserRatio": 1.36,
+    "activeUsers": 87
   },
   {
     "roomName": "Town Square",
-    "hitCount": 2429,
+    "hitCount": 2447,
     "avgUserRatio": 0.86,
-    "activeUsers": 104
+    "activeUsers": 107
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -25,9 +25,9 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 338,
-    "avgUserRatio": 1.84,
-    "activeUsers": 24
+    "hitCount": 342,
+    "avgUserRatio": 1.75,
+    "activeUsers": 26
   },
   {
     "roomName": "Banquet Hall",
@@ -49,9 +49,15 @@
   },
   {
     "roomName": "Tomorrowland Hub",
-    "hitCount": 113,
-    "avgUserRatio": 1.69,
-    "activeUsers": 24
+    "hitCount": 116,
+    "avgUserRatio": 1.67,
+    "activeUsers": 25
+  },
+  {
+    "roomName": "Main Street",
+    "hitCount": 103,
+    "avgUserRatio": 1.26,
+    "activeUsers": 38
   },
   {
     "roomName": "Pixar Pier Entrance",
@@ -66,21 +72,15 @@
     "activeUsers": 20
   },
   {
-    "roomName": "Main Street",
-    "hitCount": 76,
-    "avgUserRatio": 1.29,
-    "activeUsers": 36
-  },
-  {
     "roomName": "Epcot Entrance",
-    "hitCount": 64,
-    "avgUserRatio": 0.69,
-    "activeUsers": 18
+    "hitCount": 69,
+    "avgUserRatio": 0.79,
+    "activeUsers": 19
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 59,
-    "avgUserRatio": 1.63,
+    "hitCount": 65,
+    "avgUserRatio": 1.6,
     "activeUsers": 19
   },
   {
@@ -96,6 +96,12 @@
     "activeUsers": 12
   },
   {
+    "roomName": "VMK Gallery",
+    "hitCount": 45,
+    "avgUserRatio": 1.28,
+    "activeUsers": 18
+  },
+  {
     "roomName": "Castle Forecourt",
     "hitCount": 39,
     "avgUserRatio": 1.77,
@@ -108,22 +114,16 @@
     "activeUsers": 13
   },
   {
+    "roomName": "Autopia Quest Track",
+    "hitCount": 38,
+    "avgUserRatio": 3.53,
+    "activeUsers": 10
+  },
+  {
     "roomName": "Frontierland Hub",
     "hitCount": 37,
     "avgUserRatio": 0.86,
     "activeUsers": 8
-  },
-  {
-    "roomName": "Autopia Quest Track",
-    "hitCount": 33,
-    "avgUserRatio": 3.58,
-    "activeUsers": 9
-  },
-  {
-    "roomName": "VMK Gallery",
-    "hitCount": 33,
-    "avgUserRatio": 0.85,
-    "activeUsers": 14
   },
   {
     "roomName": "Castle Gardens",
@@ -138,6 +138,12 @@
     "activeUsers": 10
   },
   {
+    "roomName": "Mickey's Courtyard",
+    "hitCount": 27,
+    "avgUserRatio": 1.31,
+    "activeUsers": 7
+  },
+  {
     "roomName": "Jungle Cruise Dock",
     "hitCount": 26,
     "avgUserRatio": 1.56,
@@ -148,6 +154,12 @@
     "hitCount": 25,
     "avgUserRatio": 3.49,
     "activeUsers": 5
+  },
+  {
+    "roomName": "Inner-Space Ray Room",
+    "hitCount": 24,
+    "avgUserRatio": 1.08,
+    "activeUsers": 4
   },
   {
     "roomName": "Autopia Off Road on Mars",
@@ -162,16 +174,16 @@
     "activeUsers": 8
   },
   {
-    "roomName": "Mickey's Courtyard",
-    "hitCount": 19,
-    "avgUserRatio": 0.9,
-    "activeUsers": 5
-  },
-  {
     "roomName": "Sci-Fi Dine-In",
     "hitCount": 18,
     "avgUserRatio": 1.01,
     "activeUsers": 7
+  },
+  {
+    "roomName": "Space Mountain Quest Deck",
+    "hitCount": 18,
+    "avgUserRatio": 0.71,
+    "activeUsers": 6
   },
   {
     "roomName": "WS - Mexico",
@@ -180,16 +192,16 @@
     "activeUsers": 5
   },
   {
-    "roomName": "Space Mountain Quest Deck",
+    "roomName": "Street Party Music Game Lobby",
     "hitCount": 17,
-    "avgUserRatio": 0.82,
-    "activeUsers": 4
+    "avgUserRatio": 2.72,
+    "activeUsers": 6
   },
   {
-    "roomName": "Inner-Space Ray Room",
-    "hitCount": 14,
-    "avgUserRatio": 0.93,
-    "activeUsers": 3
+    "roomName": "Blue Bayou",
+    "hitCount": 15,
+    "avgUserRatio": 1.67,
+    "activeUsers": 9
   },
   {
     "roomName": "Elephant Bathing Pool",
@@ -222,9 +234,9 @@
     "activeUsers": 7
   },
   {
-    "roomName": "Blue Bayou",
+    "roomName": "Nautilus Grotto",
     "hitCount": 8,
-    "avgUserRatio": 1.6,
+    "avgUserRatio": 0.9,
     "activeUsers": 5
   },
   {
@@ -234,16 +246,16 @@
     "activeUsers": 3
   },
   {
+    "roomName": "New Orleans Square",
+    "hitCount": 7,
+    "avgUserRatio": 1.4,
+    "activeUsers": 5
+  },
+  {
     "roomName": "Tom Sawyer's Island",
     "hitCount": 7,
     "avgUserRatio": 1.75,
     "activeUsers": 4
-  },
-  {
-    "roomName": "Nautilus Grotto",
-    "hitCount": 6,
-    "avgUserRatio": 1.17,
-    "activeUsers": 3
   },
   {
     "roomName": "Festival of the Lion King",
@@ -258,10 +270,10 @@
     "activeUsers": 5
   },
   {
-    "roomName": "New Orleans Square",
+    "roomName": "Forbidden Temple",
     "hitCount": 5,
-    "avgUserRatio": 2.5,
-    "activeUsers": 2
+    "avgUserRatio": 0.9,
+    "activeUsers": 5
   },
   {
     "roomName": "Lost Safari Party",
@@ -270,10 +282,22 @@
     "activeUsers": 4
   },
   {
+    "roomName": "Tiki Tiki Tiki Island",
+    "hitCount": 4,
+    "avgUserRatio": 0.75,
+    "activeUsers": 4
+  },
+  {
     "roomName": "WS - Norway",
     "hitCount": 3,
     "avgUserRatio": 1,
     "activeUsers": 3
+  },
+  {
+    "roomName": "VMK Central",
+    "hitCount": 3,
+    "avgUserRatio": 0.75,
+    "activeUsers": 4
   },
   {
     "roomName": "Shipwreck Graveyard",
@@ -301,12 +325,6 @@
   },
   {
     "roomName": "Everest Entrance",
-    "hitCount": 1,
-    "avgUserRatio": 0.5,
-    "activeUsers": 2
-  },
-  {
-    "roomName": "Forbidden Temple",
     "hitCount": 1,
     "avgUserRatio": 0.5,
     "activeUsers": 2
