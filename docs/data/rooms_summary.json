@@ -7,9 +7,9 @@
   },
   {
     "roomName": "Town Square",
-    "hitCount": 2447,
-    "avgUserRatio": 0.86,
-    "activeUsers": 107
+    "hitCount": 2524,
+    "avgUserRatio": 1.56,
+    "activeUsers": 109
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -31,9 +31,9 @@
   },
   {
     "roomName": "Banquet Hall",
-    "hitCount": 187,
-    "avgUserRatio": 1.41,
-    "activeUsers": 20
+    "hitCount": 188,
+    "avgUserRatio": 1.33,
+    "activeUsers": 22
   },
   {
     "roomName": "Monorail Train",
@@ -49,9 +49,15 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 143,
-    "avgUserRatio": 1.25,
-    "activeUsers": 43
+    "hitCount": 144,
+    "avgUserRatio": 1.22,
+    "activeUsers": 45
+  },
+  {
+    "roomName": "Dungeon",
+    "hitCount": 136,
+    "avgUserRatio": 4.39,
+    "activeUsers": 27
   },
   {
     "roomName": "Tomorrowland Hub",
@@ -64,12 +70,6 @@
     "hitCount": 95,
     "avgUserRatio": 1.46,
     "activeUsers": 26
-  },
-  {
-    "roomName": "Dungeon",
-    "hitCount": 92,
-    "avgUserRatio": 3.24,
-    "activeUsers": 23
   },
   {
     "roomName": "Gallery",
@@ -96,22 +96,28 @@
     "activeUsers": 20
   },
   {
+    "roomName": "Pirate Treehouse",
+    "hitCount": 57,
+    "avgUserRatio": 1.52,
+    "activeUsers": 16
+  },
+  {
     "roomName": "VMK Gallery",
     "hitCount": 57,
     "avgUserRatio": 1.19,
     "activeUsers": 19
   },
   {
-    "roomName": "Pirate Treehouse",
-    "hitCount": 52,
-    "avgUserRatio": 1.9,
-    "activeUsers": 14
-  },
-  {
     "roomName": "Autopia Quest Track",
     "hitCount": 46,
     "avgUserRatio": 3.33,
     "activeUsers": 12
+  },
+  {
+    "roomName": "Jungle Cruise Dock",
+    "hitCount": 45,
+    "avgUserRatio": 2.19,
+    "activeUsers": 13
   },
   {
     "roomName": "Penny Arcade",
@@ -127,9 +133,9 @@
   },
   {
     "roomName": "Frontierland Hub",
-    "hitCount": 37,
-    "avgUserRatio": 0.86,
-    "activeUsers": 8
+    "hitCount": 38,
+    "avgUserRatio": 0.79,
+    "activeUsers": 10
   },
   {
     "roomName": "Castle Gardens",
@@ -148,12 +154,6 @@
     "hitCount": 28,
     "avgUserRatio": 1.22,
     "activeUsers": 12
-  },
-  {
-    "roomName": "Jungle Cruise Dock",
-    "hitCount": 27,
-    "avgUserRatio": 1.35,
-    "activeUsers": 10
   },
   {
     "roomName": "Mickey's Courtyard",
@@ -210,6 +210,12 @@
     "activeUsers": 6
   },
   {
+    "roomName": "Adventureland Bazaar",
+    "hitCount": 13,
+    "avgUserRatio": 0.87,
+    "activeUsers": 8
+  },
+  {
     "roomName": "Elephant Bathing Pool",
     "hitCount": 13,
     "avgUserRatio": 3.25,
@@ -220,12 +226,6 @@
     "hitCount": 13,
     "avgUserRatio": 1.35,
     "activeUsers": 4
-  },
-  {
-    "roomName": "Adventureland Bazaar",
-    "hitCount": 11,
-    "avgUserRatio": 0.83,
-    "activeUsers": 6
   },
   {
     "roomName": "Spell Room",
