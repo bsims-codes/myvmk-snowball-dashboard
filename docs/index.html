@@ -958,15 +958,15 @@
     <!-- Admin-only section (hidden by default, enabled via ?admin=true) -->
     <div id="admin-section" style="display:none;">
       <div class="row">
-        <div class="card admin-card" id="clone-detection">
+        <div class="card admin-card" id="suspicious-detection">
           <h3 class="section-header" style="display:flex;align-items:center;gap:8px;">
             <span style="color:#ef4444;">&#9888;</span>
-            Clone Detection
+            Suspicious Detection
             <span id="suspiciousCount" style="font-weight:normal;color:var(--text-muted);font-size:0.875rem;"></span>
-            <button class="section-link-btn" onclick="copySectionLink('clone-detection', this)" title="Copy link to section">&#128279;</button>
+            <button class="section-link-btn" onclick="copySectionLink('suspicious-detection', this)" title="Copy link to section">&#128279;</button>
           </h3>
           <p class="legend-note" style="margin-top:0;">
-            Flagged accounts with suspicious patterns: low attacks, high victim count, hits concentrated from 1-2 attackers.
+            Flagged accounts: potential clones (low attacks, concentrated attackers) and farming targets (high hits, low ratio).
             Click a row to expand details.
           </p>
           <div class="scroll" style="max-height:500px;">
