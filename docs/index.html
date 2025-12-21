@@ -668,6 +668,45 @@
         background: var(--hover-bg);
         font-weight: 500;
       }
+
+      /* Traitors panel styles */
+      .traitors-summary {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin-bottom: 12px;
+        padding: 8px 12px;
+        background: var(--hover-bg);
+        border-radius: 8px;
+      }
+
+      .traitor-stat {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 0.9rem;
+      }
+
+      #traitorsPanel table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      #traitorsPanel th,
+      #traitorsPanel td {
+        padding: 8px 12px;
+        text-align: left;
+        border-bottom: 1px solid var(--border);
+      }
+
+      #traitorsPanel th {
+        background: var(--hover-bg);
+        font-weight: 600;
+      }
+
+      #traitorsPanel tr:hover td {
+        background: var(--hover-bg);
+      }
     </style>
   </head>
   <body>
@@ -918,11 +957,11 @@
 
     <!-- Admin-only section (hidden by default, enabled via ?admin=true) -->
     <div id="admin-section" style="display:none;">
-      <div class="row" style="grid-template-columns: 1fr;">
+      <div class="row">
         <div class="card admin-card" id="clone-detection">
           <h3 class="section-header" style="display:flex;align-items:center;gap:8px;">
             <span style="color:#ef4444;">&#9888;</span>
-            Clone Detection (Admin Only)
+            Clone Detection
             <span id="suspiciousCount" style="font-weight:normal;color:var(--text-muted);font-size:0.875rem;"></span>
             <button class="section-link-btn" onclick="copySectionLink('clone-detection', this)" title="Copy link to section">&#128279;</button>
           </h3>
@@ -932,6 +971,20 @@
           </p>
           <div class="scroll" style="max-height:500px;">
             <div id="cloneDetectionPanel"></div>
+          </div>
+        </div>
+        <div class="card admin-card" id="traitors-section">
+          <h3 class="section-header" style="display:flex;align-items:center;gap:8px;">
+            <span style="color:#f59e0b;">&#128481;</span>
+            Team Traitors
+            <span id="traitorsCount" style="font-weight:normal;color:var(--text-muted);font-size:0.875rem;"></span>
+            <button class="section-link-btn" onclick="copySectionLink('traitors-section', this)" title="Copy link to section">&#128279;</button>
+          </h3>
+          <p class="legend-note" style="margin-top:0;">
+            Users who switched teams between pre-reset and the current season.
+          </p>
+          <div class="scroll" style="max-height:500px;">
+            <div id="traitorsPanel"></div>
           </div>
         </div>
       </div>

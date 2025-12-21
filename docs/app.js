@@ -565,6 +565,7 @@ async function refreshFromAPI() {
     // Update admin panel if visible
     if (isAdminMode()) {
       renderCloneDetection();
+      renderTraitors();
     }
 
   } catch (err) {
@@ -992,6 +993,7 @@ async function loadAndRefreshData() {
     // Update admin panel if visible
     if (isAdminMode()) {
       renderCloneDetection();
+      renderTraitors();
     }
 
   } catch (err) {
@@ -1969,6 +1971,118 @@ function renderCloneDetection() {
 }
 
 /**
+ * Detect users who switched teams between pre-reset and current season
+ * Returns array of traitors with old and new team info
+ */
+async function detectTraitors() {
+  try {
+    // Load pre-reset user data
+    const preResetUsers = await loadJSON("./data/archive/pre-reset/users.json");
+
+    // Build map of pre-reset teams (username lowercase -> { user, team })
+    const preResetTeams = {};
+    preResetUsers.forEach(u => {
+      if (u.user && u.team) {
+        preResetTeams[u.user.toLowerCase()] = { user: u.user, team: u.team };
+      }
+    });
+
+    // Get current team data
+    if (!currentTeamData || !currentTeamData.rosters) {
+      return [];
+    }
+
+    const traitors = [];
+
+    // Check Penguin roster for former Reindeer
+    currentTeamData.rosters.Penguin.forEach(user => {
+      const preReset = preResetTeams[user.toLowerCase()];
+      if (preReset && preReset.team === "Reindeer") {
+        traitors.push({
+          user: user,
+          oldTeam: "Reindeer",
+          newTeam: "Penguin"
+        });
+      }
+    });
+
+    // Check Reindeer roster for former Penguin
+    currentTeamData.rosters.Reindeer.forEach(user => {
+      const preReset = preResetTeams[user.toLowerCase()];
+      if (preReset && preReset.team === "Penguin") {
+        traitors.push({
+          user: user,
+          oldTeam: "Penguin",
+          newTeam: "Reindeer"
+        });
+      }
+    });
+
+    // Sort alphabetically
+    return traitors.sort((a, b) => a.user.toLowerCase().localeCompare(b.user.toLowerCase()));
+  } catch (err) {
+    console.warn("Failed to detect traitors:", err);
+    return [];
+  }
+}
+
+/**
+ * Render the traitors panel
+ */
+async function renderTraitors() {
+  const container = document.getElementById("traitorsPanel");
+  if (!container) return;
+
+  container.innerHTML = `<p style="color:var(--text-muted);text-align:center;padding:20px;">Loading...</p>`;
+
+  const traitors = await detectTraitors();
+  const countEl = document.getElementById("traitorsCount");
+  if (countEl) {
+    countEl.textContent = `(${traitors.length} found)`;
+  }
+
+  if (traitors.length === 0) {
+    container.innerHTML = `<p style="color:var(--text-muted);text-align:center;padding:20px;">No team switchers detected.</p>`;
+    return;
+  }
+
+  // Group by direction
+  const toReindeer = traitors.filter(t => t.newTeam === "Reindeer");
+  const toPenguin = traitors.filter(t => t.newTeam === "Penguin");
+
+  const rows = traitors.map(t => {
+    const arrow = t.oldTeam === "Penguin"
+      ? `<span class="pill penguin">Penguin</span> → <span class="pill reindeer">Reindeer</span>`
+      : `<span class="pill reindeer">Reindeer</span> → <span class="pill penguin">Penguin</span>`;
+
+    return `
+      <tr>
+        <td><strong>${escapeHtml(t.user)}</strong></td>
+        <td>${arrow}</td>
+      </tr>
+    `;
+  }).join("");
+
+  container.innerHTML = `
+    <div class="traitors-summary">
+      <span class="traitor-stat">
+        <span class="pill reindeer">Reindeer</span> → <span class="pill penguin">Penguin</span>: <strong>${toPenguin.length}</strong>
+      </span>
+      <span class="traitor-stat">
+        <span class="pill penguin">Penguin</span> → <span class="pill reindeer">Reindeer</span>: <strong>${toReindeer.length}</strong>
+      </span>
+    </div>
+    <table>
+      <tr>
+        <th>User</th>
+        <th>Team Change</th>
+      </tr>
+      ${rows}
+    </table>
+  `;
+}
+
+/**
  * Initialize admin panel visibility
  */
 function initAdminPanel() {
@@ -1977,6 +2091,7 @@ function initAdminPanel() {
     if (isAdminMode()) {
       adminSection.style.display = "block";
       renderCloneDetection();
+      renderTraitors();
     } else {
       adminSection.style.display = "none";
     }
