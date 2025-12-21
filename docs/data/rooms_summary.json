@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 3625,
-    "avgUserRatio": 1.48,
-    "activeUsers": 94
+    "hitCount": 3627,
+    "avgUserRatio": 1.46,
+    "activeUsers": 95
   },
   {
     "roomName": "Town Square",
@@ -49,9 +49,9 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 158,
-    "avgUserRatio": 1.47,
-    "activeUsers": 47
+    "hitCount": 159,
+    "avgUserRatio": 1.46,
+    "activeUsers": 48
   },
   {
     "roomName": "Epcot Entrance",
@@ -67,9 +67,9 @@
   },
   {
     "roomName": "Tomorrowland Hub",
-    "hitCount": 123,
-    "avgUserRatio": 1.48,
-    "activeUsers": 25
+    "hitCount": 125,
+    "avgUserRatio": 1.45,
+    "activeUsers": 26
   },
   {
     "roomName": "Pixar Pier Entrance",
@@ -198,16 +198,16 @@
     "activeUsers": 9
   },
   {
+    "roomName": "Space Mountain Quest Deck",
+    "hitCount": 20,
+    "avgUserRatio": 0.86,
+    "activeUsers": 7
+  },
+  {
     "roomName": "Explorer's Tent",
     "hitCount": 20,
     "avgUserRatio": 0.99,
     "activeUsers": 8
-  },
-  {
-    "roomName": "Space Mountain Quest Deck",
-    "hitCount": 19,
-    "avgUserRatio": 0.84,
-    "activeUsers": 6
   },
   {
     "roomName": "Street Party Music Game Lobby",
@@ -282,10 +282,22 @@
     "activeUsers": 4
   },
   {
+    "roomName": "\"it's a small world\" Imports",
+    "hitCount": 6,
+    "avgUserRatio": 1.5,
+    "activeUsers": 4
+  },
+  {
     "roomName": "Splash Mountain",
     "hitCount": 6,
     "avgUserRatio": 1.07,
     "activeUsers": 5
+  },
+  {
+    "roomName": "Anandapur",
+    "hitCount": 6,
+    "avgUserRatio": 2,
+    "activeUsers": 3
   },
   {
     "roomName": "Forbidden Temple",
@@ -343,12 +355,6 @@
   },
   {
     "roomName": "Discovery Trading Company",
-    "hitCount": 1,
-    "avgUserRatio": 0.5,
-    "activeUsers": 2
-  },
-  {
-    "roomName": "\"it's a small world\" Imports",
     "hitCount": 1,
     "avgUserRatio": 0.5,
     "activeUsers": 2
