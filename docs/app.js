@@ -599,7 +599,11 @@ function escapeHtml(str) {
  * Copy section link to clipboard
  */
 function copySectionLink(sectionId, button) {
-  const url = `${window.location.origin}${window.location.pathname}#${sectionId}`;
+  // Check if this is an admin section
+  const adminSections = ["suspicious-detection", "traitors-section"];
+  const needsAdmin = adminSections.includes(sectionId);
+  const queryString = needsAdmin ? "?admin=true" : "";
+  const url = `${window.location.origin}${window.location.pathname}${queryString}#${sectionId}`;
   navigator.clipboard.writeText(url).then(() => {
     // Show feedback
     button.classList.add("copied");
