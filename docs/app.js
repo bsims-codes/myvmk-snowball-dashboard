@@ -1875,10 +1875,13 @@ function detectSuspiciousClones(events) {
 
     // High victim count with very low ratio (farming target)
     const ratio = stats.attacks > 0 ? stats.attacks / stats.totalHits : 0;
-    if (stats.totalHits >= 100 && ratio < 0.3) {
+    if (stats.totalHits >= 200 && ratio < 0.5) {
+      suspicionScore += 50;
+      flags.push(`Heavy farming target: ${stats.totalHits} hits taken, ratio ${ratio.toFixed(2)}`);
+    } else if (stats.totalHits >= 100 && ratio < 0.4) {
       suspicionScore += 40;
       flags.push(`Farming target: ${stats.totalHits} hits taken, ratio ${ratio.toFixed(2)}`);
-    } else if (stats.totalHits >= 50 && ratio < 0.2) {
+    } else if (stats.totalHits >= 50 && ratio < 0.3) {
       suspicionScore += 30;
       flags.push(`High victim count (${stats.totalHits}) with very low ratio (${ratio.toFixed(2)})`);
     }
