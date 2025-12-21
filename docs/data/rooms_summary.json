@@ -1,15 +1,15 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 3627,
+    "hitCount": 3652,
     "avgUserRatio": 1.46,
-    "activeUsers": 95
+    "activeUsers": 96
   },
   {
     "roomName": "Town Square",
-    "hitCount": 2525,
-    "avgUserRatio": 1.54,
-    "activeUsers": 110
+    "hitCount": 2529,
+    "avgUserRatio": 1.53,
+    "activeUsers": 111
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -276,6 +276,12 @@
     "activeUsers": 4
   },
   {
+    "roomName": "Forbidden Temple",
+    "hitCount": 6,
+    "avgUserRatio": 0.79,
+    "activeUsers": 7
+  },
+  {
     "roomName": "Festival of the Lion King",
     "hitCount": 6,
     "avgUserRatio": 1.31,
@@ -298,12 +304,6 @@
     "hitCount": 6,
     "avgUserRatio": 2,
     "activeUsers": 3
-  },
-  {
-    "roomName": "Forbidden Temple",
-    "hitCount": 5,
-    "avgUserRatio": 0.9,
-    "activeUsers": 5
   },
   {
     "roomName": "Star Commander Lobby",
