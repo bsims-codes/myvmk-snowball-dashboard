@@ -323,7 +323,7 @@ function detectBattles(events) {
     flush();
   }
 
-  return battles.sort((a, b) => b.hitCount - a.hitCount || new Date(b.start) - new Date(a.start));
+  return battles.sort((a, b) => new Date(b.start) - new Date(a.start));
 }
 
 /**
@@ -1942,10 +1942,9 @@ function renderCloneDetection() {
         <td>${s.ratio}</td>
         <td>${s.uniqueAttackers}</td>
         <td>${escapeHtml(s.topAttacker)} (${s.topAttackerHits} hits, ${s.topAttackerPct}%)</td>
-        <td><span class="suspicion-score score-${s.suspicionScore >= 80 ? 'high' : s.suspicionScore >= 60 ? 'medium' : 'low'}">${s.suspicionScore}</span></td>
       </tr>
       <tr class="child-row" data-clone-parent="${idx}">
-        <td colspan="8" style="padding-left:24px;">
+        <td colspan="7" style="padding-left:24px;">
           <div class="clone-flags">
             <strong>Flags:</strong> ${s.flags.map(f => `<span class="flag-item">${escapeHtml(f)}</span>`).join(" ")}
           </div>
@@ -1967,7 +1966,6 @@ function renderCloneDetection() {
         <th>Ratio</th>
         <th>Unique Attackers</th>
         <th>Top Attacker</th>
-        <th>Score</th>
       </tr>
       ${rows}
     </table>
