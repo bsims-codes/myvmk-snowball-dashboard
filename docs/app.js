@@ -1909,25 +1909,39 @@ function detectSuspiciousClones(events) {
   return suspicious.sort((a, b) => b.suspicionScore - a.suspicionScore);
 }
 
+// Suspicious detection table state
+let suspiciousData = [];
+let suspiciousSortKey = "suspicionScore";
+let suspiciousSortDir = "desc";
+
 /**
- * Render the clone detection admin panel
+ * Sort and render the suspicious detection table
  */
-function renderCloneDetection() {
+function renderSuspiciousTable() {
   const container = document.getElementById("cloneDetectionPanel");
-  if (!container) return;
+  if (!container || suspiciousData.length === 0) return;
 
-  const suspicious = detectSuspiciousClones(state.allEvents);
-  const countEl = document.getElementById("suspiciousCount");
-  if (countEl) {
-    countEl.textContent = `(${suspicious.length} flagged)`;
-  }
+  // Sort the data
+  const sorted = [...suspiciousData].sort((a, b) => {
+    let aVal = a[suspiciousSortKey];
+    let bVal = b[suspiciousSortKey];
 
-  if (suspicious.length === 0) {
-    container.innerHTML = `<p style="color:var(--text-muted);text-align:center;padding:20px;">No suspicious accounts detected.</p>`;
-    return;
-  }
+    // Handle string comparisons
+    if (typeof aVal === "string") {
+      aVal = aVal.toLowerCase();
+      bVal = bVal.toLowerCase();
+      return suspiciousSortDir === "asc"
+        ? aVal.localeCompare(bVal)
+        : bVal.localeCompare(aVal);
+    }
 
-  const rows = suspicious.map((s, idx) => {
+    // Numeric comparison
+    aVal = parseFloat(aVal) || 0;
+    bVal = parseFloat(bVal) || 0;
+    return suspiciousSortDir === "asc" ? aVal - bVal : bVal - aVal;
+  });
+
+  const rows = sorted.map((s, idx) => {
     const teamClass = s.team?.toLowerCase() || "";
     const attackerDetails = s.attackerBreakdown
       .map(a => `${escapeHtml(a.attacker)}: ${a.count}`)
@@ -1956,20 +1970,40 @@ function renderCloneDetection() {
     `;
   }).join("");
 
+  const sortIcon = (key) => {
+    if (suspiciousSortKey !== key) return "";
+    return suspiciousSortDir === "asc" ? " ▲" : " ▼";
+  };
+
   container.innerHTML = `
-    <table class="collapsible-table">
+    <table class="collapsible-table sortable-table">
       <tr>
-        <th>User</th>
-        <th>Team</th>
-        <th>Attacks</th>
-        <th>Hits Taken</th>
-        <th>Ratio</th>
-        <th>Unique Attackers</th>
-        <th>Top Attacker</th>
+        <th data-sort="user" class="sortable">User${sortIcon("user")}</th>
+        <th data-sort="team" class="sortable">Team${sortIcon("team")}</th>
+        <th data-sort="attacks" class="sortable">Attacks${sortIcon("attacks")}</th>
+        <th data-sort="totalHits" class="sortable">Hits Taken${sortIcon("totalHits")}</th>
+        <th data-sort="ratio" class="sortable">Ratio${sortIcon("ratio")}</th>
+        <th data-sort="uniqueAttackers" class="sortable">Unique Attackers${sortIcon("uniqueAttackers")}</th>
+        <th data-sort="topAttacker" class="sortable">Top Attacker${sortIcon("topAttacker")}</th>
       </tr>
       ${rows}
     </table>
   `;
+
+  // Wire up column header sorting
+  container.querySelectorAll("th.sortable").forEach(th => {
+    th.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const key = th.getAttribute("data-sort");
+      if (suspiciousSortKey === key) {
+        suspiciousSortDir = suspiciousSortDir === "asc" ? "desc" : "asc";
+      } else {
+        suspiciousSortKey = key;
+        suspiciousSortDir = "desc";
+      }
+      renderSuspiciousTable();
+    });
+  });
 
   // Wire up row expansion
   container.querySelectorAll(".parent-row").forEach(row => {
@@ -1982,6 +2016,27 @@ function renderCloneDetection() {
       }
     });
   });
+}
+
+/**
+ * Render the clone detection admin panel
+ */
+function renderCloneDetection() {
+  const container = document.getElementById("cloneDetectionPanel");
+  if (!container) return;
+
+  suspiciousData = detectSuspiciousClones(state.allEvents);
+  const countEl = document.getElementById("suspiciousCount");
+  if (countEl) {
+    countEl.textContent = `(${suspiciousData.length} flagged)`;
+  }
+
+  if (suspiciousData.length === 0) {
+    container.innerHTML = `<p style="color:var(--text-muted);text-align:center;padding:20px;">No suspicious accounts detected.</p>`;
+    return;
+  }
+
+  renderSuspiciousTable();
 }
 
 /**
