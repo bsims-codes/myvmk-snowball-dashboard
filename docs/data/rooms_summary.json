@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 3548,
-    "avgUserRatio": 1.4,
-    "activeUsers": 91
+    "hitCount": 3613,
+    "avgUserRatio": 1.49,
+    "activeUsers": 93
   },
   {
     "roomName": "Town Square",
@@ -25,8 +25,8 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 391,
-    "avgUserRatio": 1.74,
+    "hitCount": 394,
+    "avgUserRatio": 1.7,
     "activeUsers": 30
   },
   {
@@ -55,8 +55,8 @@
   },
   {
     "roomName": "Tomorrowland Hub",
-    "hitCount": 119,
-    "avgUserRatio": 1.65,
+    "hitCount": 123,
+    "avgUserRatio": 1.48,
     "activeUsers": 25
   },
   {
@@ -64,6 +64,12 @@
     "hitCount": 95,
     "avgUserRatio": 1.46,
     "activeUsers": 26
+  },
+  {
+    "roomName": "Dungeon",
+    "hitCount": 92,
+    "avgUserRatio": 3.24,
+    "activeUsers": 23
   },
   {
     "roomName": "Gallery",
@@ -85,33 +91,27 @@
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 67,
-    "avgUserRatio": 1.62,
+    "hitCount": 68,
+    "avgUserRatio": 1.67,
     "activeUsers": 20
   },
   {
-    "roomName": "Dungeon",
-    "hitCount": 54,
-    "avgUserRatio": 1.66,
-    "activeUsers": 22
+    "roomName": "VMK Gallery",
+    "hitCount": 57,
+    "avgUserRatio": 1.19,
+    "activeUsers": 19
   },
   {
     "roomName": "Pirate Treehouse",
-    "hitCount": 48,
-    "avgUserRatio": 1.89,
-    "activeUsers": 12
+    "hitCount": 52,
+    "avgUserRatio": 1.9,
+    "activeUsers": 14
   },
   {
     "roomName": "Autopia Quest Track",
     "hitCount": 46,
     "avgUserRatio": 3.33,
     "activeUsers": 12
-  },
-  {
-    "roomName": "VMK Gallery",
-    "hitCount": 45,
-    "avgUserRatio": 1.28,
-    "activeUsers": 18
   },
   {
     "roomName": "Penny Arcade",
@@ -144,16 +144,22 @@
     "activeUsers": 10
   },
   {
+    "roomName": "Autopia Off Road on Mars",
+    "hitCount": 28,
+    "avgUserRatio": 1.22,
+    "activeUsers": 12
+  },
+  {
+    "roomName": "Jungle Cruise Dock",
+    "hitCount": 27,
+    "avgUserRatio": 1.35,
+    "activeUsers": 10
+  },
+  {
     "roomName": "Mickey's Courtyard",
     "hitCount": 27,
     "avgUserRatio": 1.31,
     "activeUsers": 7
-  },
-  {
-    "roomName": "Jungle Cruise Dock",
-    "hitCount": 26,
-    "avgUserRatio": 1.56,
-    "activeUsers": 8
   },
   {
     "roomName": "Discovery Island",
@@ -168,10 +174,16 @@
     "activeUsers": 4
   },
   {
-    "roomName": "Autopia Off Road on Mars",
+    "roomName": "Blue Bayou",
     "hitCount": 23,
-    "avgUserRatio": 1.31,
-    "activeUsers": 11
+    "avgUserRatio": 1.77,
+    "activeUsers": 13
+  },
+  {
+    "roomName": "Sci-Fi Dine-In",
+    "hitCount": 23,
+    "avgUserRatio": 1.34,
+    "activeUsers": 9
   },
   {
     "roomName": "Explorer's Tent",
@@ -180,15 +192,9 @@
     "activeUsers": 8
   },
   {
-    "roomName": "Sci-Fi Dine-In",
-    "hitCount": 18,
-    "avgUserRatio": 1.01,
-    "activeUsers": 7
-  },
-  {
     "roomName": "Space Mountain Quest Deck",
-    "hitCount": 18,
-    "avgUserRatio": 0.71,
+    "hitCount": 19,
+    "avgUserRatio": 0.84,
     "activeUsers": 6
   },
   {
@@ -202,12 +208,6 @@
     "hitCount": 17,
     "avgUserRatio": 2.72,
     "activeUsers": 6
-  },
-  {
-    "roomName": "Blue Bayou",
-    "hitCount": 16,
-    "avgUserRatio": 1.6,
-    "activeUsers": 10
   },
   {
     "roomName": "Elephant Bathing Pool",
@@ -246,6 +246,12 @@
     "activeUsers": 6
   },
   {
+    "roomName": "Tiki Tiki Tiki Island",
+    "hitCount": 9,
+    "avgUserRatio": 1.37,
+    "activeUsers": 5
+  },
+  {
     "roomName": "Inner-Space Shop",
     "hitCount": 7,
     "avgUserRatio": 2.33,
@@ -279,12 +285,6 @@
     "roomName": "Lost Safari Party",
     "hitCount": 4,
     "avgUserRatio": 1,
-    "activeUsers": 4
-  },
-  {
-    "roomName": "Tiki Tiki Tiki Island",
-    "hitCount": 4,
-    "avgUserRatio": 0.75,
     "activeUsers": 4
   },
   {

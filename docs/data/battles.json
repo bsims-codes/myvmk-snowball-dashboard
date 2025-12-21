@@ -4376,6 +4376,45 @@
     ]
   },
   {
+    "id": "Dungeon-1",
+    "roomName": "Dungeon",
+    "start": "2025-12-20T20:00:05.000Z",
+    "end": "2025-12-20T20:04:03.000Z",
+    "durationMinutes": 4,
+    "hitCount": 38,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "VMKNeec",
+        "team": "Penguin",
+        "attacks": 38
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "AtziriDayre",
+        "team": "Reindeer",
+        "hitsTaken": 38
+      }
+    ],
+    "participants": [
+      {
+        "user": "VMKNeec",
+        "team": "Penguin",
+        "attacks": 38,
+        "hitsTaken": 0,
+        "ratio": 38
+      },
+      {
+        "user": "AtziriDayre",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 38,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-9",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-19T19:05:22.000Z",
