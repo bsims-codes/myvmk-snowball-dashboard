@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-21T19:13:25.645Z",
-  "totalRows": 10123,
-  "totalUsers": 189,
+  "generatedAt": "2025-12-21T20:18:55.660Z",
+  "totalRows": 10129,
+  "totalUsers": 190,
   "teamStats": {
     "Penguin": {
       "users": 87,
-      "attacks": 6046,
-      "hitsTaken": 4077
+      "attacks": 6049,
+      "hitsTaken": 4080
     },
     "Reindeer": {
-      "users": 102,
-      "attacks": 4077,
-      "hitsTaken": 6046
+      "users": 103,
+      "attacks": 4080,
+      "hitsTaken": 6049
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 6046
+      "count": 6049
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 4077
+      "count": 4080
     }
   ],
   "topAttackers": [
@@ -57,7 +57,7 @@
     },
     {
       "user": "Mali",
-      "attacks": 465,
+      "attacks": 467,
       "team": "Penguin"
     },
     {
@@ -77,7 +77,7 @@
     },
     {
       "user": "Kronkx",
-      "attacks": 314,
+      "attacks": 317,
       "team": "Reindeer"
     },
     {
@@ -92,7 +92,7 @@
     },
     {
       "user": "Meg",
-      "attacks": 255,
+      "attacks": 256,
       "team": "Penguin"
     },
     {
@@ -184,7 +184,7 @@
     },
     {
       "user": "Mali",
-      "hitsTaken": 303,
+      "hitsTaken": 304,
       "team": "Penguin"
     },
     {
@@ -254,7 +254,7 @@
     },
     {
       "user": "Kronkx",
-      "hitsTaken": 125,
+      "hitsTaken": 127,
       "team": "Reindeer"
     },
     {
@@ -322,9 +322,9 @@
     {
       "user": "Mali",
       "team": "Penguin",
-      "attacks": 465,
-      "hitsTaken": 303,
-      "ratio": 1.5346534653465347
+      "attacks": 467,
+      "hitsTaken": 304,
+      "ratio": 1.5361842105263157
     },
     {
       "user": "MatthewC",
@@ -371,16 +371,16 @@
     {
       "user": "Meg",
       "team": "Penguin",
-      "attacks": 255,
+      "attacks": 256,
       "hitsTaken": 201,
-      "ratio": 1.2686567164179106
+      "ratio": 1.2736318407960199
     },
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 314,
-      "hitsTaken": 125,
-      "ratio": 2.512
+      "attacks": 317,
+      "hitsTaken": 127,
+      "ratio": 2.4960629921259843
     },
     {
       "user": "Kate.",
@@ -393,8 +393,8 @@
       "user": "BuckyBarnes",
       "team": "Penguin",
       "attacks": 303,
-      "hitsTaken": 62,
-      "ratio": 4.887096774193548
+      "hitsTaken": 64,
+      "ratio": 4.734375
     },
     {
       "user": "SammyxxFairy",
@@ -1606,49 +1606,56 @@
       "attacks": 0,
       "hitsTaken": 1,
       "ratio": 0
+    },
+    {
+      "user": "Epic_girly",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 1,
+      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.5511454134811334,
-      "intercept": 24.04103163666924,
+      "slope": 0.5516034903593814,
+      "intercept": 23.90425392710435,
       "xMin": 0,
       "xMax": 960,
-      "y1": 24.04103163666924,
-      "y2": 553.1406285785573,
+      "y1": 23.90425392710435,
+      "y2": 553.4436046721105,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3085169708692055,
-      "intercept": 25.421912576146937,
+      "slope": 0.30898055474767616,
+      "intercept": 25.41352441760123,
       "xMin": 0,
       "xMax": 960,
-      "y1": 25.421912576146937,
-      "y2": 321.5982046105842,
+      "y1": 25.41352441760123,
+      "y2": 322.03485697537036,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.9555342154554924,
-      "intercept": 21.08124513321527,
+      "slope": 0.955508603987855,
+      "intercept": 20.878882482811182,
       "xMin": 0,
       "xMax": 960,
-      "y1": 21.08124513321527,
-      "y2": 938.394091970488,
+      "y1": 20.878882482811182,
+      "y2": 938.1671423111519,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 3623,
+      "hitCount": 3625,
       "avgUserRatio": 1.48,
       "activeUsers": 94
     },
     {
       "roomName": "Town Square",
-      "hitCount": 2524,
-      "avgUserRatio": 1.56,
-      "activeUsers": 109
+      "hitCount": 2525,
+      "avgUserRatio": 1.54,
+      "activeUsers": 110
     },
     {
       "roomName": "Fantasyland in The Sky",
@@ -1700,9 +1707,9 @@
     },
     {
       "roomName": "Dungeon",
-      "hitCount": 136,
-      "avgUserRatio": 4.39,
-      "activeUsers": 27
+      "hitCount": 139,
+      "avgUserRatio": 4.33,
+      "activeUsers": 28
     },
     {
       "roomName": "Tomorrowland Hub",
