@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-21T14:15:54.331Z",
-  "totalRows": 9951,
+  "generatedAt": "2025-12-21T15:16:22.172Z",
+  "totalRows": 10003,
   "totalUsers": 185,
   "teamStats": {
     "Penguin": {
       "users": 86,
-      "attacks": 5886,
-      "hitsTaken": 4065
+      "attacks": 5937,
+      "hitsTaken": 4066
     },
     "Reindeer": {
       "users": 99,
-      "attacks": 4065,
-      "hitsTaken": 5886
+      "attacks": 4066,
+      "hitsTaken": 5937
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 5886
+      "count": 5937
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 4065
+      "count": 4066
     }
   ],
   "topAttackers": [
@@ -37,12 +37,12 @@
     },
     {
       "user": "kazino",
-      "attacks": 611,
+      "attacks": 651,
       "team": "Penguin"
     },
     {
       "user": "VMKNeec",
-      "attacks": 602,
+      "attacks": 612,
       "team": "Penguin"
     },
     {
@@ -92,7 +92,7 @@
     },
     {
       "user": "BuckyBarnes",
-      "attacks": 254,
+      "attacks": 255,
       "team": "Penguin"
     },
     {
@@ -164,7 +164,7 @@
     },
     {
       "user": "MatthewC",
-      "hitsTaken": 649,
+      "hitsTaken": 700,
       "team": "Reindeer"
     },
     {
@@ -238,14 +238,14 @@
       "team": "Reindeer"
     },
     {
+      "user": "kazino",
+      "hitsTaken": 131,
+      "team": "Penguin"
+    },
+    {
       "user": "TinkerbellNat",
       "hitsTaken": 131,
       "team": "Reindeer"
-    },
-    {
-      "user": "kazino",
-      "hitsTaken": 130,
-      "team": "Penguin"
     },
     {
       "user": "Winnie",
@@ -308,16 +308,16 @@
     {
       "user": "VMKNeec",
       "team": "Penguin",
-      "attacks": 602,
+      "attacks": 612,
       "hitsTaken": 170,
-      "ratio": 3.541176470588235
+      "ratio": 3.6
     },
     {
       "user": "kazino",
       "team": "Penguin",
-      "attacks": 611,
-      "hitsTaken": 130,
-      "ratio": 4.7
+      "attacks": 651,
+      "hitsTaken": 131,
+      "ratio": 4.969465648854962
     },
     {
       "user": "Mali",
@@ -329,9 +329,9 @@
     {
       "user": "MatthewC",
       "team": "Reindeer",
-      "attacks": 34,
-      "hitsTaken": 649,
-      "ratio": 0.05238828967642527
+      "attacks": 35,
+      "hitsTaken": 700,
+      "ratio": 0.05
     },
     {
       "user": "Winnie",
@@ -413,9 +413,9 @@
     {
       "user": "BuckyBarnes",
       "team": "Penguin",
-      "attacks": 254,
+      "attacks": 255,
       "hitsTaken": 62,
-      "ratio": 4.096774193548387
+      "ratio": 4.112903225806452
     },
     {
       "user": "PuffyOldDragon",
@@ -1582,30 +1582,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.5677827584782584,
-      "intercept": 23.248614975042432,
+      "slope": 0.5590780763063036,
+      "intercept": 23.84076758220565,
       "xMin": 0,
       "xMax": 959,
-      "y1": 23.248614975042432,
-      "y2": 567.7522803556923,
+      "y1": 23.84076758220565,
+      "y2": 559.9966427599508,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3170711371874074,
-      "intercept": 25.566503331568835,
+      "slope": 0.31047713646979125,
+      "intercept": 25.845316753242436,
       "xMin": 0,
       "xMax": 959,
-      "y1": 25.566503331568835,
-      "y2": 329.63772389429255,
+      "y1": 25.845316753242436,
+      "y2": 323.59289062777225,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.9569180864216315,
-      "intercept": 20.16290887571786,
+      "slope": 0.9571447279144711,
+      "intercept": 20.659086225250103,
       "xMin": 0,
       "xMax": 959,
-      "y1": 20.16290887571786,
-      "y2": 937.8473537540625,
+      "y1": 20.659086225250103,
+      "y2": 938.5608802952279,
       "label": "Reindeer"
     }
   },
@@ -1719,6 +1719,12 @@
       "activeUsers": 19
     },
     {
+      "roomName": "Lost Safari Party",
+      "hitCount": 56,
+      "avgUserRatio": 6.88,
+      "activeUsers": 8
+    },
+    {
       "roomName": "Autopia Quest Track",
       "hitCount": 46,
       "avgUserRatio": 3.33,
@@ -1753,12 +1759,6 @@
       "hitCount": 33,
       "avgUserRatio": 6.6,
       "activeUsers": 5
-    },
-    {
-      "roomName": "Castle Gardens",
-      "hitCount": 32,
-      "avgUserRatio": 1.21,
-      "activeUsers": 14
     }
   ]
 }

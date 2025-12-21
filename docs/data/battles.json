@@ -4316,6 +4316,67 @@
     ]
   },
   {
+    "id": "Lost Safari Party-1",
+    "roomName": "Lost Safari Party",
+    "start": "2025-12-21T10:05:19.000Z",
+    "end": "2025-12-21T10:09:50.000Z",
+    "durationMinutes": 5,
+    "hitCount": 42,
+    "uniqueUsers": 3,
+    "topAttackers": [
+      {
+        "user": "kazino",
+        "team": "Penguin",
+        "attacks": 40
+      },
+      {
+        "user": "MatthewC",
+        "team": "Reindeer",
+        "attacks": 1
+      },
+      {
+        "user": "BuckyBarnes",
+        "team": "Penguin",
+        "attacks": 1
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "MatthewC",
+        "team": "Reindeer",
+        "hitsTaken": 41
+      },
+      {
+        "user": "kazino",
+        "team": "Penguin",
+        "hitsTaken": 1
+      }
+    ],
+    "participants": [
+      {
+        "user": "MatthewC",
+        "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 41,
+        "ratio": 0.024390243902439025
+      },
+      {
+        "user": "kazino",
+        "team": "Penguin",
+        "attacks": 40,
+        "hitsTaken": 1,
+        "ratio": 40
+      },
+      {
+        "user": "BuckyBarnes",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Central Plaza-5",
     "roomName": "Central Plaza",
     "start": "2025-12-20T16:27:49.000Z",
