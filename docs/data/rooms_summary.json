@@ -1,13 +1,13 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 3652,
-    "avgUserRatio": 1.46,
-    "activeUsers": 96
+    "hitCount": 3674,
+    "avgUserRatio": 1.44,
+    "activeUsers": 98
   },
   {
     "roomName": "Town Square",
-    "hitCount": 2529,
+    "hitCount": 2530,
     "avgUserRatio": 1.53,
     "activeUsers": 111
   },
@@ -25,9 +25,15 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 394,
-    "avgUserRatio": 1.7,
-    "activeUsers": 30
+    "hitCount": 403,
+    "avgUserRatio": 1.72,
+    "activeUsers": 35
+  },
+  {
+    "roomName": "Main Street",
+    "hitCount": 301,
+    "avgUserRatio": 1.64,
+    "activeUsers": 79
   },
   {
     "roomName": "Banquet Hall",
@@ -48,15 +54,9 @@
     "activeUsers": 35
   },
   {
-    "roomName": "Main Street",
-    "hitCount": 159,
-    "avgUserRatio": 1.46,
-    "activeUsers": 48
-  },
-  {
     "roomName": "Epcot Entrance",
-    "hitCount": 148,
-    "avgUserRatio": 2.71,
+    "hitCount": 149,
+    "avgUserRatio": 2.74,
     "activeUsers": 25
   },
   {
@@ -84,6 +84,12 @@
     "activeUsers": 20
   },
   {
+    "roomName": "Matterhorn",
+    "hitCount": 76,
+    "avgUserRatio": 1.43,
+    "activeUsers": 25
+  },
+  {
     "roomName": "Penny Arcade",
     "hitCount": 74,
     "avgUserRatio": 1.53,
@@ -94,12 +100,6 @@
     "hitCount": 74,
     "avgUserRatio": 2.93,
     "activeUsers": 10
-  },
-  {
-    "roomName": "Matterhorn",
-    "hitCount": 68,
-    "avgUserRatio": 1.67,
-    "activeUsers": 20
   },
   {
     "roomName": "Pirate Treehouse",
@@ -127,8 +127,8 @@
   },
   {
     "roomName": "Jungle Cruise Dock",
-    "hitCount": 45,
-    "avgUserRatio": 2.19,
+    "hitCount": 46,
+    "avgUserRatio": 2.27,
     "activeUsers": 13
   },
   {
@@ -144,6 +144,12 @@
     "activeUsers": 10
   },
   {
+    "roomName": "Storybookland",
+    "hitCount": 34,
+    "avgUserRatio": 1.62,
+    "activeUsers": 12
+  },
+  {
     "roomName": "WS - Norway",
     "hitCount": 33,
     "avgUserRatio": 6.6,
@@ -154,12 +160,6 @@
     "hitCount": 32,
     "avgUserRatio": 1.21,
     "activeUsers": 14
-  },
-  {
-    "roomName": "Storybookland",
-    "hitCount": 31,
-    "avgUserRatio": 1.65,
-    "activeUsers": 10
   },
   {
     "roomName": "Autopia Off Road on Mars",
