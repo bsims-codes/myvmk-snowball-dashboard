@@ -42,18 +42,18 @@
     "ratio": 2.801242236024845
   },
   {
+    "user": "Mali",
+    "team": "Penguin",
+    "attacks": 435,
+    "hitsTaken": 300,
+    "ratio": 1.45
+  },
+  {
     "user": "MagicMinnieMare",
     "team": "Reindeer",
     "attacks": 414,
     "hitsTaken": 624,
     "ratio": 0.6634615384615384
-  },
-  {
-    "user": "Mali",
-    "team": "Penguin",
-    "attacks": 405,
-    "hitsTaken": 300,
-    "ratio": 1.35
   },
   {
     "user": "goatduck",
@@ -1285,6 +1285,13 @@
     "team": "Reindeer",
     "attacks": 0,
     "hitsTaken": 14,
+    "ratio": 0
+  },
+  {
+    "user": "SlavicPride",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 30,
     "ratio": 0
   }
 ]

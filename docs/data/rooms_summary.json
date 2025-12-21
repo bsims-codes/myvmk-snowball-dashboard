@@ -138,6 +138,12 @@
     "activeUsers": 10
   },
   {
+    "roomName": "WS - Norway",
+    "hitCount": 33,
+    "avgUserRatio": 6.6,
+    "activeUsers": 5
+  },
+  {
     "roomName": "Castle Gardens",
     "hitCount": 32,
     "avgUserRatio": 1.21,
@@ -286,12 +292,6 @@
     "hitCount": 4,
     "avgUserRatio": 1,
     "activeUsers": 4
-  },
-  {
-    "roomName": "WS - Norway",
-    "hitCount": 3,
-    "avgUserRatio": 1,
-    "activeUsers": 3
   },
   {
     "roomName": "Star Commander Lobby",

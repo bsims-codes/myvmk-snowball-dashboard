@@ -5559,6 +5559,45 @@
     ]
   },
   {
+    "id": "WS - Norway-1",
+    "roomName": "WS - Norway",
+    "start": "2025-12-21T06:52:54.000Z",
+    "end": "2025-12-21T06:55:48.000Z",
+    "durationMinutes": 3,
+    "hitCount": 30,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "Mali",
+        "team": "Penguin",
+        "attacks": 30
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "SlavicPride",
+        "team": "Reindeer",
+        "hitsTaken": 30
+      }
+    ],
+    "participants": [
+      {
+        "user": "Mali",
+        "team": "Penguin",
+        "attacks": 30,
+        "hitsTaken": 0,
+        "ratio": 30
+      },
+      {
+        "user": "SlavicPride",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 30,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-8",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-19T18:30:34.000Z",

@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-21T11:14:25.997Z",
-  "totalRows": 9921,
-  "totalUsers": 184,
+  "generatedAt": "2025-12-21T12:34:30.214Z",
+  "totalRows": 9951,
+  "totalUsers": 185,
   "teamStats": {
     "Penguin": {
       "users": 86,
-      "attacks": 5856,
+      "attacks": 5886,
       "hitsTaken": 4065
     },
     "Reindeer": {
-      "users": 98,
+      "users": 99,
       "attacks": 4065,
-      "hitsTaken": 5856
+      "hitsTaken": 5886
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 5856
+      "count": 5886
     },
     {
       "pair": "Reindeer → Penguin",
@@ -61,14 +61,14 @@
       "team": "Penguin"
     },
     {
+      "user": "Mali",
+      "attacks": 435,
+      "team": "Penguin"
+    },
+    {
       "user": "MagicMinnieMare",
       "attacks": 414,
       "team": "Reindeer"
-    },
-    {
-      "user": "Mali",
-      "attacks": 405,
-      "team": "Penguin"
     },
     {
       "user": "goatduck",
@@ -322,9 +322,9 @@
     {
       "user": "Mali",
       "team": "Penguin",
-      "attacks": 405,
+      "attacks": 435,
       "hitsTaken": 300,
-      "ratio": 1.35
+      "ratio": 1.45
     },
     {
       "user": "MatthewC",
@@ -875,6 +875,13 @@
     {
       "user": "Lil_Lyssa",
       "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 30,
+      "ratio": 0
+    },
+    {
+      "user": "SlavicPride",
+      "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 30,
       "ratio": 0
@@ -1575,30 +1582,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.5695056048477647,
-      "intercept": 23.211602686441992,
+      "slope": 0.5677827584782584,
+      "intercept": 23.248614975042432,
       "xMin": 0,
       "xMax": 959,
-      "y1": 23.211602686441992,
-      "y2": 569.3674777354483,
+      "y1": 23.248614975042432,
+      "y2": 567.7522803556923,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3165878672001168,
-      "intercept": 25.710016856699028,
+      "slope": 0.3170711371874074,
+      "intercept": 25.566503331568835,
       "xMin": 0,
       "xMax": 959,
-      "y1": 25.710016856699028,
-      "y2": 329.317781501611,
+      "y1": 25.566503331568835,
+      "y2": 329.63772389429255,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.9572346612638477,
-      "intercept": 20.04939899961693,
+      "slope": 0.9569180864216315,
+      "intercept": 20.16290887571786,
       "xMin": 0,
       "xMax": 959,
-      "y1": 20.04939899961693,
-      "y2": 938.0374391516469,
+      "y1": 20.16290887571786,
+      "y2": 937.8473537540625,
       "label": "Reindeer"
     }
   },
@@ -1742,16 +1749,16 @@
       "activeUsers": 10
     },
     {
+      "roomName": "WS - Norway",
+      "hitCount": 33,
+      "avgUserRatio": 6.6,
+      "activeUsers": 5
+    },
+    {
       "roomName": "Castle Gardens",
       "hitCount": 32,
       "avgUserRatio": 1.21,
       "activeUsers": 14
-    },
-    {
-      "roomName": "Storybookland",
-      "hitCount": 31,
-      "avgUserRatio": 1.65,
-      "activeUsers": 10
     }
   ]
 }
