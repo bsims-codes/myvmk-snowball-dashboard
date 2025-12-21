@@ -3058,6 +3058,100 @@
     ]
   },
   {
+    "id": "Epcot Entrance-1",
+    "roomName": "Epcot Entrance",
+    "start": "2025-12-21T10:38:02.000Z",
+    "end": "2025-12-21T10:45:40.000Z",
+    "durationMinutes": 8,
+    "hitCount": 79,
+    "uniqueUsers": 7,
+    "topAttackers": [
+      {
+        "user": "BuckyBarnes",
+        "team": "Penguin",
+        "attacks": 48
+      },
+      {
+        "user": "Mali",
+        "team": "Penguin",
+        "attacks": 27
+      },
+      {
+        "user": "SplashMountain.",
+        "team": "Reindeer",
+        "attacks": 3
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "SplashMountain.",
+        "team": "Reindeer",
+        "hitsTaken": 60
+      },
+      {
+        "user": "rockin_rachael",
+        "team": "Reindeer",
+        "hitsTaken": 7
+      },
+      {
+        "user": "maroonsonicsage22",
+        "team": "Reindeer",
+        "hitsTaken": 5
+      }
+    ],
+    "participants": [
+      {
+        "user": "SplashMountain.",
+        "team": "Reindeer",
+        "attacks": 3,
+        "hitsTaken": 60,
+        "ratio": 0.05
+      },
+      {
+        "user": "BuckyBarnes",
+        "team": "Penguin",
+        "attacks": 48,
+        "hitsTaken": 0,
+        "ratio": 48
+      },
+      {
+        "user": "Mali",
+        "team": "Penguin",
+        "attacks": 27,
+        "hitsTaken": 3,
+        "ratio": 9
+      },
+      {
+        "user": "rockin_rachael",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 7,
+        "ratio": 0
+      },
+      {
+        "user": "maroonsonicsage22",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 5,
+        "ratio": 0
+      },
+      {
+        "user": "BeachBum",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 4,
+        "ratio": 0
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-11",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-19T20:39:20.000Z",
@@ -5424,6 +5518,67 @@
         "attacks": 0,
         "hitsTaken": 1,
         "ratio": 0
+      }
+    ]
+  },
+  {
+    "id": "Penny Arcade-1",
+    "roomName": "Penny Arcade",
+    "start": "2025-12-21T11:02:06.000Z",
+    "end": "2025-12-21T11:08:25.000Z",
+    "durationMinutes": 6,
+    "hitCount": 32,
+    "uniqueUsers": 3,
+    "topAttackers": [
+      {
+        "user": "VMKNeec",
+        "team": "Penguin",
+        "attacks": 24
+      },
+      {
+        "user": "RadOminousDolphin",
+        "team": "Reindeer",
+        "attacks": 7
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 1
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "RadOminousDolphin",
+        "team": "Reindeer",
+        "hitsTaken": 25
+      },
+      {
+        "user": "VMKNeec",
+        "team": "Penguin",
+        "hitsTaken": 7
+      }
+    ],
+    "participants": [
+      {
+        "user": "RadOminousDolphin",
+        "team": "Reindeer",
+        "attacks": 7,
+        "hitsTaken": 25,
+        "ratio": 0.28
+      },
+      {
+        "user": "VMKNeec",
+        "team": "Penguin",
+        "attacks": 24,
+        "hitsTaken": 7,
+        "ratio": 3.4285714285714284
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
       }
     ]
   },

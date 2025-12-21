@@ -16,16 +16,16 @@
   {
     "user": "VMKNeec",
     "team": "Penguin",
-    "attacks": 612,
-    "hitsTaken": 170,
-    "ratio": 3.6
+    "attacks": 636,
+    "hitsTaken": 177,
+    "ratio": 3.593220338983051
   },
   {
     "user": "PepaRaindrops",
     "team": "Penguin",
-    "attacks": 564,
+    "attacks": 566,
     "hitsTaken": 233,
-    "ratio": 2.4206008583690988
+    "ratio": 2.429184549356223
   },
   {
     "user": "Winnie",
@@ -35,18 +35,18 @@
     "ratio": 4.1395348837209305
   },
   {
+    "user": "Mali",
+    "team": "Penguin",
+    "attacks": 462,
+    "hitsTaken": 303,
+    "ratio": 1.5247524752475248
+  },
+  {
     "user": "Luckymaxer",
     "team": "Penguin",
     "attacks": 451,
     "hitsTaken": 161,
     "ratio": 2.801242236024845
-  },
-  {
-    "user": "Mali",
-    "team": "Penguin",
-    "attacks": 435,
-    "hitsTaken": 300,
-    "ratio": 1.45
   },
   {
     "user": "MagicMinnieMare",
@@ -77,18 +77,18 @@
     "ratio": 1.4465116279069767
   },
   {
+    "user": "BuckyBarnes",
+    "team": "Penguin",
+    "attacks": 303,
+    "hitsTaken": 62,
+    "ratio": 4.887096774193548
+  },
+  {
     "user": "Meg",
     "team": "Penguin",
     "attacks": 255,
     "hitsTaken": 201,
     "ratio": 1.2686567164179106
-  },
-  {
-    "user": "BuckyBarnes",
-    "team": "Penguin",
-    "attacks": 255,
-    "hitsTaken": 62,
-    "ratio": 4.112903225806452
   },
   {
     "user": "mikgriz",
@@ -514,8 +514,8 @@
     "user": "maroonsonicsage22",
     "team": "Reindeer",
     "attacks": 10,
-    "hitsTaken": 46,
-    "ratio": 0.21739130434782608
+    "hitsTaken": 51,
+    "ratio": 0.19607843137254902
   },
   {
     "user": "Magenta",
@@ -565,6 +565,13 @@
     "attacks": 7,
     "hitsTaken": 24,
     "ratio": 0.2916666666666667
+  },
+  {
+    "user": "RadOminousDolphin",
+    "team": "Reindeer",
+    "attacks": 7,
+    "hitsTaken": 25,
+    "ratio": 0.28
   },
   {
     "user": "protozoa",
@@ -619,8 +626,8 @@
     "user": "rockin_rachael",
     "team": "Reindeer",
     "attacks": 4,
-    "hitsTaken": 1,
-    "ratio": 4
+    "hitsTaken": 8,
+    "ratio": 0.5
   },
   {
     "user": "SleepToken",
@@ -691,6 +698,13 @@
     "attacks": 3,
     "hitsTaken": 131,
     "ratio": 0.022900763358778626
+  },
+  {
+    "user": "SplashMountain.",
+    "team": "Reindeer",
+    "attacks": 3,
+    "hitsTaken": 60,
+    "ratio": 0.05
   },
   {
     "user": "Bernardo-S-Rocks",
@@ -1292,6 +1306,13 @@
     "team": "Reindeer",
     "attacks": 0,
     "hitsTaken": 30,
+    "ratio": 0
+  },
+  {
+    "user": "BeachBum",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 4,
     "ratio": 0
   }
 ]

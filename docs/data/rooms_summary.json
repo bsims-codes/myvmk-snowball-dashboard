@@ -54,6 +54,12 @@
     "activeUsers": 47
   },
   {
+    "roomName": "Epcot Entrance",
+    "hitCount": 148,
+    "avgUserRatio": 2.71,
+    "activeUsers": 25
+  },
+  {
     "roomName": "Dungeon",
     "hitCount": 136,
     "avgUserRatio": 4.39,
@@ -78,16 +84,16 @@
     "activeUsers": 20
   },
   {
+    "roomName": "Penny Arcade",
+    "hitCount": 74,
+    "avgUserRatio": 1.53,
+    "activeUsers": 18
+  },
+  {
     "roomName": "New Orleans Square",
     "hitCount": 74,
     "avgUserRatio": 2.93,
     "activeUsers": 10
-  },
-  {
-    "roomName": "Epcot Entrance",
-    "hitCount": 69,
-    "avgUserRatio": 0.79,
-    "activeUsers": 19
   },
   {
     "roomName": "Matterhorn",
@@ -124,12 +130,6 @@
     "hitCount": 45,
     "avgUserRatio": 2.19,
     "activeUsers": 13
-  },
-  {
-    "roomName": "Penny Arcade",
-    "hitCount": 42,
-    "avgUserRatio": 1.52,
-    "activeUsers": 15
   },
   {
     "roomName": "Castle Forecourt",
