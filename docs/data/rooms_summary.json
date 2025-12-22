@@ -1,15 +1,21 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 3674,
-    "avgUserRatio": 1.44,
-    "activeUsers": 98
+    "hitCount": 3699,
+    "avgUserRatio": 1.4,
+    "activeUsers": 105
   },
   {
     "roomName": "Town Square",
-    "hitCount": 2530,
-    "avgUserRatio": 1.53,
-    "activeUsers": 111
+    "hitCount": 2533,
+    "avgUserRatio": 1.5,
+    "activeUsers": 114
+  },
+  {
+    "roomName": "Main Street",
+    "hitCount": 849,
+    "avgUserRatio": 2.07,
+    "activeUsers": 102
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -25,15 +31,21 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 403,
-    "avgUserRatio": 1.72,
-    "activeUsers": 35
+    "hitCount": 493,
+    "avgUserRatio": 1.79,
+    "activeUsers": 43
   },
   {
-    "roomName": "Main Street",
-    "hitCount": 301,
-    "avgUserRatio": 1.64,
-    "activeUsers": 79
+    "roomName": "Dungeon",
+    "hitCount": 472,
+    "avgUserRatio": 3.06,
+    "activeUsers": 41
+  },
+  {
+    "roomName": "Snow White Hide 'n Seek Forest",
+    "hitCount": 203,
+    "avgUserRatio": 3.21,
+    "activeUsers": 23
   },
   {
     "roomName": "Banquet Hall",
@@ -42,28 +54,22 @@
     "activeUsers": 22
   },
   {
+    "roomName": "VMK Esplanade",
+    "hitCount": 179,
+    "avgUserRatio": 2.05,
+    "activeUsers": 35
+  },
+  {
     "roomName": "Monorail Train",
     "hitCount": 179,
     "avgUserRatio": 3.59,
     "activeUsers": 14
   },
   {
-    "roomName": "VMK Esplanade",
-    "hitCount": 163,
-    "avgUserRatio": 2.02,
-    "activeUsers": 35
-  },
-  {
     "roomName": "Epcot Entrance",
-    "hitCount": 149,
-    "avgUserRatio": 2.74,
-    "activeUsers": 25
-  },
-  {
-    "roomName": "Dungeon",
-    "hitCount": 139,
-    "avgUserRatio": 4.33,
-    "activeUsers": 28
+    "hitCount": 177,
+    "avgUserRatio": 2.95,
+    "activeUsers": 29
   },
   {
     "roomName": "Tomorrowland Hub",
@@ -85,9 +91,9 @@
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 76,
-    "avgUserRatio": 1.43,
-    "activeUsers": 25
+    "hitCount": 80,
+    "avgUserRatio": 1.33,
+    "activeUsers": 27
   },
   {
     "roomName": "Penny Arcade",
@@ -120,22 +126,22 @@
     "activeUsers": 8
   },
   {
+    "roomName": "Jungle Cruise Dock",
+    "hitCount": 51,
+    "avgUserRatio": 2.65,
+    "activeUsers": 13
+  },
+  {
     "roomName": "Autopia Quest Track",
     "hitCount": 46,
     "avgUserRatio": 3.33,
     "activeUsers": 12
   },
   {
-    "roomName": "Jungle Cruise Dock",
-    "hitCount": 46,
-    "avgUserRatio": 2.27,
-    "activeUsers": 13
-  },
-  {
     "roomName": "Castle Forecourt",
-    "hitCount": 39,
-    "avgUserRatio": 1.77,
-    "activeUsers": 17
+    "hitCount": 42,
+    "avgUserRatio": 1.74,
+    "activeUsers": 19
   },
   {
     "roomName": "Frontierland Hub",
@@ -180,22 +186,22 @@
     "activeUsers": 5
   },
   {
+    "roomName": "Blue Bayou",
+    "hitCount": 24,
+    "avgUserRatio": 1.6,
+    "activeUsers": 15
+  },
+  {
+    "roomName": "Sci-Fi Dine-In",
+    "hitCount": 24,
+    "avgUserRatio": 1.19,
+    "activeUsers": 11
+  },
+  {
     "roomName": "Inner-Space Ray Room",
     "hitCount": 24,
     "avgUserRatio": 1.08,
     "activeUsers": 4
-  },
-  {
-    "roomName": "Blue Bayou",
-    "hitCount": 23,
-    "avgUserRatio": 1.77,
-    "activeUsers": 13
-  },
-  {
-    "roomName": "Sci-Fi Dine-In",
-    "hitCount": 23,
-    "avgUserRatio": 1.34,
-    "activeUsers": 9
   },
   {
     "roomName": "Space Mountain Quest Deck",
@@ -231,12 +237,6 @@
     "roomName": "Elephant Bathing Pool",
     "hitCount": 13,
     "avgUserRatio": 3.25,
-    "activeUsers": 4
-  },
-  {
-    "roomName": "Snow White Hide 'n Seek Forest",
-    "hitCount": 13,
-    "avgUserRatio": 1.35,
     "activeUsers": 4
   },
   {
