@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-22T15:19:40.269Z",
-  "totalRows": 13021,
+  "generatedAt": "2025-12-22T16:22:41.356Z",
+  "totalRows": 13031,
   "totalUsers": 254,
   "teamStats": {
     "Penguin": {
       "users": 115,
-      "attacks": 7589,
-      "hitsTaken": 5432
+      "attacks": 7596,
+      "hitsTaken": 5435
     },
     "Reindeer": {
       "users": 139,
-      "attacks": 5432,
-      "hitsTaken": 7589
+      "attacks": 5435,
+      "hitsTaken": 7596
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 7589
+      "count": 7596
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 5432
+      "count": 5435
     }
   ],
   "topAttackers": [
@@ -77,7 +77,7 @@
     },
     {
       "user": "Kronkx",
-      "attacks": 430,
+      "attacks": 431,
       "team": "Reindeer"
     },
     {
@@ -117,7 +117,7 @@
     },
     {
       "user": "PuffyOldDragon",
-      "attacks": 247,
+      "attacks": 249,
       "team": "Reindeer"
     },
     {
@@ -127,7 +127,7 @@
     },
     {
       "user": "BluPirate",
-      "attacks": 211,
+      "attacks": 216,
       "team": "Penguin"
     },
     {
@@ -249,7 +249,7 @@
     },
     {
       "user": "PuffyOldDragon",
-      "hitsTaken": 162,
+      "hitsTaken": 168,
       "team": "Reindeer"
     },
     {
@@ -269,7 +269,7 @@
     },
     {
       "user": "Kronkx",
-      "hitsTaken": 153,
+      "hitsTaken": 154,
       "team": "Reindeer"
     },
     {
@@ -357,9 +357,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 430,
-      "hitsTaken": 153,
-      "ratio": 2.810457516339869
+      "attacks": 431,
+      "hitsTaken": 154,
+      "ratio": 2.7987012987012987
     },
     {
       "user": "Devgirlforever",
@@ -420,9 +420,9 @@
     {
       "user": "PuffyOldDragon",
       "team": "Reindeer",
-      "attacks": 247,
-      "hitsTaken": 162,
-      "ratio": 1.5246913580246915
+      "attacks": 249,
+      "hitsTaken": 168,
+      "ratio": 1.4821428571428572
     },
     {
       "user": "SpideyxLei",
@@ -455,9 +455,9 @@
     {
       "user": "BluPirate",
       "team": "Penguin",
-      "attacks": 211,
-      "hitsTaken": 92,
-      "ratio": 2.2934782608695654
+      "attacks": 216,
+      "hitsTaken": 94,
+      "ratio": 2.297872340425532
     },
     {
       "user": "Tobyy",
@@ -581,9 +581,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 95,
+      "attacks": 96,
       "hitsTaken": 56,
-      "ratio": 1.6964285714285714
+      "ratio": 1.7142857142857142
     },
     {
       "user": "HappyToughFish",
@@ -733,18 +733,18 @@
       "ratio": 0.5714285714285714
     },
     {
+      "user": "Magenta",
+      "team": "Penguin",
+      "attacks": 11,
+      "hitsTaken": 77,
+      "ratio": 0.14285714285714285
+    },
+    {
       "user": "Pollywolly",
       "team": "Penguin",
       "attacks": 14,
       "hitsTaken": 74,
       "ratio": 0.1891891891891892
-    },
-    {
-      "user": "Magenta",
-      "team": "Penguin",
-      "attacks": 10,
-      "hitsTaken": 77,
-      "ratio": 0.12987012987012986
     },
     {
       "user": "SleveMcDichael",
@@ -1587,6 +1587,13 @@
       "ratio": 0
     },
     {
+      "user": "CandyCars",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 4,
+      "ratio": 0
+    },
+    {
       "user": "casdcasd",
       "team": "Reindeer",
       "attacks": 0,
@@ -1665,13 +1672,6 @@
     },
     {
       "user": "IcyWater_Princess",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 3,
-      "ratio": 0
-    },
-    {
-      "user": "CandyCars",
       "team": "Penguin",
       "attacks": 0,
       "hitsTaken": 3,
@@ -2065,30 +2065,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.4989637469725759,
-      "intercept": 25.685012010512164,
+      "slope": 0.4991306077911823,
+      "intercept": 25.696177361705132,
       "xMin": 0,
       "xMax": 1114,
-      "y1": 25.685012010512164,
-      "y2": 581.5306261379617,
+      "y1": 25.696177361705132,
+      "y2": 581.7276744410823,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.29671364230166997,
-      "intercept": 27.654262335414145,
+      "slope": 0.2967384225581465,
+      "intercept": 27.660651671724516,
       "xMin": 0,
       "xMax": 1114,
-      "y1": 27.654262335414145,
-      "y2": 358.1932598594745,
+      "y1": 27.660651671724516,
+      "y2": 358.2272544014997,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.8422411443038813,
-      "intercept": 21.683065497419545,
+      "slope": 0.8425637044052712,
+      "intercept": 21.702635011203967,
       "xMin": 0,
       "xMax": 1114,
-      "y1": 21.683065497419545,
-      "y2": 959.9397002519433,
+      "y1": 21.702635011203967,
+      "y2": 960.3186017186761,
       "label": "Reindeer"
     }
   },
@@ -2137,9 +2137,9 @@
     },
     {
       "roomName": "Matterhorn",
-      "hitCount": 424,
-      "avgUserRatio": 1.43,
-      "activeUsers": 84
+      "hitCount": 432,
+      "avgUserRatio": 1.4,
+      "activeUsers": 85
     },
     {
       "roomName": "Snow White Hide 'n Seek Forest",
@@ -2155,8 +2155,8 @@
     },
     {
       "roomName": "Epcot Entrance",
-      "hitCount": 195,
-      "avgUserRatio": 2.75,
+      "hitCount": 196,
+      "avgUserRatio": 2.76,
       "activeUsers": 35
     },
     {
