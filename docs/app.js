@@ -378,6 +378,7 @@ async function fetchLiveData() {
     if (!attacker || !victim) continue;
 
     const attackerTeam = teamMap[attacker.toLowerCase()] || "Unknown";
+    const victimTeam = teamMap[victim.toLowerCase()] || "Unknown";
     const roomName = rooms[roomId] || `Room ${roomId}`;
 
     // Build event
@@ -386,6 +387,7 @@ async function fetchLiveData() {
       attacker,
       victim,
       attackerTeam,
+      victimTeam,
       roomName,
       value: Number.isFinite(value) ? value : 0
     });
@@ -398,7 +400,6 @@ async function fetchLiveData() {
 
     // Track victim stats
     if (!userStats[victim]) {
-      const victimTeam = teamMap[victim.toLowerCase()] || "Unknown";
       userStats[victim] = { attacks: 0, hitsTaken: 0, team: victimTeam };
     }
     userStats[victim].hitsTaken++;
@@ -504,6 +505,11 @@ async function refreshFromAPI() {
 
     const { summary, users, events, roomsSummary, teamData, battles } = await fetchLiveData();
 
+    // Clear fallback state on successful API fetch
+    state.usingFallback = false;
+    state.fallbackTimestamp = null;
+    updateFallbackBanner();
+
     // Update state
     state.allUsers = users;
     state.usersIndex = new Map(users.map(u => [u.user, u]));
@@ -570,7 +576,97 @@ async function refreshFromAPI() {
 
   } catch (err) {
     console.error("Failed to refresh from API:", err);
-    document.getElementById("meta").textContent = `Error refreshing: ${err.message}. Using cached data.`;
+    document.getElementById("meta").textContent = "API unavailable, loading cached data...";
+
+    // Fall back to static data
+    try {
+      const basePath = getDataPath();
+      const [summary, users, roomsSummary, events, battles] = await Promise.all([
+        loadJSON(`${basePath}/summary.json`),
+        loadJSON(`${basePath}/users.json`),
+        loadJSON(`${basePath}/rooms_summary.json`),
+        loadJSON(`${basePath}/events.json`),
+        loadJSON(`${basePath}/battles.json`).catch(() => [])
+      ]);
+
+      // Set fallback state
+      state.usingFallback = true;
+      state.fallbackTimestamp = summary.generatedAt;
+      updateFallbackBanner();
+
+      applyAdjustedPointsToSummary(summary, events);
+
+      // Update state with fallback data
+      state.allUsers = users;
+      state.usersIndex = new Map(users.map(u => [u.user, u]));
+      state.allEvents = events;
+      state.victimBreakdown = buildVictimBreakdown(events);
+      state.attackerBreakdown = buildAttackerBreakdown(events);
+      state.allBattles = battles || [];
+      state.selectedBattleId = null;
+
+      // Try to fetch team data separately (may still work even if hits API is down)
+      const teamData = await fetchTeamData().catch(() => null);
+      currentTeamData = teamData;
+
+      // Update metadata
+      document.getElementById("meta").textContent =
+        `Cached data from: ${new Date(summary.generatedAt).toLocaleString()} | ` +
+        `${summary.totalRows?.toLocaleString() || 0} events | ` +
+        `${summary.totalUsers?.toLocaleString() || 0} users`;
+
+      // Render components
+      renderTeamStats(summary, teamData?.totals);
+      renderTopLists(summary);
+      renderTeamRosters(teamData);
+      renderBattlesTable();
+
+      // Clear roster search inputs
+      const penguinSearch = document.getElementById("penguinRosterSearch");
+      const reindeerSearch = document.getElementById("reindeerRosterSearch");
+      if (penguinSearch) penguinSearch.value = "";
+      if (reindeerSearch) reindeerSearch.value = "";
+
+      // Apply filter/sort and rebuild tables
+      applyFilterSort();
+      buildUsersTable();
+      updateSelectionUI();
+
+      // Destroy and recreate charts
+      if (state.scatterChart) {
+        state.scatterChart.destroy();
+        state.scatterChart = null;
+      }
+      if (state.roomsChart) {
+        state.roomsChart.destroy();
+        state.roomsChart = null;
+      }
+      if (state.dailyChart) {
+        state.dailyChart.destroy();
+        state.dailyChart = null;
+      }
+
+      createScatter(document.getElementById("scatter"), summary);
+      createRoomsChart(document.getElementById("roomsChart"), roomsSummary);
+      createDailyChart(document.getElementById("dailyChart"), events);
+
+      // Render tables
+      renderVictimBreakdownTable();
+      renderAttackerBreakdownTable();
+      populateRoomFilter();
+      renderEventsTable();
+      renderHeatmap();
+
+      // Update admin panel if visible
+      if (isAdminMode()) {
+        renderCloneDetection();
+        renderTraitors();
+      }
+
+    } catch (fallbackErr) {
+      console.error("Failed to load fallback data:", fallbackErr);
+      document.getElementById("meta").textContent = `Error: ${err.message}. Fallback also failed.`;
+    }
   } finally {
     // Reset button state
     if (refreshBtn) refreshBtn.disabled = false;
@@ -882,7 +978,10 @@ const state = {
   allBattles: [],
   battleRoomFilter: "All",
   battleMinHits: 30,
-  selectedBattleId: null
+  selectedBattleId: null,
+  // Fallback state when live API is unavailable
+  usingFallback: false,
+  fallbackTimestamp: null
 };
 
 /**
@@ -902,6 +1001,24 @@ function updateDataModeUI() {
   if (liveBtn && preResetBtn) {
     liveBtn.classList.toggle("active", state.dataMode === "live");
     preResetBtn.classList.toggle("active", state.dataMode === "pre-reset");
+  }
+}
+
+/**
+ * Update fallback warning banner visibility and message
+ */
+function updateFallbackBanner() {
+  const banner = document.getElementById("fallbackBanner");
+  if (!banner) return;
+
+  if (state.usingFallback && state.dataMode === "live") {
+    const timestamp = state.fallbackTimestamp
+      ? new Date(state.fallbackTimestamp).toLocaleString()
+      : "unknown";
+    banner.innerHTML = `<span class="fallback-icon">⚠️</span> Live data is currently unavailable — showing cached data from ${timestamp}`;
+    banner.style.display = "block";
+  } else {
+    banner.style.display = "none";
   }
 }
 
@@ -928,6 +1045,11 @@ async function loadAndRefreshData() {
     ]);
 
     applyAdjustedPointsToSummary(summary, events);
+
+    // Clear fallback state when loading from static files succeeds
+    state.usingFallback = false;
+    state.fallbackTimestamp = null;
+    updateFallbackBanner();
 
     // Update metadata with data mode indicator
     const modeLabel = state.dataMode === "pre-reset" ? " [PRE-RESET]" : "";
