@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 3868,
+    "hitCount": 3998,
     "avgUserRatio": 1.35,
-    "activeUsers": 110
+    "activeUsers": 114
   },
   {
     "roomName": "Town Square",
@@ -54,6 +54,12 @@
     "activeUsers": 24
   },
   {
+    "roomName": "VMK Esplanade",
+    "hitCount": 202,
+    "avgUserRatio": 2.22,
+    "activeUsers": 39
+  },
+  {
     "roomName": "Epcot Entrance",
     "hitCount": 195,
     "avgUserRatio": 2.75,
@@ -64,12 +70,6 @@
     "hitCount": 188,
     "avgUserRatio": 1.33,
     "activeUsers": 22
-  },
-  {
-    "roomName": "VMK Esplanade",
-    "hitCount": 179,
-    "avgUserRatio": 2.05,
-    "activeUsers": 35
   },
   {
     "roomName": "Monorail Train",
@@ -114,6 +114,12 @@
     "activeUsers": 17
   },
   {
+    "roomName": "Autopia Quest Track",
+    "hitCount": 57,
+    "avgUserRatio": 3.07,
+    "activeUsers": 14
+  },
+  {
     "roomName": "VMK Gallery",
     "hitCount": 57,
     "avgUserRatio": 1.19,
@@ -124,12 +130,6 @@
     "hitCount": 56,
     "avgUserRatio": 6.88,
     "activeUsers": 8
-  },
-  {
-    "roomName": "Autopia Quest Track",
-    "hitCount": 53,
-    "avgUserRatio": 3.05,
-    "activeUsers": 14
   },
   {
     "roomName": "Jungle Cruise Dock",
@@ -156,6 +156,12 @@
     "activeUsers": 13
   },
   {
+    "roomName": "Autopia Off Road on Mars",
+    "hitCount": 35,
+    "avgUserRatio": 1.18,
+    "activeUsers": 16
+  },
+  {
     "roomName": "WS - Norway",
     "hitCount": 33,
     "avgUserRatio": 6.6,
@@ -165,12 +171,6 @@
     "roomName": "Castle Gardens",
     "hitCount": 32,
     "avgUserRatio": 1.21,
-    "activeUsers": 14
-  },
-  {
-    "roomName": "Autopia Off Road on Mars",
-    "hitCount": 30,
-    "avgUserRatio": 1.19,
     "activeUsers": 14
   },
   {

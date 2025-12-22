@@ -3877,6 +3877,142 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-22",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2025-12-21T22:38:44.000Z",
+    "end": "2025-12-21T22:48:56.000Z",
+    "durationMinutes": 10,
+    "hitCount": 119,
+    "uniqueUsers": 13,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 31
+      },
+      {
+        "user": "taymeow",
+        "team": "Reindeer",
+        "attacks": 21
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 17
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 38
+      },
+      {
+        "user": "waterfallglow",
+        "team": "Reindeer",
+        "hitsTaken": 12
+      },
+      {
+        "user": "KristiDB",
+        "team": "Reindeer",
+        "hitsTaken": 12
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 31,
+        "hitsTaken": 9,
+        "ratio": 3.4444444444444446
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 38,
+        "ratio": 0
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 17,
+        "hitsTaken": 11,
+        "ratio": 1.5454545454545454
+      },
+      {
+        "user": "taymeow",
+        "team": "Reindeer",
+        "attacks": 21,
+        "hitsTaken": 4,
+        "ratio": 5.25
+      },
+      {
+        "user": "waterfallglow",
+        "team": "Reindeer",
+        "attacks": 10,
+        "hitsTaken": 12,
+        "ratio": 0.8333333333333334
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 11,
+        "hitsTaken": 9,
+        "ratio": 1.2222222222222223
+      },
+      {
+        "user": "PeachySQ",
+        "team": "Penguin",
+        "attacks": 16,
+        "hitsTaken": 0,
+        "ratio": 16
+      },
+      {
+        "user": "KristiDB",
+        "team": "Reindeer",
+        "attacks": 2,
+        "hitsTaken": 12,
+        "ratio": 0.16666666666666666
+      },
+      {
+        "user": "mikgriz",
+        "team": "Penguin",
+        "attacks": 3,
+        "hitsTaken": 7,
+        "ratio": 0.42857142857142855
+      },
+      {
+        "user": "dietdrkellp",
+        "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 9,
+        "ratio": 0.1111111111111111
+      },
+      {
+        "user": "SillyTableWizard",
+        "team": "Reindeer",
+        "attacks": 2,
+        "hitsTaken": 6,
+        "ratio": 0.3333333333333333
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 5,
+        "hitsTaken": 1,
+        "ratio": 5
+      },
+      {
+        "user": "bsims",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-14",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-20T12:52:53.000Z",
