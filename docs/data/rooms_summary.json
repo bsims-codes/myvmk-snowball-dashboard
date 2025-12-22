@@ -7,15 +7,15 @@
   },
   {
     "roomName": "Town Square",
-    "hitCount": 2534,
-    "avgUserRatio": 1.5,
-    "activeUsers": 114
+    "hitCount": 2583,
+    "avgUserRatio": 1.76,
+    "activeUsers": 120
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1023,
-    "avgUserRatio": 2.02,
-    "activeUsers": 107
+    "hitCount": 1237,
+    "avgUserRatio": 2.04,
+    "activeUsers": 109
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -31,9 +31,9 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 500,
-    "avgUserRatio": 1.71,
-    "activeUsers": 46
+    "hitCount": 521,
+    "avgUserRatio": 1.7,
+    "activeUsers": 50
   },
   {
     "roomName": "Dungeon",
@@ -84,16 +84,16 @@
     "activeUsers": 26
   },
   {
+    "roomName": "New Orleans Square",
+    "hitCount": 97,
+    "avgUserRatio": 2.53,
+    "activeUsers": 15
+  },
+  {
     "roomName": "Pixar Pier Entrance",
     "hitCount": 95,
     "avgUserRatio": 1.46,
     "activeUsers": 26
-  },
-  {
-    "roomName": "New Orleans Square",
-    "hitCount": 91,
-    "avgUserRatio": 2.39,
-    "activeUsers": 15
   },
   {
     "roomName": "Gallery",
@@ -186,6 +186,12 @@
     "activeUsers": 7
   },
   {
+    "roomName": "Sci-Fi Dine-In",
+    "hitCount": 26,
+    "avgUserRatio": 1.16,
+    "activeUsers": 13
+  },
+  {
     "roomName": "Discovery Island",
     "hitCount": 25,
     "avgUserRatio": 3.49,
@@ -198,28 +204,22 @@
     "activeUsers": 16
   },
   {
-    "roomName": "Sci-Fi Dine-In",
-    "hitCount": 24,
-    "avgUserRatio": 1.19,
-    "activeUsers": 11
-  },
-  {
     "roomName": "Inner-Space Ray Room",
     "hitCount": 24,
     "avgUserRatio": 1.08,
     "activeUsers": 4
   },
   {
+    "roomName": "Space Mountain Quest Deck",
+    "hitCount": 22,
+    "avgUserRatio": 0.89,
+    "activeUsers": 9
+  },
+  {
     "roomName": "Elephant Bathing Pool",
     "hitCount": 21,
     "avgUserRatio": 3.36,
     "activeUsers": 6
-  },
-  {
-    "roomName": "Space Mountain Quest Deck",
-    "hitCount": 20,
-    "avgUserRatio": 0.86,
-    "activeUsers": 7
   },
   {
     "roomName": "Explorer's Tent",
