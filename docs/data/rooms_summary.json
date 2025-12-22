@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 4090,
-    "avgUserRatio": 1.22,
-    "activeUsers": 117
+    "hitCount": 4159,
+    "avgUserRatio": 1.19,
+    "activeUsers": 118
   },
   {
     "roomName": "Town Square",
@@ -13,7 +13,7 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1237,
+    "hitCount": 1245,
     "avgUserRatio": 2.04,
     "activeUsers": 109
   },
@@ -31,7 +31,7 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 521,
+    "hitCount": 524,
     "avgUserRatio": 1.7,
     "activeUsers": 50
   },
@@ -150,22 +150,28 @@
     "activeUsers": 16
   },
   {
+    "roomName": "Autopia Off Road on Mars",
+    "hitCount": 38,
+    "avgUserRatio": 1.16,
+    "activeUsers": 16
+  },
+  {
     "roomName": "Frontierland Hub",
     "hitCount": 38,
     "avgUserRatio": 0.79,
     "activeUsers": 10
   },
   {
-    "roomName": "Autopia Off Road on Mars",
-    "hitCount": 36,
-    "avgUserRatio": 1.14,
-    "activeUsers": 16
-  },
-  {
     "roomName": "WS - Norway",
     "hitCount": 33,
     "avgUserRatio": 6.6,
     "activeUsers": 5
+  },
+  {
+    "roomName": "Tiki Tiki Tiki Island",
+    "hitCount": 33,
+    "avgUserRatio": 3.48,
+    "activeUsers": 8
   },
   {
     "roomName": "Castle Gardens",
@@ -256,12 +262,6 @@
     "hitCount": 10,
     "avgUserRatio": 1.36,
     "activeUsers": 7
-  },
-  {
-    "roomName": "Tiki Tiki Tiki Island",
-    "hitCount": 10,
-    "avgUserRatio": 1.31,
-    "activeUsers": 6
   },
   {
     "roomName": "Nautilus Grotto",
