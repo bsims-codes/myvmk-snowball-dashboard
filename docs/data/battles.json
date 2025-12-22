@@ -5998,6 +5998,67 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-24",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2025-12-22T00:20:24.000Z",
+    "end": "2025-12-22T00:30:06.000Z",
+    "durationMinutes": 10,
+    "hitCount": 49,
+    "uniqueUsers": 3,
+    "topAttackers": [
+      {
+        "user": "MagicMinnieMare",
+        "team": "Reindeer",
+        "attacks": 31
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 18
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "hitsTaken": 30
+      },
+      {
+        "user": "MagicMinnieMare",
+        "team": "Reindeer",
+        "hitsTaken": 18
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 1
+      }
+    ],
+    "participants": [
+      {
+        "user": "MagicMinnieMare",
+        "team": "Reindeer",
+        "attacks": 31,
+        "hitsTaken": 18,
+        "ratio": 1.7222222222222223
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 18,
+        "hitsTaken": 30,
+        "ratio": 0.6
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-17",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-20T17:00:30.000Z",
