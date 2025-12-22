@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2025-12-22T12:37:56.127Z",
-  "totalRows": 13016,
+  "generatedAt": "2025-12-22T13:32:30.019Z",
+  "totalRows": 13019,
   "totalUsers": 254,
   "teamStats": {
     "Penguin": {
       "users": 115,
       "attacks": 7589,
-      "hitsTaken": 5427
+      "hitsTaken": 5430
     },
     "Reindeer": {
       "users": 139,
-      "attacks": 5427,
+      "attacks": 5430,
       "hitsTaken": 7589
     },
     "Unknown": {
@@ -26,7 +26,7 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 5427
+      "count": 5430
     }
   ],
   "topAttackers": [
@@ -77,7 +77,7 @@
     },
     {
       "user": "Kronkx",
-      "attacks": 427,
+      "attacks": 430,
       "team": "Reindeer"
     },
     {
@@ -184,7 +184,7 @@
     },
     {
       "user": "Mali",
-      "hitsTaken": 313,
+      "hitsTaken": 316,
       "team": "Penguin"
     },
     {
@@ -316,8 +316,8 @@
       "user": "Mali",
       "team": "Penguin",
       "attacks": 555,
-      "hitsTaken": 313,
-      "ratio": 1.7731629392971247
+      "hitsTaken": 316,
+      "ratio": 1.7563291139240507
     },
     {
       "user": "PepaRaindrops",
@@ -357,9 +357,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 427,
+      "attacks": 430,
       "hitsTaken": 153,
-      "ratio": 2.7908496732026142
+      "ratio": 2.810457516339869
     },
     {
       "user": "Devgirlforever",
@@ -2065,30 +2065,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.49879014857712856,
-      "intercept": 25.684044984724785,
+      "slope": 0.49893059370419784,
+      "intercept": 25.682766143956883,
       "xMin": 0,
       "xMax": 1114,
-      "y1": 25.684044984724785,
-      "y2": 581.3362704996459,
+      "y1": 25.682766143956883,
+      "y2": 581.4914475304333,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2961221674690565,
-      "intercept": 27.649816270237654,
+      "slope": 0.29661321877588465,
+      "intercept": 27.6434981105201,
       "xMin": 0,
       "xMax": 1114,
-      "y1": 27.649816270237654,
-      "y2": 357.5299108307666,
+      "y1": 27.6434981105201,
+      "y2": 358.0706238268556,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.8434000951293055,
-      "intercept": 21.668112832613378,
+      "slope": 0.8425001930012157,
+      "intercept": 21.685064402902153,
       "xMin": 0,
       "xMax": 1114,
-      "y1": 21.668112832613378,
-      "y2": 961.2158188066596,
+      "y1": 21.685064402902153,
+      "y2": 960.2302794062565,
       "label": "Reindeer"
     }
   },
@@ -2191,9 +2191,9 @@
     },
     {
       "roomName": "Gallery",
-      "hitCount": 89,
-      "avgUserRatio": 1.87,
-      "activeUsers": 22
+      "hitCount": 91,
+      "avgUserRatio": 1.83,
+      "activeUsers": 23
     },
     {
       "roomName": "Penny Arcade",

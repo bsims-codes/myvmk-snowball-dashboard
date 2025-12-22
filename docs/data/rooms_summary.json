@@ -97,9 +97,9 @@
   },
   {
     "roomName": "Gallery",
-    "hitCount": 89,
-    "avgUserRatio": 1.87,
-    "activeUsers": 22
+    "hitCount": 91,
+    "avgUserRatio": 1.83,
+    "activeUsers": 23
   },
   {
     "roomName": "Penny Arcade",
@@ -276,6 +276,12 @@
     "activeUsers": 3
   },
   {
+    "roomName": "Splash Mountain",
+    "hitCount": 7,
+    "avgUserRatio": 0.9,
+    "activeUsers": 7
+  },
+  {
     "roomName": "Tom Sawyer's Island",
     "hitCount": 7,
     "avgUserRatio": 1.75,
@@ -298,12 +304,6 @@
     "hitCount": 6,
     "avgUserRatio": 1.5,
     "activeUsers": 4
-  },
-  {
-    "roomName": "Splash Mountain",
-    "hitCount": 6,
-    "avgUserRatio": 1.07,
-    "activeUsers": 5
   },
   {
     "roomName": "Anandapur",
