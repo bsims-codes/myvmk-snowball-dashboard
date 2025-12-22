@@ -13,9 +13,9 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 860,
-    "avgUserRatio": 1.97,
-    "activeUsers": 104
+    "hitCount": 1023,
+    "avgUserRatio": 2.02,
+    "activeUsers": 107
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -90,6 +90,12 @@
     "activeUsers": 26
   },
   {
+    "roomName": "New Orleans Square",
+    "hitCount": 91,
+    "avgUserRatio": 2.39,
+    "activeUsers": 15
+  },
+  {
     "roomName": "Gallery",
     "hitCount": 89,
     "avgUserRatio": 1.87,
@@ -102,16 +108,10 @@
     "activeUsers": 18
   },
   {
-    "roomName": "New Orleans Square",
-    "hitCount": 74,
-    "avgUserRatio": 2.93,
-    "activeUsers": 10
-  },
-  {
     "roomName": "Pirate Treehouse",
-    "hitCount": 59,
-    "avgUserRatio": 1.47,
-    "activeUsers": 17
+    "hitCount": 60,
+    "avgUserRatio": 1.37,
+    "activeUsers": 19
   },
   {
     "roomName": "Autopia Quest Track",
@@ -144,16 +144,16 @@
     "activeUsers": 22
   },
   {
+    "roomName": "Storybookland",
+    "hitCount": 42,
+    "avgUserRatio": 1.67,
+    "activeUsers": 16
+  },
+  {
     "roomName": "Frontierland Hub",
     "hitCount": 38,
     "avgUserRatio": 0.79,
     "activeUsers": 10
-  },
-  {
-    "roomName": "Storybookland",
-    "hitCount": 36,
-    "avgUserRatio": 1.59,
-    "activeUsers": 13
   },
   {
     "roomName": "Autopia Off Road on Mars",
@@ -172,6 +172,12 @@
     "hitCount": 32,
     "avgUserRatio": 1.21,
     "activeUsers": 14
+  },
+  {
+    "roomName": "VMK Central",
+    "hitCount": 29,
+    "avgUserRatio": 1.06,
+    "activeUsers": 9
   },
   {
     "roomName": "Mickey's Courtyard",
@@ -307,12 +313,6 @@
   },
   {
     "roomName": "Star Commander Lobby",
-    "hitCount": 3,
-    "avgUserRatio": 0.75,
-    "activeUsers": 4
-  },
-  {
-    "roomName": "VMK Central",
     "hitCount": 3,
     "avgUserRatio": 0.75,
     "activeUsers": 4

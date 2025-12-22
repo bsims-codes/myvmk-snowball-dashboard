@@ -3720,6 +3720,107 @@
     ]
   },
   {
+    "id": "Main Street-4",
+    "roomName": "Main Street",
+    "start": "2025-12-22T01:50:01.000Z",
+    "end": "2025-12-22T02:01:35.000Z",
+    "durationMinutes": 12,
+    "hitCount": 162,
+    "uniqueUsers": 8,
+    "topAttackers": [
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 77
+      },
+      {
+        "user": "SpideyxLei",
+        "team": "Reindeer",
+        "attacks": 39
+      },
+      {
+        "user": "TrinaBoBina",
+        "team": "Reindeer",
+        "attacks": 21
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "SpideyxLei",
+        "team": "Reindeer",
+        "hitsTaken": 53
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "hitsTaken": 36
+      },
+      {
+        "user": "xRachelx",
+        "team": "Penguin",
+        "hitsTaken": 34
+      }
+    ],
+    "participants": [
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 77,
+        "hitsTaken": 36,
+        "ratio": 2.138888888888889
+      },
+      {
+        "user": "SpideyxLei",
+        "team": "Reindeer",
+        "attacks": 39,
+        "hitsTaken": 53,
+        "ratio": 0.7358490566037735
+      },
+      {
+        "user": "xRachelx",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 34,
+        "ratio": 0
+      },
+      {
+        "user": "TrinaBoBina",
+        "team": "Reindeer",
+        "attacks": 21,
+        "hitsTaken": 5,
+        "ratio": 4.2
+      },
+      {
+        "user": "IcyWifeyQueen",
+        "team": "Reindeer",
+        "attacks": 12,
+        "hitsTaken": 13,
+        "ratio": 0.9230769230769231
+      },
+      {
+        "user": "RockStar_Olivia",
+        "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 17,
+        "ratio": 0.058823529411764705
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 12,
+        "hitsTaken": 3,
+        "ratio": 4
+      },
+      {
+        "user": "Guest10145100",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-15",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-20T14:15:15.000Z",
