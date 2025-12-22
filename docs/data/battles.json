@@ -6522,6 +6522,69 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-23",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2025-12-21T23:40:13.000Z",
+    "end": "2025-12-21T23:48:25.000Z",
+    "durationMinutes": 8,
+    "hitCount": 43,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 43
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "FreakyGoldenOnion",
+        "team": "Penguin",
+        "hitsTaken": 22
+      },
+      {
+        "user": "hermes",
+        "team": "Penguin",
+        "hitsTaken": 17
+      },
+      {
+        "user": "-StrawberryAvalanche-",
+        "team": "Penguin",
+        "hitsTaken": 4
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 43,
+        "hitsTaken": 0,
+        "ratio": 43
+      },
+      {
+        "user": "FreakyGoldenOnion",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 22,
+        "ratio": 0
+      },
+      {
+        "user": "hermes",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 17,
+        "ratio": 0
+      },
+      {
+        "user": "-StrawberryAvalanche-",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 4,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Lost Safari Party-1",
     "roomName": "Lost Safari Party",
     "start": "2025-12-21T10:05:19.000Z",
