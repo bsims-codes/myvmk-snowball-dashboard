@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-22T18:27:12.392Z",
-  "totalRows": 13535,
-  "totalUsers": 257,
+  "generatedAt": "2025-12-22T19:15:38.733Z",
+  "totalRows": 13547,
+  "totalUsers": 258,
   "teamStats": {
     "Penguin": {
-      "users": 115,
-      "attacks": 8051,
-      "hitsTaken": 5484
+      "users": 116,
+      "attacks": 8053,
+      "hitsTaken": 5494
     },
     "Reindeer": {
       "users": 142,
-      "attacks": 5484,
-      "hitsTaken": 8051
+      "attacks": 5494,
+      "hitsTaken": 8053
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 8051
+      "count": 8053
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 5484
+      "count": 5494
     }
   ],
   "topAttackers": [
@@ -67,7 +67,7 @@
     },
     {
       "user": "Kronkx",
-      "attacks": 474,
+      "attacks": 476,
       "team": "Reindeer"
     },
     {
@@ -234,7 +234,7 @@
     },
     {
       "user": "Kronkx",
-      "hitsTaken": 200,
+      "hitsTaken": 202,
       "team": "Reindeer"
     },
     {
@@ -357,9 +357,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 474,
-      "hitsTaken": 200,
-      "ratio": 2.37
+      "attacks": 476,
+      "hitsTaken": 202,
+      "ratio": 2.3564356435643563
     },
     {
       "user": "Luckymaxer",
@@ -581,9 +581,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 99,
+      "attacks": 101,
       "hitsTaken": 58,
-      "ratio": 1.706896551724138
+      "ratio": 1.7413793103448276
     },
     {
       "user": "Bernie",
@@ -642,6 +642,13 @@
       "ratio": 2
     },
     {
+      "user": "SoopaVillain",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 118,
+      "ratio": 0
+    },
+    {
       "user": "AtziriDayre",
       "team": "Reindeer",
       "attacks": 0,
@@ -661,13 +668,6 @@
       "attacks": 32,
       "hitsTaken": 78,
       "ratio": 0.41025641025641024
-    },
-    {
-      "user": "SoopaVillain",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 109,
-      "ratio": 0
     },
     {
       "user": "Rex",
@@ -1153,6 +1153,13 @@
       "ratio": 0.13636363636363635
     },
     {
+      "user": "rockin_rachael",
+      "team": "Reindeer",
+      "attacks": 12,
+      "hitsTaken": 12,
+      "ratio": 1
+    },
+    {
       "user": "SpookyPookie",
       "team": "Reindeer",
       "attacks": 3,
@@ -1270,13 +1277,6 @@
       "attacks": 0,
       "hitsTaken": 17,
       "ratio": 0
-    },
-    {
-      "user": "rockin_rachael",
-      "team": "Reindeer",
-      "attacks": 4,
-      "hitsTaken": 12,
-      "ratio": 0.3333333333333333
     },
     {
       "user": "GelatinfishJr",
@@ -2082,34 +2082,41 @@
       "attacks": 0,
       "hitsTaken": 1,
       "ratio": 0
+    },
+    {
+      "user": "KingdomKeeperArg",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 1,
+      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.47103200275615215,
-      "intercept": 27.85829510776452,
+      "slope": 0.4712589370084921,
+      "intercept": 27.763004574984333,
       "xMin": 0,
       "xMax": 1114,
-      "y1": 27.85829510776452,
-      "y2": 552.587946178118,
+      "y1": 27.763004574984333,
+      "y2": 552.7454604024445,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2805441449718585,
-      "intercept": 28.046426859404935,
+      "slope": 0.28090975896387566,
+      "intercept": 27.860635440206117,
       "xMin": 0,
       "xMax": 1114,
-      "y1": 28.046426859404935,
-      "y2": 340.5726043580553,
+      "y1": 27.860635440206117,
+      "y2": 340.7941069259636,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.834516498438475,
-      "intercept": 24.468391003967632,
+      "slope": 0.8343886864116219,
+      "intercept": 24.428651808834857,
       "xMin": 0,
       "xMax": 1114,
-      "y1": 24.468391003967632,
-      "y2": 954.1197702644288,
+      "y1": 24.428651808834857,
+      "y2": 953.9376484713816,
       "label": "Reindeer"
     }
   },
