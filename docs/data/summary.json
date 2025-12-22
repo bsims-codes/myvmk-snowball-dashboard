@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2025-12-22T14:18:41.367Z",
-  "totalRows": 13019,
+  "generatedAt": "2025-12-22T15:19:40.269Z",
+  "totalRows": 13021,
   "totalUsers": 254,
   "teamStats": {
     "Penguin": {
       "users": 115,
       "attacks": 7589,
-      "hitsTaken": 5430
+      "hitsTaken": 5432
     },
     "Reindeer": {
       "users": 139,
-      "attacks": 5430,
+      "attacks": 5432,
       "hitsTaken": 7589
     },
     "Unknown": {
@@ -26,7 +26,7 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 5430
+      "count": 5432
     }
   ],
   "topAttackers": [
@@ -117,7 +117,7 @@
     },
     {
       "user": "PuffyOldDragon",
-      "attacks": 245,
+      "attacks": 247,
       "team": "Reindeer"
     },
     {
@@ -274,7 +274,7 @@
     },
     {
       "user": "mikgriz",
-      "hitsTaken": 144,
+      "hitsTaken": 145,
       "team": "Penguin"
     },
     {
@@ -400,8 +400,8 @@
       "user": "mikgriz",
       "team": "Penguin",
       "attacks": 299,
-      "hitsTaken": 144,
-      "ratio": 2.076388888888889
+      "hitsTaken": 145,
+      "ratio": 2.0620689655172413
     },
     {
       "user": "bunny",
@@ -420,9 +420,9 @@
     {
       "user": "PuffyOldDragon",
       "team": "Reindeer",
-      "attacks": 245,
+      "attacks": 247,
       "hitsTaken": 162,
-      "ratio": 1.5123456790123457
+      "ratio": 1.5246913580246915
     },
     {
       "user": "SpideyxLei",
@@ -575,8 +575,8 @@
       "user": "bsims",
       "team": "Penguin",
       "attacks": 133,
-      "hitsTaken": 22,
-      "ratio": 6.045454545454546
+      "hitsTaken": 23,
+      "ratio": 5.782608695652174
     },
     {
       "user": "JustForFun",
@@ -2065,30 +2065,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.49893059370419784,
-      "intercept": 25.682766143956883,
+      "slope": 0.4989637469725759,
+      "intercept": 25.685012010512164,
       "xMin": 0,
       "xMax": 1114,
-      "y1": 25.682766143956883,
-      "y2": 581.4914475304333,
+      "y1": 25.685012010512164,
+      "y2": 581.5306261379617,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.29661321877588465,
-      "intercept": 27.6434981105201,
+      "slope": 0.29671364230166997,
+      "intercept": 27.654262335414145,
       "xMin": 0,
       "xMax": 1114,
-      "y1": 27.6434981105201,
-      "y2": 358.0706238268556,
+      "y1": 27.654262335414145,
+      "y2": 358.1932598594745,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.8425001930012157,
-      "intercept": 21.685064402902153,
+      "slope": 0.8422411443038813,
+      "intercept": 21.683065497419545,
       "xMin": 0,
       "xMax": 1114,
-      "y1": 21.685064402902153,
-      "y2": 960.2302794062565,
+      "y1": 21.683065497419545,
+      "y2": 959.9397002519433,
       "label": "Reindeer"
     }
   },
@@ -2137,8 +2137,8 @@
     },
     {
       "roomName": "Matterhorn",
-      "hitCount": 422,
-      "avgUserRatio": 1.41,
+      "hitCount": 424,
+      "avgUserRatio": 1.43,
       "activeUsers": 84
     },
     {
