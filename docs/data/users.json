@@ -65,9 +65,9 @@
   {
     "user": "Luckymaxer",
     "team": "Penguin",
-    "attacks": 452,
+    "attacks": 453,
     "hitsTaken": 161,
-    "ratio": 2.8074534161490683
+    "ratio": 2.813664596273292
   },
   {
     "user": "MagicMinnieMare",
@@ -262,8 +262,8 @@
     "user": "TaterTotCasserole",
     "team": "Penguin",
     "attacks": 82,
-    "hitsTaken": 41,
-    "ratio": 2
+    "hitsTaken": 43,
+    "ratio": 1.9069767441860466
   },
   {
     "user": "Cloudyblue",
@@ -350,18 +350,18 @@
     "ratio": 1.1538461538461537
   },
   {
+    "user": "feeheeheeny",
+    "team": "Penguin",
+    "attacks": 45,
+    "hitsTaken": 15,
+    "ratio": 3
+  },
+  {
     "user": "AstroVioletRose",
     "team": "Reindeer",
     "attacks": 44,
     "hitsTaken": 8,
     "ratio": 5.5
-  },
-  {
-    "user": "feeheeheeny",
-    "team": "Penguin",
-    "attacks": 40,
-    "hitsTaken": 15,
-    "ratio": 2.6666666666666665
   },
   {
     "user": "jenn",
@@ -385,18 +385,18 @@
     "ratio": 0.04742547425474255
   },
   {
+    "user": "Myth",
+    "team": "Reindeer",
+    "attacks": 33,
+    "hitsTaken": 46,
+    "ratio": 0.717391304347826
+  },
+  {
     "user": "shelbitb",
     "team": "Reindeer",
     "attacks": 32,
     "hitsTaken": 56,
     "ratio": 0.5714285714285714
-  },
-  {
-    "user": "Myth",
-    "team": "Reindeer",
-    "attacks": 32,
-    "hitsTaken": 43,
-    "ratio": 0.7441860465116279
   },
   {
     "user": "alphablue",
@@ -756,6 +756,13 @@
     "ratio": 0.05102040816326531
   },
   {
+    "user": "Rez",
+    "team": "Reindeer",
+    "attacks": 5,
+    "hitsTaken": 2,
+    "ratio": 2.5
+  },
+  {
     "user": "sushi",
     "team": "Reindeer",
     "attacks": 5,
@@ -831,13 +838,6 @@
     "attacks": 3,
     "hitsTaken": 5,
     "ratio": 0.6
-  },
-  {
-    "user": "Rez",
-    "team": "Reindeer",
-    "attacks": 3,
-    "hitsTaken": 2,
-    "ratio": 1.5
   },
   {
     "user": "TinkerbellNat",
@@ -1312,7 +1312,7 @@
     "user": "Evillyn",
     "team": "Reindeer",
     "attacks": 0,
-    "hitsTaken": 3,
+    "hitsTaken": 6,
     "ratio": 0
   },
   {
@@ -1807,6 +1807,13 @@
   },
   {
     "user": "KingdomKeeperArg",
+    "team": "Penguin",
+    "attacks": 0,
+    "hitsTaken": 1,
+    "ratio": 0
+  },
+  {
+    "user": "xXSpaceMtnDrewXx",
     "team": "Penguin",
     "attacks": 0,
     "hitsTaken": 1,
