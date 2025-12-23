@@ -8795,6 +8795,93 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-32",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2025-12-23T13:39:47.000Z",
+    "end": "2025-12-23T13:45:01.000Z",
+    "durationMinutes": 5,
+    "hitCount": 39,
+    "uniqueUsers": 6,
+    "topAttackers": [
+      {
+        "user": "rockin_rachael",
+        "team": "Reindeer",
+        "attacks": 23
+      },
+      {
+        "user": "OGBlondie_",
+        "team": "Penguin",
+        "attacks": 7
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 5
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "hitsTaken": 20
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "hitsTaken": 7
+      },
+      {
+        "user": "rockin_rachael",
+        "team": "Reindeer",
+        "hitsTaken": 6
+      }
+    ],
+    "participants": [
+      {
+        "user": "rockin_rachael",
+        "team": "Reindeer",
+        "attacks": 23,
+        "hitsTaken": 6,
+        "ratio": 3.8333333333333335
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 5,
+        "hitsTaken": 20,
+        "ratio": 0.25
+      },
+      {
+        "user": "OGBlondie_",
+        "team": "Penguin",
+        "attacks": 7,
+        "hitsTaken": 5,
+        "ratio": 1.4
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 2,
+        "hitsTaken": 7,
+        "ratio": 0.2857142857142857
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 2,
+        "hitsTaken": 0,
+        "ratio": 2
+      },
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Monorail Station-2",
     "roomName": "Monorail Station",
     "start": "2025-12-19T15:10:01.000Z",
