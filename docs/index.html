@@ -378,6 +378,13 @@
         background: var(--hover-bg);
       }
 
+      .header-controls {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 8px;
+      }
+
       /* Date inputs */
       .toolbar input[type="date"] {
         padding: 5px 8px;
@@ -748,17 +755,19 @@
         <img src="./snowy-logo.png" alt="Snowball Fight" class="logo" />
       </div>
       <div class="team-stats" id="teamStats"></div>
-      <div class="data-mode-indicator">
-        <span class="data-mode-label">Data:</span>
-        <div class="data-toggle">
-          <button class="data-toggle-btn active" id="dataModeLive" title="View live data">Live</button>
-          <button class="data-toggle-btn" id="dataModePreReset" title="View pre-reset historical data">Pre-Reset</button>
+      <div class="header-controls">
+        <button class="theme-toggle" id="themeToggle" title="Toggle dark mode">🌙</button>
+        <button class="chip-btn" id="refreshDataBtn" title="Refresh data from API" style="display:flex;align-items:center;gap:4px;">
+          <span id="refreshIcon">🔄</span> Refresh
+        </button>
+        <div class="data-mode-indicator">
+          <span class="data-mode-label">Data:</span>
+          <div class="data-toggle">
+            <button class="data-toggle-btn active" id="dataModeLive" title="View live data">Live</button>
+            <button class="data-toggle-btn" id="dataModePreReset" title="View pre-reset historical data">Pre-Reset</button>
+          </div>
         </div>
       </div>
-      <button class="chip-btn" id="refreshDataBtn" title="Refresh data from API" style="display:flex;align-items:center;gap:4px;">
-        <span id="refreshIcon">🔄</span> Refresh
-      </button>
-      <button class="theme-toggle" id="themeToggle" title="Toggle dark mode">🌙</button>
     </div>
 
     <div id="fallbackBanner" class="fallback-banner" style="display:none;"></div>
