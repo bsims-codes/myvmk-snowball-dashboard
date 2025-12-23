@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-23T20:19:38.333Z",
-  "totalRows": 14906,
+  "generatedAt": "2025-12-23T21:17:02.096Z",
+  "totalRows": 14938,
   "totalUsers": 279,
   "teamStats": {
     "Penguin": {
       "users": 127,
-      "attacks": 8872,
+      "attacks": 8904,
       "hitsTaken": 6034
     },
     "Reindeer": {
       "users": 152,
       "attacks": 6034,
-      "hitsTaken": 8872
+      "hitsTaken": 8904
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 8872
+      "count": 8904
     },
     {
       "pair": "Reindeer → Penguin",
@@ -635,6 +635,13 @@
       "ratio": 1.3278688524590163
     },
     {
+      "user": "feeheeheeny",
+      "team": "Penguin",
+      "attacks": 107,
+      "hitsTaken": 28,
+      "ratio": 3.8214285714285716
+    },
+    {
       "user": "TinkerbellNat",
       "team": "Reindeer",
       "attacks": 3,
@@ -684,6 +691,13 @@
       "ratio": 0.3181818181818182
     },
     {
+      "user": "rockin_rachael",
+      "team": "Reindeer",
+      "attacks": 46,
+      "hitsTaken": 67,
+      "ratio": 0.6865671641791045
+    },
+    {
       "user": "alphablue",
       "team": "Reindeer",
       "attacks": 32,
@@ -710,13 +724,6 @@
       "attacks": 63,
       "hitsTaken": 41,
       "ratio": 1.5365853658536586
-    },
-    {
-      "user": "feeheeheeny",
-      "team": "Penguin",
-      "attacks": 75,
-      "hitsTaken": 28,
-      "ratio": 2.6785714285714284
     },
     {
       "user": "MrChemistry",
@@ -808,13 +815,6 @@
       "attacks": 47,
       "hitsTaken": 35,
       "ratio": 1.3428571428571427
-    },
-    {
-      "user": "rockin_rachael",
-      "team": "Reindeer",
-      "attacks": 46,
-      "hitsTaken": 35,
-      "ratio": 1.3142857142857143
     },
     {
       "user": "Redsox",
@@ -2240,30 +2240,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.4396301097628176,
-      "intercept": 29.93861499596932,
+      "slope": 0.4393003853901637,
+      "intercept": 30.02054065606357,
       "xMin": 0,
       "xMax": 1114,
-      "y1": 29.93861499596932,
-      "y2": 519.6865572717481,
+      "y1": 30.02054065606357,
+      "y2": 519.401169980706,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.276072922308343,
-      "intercept": 28.225834907719534,
+      "slope": 0.2758251103367173,
+      "intercept": 28.173647382376924,
       "xMin": 0,
       "xMax": 1114,
-      "y1": 28.225834907719534,
-      "y2": 335.7710703592137,
+      "y1": 28.173647382376924,
+      "y2": 335.44282029748,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.744627257093328,
-      "intercept": 28.80867849143986,
+      "slope": 0.7447142293771654,
+      "intercept": 29.01575223643542,
       "xMin": 0,
       "xMax": 1114,
-      "y1": 28.80867849143986,
-      "y2": 858.3234428934072,
+      "y1": 29.01575223643542,
+      "y2": 858.6274037625976,
       "label": "Reindeer"
     }
   },
@@ -2383,6 +2383,12 @@
       "activeUsers": 20
     },
     {
+      "roomName": "Storybookland",
+      "hitCount": 74,
+      "avgUserRatio": 3.26,
+      "activeUsers": 18
+    },
+    {
       "roomName": "Explorer's Tent",
       "hitCount": 65,
       "avgUserRatio": 4.41,
@@ -2411,12 +2417,6 @@
       "hitCount": 56,
       "avgUserRatio": 6.88,
       "activeUsers": 8
-    },
-    {
-      "roomName": "Jungle Cruise Dock",
-      "hitCount": 52,
-      "avgUserRatio": 2.5,
-      "activeUsers": 14
     }
   ]
 }

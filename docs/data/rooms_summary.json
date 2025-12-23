@@ -114,6 +114,12 @@
     "activeUsers": 20
   },
   {
+    "roomName": "Storybookland",
+    "hitCount": 74,
+    "avgUserRatio": 3.26,
+    "activeUsers": 18
+  },
+  {
     "roomName": "Explorer's Tent",
     "hitCount": 65,
     "avgUserRatio": 4.41,
@@ -160,12 +166,6 @@
     "hitCount": 49,
     "avgUserRatio": 1.04,
     "activeUsers": 17
-  },
-  {
-    "roomName": "Storybookland",
-    "hitCount": 42,
-    "avgUserRatio": 1.67,
-    "activeUsers": 16
   },
   {
     "roomName": "Frontierland Hub",
