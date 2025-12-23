@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 4340,
-    "avgUserRatio": 1.19,
-    "activeUsers": 122
+    "hitCount": 4513,
+    "avgUserRatio": 1.26,
+    "activeUsers": 124
   },
   {
     "roomName": "Town Square",
@@ -13,9 +13,9 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1253,
-    "avgUserRatio": 1.99,
-    "activeUsers": 112
+    "hitCount": 1281,
+    "avgUserRatio": 1.92,
+    "activeUsers": 115
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -37,7 +37,7 @@
   },
   {
     "roomName": "Dungeon",
-    "hitCount": 473,
+    "hitCount": 474,
     "avgUserRatio": 3.07,
     "activeUsers": 41
   },
@@ -55,14 +55,14 @@
   },
   {
     "roomName": "Snow White Hide 'n Seek Forest",
-    "hitCount": 204,
-    "avgUserRatio": 3.12,
-    "activeUsers": 24
+    "hitCount": 205,
+    "avgUserRatio": 3.01,
+    "activeUsers": 25
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 198,
-    "avgUserRatio": 2.6,
+    "hitCount": 200,
+    "avgUserRatio": 2.61,
     "activeUsers": 38
   },
   {
@@ -79,9 +79,9 @@
   },
   {
     "roomName": "Shrunken Ned's Shop",
-    "hitCount": 151,
-    "avgUserRatio": 8.85,
-    "activeUsers": 17
+    "hitCount": 153,
+    "avgUserRatio": 8.03,
+    "activeUsers": 19
   },
   {
     "roomName": "Tomorrowland Hub",
@@ -228,6 +228,12 @@
     "activeUsers": 4
   },
   {
+    "roomName": "Nautilus Grotto",
+    "hitCount": 22,
+    "avgUserRatio": 1.7,
+    "activeUsers": 9
+  },
+  {
     "roomName": "Space Mountain Quest Deck",
     "hitCount": 22,
     "avgUserRatio": 0.89,
@@ -238,12 +244,6 @@
     "hitCount": 21,
     "avgUserRatio": 3.36,
     "activeUsers": 6
-  },
-  {
-    "roomName": "Nautilus Grotto",
-    "hitCount": 19,
-    "avgUserRatio": 1.61,
-    "activeUsers": 9
   },
   {
     "roomName": "Street Party Music Game Lobby",
@@ -312,7 +312,19 @@
     "activeUsers": 4
   },
   {
+    "roomName": "Gibbons",
+    "hitCount": 5,
+    "avgUserRatio": 0.88,
+    "activeUsers": 4
+  },
+  {
     "roomName": "Star Commander Lobby",
+    "hitCount": 3,
+    "avgUserRatio": 0.75,
+    "activeUsers": 4
+  },
+  {
+    "roomName": "Mark Twain",
     "hitCount": 3,
     "avgUserRatio": 0.75,
     "activeUsers": 4
@@ -328,12 +340,6 @@
     "hitCount": 2,
     "avgUserRatio": 0.67,
     "activeUsers": 3
-  },
-  {
-    "roomName": "Mark Twain",
-    "hitCount": 2,
-    "avgUserRatio": 1,
-    "activeUsers": 2
   },
   {
     "roomName": "Autopia Space Race",
@@ -355,12 +361,6 @@
   },
   {
     "roomName": "Discovery Trading Company",
-    "hitCount": 1,
-    "avgUserRatio": 0.5,
-    "activeUsers": 2
-  },
-  {
-    "roomName": "Gibbons",
     "hitCount": 1,
     "avgUserRatio": 0.5,
     "activeUsers": 2
