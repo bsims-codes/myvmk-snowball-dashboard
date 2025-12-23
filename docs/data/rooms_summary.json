@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 4584,
-    "avgUserRatio": 1.27,
-    "activeUsers": 128
+    "hitCount": 4597,
+    "avgUserRatio": 1.26,
+    "activeUsers": 129
   },
   {
     "roomName": "Town Square",
@@ -49,9 +49,9 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 240,
-    "avgUserRatio": 2.13,
-    "activeUsers": 48
+    "hitCount": 258,
+    "avgUserRatio": 2,
+    "activeUsers": 50
   },
   {
     "roomName": "Epcot Entrance",
@@ -144,16 +144,16 @@
     "activeUsers": 8
   },
   {
+    "roomName": "Jungle Cruise Dock",
+    "hitCount": 52,
+    "avgUserRatio": 2.5,
+    "activeUsers": 14
+  },
+  {
     "roomName": "Castle Forecourt",
     "hitCount": 51,
     "avgUserRatio": 1.56,
     "activeUsers": 23
-  },
-  {
-    "roomName": "Jungle Cruise Dock",
-    "hitCount": 51,
-    "avgUserRatio": 2.65,
-    "activeUsers": 13
   },
   {
     "roomName": "Autopia Off Road on Mars",
