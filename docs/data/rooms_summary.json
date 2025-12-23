@@ -1,21 +1,27 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 4513,
-    "avgUserRatio": 1.26,
-    "activeUsers": 124
+    "hitCount": 4570,
+    "avgUserRatio": 1.29,
+    "activeUsers": 127
   },
   {
     "roomName": "Town Square",
-    "hitCount": 2583,
-    "avgUserRatio": 1.76,
-    "activeUsers": 120
+    "hitCount": 2597,
+    "avgUserRatio": 1.71,
+    "activeUsers": 126
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1281,
+    "hitCount": 1282,
     "avgUserRatio": 1.92,
     "activeUsers": 115
+  },
+  {
+    "roomName": "Matterhorn",
+    "hitCount": 960,
+    "avgUserRatio": 1.73,
+    "activeUsers": 123
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -25,9 +31,9 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 548,
-    "avgUserRatio": 1.71,
-    "activeUsers": 50
+    "hitCount": 562,
+    "avgUserRatio": 1.7,
+    "activeUsers": 53
   },
   {
     "roomName": "Monorail Station",
@@ -37,32 +43,26 @@
   },
   {
     "roomName": "Dungeon",
-    "hitCount": 474,
-    "avgUserRatio": 3.07,
+    "hitCount": 476,
+    "avgUserRatio": 3.06,
     "activeUsers": 41
   },
   {
-    "roomName": "Matterhorn",
-    "hitCount": 432,
-    "avgUserRatio": 1.4,
-    "activeUsers": 85
-  },
-  {
     "roomName": "VMK Esplanade",
-    "hitCount": 208,
-    "avgUserRatio": 2.17,
-    "activeUsers": 42
+    "hitCount": 221,
+    "avgUserRatio": 2.15,
+    "activeUsers": 48
   },
   {
     "roomName": "Snow White Hide 'n Seek Forest",
-    "hitCount": 205,
-    "avgUserRatio": 3.01,
-    "activeUsers": 25
+    "hitCount": 208,
+    "avgUserRatio": 2.88,
+    "activeUsers": 27
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 200,
-    "avgUserRatio": 2.61,
+    "hitCount": 201,
+    "avgUserRatio": 2.64,
     "activeUsers": 38
   },
   {
@@ -85,15 +85,15 @@
   },
   {
     "roomName": "Tomorrowland Hub",
-    "hitCount": 125,
-    "avgUserRatio": 1.45,
-    "activeUsers": 26
+    "hitCount": 149,
+    "avgUserRatio": 1.4,
+    "activeUsers": 29
   },
   {
     "roomName": "New Orleans Square",
-    "hitCount": 97,
-    "avgUserRatio": 2.53,
-    "activeUsers": 15
+    "hitCount": 113,
+    "avgUserRatio": 3.17,
+    "activeUsers": 17
   },
   {
     "roomName": "Pixar Pier Entrance",
@@ -126,16 +126,16 @@
     "activeUsers": 19
   },
   {
+    "roomName": "VMK Gallery",
+    "hitCount": 58,
+    "avgUserRatio": 1.14,
+    "activeUsers": 20
+  },
+  {
     "roomName": "Autopia Quest Track",
     "hitCount": 57,
     "avgUserRatio": 3.07,
     "activeUsers": 14
-  },
-  {
-    "roomName": "VMK Gallery",
-    "hitCount": 57,
-    "avgUserRatio": 1.19,
-    "activeUsers": 19
   },
   {
     "roomName": "Lost Safari Party",
@@ -192,6 +192,12 @@
     "activeUsers": 14
   },
   {
+    "roomName": "Mickey's Courtyard",
+    "hitCount": 29,
+    "avgUserRatio": 1.24,
+    "activeUsers": 9
+  },
+  {
     "roomName": "VMK Central",
     "hitCount": 29,
     "avgUserRatio": 1.06,
@@ -202,12 +208,6 @@
     "hitCount": 27,
     "avgUserRatio": 1.5,
     "activeUsers": 18
-  },
-  {
-    "roomName": "Mickey's Courtyard",
-    "hitCount": 27,
-    "avgUserRatio": 1.31,
-    "activeUsers": 7
   },
   {
     "roomName": "Sci-Fi Dine-In",
@@ -246,6 +246,12 @@
     "activeUsers": 6
   },
   {
+    "roomName": "WS - America",
+    "hitCount": 20,
+    "avgUserRatio": 1.03,
+    "activeUsers": 6
+  },
+  {
     "roomName": "Street Party Music Game Lobby",
     "hitCount": 18,
     "avgUserRatio": 2.17,
@@ -271,9 +277,9 @@
   },
   {
     "roomName": "Anandapur",
-    "hitCount": 9,
-    "avgUserRatio": 1.8,
-    "activeUsers": 5
+    "hitCount": 11,
+    "avgUserRatio": 1.22,
+    "activeUsers": 9
   },
   {
     "roomName": "Inner-Space Shop",
@@ -318,6 +324,12 @@
     "activeUsers": 4
   },
   {
+    "roomName": "Everest Entrance",
+    "hitCount": 4,
+    "avgUserRatio": 1,
+    "activeUsers": 4
+  },
+  {
     "roomName": "Star Commander Lobby",
     "hitCount": 3,
     "avgUserRatio": 0.75,
@@ -354,13 +366,13 @@
     "activeUsers": 2
   },
   {
-    "roomName": "Everest Entrance",
+    "roomName": "Discovery Trading Company",
     "hitCount": 1,
     "avgUserRatio": 0.5,
     "activeUsers": 2
   },
   {
-    "roomName": "Discovery Trading Company",
+    "roomName": "Frontierland Dock",
     "hitCount": 1,
     "avgUserRatio": 0.5,
     "activeUsers": 2
