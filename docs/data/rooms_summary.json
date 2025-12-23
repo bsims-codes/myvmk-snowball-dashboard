@@ -121,14 +121,14 @@
   },
   {
     "roomName": "Pirate Treehouse",
-    "hitCount": 60,
-    "avgUserRatio": 1.37,
-    "activeUsers": 19
+    "hitCount": 62,
+    "avgUserRatio": 1.33,
+    "activeUsers": 20
   },
   {
     "roomName": "VMK Gallery",
-    "hitCount": 58,
-    "avgUserRatio": 1.14,
+    "hitCount": 59,
+    "avgUserRatio": 1.15,
     "activeUsers": 20
   },
   {
@@ -204,6 +204,12 @@
     "activeUsers": 9
   },
   {
+    "roomName": "Discovery Island",
+    "hitCount": 27,
+    "avgUserRatio": 2.08,
+    "activeUsers": 6
+  },
+  {
     "roomName": "Blue Bayou",
     "hitCount": 27,
     "avgUserRatio": 1.5,
@@ -216,16 +222,16 @@
     "activeUsers": 13
   },
   {
-    "roomName": "Discovery Island",
-    "hitCount": 25,
-    "avgUserRatio": 3.49,
-    "activeUsers": 5
-  },
-  {
     "roomName": "Inner-Space Ray Room",
     "hitCount": 24,
     "avgUserRatio": 1.08,
     "activeUsers": 4
+  },
+  {
+    "roomName": "Elephant Bathing Pool",
+    "hitCount": 23,
+    "avgUserRatio": 2.77,
+    "activeUsers": 8
   },
   {
     "roomName": "Nautilus Grotto",
@@ -238,12 +244,6 @@
     "hitCount": 22,
     "avgUserRatio": 0.89,
     "activeUsers": 9
-  },
-  {
-    "roomName": "Elephant Bathing Pool",
-    "hitCount": 21,
-    "avgUserRatio": 3.36,
-    "activeUsers": 6
   },
   {
     "roomName": "WS - America",

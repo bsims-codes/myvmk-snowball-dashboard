@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-23T19:15:45.429Z",
-  "totalRows": 14899,
+  "generatedAt": "2025-12-23T20:19:38.333Z",
+  "totalRows": 14906,
   "totalUsers": 279,
   "teamStats": {
     "Penguin": {
       "users": 127,
-      "attacks": 8870,
-      "hitsTaken": 6029
+      "attacks": 8872,
+      "hitsTaken": 6034
     },
     "Reindeer": {
       "users": 152,
-      "attacks": 6029,
-      "hitsTaken": 8870
+      "attacks": 6034,
+      "hitsTaken": 8872
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 8870
+      "count": 8872
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 6029
+      "count": 6034
     }
   ],
   "topAttackers": [
@@ -47,7 +47,7 @@
     },
     {
       "user": "Kronkx",
-      "attacks": 788,
+      "attacks": 793,
       "team": "Reindeer"
     },
     {
@@ -204,7 +204,7 @@
     },
     {
       "user": "Kronkx",
-      "hitsTaken": 272,
+      "hitsTaken": 274,
       "team": "Reindeer"
     },
     {
@@ -308,9 +308,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 788,
-      "hitsTaken": 272,
-      "ratio": 2.8970588235294117
+      "attacks": 793,
+      "hitsTaken": 274,
+      "ratio": 2.894160583941606
     },
     {
       "user": "Winnie",
@@ -712,6 +712,13 @@
       "ratio": 1.5365853658536586
     },
     {
+      "user": "feeheeheeny",
+      "team": "Penguin",
+      "attacks": 75,
+      "hitsTaken": 28,
+      "ratio": 2.6785714285714284
+    },
+    {
       "user": "MrChemistry",
       "team": "Penguin",
       "attacks": 82,
@@ -745,13 +752,6 @@
       "attacks": 32,
       "hitsTaken": 66,
       "ratio": 0.48484848484848486
-    },
-    {
-      "user": "feeheeheeny",
-      "team": "Penguin",
-      "attacks": 73,
-      "hitsTaken": 23,
-      "ratio": 3.1739130434782608
     },
     {
       "user": "dietdrkellp",
@@ -2240,30 +2240,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.43973297999896116,
-      "intercept": 29.919062118263366,
+      "slope": 0.4396301097628176,
+      "intercept": 29.93861499596932,
       "xMin": 0,
       "xMax": 1114,
-      "y1": 29.919062118263366,
-      "y2": 519.7816018371061,
+      "y1": 29.93861499596932,
+      "y2": 519.6865572717481,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27607984822031734,
-      "intercept": 28.190328710911693,
+      "slope": 0.276072922308343,
+      "intercept": 28.225834907719534,
       "xMin": 0,
       "xMax": 1114,
-      "y1": 28.190328710911693,
-      "y2": 335.7432796283452,
+      "y1": 28.225834907719534,
+      "y2": 335.7710703592137,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.7459320604677884,
-      "intercept": 28.76826057526121,
+      "slope": 0.744627257093328,
+      "intercept": 28.80867849143986,
       "xMin": 0,
       "xMax": 1114,
-      "y1": 28.76826057526121,
-      "y2": 859.7365759363774,
+      "y1": 28.80867849143986,
+      "y2": 858.3234428934072,
       "label": "Reindeer"
     }
   },
@@ -2390,14 +2390,14 @@
     },
     {
       "roomName": "Pirate Treehouse",
-      "hitCount": 60,
-      "avgUserRatio": 1.37,
-      "activeUsers": 19
+      "hitCount": 62,
+      "avgUserRatio": 1.33,
+      "activeUsers": 20
     },
     {
       "roomName": "VMK Gallery",
-      "hitCount": 58,
-      "avgUserRatio": 1.14,
+      "hitCount": 59,
+      "avgUserRatio": 1.15,
       "activeUsers": 20
     },
     {
