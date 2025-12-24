@@ -6702,6 +6702,107 @@
     ]
   },
   {
+    "id": "New Orleans Square-2",
+    "roomName": "New Orleans Square",
+    "start": "2025-12-24T15:08:56.000Z",
+    "end": "2025-12-24T15:21:09.000Z",
+    "durationMinutes": 12,
+    "hitCount": 80,
+    "uniqueUsers": 8,
+    "topAttackers": [
+      {
+        "user": "dizlindsey",
+        "team": "Reindeer",
+        "attacks": 57
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 6
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 6
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "B-Rex",
+        "team": "Penguin",
+        "hitsTaken": 55
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "hitsTaken": 11
+      },
+      {
+        "user": "dizlindsey",
+        "team": "Reindeer",
+        "hitsTaken": 5
+      }
+    ],
+    "participants": [
+      {
+        "user": "dizlindsey",
+        "team": "Reindeer",
+        "attacks": 57,
+        "hitsTaken": 5,
+        "ratio": 11.4
+      },
+      {
+        "user": "B-Rex",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 55,
+        "ratio": 0
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 6,
+        "hitsTaken": 11,
+        "ratio": 0.5454545454545454
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 6,
+        "hitsTaken": 4,
+        "ratio": 1.5
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 5,
+        "hitsTaken": 3,
+        "ratio": 1.6666666666666667
+      },
+      {
+        "user": "Asheroni",
+        "team": "Reindeer",
+        "attacks": 4,
+        "hitsTaken": 0,
+        "ratio": 4
+      },
+      {
+        "user": "MatthewC",
+        "team": "Reindeer",
+        "attacks": 2,
+        "hitsTaken": 1,
+        "ratio": 2
+      },
+      {
+        "user": "Myth",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Epcot Entrance-1",
     "roomName": "Epcot Entrance",
     "start": "2025-12-21T10:38:02.000Z",
@@ -7573,100 +7674,6 @@
         "attacks": 0,
         "hitsTaken": 1,
         "ratio": 0
-      }
-    ]
-  },
-  {
-    "id": "New Orleans Square-2",
-    "roomName": "New Orleans Square",
-    "start": "2025-12-24T15:08:56.000Z",
-    "end": "2025-12-24T15:19:23.000Z",
-    "durationMinutes": 10,
-    "hitCount": 67,
-    "uniqueUsers": 7,
-    "topAttackers": [
-      {
-        "user": "dizlindsey",
-        "team": "Reindeer",
-        "attacks": 53
-      },
-      {
-        "user": "JustForFun",
-        "team": "Penguin",
-        "attacks": 5
-      },
-      {
-        "user": "Asheroni",
-        "team": "Reindeer",
-        "attacks": 4
-      }
-    ],
-    "topVictims": [
-      {
-        "user": "B-Rex",
-        "team": "Penguin",
-        "hitsTaken": 51
-      },
-      {
-        "user": "JustForFun",
-        "team": "Penguin",
-        "hitsTaken": 9
-      },
-      {
-        "user": "dizlindsey",
-        "team": "Reindeer",
-        "hitsTaken": 4
-      }
-    ],
-    "participants": [
-      {
-        "user": "dizlindsey",
-        "team": "Reindeer",
-        "attacks": 53,
-        "hitsTaken": 4,
-        "ratio": 13.25
-      },
-      {
-        "user": "B-Rex",
-        "team": "Penguin",
-        "attacks": 0,
-        "hitsTaken": 51,
-        "ratio": 0
-      },
-      {
-        "user": "JustForFun",
-        "team": "Penguin",
-        "attacks": 5,
-        "hitsTaken": 9,
-        "ratio": 0.5555555555555556
-      },
-      {
-        "user": "Asheroni",
-        "team": "Reindeer",
-        "attacks": 4,
-        "hitsTaken": 0,
-        "ratio": 4
-      },
-      {
-        "user": "Kronkx",
-        "team": "Reindeer",
-        "attacks": 2,
-        "hitsTaken": 2,
-        "ratio": 1
-      },
-      {
-        "user": "MatthewC",
-        "team": "Reindeer",
-        "attacks": 2,
-        "hitsTaken": 0,
-        "ratio": 2
-      },
-      {
-        "user": "TaterTotCasserole",
-        "team": "Penguin",
-        "attacks": 1,
-        "hitsTaken": 1,
-        "ratio": 1
       }
     ]
   },
@@ -11191,6 +11198,67 @@
     ]
   },
   {
+    "id": "Banquet Hall-2",
+    "roomName": "Banquet Hall",
+    "start": "2025-12-24T15:42:40.000Z",
+    "end": "2025-12-24T15:48:06.000Z",
+    "durationMinutes": 5,
+    "hitCount": 39,
+    "uniqueUsers": 3,
+    "topAttackers": [
+      {
+        "user": "bsims",
+        "team": "Penguin",
+        "attacks": 33
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 5
+      },
+      {
+        "user": "aceair",
+        "team": "Reindeer",
+        "attacks": 1
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "aceair",
+        "team": "Reindeer",
+        "hitsTaken": 38
+      },
+      {
+        "user": "bsims",
+        "team": "Penguin",
+        "hitsTaken": 1
+      }
+    ],
+    "participants": [
+      {
+        "user": "aceair",
+        "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 38,
+        "ratio": 0.02631578947368421
+      },
+      {
+        "user": "bsims",
+        "team": "Penguin",
+        "attacks": 33,
+        "hitsTaken": 1,
+        "ratio": 33
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 5,
+        "hitsTaken": 0,
+        "ratio": 5
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-32",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-23T13:39:47.000Z",
@@ -11695,6 +11763,93 @@
       {
         "user": "CaptainBubbles",
         "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
+    "id": "Tiki Tiki Tiki Island-1",
+    "roomName": "Tiki Tiki Tiki Island",
+    "start": "2025-12-24T15:26:33.000Z",
+    "end": "2025-12-24T15:30:45.000Z",
+    "durationMinutes": 4,
+    "hitCount": 37,
+    "uniqueUsers": 6,
+    "topAttackers": [
+      {
+        "user": "dizlindsey",
+        "team": "Reindeer",
+        "attacks": 10
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 10
+      },
+      {
+        "user": "bsims",
+        "team": "Penguin",
+        "attacks": 6
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "dizlindsey",
+        "team": "Reindeer",
+        "hitsTaken": 18
+      },
+      {
+        "user": "bsims",
+        "team": "Penguin",
+        "hitsTaken": 7
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "hitsTaken": 6
+      }
+    ],
+    "participants": [
+      {
+        "user": "dizlindsey",
+        "team": "Reindeer",
+        "attacks": 10,
+        "hitsTaken": 18,
+        "ratio": 0.5555555555555556
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 10,
+        "hitsTaken": 6,
+        "ratio": 1.6666666666666667
+      },
+      {
+        "user": "bsims",
+        "team": "Penguin",
+        "attacks": 6,
+        "hitsTaken": 7,
+        "ratio": 0.8571428571428571
+      },
+      {
+        "user": "MatthewC",
+        "team": "Reindeer",
+        "attacks": 6,
+        "hitsTaken": 3,
+        "ratio": 2
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 4,
+        "hitsTaken": 3,
+        "ratio": 1.3333333333333333
+      },
+      {
+        "user": "Mali",
+        "team": "Penguin",
         "attacks": 1,
         "hitsTaken": 0,
         "ratio": 1
