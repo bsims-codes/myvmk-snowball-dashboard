@@ -1,21 +1,21 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 4994,
-    "avgUserRatio": 1.21,
-    "activeUsers": 139
+    "hitCount": 5072,
+    "avgUserRatio": 1.2,
+    "activeUsers": 143
   },
   {
     "roomName": "Town Square",
-    "hitCount": 3817,
-    "avgUserRatio": 1.24,
-    "activeUsers": 177
+    "hitCount": 3831,
+    "avgUserRatio": 1.23,
+    "activeUsers": 178
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1409,
-    "avgUserRatio": 1.72,
-    "activeUsers": 131
+    "hitCount": 1435,
+    "avgUserRatio": 1.71,
+    "activeUsers": 135
   },
   {
     "roomName": "Matterhorn",
@@ -31,9 +31,9 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 698,
-    "avgUserRatio": 1.45,
-    "activeUsers": 67
+    "hitCount": 749,
+    "avgUserRatio": 1.4,
+    "activeUsers": 71
   },
   {
     "roomName": "Monorail Station",
@@ -49,21 +49,21 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 404,
-    "avgUserRatio": 1.84,
+    "hitCount": 405,
+    "avgUserRatio": 1.85,
     "activeUsers": 69
   },
   {
     "roomName": "Frontierland Hub",
-    "hitCount": 219,
-    "avgUserRatio": 2.44,
-    "activeUsers": 30
+    "hitCount": 238,
+    "avgUserRatio": 1.38,
+    "activeUsers": 32
   },
   {
     "roomName": "Banquet Hall",
-    "hitCount": 216,
-    "avgUserRatio": 1.32,
-    "activeUsers": 28
+    "hitCount": 217,
+    "avgUserRatio": 1.27,
+    "activeUsers": 29
   },
   {
     "roomName": "Epcot Entrance",
@@ -84,6 +84,12 @@
     "activeUsers": 19
   },
   {
+    "roomName": "New Orleans Square",
+    "hitCount": 188,
+    "avgUserRatio": 2.79,
+    "activeUsers": 23
+  },
+  {
     "roomName": "Shrunken Ned's Shop",
     "hitCount": 156,
     "avgUserRatio": 7.07,
@@ -96,16 +102,16 @@
     "activeUsers": 31
   },
   {
-    "roomName": "New Orleans Square",
+    "roomName": "Pirate Treehouse",
     "hitCount": 121,
-    "avgUserRatio": 2.59,
-    "activeUsers": 20
+    "avgUserRatio": 1.53,
+    "activeUsers": 28
   },
   {
     "roomName": "WS - United Kingdom",
-    "hitCount": 104,
-    "avgUserRatio": 1.14,
-    "activeUsers": 23
+    "hitCount": 112,
+    "avgUserRatio": 1.11,
+    "activeUsers": 26
   },
   {
     "roomName": "Castle Forecourt",
@@ -114,16 +120,16 @@
     "activeUsers": 26
   },
   {
+    "roomName": "Gallery",
+    "hitCount": 98,
+    "avgUserRatio": 1.97,
+    "activeUsers": 25
+  },
+  {
     "roomName": "Pixar Pier Entrance",
     "hitCount": 95,
     "avgUserRatio": 1.46,
     "activeUsers": 26
-  },
-  {
-    "roomName": "Gallery",
-    "hitCount": 91,
-    "avgUserRatio": 1.83,
-    "activeUsers": 23
   },
   {
     "roomName": "Storybookland",
@@ -136,12 +142,6 @@
     "hitCount": 75,
     "avgUserRatio": 1.43,
     "activeUsers": 20
-  },
-  {
-    "roomName": "Pirate Treehouse",
-    "hitCount": 72,
-    "avgUserRatio": 1.3,
-    "activeUsers": 23
   },
   {
     "roomName": "Explorer's Tent",
@@ -186,6 +186,12 @@
     "activeUsers": 18
   },
   {
+    "roomName": "Blue Bayou",
+    "hitCount": 40,
+    "avgUserRatio": 1.82,
+    "activeUsers": 21
+  },
+  {
     "roomName": "Tiki Tiki Tiki Island",
     "hitCount": 40,
     "avgUserRatio": 2.88,
@@ -196,12 +202,6 @@
     "hitCount": 38,
     "avgUserRatio": 2.58,
     "activeUsers": 9
-  },
-  {
-    "roomName": "Blue Bayou",
-    "hitCount": 34,
-    "avgUserRatio": 1.66,
-    "activeUsers": 20
   },
   {
     "roomName": "WS - Norway",
@@ -385,6 +385,12 @@
   },
   {
     "roomName": "Frontierland Dock",
+    "hitCount": 1,
+    "avgUserRatio": 0.5,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "WS - France",
     "hitCount": 1,
     "avgUserRatio": 0.5,
     "activeUsers": 2
