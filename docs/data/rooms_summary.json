@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 4915,
+    "hitCount": 4948,
     "avgUserRatio": 1.22,
-    "activeUsers": 137
+    "activeUsers": 138
   },
   {
     "roomName": "Town Square",
@@ -25,9 +25,9 @@
   },
   {
     "roomName": "Fantasyland in The Sky",
-    "hitCount": 832,
-    "avgUserRatio": 2.22,
-    "activeUsers": 37
+    "hitCount": 844,
+    "avgUserRatio": 2.45,
+    "activeUsers": 38
   },
   {
     "roomName": "Central Plaza",
@@ -49,9 +49,9 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 390,
-    "avgUserRatio": 1.81,
-    "activeUsers": 66
+    "hitCount": 403,
+    "avgUserRatio": 1.85,
+    "activeUsers": 68
   },
   {
     "roomName": "Epcot Entrance",
@@ -108,16 +108,16 @@
     "activeUsers": 23
   },
   {
+    "roomName": "Storybookland",
+    "hitCount": 82,
+    "avgUserRatio": 3.1,
+    "activeUsers": 19
+  },
+  {
     "roomName": "Penny Arcade",
     "hitCount": 75,
     "avgUserRatio": 1.43,
     "activeUsers": 20
-  },
-  {
-    "roomName": "Storybookland",
-    "hitCount": 74,
-    "avgUserRatio": 3.26,
-    "activeUsers": 18
   },
   {
     "roomName": "Pirate Treehouse",
@@ -162,6 +162,12 @@
     "activeUsers": 14
   },
   {
+    "roomName": "Sci-Fi Dine-In",
+    "hitCount": 52,
+    "avgUserRatio": 2.16,
+    "activeUsers": 19
+  },
+  {
     "roomName": "Autopia Off Road on Mars",
     "hitCount": 50,
     "avgUserRatio": 0.99,
@@ -178,12 +184,6 @@
     "hitCount": 38,
     "avgUserRatio": 3.13,
     "activeUsers": 9
-  },
-  {
-    "roomName": "Sci-Fi Dine-In",
-    "hitCount": 36,
-    "avgUserRatio": 1.47,
-    "activeUsers": 17
   },
   {
     "roomName": "Blue Bayou",
