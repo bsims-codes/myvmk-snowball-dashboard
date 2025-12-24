@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 4948,
+    "hitCount": 4954,
     "avgUserRatio": 1.22,
     "activeUsers": 138
   },
@@ -73,9 +73,15 @@
   },
   {
     "roomName": "Monorail Train",
-    "hitCount": 179,
+    "hitCount": 181,
+    "avgUserRatio": 3.27,
+    "activeUsers": 16
+  },
+  {
+    "roomName": "Frontierland Hub",
+    "hitCount": 158,
     "avgUserRatio": 3.59,
-    "activeUsers": 14
+    "activeUsers": 17
   },
   {
     "roomName": "Shrunken Ned's Shop",
@@ -172,12 +178,6 @@
     "hitCount": 50,
     "avgUserRatio": 0.99,
     "activeUsers": 18
-  },
-  {
-    "roomName": "Frontierland Hub",
-    "hitCount": 38,
-    "avgUserRatio": 0.79,
-    "activeUsers": 10
   },
   {
     "roomName": "Tiki Tiki Tiki Island",

@@ -6807,6 +6807,86 @@
     ]
   },
   {
+    "id": "Frontierland Hub-2",
+    "roomName": "Frontierland Hub",
+    "start": "2025-12-23T23:40:03.000Z",
+    "end": "2025-12-23T23:51:18.000Z",
+    "durationMinutes": 11,
+    "hitCount": 76,
+    "uniqueUsers": 5,
+    "topAttackers": [
+      {
+        "user": "chloeandre",
+        "team": "Reindeer",
+        "attacks": 34
+      },
+      {
+        "user": "Redsox",
+        "team": "Reindeer",
+        "attacks": 23
+      },
+      {
+        "user": "FlyingLittleLemon",
+        "team": "Penguin",
+        "attacks": 14
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "FlyingLittleLemon",
+        "team": "Penguin",
+        "hitsTaken": 55
+      },
+      {
+        "user": "chloeandre",
+        "team": "Reindeer",
+        "hitsTaken": 14
+      },
+      {
+        "user": "Redsox",
+        "team": "Reindeer",
+        "hitsTaken": 5
+      }
+    ],
+    "participants": [
+      {
+        "user": "FlyingLittleLemon",
+        "team": "Penguin",
+        "attacks": 14,
+        "hitsTaken": 55,
+        "ratio": 0.2545454545454545
+      },
+      {
+        "user": "chloeandre",
+        "team": "Reindeer",
+        "attacks": 34,
+        "hitsTaken": 14,
+        "ratio": 2.4285714285714284
+      },
+      {
+        "user": "Redsox",
+        "team": "Reindeer",
+        "attacks": 23,
+        "hitsTaken": 5,
+        "ratio": 4.6
+      },
+      {
+        "user": "AmandaJeanne",
+        "team": "Penguin",
+        "attacks": 4,
+        "hitsTaken": 2,
+        "ratio": 2
+      },
+      {
+        "user": "goodcrystal",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Main Street-3",
     "roomName": "Main Street",
     "start": "2025-12-21T19:07:07.000Z",
@@ -9313,6 +9393,67 @@
         "attacks": 1,
         "hitsTaken": 0,
         "ratio": 1
+      }
+    ]
+  },
+  {
+    "id": "Frontierland Hub-3",
+    "roomName": "Frontierland Hub",
+    "start": "2025-12-24T00:00:12.000Z",
+    "end": "2025-12-24T00:06:25.000Z",
+    "durationMinutes": 6,
+    "hitCount": 44,
+    "uniqueUsers": 3,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 43
+      },
+      {
+        "user": "FlyingLittleLemon",
+        "team": "Penguin",
+        "attacks": 1
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "FlyingLittleLemon",
+        "team": "Penguin",
+        "hitsTaken": 41
+      },
+      {
+        "user": "blackoutvmk",
+        "team": "Penguin",
+        "hitsTaken": 2
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 1
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 43,
+        "hitsTaken": 1,
+        "ratio": 43
+      },
+      {
+        "user": "FlyingLittleLemon",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 41,
+        "ratio": 0.024390243902439025
+      },
+      {
+        "user": "blackoutvmk",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
       }
     ]
   },
