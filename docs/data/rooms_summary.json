@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 4954,
+    "hitCount": 4966,
     "avgUserRatio": 1.22,
     "activeUsers": 138
   },
@@ -19,9 +19,9 @@
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 983,
-    "avgUserRatio": 1.73,
-    "activeUsers": 123
+    "hitCount": 984,
+    "avgUserRatio": 1.71,
+    "activeUsers": 124
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -37,9 +37,9 @@
   },
   {
     "roomName": "Monorail Station",
-    "hitCount": 534,
-    "avgUserRatio": 2.37,
-    "activeUsers": 28
+    "hitCount": 537,
+    "avgUserRatio": 2.27,
+    "activeUsers": 30
   },
   {
     "roomName": "Dungeon",
@@ -66,16 +66,16 @@
     "activeUsers": 27
   },
   {
+    "roomName": "Monorail Train",
+    "hitCount": 189,
+    "avgUserRatio": 2.92,
+    "activeUsers": 19
+  },
+  {
     "roomName": "Banquet Hall",
     "hitCount": 188,
     "avgUserRatio": 1.33,
     "activeUsers": 22
-  },
-  {
-    "roomName": "Monorail Train",
-    "hitCount": 181,
-    "avgUserRatio": 3.27,
-    "activeUsers": 16
   },
   {
     "roomName": "Frontierland Hub",
@@ -97,9 +97,9 @@
   },
   {
     "roomName": "New Orleans Square",
-    "hitCount": 118,
-    "avgUserRatio": 3.1,
-    "activeUsers": 19
+    "hitCount": 121,
+    "avgUserRatio": 2.59,
+    "activeUsers": 20
   },
   {
     "roomName": "Pixar Pier Entrance",
@@ -181,8 +181,14 @@
   },
   {
     "roomName": "Tiki Tiki Tiki Island",
+    "hitCount": 40,
+    "avgUserRatio": 2.88,
+    "activeUsers": 10
+  },
+  {
+    "roomName": "Elephant Bathing Pool",
     "hitCount": 38,
-    "avgUserRatio": 3.13,
+    "avgUserRatio": 2.58,
     "activeUsers": 9
   },
   {
@@ -226,12 +232,6 @@
     "hitCount": 24,
     "avgUserRatio": 1.08,
     "activeUsers": 4
-  },
-  {
-    "roomName": "Elephant Bathing Pool",
-    "hitCount": 23,
-    "avgUserRatio": 2.77,
-    "activeUsers": 8
   },
   {
     "roomName": "Nautilus Grotto",

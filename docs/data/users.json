@@ -16,9 +16,9 @@
   {
     "user": "Kronkx",
     "team": "Reindeer",
-    "attacks": 1018,
-    "hitsTaken": 354,
-    "ratio": 2.8757062146892656
+    "attacks": 1045,
+    "hitsTaken": 368,
+    "ratio": 2.839673913043478
   },
   {
     "user": "Winnie",
@@ -322,6 +322,13 @@
     "ratio": 0.5343511450381679
   },
   {
+    "user": "AmandaJeanne",
+    "team": "Penguin",
+    "attacks": 65,
+    "hitsTaken": 56,
+    "ratio": 1.1607142857142858
+  },
+  {
     "user": "Rex",
     "team": "Reindeer",
     "attacks": 63,
@@ -341,13 +348,6 @@
     "attacks": 50,
     "hitsTaken": 56,
     "ratio": 0.8928571428571429
-  },
-  {
-    "user": "AmandaJeanne",
-    "team": "Penguin",
-    "attacks": 50,
-    "hitsTaken": 37,
-    "ratio": 1.3513513513513513
   },
   {
     "user": "Redsox",
@@ -763,6 +763,13 @@
     "ratio": 2
   },
   {
+    "user": "RockStar_Olivia",
+    "team": "Reindeer",
+    "attacks": 8,
+    "hitsTaken": 253,
+    "ratio": 0.03162055335968379
+  },
+  {
     "user": "miszpink_",
     "team": "Penguin",
     "attacks": 7,
@@ -810,13 +817,6 @@
     "attacks": 6,
     "hitsTaken": 66,
     "ratio": 0.09090909090909091
-  },
-  {
-    "user": "RockStar_Olivia",
-    "team": "Reindeer",
-    "attacks": 6,
-    "hitsTaken": 252,
-    "ratio": 0.023809523809523808
   },
   {
     "user": "icyblue",
@@ -1144,7 +1144,7 @@
     "user": "HappyToughFish",
     "team": "Penguin",
     "attacks": 0,
-    "hitsTaken": 159,
+    "hitsTaken": 162,
     "ratio": 0
   },
   {
@@ -1515,7 +1515,7 @@
     "user": "SoopaVillain",
     "team": "Penguin",
     "attacks": 0,
-    "hitsTaken": 119,
+    "hitsTaken": 126,
     "ratio": 0
   },
   {

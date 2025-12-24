@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-24T05:21:42.006Z",
-  "totalRows": 16542,
+  "generatedAt": "2025-12-24T06:29:49.711Z",
+  "totalRows": 16586,
   "totalUsers": 302,
   "teamStats": {
     "Penguin": {
       "users": 142,
-      "attacks": 9663,
-      "hitsTaken": 6879
+      "attacks": 9678,
+      "hitsTaken": 6908
     },
     "Reindeer": {
       "users": 160,
-      "attacks": 6879,
-      "hitsTaken": 9663
+      "attacks": 6908,
+      "hitsTaken": 9678
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 9663
+      "count": 9678
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 6879
+      "count": 6908
     }
   ],
   "topAttackers": [
@@ -42,7 +42,7 @@
     },
     {
       "user": "Kronkx",
-      "attacks": 1018,
+      "attacks": 1045,
       "team": "Reindeer"
     },
     {
@@ -188,13 +188,13 @@
       "team": "Penguin"
     },
     {
-      "user": "SammyxxFairy",
-      "hitsTaken": 360,
+      "user": "Kronkx",
+      "hitsTaken": 368,
       "team": "Reindeer"
     },
     {
-      "user": "Kronkx",
-      "hitsTaken": 354,
+      "user": "SammyxxFairy",
+      "hitsTaken": 360,
       "team": "Reindeer"
     },
     {
@@ -219,7 +219,7 @@
     },
     {
       "user": "RockStar_Olivia",
-      "hitsTaken": 252,
+      "hitsTaken": 253,
       "team": "Reindeer"
     },
     {
@@ -292,18 +292,18 @@
       "ratio": 1.1195979899497488
     },
     {
+      "user": "Kronkx",
+      "team": "Reindeer",
+      "attacks": 1045,
+      "hitsTaken": 368,
+      "ratio": 2.839673913043478
+    },
+    {
       "user": "kazino",
       "team": "Penguin",
       "attacks": 1160,
       "hitsTaken": 227,
       "ratio": 5.110132158590308
-    },
-    {
-      "user": "Kronkx",
-      "team": "Reindeer",
-      "attacks": 1018,
-      "hitsTaken": 354,
-      "ratio": 2.8757062146892656
     },
     {
       "user": "PepaRaindrops",
@@ -504,9 +504,9 @@
     {
       "user": "RockStar_Olivia",
       "team": "Reindeer",
-      "attacks": 6,
-      "hitsTaken": 252,
-      "ratio": 0.023809523809523808
+      "attacks": 8,
+      "hitsTaken": 253,
+      "ratio": 0.03162055335968379
     },
     {
       "user": "wildgirlpony",
@@ -631,7 +631,7 @@
       "user": "HappyToughFish",
       "team": "Penguin",
       "attacks": 0,
-      "hitsTaken": 159,
+      "hitsTaken": 162,
       "ratio": 0
     },
     {
@@ -698,11 +698,25 @@
       "ratio": 3.3448275862068964
     },
     {
+      "user": "SoopaVillain",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 126,
+      "ratio": 0
+    },
+    {
       "user": "TheOhanaGryphoness",
       "team": "Penguin",
       "attacks": 30,
       "hitsTaken": 95,
       "ratio": 0.3157894736842105
+    },
+    {
+      "user": "AmandaJeanne",
+      "team": "Penguin",
+      "attacks": 65,
+      "hitsTaken": 56,
+      "ratio": 1.1607142857142858
     },
     {
       "user": "MrChemistry",
@@ -714,13 +728,6 @@
     {
       "user": "AtziriDayre",
       "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 119,
-      "ratio": 0
-    },
-    {
-      "user": "SoopaVillain",
-      "team": "Penguin",
       "attacks": 0,
       "hitsTaken": 119,
       "ratio": 0
@@ -843,13 +850,6 @@
       "attacks": 46,
       "hitsTaken": 41,
       "ratio": 1.1219512195121952
-    },
-    {
-      "user": "AmandaJeanne",
-      "team": "Penguin",
-      "attacks": 50,
-      "hitsTaken": 37,
-      "ratio": 1.3513513513513513
     },
     {
       "user": "dizlindsey",
@@ -2401,37 +2401,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.4272786661855098,
-      "intercept": 31.37071623827582,
+      "slope": 0.427173260388068,
+      "intercept": 31.459948023852665,
       "xMin": 0,
       "xMax": 1160,
-      "y1": 31.37071623827582,
-      "y2": 527.0139690134672,
+      "y1": 31.459948023852665,
+      "y2": 526.9809300740116,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.28858979154571657,
-      "intercept": 28.805329889392542,
+      "slope": 0.28841831420525194,
+      "intercept": 28.990757430433604,
       "xMin": 0,
       "xMax": 1160,
-      "y1": 28.805329889392542,
-      "y2": 363.5694880824238,
+      "y1": 28.990757430433604,
+      "y2": 363.5560019085259,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.6694704622198577,
-      "intercept": 31.610704314934992,
+      "slope": 0.6649845249782423,
+      "intercept": 31.776793134064388,
       "xMin": 0,
       "xMax": 1160,
-      "y1": 31.610704314934992,
-      "y2": 808.19644048997,
+      "y1": 31.776793134064388,
+      "y2": 803.1588421088255,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 4954,
+      "hitCount": 4966,
       "avgUserRatio": 1.22,
       "activeUsers": 138
     },
@@ -2449,9 +2449,9 @@
     },
     {
       "roomName": "Matterhorn",
-      "hitCount": 983,
-      "avgUserRatio": 1.73,
-      "activeUsers": 123
+      "hitCount": 984,
+      "avgUserRatio": 1.71,
+      "activeUsers": 124
     },
     {
       "roomName": "Fantasyland in The Sky",
@@ -2467,9 +2467,9 @@
     },
     {
       "roomName": "Monorail Station",
-      "hitCount": 534,
-      "avgUserRatio": 2.37,
-      "activeUsers": 28
+      "hitCount": 537,
+      "avgUserRatio": 2.27,
+      "activeUsers": 30
     },
     {
       "roomName": "Dungeon",
@@ -2496,16 +2496,16 @@
       "activeUsers": 27
     },
     {
+      "roomName": "Monorail Train",
+      "hitCount": 189,
+      "avgUserRatio": 2.92,
+      "activeUsers": 19
+    },
+    {
       "roomName": "Banquet Hall",
       "hitCount": 188,
       "avgUserRatio": 1.33,
       "activeUsers": 22
-    },
-    {
-      "roomName": "Monorail Train",
-      "hitCount": 181,
-      "avgUserRatio": 3.27,
-      "activeUsers": 16
     },
     {
       "roomName": "Frontierland Hub",
@@ -2527,9 +2527,9 @@
     },
     {
       "roomName": "New Orleans Square",
-      "hitCount": 118,
-      "avgUserRatio": 3.1,
-      "activeUsers": 19
+      "hitCount": 121,
+      "avgUserRatio": 2.59,
+      "activeUsers": 20
     },
     {
       "roomName": "Pixar Pier Entrance",
