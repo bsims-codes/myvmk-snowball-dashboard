@@ -13,7 +13,7 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1457,
+    "hitCount": 1459,
     "avgUserRatio": 1.71,
     "activeUsers": 135
   },
@@ -204,6 +204,12 @@
     "activeUsers": 9
   },
   {
+    "roomName": "VMK Central",
+    "hitCount": 34,
+    "avgUserRatio": 1.12,
+    "activeUsers": 13
+  },
+  {
     "roomName": "WS - Norway",
     "hitCount": 33,
     "avgUserRatio": 6.6,
@@ -214,12 +220,6 @@
     "hitCount": 32,
     "avgUserRatio": 1.21,
     "activeUsers": 14
-  },
-  {
-    "roomName": "VMK Central",
-    "hitCount": 32,
-    "avgUserRatio": 1.14,
-    "activeUsers": 11
   },
   {
     "roomName": "Mickey's Courtyard",
