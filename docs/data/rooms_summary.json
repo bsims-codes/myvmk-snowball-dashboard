@@ -1,27 +1,27 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 4971,
+    "hitCount": 4993,
     "avgUserRatio": 1.22,
-    "activeUsers": 138
+    "activeUsers": 139
   },
   {
     "roomName": "Town Square",
-    "hitCount": 3680,
+    "hitCount": 3813,
     "avgUserRatio": 1.24,
-    "activeUsers": 176
+    "activeUsers": 177
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1342,
-    "avgUserRatio": 1.76,
-    "activeUsers": 125
+    "hitCount": 1369,
+    "avgUserRatio": 1.79,
+    "activeUsers": 130
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 986,
-    "avgUserRatio": 1.71,
-    "activeUsers": 125
+    "hitCount": 1043,
+    "avgUserRatio": 1.54,
+    "activeUsers": 131
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -31,9 +31,9 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 632,
-    "avgUserRatio": 1.64,
-    "activeUsers": 61
+    "hitCount": 684,
+    "avgUserRatio": 1.47,
+    "activeUsers": 66
   },
   {
     "roomName": "Monorail Station",
@@ -43,9 +43,9 @@
   },
   {
     "roomName": "Dungeon",
-    "hitCount": 476,
-    "avgUserRatio": 3.06,
-    "activeUsers": 41
+    "hitCount": 485,
+    "avgUserRatio": 3.13,
+    "activeUsers": 43
   },
   {
     "roomName": "VMK Esplanade",
@@ -73,9 +73,9 @@
   },
   {
     "roomName": "Banquet Hall",
-    "hitCount": 188,
-    "avgUserRatio": 1.33,
-    "activeUsers": 22
+    "hitCount": 189,
+    "avgUserRatio": 1.29,
+    "activeUsers": 23
   },
   {
     "roomName": "Frontierland Hub",
@@ -118,6 +118,12 @@
     "hitCount": 91,
     "avgUserRatio": 1.83,
     "activeUsers": 23
+  },
+  {
+    "roomName": "WS - United Kingdom",
+    "hitCount": 84,
+    "avgUserRatio": 1.38,
+    "activeUsers": 17
   },
   {
     "roomName": "Storybookland",
@@ -286,12 +292,6 @@
     "hitCount": 11,
     "avgUserRatio": 1.22,
     "activeUsers": 9
-  },
-  {
-    "roomName": "WS - United Kingdom",
-    "hitCount": 7,
-    "avgUserRatio": 0.88,
-    "activeUsers": 8
   },
   {
     "roomName": "Inner-Space Shop",
