@@ -219,9 +219,9 @@
   {
     "user": "JustForFun",
     "team": "Penguin",
-    "attacks": 121,
+    "attacks": 122,
     "hitsTaken": 72,
-    "ratio": 1.6805555555555556
+    "ratio": 1.6944444444444444
   },
   {
     "user": "EpicRose",
@@ -2111,6 +2111,13 @@
     "team": "Penguin",
     "attacks": 0,
     "hitsTaken": 2,
+    "ratio": 0
+  },
+  {
+    "user": "DisNerdChels",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 1,
     "ratio": 0
   }
 ]
