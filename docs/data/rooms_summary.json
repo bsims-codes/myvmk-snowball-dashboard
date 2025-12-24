@@ -1,21 +1,21 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 4665,
-    "avgUserRatio": 1.25,
-    "activeUsers": 130
+    "hitCount": 4915,
+    "avgUserRatio": 1.22,
+    "activeUsers": 137
   },
   {
     "roomName": "Town Square",
-    "hitCount": 2764,
-    "avgUserRatio": 1.81,
-    "activeUsers": 130
+    "hitCount": 3680,
+    "avgUserRatio": 1.24,
+    "activeUsers": 176
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1284,
-    "avgUserRatio": 1.88,
-    "activeUsers": 115
+    "hitCount": 1336,
+    "avgUserRatio": 1.79,
+    "activeUsers": 121
   },
   {
     "roomName": "Matterhorn",
@@ -31,9 +31,9 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 562,
-    "avgUserRatio": 1.7,
-    "activeUsers": 53
+    "hitCount": 632,
+    "avgUserRatio": 1.64,
+    "activeUsers": 61
   },
   {
     "roomName": "Monorail Station",
@@ -49,15 +49,15 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 329,
-    "avgUserRatio": 2.05,
-    "activeUsers": 55
+    "hitCount": 390,
+    "avgUserRatio": 1.81,
+    "activeUsers": 66
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 210,
-    "avgUserRatio": 2.63,
-    "activeUsers": 41
+    "hitCount": 213,
+    "avgUserRatio": 2.54,
+    "activeUsers": 43
   },
   {
     "roomName": "Snow White Hide 'n Seek Forest",
@@ -85,9 +85,9 @@
   },
   {
     "roomName": "Tomorrowland Hub",
-    "hitCount": 149,
-    "avgUserRatio": 1.4,
-    "activeUsers": 29
+    "hitCount": 152,
+    "avgUserRatio": 1.38,
+    "activeUsers": 31
   },
   {
     "roomName": "New Orleans Square",
@@ -120,16 +120,16 @@
     "activeUsers": 18
   },
   {
+    "roomName": "Pirate Treehouse",
+    "hitCount": 72,
+    "avgUserRatio": 1.3,
+    "activeUsers": 23
+  },
+  {
     "roomName": "Explorer's Tent",
     "hitCount": 65,
     "avgUserRatio": 4.41,
     "activeUsers": 12
-  },
-  {
-    "roomName": "Pirate Treehouse",
-    "hitCount": 62,
-    "avgUserRatio": 1.33,
-    "activeUsers": 20
   },
   {
     "roomName": "VMK Gallery",
@@ -150,22 +150,22 @@
     "activeUsers": 8
   },
   {
+    "roomName": "Castle Forecourt",
+    "hitCount": 55,
+    "avgUserRatio": 1.55,
+    "activeUsers": 25
+  },
+  {
     "roomName": "Jungle Cruise Dock",
     "hitCount": 52,
     "avgUserRatio": 2.5,
     "activeUsers": 14
   },
   {
-    "roomName": "Castle Forecourt",
-    "hitCount": 51,
-    "avgUserRatio": 1.56,
-    "activeUsers": 23
-  },
-  {
     "roomName": "Autopia Off Road on Mars",
-    "hitCount": 49,
-    "avgUserRatio": 1.04,
-    "activeUsers": 17
+    "hitCount": 50,
+    "avgUserRatio": 0.99,
+    "activeUsers": 18
   },
   {
     "roomName": "Frontierland Hub",
@@ -174,16 +174,28 @@
     "activeUsers": 10
   },
   {
+    "roomName": "Tiki Tiki Tiki Island",
+    "hitCount": 38,
+    "avgUserRatio": 3.13,
+    "activeUsers": 9
+  },
+  {
+    "roomName": "Sci-Fi Dine-In",
+    "hitCount": 36,
+    "avgUserRatio": 1.47,
+    "activeUsers": 17
+  },
+  {
+    "roomName": "Blue Bayou",
+    "hitCount": 34,
+    "avgUserRatio": 1.66,
+    "activeUsers": 20
+  },
+  {
     "roomName": "WS - Norway",
     "hitCount": 33,
     "avgUserRatio": 6.6,
     "activeUsers": 5
-  },
-  {
-    "roomName": "Tiki Tiki Tiki Island",
-    "hitCount": 33,
-    "avgUserRatio": 3.48,
-    "activeUsers": 8
   },
   {
     "roomName": "Castle Gardens",
@@ -208,18 +220,6 @@
     "hitCount": 27,
     "avgUserRatio": 2.08,
     "activeUsers": 6
-  },
-  {
-    "roomName": "Blue Bayou",
-    "hitCount": 27,
-    "avgUserRatio": 1.5,
-    "activeUsers": 18
-  },
-  {
-    "roomName": "Sci-Fi Dine-In",
-    "hitCount": 26,
-    "avgUserRatio": 1.16,
-    "activeUsers": 13
   },
   {
     "roomName": "Inner-Space Ray Room",
@@ -355,6 +355,12 @@
   },
   {
     "roomName": "Autopia Space Race",
+    "hitCount": 2,
+    "avgUserRatio": 1,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "Golden Horseshoe Mercantile",
     "hitCount": 2,
     "avgUserRatio": 1,
     "activeUsers": 2
