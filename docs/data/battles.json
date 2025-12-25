@@ -11079,6 +11079,88 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-37",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2025-12-25T00:09:27.000Z",
+    "end": "2025-12-25T00:15:42.000Z",
+    "durationMinutes": 6,
+    "hitCount": 40,
+    "uniqueUsers": 6,
+    "topAttackers": [
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 26
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 14
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Maalik",
+        "team": "Reindeer",
+        "hitsTaken": 15
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 11
+      },
+      {
+        "user": "TheOhanaGryphoness",
+        "team": "Penguin",
+        "hitsTaken": 8
+      }
+    ],
+    "participants": [
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 26,
+        "hitsTaken": 1,
+        "ratio": 26
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 14,
+        "hitsTaken": 11,
+        "ratio": 1.2727272727272727
+      },
+      {
+        "user": "Maalik",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 15,
+        "ratio": 0
+      },
+      {
+        "user": "TheOhanaGryphoness",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 8,
+        "ratio": 0
+      },
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 4,
+        "ratio": 0
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Town Square-7",
     "roomName": "Town Square",
     "start": "2025-12-24T13:01:20.000Z",

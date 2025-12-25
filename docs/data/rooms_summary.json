@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 5104,
+    "hitCount": 5169,
     "avgUserRatio": 1.21,
-    "activeUsers": 144
+    "activeUsers": 145
   },
   {
     "roomName": "Town Square",
@@ -55,9 +55,9 @@
   },
   {
     "roomName": "Frontierland Hub",
-    "hitCount": 276,
-    "avgUserRatio": 1.32,
-    "activeUsers": 38
+    "hitCount": 283,
+    "avgUserRatio": 1.29,
+    "activeUsers": 40
   },
   {
     "roomName": "Banquet Hall",
@@ -258,6 +258,12 @@
     "activeUsers": 9
   },
   {
+    "roomName": "Forbidden Temple",
+    "hitCount": 20,
+    "avgUserRatio": 1.27,
+    "activeUsers": 12
+  },
+  {
     "roomName": "WS - America",
     "hitCount": 20,
     "avgUserRatio": 1.03,
@@ -304,12 +310,6 @@
     "hitCount": 9,
     "avgUserRatio": 1.5,
     "activeUsers": 6
-  },
-  {
-    "roomName": "Forbidden Temple",
-    "hitCount": 8,
-    "avgUserRatio": 0.81,
-    "activeUsers": 8
   },
   {
     "roomName": "Inner-Space Shop",
