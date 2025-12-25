@@ -10070,6 +10070,79 @@
     ]
   },
   {
+    "id": "Town Square-9",
+    "roomName": "Town Square",
+    "start": "2025-12-24T20:55:21.000Z",
+    "end": "2025-12-24T21:07:39.000Z",
+    "durationMinutes": 12,
+    "hitCount": 45,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "tizzi",
+        "team": "Reindeer",
+        "attacks": 28
+      },
+      {
+        "user": "JiminyC",
+        "team": "Penguin",
+        "attacks": 9
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 8
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "JiminyC",
+        "team": "Penguin",
+        "hitsTaken": 24
+      },
+      {
+        "user": "tizzi",
+        "team": "Reindeer",
+        "hitsTaken": 12
+      },
+      {
+        "user": "Pirateboi",
+        "team": "Reindeer",
+        "hitsTaken": 5
+      }
+    ],
+    "participants": [
+      {
+        "user": "tizzi",
+        "team": "Reindeer",
+        "attacks": 28,
+        "hitsTaken": 12,
+        "ratio": 2.3333333333333335
+      },
+      {
+        "user": "JiminyC",
+        "team": "Penguin",
+        "attacks": 9,
+        "hitsTaken": 24,
+        "ratio": 0.375
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 8,
+        "hitsTaken": 4,
+        "ratio": 2
+      },
+      {
+        "user": "Pirateboi",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 5,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-34",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-23T21:20:33.000Z",
@@ -12137,6 +12210,79 @@
         "attacks": 1,
         "hitsTaken": 0,
         "ratio": 1
+      }
+    ]
+  },
+  {
+    "id": "Blue Bayou-1",
+    "roomName": "Blue Bayou",
+    "start": "2025-12-24T21:36:55.000Z",
+    "end": "2025-12-24T21:41:51.000Z",
+    "durationMinutes": 5,
+    "hitCount": 35,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "PeachySQ",
+        "team": "Penguin",
+        "attacks": 20
+      },
+      {
+        "user": "CaptainBubbles",
+        "team": "Reindeer",
+        "attacks": 12
+      },
+      {
+        "user": "Luckymaxer",
+        "team": "Penguin",
+        "attacks": 3
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "CaptainBubbles",
+        "team": "Reindeer",
+        "hitsTaken": 23
+      },
+      {
+        "user": "PeachySQ",
+        "team": "Penguin",
+        "hitsTaken": 11
+      },
+      {
+        "user": "GabriellaVanilla",
+        "team": "Penguin",
+        "hitsTaken": 1
+      }
+    ],
+    "participants": [
+      {
+        "user": "CaptainBubbles",
+        "team": "Reindeer",
+        "attacks": 12,
+        "hitsTaken": 23,
+        "ratio": 0.5217391304347826
+      },
+      {
+        "user": "PeachySQ",
+        "team": "Penguin",
+        "attacks": 20,
+        "hitsTaken": 11,
+        "ratio": 1.8181818181818181
+      },
+      {
+        "user": "Luckymaxer",
+        "team": "Penguin",
+        "attacks": 3,
+        "hitsTaken": 0,
+        "ratio": 3
+      },
+      {
+        "user": "GabriellaVanilla",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
       }
     ]
   },

@@ -1,21 +1,21 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 5100,
-    "avgUserRatio": 1.2,
+    "hitCount": 5104,
+    "avgUserRatio": 1.21,
     "activeUsers": 144
   },
   {
     "roomName": "Town Square",
-    "hitCount": 3864,
-    "avgUserRatio": 1.21,
-    "activeUsers": 180
+    "hitCount": 3934,
+    "avgUserRatio": 1.22,
+    "activeUsers": 184
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1495,
-    "avgUserRatio": 1.71,
-    "activeUsers": 140
+    "hitCount": 1500,
+    "avgUserRatio": 1.61,
+    "activeUsers": 141
   },
   {
     "roomName": "Matterhorn",
@@ -31,9 +31,9 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 773,
-    "avgUserRatio": 1.3,
-    "activeUsers": 76
+    "hitCount": 779,
+    "avgUserRatio": 1.25,
+    "activeUsers": 80
   },
   {
     "roomName": "Monorail Station",
@@ -66,22 +66,22 @@
     "activeUsers": 33
   },
   {
-    "roomName": "Epcot Entrance",
-    "hitCount": 213,
-    "avgUserRatio": 2.54,
-    "activeUsers": 43
+    "roomName": "Snow White Hide 'n Seek Forest",
+    "hitCount": 230,
+    "avgUserRatio": 3.44,
+    "activeUsers": 29
   },
   {
-    "roomName": "Snow White Hide 'n Seek Forest",
-    "hitCount": 208,
-    "avgUserRatio": 2.88,
-    "activeUsers": 27
+    "roomName": "Epcot Entrance",
+    "hitCount": 215,
+    "avgUserRatio": 2.42,
+    "activeUsers": 46
   },
   {
     "roomName": "New Orleans Square",
-    "hitCount": 202,
-    "avgUserRatio": 2.5,
-    "activeUsers": 24
+    "hitCount": 212,
+    "avgUserRatio": 2.35,
+    "activeUsers": 27
   },
   {
     "roomName": "Monorail Train",
@@ -103,9 +103,9 @@
   },
   {
     "roomName": "WS - United Kingdom",
-    "hitCount": 127,
+    "hitCount": 132,
     "avgUserRatio": 1.25,
-    "activeUsers": 34
+    "activeUsers": 36
   },
   {
     "roomName": "Pirate Treehouse",
@@ -142,6 +142,12 @@
     "hitCount": 82,
     "avgUserRatio": 3.1,
     "activeUsers": 19
+  },
+  {
+    "roomName": "Blue Bayou",
+    "hitCount": 75,
+    "avgUserRatio": 1.8,
+    "activeUsers": 24
   },
   {
     "roomName": "Penny Arcade",
@@ -190,12 +196,6 @@
     "hitCount": 50,
     "avgUserRatio": 0.99,
     "activeUsers": 18
-  },
-  {
-    "roomName": "Blue Bayou",
-    "hitCount": 40,
-    "avgUserRatio": 1.82,
-    "activeUsers": 21
   },
   {
     "roomName": "Elephant Bathing Pool",
@@ -330,6 +330,12 @@
     "activeUsers": 4
   },
   {
+    "roomName": "Star Commander Lobby",
+    "hitCount": 5,
+    "avgUserRatio": 0.87,
+    "activeUsers": 5
+  },
+  {
     "roomName": "Gibbons",
     "hitCount": 5,
     "avgUserRatio": 0.88,
@@ -352,12 +358,6 @@
     "hitCount": 4,
     "avgUserRatio": 1.33,
     "activeUsers": 3
-  },
-  {
-    "roomName": "Star Commander Lobby",
-    "hitCount": 3,
-    "avgUserRatio": 0.75,
-    "activeUsers": 4
   },
   {
     "roomName": "Mark Twain",
