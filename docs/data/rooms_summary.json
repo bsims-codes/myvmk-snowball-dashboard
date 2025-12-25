@@ -1,21 +1,21 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 5095,
+    "hitCount": 5100,
     "avgUserRatio": 1.2,
     "activeUsers": 144
   },
   {
     "roomName": "Town Square",
-    "hitCount": 3863,
+    "hitCount": 3864,
     "avgUserRatio": 1.21,
-    "activeUsers": 179
+    "activeUsers": 180
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1459,
+    "hitCount": 1495,
     "avgUserRatio": 1.71,
-    "activeUsers": 135
+    "activeUsers": 140
   },
   {
     "roomName": "Matterhorn",
@@ -31,9 +31,9 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 768,
-    "avgUserRatio": 1.33,
-    "activeUsers": 73
+    "hitCount": 773,
+    "avgUserRatio": 1.3,
+    "activeUsers": 76
   },
   {
     "roomName": "Monorail Station",
@@ -55,9 +55,9 @@
   },
   {
     "roomName": "Frontierland Hub",
-    "hitCount": 274,
-    "avgUserRatio": 1.33,
-    "activeUsers": 36
+    "hitCount": 276,
+    "avgUserRatio": 1.32,
+    "activeUsers": 38
   },
   {
     "roomName": "Banquet Hall",
@@ -103,9 +103,9 @@
   },
   {
     "roomName": "WS - United Kingdom",
-    "hitCount": 122,
-    "avgUserRatio": 1.3,
-    "activeUsers": 30
+    "hitCount": 127,
+    "avgUserRatio": 1.25,
+    "activeUsers": 34
   },
   {
     "roomName": "Pirate Treehouse",
@@ -132,16 +132,16 @@
     "activeUsers": 26
   },
   {
+    "roomName": "Tiki Tiki Tiki Island",
+    "hitCount": 84,
+    "avgUserRatio": 2.68,
+    "activeUsers": 13
+  },
+  {
     "roomName": "Storybookland",
     "hitCount": 82,
     "avgUserRatio": 3.1,
     "activeUsers": 19
-  },
-  {
-    "roomName": "Tiki Tiki Tiki Island",
-    "hitCount": 82,
-    "avgUserRatio": 2.8,
-    "activeUsers": 12
   },
   {
     "roomName": "Penny Arcade",
@@ -214,6 +214,12 @@
     "hitCount": 33,
     "avgUserRatio": 6.6,
     "activeUsers": 5
+  },
+  {
+    "roomName": "Waterpark Pool",
+    "hitCount": 33,
+    "avgUserRatio": 1.87,
+    "activeUsers": 8
   },
   {
     "roomName": "Castle Gardens",
@@ -294,6 +300,18 @@
     "activeUsers": 9
   },
   {
+    "roomName": "\"it's a small world\" Imports",
+    "hitCount": 9,
+    "avgUserRatio": 1.5,
+    "activeUsers": 6
+  },
+  {
+    "roomName": "Forbidden Temple",
+    "hitCount": 8,
+    "avgUserRatio": 0.81,
+    "activeUsers": 8
+  },
+  {
     "roomName": "Inner-Space Shop",
     "hitCount": 7,
     "avgUserRatio": 2.33,
@@ -306,21 +324,9 @@
     "activeUsers": 4
   },
   {
-    "roomName": "Forbidden Temple",
-    "hitCount": 6,
-    "avgUserRatio": 0.79,
-    "activeUsers": 7
-  },
-  {
     "roomName": "Festival of the Lion King",
     "hitCount": 6,
     "avgUserRatio": 1.31,
-    "activeUsers": 4
-  },
-  {
-    "roomName": "\"it's a small world\" Imports",
-    "hitCount": 6,
-    "avgUserRatio": 1.5,
     "activeUsers": 4
   },
   {
@@ -331,6 +337,12 @@
   },
   {
     "roomName": "Everest Entrance",
+    "hitCount": 4,
+    "avgUserRatio": 1,
+    "activeUsers": 4
+  },
+  {
+    "roomName": "Golden Horseshoe Mercantile",
     "hitCount": 4,
     "avgUserRatio": 1,
     "activeUsers": 4
@@ -373,12 +385,6 @@
   },
   {
     "roomName": "Autopia Space Race",
-    "hitCount": 2,
-    "avgUserRatio": 1,
-    "activeUsers": 2
-  },
-  {
-    "roomName": "Golden Horseshoe Mercantile",
     "hitCount": 2,
     "avgUserRatio": 1,
     "activeUsers": 2
