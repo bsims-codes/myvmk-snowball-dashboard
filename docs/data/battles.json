@@ -8313,6 +8313,45 @@
     ]
   },
   {
+    "id": "Main Street-6",
+    "roomName": "Main Street",
+    "start": "2025-12-25T12:23:58.000Z",
+    "end": "2025-12-25T12:30:59.000Z",
+    "durationMinutes": 7,
+    "hitCount": 63,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "RainbowPanda",
+        "team": "Penguin",
+        "attacks": 63
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Guest10136623",
+        "team": "Reindeer",
+        "hitsTaken": 63
+      }
+    ],
+    "participants": [
+      {
+        "user": "RainbowPanda",
+        "team": "Penguin",
+        "attacks": 63,
+        "hitsTaken": 0,
+        "ratio": 63
+      },
+      {
+        "user": "Guest10136623",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 63,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Fantasyland in The Sky-3",
     "roomName": "Fantasyland in The Sky",
     "start": "2025-12-21T20:52:10.000Z",
@@ -8545,6 +8584,45 @@
         "team": "Reindeer",
         "attacks": 0,
         "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
+    "id": "Town Square-10",
+    "roomName": "Town Square",
+    "start": "2025-12-25T12:17:19.000Z",
+    "end": "2025-12-25T12:25:16.000Z",
+    "durationMinutes": 8,
+    "hitCount": 59,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "RainbowPanda",
+        "team": "Penguin",
+        "attacks": 59
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Guest10136623",
+        "team": "Reindeer",
+        "hitsTaken": 59
+      }
+    ],
+    "participants": [
+      {
+        "user": "RainbowPanda",
+        "team": "Penguin",
+        "attacks": 59,
+        "hitsTaken": 0,
+        "ratio": 59
+      },
+      {
+        "user": "Guest10136623",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 59,
         "ratio": 0
       }
     ]
