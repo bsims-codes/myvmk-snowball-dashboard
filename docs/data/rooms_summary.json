@@ -13,9 +13,9 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1500,
-    "avgUserRatio": 1.61,
-    "activeUsers": 141
+    "hitCount": 1506,
+    "avgUserRatio": 1.6,
+    "activeUsers": 142
   },
   {
     "roomName": "Matterhorn",
@@ -144,16 +144,16 @@
     "activeUsers": 19
   },
   {
+    "roomName": "Penny Arcade",
+    "hitCount": 76,
+    "avgUserRatio": 1.34,
+    "activeUsers": 22
+  },
+  {
     "roomName": "Blue Bayou",
     "hitCount": 75,
     "avgUserRatio": 1.8,
     "activeUsers": 24
-  },
-  {
-    "roomName": "Penny Arcade",
-    "hitCount": 75,
-    "avgUserRatio": 1.43,
-    "activeUsers": 20
   },
   {
     "roomName": "Explorer's Tent",
@@ -204,6 +204,12 @@
     "activeUsers": 9
   },
   {
+    "roomName": "Mickey's Courtyard",
+    "hitCount": 38,
+    "avgUserRatio": 1.18,
+    "activeUsers": 12
+  },
+  {
     "roomName": "VMK Central",
     "hitCount": 34,
     "avgUserRatio": 1.12,
@@ -226,12 +232,6 @@
     "hitCount": 32,
     "avgUserRatio": 1.21,
     "activeUsers": 14
-  },
-  {
-    "roomName": "Mickey's Courtyard",
-    "hitCount": 29,
-    "avgUserRatio": 1.24,
-    "activeUsers": 9
   },
   {
     "roomName": "Discovery Island",
