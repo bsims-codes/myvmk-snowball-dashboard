@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-25T08:25:09.152Z",
-  "totalRows": 18242,
+  "generatedAt": "2025-12-25T09:20:23.008Z",
+  "totalRows": 18244,
   "totalUsers": 331,
   "teamStats": {
     "Penguin": {
       "users": 155,
-      "attacks": 10458,
-      "hitsTaken": 7784
+      "attacks": 10459,
+      "hitsTaken": 7785
     },
     "Reindeer": {
       "users": 176,
-      "attacks": 7784,
-      "hitsTaken": 10458
+      "attacks": 7785,
+      "hitsTaken": 10459
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 10458
+      "count": 10459
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 7784
+      "count": 7785
     }
   ],
   "topAttackers": [
@@ -684,18 +684,18 @@
       "ratio": 3.774193548387097
     },
     {
+      "user": "Dorian_Gray",
+      "team": "Reindeer",
+      "attacks": 58,
+      "hitsTaken": 86,
+      "ratio": 0.6744186046511628
+    },
+    {
       "user": "taymeow",
       "team": "Reindeer",
       "attacks": 81,
       "hitsTaken": 61,
       "ratio": 1.3278688524590163
-    },
-    {
-      "user": "Dorian_Gray",
-      "team": "Reindeer",
-      "attacks": 57,
-      "hitsTaken": 85,
-      "ratio": 0.6705882352941176
     },
     {
       "user": "TinkerbellNat",
@@ -1174,18 +1174,18 @@
       "ratio": 0.30303030303030304
     },
     {
+      "user": "22ghosts",
+      "team": "Penguin",
+      "attacks": 28,
+      "hitsTaken": 14,
+      "ratio": 2
+    },
+    {
       "user": "Sucrette",
       "team": "Reindeer",
       "attacks": 18,
       "hitsTaken": 22,
       "ratio": 0.8181818181818182
-    },
-    {
-      "user": "22ghosts",
-      "team": "Penguin",
-      "attacks": 27,
-      "hitsTaken": 13,
-      "ratio": 2.076923076923077
     },
     {
       "user": "Minniegirl",
@@ -2604,30 +2604,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.4297252459269303,
-      "intercept": 31.428858198794376,
+      "slope": 0.42972371421856864,
+      "intercept": 31.43238839213424,
       "xMin": 0,
       "xMax": 1379,
-      "y1": 31.428858198794376,
-      "y2": 624.0199723320312,
+      "y1": 31.43238839213424,
+      "y2": 624.0213902995405,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.29458341581370595,
-      "intercept": 30.343526693033954,
+      "slope": 0.29457350162638085,
+      "intercept": 30.34874675154634,
       "xMin": 0,
       "xMax": 1379,
-      "y1": 30.343526693033954,
-      "y2": 436.57405710013444,
+      "y1": 30.34874675154634,
+      "y2": 436.56560549432555,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.6091948349214141,
-      "intercept": 32.47742843733928,
+      "slope": 0.6092002997480401,
+      "intercept": 32.47940719580402,
       "xMin": 0,
       "xMax": 1379,
-      "y1": 32.47742843733928,
-      "y2": 872.5571057939694,
+      "y1": 32.47940719580402,
+      "y2": 872.5666205483514,
       "label": "Reindeer"
     }
   },
@@ -2646,8 +2646,8 @@
     },
     {
       "roomName": "Main Street",
-      "hitCount": 1506,
-      "avgUserRatio": 1.6,
+      "hitCount": 1508,
+      "avgUserRatio": 1.59,
       "activeUsers": 142
     },
     {
