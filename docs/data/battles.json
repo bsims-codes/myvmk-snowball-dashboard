@@ -11353,6 +11353,81 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-38",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2025-12-25T01:12:27.000Z",
+    "end": "2025-12-25T01:17:33.000Z",
+    "durationMinutes": 5,
+    "hitCount": 39,
+    "uniqueUsers": 5,
+    "topAttackers": [
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 23
+      },
+      {
+        "user": "Dorian_Gray",
+        "team": "Reindeer",
+        "attacks": 16
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Dorian_Gray",
+        "team": "Reindeer",
+        "hitsTaken": 21
+      },
+      {
+        "user": "SerenaVanDerWoodsen",
+        "team": "Penguin",
+        "hitsTaken": 13
+      },
+      {
+        "user": "TheOhanaGryphoness",
+        "team": "Penguin",
+        "hitsTaken": 2
+      }
+    ],
+    "participants": [
+      {
+        "user": "Dorian_Gray",
+        "team": "Reindeer",
+        "attacks": 16,
+        "hitsTaken": 21,
+        "ratio": 0.7619047619047619
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 23,
+        "hitsTaken": 1,
+        "ratio": 23
+      },
+      {
+        "user": "SerenaVanDerWoodsen",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 13,
+        "ratio": 0
+      },
+      {
+        "user": "TheOhanaGryphoness",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      },
+      {
+        "user": "HugeSpaceButtercup",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Banquet Hall-2",
     "roomName": "Banquet Hall",
     "start": "2025-12-24T15:42:40.000Z",
