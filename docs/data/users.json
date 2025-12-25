@@ -93,9 +93,9 @@
   {
     "user": "TaterTotCasserole",
     "team": "Penguin",
-    "attacks": 380,
+    "attacks": 381,
     "hitsTaken": 137,
-    "ratio": 2.7737226277372264
+    "ratio": 2.781021897810219
   },
   {
     "user": "bunny",
@@ -170,9 +170,9 @@
   {
     "user": "JustForFun",
     "team": "Penguin",
-    "attacks": 195,
+    "attacks": 208,
     "hitsTaken": 89,
-    "ratio": 2.191011235955056
+    "ratio": 2.337078651685393
   },
   {
     "user": "Tobyy",
@@ -1452,7 +1452,7 @@
     "user": "Sar.",
     "team": "Reindeer",
     "attacks": 0,
-    "hitsTaken": 18,
+    "hitsTaken": 20,
     "ratio": 0
   },
   {
@@ -2314,6 +2314,13 @@
     "team": "Reindeer",
     "attacks": 0,
     "hitsTaken": 2,
+    "ratio": 0
+  },
+  {
+    "user": "Joyfuljsol",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 12,
     "ratio": 0
   }
 ]

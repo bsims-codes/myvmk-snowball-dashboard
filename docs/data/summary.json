@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-25T15:17:53.435Z",
-  "totalRows": 18244,
-  "totalUsers": 331,
+  "generatedAt": "2025-12-25T16:22:11.574Z",
+  "totalRows": 18258,
+  "totalUsers": 332,
   "teamStats": {
     "Penguin": {
       "users": 155,
-      "attacks": 10459,
+      "attacks": 10473,
       "hitsTaken": 7785
     },
     "Reindeer": {
-      "users": 176,
+      "users": 177,
       "attacks": 7785,
-      "hitsTaken": 10459
+      "hitsTaken": 10473
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 10459
+      "count": 10473
     },
     {
       "pair": "Reindeer → Penguin",
@@ -97,7 +97,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 380,
+      "attacks": 381,
       "team": "Penguin"
     },
     {
@@ -152,7 +152,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 195,
+      "attacks": 208,
       "team": "Penguin"
     }
   ],
@@ -420,9 +420,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 380,
+      "attacks": 381,
       "hitsTaken": 137,
-      "ratio": 2.7737226277372264
+      "ratio": 2.781021897810219
     },
     {
       "user": "Meg",
@@ -481,6 +481,13 @@
       "ratio": 0.850828729281768
     },
     {
+      "user": "JustForFun",
+      "team": "Penguin",
+      "attacks": 208,
+      "hitsTaken": 89,
+      "ratio": 2.337078651685393
+    },
+    {
       "user": "Tobyy",
       "team": "Reindeer",
       "attacks": 174,
@@ -493,13 +500,6 @@
       "attacks": 133,
       "hitsTaken": 154,
       "ratio": 0.8636363636363636
-    },
-    {
-      "user": "JustForFun",
-      "team": "Penguin",
-      "attacks": 195,
-      "hitsTaken": 89,
-      "ratio": 2.191011235955056
     },
     {
       "user": "EpicRose",
@@ -1475,6 +1475,13 @@
       "ratio": 0
     },
     {
+      "user": "Sar.",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 20,
+      "ratio": 0
+    },
+    {
       "user": "SweetAquaDolphin",
       "team": "Reindeer",
       "attacks": 0,
@@ -1522,13 +1529,6 @@
       "attacks": 1,
       "hitsTaken": 17,
       "ratio": 0.058823529411764705
-    },
-    {
-      "user": "Sar.",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 18,
-      "ratio": 0
     },
     {
       "user": "tweetier",
@@ -1700,6 +1700,13 @@
     },
     {
       "user": "Evillyn",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 12,
+      "ratio": 0
+    },
+    {
+      "user": "Joyfuljsol",
       "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 12,
@@ -2604,30 +2611,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.42972371421856864,
-      "intercept": 31.43238839213424,
+      "slope": 0.42967866873703736,
+      "intercept": 31.364237548792687,
       "xMin": 0,
       "xMax": 1379,
-      "y1": 31.43238839213424,
-      "y2": 624.0213902995405,
+      "y1": 31.364237548792687,
+      "y2": 623.8911217371672,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.29457350162638085,
-      "intercept": 30.34874675154634,
+      "slope": 0.29445799114831267,
+      "intercept": 30.32994489486272,
       "xMin": 0,
       "xMax": 1379,
-      "y1": 30.34874675154634,
-      "y2": 436.56560549432555,
+      "y1": 30.32994489486272,
+      "y2": 436.38751468838586,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.6092002997480401,
-      "intercept": 32.47940719580402,
+      "slope": 0.6093918406676854,
+      "intercept": 32.36657921131113,
       "xMin": 0,
       "xMax": 1379,
-      "y1": 32.47940719580402,
-      "y2": 872.5666205483514,
+      "y1": 32.36657921131113,
+      "y2": 872.7179274920492,
       "label": "Reindeer"
     }
   },
@@ -2646,9 +2653,9 @@
     },
     {
       "roomName": "Main Street",
-      "hitCount": 1508,
+      "hitCount": 1520,
       "avgUserRatio": 1.59,
-      "activeUsers": 142
+      "activeUsers": 143
     },
     {
       "roomName": "Matterhorn",
@@ -2688,9 +2695,9 @@
     },
     {
       "roomName": "Frontierland Hub",
-      "hitCount": 283,
-      "avgUserRatio": 1.29,
-      "activeUsers": 40
+      "hitCount": 285,
+      "avgUserRatio": 1.31,
+      "activeUsers": 41
     },
     {
       "roomName": "Banquet Hall",
