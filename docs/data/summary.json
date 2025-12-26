@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-26T05:19:47.620Z",
-  "totalRows": 19110,
-  "totalUsers": 353,
+  "generatedAt": "2025-12-26T06:28:54.649Z",
+  "totalRows": 19115,
+  "totalUsers": 355,
   "teamStats": {
     "Penguin": {
-      "users": 164,
-      "attacks": 10988,
-      "hitsTaken": 8122
+      "users": 165,
+      "attacks": 10990,
+      "hitsTaken": 8125
     },
     "Reindeer": {
-      "users": 189,
-      "attacks": 8122,
-      "hitsTaken": 10988
+      "users": 190,
+      "attacks": 8125,
+      "hitsTaken": 10990
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 10988
+      "count": 10990
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 8122
+      "count": 8125
     }
   ],
   "topAttackers": [
@@ -2056,6 +2056,20 @@
       "ratio": 0.25
     },
     {
+      "user": "JJmax",
+      "team": "Penguin",
+      "attacks": 2,
+      "hitsTaken": 3,
+      "ratio": 0.6666666666666666
+    },
+    {
+      "user": "Baemax_",
+      "team": "Reindeer",
+      "attacks": 3,
+      "hitsTaken": 2,
+      "ratio": 1.5
+    },
+    {
       "user": "Ash_Mccash",
       "team": "Penguin",
       "attacks": 0,
@@ -2758,30 +2772,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.41966824069439757,
-      "intercept": 31.41682696977355,
+      "slope": 0.4199592931575597,
+      "intercept": 31.232332707868302,
       "xMin": 0,
       "xMax": 1509,
-      "y1": 31.41682696977355,
-      "y2": 664.6962021776194,
+      "y1": 31.232332707868302,
+      "y2": 664.9509060826259,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.29268094568274877,
-      "intercept": 29.91476688315827,
+      "slope": 0.29299857926409495,
+      "intercept": 29.726943114470284,
       "xMin": 0,
       "xMax": 1509,
-      "y1": 29.91476688315827,
-      "y2": 471.57031391842617,
+      "y1": 29.726943114470284,
+      "y2": 471.8617992239895,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.5717920909823938,
-      "intercept": 33.56563300021692,
+      "slope": 0.5720607062715694,
+      "intercept": 33.3789829554921,
       "xMin": 0,
       "xMax": 1509,
-      "y1": 33.56563300021692,
-      "y2": 896.3998982926493,
+      "y1": 33.3789829554921,
+      "y2": 896.6185887192903,
       "label": "Reindeer"
     }
   },
@@ -2800,9 +2814,9 @@
     },
     {
       "roomName": "Main Street",
-      "hitCount": 1658,
-      "avgUserRatio": 1.99,
-      "activeUsers": 153
+      "hitCount": 1663,
+      "avgUserRatio": 1.98,
+      "activeUsers": 155
     },
     {
       "roomName": "Matterhorn",
