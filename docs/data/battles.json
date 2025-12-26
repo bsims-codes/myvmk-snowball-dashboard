@@ -9298,6 +9298,79 @@
     ]
   },
   {
+    "id": "Festival of the Lion King-1",
+    "roomName": "Festival of the Lion King",
+    "start": "2025-12-26T13:51:11.000Z",
+    "end": "2025-12-26T13:57:09.000Z",
+    "durationMinutes": 6,
+    "hitCount": 56,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 46
+      },
+      {
+        "user": "22ghosts",
+        "team": "Penguin",
+        "attacks": 4
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 4
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "SkateboardNicky",
+        "team": "Reindeer",
+        "hitsTaken": 54
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "hitsTaken": 1
+      },
+      {
+        "user": "22ghosts",
+        "team": "Penguin",
+        "hitsTaken": 1
+      }
+    ],
+    "participants": [
+      {
+        "user": "SkateboardNicky",
+        "team": "Reindeer",
+        "attacks": 2,
+        "hitsTaken": 54,
+        "ratio": 0.037037037037037035
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 46,
+        "hitsTaken": 1,
+        "ratio": 46
+      },
+      {
+        "user": "22ghosts",
+        "team": "Penguin",
+        "attacks": 4,
+        "hitsTaken": 1,
+        "ratio": 4
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 4,
+        "hitsTaken": 0,
+        "ratio": 4
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-25",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-22T11:46:59.000Z",
