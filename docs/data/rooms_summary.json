@@ -7,15 +7,15 @@
   },
   {
     "roomName": "Town Square",
-    "hitCount": 4001,
-    "avgUserRatio": 1.3,
-    "activeUsers": 188
+    "hitCount": 4047,
+    "avgUserRatio": 1.28,
+    "activeUsers": 191
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1651,
-    "avgUserRatio": 2.01,
-    "activeUsers": 152
+    "hitCount": 1658,
+    "avgUserRatio": 1.99,
+    "activeUsers": 153
   },
   {
     "roomName": "Matterhorn",
@@ -49,21 +49,21 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 426,
-    "avgUserRatio": 1.9,
-    "activeUsers": 74
+    "hitCount": 455,
+    "avgUserRatio": 1.87,
+    "activeUsers": 76
   },
   {
     "roomName": "Frontierland Hub",
-    "hitCount": 294,
-    "avgUserRatio": 1.3,
-    "activeUsers": 44
+    "hitCount": 311,
+    "avgUserRatio": 1.5,
+    "activeUsers": 46
   },
   {
     "roomName": "Banquet Hall",
-    "hitCount": 273,
-    "avgUserRatio": 2.15,
-    "activeUsers": 36
+    "hitCount": 276,
+    "avgUserRatio": 2.06,
+    "activeUsers": 39
   },
   {
     "roomName": "Snow White Hide 'n Seek Forest",
@@ -354,6 +354,12 @@
     "activeUsers": 5
   },
   {
+    "roomName": "Everest Entrance",
+    "hitCount": 5,
+    "avgUserRatio": 0.83,
+    "activeUsers": 6
+  },
+  {
     "roomName": "Star Commander Lobby",
     "hitCount": 5,
     "avgUserRatio": 0.87,
@@ -363,12 +369,6 @@
     "roomName": "Autopia Space Race",
     "hitCount": 5,
     "avgUserRatio": 1.25,
-    "activeUsers": 4
-  },
-  {
-    "roomName": "Everest Entrance",
-    "hitCount": 4,
-    "avgUserRatio": 1,
     "activeUsers": 4
   },
   {
