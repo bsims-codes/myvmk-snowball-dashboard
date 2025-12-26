@@ -10326,6 +10326,86 @@
     ]
   },
   {
+    "id": "Street Party Music Game Lobby-1",
+    "roomName": "Street Party Music Game Lobby",
+    "start": "2025-12-25T21:22:56.000Z",
+    "end": "2025-12-25T21:28:07.000Z",
+    "durationMinutes": 5,
+    "hitCount": 47,
+    "uniqueUsers": 5,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 29
+      },
+      {
+        "user": "Whitney",
+        "team": "Penguin",
+        "attacks": 13
+      },
+      {
+        "user": "HOST_JudyHopps",
+        "team": "Penguin",
+        "attacks": 3
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Whitney",
+        "team": "Penguin",
+        "hitsTaken": 20
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 18
+      },
+      {
+        "user": "Lilasaurus",
+        "team": "Penguin",
+        "hitsTaken": 6
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 29,
+        "hitsTaken": 18,
+        "ratio": 1.6111111111111112
+      },
+      {
+        "user": "Whitney",
+        "team": "Penguin",
+        "attacks": 13,
+        "hitsTaken": 20,
+        "ratio": 0.65
+      },
+      {
+        "user": "Lilasaurus",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 6,
+        "ratio": 0.16666666666666666
+      },
+      {
+        "user": "HOST_JudyHopps",
+        "team": "Penguin",
+        "attacks": 3,
+        "hitsTaken": 3,
+        "ratio": 1
+      },
+      {
+        "user": "bittahmercenary",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-1",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-19T11:37:53.000Z",

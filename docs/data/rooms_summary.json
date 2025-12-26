@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 5240,
+    "hitCount": 5266,
     "avgUserRatio": 1.17,
     "activeUsers": 149
   },
@@ -13,15 +13,15 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1620,
-    "avgUserRatio": 2.04,
-    "activeUsers": 151
+    "hitCount": 1651,
+    "avgUserRatio": 2.01,
+    "activeUsers": 152
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 1347,
-    "avgUserRatio": 1.24,
-    "activeUsers": 164
+    "hitCount": 1353,
+    "avgUserRatio": 1.23,
+    "activeUsers": 166
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -31,9 +31,9 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 784,
+    "hitCount": 787,
     "avgUserRatio": 1.2,
-    "activeUsers": 84
+    "activeUsers": 85
   },
   {
     "roomName": "Monorail Station",
@@ -61,9 +61,9 @@
   },
   {
     "roomName": "Banquet Hall",
-    "hitCount": 262,
-    "avgUserRatio": 2.31,
-    "activeUsers": 35
+    "hitCount": 273,
+    "avgUserRatio": 2.15,
+    "activeUsers": 36
   },
   {
     "roomName": "Snow White Hide 'n Seek Forest",
@@ -73,9 +73,9 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 217,
+    "hitCount": 220,
     "avgUserRatio": 2.37,
-    "activeUsers": 47
+    "activeUsers": 48
   },
   {
     "roomName": "New Orleans Square",
@@ -120,27 +120,27 @@
     "activeUsers": 30
   },
   {
-    "roomName": "Gallery",
-    "hitCount": 98,
-    "avgUserRatio": 1.97,
-    "activeUsers": 25
+    "roomName": "Pixar Pier Entrance",
+    "hitCount": 105,
+    "avgUserRatio": 1.53,
+    "activeUsers": 28
   },
   {
-    "roomName": "Pixar Pier Entrance",
-    "hitCount": 95,
-    "avgUserRatio": 1.46,
+    "roomName": "Gallery",
+    "hitCount": 102,
+    "avgUserRatio": 1.89,
     "activeUsers": 26
   },
   {
     "roomName": "Tiki Tiki Tiki Island",
-    "hitCount": 84,
-    "avgUserRatio": 2.68,
-    "activeUsers": 13
+    "hitCount": 98,
+    "avgUserRatio": 2.26,
+    "activeUsers": 16
   },
   {
     "roomName": "Blue Bayou",
-    "hitCount": 82,
-    "avgUserRatio": 1.93,
+    "hitCount": 87,
+    "avgUserRatio": 2.13,
     "activeUsers": 26
   },
   {
@@ -160,6 +160,12 @@
     "hitCount": 65,
     "avgUserRatio": 4.41,
     "activeUsers": 12
+  },
+  {
+    "roomName": "Street Party Music Game Lobby",
+    "hitCount": 65,
+    "avgUserRatio": 1.67,
+    "activeUsers": 13
   },
   {
     "roomName": "Jungle Cruise Dock",
@@ -234,6 +240,12 @@
     "activeUsers": 14
   },
   {
+    "roomName": "WS - Germany",
+    "hitCount": 29,
+    "avgUserRatio": 1.26,
+    "activeUsers": 3
+  },
+  {
     "roomName": "Discovery Island",
     "hitCount": 27,
     "avgUserRatio": 2.08,
@@ -258,28 +270,22 @@
     "activeUsers": 9
   },
   {
+    "roomName": "WS - America",
+    "hitCount": 22,
+    "avgUserRatio": 0.91,
+    "activeUsers": 9
+  },
+  {
+    "roomName": "Forbidden Temple",
+    "hitCount": 21,
+    "avgUserRatio": 1.21,
+    "activeUsers": 13
+  },
+  {
     "roomName": "WS - Mexico",
     "hitCount": 20,
     "avgUserRatio": 0.82,
     "activeUsers": 10
-  },
-  {
-    "roomName": "Forbidden Temple",
-    "hitCount": 20,
-    "avgUserRatio": 1.27,
-    "activeUsers": 12
-  },
-  {
-    "roomName": "WS - America",
-    "hitCount": 20,
-    "avgUserRatio": 1.03,
-    "activeUsers": 6
-  },
-  {
-    "roomName": "Street Party Music Game Lobby",
-    "hitCount": 18,
-    "avgUserRatio": 2.17,
-    "activeUsers": 8
   },
   {
     "roomName": "Adventureland Bazaar",
@@ -330,10 +336,22 @@
     "activeUsers": 4
   },
   {
+    "roomName": "WS - France",
+    "hitCount": 7,
+    "avgUserRatio": 1.08,
+    "activeUsers": 6
+  },
+  {
     "roomName": "Festival of the Lion King",
     "hitCount": 6,
     "avgUserRatio": 1.31,
     "activeUsers": 4
+  },
+  {
+    "roomName": "WS - Italy",
+    "hitCount": 6,
+    "avgUserRatio": 1.2,
+    "activeUsers": 5
   },
   {
     "roomName": "Star Commander Lobby",
@@ -378,10 +396,10 @@
     "activeUsers": 4
   },
   {
-    "roomName": "WS - France",
+    "roomName": "WS - Japan",
     "hitCount": 3,
-    "avgUserRatio": 0.75,
-    "activeUsers": 4
+    "avgUserRatio": 1.5,
+    "activeUsers": 2
   },
   {
     "roomName": "Shipwreck Graveyard",
