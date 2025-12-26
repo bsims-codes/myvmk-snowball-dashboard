@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-26T16:20:49.145Z",
-  "totalRows": 19137,
+  "generatedAt": "2025-12-26T17:15:06.612Z",
+  "totalRows": 19139,
   "totalUsers": 356,
   "teamStats": {
     "Penguin": {
       "users": 165,
-      "attacks": 10998,
+      "attacks": 11000,
       "hitsTaken": 8139
     },
     "Reindeer": {
       "users": 191,
       "attacks": 8139,
-      "hitsTaken": 10998
+      "hitsTaken": 11000
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 10998
+      "count": 11000
     },
     {
       "pair": "Reindeer → Penguin",
@@ -121,14 +121,14 @@
       "team": "Penguin"
     },
     {
+      "user": "JustForFun",
+      "attacks": 272,
+      "team": "Penguin"
+    },
+    {
       "user": "SpideyxLei",
       "attacks": 272,
       "team": "Reindeer"
-    },
-    {
-      "user": "JustForFun",
-      "attacks": 270,
-      "team": "Penguin"
     },
     {
       "user": "Meg",
@@ -467,18 +467,18 @@
       "ratio": 4.819444444444445
     },
     {
+      "user": "JustForFun",
+      "team": "Penguin",
+      "attacks": 272,
+      "hitsTaken": 98,
+      "ratio": 2.7755102040816326
+    },
+    {
       "user": "Chime",
       "team": "Reindeer",
       "attacks": 229,
       "hitsTaken": 139,
       "ratio": 1.6474820143884892
-    },
-    {
-      "user": "JustForFun",
-      "team": "Penguin",
-      "attacks": 270,
-      "hitsTaken": 98,
-      "ratio": 2.7551020408163267
     },
     {
       "user": "FlameLegend",
@@ -635,18 +635,18 @@
       "ratio": 0
     },
     {
+      "user": "Tggrhny",
+      "team": "Reindeer",
+      "attacks": 91,
+      "hitsTaken": 85,
+      "ratio": 1.0705882352941176
+    },
+    {
       "user": "Bernie",
       "team": "Reindeer",
       "attacks": 106,
       "hitsTaken": 69,
       "ratio": 1.536231884057971
-    },
-    {
-      "user": "Tggrhny",
-      "team": "Reindeer",
-      "attacks": 91,
-      "hitsTaken": 83,
-      "ratio": 1.0963855421686748
     },
     {
       "user": "RainbowPanda",
@@ -2779,30 +2779,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.41994629049682364,
-      "intercept": 31.1811456145008,
+      "slope": 0.4199271953215277,
+      "intercept": 31.185430923430562,
       "xMin": 0,
       "xMax": 1509,
-      "y1": 31.1811456145008,
-      "y2": 664.8800979742076,
+      "y1": 31.185430923430562,
+      "y2": 664.8555686636158,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2927556503413554,
-      "intercept": 29.813777924519837,
+      "slope": 0.2927302889914382,
+      "intercept": 29.811920127843514,
       "xMin": 0,
       "xMax": 1509,
-      "y1": 29.813777924519837,
-      "y2": 471.5820542896252,
+      "y1": 29.811920127843514,
+      "y2": 471.54192621592375,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.5722954452002568,
-      "intercept": 33.1941747199744,
+      "slope": 0.5723150822750727,
+      "intercept": 33.20380913802714,
       "xMin": 0,
       "xMax": 1509,
-      "y1": 33.1941747199744,
-      "y2": 896.7880015271619,
+      "y1": 33.20380913802714,
+      "y2": 896.8272682911119,
       "label": "Reindeer"
     }
   },
@@ -2839,9 +2839,9 @@
     },
     {
       "roomName": "Central Plaza",
-      "hitCount": 789,
-      "avgUserRatio": 1.19,
-      "activeUsers": 86
+      "hitCount": 790,
+      "avgUserRatio": 1.18,
+      "activeUsers": 87
     },
     {
       "roomName": "Monorail Station",
@@ -2911,9 +2911,9 @@
     },
     {
       "roomName": "WS - United Kingdom",
-      "hitCount": 135,
-      "avgUserRatio": 1.2,
-      "activeUsers": 37
+      "hitCount": 136,
+      "avgUserRatio": 1.19,
+      "activeUsers": 38
     },
     {
       "roomName": "Pirate Treehouse",
