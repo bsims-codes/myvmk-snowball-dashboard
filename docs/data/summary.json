@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-26T11:16:39.976Z",
-  "totalRows": 19131,
+  "generatedAt": "2025-12-26T12:37:02.570Z",
+  "totalRows": 19134,
   "totalUsers": 355,
   "teamStats": {
     "Penguin": {
       "users": 165,
-      "attacks": 10992,
+      "attacks": 10995,
       "hitsTaken": 8139
     },
     "Reindeer": {
       "users": 190,
       "attacks": 8139,
-      "hitsTaken": 10992
+      "hitsTaken": 10995
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 10992
+      "count": 10995
     },
     {
       "pair": "Reindeer → Penguin",
@@ -126,12 +126,12 @@
       "team": "Reindeer"
     },
     {
-      "user": "Meg",
-      "attacks": 266,
+      "user": "JustForFun",
+      "attacks": 269,
       "team": "Penguin"
     },
     {
-      "user": "JustForFun",
+      "user": "Meg",
       "attacks": 266,
       "team": "Penguin"
     },
@@ -476,9 +476,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 266,
+      "attacks": 269,
       "hitsTaken": 98,
-      "ratio": 2.7142857142857144
+      "ratio": 2.7448979591836733
     },
     {
       "user": "FlameLegend",
@@ -1314,6 +1314,13 @@
       "ratio": 0
     },
     {
+      "user": "SlavicPride",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 33,
+      "ratio": 0
+    },
+    {
       "user": "xXSpaceMtnDrewXx",
       "team": "Penguin",
       "attacks": 0,
@@ -1339,13 +1346,6 @@
       "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 32,
-      "ratio": 0
-    },
-    {
-      "user": "SlavicPride",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 30,
       "ratio": 0
     },
     {
@@ -2772,30 +2772,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.41990283890749064,
-      "intercept": 31.261517715100837,
+      "slope": 0.41984915059747097,
+      "intercept": 31.269313668923918,
       "xMin": 0,
       "xMax": 1509,
-      "y1": 31.261517715100837,
-      "y2": 664.8949016265042,
+      "y1": 31.269313668923918,
+      "y2": 664.8216819205077,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.29283863802844745,
-      "intercept": 29.818895095704878,
+      "slope": 0.29280165091651483,
+      "intercept": 29.81603544347224,
       "xMin": 0,
       "xMax": 1509,
-      "y1": 29.818895095704878,
-      "y2": 471.71239988063206,
+      "y1": 29.81603544347224,
+      "y2": 471.65372667649314,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.5720589793526787,
-      "intercept": 33.34743140551868,
+      "slope": 0.5720328929738848,
+      "intercept": 33.364338337292374,
       "xMin": 0,
       "xMax": 1509,
-      "y1": 33.34743140551868,
-      "y2": 896.5844312487109,
+      "y1": 33.364338337292374,
+      "y2": 896.5619738348845,
       "label": "Reindeer"
     }
   },
@@ -2814,9 +2814,9 @@
     },
     {
       "roomName": "Main Street",
-      "hitCount": 1663,
-      "avgUserRatio": 1.98,
-      "activeUsers": 155
+      "hitCount": 1664,
+      "avgUserRatio": 1.96,
+      "activeUsers": 156
     },
     {
       "roomName": "Matterhorn",
