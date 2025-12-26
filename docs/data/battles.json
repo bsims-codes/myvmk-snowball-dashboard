@@ -9997,6 +9997,86 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-39",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2025-12-26T13:05:59.000Z",
+    "end": "2025-12-26T13:09:34.000Z",
+    "durationMinutes": 4,
+    "hitCount": 49,
+    "uniqueUsers": 5,
+    "topAttackers": [
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 11
+      },
+      {
+        "user": "Konzo",
+        "team": "Reindeer",
+        "attacks": 10
+      },
+      {
+        "user": "Youthere",
+        "team": "Reindeer",
+        "attacks": 10
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Konzo",
+        "team": "Reindeer",
+        "hitsTaken": 17
+      },
+      {
+        "user": "Youthere",
+        "team": "Reindeer",
+        "hitsTaken": 12
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "hitsTaken": 8
+      }
+    ],
+    "participants": [
+      {
+        "user": "Konzo",
+        "team": "Reindeer",
+        "attacks": 10,
+        "hitsTaken": 17,
+        "ratio": 0.5882352941176471
+      },
+      {
+        "user": "Youthere",
+        "team": "Reindeer",
+        "attacks": 10,
+        "hitsTaken": 12,
+        "ratio": 0.8333333333333334
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 11,
+        "hitsTaken": 8,
+        "ratio": 1.375
+      },
+      {
+        "user": "BluPirate",
+        "team": "Penguin",
+        "attacks": 8,
+        "hitsTaken": 8,
+        "ratio": 1
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 10,
+        "hitsTaken": 4,
+        "ratio": 2.5
+      }
+    ]
+  },
+  {
     "id": "Pirate Treehouse-2",
     "roomName": "Pirate Treehouse",
     "start": "2025-12-24T15:01:09.000Z",
