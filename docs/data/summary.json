@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-26T19:13:52.741Z",
-  "totalRows": 19267,
+  "generatedAt": "2025-12-26T20:19:09.607Z",
+  "totalRows": 19280,
   "totalUsers": 360,
   "teamStats": {
     "Penguin": {
       "users": 165,
-      "attacks": 11102,
+      "attacks": 11115,
       "hitsTaken": 8165
     },
     "Reindeer": {
       "users": 195,
       "attacks": 8165,
-      "hitsTaken": 11102
+      "hitsTaken": 11115
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 11102
+      "count": 11115
     },
     {
       "pair": "Reindeer → Penguin",
@@ -77,7 +77,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 564,
+      "attacks": 576,
       "team": "Penguin"
     },
     {
@@ -122,7 +122,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 291,
+      "attacks": 292,
       "team": "Penguin"
     },
     {
@@ -268,6 +268,11 @@
       "team": "Penguin"
     },
     {
+      "user": "jenn",
+      "hitsTaken": 189,
+      "team": "Reindeer"
+    },
+    {
       "user": "Cool_Beanss",
       "hitsTaken": 187,
       "team": "Penguin"
@@ -275,11 +280,6 @@
     {
       "user": "PuffyOldDragon",
       "hitsTaken": 184,
-      "team": "Reindeer"
-    },
-    {
-      "user": "FlameLegend",
-      "hitsTaken": 181,
       "team": "Reindeer"
     }
   ],
@@ -364,9 +364,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 564,
+      "attacks": 576,
       "hitsTaken": 173,
-      "ratio": 3.260115606936416
+      "ratio": 3.3294797687861273
     },
     {
       "user": "Luckymaxer",
@@ -469,9 +469,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 291,
+      "attacks": 292,
       "hitsTaken": 102,
-      "ratio": 2.8529411764705883
+      "ratio": 2.8627450980392157
     },
     {
       "user": "Chime",
@@ -544,6 +544,13 @@
       "ratio": 0.04219409282700422
     },
     {
+      "user": "jenn",
+      "team": "Reindeer",
+      "attacks": 41,
+      "hitsTaken": 189,
+      "ratio": 0.21693121693121692
+    },
+    {
       "user": "dizlindsey",
       "team": "Reindeer",
       "attacks": 143,
@@ -556,13 +563,6 @@
       "attacks": 156,
       "hitsTaken": 69,
       "ratio": 2.260869565217391
-    },
-    {
-      "user": "jenn",
-      "team": "Reindeer",
-      "attacks": 41,
-      "hitsTaken": 177,
-      "ratio": 0.23163841807909605
     },
     {
       "user": "Annie",
@@ -2203,6 +2203,13 @@
       "ratio": 0
     },
     {
+      "user": "RockaHula",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 4,
+      "ratio": 0
+    },
+    {
       "user": "TheGrayceOfMags",
       "team": "Penguin",
       "attacks": 0,
@@ -2295,13 +2302,6 @@
     },
     {
       "user": "Zanze",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 3,
-      "ratio": 0
-    },
-    {
-      "user": "RockaHula",
       "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 3,
@@ -2807,30 +2807,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.4189091419092068,
-      "intercept": 31.099659896764756,
+      "slope": 0.41852406748599935,
+      "intercept": 31.14126660797203,
       "xMin": 0,
       "xMax": 1509,
-      "y1": 31.099659896764756,
-      "y2": 663.2335550377578,
+      "y1": 31.14126660797203,
+      "y2": 662.6940844443451,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.29256783098306527,
-      "intercept": 29.799466305612178,
+      "slope": 0.29219426250260566,
+      "intercept": 29.80158043808205,
       "xMin": 0,
       "xMax": 1509,
-      "y1": 29.799466305612178,
-      "y2": 471.28432325905766,
+      "y1": 29.80158043808205,
+      "y2": 470.722722554514,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.5726598763769659,
-      "intercept": 32.955036458369605,
+      "slope": 0.5726492690395989,
+      "intercept": 33.02214727329064,
       "xMin": 0,
       "xMax": 1509,
-      "y1": 32.955036458369605,
-      "y2": 897.0987899112112,
+      "y1": 33.02214727329064,
+      "y2": 897.1498942540454,
       "label": "Reindeer"
     }
   },
@@ -2843,7 +2843,7 @@
     },
     {
       "roomName": "Town Square",
-      "hitCount": 4057,
+      "hitCount": 4058,
       "avgUserRatio": 1.3,
       "activeUsers": 193
     },
