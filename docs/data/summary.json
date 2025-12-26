@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-26T15:18:17.093Z",
-  "totalRows": 19135,
-  "totalUsers": 355,
+  "generatedAt": "2025-12-26T16:20:49.145Z",
+  "totalRows": 19137,
+  "totalUsers": 356,
   "teamStats": {
     "Penguin": {
       "users": 165,
-      "attacks": 10996,
+      "attacks": 10998,
       "hitsTaken": 8139
     },
     "Reindeer": {
-      "users": 190,
+      "users": 191,
       "attacks": 8139,
-      "hitsTaken": 10996
+      "hitsTaken": 10998
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 10996
+      "count": 10998
     },
     {
       "pair": "Reindeer → Penguin",
@@ -112,7 +112,7 @@
     },
     {
       "user": "BluPirate",
-      "attacks": 336,
+      "attacks": 338,
       "team": "Penguin"
     },
     {
@@ -441,9 +441,9 @@
     {
       "user": "BluPirate",
       "team": "Penguin",
-      "attacks": 336,
+      "attacks": 338,
       "hitsTaken": 114,
-      "ratio": 2.9473684210526314
+      "ratio": 2.9649122807017543
     },
     {
       "user": "PuffyOldDragon",
@@ -2525,6 +2525,13 @@
       "ratio": 0
     },
     {
+      "user": "Ramhi",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 2,
+      "ratio": 0
+    },
+    {
       "user": "tugdotforever",
       "team": "Penguin",
       "attacks": 0,
@@ -2772,30 +2779,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.4198310979104804,
-      "intercept": 31.271920961923822,
+      "slope": 0.41994629049682364,
+      "intercept": 31.1811456145008,
       "xMin": 0,
       "xMax": 1509,
-      "y1": 31.271920961923822,
-      "y2": 664.7970477088387,
+      "y1": 31.1811456145008,
+      "y2": 664.8800979742076,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2927891173605956,
-      "intercept": 29.815096154562973,
+      "slope": 0.2927556503413554,
+      "intercept": 29.813777924519837,
       "xMin": 0,
       "xMax": 1509,
-      "y1": 29.815096154562973,
-      "y2": 471.63387425170174,
+      "y1": 29.813777924519837,
+      "y2": 471.5820542896252,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.5720241975142868,
-      "intercept": 33.369973981216944,
+      "slope": 0.5722954452002568,
+      "intercept": 33.1941747199744,
       "xMin": 0,
       "xMax": 1509,
-      "y1": 33.369973981216944,
-      "y2": 896.5544880302757,
+      "y1": 33.1941747199744,
+      "y2": 896.7880015271619,
       "label": "Reindeer"
     }
   },
@@ -2862,9 +2869,9 @@
     },
     {
       "roomName": "Banquet Hall",
-      "hitCount": 276,
-      "avgUserRatio": 2.06,
-      "activeUsers": 39
+      "hitCount": 277,
+      "avgUserRatio": 1.98,
+      "activeUsers": 41
     },
     {
       "roomName": "Snow White Hide 'n Seek Forest",
@@ -2880,9 +2887,9 @@
     },
     {
       "roomName": "New Orleans Square",
-      "hitCount": 212,
-      "avgUserRatio": 2.35,
-      "activeUsers": 27
+      "hitCount": 213,
+      "avgUserRatio": 2.23,
+      "activeUsers": 29
     },
     {
       "roomName": "Monorail Train",

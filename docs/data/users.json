@@ -114,9 +114,9 @@
   {
     "user": "BluPirate",
     "team": "Penguin",
-    "attacks": 336,
+    "attacks": 338,
     "hitsTaken": 114,
-    "ratio": 2.9473684210526314
+    "ratio": 2.9649122807017543
   },
   {
     "user": "Devgirlforever",
@@ -2480,6 +2480,13 @@
   {
     "user": "unicorn",
     "team": "Penguin",
+    "attacks": 0,
+    "hitsTaken": 2,
+    "ratio": 0
+  },
+  {
+    "user": "Ramhi",
+    "team": "Reindeer",
     "attacks": 0,
     "hitsTaken": 2,
     "ratio": 0
