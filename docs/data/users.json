@@ -72,9 +72,9 @@
   {
     "user": "Jewelsy",
     "team": "Reindeer",
-    "attacks": 506,
+    "attacks": 508,
     "hitsTaken": 126,
-    "ratio": 4.015873015873016
+    "ratio": 4.031746031746032
   },
   {
     "user": "Luckymaxer",
@@ -2461,6 +2461,13 @@
     "team": "Penguin",
     "attacks": 0,
     "hitsTaken": 22,
+    "ratio": 0
+  },
+  {
+    "user": "unicorn",
+    "team": "Penguin",
+    "attacks": 0,
+    "hitsTaken": 2,
     "ratio": 0
   }
 ]

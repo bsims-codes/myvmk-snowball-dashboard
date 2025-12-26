@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2025-12-26T04:32:37.546Z",
-  "totalRows": 19108,
-  "totalUsers": 352,
+  "generatedAt": "2025-12-26T05:19:47.620Z",
+  "totalRows": 19110,
+  "totalUsers": 353,
   "teamStats": {
     "Penguin": {
-      "users": 163,
+      "users": 164,
       "attacks": 10988,
-      "hitsTaken": 8120
+      "hitsTaken": 8122
     },
     "Reindeer": {
       "users": 189,
-      "attacks": 8120,
+      "attacks": 8122,
       "hitsTaken": 10988
     },
     "Unknown": {
@@ -26,7 +26,7 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 8120
+      "count": 8122
     }
   ],
   "topAttackers": [
@@ -82,7 +82,7 @@
     },
     {
       "user": "Jewelsy",
-      "attacks": 506,
+      "attacks": 508,
       "team": "Reindeer"
     },
     {
@@ -385,9 +385,9 @@
     {
       "user": "Jewelsy",
       "team": "Reindeer",
-      "attacks": 506,
+      "attacks": 508,
       "hitsTaken": 126,
-      "ratio": 4.015873015873016
+      "ratio": 4.031746031746032
     },
     {
       "user": "SammyxxFairy",
@@ -2504,6 +2504,13 @@
       "ratio": 0
     },
     {
+      "user": "unicorn",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 2,
+      "ratio": 0
+    },
+    {
       "user": "tugdotforever",
       "team": "Penguin",
       "attacks": 0,
@@ -2751,30 +2758,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.41957539150274664,
-      "intercept": 31.507822213538404,
+      "slope": 0.41966824069439757,
+      "intercept": 31.41682696977355,
       "xMin": 0,
       "xMax": 1509,
-      "y1": 31.507822213538404,
-      "y2": 664.6470879911831,
+      "y1": 31.41682696977355,
+      "y2": 664.6962021776194,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.292343999349342,
-      "intercept": 30.108737025456627,
+      "slope": 0.29268094568274877,
+      "intercept": 29.91476688315827,
       "xMin": 0,
       "xMax": 1509,
-      "y1": 30.108737025456627,
-      "y2": 471.25583204361374,
+      "y1": 29.91476688315827,
+      "y2": 471.57031391842617,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.5719800995692592,
-      "intercept": 33.56360630422019,
+      "slope": 0.5717920909823938,
+      "intercept": 33.56563300021692,
       "xMin": 0,
       "xMax": 1509,
-      "y1": 33.56360630422019,
-      "y2": 896.6815765542324,
+      "y1": 33.56563300021692,
+      "y2": 896.3998982926493,
       "label": "Reindeer"
     }
   },
@@ -2811,9 +2818,9 @@
     },
     {
       "roomName": "Central Plaza",
-      "hitCount": 787,
-      "avgUserRatio": 1.2,
-      "activeUsers": 85
+      "hitCount": 789,
+      "avgUserRatio": 1.19,
+      "activeUsers": 86
     },
     {
       "roomName": "Monorail Station",
