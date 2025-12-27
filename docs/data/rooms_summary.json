@@ -13,7 +13,7 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1681,
+    "hitCount": 1683,
     "avgUserRatio": 1.91,
     "activeUsers": 157
   },
@@ -31,7 +31,7 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 792,
+    "hitCount": 797,
     "avgUserRatio": 1.17,
     "activeUsers": 87
   },
@@ -55,8 +55,8 @@
   },
   {
     "roomName": "Frontierland Hub",
-    "hitCount": 317,
-    "avgUserRatio": 1.49,
+    "hitCount": 318,
+    "avgUserRatio": 1.45,
     "activeUsers": 48
   },
   {
@@ -109,9 +109,9 @@
   },
   {
     "roomName": "Pirate Treehouse",
-    "hitCount": 123,
-    "avgUserRatio": 1.49,
-    "activeUsers": 30
+    "hitCount": 124,
+    "avgUserRatio": 1.45,
+    "activeUsers": 31
   },
   {
     "roomName": "Castle Forecourt",
@@ -217,9 +217,9 @@
   },
   {
     "roomName": "Elephant Bathing Pool",
-    "hitCount": 40,
-    "avgUserRatio": 2.1,
-    "activeUsers": 12
+    "hitCount": 43,
+    "avgUserRatio": 2.02,
+    "activeUsers": 13
   },
   {
     "roomName": "Mickey's Courtyard",
@@ -250,6 +250,12 @@
     "hitCount": 32,
     "avgUserRatio": 1.21,
     "activeUsers": 14
+  },
+  {
+    "roomName": "Autopia Space Race",
+    "hitCount": 32,
+    "avgUserRatio": 2.54,
+    "activeUsers": 12
   },
   {
     "roomName": "WS - Germany",
@@ -294,16 +300,16 @@
     "activeUsers": 10
   },
   {
-    "roomName": "Adventureland Bazaar",
-    "hitCount": 15,
-    "avgUserRatio": 0.9,
+    "roomName": "Splash Mountain",
+    "hitCount": 18,
+    "avgUserRatio": 1.65,
     "activeUsers": 10
   },
   {
-    "roomName": "Splash Mountain",
-    "hitCount": 15,
-    "avgUserRatio": 1.5,
-    "activeUsers": 9
+    "roomName": "Adventureland Bazaar",
+    "hitCount": 17,
+    "avgUserRatio": 1,
+    "activeUsers": 10
   },
   {
     "roomName": "Spell Room",
@@ -366,9 +372,9 @@
     "activeUsers": 5
   },
   {
-    "roomName": "Autopia Space Race",
-    "hitCount": 5,
-    "avgUserRatio": 1.25,
+    "roomName": "Frontierland Dock",
+    "hitCount": 4,
+    "avgUserRatio": 0.88,
     "activeUsers": 4
   },
   {
@@ -417,12 +423,6 @@
     "roomName": "Frontierland Cave",
     "hitCount": 2,
     "avgUserRatio": 1,
-    "activeUsers": 2
-  },
-  {
-    "roomName": "Frontierland Dock",
-    "hitCount": 1,
-    "avgUserRatio": 0.5,
     "activeUsers": 2
   },
   {
