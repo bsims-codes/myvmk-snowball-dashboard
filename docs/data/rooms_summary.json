@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 5387,
+    "hitCount": 5389,
     "avgUserRatio": 1.1,
     "activeUsers": 153
   },
@@ -91,9 +91,9 @@
   },
   {
     "roomName": "Tomorrowland Hub",
-    "hitCount": 158,
-    "avgUserRatio": 1.37,
-    "activeUsers": 32
+    "hitCount": 163,
+    "avgUserRatio": 1.35,
+    "activeUsers": 33
   },
   {
     "roomName": "Shrunken Ned's Shop",
@@ -210,6 +210,12 @@
     "activeUsers": 18
   },
   {
+    "roomName": "Nautilus Grotto",
+    "hitCount": 44,
+    "avgUserRatio": 1.78,
+    "activeUsers": 10
+  },
+  {
     "roomName": "Elephant Bathing Pool",
     "hitCount": 40,
     "avgUserRatio": 2.1,
@@ -268,12 +274,6 @@
     "hitCount": 24,
     "avgUserRatio": 1.08,
     "activeUsers": 4
-  },
-  {
-    "roomName": "Nautilus Grotto",
-    "hitCount": 22,
-    "avgUserRatio": 1.7,
-    "activeUsers": 9
   },
   {
     "roomName": "Space Mountain Quest Deck",
@@ -384,6 +384,12 @@
     "activeUsers": 3
   },
   {
+    "roomName": "Shipwreck Graveyard",
+    "hitCount": 3,
+    "avgUserRatio": 0.75,
+    "activeUsers": 4
+  },
+  {
     "roomName": "Discovery Trading Company",
     "hitCount": 3,
     "avgUserRatio": 0.75,
@@ -402,12 +408,6 @@
     "activeUsers": 2
   },
   {
-    "roomName": "Shipwreck Graveyard",
-    "hitCount": 2,
-    "avgUserRatio": 1,
-    "activeUsers": 2
-  },
-  {
     "roomName": "Big Thunder Mountain",
     "hitCount": 2,
     "avgUserRatio": 0.67,
@@ -421,6 +421,12 @@
   },
   {
     "roomName": "Frontierland Dock",
+    "hitCount": 1,
+    "avgUserRatio": 0.5,
+    "activeUsers": 2
+  },
+  {
+    "roomName": "Inner-Space Shrinking Machine",
     "hitCount": 1,
     "avgUserRatio": 0.5,
     "activeUsers": 2

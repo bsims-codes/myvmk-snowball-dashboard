@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-27T04:30:18.365Z",
-  "totalRows": 19427,
+  "generatedAt": "2025-12-27T05:18:48.151Z",
+  "totalRows": 19458,
   "totalUsers": 363,
   "teamStats": {
     "Penguin": {
       "users": 166,
-      "attacks": 11209,
-      "hitsTaken": 8218
+      "attacks": 11232,
+      "hitsTaken": 8226
     },
     "Reindeer": {
       "users": 197,
-      "attacks": 8218,
-      "hitsTaken": 11209
+      "attacks": 8226,
+      "hitsTaken": 11232
     },
     "Unknown": {
       "users": 0,
@@ -22,17 +22,17 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 11209
+      "count": 11232
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 8218
+      "count": 8226
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 1544,
+      "attacks": 1552,
       "team": "Reindeer"
     },
     {
@@ -112,7 +112,7 @@
     },
     {
       "user": "bsims",
-      "attacks": 355,
+      "attacks": 356,
       "team": "Penguin"
     },
     {
@@ -179,7 +179,7 @@
     },
     {
       "user": "Kronkx",
-      "hitsTaken": 511,
+      "hitsTaken": 512,
       "team": "Reindeer"
     },
     {
@@ -294,9 +294,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 1544,
-      "hitsTaken": 511,
-      "ratio": 3.0215264187866926
+      "attacks": 1552,
+      "hitsTaken": 512,
+      "ratio": 3.03125
     },
     {
       "user": "kazino",
@@ -455,9 +455,9 @@
     {
       "user": "bsims",
       "team": "Penguin",
-      "attacks": 355,
-      "hitsTaken": 83,
-      "ratio": 4.27710843373494
+      "attacks": 356,
+      "hitsTaken": 87,
+      "ratio": 4.091954022988506
     },
     {
       "user": "SpideyxLei",
@@ -691,6 +691,13 @@
       "ratio": 0.7386363636363636
     },
     {
+      "user": "SoopaVillain",
+      "team": "Penguin",
+      "attacks": 22,
+      "hitsTaken": 130,
+      "ratio": 0.16923076923076924
+    },
+    {
       "user": "magnumopus",
       "team": "Reindeer",
       "attacks": 0,
@@ -752,13 +759,6 @@
       "attacks": 97,
       "hitsTaken": 29,
       "ratio": 3.3448275862068964
-    },
-    {
-      "user": "SoopaVillain",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 126,
-      "ratio": 0
     },
     {
       "user": "Redsox",
@@ -1125,6 +1125,13 @@
       "ratio": 0.09615384615384616
     },
     {
+      "user": "GrangerDanger",
+      "team": "Reindeer",
+      "attacks": 5,
+      "hitsTaken": 51,
+      "ratio": 0.09803921568627451
+    },
+    {
       "user": "SkateboardNicky",
       "team": "Reindeer",
       "attacks": 2,
@@ -1270,13 +1277,6 @@
       "attacks": 6,
       "hitsTaken": 28,
       "ratio": 0.21428571428571427
-    },
-    {
-      "user": "GrangerDanger",
-      "team": "Reindeer",
-      "attacks": 5,
-      "hitsTaken": 29,
-      "ratio": 0.1724137931034483
     },
     {
       "user": "horchadapls",
@@ -2828,37 +2828,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.41899554949367396,
-      "intercept": 31.094141763047922,
+      "slope": 0.41874800796068196,
+      "intercept": 31.157028267496006,
       "xMin": 0,
-      "xMax": 1544,
-      "y1": 31.094141763047922,
-      "y2": 678.0232701812805,
+      "xMax": 1552,
+      "y1": 31.157028267496006,
+      "y2": 681.0539366224745,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2945167617002352,
-      "intercept": 29.61904589218111,
+      "slope": 0.2950827928539364,
+      "intercept": 29.58813295581076,
       "xMin": 0,
-      "xMax": 1544,
-      "y1": 29.61904589218111,
-      "y2": 484.3529259573443,
+      "xMax": 1552,
+      "y1": 29.58813295581076,
+      "y2": 487.5566274651201,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.5692259222194453,
-      "intercept": 33.15279883858172,
+      "slope": 0.5673736420659972,
+      "intercept": 33.32377878357923,
       "xMin": 0,
-      "xMax": 1544,
-      "y1": 33.15279883858172,
-      "y2": 912.0376227454053,
+      "xMax": 1552,
+      "y1": 33.32377878357923,
+      "y2": 913.8876712700068,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 5387,
+      "hitCount": 5389,
       "avgUserRatio": 1.1,
       "activeUsers": 153
     },
@@ -2948,9 +2948,9 @@
     },
     {
       "roomName": "Tomorrowland Hub",
-      "hitCount": 158,
-      "avgUserRatio": 1.37,
-      "activeUsers": 32
+      "hitCount": 163,
+      "avgUserRatio": 1.35,
+      "activeUsers": 33
     },
     {
       "roomName": "Shrunken Ned's Shop",
