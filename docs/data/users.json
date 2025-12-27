@@ -280,6 +280,13 @@
     "ratio": 1.0294117647058822
   },
   {
+    "user": "Dorian_Gray",
+    "team": "Reindeer",
+    "attacks": 101,
+    "hitsTaken": 118,
+    "ratio": 0.8559322033898306
+  },
+  {
     "user": "IcyWifeyQueen",
     "team": "Reindeer",
     "attacks": 97,
@@ -313,13 +320,6 @@
     "attacks": 91,
     "hitsTaken": 85,
     "ratio": 1.0705882352941176
-  },
-  {
-    "user": "Dorian_Gray",
-    "team": "Reindeer",
-    "attacks": 87,
-    "hitsTaken": 100,
-    "ratio": 0.87
   },
   {
     "user": "rockin_rachael",
@@ -369,6 +369,13 @@
     "attacks": 64,
     "hitsTaken": 42,
     "ratio": 1.5238095238095237
+  },
+  {
+    "user": "Magenta",
+    "team": "Penguin",
+    "attacks": 59,
+    "hitsTaken": 238,
+    "ratio": 0.24789915966386555
   },
   {
     "user": "AstroVioletRose",
@@ -439,13 +446,6 @@
     "attacks": 41,
     "hitsTaken": 89,
     "ratio": 0.4606741573033708
-  },
-  {
-    "user": "Magenta",
-    "team": "Penguin",
-    "attacks": 40,
-    "hitsTaken": 230,
-    "ratio": 0.17391304347826086
   },
   {
     "user": "BoyInB1ack",
@@ -1361,7 +1361,7 @@
     "user": "Focus",
     "team": "Penguin",
     "attacks": 0,
-    "hitsTaken": 21,
+    "hitsTaken": 27,
     "ratio": 0
   },
   {
@@ -1697,7 +1697,7 @@
     "user": "StarportSeventy-Five",
     "team": "Reindeer",
     "attacks": 0,
-    "hitsTaken": 77,
+    "hitsTaken": 78,
     "ratio": 0
   },
   {
