@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-27T19:13:22.671Z",
-  "totalRows": 19532,
+  "generatedAt": "2025-12-27T20:19:17.521Z",
+  "totalRows": 19536,
   "totalUsers": 365,
   "teamStats": {
     "Penguin": {
       "users": 167,
-      "attacks": 11268,
-      "hitsTaken": 8264
+      "attacks": 11269,
+      "hitsTaken": 8267
     },
     "Reindeer": {
       "users": 198,
-      "attacks": 8264,
-      "hitsTaken": 11268
+      "attacks": 8267,
+      "hitsTaken": 11269
     },
     "Unknown": {
       "users": 0,
@@ -22,17 +22,17 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 11268
+      "count": 11269
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 8264
+      "count": 8267
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 1552,
+      "attacks": 1555,
       "team": "Reindeer"
     },
     {
@@ -179,7 +179,7 @@
     },
     {
       "user": "Kronkx",
-      "hitsTaken": 512,
+      "hitsTaken": 513,
       "team": "Reindeer"
     },
     {
@@ -294,9 +294,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 1552,
-      "hitsTaken": 512,
-      "ratio": 3.03125
+      "attacks": 1555,
+      "hitsTaken": 513,
+      "ratio": 3.0311890838206628
     },
     {
       "user": "kazino",
@@ -1181,6 +1181,13 @@
       "ratio": 0.25
     },
     {
+      "user": "Lilasaurus",
+      "team": "Penguin",
+      "attacks": 10,
+      "hitsTaken": 39,
+      "ratio": 0.2564102564102564
+    },
+    {
       "user": "KiloAye",
       "team": "Reindeer",
       "attacks": 0,
@@ -1200,13 +1207,6 @@
       "attacks": 0,
       "hitsTaken": 47,
       "ratio": 0
-    },
-    {
-      "user": "Lilasaurus",
-      "team": "Penguin",
-      "attacks": 9,
-      "hitsTaken": 36,
-      "ratio": 0.25
     },
     {
       "user": "Rigel",
@@ -2842,30 +2842,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.419571789189494,
-      "intercept": 31.060065242604942,
+      "slope": 0.4194790016312708,
+      "intercept": 31.071392394880803,
       "xMin": 0,
-      "xMax": 1552,
-      "y1": 31.060065242604942,
-      "y2": 682.2354820646997,
+      "xMax": 1555,
+      "y1": 31.071392394880803,
+      "y2": 683.3612399315069,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.29618038865015384,
-      "intercept": 29.50083461491058,
+      "slope": 0.2961540205263381,
+      "intercept": 29.5188044472377,
       "xMin": 0,
-      "xMax": 1552,
-      "y1": 29.50083461491058,
-      "y2": 489.1727977999493,
+      "xMax": 1555,
+      "y1": 29.5188044472377,
+      "y2": 490.0383063656935,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.5678380627376721,
-      "intercept": 33.20902146230241,
+      "slope": 0.5673907902533022,
+      "intercept": 33.22414311604015,
       "xMin": 0,
-      "xMax": 1552,
-      "y1": 33.20902146230241,
-      "y2": 914.4936948311696,
+      "xMax": 1555,
+      "y1": 33.22414311604015,
+      "y2": 915.5168219599251,
       "label": "Reindeer"
     }
   },
@@ -3016,9 +3016,9 @@
     },
     {
       "roomName": "Storybookland",
-      "hitCount": 82,
-      "avgUserRatio": 3.1,
-      "activeUsers": 19
+      "hitCount": 86,
+      "avgUserRatio": 2.97,
+      "activeUsers": 20
     }
   ]
 }
