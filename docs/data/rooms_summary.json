@@ -109,9 +109,9 @@
   },
   {
     "roomName": "Pirate Treehouse",
-    "hitCount": 121,
-    "avgUserRatio": 1.53,
-    "activeUsers": 28
+    "hitCount": 123,
+    "avgUserRatio": 1.49,
+    "activeUsers": 30
   },
   {
     "roomName": "Castle Forecourt",
@@ -150,6 +150,12 @@
     "activeUsers": 19
   },
   {
+    "roomName": "Jungle Cruise Dock",
+    "hitCount": 77,
+    "avgUserRatio": 2.72,
+    "activeUsers": 19
+  },
+  {
     "roomName": "Penny Arcade",
     "hitCount": 76,
     "avgUserRatio": 1.34,
@@ -166,12 +172,6 @@
     "hitCount": 74,
     "avgUserRatio": 2.63,
     "activeUsers": 24
-  },
-  {
-    "roomName": "Jungle Cruise Dock",
-    "hitCount": 72,
-    "avgUserRatio": 3.06,
-    "activeUsers": 18
   },
   {
     "roomName": "Street Party Music Game Lobby",

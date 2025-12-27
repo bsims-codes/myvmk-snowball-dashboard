@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-27T15:16:37.290Z",
-  "totalRows": 19525,
-  "totalUsers": 364,
+  "generatedAt": "2025-12-27T16:21:12.667Z",
+  "totalRows": 19532,
+  "totalUsers": 365,
   "teamStats": {
     "Penguin": {
       "users": 167,
-      "attacks": 11263,
-      "hitsTaken": 8262
+      "attacks": 11268,
+      "hitsTaken": 8264
     },
     "Reindeer": {
-      "users": 197,
-      "attacks": 8262,
-      "hitsTaken": 11263
+      "users": 198,
+      "attacks": 8264,
+      "hitsTaken": 11268
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 11263
+      "count": 11268
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 8262
+      "count": 8264
     }
   ],
   "topAttackers": [
@@ -122,7 +122,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 304,
+      "attacks": 309,
       "team": "Penguin"
     },
     {
@@ -469,9 +469,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 304,
-      "hitsTaken": 102,
-      "ratio": 2.980392156862745
+      "attacks": 309,
+      "hitsTaken": 104,
+      "ratio": 2.9711538461538463
     },
     {
       "user": "Chime",
@@ -1678,6 +1678,13 @@
       "ratio": 4.333333333333333
     },
     {
+      "user": "MagicalPixieDust",
+      "team": "Reindeer",
+      "attacks": 2,
+      "hitsTaken": 14,
+      "ratio": 0.14285714285714285
+    },
+    {
       "user": "Question",
       "team": "Penguin",
       "attacks": 11,
@@ -1858,13 +1865,6 @@
       "attacks": 4,
       "hitsTaken": 7,
       "ratio": 0.5714285714285714
-    },
-    {
-      "user": "MagicalPixieDust",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 11,
-      "ratio": 0
     },
     {
       "user": "Mayuri",
@@ -2595,6 +2595,13 @@
       "ratio": 0
     },
     {
+      "user": "icarl",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 2,
+      "ratio": 0
+    },
+    {
       "user": "tugdotforever",
       "team": "Penguin",
       "attacks": 0,
@@ -2835,30 +2842,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.4194707214207232,
-      "intercept": 31.139654297418623,
+      "slope": 0.419571789189494,
+      "intercept": 31.060065242604942,
       "xMin": 0,
       "xMax": 1552,
-      "y1": 31.139654297418623,
-      "y2": 682.158213942381,
+      "y1": 31.060065242604942,
+      "y2": 682.2354820646997,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.29617382907740575,
-      "intercept": 29.49816864132443,
+      "slope": 0.29618038865015384,
+      "intercept": 29.50083461491058,
       "xMin": 0,
       "xMax": 1552,
-      "y1": 29.49816864132443,
-      "y2": 489.15995136945816,
+      "y1": 29.50083461491058,
+      "y2": 489.1727977999493,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.5676033107439902,
-      "intercept": 33.367824602198745,
+      "slope": 0.5678380627376721,
+      "intercept": 33.20902146230241,
       "xMin": 0,
       "xMax": 1552,
-      "y1": 33.367824602198745,
-      "y2": 914.2881628768715,
+      "y1": 33.20902146230241,
+      "y2": 914.4936948311696,
       "label": "Reindeer"
     }
   },
@@ -2973,9 +2980,9 @@
     },
     {
       "roomName": "Pirate Treehouse",
-      "hitCount": 121,
-      "avgUserRatio": 1.53,
-      "activeUsers": 28
+      "hitCount": 123,
+      "avgUserRatio": 1.49,
+      "activeUsers": 30
     },
     {
       "roomName": "Castle Forecourt",
