@@ -14097,6 +14097,74 @@
     ]
   },
   {
+    "id": "Matterhorn-10",
+    "roomName": "Matterhorn",
+    "start": "2025-12-27T01:34:41.000Z",
+    "end": "2025-12-27T01:38:02.000Z",
+    "durationMinutes": 3,
+    "hitCount": 30,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "Dorian_Gray",
+        "team": "Reindeer",
+        "attacks": 21
+      },
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "attacks": 9
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Dorian_Gray",
+        "team": "Reindeer",
+        "hitsTaken": 9
+      },
+      {
+        "user": "ForeverAvastMacy",
+        "team": "Penguin",
+        "hitsTaken": 8
+      },
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "hitsTaken": 7
+      }
+    ],
+    "participants": [
+      {
+        "user": "Dorian_Gray",
+        "team": "Reindeer",
+        "attacks": 21,
+        "hitsTaken": 9,
+        "ratio": 2.3333333333333335
+      },
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "attacks": 9,
+        "hitsTaken": 7,
+        "ratio": 1.2857142857142858
+      },
+      {
+        "user": "ForeverAvastMacy",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 8,
+        "ratio": 0
+      },
+      {
+        "user": "Focus",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 6,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "WS - Norway-1",
     "roomName": "WS - Norway",
     "start": "2025-12-21T06:52:54.000Z",
