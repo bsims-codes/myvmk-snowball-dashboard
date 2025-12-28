@@ -1,21 +1,21 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 5419,
-    "avgUserRatio": 1.1,
-    "activeUsers": 153
+    "hitCount": 5509,
+    "avgUserRatio": 1.22,
+    "activeUsers": 156
   },
   {
     "roomName": "Town Square",
-    "hitCount": 4068,
+    "hitCount": 4081,
     "avgUserRatio": 1.29,
     "activeUsers": 195
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1694,
-    "avgUserRatio": 1.91,
-    "activeUsers": 157
+    "hitCount": 1730,
+    "avgUserRatio": 1.84,
+    "activeUsers": 163
   },
   {
     "roomName": "Matterhorn",
@@ -25,8 +25,8 @@
   },
   {
     "roomName": "Fantasyland in The Sky",
-    "hitCount": 844,
-    "avgUserRatio": 2.45,
+    "hitCount": 846,
+    "avgUserRatio": 2.39,
     "activeUsers": 38
   },
   {
@@ -36,27 +36,27 @@
     "activeUsers": 87
   },
   {
+    "roomName": "Dungeon",
+    "hitCount": 551,
+    "avgUserRatio": 3.26,
+    "activeUsers": 48
+  },
+  {
     "roomName": "Monorail Station",
     "hitCount": 546,
     "avgUserRatio": 2.16,
     "activeUsers": 32
   },
   {
-    "roomName": "Dungeon",
-    "hitCount": 488,
-    "avgUserRatio": 3.04,
-    "activeUsers": 45
-  },
-  {
     "roomName": "VMK Esplanade",
-    "hitCount": 469,
+    "hitCount": 470,
     "avgUserRatio": 1.75,
     "activeUsers": 79
   },
   {
     "roomName": "Frontierland Hub",
-    "hitCount": 318,
-    "avgUserRatio": 1.45,
+    "hitCount": 320,
+    "avgUserRatio": 1.43,
     "activeUsers": 48
   },
   {
@@ -73,8 +73,8 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 220,
-    "avgUserRatio": 2.37,
+    "hitCount": 222,
+    "avgUserRatio": 2.38,
     "activeUsers": 48
   },
   {
@@ -90,16 +90,22 @@
     "activeUsers": 19
   },
   {
+    "roomName": "Shrunken Ned's Shop",
+    "hitCount": 167,
+    "avgUserRatio": 6.17,
+    "activeUsers": 27
+  },
+  {
     "roomName": "Tomorrowland Hub",
     "hitCount": 163,
     "avgUserRatio": 1.35,
     "activeUsers": 33
   },
   {
-    "roomName": "Shrunken Ned's Shop",
-    "hitCount": 158,
-    "avgUserRatio": 6.3,
-    "activeUsers": 25
+    "roomName": "Pirate Treehouse",
+    "hitCount": 138,
+    "avgUserRatio": 1.39,
+    "activeUsers": 34
   },
   {
     "roomName": "WS - United Kingdom",
@@ -108,16 +114,10 @@
     "activeUsers": 38
   },
   {
-    "roomName": "Pirate Treehouse",
-    "hitCount": 124,
-    "avgUserRatio": 1.45,
-    "activeUsers": 31
-  },
-  {
     "roomName": "Castle Forecourt",
-    "hitCount": 112,
-    "avgUserRatio": 2.99,
-    "activeUsers": 31
+    "hitCount": 119,
+    "avgUserRatio": 3,
+    "activeUsers": 32
   },
   {
     "roomName": "Pixar Pier Entrance",
@@ -138,16 +138,16 @@
     "activeUsers": 26
   },
   {
+    "roomName": "Storybookland",
+    "hitCount": 90,
+    "avgUserRatio": 2.75,
+    "activeUsers": 22
+  },
+  {
     "roomName": "Blue Bayou",
     "hitCount": 89,
     "avgUserRatio": 2.12,
     "activeUsers": 27
-  },
-  {
-    "roomName": "Storybookland",
-    "hitCount": 86,
-    "avgUserRatio": 2.97,
-    "activeUsers": 20
   },
   {
     "roomName": "Jungle Cruise Dock",
@@ -223,9 +223,21 @@
   },
   {
     "roomName": "Mickey's Courtyard",
-    "hitCount": 38,
-    "avgUserRatio": 1.18,
-    "activeUsers": 12
+    "hitCount": 39,
+    "avgUserRatio": 1.08,
+    "activeUsers": 14
+  },
+  {
+    "roomName": "Splash Mountain",
+    "hitCount": 36,
+    "avgUserRatio": 1.42,
+    "activeUsers": 14
+  },
+  {
+    "roomName": "Castle Gardens",
+    "hitCount": 35,
+    "avgUserRatio": 1.21,
+    "activeUsers": 16
   },
   {
     "roomName": "VMK Central",
@@ -246,28 +258,22 @@
     "activeUsers": 8
   },
   {
-    "roomName": "Castle Gardens",
-    "hitCount": 32,
-    "avgUserRatio": 1.21,
-    "activeUsers": 14
-  },
-  {
     "roomName": "Autopia Space Race",
     "hitCount": 32,
     "avgUserRatio": 2.54,
     "activeUsers": 12
   },
   {
+    "roomName": "Forbidden Temple",
+    "hitCount": 29,
+    "avgUserRatio": 1.37,
+    "activeUsers": 17
+  },
+  {
     "roomName": "WS - Germany",
     "hitCount": 29,
     "avgUserRatio": 1.26,
     "activeUsers": 3
-  },
-  {
-    "roomName": "Forbidden Temple",
-    "hitCount": 28,
-    "avgUserRatio": 1.42,
-    "activeUsers": 16
   },
   {
     "roomName": "Discovery Island",
@@ -300,12 +306,6 @@
     "activeUsers": 10
   },
   {
-    "roomName": "Splash Mountain",
-    "hitCount": 18,
-    "avgUserRatio": 1.65,
-    "activeUsers": 10
-  },
-  {
     "roomName": "Adventureland Bazaar",
     "hitCount": 17,
     "avgUserRatio": 1,
@@ -313,9 +313,9 @@
   },
   {
     "roomName": "Spell Room",
-    "hitCount": 11,
-    "avgUserRatio": 1.11,
-    "activeUsers": 9
+    "hitCount": 16,
+    "avgUserRatio": 1.1,
+    "activeUsers": 12
   },
   {
     "roomName": "Anandapur",
@@ -354,6 +354,12 @@
     "activeUsers": 6
   },
   {
+    "roomName": "Star Commander Lobby",
+    "hitCount": 6,
+    "avgUserRatio": 0.76,
+    "activeUsers": 7
+  },
+  {
     "roomName": "WS - Italy",
     "hitCount": 6,
     "avgUserRatio": 1.2,
@@ -364,12 +370,6 @@
     "hitCount": 5,
     "avgUserRatio": 0.83,
     "activeUsers": 6
-  },
-  {
-    "roomName": "Star Commander Lobby",
-    "hitCount": 5,
-    "avgUserRatio": 0.87,
-    "activeUsers": 5
   },
   {
     "roomName": "Frontierland Dock",
