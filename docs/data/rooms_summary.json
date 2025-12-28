@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 5583,
-    "avgUserRatio": 1.33,
-    "activeUsers": 156
+    "hitCount": 5610,
+    "avgUserRatio": 1.32,
+    "activeUsers": 158
   },
   {
     "roomName": "Town Square",
@@ -91,9 +91,9 @@
   },
   {
     "roomName": "Shrunken Ned's Shop",
-    "hitCount": 184,
-    "avgUserRatio": 6.12,
-    "activeUsers": 30
+    "hitCount": 186,
+    "avgUserRatio": 5.98,
+    "activeUsers": 31
   },
   {
     "roomName": "Tomorrowland Hub",
@@ -114,6 +114,12 @@
     "activeUsers": 38
   },
   {
+    "roomName": "Tiki Tiki Tiki Island",
+    "hitCount": 123,
+    "avgUserRatio": 1.93,
+    "activeUsers": 22
+  },
+  {
     "roomName": "Castle Forecourt",
     "hitCount": 119,
     "avgUserRatio": 3,
@@ -126,10 +132,10 @@
     "activeUsers": 30
   },
   {
-    "roomName": "Tiki Tiki Tiki Island",
-    "hitCount": 110,
-    "avgUserRatio": 1.95,
-    "activeUsers": 21
+    "roomName": "Storybookland",
+    "hitCount": 104,
+    "avgUserRatio": 2.9,
+    "activeUsers": 22
   },
   {
     "roomName": "Gallery",
@@ -142,12 +148,6 @@
     "hitCount": 92,
     "avgUserRatio": 2.08,
     "activeUsers": 29
-  },
-  {
-    "roomName": "Storybookland",
-    "hitCount": 90,
-    "avgUserRatio": 2.75,
-    "activeUsers": 22
   },
   {
     "roomName": "Jungle Cruise Dock",
