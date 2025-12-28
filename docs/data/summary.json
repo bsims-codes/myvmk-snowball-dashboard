@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-28T13:27:33.380Z",
-  "totalRows": 20369,
+  "generatedAt": "2025-12-28T14:16:44.338Z",
+  "totalRows": 20370,
   "totalUsers": 372,
   "teamStats": {
     "Penguin": {
       "users": 170,
-      "attacks": 11699,
+      "attacks": 11700,
       "hitsTaken": 8670
     },
     "Reindeer": {
       "users": 202,
       "attacks": 8670,
-      "hitsTaken": 11699
+      "hitsTaken": 11700
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 11699
+      "count": 11700
     },
     {
       "pair": "Reindeer → Penguin",
@@ -107,7 +107,7 @@
     },
     {
       "user": "bsims",
-      "attacks": 382,
+      "attacks": 383,
       "team": "Penguin"
     },
     {
@@ -448,9 +448,9 @@
     {
       "user": "bsims",
       "team": "Penguin",
-      "attacks": 382,
+      "attacks": 383,
       "hitsTaken": 88,
-      "ratio": 4.340909090909091
+      "ratio": 4.3522727272727275
     },
     {
       "user": "JustForFun",
@@ -722,7 +722,7 @@
       "user": "AtziriDayre",
       "team": "Reindeer",
       "attacks": 0,
-      "hitsTaken": 147,
+      "hitsTaken": 148,
       "ratio": 0
     },
     {
@@ -2891,30 +2891,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.4156211856612317,
-      "intercept": 31.99788190663003,
+      "slope": 0.4155978065494341,
+      "intercept": 32.000733012333406,
       "xMin": 0,
       "xMax": 1937,
-      "y1": 31.99788190663003,
-      "y2": 837.0561185324358,
+      "y1": 32.000733012333406,
+      "y2": 837.0136842985873,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3051086464206489,
-      "intercept": 30.003140856028402,
+      "slope": 0.30508341147472245,
+      "intercept": 30.003082857327925,
       "xMin": 0,
       "xMax": 1937,
-      "y1": 30.003140856028402,
-      "y2": 620.9985889728252,
+      "y1": 30.003082857327925,
+      "y2": 620.9496508838654,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.5280122216514553,
-      "intercept": 35.253138803375656,
+      "slope": 0.5280055070404733,
+      "intercept": 35.25837749484701,
       "xMin": 0,
       "xMax": 1937,
-      "y1": 35.253138803375656,
-      "y2": 1058.0128121422447,
+      "y1": 35.25837749484701,
+      "y2": 1058.0050446322439,
       "label": "Reindeer"
     }
   },
@@ -3023,9 +3023,9 @@
     },
     {
       "roomName": "Pirate Treehouse",
-      "hitCount": 140,
-      "avgUserRatio": 1.38,
-      "activeUsers": 34
+      "hitCount": 141,
+      "avgUserRatio": 1.35,
+      "activeUsers": 35
     },
     {
       "roomName": "WS - United Kingdom",
