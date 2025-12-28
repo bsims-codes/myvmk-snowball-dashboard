@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-28T20:19:53.430Z",
-  "totalRows": 20500,
+  "generatedAt": "2025-12-28T21:16:13.645Z",
+  "totalRows": 20508,
   "totalUsers": 374,
   "teamStats": {
     "Penguin": {
       "users": 171,
-      "attacks": 11798,
+      "attacks": 11806,
       "hitsTaken": 8702
     },
     "Reindeer": {
       "users": 203,
       "attacks": 8702,
-      "hitsTaken": 11798
+      "hitsTaken": 11806
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 11798
+      "count": 11806
     },
     {
       "pair": "Reindeer → Penguin",
@@ -112,7 +112,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 362,
+      "attacks": 370,
       "team": "Penguin"
     },
     {
@@ -164,7 +164,7 @@
     },
     {
       "user": "MatthewC",
-      "hitsTaken": 903,
+      "hitsTaken": 911,
       "team": "Reindeer"
     },
     {
@@ -344,8 +344,8 @@
       "user": "MatthewC",
       "team": "Reindeer",
       "attacks": 94,
-      "hitsTaken": 903,
-      "ratio": 0.10409745293466224
+      "hitsTaken": 911,
+      "ratio": 0.10318331503841932
     },
     {
       "user": "TaterTotCasserole",
@@ -448,9 +448,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 362,
+      "attacks": 370,
       "hitsTaken": 110,
-      "ratio": 3.290909090909091
+      "ratio": 3.3636363636363638
     },
     {
       "user": "bsims",
@@ -2905,30 +2905,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.4148583967512213,
-      "intercept": 32.07326969679134,
+      "slope": 0.41475497471016426,
+      "intercept": 32.0914571621496,
       "xMin": 0,
       "xMax": 1937,
-      "y1": 32.07326969679134,
-      "y2": 835.653984203907,
+      "y1": 32.0914571621496,
+      "y2": 835.4718431757377,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3051104900180762,
-      "intercept": 29.838049349513078,
+      "slope": 0.30495326636881787,
+      "intercept": 29.834630042396117,
       "xMin": 0,
       "xMax": 1937,
-      "y1": 29.838049349513078,
-      "y2": 620.8370685145268,
+      "y1": 29.834630042396117,
+      "y2": 620.5291069987964,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.5282429434473648,
-      "intercept": 35.474038946409024,
+      "slope": 0.5283068991021157,
+      "intercept": 35.51070622666694,
       "xMin": 0,
       "xMax": 1937,
-      "y1": 35.474038946409024,
-      "y2": 1058.6806204039547,
+      "y1": 35.51070622666694,
+      "y2": 1058.841169787465,
       "label": "Reindeer"
     }
   },
@@ -2995,8 +2995,8 @@
     },
     {
       "roomName": "Banquet Hall",
-      "hitCount": 277,
-      "avgUserRatio": 1.98,
+      "hitCount": 285,
+      "avgUserRatio": 2.18,
       "activeUsers": 41
     },
     {
