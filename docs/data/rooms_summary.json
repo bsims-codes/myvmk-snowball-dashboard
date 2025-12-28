@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 5756,
+    "hitCount": 5759,
     "avgUserRatio": 1.32,
     "activeUsers": 159
   },
@@ -13,7 +13,7 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1765,
+    "hitCount": 1768,
     "avgUserRatio": 1.82,
     "activeUsers": 167
   },
@@ -132,6 +132,12 @@
     "activeUsers": 30
   },
   {
+    "roomName": "Jungle Cruise Dock",
+    "hitCount": 106,
+    "avgUserRatio": 3.63,
+    "activeUsers": 21
+  },
+  {
     "roomName": "Storybookland",
     "hitCount": 104,
     "avgUserRatio": 2.9,
@@ -148,12 +154,6 @@
     "hitCount": 92,
     "avgUserRatio": 2.08,
     "activeUsers": 29
-  },
-  {
-    "roomName": "Jungle Cruise Dock",
-    "hitCount": 84,
-    "avgUserRatio": 3.09,
-    "activeUsers": 19
   },
   {
     "roomName": "Autopia Quest Track",

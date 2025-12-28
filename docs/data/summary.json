@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-28T22:17:04.414Z",
-  "totalRows": 20508,
-  "totalUsers": 374,
+  "generatedAt": "2025-12-28T23:16:56.568Z",
+  "totalRows": 20536,
+  "totalUsers": 375,
   "teamStats": {
     "Penguin": {
       "users": 171,
-      "attacks": 11806,
-      "hitsTaken": 8702
+      "attacks": 11833,
+      "hitsTaken": 8703
     },
     "Reindeer": {
-      "users": 203,
-      "attacks": 8702,
-      "hitsTaken": 11806
+      "users": 204,
+      "attacks": 8703,
+      "hitsTaken": 11833
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 11806
+      "count": 11833
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 8702
+      "count": 8703
     }
   ],
   "topAttackers": [
@@ -52,7 +52,7 @@
     },
     {
       "user": "goatduck",
-      "attacks": 876,
+      "attacks": 878,
       "team": "Penguin"
     },
     {
@@ -112,7 +112,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 370,
+      "attacks": 382,
       "team": "Penguin"
     },
     {
@@ -142,7 +142,7 @@
     },
     {
       "user": "SammyxxFairy",
-      "attacks": 237,
+      "attacks": 238,
       "team": "Reindeer"
     },
     {
@@ -184,7 +184,7 @@
     },
     {
       "user": "goatduck",
-      "hitsTaken": 475,
+      "hitsTaken": 476,
       "team": "Penguin"
     },
     {
@@ -199,7 +199,7 @@
     },
     {
       "user": "SammyxxFairy",
-      "hitsTaken": 367,
+      "hitsTaken": 369,
       "team": "Reindeer"
     },
     {
@@ -308,9 +308,9 @@
     {
       "user": "goatduck",
       "team": "Penguin",
-      "attacks": 876,
-      "hitsTaken": 475,
-      "ratio": 1.8442105263157895
+      "attacks": 878,
+      "hitsTaken": 476,
+      "ratio": 1.8445378151260505
     },
     {
       "user": "Winnie",
@@ -392,9 +392,9 @@
     {
       "user": "SammyxxFairy",
       "team": "Reindeer",
-      "attacks": 237,
-      "hitsTaken": 367,
-      "ratio": 0.6457765667574932
+      "attacks": 238,
+      "hitsTaken": 369,
+      "ratio": 0.6449864498644986
     },
     {
       "user": "Kate.",
@@ -439,18 +439,18 @@
       "ratio": 1.1666666666666667
     },
     {
+      "user": "JustForFun",
+      "team": "Penguin",
+      "attacks": 382,
+      "hitsTaken": 110,
+      "ratio": 3.4727272727272727
+    },
+    {
       "user": "BluPirate",
       "team": "Penguin",
       "attacks": 356,
       "hitsTaken": 128,
       "ratio": 2.78125
-    },
-    {
-      "user": "JustForFun",
-      "team": "Penguin",
-      "attacks": 370,
-      "hitsTaken": 110,
-      "ratio": 3.3636363636363638
     },
     {
       "user": "bsims",
@@ -656,6 +656,13 @@
       "ratio": 1.536231884057971
     },
     {
+      "user": "Lilasaurus",
+      "team": "Penguin",
+      "attacks": 108,
+      "hitsTaken": 57,
+      "ratio": 1.894736842105263
+    },
+    {
       "user": "taymeow",
       "team": "Reindeer",
       "attacks": 92,
@@ -689,13 +696,6 @@
       "attacks": 36,
       "hitsTaken": 117,
       "ratio": 0.3076923076923077
-    },
-    {
-      "user": "Lilasaurus",
-      "team": "Penguin",
-      "attacks": 95,
-      "hitsTaken": 57,
-      "ratio": 1.6666666666666667
     },
     {
       "user": "SoopaVillain",
@@ -810,6 +810,13 @@
       "ratio": 2.606060606060606
     },
     {
+      "user": "Rex",
+      "team": "Reindeer",
+      "attacks": 66,
+      "hitsTaken": 50,
+      "ratio": 1.32
+    },
+    {
       "user": "alphablue",
       "team": "Reindeer",
       "attacks": 32,
@@ -822,13 +829,6 @@
       "attacks": 16,
       "hitsTaken": 98,
       "ratio": 0.16326530612244897
-    },
-    {
-      "user": "Rex",
-      "team": "Reindeer",
-      "attacks": 66,
-      "hitsTaken": 47,
-      "ratio": 1.4042553191489362
     },
     {
       "user": "Whitney",
@@ -1581,6 +1581,13 @@
     },
     {
       "user": "Kayleena",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 22,
+      "ratio": 0
+    },
+    {
+      "user": "SavageGuy",
       "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 22,
@@ -2905,37 +2912,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.41475497471016426,
-      "intercept": 32.0914571621496,
+      "slope": 0.4146290526267319,
+      "intercept": 32.05647406735316,
       "xMin": 0,
       "xMax": 1937,
-      "y1": 32.0914571621496,
-      "y2": 835.4718431757377,
+      "y1": 32.05647406735316,
+      "y2": 835.1929490053328,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.30495326636881787,
-      "intercept": 29.834630042396117,
+      "slope": 0.30478580875790096,
+      "intercept": 29.803915350688644,
       "xMin": 0,
       "xMax": 1937,
-      "y1": 29.834630042396117,
-      "y2": 620.5291069987964,
+      "y1": 29.803915350688644,
+      "y2": 620.1740269147427,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.5283068991021157,
-      "intercept": 35.51070622666694,
+      "slope": 0.5284850977025072,
+      "intercept": 35.458795072034704,
       "xMin": 0,
       "xMax": 1937,
-      "y1": 35.51070622666694,
-      "y2": 1058.841169787465,
+      "y1": 35.458795072034704,
+      "y2": 1059.134429321791,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 5756,
+      "hitCount": 5759,
       "avgUserRatio": 1.32,
       "activeUsers": 159
     },
@@ -2947,7 +2954,7 @@
     },
     {
       "roomName": "Main Street",
-      "hitCount": 1765,
+      "hitCount": 1768,
       "avgUserRatio": 1.82,
       "activeUsers": 167
     },
@@ -3066,6 +3073,12 @@
       "activeUsers": 30
     },
     {
+      "roomName": "Jungle Cruise Dock",
+      "hitCount": 106,
+      "avgUserRatio": 3.63,
+      "activeUsers": 21
+    },
+    {
       "roomName": "Storybookland",
       "hitCount": 104,
       "avgUserRatio": 2.9,
@@ -3076,12 +3089,6 @@
       "hitCount": 103,
       "avgUserRatio": 1.83,
       "activeUsers": 27
-    },
-    {
-      "roomName": "Blue Bayou",
-      "hitCount": 92,
-      "avgUserRatio": 2.08,
-      "activeUsers": 29
     }
   ]
 }
