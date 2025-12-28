@@ -2,9 +2,9 @@
   {
     "user": "Kronkx",
     "team": "Reindeer",
-    "attacks": 1720,
-    "hitsTaken": 594,
-    "ratio": 2.8956228956228958
+    "attacks": 1771,
+    "hitsTaken": 608,
+    "ratio": 2.9128289473684212
   },
   {
     "user": "CaptainBubbles",
@@ -28,18 +28,18 @@
     "ratio": 3.899581589958159
   },
   {
+    "user": "goatduck",
+    "team": "Penguin",
+    "attacks": 815,
+    "hitsTaken": 424,
+    "ratio": 1.9221698113207548
+  },
+  {
     "user": "PepaRaindrops",
     "team": "Penguin",
     "attacks": 809,
     "hitsTaken": 342,
     "ratio": 2.365497076023392
-  },
-  {
-    "user": "goatduck",
-    "team": "Penguin",
-    "attacks": 808,
-    "hitsTaken": 415,
-    "ratio": 1.9469879518072288
   },
   {
     "user": "Mali",
@@ -184,9 +184,9 @@
   {
     "user": "feeheeheeny",
     "team": "Penguin",
-    "attacks": 170,
-    "hitsTaken": 51,
-    "ratio": 3.3333333333333335
+    "attacks": 172,
+    "hitsTaken": 56,
+    "ratio": 3.0714285714285716
   },
   {
     "user": "Tarabellah",
@@ -301,6 +301,13 @@
     "ratio": 0.10409745293466224
   },
   {
+    "user": "Lilasaurus",
+    "team": "Penguin",
+    "attacks": 94,
+    "hitsTaken": 48,
+    "ratio": 1.9583333333333333
+  },
+  {
     "user": "TrinaBoBina",
     "team": "Reindeer",
     "attacks": 93,
@@ -348,13 +355,6 @@
     "attacks": 77,
     "hitsTaken": 0,
     "ratio": 77
-  },
-  {
-    "user": "Lilasaurus",
-    "team": "Penguin",
-    "attacks": 75,
-    "hitsTaken": 48,
-    "ratio": 1.5625
   },
   {
     "user": "Cipolla",
@@ -999,6 +999,13 @@
     "attacks": 5,
     "hitsTaken": 3,
     "ratio": 1.6666666666666667
+  },
+  {
+    "user": "EdwardCooper",
+    "team": "Penguin",
+    "attacks": 5,
+    "hitsTaken": 37,
+    "ratio": 0.13513513513513514
   },
   {
     "user": "PhatPotato",
@@ -2580,6 +2587,13 @@
     "team": "Reindeer",
     "attacks": 0,
     "hitsTaken": 1,
+    "ratio": 0
+  },
+  {
+    "user": "Guest10148894",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 19,
     "ratio": 0
   }
 ]
