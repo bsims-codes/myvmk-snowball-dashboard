@@ -9123,6 +9123,67 @@
     ]
   },
   {
+    "id": "VMK Esplanade-3",
+    "roomName": "VMK Esplanade",
+    "start": "2025-12-28T12:11:03.000Z",
+    "end": "2025-12-28T12:20:23.000Z",
+    "durationMinutes": 9,
+    "hitCount": 61,
+    "uniqueUsers": 3,
+    "topAttackers": [
+      {
+        "user": "bunny",
+        "team": "Penguin",
+        "attacks": 38
+      },
+      {
+        "user": "Tggrhny",
+        "team": "Reindeer",
+        "attacks": 23
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Tggrhny",
+        "team": "Reindeer",
+        "hitsTaken": 38
+      },
+      {
+        "user": "bunny",
+        "team": "Penguin",
+        "hitsTaken": 22
+      },
+      {
+        "user": "-Ophelia",
+        "team": "Penguin",
+        "hitsTaken": 1
+      }
+    ],
+    "participants": [
+      {
+        "user": "Tggrhny",
+        "team": "Reindeer",
+        "attacks": 23,
+        "hitsTaken": 38,
+        "ratio": 0.6052631578947368
+      },
+      {
+        "user": "bunny",
+        "team": "Penguin",
+        "attacks": 38,
+        "hitsTaken": 22,
+        "ratio": 1.7272727272727273
+      },
+      {
+        "user": "-Ophelia",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Town Square-10",
     "roomName": "Town Square",
     "start": "2025-12-25T12:17:19.000Z",
