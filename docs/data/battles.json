@@ -6048,6 +6048,79 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-41",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2025-12-28T03:03:00.000Z",
+    "end": "2025-12-28T03:16:22.000Z",
+    "durationMinutes": 13,
+    "hitCount": 124,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 74
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 49
+      },
+      {
+        "user": "tizzi",
+        "team": "Reindeer",
+        "attacks": 1
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 49
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 44
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "hitsTaken": 31
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 74,
+        "hitsTaken": 49,
+        "ratio": 1.510204081632653
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 49,
+        "hitsTaken": 31,
+        "ratio": 1.5806451612903225
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 44,
+        "ratio": 0
+      },
+      {
+        "user": "tizzi",
+        "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-22",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-21T22:38:44.000Z",
