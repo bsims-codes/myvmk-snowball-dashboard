@@ -1,8 +1,8 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 5509,
-    "avgUserRatio": 1.22,
+    "hitCount": 5561,
+    "avgUserRatio": 1.33,
     "activeUsers": 156
   },
   {
@@ -13,15 +13,15 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1730,
-    "avgUserRatio": 1.84,
-    "activeUsers": 163
+    "hitCount": 1748,
+    "avgUserRatio": 1.82,
+    "activeUsers": 166
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 1420,
-    "avgUserRatio": 1.22,
-    "activeUsers": 169
+    "hitCount": 1424,
+    "avgUserRatio": 1.21,
+    "activeUsers": 170
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -37,9 +37,9 @@
   },
   {
     "roomName": "Dungeon",
-    "hitCount": 551,
-    "avgUserRatio": 3.26,
-    "activeUsers": 48
+    "hitCount": 557,
+    "avgUserRatio": 3.15,
+    "activeUsers": 50
   },
   {
     "roomName": "Monorail Station",
@@ -73,9 +73,9 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 222,
-    "avgUserRatio": 2.38,
-    "activeUsers": 48
+    "hitCount": 224,
+    "avgUserRatio": 2.37,
+    "activeUsers": 49
   },
   {
     "roomName": "New Orleans Square",
@@ -91,9 +91,9 @@
   },
   {
     "roomName": "Shrunken Ned's Shop",
-    "hitCount": 167,
-    "avgUserRatio": 6.17,
-    "activeUsers": 27
+    "hitCount": 175,
+    "avgUserRatio": 6.23,
+    "activeUsers": 28
   },
   {
     "roomName": "Tomorrowland Hub",
@@ -103,8 +103,8 @@
   },
   {
     "roomName": "Pirate Treehouse",
-    "hitCount": 138,
-    "avgUserRatio": 1.39,
+    "hitCount": 140,
+    "avgUserRatio": 1.38,
     "activeUsers": 34
   },
   {
@@ -126,16 +126,22 @@
     "activeUsers": 30
   },
   {
+    "roomName": "Gallery",
+    "hitCount": 103,
+    "avgUserRatio": 1.83,
+    "activeUsers": 27
+  },
+  {
     "roomName": "Tiki Tiki Tiki Island",
     "hitCount": 103,
     "avgUserRatio": 2.09,
     "activeUsers": 18
   },
   {
-    "roomName": "Gallery",
-    "hitCount": 102,
-    "avgUserRatio": 1.89,
-    "activeUsers": 26
+    "roomName": "Blue Bayou",
+    "hitCount": 92,
+    "avgUserRatio": 2.08,
+    "activeUsers": 29
   },
   {
     "roomName": "Storybookland",
@@ -144,15 +150,9 @@
     "activeUsers": 22
   },
   {
-    "roomName": "Blue Bayou",
-    "hitCount": 89,
-    "avgUserRatio": 2.12,
-    "activeUsers": 27
-  },
-  {
     "roomName": "Jungle Cruise Dock",
-    "hitCount": 77,
-    "avgUserRatio": 2.72,
+    "hitCount": 80,
+    "avgUserRatio": 2.88,
     "activeUsers": 19
   },
   {
@@ -162,16 +162,16 @@
     "activeUsers": 22
   },
   {
+    "roomName": "Sci-Fi Dine-In",
+    "hitCount": 75,
+    "avgUserRatio": 2.67,
+    "activeUsers": 24
+  },
+  {
     "roomName": "Festival of the Lion King",
     "hitCount": 74,
     "avgUserRatio": 7.92,
     "activeUsers": 9
-  },
-  {
-    "roomName": "Sci-Fi Dine-In",
-    "hitCount": 74,
-    "avgUserRatio": 2.63,
-    "activeUsers": 24
   },
   {
     "roomName": "Autopia Quest Track",
@@ -199,15 +199,21 @@
   },
   {
     "roomName": "Lost Safari Party",
-    "hitCount": 56,
-    "avgUserRatio": 6.88,
-    "activeUsers": 8
+    "hitCount": 57,
+    "avgUserRatio": 6.22,
+    "activeUsers": 9
   },
   {
     "roomName": "Autopia Off Road on Mars",
     "hitCount": 54,
     "avgUserRatio": 1.03,
     "activeUsers": 19
+  },
+  {
+    "roomName": "Mickey's Courtyard",
+    "hitCount": 45,
+    "avgUserRatio": 1.08,
+    "activeUsers": 17
   },
   {
     "roomName": "Nautilus Grotto",
@@ -220,12 +226,6 @@
     "hitCount": 43,
     "avgUserRatio": 2.02,
     "activeUsers": 13
-  },
-  {
-    "roomName": "Mickey's Courtyard",
-    "hitCount": 39,
-    "avgUserRatio": 1.08,
-    "activeUsers": 14
   },
   {
     "roomName": "Splash Mountain",
@@ -246,6 +246,12 @@
     "activeUsers": 15
   },
   {
+    "roomName": "Autopia Space Race",
+    "hitCount": 34,
+    "avgUserRatio": 2.37,
+    "activeUsers": 12
+  },
+  {
     "roomName": "WS - Norway",
     "hitCount": 33,
     "avgUserRatio": 6.6,
@@ -256,12 +262,6 @@
     "hitCount": 33,
     "avgUserRatio": 1.87,
     "activeUsers": 8
-  },
-  {
-    "roomName": "Autopia Space Race",
-    "hitCount": 32,
-    "avgUserRatio": 2.54,
-    "activeUsers": 12
   },
   {
     "roomName": "Forbidden Temple",
