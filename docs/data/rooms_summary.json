@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 6117,
+    "hitCount": 6118,
     "avgUserRatio": 1.07,
     "activeUsers": 164
   },
@@ -61,8 +61,8 @@
   },
   {
     "roomName": "Banquet Hall",
-    "hitCount": 290,
-    "avgUserRatio": 2.14,
+    "hitCount": 321,
+    "avgUserRatio": 2.23,
     "activeUsers": 42
   },
   {
@@ -108,6 +108,12 @@
     "activeUsers": 37
   },
   {
+    "roomName": "Gallery",
+    "hitCount": 142,
+    "avgUserRatio": 2.67,
+    "activeUsers": 29
+  },
+  {
     "roomName": "WS - United Kingdom",
     "hitCount": 136,
     "avgUserRatio": 1.19,
@@ -130,12 +136,6 @@
     "hitCount": 119,
     "avgUserRatio": 3,
     "activeUsers": 32
-  },
-  {
-    "roomName": "Gallery",
-    "hitCount": 119,
-    "avgUserRatio": 1.92,
-    "activeUsers": 29
   },
   {
     "roomName": "Pixar Pier Entrance",

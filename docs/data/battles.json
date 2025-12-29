@@ -14604,6 +14604,57 @@
     ]
   },
   {
+    "id": "Banquet Hall-3",
+    "roomName": "Banquet Hall",
+    "start": "2025-12-29T10:36:24.000Z",
+    "end": "2025-12-29T10:39:59.000Z",
+    "durationMinutes": 4,
+    "hitCount": 31,
+    "uniqueUsers": 3,
+    "topAttackers": [
+      {
+        "user": "mikgriz",
+        "team": "Penguin",
+        "attacks": 17
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 14
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "MatthewC",
+        "team": "Reindeer",
+        "hitsTaken": 31
+      }
+    ],
+    "participants": [
+      {
+        "user": "MatthewC",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 31,
+        "ratio": 0
+      },
+      {
+        "user": "mikgriz",
+        "team": "Penguin",
+        "attacks": 17,
+        "hitsTaken": 0,
+        "ratio": 17
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 14,
+        "hitsTaken": 0,
+        "ratio": 14
+      }
+    ]
+  },
+  {
     "id": "Pixar Pier Entrance-1",
     "roomName": "Pixar Pier Entrance",
     "start": "2025-12-19T13:57:39.000Z",
