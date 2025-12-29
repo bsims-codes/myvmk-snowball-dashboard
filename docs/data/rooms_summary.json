@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 5766,
-    "avgUserRatio": 1.21,
-    "activeUsers": 159
+    "hitCount": 6091,
+    "avgUserRatio": 1.07,
+    "activeUsers": 164
   },
   {
     "roomName": "Town Square",
@@ -13,7 +13,7 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1768,
+    "hitCount": 1769,
     "avgUserRatio": 1.82,
     "activeUsers": 167
   },
@@ -24,21 +24,21 @@
     "activeUsers": 170
   },
   {
+    "roomName": "Central Plaza",
+    "hitCount": 867,
+    "avgUserRatio": 1.08,
+    "activeUsers": 94
+  },
+  {
     "roomName": "Fantasyland in The Sky",
     "hitCount": 846,
     "avgUserRatio": 2.39,
     "activeUsers": 38
   },
   {
-    "roomName": "Central Plaza",
-    "hitCount": 837,
-    "avgUserRatio": 1.1,
-    "activeUsers": 90
-  },
-  {
     "roomName": "Dungeon",
-    "hitCount": 567,
-    "avgUserRatio": 3.03,
+    "hitCount": 571,
+    "avgUserRatio": 3.04,
     "activeUsers": 52
   },
   {
@@ -55,21 +55,21 @@
   },
   {
     "roomName": "Frontierland Hub",
-    "hitCount": 321,
-    "avgUserRatio": 1.41,
+    "hitCount": 326,
+    "avgUserRatio": 1.36,
     "activeUsers": 49
   },
   {
     "roomName": "Banquet Hall",
-    "hitCount": 287,
-    "avgUserRatio": 2.13,
+    "hitCount": 290,
+    "avgUserRatio": 2.14,
     "activeUsers": 42
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 236,
-    "avgUserRatio": 2.33,
-    "activeUsers": 51
+    "hitCount": 237,
+    "avgUserRatio": 2.31,
+    "activeUsers": 52
   },
   {
     "roomName": "Snow White Hide 'n Seek Forest",
@@ -84,16 +84,16 @@
     "activeUsers": 29
   },
   {
+    "roomName": "Shrunken Ned's Shop",
+    "hitCount": 190,
+    "avgUserRatio": 5.92,
+    "activeUsers": 32
+  },
+  {
     "roomName": "Monorail Train",
     "hitCount": 189,
     "avgUserRatio": 2.92,
     "activeUsers": 19
-  },
-  {
-    "roomName": "Shrunken Ned's Shop",
-    "hitCount": 186,
-    "avgUserRatio": 5.98,
-    "activeUsers": 31
   },
   {
     "roomName": "Tomorrowland Hub",
@@ -114,6 +114,12 @@
     "activeUsers": 38
   },
   {
+    "roomName": "Blue Bayou",
+    "hitCount": 130,
+    "avgUserRatio": 1.63,
+    "activeUsers": 36
+  },
+  {
     "roomName": "Tiki Tiki Tiki Island",
     "hitCount": 123,
     "avgUserRatio": 1.93,
@@ -124,6 +130,12 @@
     "hitCount": 119,
     "avgUserRatio": 3,
     "activeUsers": 32
+  },
+  {
+    "roomName": "Gallery",
+    "hitCount": 118,
+    "avgUserRatio": 1.95,
+    "activeUsers": 28
   },
   {
     "roomName": "Pixar Pier Entrance",
@@ -142,18 +154,6 @@
     "hitCount": 104,
     "avgUserRatio": 2.9,
     "activeUsers": 22
-  },
-  {
-    "roomName": "Gallery",
-    "hitCount": 103,
-    "avgUserRatio": 1.83,
-    "activeUsers": 27
-  },
-  {
-    "roomName": "Blue Bayou",
-    "hitCount": 95,
-    "avgUserRatio": 2.04,
-    "activeUsers": 31
   },
   {
     "roomName": "Autopia Quest Track",
@@ -318,10 +318,28 @@
     "activeUsers": 12
   },
   {
+    "roomName": "Frontierland Dock",
+    "hitCount": 15,
+    "avgUserRatio": 0.98,
+    "activeUsers": 5
+  },
+  {
+    "roomName": "Gibbons",
+    "hitCount": 14,
+    "avgUserRatio": 1.19,
+    "activeUsers": 8
+  },
+  {
     "roomName": "Anandapur",
     "hitCount": 11,
     "avgUserRatio": 1.22,
     "activeUsers": 9
+  },
+  {
+    "roomName": "Tom Sawyer's Island",
+    "hitCount": 10,
+    "avgUserRatio": 1.58,
+    "activeUsers": 6
   },
   {
     "roomName": "\"it's a small world\" Imports",
@@ -330,22 +348,10 @@
     "activeUsers": 6
   },
   {
-    "roomName": "Gibbons",
-    "hitCount": 8,
-    "avgUserRatio": 1.08,
-    "activeUsers": 6
-  },
-  {
     "roomName": "Inner-Space Shop",
     "hitCount": 7,
     "avgUserRatio": 2.33,
     "activeUsers": 3
-  },
-  {
-    "roomName": "Tom Sawyer's Island",
-    "hitCount": 7,
-    "avgUserRatio": 1.75,
-    "activeUsers": 4
   },
   {
     "roomName": "WS - France",
@@ -370,12 +376,6 @@
     "hitCount": 5,
     "avgUserRatio": 0.83,
     "activeUsers": 6
-  },
-  {
-    "roomName": "Frontierland Dock",
-    "hitCount": 4,
-    "avgUserRatio": 0.88,
-    "activeUsers": 4
   },
   {
     "roomName": "Golden Horseshoe Mercantile",
