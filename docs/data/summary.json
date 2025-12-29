@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-29T05:26:22.527Z",
-  "totalRows": 21051,
+  "generatedAt": "2025-12-29T06:30:49.571Z",
+  "totalRows": 21052,
   "totalUsers": 380,
   "teamStats": {
     "Penguin": {
       "users": 174,
-      "attacks": 12088,
+      "attacks": 12089,
       "hitsTaken": 8963
     },
     "Reindeer": {
       "users": 206,
       "attacks": 8963,
-      "hitsTaken": 12088
+      "hitsTaken": 12089
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 12088
+      "count": 12089
     },
     {
       "pair": "Reindeer → Penguin",
@@ -1055,18 +1055,18 @@
       "ratio": 0.09090909090909091
     },
     {
+      "user": "Neocissa",
+      "team": "Penguin",
+      "attacks": 46,
+      "hitsTaken": 26,
+      "ratio": 1.7692307692307692
+    },
+    {
       "user": "mrcoolness",
       "team": "Penguin",
       "attacks": 32,
       "hitsTaken": 39,
       "ratio": 0.8205128205128205
-    },
-    {
-      "user": "Neocissa",
-      "team": "Penguin",
-      "attacks": 45,
-      "hitsTaken": 26,
-      "ratio": 1.7307692307692308
     },
     {
       "user": "Ormonddude",
@@ -2469,6 +2469,13 @@
       "ratio": 0
     },
     {
+      "user": "bailzeb",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 3,
+      "ratio": 0
+    },
+    {
       "user": "Hyrule",
       "team": "Reindeer",
       "attacks": 0,
@@ -2597,13 +2604,6 @@
     {
       "user": "punkrockchick",
       "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 2,
-      "ratio": 0
-    },
-    {
-      "user": "bailzeb",
-      "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 2,
       "ratio": 0
@@ -2947,30 +2947,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.41636561992656446,
-      "intercept": 32.331808776120766,
+      "slope": 0.4163598521769401,
+      "intercept": 32.33366418939752,
       "xMin": 0,
       "xMax": 2016,
-      "y1": 32.331808776120766,
-      "y2": 871.7248985480746,
+      "y1": 32.33366418939752,
+      "y2": 871.7151261781088,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.30728996866727576,
-      "intercept": 30.163671602011327,
+      "slope": 0.30728828989424223,
+      "intercept": 30.16202220384199,
       "xMin": 0,
       "xMax": 2016,
-      "y1": 30.163671602011327,
-      "y2": 649.6602484352392,
+      "y1": 30.16202220384199,
+      "y2": 649.6552146306343,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.5259895168732213,
-      "intercept": 35.793960972161734,
+      "slope": 0.5259831083851416,
+      "intercept": 35.79909417254357,
       "xMin": 0,
       "xMax": 2016,
-      "y1": 35.793960972161734,
-      "y2": 1096.1888269885758,
+      "y1": 35.79909417254357,
+      "y2": 1096.1810406769891,
       "label": "Reindeer"
     }
   },
@@ -3013,9 +3013,9 @@
     },
     {
       "roomName": "Dungeon",
-      "hitCount": 571,
-      "avgUserRatio": 3.04,
-      "activeUsers": 52
+      "hitCount": 572,
+      "avgUserRatio": 2.94,
+      "activeUsers": 54
     },
     {
       "roomName": "Monorail Station",
