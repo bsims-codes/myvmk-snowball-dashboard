@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-29T21:16:46.273Z",
-  "totalRows": 21129,
+  "generatedAt": "2025-12-29T22:17:42.636Z",
+  "totalRows": 21132,
   "totalUsers": 382,
   "teamStats": {
     "Penguin": {
       "users": 174,
-      "attacks": 12162,
+      "attacks": 12165,
       "hitsTaken": 8967
     },
     "Reindeer": {
       "users": 208,
       "attacks": 8967,
-      "hitsTaken": 12162
+      "hitsTaken": 12165
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 12162
+      "count": 12165
     },
     {
       "pair": "Reindeer → Penguin",
@@ -52,7 +52,7 @@
     },
     {
       "user": "goatduck",
-      "attacks": 938,
+      "attacks": 939,
       "team": "Penguin"
     },
     {
@@ -112,7 +112,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 413,
+      "attacks": 415,
       "team": "Penguin"
     },
     {
@@ -164,7 +164,7 @@
     },
     {
       "user": "MatthewC",
-      "hitsTaken": 968,
+      "hitsTaken": 970,
       "team": "Reindeer"
     },
     {
@@ -301,9 +301,9 @@
     {
       "user": "goatduck",
       "team": "Penguin",
-      "attacks": 938,
+      "attacks": 939,
       "hitsTaken": 494,
-      "ratio": 1.8987854251012146
+      "ratio": 1.9008097165991902
     },
     {
       "user": "kazino",
@@ -344,8 +344,8 @@
       "user": "MatthewC",
       "team": "Reindeer",
       "attacks": 94,
-      "hitsTaken": 968,
-      "ratio": 0.09710743801652892
+      "hitsTaken": 970,
+      "ratio": 0.09690721649484536
     },
     {
       "user": "TaterTotCasserole",
@@ -425,6 +425,13 @@
       "ratio": 3.918181818181818
     },
     {
+      "user": "JustForFun",
+      "team": "Penguin",
+      "attacks": 415,
+      "hitsTaken": 112,
+      "ratio": 3.705357142857143
+    },
+    {
       "user": "Cloudyblue",
       "team": "Reindeer",
       "attacks": 220,
@@ -437,13 +444,6 @@
       "attacks": 311,
       "hitsTaken": 215,
       "ratio": 1.4465116279069767
-    },
-    {
-      "user": "JustForFun",
-      "team": "Penguin",
-      "attacks": 413,
-      "hitsTaken": 112,
-      "ratio": 3.6875
     },
     {
       "user": "Meg",
@@ -873,18 +873,18 @@
       "ratio": 0.0380952380952381
     },
     {
+      "user": "SleveMcDichael",
+      "team": "Reindeer",
+      "attacks": 52,
+      "hitsTaken": 54,
+      "ratio": 0.9629629629629629
+    },
+    {
       "user": "TealMouse",
       "team": "Reindeer",
       "attacks": 50,
       "hitsTaken": 56,
       "ratio": 0.8928571428571429
-    },
-    {
-      "user": "SleveMcDichael",
-      "team": "Reindeer",
-      "attacks": 52,
-      "hitsTaken": 53,
-      "ratio": 0.9811320754716981
     },
     {
       "user": "smoochies",
@@ -2168,7 +2168,7 @@
       "ratio": 0
     },
     {
-      "user": "Guest10148901",
+      "user": "MamaBritt",
       "team": "Penguin",
       "attacks": 0,
       "hitsTaken": 6,
@@ -2961,37 +2961,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.4148824838598545,
-      "intercept": 32.363738216034385,
+      "slope": 0.4148300673400567,
+      "intercept": 32.37123302871708,
       "xMin": 0,
       "xMax": 2016,
-      "y1": 32.363738216034385,
-      "y2": 868.766825677501,
+      "y1": 32.37123302871708,
+      "y2": 868.6686487862713,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3053110246710416,
-      "intercept": 30.194294930751678,
+      "slope": 0.3052517174749215,
+      "intercept": 30.19317733860678,
       "xMin": 0,
       "xMax": 2016,
-      "y1": 30.194294930751678,
-      "y2": 645.7013206675715,
+      "y1": 30.19317733860678,
+      "y2": 645.5806397680486,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.5268488084474577,
-      "intercept": 35.7583977627483,
+      "slope": 0.5268650944291663,
+      "intercept": 35.77211874160416,
       "xMin": 0,
       "xMax": 2016,
-      "y1": 35.7583977627483,
-      "y2": 1097.885595592823,
+      "y1": 35.77211874160416,
+      "y2": 1097.9321491108033,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 6118,
+      "hitCount": 6119,
       "avgUserRatio": 1.07,
       "activeUsers": 164
     },
@@ -3051,8 +3051,8 @@
     },
     {
       "roomName": "Banquet Hall",
-      "hitCount": 323,
-      "avgUserRatio": 2.24,
+      "hitCount": 325,
+      "avgUserRatio": 2.27,
       "activeUsers": 42
     },
     {
