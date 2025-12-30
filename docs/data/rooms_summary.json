@@ -1,33 +1,33 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 6121,
-    "avgUserRatio": 1.06,
-    "activeUsers": 165
+    "hitCount": 6163,
+    "avgUserRatio": 1.05,
+    "activeUsers": 166
   },
   {
     "roomName": "Town Square",
-    "hitCount": 4104,
-    "avgUserRatio": 1.28,
-    "activeUsers": 198
+    "hitCount": 4137,
+    "avgUserRatio": 1.25,
+    "activeUsers": 203
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1769,
-    "avgUserRatio": 1.82,
-    "activeUsers": 167
-  },
-  {
-    "roomName": "Matterhorn",
-    "hitCount": 1434,
-    "avgUserRatio": 1.22,
+    "hitCount": 1789,
+    "avgUserRatio": 1.79,
     "activeUsers": 171
   },
   {
+    "roomName": "Matterhorn",
+    "hitCount": 1436,
+    "avgUserRatio": 1.22,
+    "activeUsers": 172
+  },
+  {
     "roomName": "Central Plaza",
-    "hitCount": 869,
+    "hitCount": 875,
     "avgUserRatio": 1.08,
-    "activeUsers": 94
+    "activeUsers": 97
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -37,9 +37,9 @@
   },
   {
     "roomName": "Dungeon",
-    "hitCount": 578,
-    "avgUserRatio": 3.04,
-    "activeUsers": 54
+    "hitCount": 579,
+    "avgUserRatio": 3,
+    "activeUsers": 55
   },
   {
     "roomName": "Monorail Station",
@@ -49,15 +49,15 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 531,
-    "avgUserRatio": 1.71,
+    "hitCount": 533,
+    "avgUserRatio": 1.72,
     "activeUsers": 81
   },
   {
     "roomName": "Frontierland Hub",
-    "hitCount": 326,
-    "avgUserRatio": 1.36,
-    "activeUsers": 49
+    "hitCount": 327,
+    "avgUserRatio": 1.35,
+    "activeUsers": 50
   },
   {
     "roomName": "Banquet Hall",
@@ -67,9 +67,9 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 239,
-    "avgUserRatio": 2.3,
-    "activeUsers": 53
+    "hitCount": 241,
+    "avgUserRatio": 2.26,
+    "activeUsers": 55
   },
   {
     "roomName": "Snow White Hide 'n Seek Forest",
@@ -78,16 +78,16 @@
     "activeUsers": 31
   },
   {
+    "roomName": "Shrunken Ned's Shop",
+    "hitCount": 230,
+    "avgUserRatio": 5.92,
+    "activeUsers": 34
+  },
+  {
     "roomName": "New Orleans Square",
     "hitCount": 213,
     "avgUserRatio": 2.23,
     "activeUsers": 29
-  },
-  {
-    "roomName": "Shrunken Ned's Shop",
-    "hitCount": 193,
-    "avgUserRatio": 5.83,
-    "activeUsers": 33
   },
   {
     "roomName": "Monorail Train",
@@ -97,15 +97,15 @@
   },
   {
     "roomName": "Tomorrowland Hub",
-    "hitCount": 178,
+    "hitCount": 180,
     "avgUserRatio": 1.3,
     "activeUsers": 35
   },
   {
     "roomName": "Pirate Treehouse",
-    "hitCount": 157,
-    "avgUserRatio": 1.59,
-    "activeUsers": 37
+    "hitCount": 158,
+    "avgUserRatio": 1.54,
+    "activeUsers": 39
   },
   {
     "roomName": "Gallery",
@@ -115,9 +115,9 @@
   },
   {
     "roomName": "Blue Bayou",
-    "hitCount": 139,
-    "avgUserRatio": 1.56,
-    "activeUsers": 39
+    "hitCount": 142,
+    "avgUserRatio": 1.54,
+    "activeUsers": 40
   },
   {
     "roomName": "WS - United Kingdom",
@@ -126,16 +126,16 @@
     "activeUsers": 38
   },
   {
+    "roomName": "Castle Forecourt",
+    "hitCount": 127,
+    "avgUserRatio": 2.78,
+    "activeUsers": 36
+  },
+  {
     "roomName": "Tiki Tiki Tiki Island",
     "hitCount": 123,
     "avgUserRatio": 1.93,
     "activeUsers": 22
-  },
-  {
-    "roomName": "Castle Forecourt",
-    "hitCount": 119,
-    "avgUserRatio": 3,
-    "activeUsers": 32
   },
   {
     "roomName": "Pixar Pier Entrance",
@@ -180,6 +180,12 @@
     "activeUsers": 9
   },
   {
+    "roomName": "VMK Gallery",
+    "hitCount": 69,
+    "avgUserRatio": 1.12,
+    "activeUsers": 23
+  },
+  {
     "roomName": "Street Party Music Game Lobby",
     "hitCount": 68,
     "avgUserRatio": 1.65,
@@ -190,12 +196,6 @@
     "hitCount": 66,
     "avgUserRatio": 3.85,
     "activeUsers": 14
-  },
-  {
-    "roomName": "VMK Gallery",
-    "hitCount": 61,
-    "avgUserRatio": 1.1,
-    "activeUsers": 22
   },
   {
     "roomName": "Lost Safari Party",
@@ -289,8 +289,8 @@
   },
   {
     "roomName": "Space Mountain Quest Deck",
-    "hitCount": 26,
-    "avgUserRatio": 1.09,
+    "hitCount": 27,
+    "avgUserRatio": 1.18,
     "activeUsers": 11
   },
   {
@@ -312,16 +312,16 @@
     "activeUsers": 10
   },
   {
+    "roomName": "Frontierland Dock",
+    "hitCount": 19,
+    "avgUserRatio": 0.87,
+    "activeUsers": 6
+  },
+  {
     "roomName": "Spell Room",
     "hitCount": 16,
     "avgUserRatio": 1.1,
     "activeUsers": 12
-  },
-  {
-    "roomName": "Frontierland Dock",
-    "hitCount": 15,
-    "avgUserRatio": 0.98,
-    "activeUsers": 5
   },
   {
     "roomName": "Gibbons",

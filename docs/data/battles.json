@@ -14178,6 +14178,79 @@
     ]
   },
   {
+    "id": "Shrunken Ned's Shop-2",
+    "roomName": "Shrunken Ned's Shop",
+    "start": "2025-12-29T18:26:32.000Z",
+    "end": "2025-12-29T18:31:03.000Z",
+    "durationMinutes": 5,
+    "hitCount": 33,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 22
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 9
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 2
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "milklady",
+        "team": "Reindeer",
+        "hitsTaken": 28
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 3
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "hitsTaken": 2
+      }
+    ],
+    "participants": [
+      {
+        "user": "milklady",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 28,
+        "ratio": 0
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 22,
+        "hitsTaken": 2,
+        "ratio": 11
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 9,
+        "hitsTaken": 0,
+        "ratio": 9
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 2,
+        "hitsTaken": 3,
+        "ratio": 0.6666666666666666
+      }
+    ]
+  },
+  {
     "id": "Main Street-1",
     "roomName": "Main Street",
     "start": "2025-12-20T16:18:15.000Z",
