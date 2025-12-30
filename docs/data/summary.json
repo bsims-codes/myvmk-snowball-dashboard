@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-30T07:20:43.691Z",
-  "totalRows": 21454,
-  "totalUsers": 397,
+  "generatedAt": "2025-12-30T08:26:08.331Z",
+  "totalRows": 21477,
+  "totalUsers": 398,
   "teamStats": {
     "Penguin": {
-      "users": 180,
-      "attacks": 12329,
-      "hitsTaken": 9125
+      "users": 181,
+      "attacks": 12331,
+      "hitsTaken": 9146
     },
     "Reindeer": {
       "users": 217,
-      "attacks": 9125,
-      "hitsTaken": 12329
+      "attacks": 9146,
+      "hitsTaken": 12331
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 12329
+      "count": 12331
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 9125
+      "count": 9146
     }
   ],
   "topAttackers": [
@@ -1020,6 +1020,13 @@
       "ratio": 0.36363636363636365
     },
     {
+      "user": "airham",
+      "team": "Reindeer",
+      "attacks": 61,
+      "hitsTaken": 14,
+      "ratio": 4.357142857142857
+    },
+    {
       "user": "Cali",
       "team": "Reindeer",
       "attacks": 2,
@@ -1193,13 +1200,6 @@
       "attacks": 0,
       "hitsTaken": 53,
       "ratio": 0
-    },
-    {
-      "user": "airham",
-      "team": "Reindeer",
-      "attacks": 40,
-      "hitsTaken": 12,
-      "ratio": 3.3333333333333335
     },
     {
       "user": "BlueSorcerer",
@@ -1568,6 +1568,13 @@
     {
       "user": "supernovagirl",
       "team": "Reindeer",
+      "attacks": 2,
+      "hitsTaken": 21,
+      "ratio": 0.09523809523809523
+    },
+    {
+      "user": "fry",
+      "team": "Penguin",
       "attacks": 2,
       "hitsTaken": 21,
       "ratio": 0.09523809523809523
@@ -3066,30 +3073,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.40862255259538177,
-      "intercept": 31.958216011633954,
+      "slope": 0.40860865025854626,
+      "intercept": 31.912844267329653,
       "xMin": 0,
       "xMax": 2147,
-      "y1": 31.958216011633954,
-      "y2": 909.2708364339186,
+      "y1": 31.912844267329653,
+      "y2": 909.1956163724285,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3074138119532126,
-      "intercept": 29.63830618016023,
+      "slope": 0.307504560128058,
+      "intercept": 29.5810014865244,
       "xMin": 0,
       "xMax": 2147,
-      "y1": 29.63830618016023,
-      "y2": 689.6557604437078,
+      "y1": 29.5810014865244,
+      "y2": 689.793292081465,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.5074482978835086,
-      "intercept": 35.47711650605061,
+      "slope": 0.5073009567803813,
+      "intercept": 35.44343525016881,
       "xMin": 0,
       "xMax": 2147,
-      "y1": 35.47711650605061,
-      "y2": 1124.9686120619438,
+      "y1": 35.44343525016881,
+      "y2": 1124.6185894576474,
       "label": "Reindeer"
     }
   },
@@ -3108,9 +3115,9 @@
     },
     {
       "roomName": "Main Street",
-      "hitCount": 1826,
-      "avgUserRatio": 1.76,
-      "activeUsers": 172
+      "hitCount": 1848,
+      "avgUserRatio": 1.78,
+      "activeUsers": 173
     },
     {
       "roomName": "Matterhorn",
@@ -3120,9 +3127,9 @@
     },
     {
       "roomName": "Central Plaza",
-      "hitCount": 882,
-      "avgUserRatio": 1.08,
-      "activeUsers": 97
+      "hitCount": 883,
+      "avgUserRatio": 1.07,
+      "activeUsers": 98
     },
     {
       "roomName": "Fantasyland in The Sky",
