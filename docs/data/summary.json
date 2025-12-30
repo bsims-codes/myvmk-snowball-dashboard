@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-30T19:15:05.234Z",
-  "totalRows": 21482,
-  "totalUsers": 399,
+  "generatedAt": "2025-12-30T20:20:18.860Z",
+  "totalRows": 21485,
+  "totalUsers": 400,
   "teamStats": {
     "Penguin": {
       "users": 181,
-      "attacks": 12336,
+      "attacks": 12339,
       "hitsTaken": 9146
     },
     "Reindeer": {
-      "users": 218,
+      "users": 219,
       "attacks": 9146,
-      "hitsTaken": 12336
+      "hitsTaken": 12339
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 12336
+      "count": 12339
     },
     {
       "pair": "Reindeer → Penguin",
@@ -87,7 +87,7 @@
     },
     {
       "user": "Luckymaxer",
-      "attacks": 486,
+      "attacks": 487,
       "team": "Penguin"
     },
     {
@@ -102,7 +102,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 443,
+      "attacks": 445,
       "team": "Penguin"
     },
     {
@@ -385,9 +385,9 @@
     {
       "user": "Luckymaxer",
       "team": "Penguin",
-      "attacks": 486,
+      "attacks": 487,
       "hitsTaken": 169,
-      "ratio": 2.8757396449704142
+      "ratio": 2.8816568047337277
     },
     {
       "user": "Jewelsy",
@@ -420,9 +420,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 443,
+      "attacks": 445,
       "hitsTaken": 115,
-      "ratio": 3.8521739130434782
+      "ratio": 3.869565217391304
     },
     {
       "user": "Tarabellah",
@@ -2644,6 +2644,13 @@
       "ratio": 0
     },
     {
+      "user": "mindoflove",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 3,
+      "ratio": 0
+    },
+    {
       "user": "Julioulia",
       "team": "Reindeer",
       "attacks": 0,
@@ -3080,30 +3087,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.40862097048914076,
-      "intercept": 31.839609804391674,
+      "slope": 0.40867708789175966,
+      "intercept": 31.76143191661386,
       "xMin": 0,
       "xMax": 2147,
-      "y1": 31.839609804391674,
-      "y2": 909.1488334445769,
+      "y1": 31.76143191661386,
+      "y2": 909.1911396202219,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3073826169971844,
-      "intercept": 29.58081788244604,
+      "slope": 0.30731269645852527,
+      "intercept": 29.580489714907493,
       "xMin": 0,
       "xMax": 2147,
-      "y1": 29.58081788244604,
-      "y2": 689.5312965754009,
+      "y1": 29.580489714907493,
+      "y2": 689.3808490113612,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.5074747654133026,
-      "intercept": 35.29649447490796,
+      "slope": 0.5076582678831044,
+      "intercept": 35.141358365027976,
       "xMin": 0,
       "xMax": 2147,
-      "y1": 35.29649447490796,
-      "y2": 1124.8448158172687,
+      "y1": 35.141358365027976,
+      "y2": 1125.0836595100532,
       "label": "Reindeer"
     }
   },
@@ -3158,9 +3165,9 @@
     },
     {
       "roomName": "VMK Esplanade",
-      "hitCount": 534,
-      "avgUserRatio": 1.72,
-      "activeUsers": 81
+      "hitCount": 537,
+      "avgUserRatio": 1.73,
+      "activeUsers": 82
     },
     {
       "roomName": "Frontierland Hub",
