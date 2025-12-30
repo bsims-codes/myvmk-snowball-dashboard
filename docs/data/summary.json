@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-30T11:17:20.967Z",
-  "totalRows": 21477,
-  "totalUsers": 398,
+  "generatedAt": "2025-12-30T12:38:51.273Z",
+  "totalRows": 21482,
+  "totalUsers": 399,
   "teamStats": {
     "Penguin": {
       "users": 181,
-      "attacks": 12331,
+      "attacks": 12336,
       "hitsTaken": 9146
     },
     "Reindeer": {
-      "users": 217,
+      "users": 218,
       "attacks": 9146,
-      "hitsTaken": 12331
+      "hitsTaken": 12336
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 12331
+      "count": 12336
     },
     {
       "pair": "Reindeer → Penguin",
@@ -102,7 +102,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 438,
+      "attacks": 443,
       "team": "Penguin"
     },
     {
@@ -420,9 +420,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 438,
+      "attacks": 443,
       "hitsTaken": 115,
-      "ratio": 3.8086956521739133
+      "ratio": 3.8521739130434782
     },
     {
       "user": "Tarabellah",
@@ -2392,6 +2392,13 @@
       "ratio": 0
     },
     {
+      "user": "Mizzpixie",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 5,
+      "ratio": 0
+    },
+    {
       "user": "MicksGirl",
       "team": "Penguin",
       "attacks": 2,
@@ -3073,30 +3080,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.40860865025854626,
-      "intercept": 31.912844267329653,
+      "slope": 0.40862097048914076,
+      "intercept": 31.839609804391674,
       "xMin": 0,
       "xMax": 2147,
-      "y1": 31.912844267329653,
-      "y2": 909.1956163724285,
+      "y1": 31.839609804391674,
+      "y2": 909.1488334445769,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.307504560128058,
-      "intercept": 29.5810014865244,
+      "slope": 0.3073826169971844,
+      "intercept": 29.58081788244604,
       "xMin": 0,
       "xMax": 2147,
-      "y1": 29.5810014865244,
-      "y2": 689.793292081465,
+      "y1": 29.58081788244604,
+      "y2": 689.5312965754009,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.5073009567803813,
-      "intercept": 35.44343525016881,
+      "slope": 0.5074747654133026,
+      "intercept": 35.29649447490796,
       "xMin": 0,
       "xMax": 2147,
-      "y1": 35.44343525016881,
-      "y2": 1124.6185894576474,
+      "y1": 35.29649447490796,
+      "y2": 1124.8448158172687,
       "label": "Reindeer"
     }
   },
@@ -3228,16 +3235,16 @@
       "activeUsers": 38
     },
     {
+      "roomName": "Tiki Tiki Tiki Island",
+      "hitCount": 128,
+      "avgUserRatio": 1.9,
+      "activeUsers": 23
+    },
+    {
       "roomName": "Castle Forecourt",
       "hitCount": 127,
       "avgUserRatio": 2.78,
       "activeUsers": 36
-    },
-    {
-      "roomName": "Tiki Tiki Tiki Island",
-      "hitCount": 123,
-      "avgUserRatio": 1.93,
-      "activeUsers": 22
     },
     {
       "roomName": "Pixar Pier Entrance",
