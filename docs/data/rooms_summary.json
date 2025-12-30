@@ -1,21 +1,21 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 6163,
-    "avgUserRatio": 1.05,
-    "activeUsers": 166
+    "hitCount": 6215,
+    "avgUserRatio": 1.02,
+    "activeUsers": 168
   },
   {
     "roomName": "Town Square",
-    "hitCount": 4137,
+    "hitCount": 4138,
     "avgUserRatio": 1.25,
     "activeUsers": 203
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1789,
-    "avgUserRatio": 1.79,
-    "activeUsers": 171
+    "hitCount": 1826,
+    "avgUserRatio": 1.76,
+    "activeUsers": 172
   },
   {
     "roomName": "Matterhorn",
@@ -25,7 +25,7 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 875,
+    "hitCount": 882,
     "avgUserRatio": 1.08,
     "activeUsers": 97
   },
@@ -49,7 +49,7 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 533,
+    "hitCount": 534,
     "avgUserRatio": 1.72,
     "activeUsers": 81
   },
@@ -67,9 +67,9 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 241,
-    "avgUserRatio": 2.26,
-    "activeUsers": 55
+    "hitCount": 250,
+    "avgUserRatio": 2.19,
+    "activeUsers": 57
   },
   {
     "roomName": "Snow White Hide 'n Seek Forest",
@@ -157,9 +157,9 @@
   },
   {
     "roomName": "Autopia Quest Track",
-    "hitCount": 78,
-    "avgUserRatio": 3.55,
-    "activeUsers": 18
+    "hitCount": 79,
+    "avgUserRatio": 3.37,
+    "activeUsers": 19
   },
   {
     "roomName": "Sci-Fi Dine-In",
@@ -222,22 +222,28 @@
     "activeUsers": 18
   },
   {
+    "roomName": "Adventureland Bazaar",
+    "hitCount": 47,
+    "avgUserRatio": 1.11,
+    "activeUsers": 13
+  },
+  {
     "roomName": "Nautilus Grotto",
     "hitCount": 44,
     "avgUserRatio": 1.78,
     "activeUsers": 10
   },
   {
-    "roomName": "Adventureland Bazaar",
-    "hitCount": 43,
-    "avgUserRatio": 1.07,
-    "activeUsers": 13
-  },
-  {
     "roomName": "Splash Mountain",
     "hitCount": 36,
     "avgUserRatio": 1.42,
     "activeUsers": 14
+  },
+  {
+    "roomName": "Autopia Space Race",
+    "hitCount": 36,
+    "avgUserRatio": 2.54,
+    "activeUsers": 12
   },
   {
     "roomName": "Castle Gardens",
@@ -250,12 +256,6 @@
     "hitCount": 35,
     "avgUserRatio": 1.04,
     "activeUsers": 15
-  },
-  {
-    "roomName": "Autopia Space Race",
-    "hitCount": 34,
-    "avgUserRatio": 2.37,
-    "activeUsers": 12
   },
   {
     "roomName": "WS - Norway",

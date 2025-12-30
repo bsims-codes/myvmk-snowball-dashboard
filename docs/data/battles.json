@@ -13565,6 +13565,67 @@
     ]
   },
   {
+    "id": "Main Street-7",
+    "roomName": "Main Street",
+    "start": "2025-12-29T20:51:44.000Z",
+    "end": "2025-12-29T20:58:29.000Z",
+    "durationMinutes": 7,
+    "hitCount": 37,
+    "uniqueUsers": 3,
+    "topAttackers": [
+      {
+        "user": "kazino",
+        "team": "Penguin",
+        "attacks": 26
+      },
+      {
+        "user": "masha",
+        "team": "Reindeer",
+        "attacks": 8
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 3
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "masha",
+        "team": "Reindeer",
+        "hitsTaken": 26
+      },
+      {
+        "user": "kazino",
+        "team": "Penguin",
+        "hitsTaken": 11
+      }
+    ],
+    "participants": [
+      {
+        "user": "kazino",
+        "team": "Penguin",
+        "attacks": 26,
+        "hitsTaken": 11,
+        "ratio": 2.3636363636363638
+      },
+      {
+        "user": "masha",
+        "team": "Reindeer",
+        "attacks": 8,
+        "hitsTaken": 26,
+        "ratio": 0.3076923076923077
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 3,
+        "hitsTaken": 0,
+        "ratio": 3
+      }
+    ]
+  },
+  {
     "id": "Tiki Tiki Tiki Island-1",
     "roomName": "Tiki Tiki Tiki Island",
     "start": "2025-12-24T15:26:33.000Z",
