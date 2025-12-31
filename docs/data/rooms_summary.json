@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 6288,
+    "hitCount": 6384,
     "avgUserRatio": 0.97,
     "activeUsers": 177
   },
@@ -13,9 +13,9 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1851,
-    "avgUserRatio": 1.77,
-    "activeUsers": 174
+    "hitCount": 1868,
+    "avgUserRatio": 1.8,
+    "activeUsers": 175
   },
   {
     "roomName": "Matterhorn",
@@ -43,9 +43,9 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 560,
-    "avgUserRatio": 1.68,
-    "activeUsers": 85
+    "hitCount": 562,
+    "avgUserRatio": 1.66,
+    "activeUsers": 86
   },
   {
     "roomName": "Monorail Station",
@@ -79,9 +79,9 @@
   },
   {
     "roomName": "Shrunken Ned's Shop",
-    "hitCount": 230,
-    "avgUserRatio": 5.92,
-    "activeUsers": 34
+    "hitCount": 231,
+    "avgUserRatio": 5.78,
+    "activeUsers": 35
   },
   {
     "roomName": "New Orleans Square",
@@ -109,8 +109,8 @@
   },
   {
     "roomName": "Blue Bayou",
-    "hitCount": 143,
-    "avgUserRatio": 1.5,
+    "hitCount": 144,
+    "avgUserRatio": 1.53,
     "activeUsers": 41
   },
   {
@@ -240,16 +240,16 @@
     "activeUsers": 13
   },
   {
+    "roomName": "Castle Gardens",
+    "hitCount": 36,
+    "avgUserRatio": 1.2,
+    "activeUsers": 17
+  },
+  {
     "roomName": "Splash Mountain",
     "hitCount": 36,
     "avgUserRatio": 1.42,
     "activeUsers": 14
-  },
-  {
-    "roomName": "Castle Gardens",
-    "hitCount": 35,
-    "avgUserRatio": 1.21,
-    "activeUsers": 16
   },
   {
     "roomName": "VMK Central",

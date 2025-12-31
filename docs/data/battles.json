@@ -11226,6 +11226,81 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-45",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2025-12-30T21:22:56.000Z",
+    "end": "2025-12-30T21:33:14.000Z",
+    "durationMinutes": 10,
+    "hitCount": 46,
+    "uniqueUsers": 5,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 24
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 22
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "hitsTaken": 13
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "hitsTaken": 12
+      },
+      {
+        "user": "CityscapeNight",
+        "team": "Penguin",
+        "hitsTaken": 11
+      }
+    ],
+    "participants": [
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 22,
+        "hitsTaken": 12,
+        "ratio": 1.8333333333333333
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 24,
+        "hitsTaken": 9,
+        "ratio": 2.6666666666666665
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 13,
+        "ratio": 0
+      },
+      {
+        "user": "CityscapeNight",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 11,
+        "ratio": 0
+      },
+      {
+        "user": "Naiant",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Central Plaza-8",
     "roomName": "Central Plaza",
     "start": "2025-12-24T13:02:24.000Z",
