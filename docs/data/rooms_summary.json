@@ -1,13 +1,13 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 6410,
+    "hitCount": 6411,
     "avgUserRatio": 0.96,
     "activeUsers": 180
   },
   {
     "roomName": "Town Square",
-    "hitCount": 4168,
+    "hitCount": 4172,
     "avgUserRatio": 1.25,
     "activeUsers": 206
   },
@@ -25,8 +25,8 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 919,
-    "avgUserRatio": 1.06,
+    "hitCount": 939,
+    "avgUserRatio": 1.07,
     "activeUsers": 100
   },
   {
@@ -91,8 +91,8 @@
   },
   {
     "roomName": "Blue Bayou",
-    "hitCount": 204,
-    "avgUserRatio": 2.37,
+    "hitCount": 206,
+    "avgUserRatio": 2.4,
     "activeUsers": 43
   },
   {
@@ -132,16 +132,16 @@
     "activeUsers": 38
   },
   {
+    "roomName": "Castle Forecourt",
+    "hitCount": 135,
+    "avgUserRatio": 2.7,
+    "activeUsers": 36
+  },
+  {
     "roomName": "Tiki Tiki Tiki Island",
     "hitCount": 128,
     "avgUserRatio": 1.9,
     "activeUsers": 23
-  },
-  {
-    "roomName": "Castle Forecourt",
-    "hitCount": 127,
-    "avgUserRatio": 2.78,
-    "activeUsers": 36
   },
   {
     "roomName": "Pixar Pier Entrance",
@@ -157,9 +157,9 @@
   },
   {
     "roomName": "Sci-Fi Dine-In",
-    "hitCount": 82,
-    "avgUserRatio": 2.48,
-    "activeUsers": 25
+    "hitCount": 87,
+    "avgUserRatio": 2.58,
+    "activeUsers": 26
   },
   {
     "roomName": "Autopia Quest Track",
