@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-31T15:18:26.766Z",
-  "totalRows": 21893,
+  "generatedAt": "2025-12-31T16:22:45.625Z",
+  "totalRows": 21902,
   "totalUsers": 409,
   "teamStats": {
     "Penguin": {
       "users": 188,
-      "attacks": 12492,
+      "attacks": 12501,
       "hitsTaken": 9401
     },
     "Reindeer": {
       "users": 221,
       "attacks": 9401,
-      "hitsTaken": 12492
+      "hitsTaken": 12501
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 12492
+      "count": 12501
     },
     {
       "pair": "Reindeer → Penguin",
@@ -87,7 +87,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 491,
+      "attacks": 500,
       "team": "Penguin"
     },
     {
@@ -164,7 +164,7 @@
     },
     {
       "user": "MatthewC",
-      "hitsTaken": 975,
+      "hitsTaken": 979,
       "team": "Reindeer"
     },
     {
@@ -344,8 +344,8 @@
       "user": "MatthewC",
       "team": "Reindeer",
       "attacks": 94,
-      "hitsTaken": 975,
-      "ratio": 0.09641025641025641
+      "hitsTaken": 979,
+      "ratio": 0.09601634320735444
     },
     {
       "user": "TaterTotCasserole",
@@ -399,9 +399,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 491,
+      "attacks": 500,
       "hitsTaken": 119,
-      "ratio": 4.126050420168068
+      "ratio": 4.201680672268908
     },
     {
       "user": "Kate.",
@@ -1041,6 +1041,13 @@
       "ratio": 0.22580645161290322
     },
     {
+      "user": "-Misty-",
+      "team": "Reindeer",
+      "attacks": 30,
+      "hitsTaken": 45,
+      "ratio": 0.6666666666666666
+    },
+    {
       "user": "Cali",
       "team": "Reindeer",
       "attacks": 2,
@@ -1074,13 +1081,6 @@
       "attacks": 18,
       "hitsTaken": 55,
       "ratio": 0.32727272727272727
-    },
-    {
-      "user": "-Misty-",
-      "team": "Reindeer",
-      "attacks": 30,
-      "hitsTaken": 42,
-      "ratio": 0.7142857142857143
     },
     {
       "user": "DarthTater",
@@ -2189,6 +2189,13 @@
       "ratio": 0
     },
     {
+      "user": "crimsonskies",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 7,
+      "ratio": 0
+    },
+    {
       "user": "Dear_Sweet_Leota",
       "team": "Reindeer",
       "attacks": 0,
@@ -2373,13 +2380,6 @@
     {
       "user": "OceanWish",
       "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 5,
-      "ratio": 0
-    },
-    {
-      "user": "crimsonskies",
-      "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 5,
       "ratio": 0
@@ -3150,30 +3150,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.396239167385179,
-      "intercept": 32.31818070522317,
+      "slope": 0.3960713773866757,
+      "intercept": 32.34045157084848,
       "xMin": 0,
       "xMax": 2377,
-      "y1": 32.31818070522317,
-      "y2": 974.1786815797936,
+      "y1": 32.34045157084848,
+      "y2": 973.8021156189766,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3096365488053421,
-      "intercept": 29.430958682572694,
+      "slope": 0.30938130601776037,
+      "intercept": 29.433107943999882,
       "xMin": 0,
       "xMax": 2377,
-      "y1": 29.430958682572694,
-      "y2": 765.4370351928709,
+      "y1": 29.433107943999882,
+      "y2": 764.8324723482162,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.47250420809164,
-      "intercept": 36.4252847951606,
+      "slope": 0.4725141356301598,
+      "intercept": 36.46558647484556,
       "xMin": 0,
       "xMax": 2377,
-      "y1": 36.4252847951606,
-      "y2": 1159.567787428989,
+      "y1": 36.46558647484556,
+      "y2": 1159.6316868677354,
       "label": "Reindeer"
     }
   },
@@ -3246,9 +3246,9 @@
     },
     {
       "roomName": "Epcot Entrance",
-      "hitCount": 254,
-      "avgUserRatio": 2.22,
-      "activeUsers": 57
+      "hitCount": 259,
+      "avgUserRatio": 2.23,
+      "activeUsers": 59
     },
     {
       "roomName": "Snow White Hide 'n Seek Forest",
@@ -3288,8 +3288,8 @@
     },
     {
       "roomName": "Blue Bayou",
-      "hitCount": 147,
-      "avgUserRatio": 1.54,
+      "hitCount": 151,
+      "avgUserRatio": 1.63,
       "activeUsers": 41
     },
     {
