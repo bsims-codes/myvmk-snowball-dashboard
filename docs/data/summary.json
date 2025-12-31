@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-31T12:38:01.339Z",
-  "totalRows": 21809,
+  "generatedAt": "2025-12-31T13:30:43.705Z",
+  "totalRows": 21823,
   "totalUsers": 409,
   "teamStats": {
     "Penguin": {
       "users": 188,
-      "attacks": 12423,
+      "attacks": 12437,
       "hitsTaken": 9386
     },
     "Reindeer": {
       "users": 221,
       "attacks": 9386,
-      "hitsTaken": 12423
+      "hitsTaken": 12437
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 12423
+      "count": 12437
     },
     {
       "pair": "Reindeer → Penguin",
@@ -91,13 +91,13 @@
       "team": "Penguin"
     },
     {
-      "user": "bsims",
-      "attacks": 457,
+      "user": "JustForFun",
+      "attacks": 468,
       "team": "Penguin"
     },
     {
-      "user": "JustForFun",
-      "attacks": 454,
+      "user": "bsims",
+      "attacks": 457,
       "team": "Penguin"
     },
     {
@@ -404,18 +404,18 @@
       "ratio": 0.033628318584070796
     },
     {
+      "user": "JustForFun",
+      "team": "Penguin",
+      "attacks": 468,
+      "hitsTaken": 116,
+      "ratio": 4.0344827586206895
+    },
+    {
       "user": "bsims",
       "team": "Penguin",
       "attacks": 457,
       "hitsTaken": 116,
       "ratio": 3.939655172413793
-    },
-    {
-      "user": "JustForFun",
-      "team": "Penguin",
-      "attacks": 454,
-      "hitsTaken": 116,
-      "ratio": 3.913793103448276
     },
     {
       "user": "bunny",
@@ -1286,6 +1286,13 @@
       "ratio": 0.13513513513513514
     },
     {
+      "user": "SavageGuy",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 42,
+      "ratio": 0
+    },
+    {
       "user": "BelleMarie",
       "team": "Penguin",
       "attacks": 28,
@@ -1477,13 +1484,6 @@
     {
       "user": "Rstar",
       "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 28,
-      "ratio": 0
-    },
-    {
-      "user": "SavageGuy",
-      "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 28,
       "ratio": 0
@@ -3150,30 +3150,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.39708918247242925,
-      "intercept": 32.14885579329778,
+      "slope": 0.3968016781005924,
+      "intercept": 32.18483368902389,
       "xMin": 0,
       "xMax": 2377,
-      "y1": 32.14885579329778,
-      "y2": 976.0298425302622,
+      "y1": 32.18483368902389,
+      "y2": 975.382422534132,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.31048466851334944,
-      "intercept": 29.408771080099257,
+      "slope": 0.3101200297111853,
+      "intercept": 29.40977228979781,
       "xMin": 0,
       "xMax": 2377,
-      "y1": 29.408771080099257,
-      "y2": 767.4308281363308,
+      "y1": 29.40977228979781,
+      "y2": 766.5650829132853,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.47256724935076627,
-      "intercept": 36.14246062259596,
+      "slope": 0.47249626744588524,
+      "intercept": 36.208823682139915,
       "xMin": 0,
       "xMax": 2377,
-      "y1": 36.14246062259596,
-      "y2": 1159.4348123293673,
+      "y1": 36.208823682139915,
+      "y2": 1159.3324514010092,
       "label": "Reindeer"
     }
   },
@@ -3317,16 +3317,16 @@
       "activeUsers": 36
     },
     {
+      "roomName": "Jungle Cruise Dock",
+      "hitCount": 124,
+      "avgUserRatio": 4.15,
+      "activeUsers": 21
+    },
+    {
       "roomName": "Pixar Pier Entrance",
       "hitCount": 112,
       "avgUserRatio": 1.37,
       "activeUsers": 30
-    },
-    {
-      "roomName": "Jungle Cruise Dock",
-      "hitCount": 110,
-      "avgUserRatio": 3.82,
-      "activeUsers": 21
     }
   ]
 }
