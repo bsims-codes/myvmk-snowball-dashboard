@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 6399,
+    "hitCount": 6403,
     "avgUserRatio": 0.96,
     "activeUsers": 179
   },
@@ -13,9 +13,9 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1868,
-    "avgUserRatio": 1.8,
-    "activeUsers": 175
+    "hitCount": 1893,
+    "avgUserRatio": 1.78,
+    "activeUsers": 177
   },
   {
     "roomName": "Matterhorn",
@@ -25,7 +25,7 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 907,
+    "hitCount": 915,
     "avgUserRatio": 1.06,
     "activeUsers": 100
   },
@@ -126,6 +126,12 @@
     "activeUsers": 38
   },
   {
+    "roomName": "Jungle Cruise Dock",
+    "hitCount": 129,
+    "avgUserRatio": 4.27,
+    "activeUsers": 21
+  },
+  {
     "roomName": "Tiki Tiki Tiki Island",
     "hitCount": 128,
     "avgUserRatio": 1.9,
@@ -136,12 +142,6 @@
     "hitCount": 127,
     "avgUserRatio": 2.78,
     "activeUsers": 36
-  },
-  {
-    "roomName": "Jungle Cruise Dock",
-    "hitCount": 124,
-    "avgUserRatio": 4.15,
-    "activeUsers": 21
   },
   {
     "roomName": "Pixar Pier Entrance",
