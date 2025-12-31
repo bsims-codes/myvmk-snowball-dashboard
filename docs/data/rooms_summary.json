@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 6411,
+    "hitCount": 6436,
     "avgUserRatio": 0.96,
     "activeUsers": 180
   },
@@ -13,7 +13,7 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1913,
+    "hitCount": 1914,
     "avgUserRatio": 1.78,
     "activeUsers": 178
   },
@@ -25,9 +25,9 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 939,
-    "avgUserRatio": 1.07,
-    "activeUsers": 100
+    "hitCount": 959,
+    "avgUserRatio": 1.04,
+    "activeUsers": 101
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -139,9 +139,9 @@
   },
   {
     "roomName": "Tiki Tiki Tiki Island",
-    "hitCount": 128,
-    "avgUserRatio": 1.9,
-    "activeUsers": 23
+    "hitCount": 133,
+    "avgUserRatio": 1.74,
+    "activeUsers": 24
   },
   {
     "roomName": "Pixar Pier Entrance",
@@ -180,16 +180,16 @@
     "activeUsers": 9
   },
   {
+    "roomName": "Street Party Music Game Lobby",
+    "hitCount": 72,
+    "avgUserRatio": 1.41,
+    "activeUsers": 19
+  },
+  {
     "roomName": "VMK Gallery",
     "hitCount": 69,
     "avgUserRatio": 1.12,
     "activeUsers": 23
-  },
-  {
-    "roomName": "Street Party Music Game Lobby",
-    "hitCount": 68,
-    "avgUserRatio": 1.65,
-    "activeUsers": 15
   },
   {
     "roomName": "Explorer's Tent",
@@ -210,6 +210,12 @@
     "activeUsers": 20
   },
   {
+    "roomName": "Adventureland Bazaar",
+    "hitCount": 54,
+    "avgUserRatio": 1.08,
+    "activeUsers": 19
+  },
+  {
     "roomName": "Elephant Bathing Pool",
     "hitCount": 52,
     "avgUserRatio": 1.96,
@@ -226,12 +232,6 @@
     "hitCount": 51,
     "avgUserRatio": 1.56,
     "activeUsers": 13
-  },
-  {
-    "roomName": "Adventureland Bazaar",
-    "hitCount": 49,
-    "avgUserRatio": 1.15,
-    "activeUsers": 14
   },
   {
     "roomName": "Autopia Space Race",
@@ -319,8 +319,8 @@
   },
   {
     "roomName": "Frontierland Dock",
-    "hitCount": 19,
-    "avgUserRatio": 0.87,
+    "hitCount": 21,
+    "avgUserRatio": 0.84,
     "activeUsers": 6
   },
   {
@@ -384,6 +384,12 @@
     "activeUsers": 6
   },
   {
+    "roomName": "Shipwreck Graveyard",
+    "hitCount": 4,
+    "avgUserRatio": 0.67,
+    "activeUsers": 6
+  },
+  {
     "roomName": "Big Thunder Mountain",
     "hitCount": 4,
     "avgUserRatio": 0.8,
@@ -400,12 +406,6 @@
     "hitCount": 4,
     "avgUserRatio": 1.33,
     "activeUsers": 3
-  },
-  {
-    "roomName": "Shipwreck Graveyard",
-    "hitCount": 3,
-    "avgUserRatio": 0.75,
-    "activeUsers": 4
   },
   {
     "roomName": "Mark Twain",
