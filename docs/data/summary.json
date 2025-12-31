@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-12-31T16:22:45.625Z",
-  "totalRows": 21902,
-  "totalUsers": 409,
+  "generatedAt": "2025-12-31T17:16:22.576Z",
+  "totalRows": 21948,
+  "totalUsers": 411,
   "teamStats": {
     "Penguin": {
       "users": 188,
-      "attacks": 12501,
+      "attacks": 12547,
       "hitsTaken": 9401
     },
     "Reindeer": {
-      "users": 221,
+      "users": 223,
       "attacks": 9401,
-      "hitsTaken": 12501
+      "hitsTaken": 12547
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 12501
+      "count": 12547
     },
     {
       "pair": "Reindeer → Penguin",
@@ -62,7 +62,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 787,
+      "attacks": 804,
       "team": "Penguin"
     },
     {
@@ -81,14 +81,14 @@
       "team": "Penguin"
     },
     {
+      "user": "JustForFun",
+      "attacks": 527,
+      "team": "Penguin"
+    },
+    {
       "user": "Jewelsy",
       "attacks": 508,
       "team": "Reindeer"
-    },
-    {
-      "user": "JustForFun",
-      "attacks": 500,
-      "team": "Penguin"
     },
     {
       "user": "Luckymaxer",
@@ -341,18 +341,18 @@
       "ratio": 0.6907692307692308
     },
     {
+      "user": "TaterTotCasserole",
+      "team": "Penguin",
+      "attacks": 804,
+      "hitsTaken": 271,
+      "ratio": 2.9667896678966788
+    },
+    {
       "user": "MatthewC",
       "team": "Reindeer",
       "attacks": 94,
       "hitsTaken": 979,
       "ratio": 0.09601634320735444
-    },
-    {
-      "user": "TaterTotCasserole",
-      "team": "Penguin",
-      "attacks": 787,
-      "hitsTaken": 271,
-      "ratio": 2.904059040590406
     },
     {
       "user": "SammyxxFairy",
@@ -390,18 +390,18 @@
       "ratio": 2.8816568047337277
     },
     {
+      "user": "JustForFun",
+      "team": "Penguin",
+      "attacks": 527,
+      "hitsTaken": 119,
+      "ratio": 4.428571428571429
+    },
+    {
       "user": "Jewelsy",
       "team": "Reindeer",
       "attacks": 508,
       "hitsTaken": 127,
       "ratio": 4
-    },
-    {
-      "user": "JustForFun",
-      "team": "Penguin",
-      "attacks": 500,
-      "hitsTaken": 119,
-      "ratio": 4.201680672268908
     },
     {
       "user": "Kate.",
@@ -1219,8 +1219,8 @@
       "user": "Sucrette",
       "team": "Reindeer",
       "attacks": 18,
-      "hitsTaken": 33,
-      "ratio": 0.5454545454545454
+      "hitsTaken": 34,
+      "ratio": 0.5294117647058824
     },
     {
       "user": "BlueSorcerer",
@@ -1335,6 +1335,13 @@
       "ratio": 0
     },
     {
+      "user": "tuna",
+      "team": "Penguin",
+      "attacks": 30,
+      "hitsTaken": 5,
+      "ratio": 6
+    },
+    {
       "user": "MoonlightDream",
       "team": "Reindeer",
       "attacks": 6,
@@ -1382,13 +1389,6 @@
       "attacks": 0,
       "hitsTaken": 34,
       "ratio": 0
-    },
-    {
-      "user": "tuna",
-      "team": "Penguin",
-      "attacks": 28,
-      "hitsTaken": 5,
-      "ratio": 5.6
     },
     {
       "user": "-Tron-",
@@ -1452,6 +1452,13 @@
       "attacks": 5,
       "hitsTaken": 26,
       "ratio": 0.19230769230769232
+    },
+    {
+      "user": "MinnieJanae",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 31,
+      "ratio": 0
     },
     {
       "user": "PrincessCutezada",
@@ -1994,6 +2001,13 @@
     },
     {
       "user": "Evillyn",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 12,
+      "ratio": 0
+    },
+    {
+      "user": "ZeroSmartieFreekdom",
       "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 12,
@@ -2651,6 +2665,13 @@
       "ratio": 0
     },
     {
+      "user": "pixiemagic",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 3,
+      "ratio": 0
+    },
+    {
       "user": "Squishyjellyfishbunny",
       "team": "Reindeer",
       "attacks": 0,
@@ -3113,13 +3134,6 @@
       "ratio": 0
     },
     {
-      "user": "pixiemagic",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 1,
-      "ratio": 0
-    },
-    {
       "user": "MollyMolusk",
       "team": "Reindeer",
       "attacks": 0,
@@ -3150,30 +3164,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3960713773866757,
-      "intercept": 32.34045157084848,
+      "slope": 0.395202020334658,
+      "intercept": 32.297095030887895,
       "xMin": 0,
       "xMax": 2377,
-      "y1": 32.34045157084848,
-      "y2": 973.8021156189766,
+      "y1": 32.297095030887895,
+      "y2": 971.69229736637,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.30938130601776037,
-      "intercept": 29.433107943999882,
+      "slope": 0.3080129810115438,
+      "intercept": 29.448729400256173,
       "xMin": 0,
       "xMax": 2377,
-      "y1": 29.433107943999882,
-      "y2": 764.8324723482162,
+      "y1": 29.448729400256173,
+      "y2": 761.5955852646957,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4725141356301598,
-      "intercept": 36.46558647484556,
+      "slope": 0.4726517707336936,
+      "intercept": 36.339016606872406,
       "xMin": 0,
       "xMax": 2377,
-      "y1": 36.46558647484556,
-      "y2": 1159.6316868677354,
+      "y1": 36.339016606872406,
+      "y2": 1159.832275640862,
       "label": "Reindeer"
     }
   },
@@ -3198,7 +3212,7 @@
     },
     {
       "roomName": "Matterhorn",
-      "hitCount": 1441,
+      "hitCount": 1442,
       "avgUserRatio": 1.2,
       "activeUsers": 174
     },
@@ -3246,8 +3260,8 @@
     },
     {
       "roomName": "Epcot Entrance",
-      "hitCount": 259,
-      "avgUserRatio": 2.23,
+      "hitCount": 261,
+      "avgUserRatio": 2.26,
       "activeUsers": 59
     },
     {
@@ -3287,6 +3301,12 @@
       "activeUsers": 39
     },
     {
+      "roomName": "Jungle Cruise Dock",
+      "hitCount": 152,
+      "avgUserRatio": 4.87,
+      "activeUsers": 22
+    },
+    {
       "roomName": "Blue Bayou",
       "hitCount": 151,
       "avgUserRatio": 1.63,
@@ -3305,12 +3325,6 @@
       "activeUsers": 38
     },
     {
-      "roomName": "Jungle Cruise Dock",
-      "hitCount": 129,
-      "avgUserRatio": 4.27,
-      "activeUsers": 21
-    },
-    {
       "roomName": "Tiki Tiki Tiki Island",
       "hitCount": 128,
       "avgUserRatio": 1.9,
@@ -3324,9 +3338,9 @@
     },
     {
       "roomName": "Pixar Pier Entrance",
-      "hitCount": 112,
-      "avgUserRatio": 1.37,
-      "activeUsers": 30
+      "hitCount": 120,
+      "avgUserRatio": 1.54,
+      "activeUsers": 32
     }
   ]
 }

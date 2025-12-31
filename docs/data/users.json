@@ -44,9 +44,9 @@
   {
     "user": "TaterTotCasserole",
     "team": "Penguin",
-    "attacks": 787,
+    "attacks": 804,
     "hitsTaken": 271,
-    "ratio": 2.904059040590406
+    "ratio": 2.9667896678966788
   },
   {
     "user": "Mali",
@@ -70,18 +70,18 @@
     "ratio": 3.2180094786729856
   },
   {
+    "user": "JustForFun",
+    "team": "Penguin",
+    "attacks": 527,
+    "hitsTaken": 119,
+    "ratio": 4.428571428571429
+  },
+  {
     "user": "Jewelsy",
     "team": "Reindeer",
     "attacks": 508,
     "hitsTaken": 127,
     "ratio": 4
-  },
-  {
-    "user": "JustForFun",
-    "team": "Penguin",
-    "attacks": 500,
-    "hitsTaken": 119,
-    "ratio": 4.201680672268908
   },
   {
     "user": "Luckymaxer",
@@ -574,6 +574,13 @@
     "ratio": 0.7209302325581395
   },
   {
+    "user": "tuna",
+    "team": "Penguin",
+    "attacks": 30,
+    "hitsTaken": 5,
+    "ratio": 6
+  },
+  {
     "user": "-Misty-",
     "team": "Reindeer",
     "attacks": 30,
@@ -586,13 +593,6 @@
     "attacks": 29,
     "hitsTaken": 92,
     "ratio": 0.31521739130434784
-  },
-  {
-    "user": "tuna",
-    "team": "Penguin",
-    "attacks": 28,
-    "hitsTaken": 5,
-    "ratio": 5.6
   },
   {
     "user": "BelleMarie",
@@ -675,8 +675,8 @@
     "user": "Sucrette",
     "team": "Reindeer",
     "attacks": 18,
-    "hitsTaken": 33,
-    "ratio": 0.5454545454545454
+    "hitsTaken": 34,
+    "ratio": 0.5294117647058824
   },
   {
     "user": "fatale",
@@ -2642,7 +2642,7 @@
     "user": "pixiemagic",
     "team": "Reindeer",
     "attacks": 0,
-    "hitsTaken": 1,
+    "hitsTaken": 3,
     "ratio": 0
   },
   {
@@ -2860,6 +2860,20 @@
     "team": "Penguin",
     "attacks": 0,
     "hitsTaken": 3,
+    "ratio": 0
+  },
+  {
+    "user": "MinnieJanae",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 31,
+    "ratio": 0
+  },
+  {
+    "user": "ZeroSmartieFreekdom",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 12,
     "ratio": 0
   }
 ]
