@@ -1,33 +1,33 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 6223,
-    "avgUserRatio": 1.01,
-    "activeUsers": 170
+    "hitCount": 6288,
+    "avgUserRatio": 0.97,
+    "activeUsers": 177
   },
   {
     "roomName": "Town Square",
-    "hitCount": 4138,
-    "avgUserRatio": 1.25,
-    "activeUsers": 203
+    "hitCount": 4164,
+    "avgUserRatio": 1.24,
+    "activeUsers": 204
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1849,
-    "avgUserRatio": 1.78,
-    "activeUsers": 173
+    "hitCount": 1851,
+    "avgUserRatio": 1.77,
+    "activeUsers": 174
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 1437,
-    "avgUserRatio": 1.21,
-    "activeUsers": 173
+    "hitCount": 1441,
+    "avgUserRatio": 1.2,
+    "activeUsers": 174
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 883,
-    "avgUserRatio": 1.07,
-    "activeUsers": 98
+    "hitCount": 904,
+    "avgUserRatio": 1.06,
+    "activeUsers": 99
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -37,9 +37,15 @@
   },
   {
     "roomName": "Dungeon",
-    "hitCount": 581,
-    "avgUserRatio": 2.95,
-    "activeUsers": 56
+    "hitCount": 582,
+    "avgUserRatio": 2.9,
+    "activeUsers": 57
+  },
+  {
+    "roomName": "VMK Esplanade",
+    "hitCount": 560,
+    "avgUserRatio": 1.68,
+    "activeUsers": 85
   },
   {
     "roomName": "Monorail Station",
@@ -48,16 +54,10 @@
     "activeUsers": 33
   },
   {
-    "roomName": "VMK Esplanade",
-    "hitCount": 537,
-    "avgUserRatio": 1.73,
-    "activeUsers": 82
-  },
-  {
     "roomName": "Frontierland Hub",
-    "hitCount": 327,
-    "avgUserRatio": 1.35,
-    "activeUsers": 50
+    "hitCount": 329,
+    "avgUserRatio": 1.33,
+    "activeUsers": 51
   },
   {
     "roomName": "Banquet Hall",
@@ -67,15 +67,15 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 253,
-    "avgUserRatio": 2.2,
+    "hitCount": 254,
+    "avgUserRatio": 2.22,
     "activeUsers": 57
   },
   {
     "roomName": "Snow White Hide 'n Seek Forest",
-    "hitCount": 233,
-    "avgUserRatio": 3.32,
-    "activeUsers": 31
+    "hitCount": 235,
+    "avgUserRatio": 3.23,
+    "activeUsers": 32
   },
   {
     "roomName": "Shrunken Ned's Shop",
@@ -145,8 +145,8 @@
   },
   {
     "roomName": "Jungle Cruise Dock",
-    "hitCount": 108,
-    "avgUserRatio": 3.72,
+    "hitCount": 110,
+    "avgUserRatio": 3.82,
     "activeUsers": 21
   },
   {
@@ -156,16 +156,16 @@
     "activeUsers": 22
   },
   {
+    "roomName": "Sci-Fi Dine-In",
+    "hitCount": 82,
+    "avgUserRatio": 2.48,
+    "activeUsers": 25
+  },
+  {
     "roomName": "Autopia Quest Track",
     "hitCount": 79,
     "avgUserRatio": 3.37,
     "activeUsers": 19
-  },
-  {
-    "roomName": "Sci-Fi Dine-In",
-    "hitCount": 78,
-    "avgUserRatio": 2.42,
-    "activeUsers": 24
   },
   {
     "roomName": "Penny Arcade",
@@ -222,28 +222,28 @@
     "activeUsers": 18
   },
   {
-    "roomName": "Adventureland Bazaar",
-    "hitCount": 47,
-    "avgUserRatio": 1.11,
+    "roomName": "Nautilus Grotto",
+    "hitCount": 51,
+    "avgUserRatio": 1.56,
     "activeUsers": 13
   },
   {
-    "roomName": "Nautilus Grotto",
-    "hitCount": 44,
-    "avgUserRatio": 1.78,
-    "activeUsers": 10
+    "roomName": "Adventureland Bazaar",
+    "hitCount": 49,
+    "avgUserRatio": 1.15,
+    "activeUsers": 14
+  },
+  {
+    "roomName": "Autopia Space Race",
+    "hitCount": 38,
+    "avgUserRatio": 2.49,
+    "activeUsers": 13
   },
   {
     "roomName": "Splash Mountain",
     "hitCount": 36,
     "avgUserRatio": 1.42,
     "activeUsers": 14
-  },
-  {
-    "roomName": "Autopia Space Race",
-    "hitCount": 36,
-    "avgUserRatio": 2.54,
-    "activeUsers": 12
   },
   {
     "roomName": "Castle Gardens",
@@ -282,6 +282,12 @@
     "activeUsers": 3
   },
   {
+    "roomName": "WS - Mexico",
+    "hitCount": 28,
+    "avgUserRatio": 0.82,
+    "activeUsers": 12
+  },
+  {
     "roomName": "Discovery Island",
     "hitCount": 27,
     "avgUserRatio": 2.08,
@@ -306,12 +312,6 @@
     "activeUsers": 9
   },
   {
-    "roomName": "WS - Mexico",
-    "hitCount": 20,
-    "avgUserRatio": 0.82,
-    "activeUsers": 10
-  },
-  {
     "roomName": "Frontierland Dock",
     "hitCount": 19,
     "avgUserRatio": 0.87,
@@ -331,9 +331,9 @@
   },
   {
     "roomName": "Anandapur",
-    "hitCount": 11,
-    "avgUserRatio": 1.22,
-    "activeUsers": 9
+    "hitCount": 13,
+    "avgUserRatio": 1.18,
+    "activeUsers": 11
   },
   {
     "roomName": "Tom Sawyer's Island",
@@ -346,6 +346,12 @@
     "hitCount": 9,
     "avgUserRatio": 1.5,
     "activeUsers": 6
+  },
+  {
+    "roomName": "Discovery Trading Company",
+    "hitCount": 7,
+    "avgUserRatio": 0.86,
+    "activeUsers": 7
   },
   {
     "roomName": "Inner-Space Shop",
@@ -378,6 +384,12 @@
     "activeUsers": 6
   },
   {
+    "roomName": "Big Thunder Mountain",
+    "hitCount": 4,
+    "avgUserRatio": 0.8,
+    "activeUsers": 5
+  },
+  {
     "roomName": "Golden Horseshoe Mercantile",
     "hitCount": 4,
     "avgUserRatio": 1,
@@ -396,12 +408,6 @@
     "activeUsers": 4
   },
   {
-    "roomName": "Discovery Trading Company",
-    "hitCount": 3,
-    "avgUserRatio": 0.75,
-    "activeUsers": 4
-  },
-  {
     "roomName": "Mark Twain",
     "hitCount": 3,
     "avgUserRatio": 0.75,
@@ -412,12 +418,6 @@
     "hitCount": 3,
     "avgUserRatio": 1.5,
     "activeUsers": 2
-  },
-  {
-    "roomName": "Big Thunder Mountain",
-    "hitCount": 2,
-    "avgUserRatio": 0.67,
-    "activeUsers": 3
   },
   {
     "roomName": "Frontierland Cave",
