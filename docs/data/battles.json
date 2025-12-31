@@ -10427,6 +10427,81 @@
     ]
   },
   {
+    "id": "Blue Bayou-2",
+    "roomName": "Blue Bayou",
+    "start": "2025-12-31T13:01:12.000Z",
+    "end": "2025-12-31T13:08:32.000Z",
+    "durationMinutes": 7,
+    "hitCount": 50,
+    "uniqueUsers": 5,
+    "topAttackers": [
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 19
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 18
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 13
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "MatthewC",
+        "team": "Reindeer",
+        "hitsTaken": 42
+      },
+      {
+        "user": "TrianaLight",
+        "team": "Reindeer",
+        "hitsTaken": 8
+      }
+    ],
+    "participants": [
+      {
+        "user": "MatthewC",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 42,
+        "ratio": 0
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 19,
+        "hitsTaken": 0,
+        "ratio": 19
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 18,
+        "hitsTaken": 0,
+        "ratio": 18
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 13,
+        "hitsTaken": 0,
+        "ratio": 13
+      },
+      {
+        "user": "TrianaLight",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 8,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Dungeon-4",
     "roomName": "Dungeon",
     "start": "2025-12-27T20:01:31.000Z",

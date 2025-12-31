@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 6403,
+    "hitCount": 6408,
     "avgUserRatio": 0.96,
-    "activeUsers": 179
+    "activeUsers": 180
   },
   {
     "roomName": "Town Square",
@@ -67,8 +67,8 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 261,
-    "avgUserRatio": 2.26,
+    "hitCount": 264,
+    "avgUserRatio": 2.31,
     "activeUsers": 59
   },
   {
@@ -90,6 +90,12 @@
     "activeUsers": 29
   },
   {
+    "roomName": "Blue Bayou",
+    "hitCount": 201,
+    "avgUserRatio": 2.38,
+    "activeUsers": 42
+  },
+  {
     "roomName": "Monorail Train",
     "hitCount": 189,
     "avgUserRatio": 2.92,
@@ -109,15 +115,9 @@
   },
   {
     "roomName": "Jungle Cruise Dock",
-    "hitCount": 152,
-    "avgUserRatio": 4.87,
-    "activeUsers": 22
-  },
-  {
-    "roomName": "Blue Bayou",
-    "hitCount": 151,
-    "avgUserRatio": 1.63,
-    "activeUsers": 41
+    "hitCount": 153,
+    "avgUserRatio": 4.7,
+    "activeUsers": 23
   },
   {
     "roomName": "Gallery",
