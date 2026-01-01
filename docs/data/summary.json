@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-01T09:22:20.810Z",
-  "totalRows": 22480,
-  "totalUsers": 433,
+  "generatedAt": "2026-01-01T10:20:10.227Z",
+  "totalRows": 22523,
+  "totalUsers": 434,
   "teamStats": {
     "Penguin": {
-      "users": 197,
-      "attacks": 12905,
-      "hitsTaken": 9575
+      "users": 198,
+      "attacks": 12938,
+      "hitsTaken": 9585
     },
     "Reindeer": {
       "users": 236,
-      "attacks": 9575,
-      "hitsTaken": 12905
+      "attacks": 9585,
+      "hitsTaken": 12938
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 12905
+      "count": 12938
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 9575
+      "count": 9585
     }
   ],
   "topAttackers": [
@@ -47,7 +47,7 @@
     },
     {
       "user": "Winnie",
-      "attacks": 1030,
+      "attacks": 1051,
       "team": "Penguin"
     },
     {
@@ -223,14 +223,14 @@
       "team": "Penguin"
     },
     {
+      "user": "Winnie",
+      "hitsTaken": 267,
+      "team": "Penguin"
+    },
+    {
       "user": "RockStar_Olivia",
       "hitsTaken": 267,
       "team": "Reindeer"
-    },
-    {
-      "user": "Winnie",
-      "hitsTaken": 265,
-      "team": "Penguin"
     },
     {
       "user": "xRachelx",
@@ -315,9 +315,9 @@
     {
       "user": "Winnie",
       "team": "Penguin",
-      "attacks": 1030,
-      "hitsTaken": 265,
-      "ratio": 3.8867924528301887
+      "attacks": 1051,
+      "hitsTaken": 267,
+      "ratio": 3.9363295880149813
     },
     {
       "user": "TaterTotCasserole",
@@ -1048,6 +1048,13 @@
       "ratio": 77
     },
     {
+      "user": "-Misty-",
+      "team": "Reindeer",
+      "attacks": 30,
+      "hitsTaken": 46,
+      "ratio": 0.6521739130434783
+    },
+    {
       "user": "KristiDB",
       "team": "Reindeer",
       "attacks": 14,
@@ -1060,13 +1067,6 @@
       "attacks": 2,
       "hitsTaken": 74,
       "ratio": 0.02702702702702703
-    },
-    {
-      "user": "-Misty-",
-      "team": "Reindeer",
-      "attacks": 30,
-      "hitsTaken": 45,
-      "ratio": 0.6666666666666666
     },
     {
       "user": "Ormonddude",
@@ -1088,6 +1088,13 @@
       "attacks": 0,
       "hitsTaken": 74,
       "ratio": 0
+    },
+    {
+      "user": "AstroVioletRose",
+      "team": "Reindeer",
+      "attacks": 54,
+      "hitsTaken": 19,
+      "ratio": 2.8421052631578947
     },
     {
       "user": "fatale",
@@ -1144,13 +1151,6 @@
       "attacks": 23,
       "hitsTaken": 40,
       "ratio": 0.575
-    },
-    {
-      "user": "AstroVioletRose",
-      "team": "Reindeer",
-      "attacks": 54,
-      "hitsTaken": 9,
-      "ratio": 6
     },
     {
       "user": "Bernardo-S-Rocks",
@@ -1326,6 +1326,13 @@
       "attacks": 1,
       "hitsTaken": 37,
       "ratio": 0.02702702702702703
+    },
+    {
+      "user": "Aerzie",
+      "team": "Reindeer",
+      "attacks": 10,
+      "hitsTaken": 28,
+      "ratio": 0.35714285714285715
     },
     {
       "user": "BrittLaur",
@@ -1711,6 +1718,13 @@
       "attacks": 11,
       "hitsTaken": 9,
       "ratio": 1.2222222222222223
+    },
+    {
+      "user": "MajesticNeonBabe",
+      "team": "Penguin",
+      "attacks": 12,
+      "hitsTaken": 8,
+      "ratio": 1.5
     },
     {
       "user": "MissAnnaNovang",
@@ -2351,13 +2365,6 @@
     },
     {
       "user": "BerryBlitz",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 6,
-      "ratio": 0
-    },
-    {
-      "user": "Aerzie",
       "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 6,
@@ -3318,30 +3325,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3930293273115241,
-      "intercept": 31.512010905397084,
+      "slope": 0.3924324156423158,
+      "intercept": 31.530517747668483,
       "xMin": 0,
       "xMax": 2456,
-      "y1": 31.512010905397084,
-      "y2": 996.7920387825004,
+      "y1": 31.530517747668483,
+      "y2": 995.344530565196,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3058173987218096,
-      "intercept": 28.57069273855354,
+      "slope": 0.30518488403648814,
+      "intercept": 28.46726247644402,
       "xMin": 0,
       "xMax": 2456,
-      "y1": 28.57069273855354,
-      "y2": 779.6582239993179,
+      "y1": 28.46726247644402,
+      "y2": 778.0013376700589,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.47144332802096084,
-      "intercept": 35.55478870423432,
+      "slope": 0.47136347044083204,
+      "intercept": 35.677886168748415,
       "xMin": 0,
       "xMax": 2456,
-      "y1": 35.55478870423432,
-      "y2": 1193.4196023237141,
+      "y1": 35.677886168748415,
+      "y2": 1193.346569571432,
       "label": "Reindeer"
     }
   },
@@ -3366,9 +3373,9 @@
     },
     {
       "roomName": "Matterhorn",
-      "hitCount": 1541,
+      "hitCount": 1548,
       "avgUserRatio": 1.14,
-      "activeUsers": 190
+      "activeUsers": 192
     },
     {
       "roomName": "Central Plaza",
@@ -3384,9 +3391,9 @@
     },
     {
       "roomName": "Dungeon",
-      "hitCount": 585,
-      "avgUserRatio": 2.85,
-      "activeUsers": 59
+      "hitCount": 610,
+      "avgUserRatio": 2.8,
+      "activeUsers": 61
     },
     {
       "roomName": "VMK Esplanade",
@@ -3432,9 +3439,9 @@
     },
     {
       "roomName": "Shrunken Ned's Shop",
-      "hitCount": 233,
-      "avgUserRatio": 5.66,
-      "activeUsers": 36
+      "hitCount": 234,
+      "avgUserRatio": 5.54,
+      "activeUsers": 37
     },
     {
       "roomName": "New Orleans Square",
@@ -3455,16 +3462,16 @@
       "activeUsers": 35
     },
     {
+      "roomName": "Street Party Music Game Lobby",
+      "hitCount": 165,
+      "avgUserRatio": 1.23,
+      "activeUsers": 54
+    },
+    {
       "roomName": "Pirate Treehouse",
       "hitCount": 158,
       "avgUserRatio": 1.54,
       "activeUsers": 39
-    },
-    {
-      "roomName": "Street Party Music Game Lobby",
-      "hitCount": 155,
-      "avgUserRatio": 1.16,
-      "activeUsers": 53
     },
     {
       "roomName": "Jungle Cruise Dock",
