@@ -23,9 +23,9 @@
   {
     "user": "Winnie",
     "team": "Penguin",
-    "attacks": 1051,
+    "attacks": 1054,
     "hitsTaken": 267,
-    "ratio": 3.9363295880149813
+    "ratio": 3.947565543071161
   },
   {
     "user": "goatduck",
@@ -170,9 +170,9 @@
   {
     "user": "Lilasaurus",
     "team": "Penguin",
-    "attacks": 226,
+    "attacks": 229,
     "hitsTaken": 124,
-    "ratio": 1.8225806451612903
+    "ratio": 1.846774193548387
   },
   {
     "user": "Cloudyblue",
@@ -973,6 +973,13 @@
     "ratio": 0.3181818181818182
   },
   {
+    "user": "hurricanehan",
+    "team": "Penguin",
+    "attacks": 7,
+    "hitsTaken": 2,
+    "ratio": 3.5
+  },
+  {
     "user": "GelatinfishJr",
     "team": "Reindeer",
     "attacks": 6,
@@ -999,13 +1006,6 @@
     "attacks": 6,
     "hitsTaken": 28,
     "ratio": 0.21428571428571427
-  },
-  {
-    "user": "hurricanehan",
-    "team": "Penguin",
-    "attacks": 6,
-    "hitsTaken": 2,
-    "ratio": 3
   },
   {
     "user": "SleepToken",
@@ -3070,6 +3070,13 @@
     "team": "Penguin",
     "attacks": 0,
     "hitsTaken": 3,
+    "ratio": 0
+  },
+  {
+    "user": "MissSwiss",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 7,
     "ratio": 0
   }
 ]
