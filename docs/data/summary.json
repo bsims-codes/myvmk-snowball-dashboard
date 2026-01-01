@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-01T05:24:46.959Z",
-  "totalRows": 22426,
-  "totalUsers": 431,
+  "generatedAt": "2026-01-01T06:29:39.120Z",
+  "totalRows": 22446,
+  "totalUsers": 433,
   "teamStats": {
     "Penguin": {
-      "users": 195,
+      "users": 197,
       "attacks": 12905,
-      "hitsTaken": 9521
+      "hitsTaken": 9541
     },
     "Reindeer": {
       "users": 236,
-      "attacks": 9521,
+      "attacks": 9541,
       "hitsTaken": 12905
     },
     "Unknown": {
@@ -26,7 +26,7 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 9521
+      "count": 9541
     }
   ],
   "topAttackers": [
@@ -1083,6 +1083,13 @@
       "ratio": 0.12121212121212122
     },
     {
+      "user": "BallroomDancer",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 74,
+      "ratio": 0
+    },
+    {
       "user": "fatale",
       "team": "Reindeer",
       "attacks": 18,
@@ -1123,6 +1130,13 @@
       "attacks": 3,
       "hitsTaken": 63,
       "ratio": 0.047619047619047616
+    },
+    {
+      "user": "Bernardo_S_Rocks",
+      "team": "Reindeer",
+      "attacks": 38,
+      "hitsTaken": 26,
+      "ratio": 1.4615384615384615
     },
     {
       "user": "therealbear",
@@ -1179,13 +1193,6 @@
       "attacks": 32,
       "hitsTaken": 27,
       "ratio": 1.1851851851851851
-    },
-    {
-      "user": "BallroomDancer",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 58,
-      "ratio": 0
     },
     {
       "user": "Erudite",
@@ -1277,13 +1284,6 @@
       "attacks": 0,
       "hitsTaken": 45,
       "ratio": 0
-    },
-    {
-      "user": "Bernardo_S_Rocks",
-      "team": "Reindeer",
-      "attacks": 18,
-      "hitsTaken": 26,
-      "ratio": 0.6923076923076923
     },
     {
       "user": "SPACEPENNY",
@@ -2847,6 +2847,13 @@
       "ratio": 0
     },
     {
+      "user": "Klaeri",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 3,
+      "ratio": 0
+    },
+    {
       "user": "Julioulia",
       "team": "Reindeer",
       "attacks": 0,
@@ -3300,34 +3307,41 @@
       "attacks": 0,
       "hitsTaken": 1,
       "ratio": 0
+    },
+    {
+      "user": "ChristineJulia",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 1,
+      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.3953551810689371,
-      "intercept": 31.46117101936895,
+      "slope": 0.3954845081541401,
+      "intercept": 31.3370778983191,
       "xMin": 0,
       "xMax": 2423,
-      "y1": 31.46117101936895,
-      "y2": 989.4067747494036,
+      "y1": 31.3370778983191,
+      "y2": 989.5960411558005,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3057893148324487,
-      "intercept": 28.58866098506282,
+      "slope": 0.3061179198044221,
+      "intercept": 28.37841748692352,
       "xMin": 0,
       "xMax": 2423,
-      "y1": 28.58866098506282,
-      "y2": 769.516170824086,
+      "y1": 28.37841748692352,
+      "y2": 770.1021371730383,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4773464614713095,
-      "intercept": 35.42450991665959,
+      "slope": 0.4773073789753672,
+      "intercept": 35.385636852525515,
       "xMin": 0,
       "xMax": 2423,
-      "y1": 35.42450991665959,
-      "y2": 1192.0349860616425,
+      "y1": 35.385636852525515,
+      "y2": 1191.9014161098403,
       "label": "Reindeer"
     }
   },
@@ -3340,9 +3354,9 @@
     },
     {
       "roomName": "Town Square",
-      "hitCount": 4181,
-      "avgUserRatio": 1.24,
-      "activeUsers": 208
+      "hitCount": 4201,
+      "avgUserRatio": 1.26,
+      "activeUsers": 210
     },
     {
       "roomName": "Main Street",

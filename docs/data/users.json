@@ -518,6 +518,13 @@
     "ratio": 0.30952380952380953
   },
   {
+    "user": "Bernardo_S_Rocks",
+    "team": "Reindeer",
+    "attacks": 38,
+    "hitsTaken": 26,
+    "ratio": 1.4615384615384615
+  },
+  {
     "user": "waterfallglow",
     "team": "Reindeer",
     "attacks": 38,
@@ -691,13 +698,6 @@
     "attacks": 18,
     "hitsTaken": 55,
     "ratio": 0.32727272727272727
-  },
-  {
-    "user": "Bernardo_S_Rocks",
-    "team": "Reindeer",
-    "attacks": 18,
-    "hitsTaken": 26,
-    "ratio": 0.6923076923076923
   },
   {
     "user": "Princess__Aurora",
@@ -1900,7 +1900,7 @@
     "user": "BallroomDancer",
     "team": "Penguin",
     "attacks": 0,
-    "hitsTaken": 58,
+    "hitsTaken": 74,
     "ratio": 0
   },
   {
@@ -3014,6 +3014,20 @@
     "team": "Penguin",
     "attacks": 0,
     "hitsTaken": 5,
+    "ratio": 0
+  },
+  {
+    "user": "Klaeri",
+    "team": "Penguin",
+    "attacks": 0,
+    "hitsTaken": 3,
+    "ratio": 0
+  },
+  {
+    "user": "ChristineJulia",
+    "team": "Penguin",
+    "attacks": 0,
+    "hitsTaken": 1,
     "ratio": 0
   }
 ]
