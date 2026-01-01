@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 6472,
+    "hitCount": 6473,
     "avgUserRatio": 0.95,
     "activeUsers": 182
   },
@@ -19,9 +19,9 @@
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 1532,
+    "hitCount": 1541,
     "avgUserRatio": 1.14,
-    "activeUsers": 188
+    "activeUsers": 190
   },
   {
     "roomName": "Central Plaza",
@@ -31,9 +31,9 @@
   },
   {
     "roomName": "Fantasyland in The Sky",
-    "hitCount": 855,
-    "avgUserRatio": 2.5,
-    "activeUsers": 40
+    "hitCount": 858,
+    "avgUserRatio": 2.51,
+    "activeUsers": 41
   },
   {
     "roomName": "Dungeon",
@@ -67,9 +67,9 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 264,
+    "hitCount": 266,
     "avgUserRatio": 2.31,
-    "activeUsers": 59
+    "activeUsers": 60
   },
   {
     "roomName": "Blue Bayou",
@@ -114,16 +114,16 @@
     "activeUsers": 39
   },
   {
+    "roomName": "Street Party Music Game Lobby",
+    "hitCount": 155,
+    "avgUserRatio": 1.16,
+    "activeUsers": 53
+  },
+  {
     "roomName": "Jungle Cruise Dock",
     "hitCount": 154,
     "avgUserRatio": 4.53,
     "activeUsers": 24
-  },
-  {
-    "roomName": "Street Party Music Game Lobby",
-    "hitCount": 154,
-    "avgUserRatio": 1.18,
-    "activeUsers": 52
   },
   {
     "roomName": "Gallery",
