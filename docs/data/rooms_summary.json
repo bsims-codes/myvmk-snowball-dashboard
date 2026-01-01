@@ -67,9 +67,9 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 266,
-    "avgUserRatio": 2.31,
-    "activeUsers": 60
+    "hitCount": 282,
+    "avgUserRatio": 2.43,
+    "activeUsers": 62
   },
   {
     "roomName": "Blue Bayou",
@@ -102,28 +102,28 @@
     "activeUsers": 19
   },
   {
+    "roomName": "Street Party Music Game Lobby",
+    "hitCount": 187,
+    "avgUserRatio": 1.54,
+    "activeUsers": 57
+  },
+  {
     "roomName": "Tomorrowland Hub",
     "hitCount": 180,
     "avgUserRatio": 1.3,
     "activeUsers": 35
   },
   {
-    "roomName": "Street Party Music Game Lobby",
-    "hitCount": 173,
-    "avgUserRatio": 1.33,
-    "activeUsers": 56
+    "roomName": "Jungle Cruise Dock",
+    "hitCount": 160,
+    "avgUserRatio": 4.1,
+    "activeUsers": 27
   },
   {
     "roomName": "Pirate Treehouse",
     "hitCount": 158,
     "avgUserRatio": 1.54,
     "activeUsers": 39
-  },
-  {
-    "roomName": "Jungle Cruise Dock",
-    "hitCount": 156,
-    "avgUserRatio": 4.22,
-    "activeUsers": 26
   },
   {
     "roomName": "Gallery",
@@ -181,9 +181,9 @@
   },
   {
     "roomName": "Festival of the Lion King",
-    "hitCount": 74,
-    "avgUserRatio": 7.92,
-    "activeUsers": 9
+    "hitCount": 79,
+    "avgUserRatio": 6.87,
+    "activeUsers": 11
   },
   {
     "roomName": "VMK Gallery",
@@ -216,6 +216,12 @@
     "activeUsers": 19
   },
   {
+    "roomName": "Mickey's Courtyard",
+    "hitCount": 53,
+    "avgUserRatio": 1.42,
+    "activeUsers": 18
+  },
+  {
     "roomName": "Nautilus Grotto",
     "hitCount": 52,
     "avgUserRatio": 1.42,
@@ -226,12 +232,6 @@
     "hitCount": 52,
     "avgUserRatio": 1.96,
     "activeUsers": 14
-  },
-  {
-    "roomName": "Mickey's Courtyard",
-    "hitCount": 52,
-    "avgUserRatio": 1.41,
-    "activeUsers": 18
   },
   {
     "roomName": "Autopia Space Race",
