@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-01T14:17:45.366Z",
-  "totalRows": 22524,
-  "totalUsers": 435,
+  "generatedAt": "2026-01-01T15:19:06.706Z",
+  "totalRows": 22533,
+  "totalUsers": 436,
   "teamStats": {
     "Penguin": {
       "users": 199,
-      "attacks": 12938,
+      "attacks": 12947,
       "hitsTaken": 9586
     },
     "Reindeer": {
-      "users": 236,
+      "users": 237,
       "attacks": 9586,
-      "hitsTaken": 12938
+      "hitsTaken": 12947
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 12938
+      "count": 12947
     },
     {
       "pair": "Reindeer → Penguin",
@@ -82,7 +82,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 590,
+      "attacks": 599,
       "team": "Penguin"
     },
     {
@@ -378,9 +378,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 590,
+      "attacks": 599,
       "hitsTaken": 125,
-      "ratio": 4.72
+      "ratio": 4.792
     },
     {
       "user": "mikgriz",
@@ -603,8 +603,8 @@
       "user": "Dorian_Gray",
       "team": "Reindeer",
       "attacks": 104,
-      "hitsTaken": 119,
-      "ratio": 0.8739495798319328
+      "hitsTaken": 120,
+      "ratio": 0.8666666666666667
     },
     {
       "user": "bittahmercenary",
@@ -1489,6 +1489,13 @@
       "ratio": 0.34782608695652173
     },
     {
+      "user": "Epic_girly",
+      "team": "Reindeer",
+      "attacks": 1,
+      "hitsTaken": 30,
+      "ratio": 0.03333333333333333
+    },
+    {
       "user": "MinnieJanae",
       "team": "Reindeer",
       "attacks": 0,
@@ -1585,13 +1592,6 @@
       "attacks": 0,
       "hitsTaken": 25,
       "ratio": 0
-    },
-    {
-      "user": "Epic_girly",
-      "team": "Reindeer",
-      "attacks": 1,
-      "hitsTaken": 23,
-      "ratio": 0.043478260869565216
     },
     {
       "user": "Shadow_Rose",
@@ -3328,34 +3328,41 @@
       "attacks": 0,
       "hitsTaken": 1,
       "ratio": 0
+    },
+    {
+      "user": "PrincessChrystal",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 1,
+      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.39252720750947784,
-      "intercept": 31.454522248405794,
+      "slope": 0.3924105149666863,
+      "intercept": 31.400949234531325,
       "xMin": 0,
       "xMax": 2456,
-      "y1": 31.454522248405794,
-      "y2": 995.5013438916833,
+      "y1": 31.400949234531325,
+      "y2": 995.1611739927129,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.30542428548681394,
-      "intercept": 28.313671328500504,
+      "slope": 0.3051271431231953,
+      "intercept": 28.319190341628094,
       "xMin": 0,
       "xMax": 2456,
-      "y1": 28.313671328500504,
-      "y2": 778.4357164841156,
+      "y1": 28.319190341628094,
+      "y2": 777.7114538521956,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4713579025356345,
-      "intercept": 35.67611502666698,
+      "slope": 0.4714933428178205,
+      "intercept": 35.55807939134335,
       "xMin": 0,
       "xMax": 2456,
-      "y1": 35.67611502666698,
-      "y2": 1193.3311236541854,
+      "y1": 35.55807939134335,
+      "y2": 1193.5457293519107,
       "label": "Reindeer"
     }
   },
@@ -3386,9 +3393,9 @@
     },
     {
       "roomName": "Central Plaza",
-      "hitCount": 959,
+      "hitCount": 966,
       "avgUserRatio": 1.04,
-      "activeUsers": 101
+      "activeUsers": 102
     },
     {
       "roomName": "Fantasyland in The Sky",
@@ -3482,9 +3489,9 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 154,
-      "avgUserRatio": 4.53,
-      "activeUsers": 24
+      "hitCount": 155,
+      "avgUserRatio": 4.37,
+      "activeUsers": 25
     },
     {
       "roomName": "Gallery",
