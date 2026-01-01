@@ -7,21 +7,21 @@
   },
   {
     "roomName": "Town Square",
-    "hitCount": 4172,
-    "avgUserRatio": 1.25,
-    "activeUsers": 206
+    "hitCount": 4181,
+    "avgUserRatio": 1.24,
+    "activeUsers": 208
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1914,
-    "avgUserRatio": 1.78,
+    "hitCount": 1922,
+    "avgUserRatio": 1.79,
     "activeUsers": 178
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 1442,
-    "avgUserRatio": 1.2,
-    "activeUsers": 174
+    "hitCount": 1532,
+    "avgUserRatio": 1.14,
+    "activeUsers": 188
   },
   {
     "roomName": "Central Plaza",
@@ -31,9 +31,9 @@
   },
   {
     "roomName": "Fantasyland in The Sky",
-    "hitCount": 846,
-    "avgUserRatio": 2.39,
-    "activeUsers": 38
+    "hitCount": 855,
+    "avgUserRatio": 2.5,
+    "activeUsers": 40
   },
   {
     "roomName": "Dungeon",
@@ -43,9 +43,9 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 562,
+    "hitCount": 564,
     "avgUserRatio": 1.66,
-    "activeUsers": 86
+    "activeUsers": 87
   },
   {
     "roomName": "Monorail Station",
@@ -72,22 +72,22 @@
     "activeUsers": 59
   },
   {
+    "roomName": "Blue Bayou",
+    "hitCount": 241,
+    "avgUserRatio": 2.09,
+    "activeUsers": 64
+  },
+  {
     "roomName": "Snow White Hide 'n Seek Forest",
-    "hitCount": 235,
-    "avgUserRatio": 3.23,
-    "activeUsers": 32
+    "hitCount": 236,
+    "avgUserRatio": 3.17,
+    "activeUsers": 33
   },
   {
     "roomName": "Shrunken Ned's Shop",
-    "hitCount": 232,
-    "avgUserRatio": 5.81,
-    "activeUsers": 35
-  },
-  {
-    "roomName": "Blue Bayou",
-    "hitCount": 214,
-    "avgUserRatio": 2.47,
-    "activeUsers": 45
+    "hitCount": 233,
+    "avgUserRatio": 5.66,
+    "activeUsers": 36
   },
   {
     "roomName": "New Orleans Square",
@@ -118,6 +118,12 @@
     "hitCount": 154,
     "avgUserRatio": 4.53,
     "activeUsers": 24
+  },
+  {
+    "roomName": "Street Party Music Game Lobby",
+    "hitCount": 154,
+    "avgUserRatio": 1.18,
+    "activeUsers": 52
   },
   {
     "roomName": "Gallery",
@@ -178,12 +184,6 @@
     "hitCount": 74,
     "avgUserRatio": 7.92,
     "activeUsers": 9
-  },
-  {
-    "roomName": "Street Party Music Game Lobby",
-    "hitCount": 73,
-    "avgUserRatio": 1.39,
-    "activeUsers": 20
   },
   {
     "roomName": "VMK Gallery",
