@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-01T22:17:39.830Z",
-  "totalRows": 22636,
-  "totalUsers": 440,
+  "generatedAt": "2026-01-01T23:17:50.933Z",
+  "totalRows": 22653,
+  "totalUsers": 443,
   "teamStats": {
     "Penguin": {
       "users": 201,
-      "attacks": 13037,
-      "hitsTaken": 9599
+      "attacks": 13052,
+      "hitsTaken": 9601
     },
     "Reindeer": {
-      "users": 239,
-      "attacks": 9599,
-      "hitsTaken": 13037
+      "users": 242,
+      "attacks": 9601,
+      "hitsTaken": 13052
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 13037
+      "count": 13052
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 9599
+      "count": 9601
     }
   ],
   "topAttackers": [
@@ -37,7 +37,7 @@
     },
     {
       "user": "CaptainBubbles",
-      "attacks": 1421,
+      "attacks": 1422,
       "team": "Reindeer"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 931,
+      "attacks": 933,
       "team": "Penguin"
     },
     {
@@ -82,7 +82,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 659,
+      "attacks": 671,
       "team": "Penguin"
     },
     {
@@ -152,14 +152,14 @@
     },
     {
       "user": "Lilasaurus",
-      "attacks": 229,
+      "attacks": 230,
       "team": "Penguin"
     }
   ],
   "topVictims": [
     {
       "user": "CaptainBubbles",
-      "hitsTaken": 1104,
+      "hitsTaken": 1105,
       "team": "Reindeer"
     },
     {
@@ -294,9 +294,9 @@
     {
       "user": "CaptainBubbles",
       "team": "Reindeer",
-      "attacks": 1421,
-      "hitsTaken": 1104,
-      "ratio": 1.2871376811594204
+      "attacks": 1422,
+      "hitsTaken": 1105,
+      "ratio": 1.2868778280542987
     },
     {
       "user": "goatduck",
@@ -322,9 +322,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 931,
+      "attacks": 933,
       "hitsTaken": 284,
-      "ratio": 3.278169014084507
+      "ratio": 3.285211267605634
     },
     {
       "user": "PepaRaindrops",
@@ -378,9 +378,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 659,
-      "hitsTaken": 126,
-      "ratio": 5.23015873015873
+      "attacks": 671,
+      "hitsTaken": 127,
+      "ratio": 5.283464566929134
     },
     {
       "user": "mikgriz",
@@ -490,9 +490,9 @@
     {
       "user": "Lilasaurus",
       "team": "Penguin",
-      "attacks": 229,
-      "hitsTaken": 126,
-      "ratio": 1.8174603174603174
+      "attacks": 230,
+      "hitsTaken": 127,
+      "ratio": 1.811023622047244
     },
     {
       "user": "FlameLegend",
@@ -1958,7 +1958,21 @@
       "ratio": 0
     },
     {
+      "user": "Joyfuljsol",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 14,
+      "ratio": 0
+    },
+    {
       "user": "ReallyCoolGuy",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 14,
+      "ratio": 0
+    },
+    {
+      "user": "ZeroSmartieFreekdom",
       "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 14,
@@ -2014,13 +2028,6 @@
       "ratio": 0
     },
     {
-      "user": "Joyfuljsol",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 13,
-      "ratio": 0
-    },
-    {
       "user": "smileyface",
       "team": "Reindeer",
       "attacks": 0,
@@ -2057,13 +2064,6 @@
     },
     {
       "user": "Wizkaileyfa_",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 12,
-      "ratio": 0
-    },
-    {
-      "user": "ZeroSmartieFreekdom",
       "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 12,
@@ -2152,6 +2152,13 @@
       "attacks": 7,
       "hitsTaken": 2,
       "ratio": 3.5
+    },
+    {
+      "user": "Erie",
+      "team": "Reindeer",
+      "attacks": 1,
+      "hitsTaken": 8,
+      "ratio": 0.125
     },
     {
       "user": "NBisthebest",
@@ -3043,6 +3050,13 @@
       "ratio": 0
     },
     {
+      "user": "Jessiejoe",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 2,
+      "ratio": 0
+    },
+    {
       "user": "HOST_Ariel",
       "team": "Reindeer",
       "attacks": 1,
@@ -3363,41 +3377,48 @@
       "attacks": 0,
       "hitsTaken": 1,
       "ratio": 0
+    },
+    {
+      "user": "Crazarts",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 1,
+      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.39149777517590284,
-      "intercept": 31.30467354799605,
+      "slope": 0.39152088369618787,
+      "intercept": 31.11484745288997,
       "xMin": 0,
       "xMax": 2456,
-      "y1": 31.30467354799605,
-      "y2": 992.8232093800134,
+      "y1": 31.11484745288997,
+      "y2": 992.6901378107274,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.30293098941305,
-      "intercept": 28.10790393543317,
+      "slope": 0.3025032256826486,
+      "intercept": 28.123024370099852,
       "xMin": 0,
       "xMax": 2456,
-      "y1": 28.10790393543317,
-      "y2": 772.1064139338839,
+      "y1": 28.123024370099852,
+      "y2": 771.0709466466848,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.47272474620923133,
-      "intercept": 35.561988121914595,
+      "slope": 0.4732679258406908,
+      "intercept": 35.15766381819639,
       "xMin": 0,
       "xMax": 2456,
-      "y1": 35.561988121914595,
-      "y2": 1196.5739648117867,
+      "y1": 35.15766381819639,
+      "y2": 1197.5036896829329,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 6478,
+      "hitCount": 6480,
       "avgUserRatio": 0.95,
       "activeUsers": 183
     },
@@ -3469,9 +3490,9 @@
     },
     {
       "roomName": "Blue Bayou",
-      "hitCount": 272,
-      "avgUserRatio": 2.35,
-      "activeUsers": 67
+      "hitCount": 277,
+      "avgUserRatio": 2.31,
+      "activeUsers": 70
     },
     {
       "roomName": "Snow White Hide 'n Seek Forest",
@@ -3493,9 +3514,9 @@
     },
     {
       "roomName": "Street Party Music Game Lobby",
-      "hitCount": 193,
-      "avgUserRatio": 1.61,
-      "activeUsers": 58
+      "hitCount": 203,
+      "avgUserRatio": 1.45,
+      "activeUsers": 61
     },
     {
       "roomName": "Monorail Train",
