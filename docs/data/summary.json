@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-01T07:20:30.188Z",
-  "totalRows": 22446,
+  "generatedAt": "2026-01-01T08:25:47.182Z",
+  "totalRows": 22480,
   "totalUsers": 433,
   "teamStats": {
     "Penguin": {
       "users": 197,
       "attacks": 12905,
-      "hitsTaken": 9541
+      "hitsTaken": 9575
     },
     "Reindeer": {
       "users": 236,
-      "attacks": 9541,
+      "attacks": 9575,
       "hitsTaken": 12905
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 9541
+      "count": 9575
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 2423,
+      "attacks": 2456,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 2423,
+      "attacks": 2456,
       "hitsTaken": 784,
-      "ratio": 3.0905612244897958
+      "ratio": 3.13265306122449
     },
     {
       "user": "CaptainBubbles",
@@ -1272,6 +1272,13 @@
       "ratio": 0
     },
     {
+      "user": "LaydiWould",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 47,
+      "ratio": 0
+    },
+    {
       "user": "Rigel",
       "team": "Penguin",
       "attacks": 0,
@@ -1846,6 +1853,13 @@
       "ratio": 0.6
     },
     {
+      "user": "SillyTableWizard",
+      "team": "Reindeer",
+      "attacks": 5,
+      "hitsTaken": 11,
+      "ratio": 0.45454545454545453
+    },
+    {
       "user": "MarkFireflame",
       "team": "Reindeer",
       "attacks": 0,
@@ -1858,13 +1872,6 @@
       "attacks": 11,
       "hitsTaken": 4,
       "ratio": 2.75
-    },
-    {
-      "user": "SillyTableWizard",
-      "team": "Reindeer",
-      "attacks": 4,
-      "hitsTaken": 11,
-      "ratio": 0.36363636363636365
     },
     {
       "user": "doctorseeker",
@@ -2015,13 +2022,6 @@
     },
     {
       "user": "MamaBritt",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 13,
-      "ratio": 0
-    },
-    {
-      "user": "LaydiWould",
       "team": "Penguin",
       "attacks": 0,
       "hitsTaken": 13,
@@ -3318,30 +3318,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3954845081541401,
-      "intercept": 31.3370778983191,
+      "slope": 0.3930293273115241,
+      "intercept": 31.512010905397084,
       "xMin": 0,
-      "xMax": 2423,
-      "y1": 31.3370778983191,
-      "y2": 989.5960411558005,
+      "xMax": 2456,
+      "y1": 31.512010905397084,
+      "y2": 996.7920387825004,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3061179198044221,
-      "intercept": 28.37841748692352,
+      "slope": 0.3058173987218096,
+      "intercept": 28.57069273855354,
       "xMin": 0,
-      "xMax": 2423,
-      "y1": 28.37841748692352,
-      "y2": 770.1021371730383,
+      "xMax": 2456,
+      "y1": 28.57069273855354,
+      "y2": 779.6582239993179,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4773073789753672,
-      "intercept": 35.385636852525515,
+      "slope": 0.47144332802096084,
+      "intercept": 35.55478870423432,
       "xMin": 0,
-      "xMax": 2423,
-      "y1": 35.385636852525515,
-      "y2": 1191.9014161098403,
+      "xMax": 2456,
+      "y1": 35.55478870423432,
+      "y2": 1193.4196023237141,
       "label": "Reindeer"
     }
   },
@@ -3378,9 +3378,9 @@
     },
     {
       "roomName": "Fantasyland in The Sky",
-      "hitCount": 858,
-      "avgUserRatio": 2.51,
-      "activeUsers": 41
+      "hitCount": 880,
+      "avgUserRatio": 2.71,
+      "activeUsers": 42
     },
     {
       "roomName": "Dungeon",
