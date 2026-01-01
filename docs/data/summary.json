@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-01T16:23:02.485Z",
-  "totalRows": 22550,
-  "totalUsers": 436,
+  "generatedAt": "2026-01-01T17:17:19.955Z",
+  "totalRows": 22555,
+  "totalUsers": 437,
   "teamStats": {
     "Penguin": {
       "users": 199,
-      "attacks": 12964,
+      "attacks": 12969,
       "hitsTaken": 9586
     },
     "Reindeer": {
-      "users": 237,
+      "users": 238,
       "attacks": 9586,
-      "hitsTaken": 12964
+      "hitsTaken": 12969
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 12964
+      "count": 12969
     },
     {
       "pair": "Reindeer → Penguin",
@@ -82,7 +82,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 616,
+      "attacks": 621,
       "team": "Penguin"
     },
     {
@@ -378,9 +378,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 616,
+      "attacks": 621,
       "hitsTaken": 125,
-      "ratio": 4.928
+      "ratio": 4.968
     },
     {
       "user": "mikgriz",
@@ -2420,6 +2420,13 @@
       "ratio": 0
     },
     {
+      "user": "RockaHula",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 5,
+      "ratio": 0
+    },
+    {
       "user": "CandyCars",
       "team": "Penguin",
       "attacks": 0,
@@ -2560,13 +2567,6 @@
       "ratio": 0
     },
     {
-      "user": "RockaHula",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 4,
-      "ratio": 0
-    },
-    {
       "user": "Izabelle",
       "team": "Penguin",
       "attacks": 0,
@@ -2660,6 +2660,13 @@
     {
       "user": "prettykatie",
       "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 4,
+      "ratio": 0
+    },
+    {
+      "user": "LadyMagic",
+      "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 4,
       "ratio": 0
@@ -3339,30 +3346,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.39199775145633164,
-      "intercept": 31.44598785472413,
+      "slope": 0.39196774038706256,
+      "intercept": 31.382534589404585,
       "xMin": 0,
       "xMax": 2456,
-      "y1": 31.44598785472413,
-      "y2": 994.1924654314746,
+      "y1": 31.382534589404585,
+      "y2": 994.0553049800302,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.304550049021908,
-      "intercept": 28.330719419497413,
+      "slope": 0.3043764100488737,
+      "intercept": 28.334383608422897,
       "xMin": 0,
       "xMax": 2456,
-      "y1": 28.330719419497413,
-      "y2": 776.3056398173035,
+      "y1": 28.334383608422897,
+      "y2": 775.8828466884568,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4714496819684063,
-      "intercept": 35.63157531076311,
+      "slope": 0.4715900793603443,
+      "intercept": 35.49721638341067,
       "xMin": 0,
       "xMax": 2456,
-      "y1": 35.63157531076311,
-      "y2": 1193.511994225169,
+      "y1": 35.49721638341067,
+      "y2": 1193.7224512924163,
       "label": "Reindeer"
     }
   },
@@ -3441,9 +3448,9 @@
     },
     {
       "roomName": "Blue Bayou",
-      "hitCount": 244,
+      "hitCount": 246,
       "avgUserRatio": 2.1,
-      "activeUsers": 65
+      "activeUsers": 66
     },
     {
       "roomName": "Snow White Hide 'n Seek Forest",
@@ -3453,9 +3460,9 @@
     },
     {
       "roomName": "Shrunken Ned's Shop",
-      "hitCount": 234,
-      "avgUserRatio": 5.54,
-      "activeUsers": 37
+      "hitCount": 235,
+      "avgUserRatio": 5.42,
+      "activeUsers": 38
     },
     {
       "roomName": "New Orleans Square",
@@ -3477,9 +3484,9 @@
     },
     {
       "roomName": "Street Party Music Game Lobby",
-      "hitCount": 171,
-      "avgUserRatio": 1.32,
-      "activeUsers": 55
+      "hitCount": 173,
+      "avgUserRatio": 1.33,
+      "activeUsers": 56
     },
     {
       "roomName": "Pirate Treehouse",

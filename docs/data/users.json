@@ -72,9 +72,9 @@
   {
     "user": "JustForFun",
     "team": "Penguin",
-    "attacks": 616,
+    "attacks": 621,
     "hitsTaken": 125,
-    "ratio": 4.928
+    "ratio": 4.968
   },
   {
     "user": "Jewelsy",
@@ -1515,7 +1515,7 @@
     "user": "RockaHula",
     "team": "Reindeer",
     "attacks": 0,
-    "hitsTaken": 4,
+    "hitsTaken": 5,
     "ratio": 0
   },
   {
@@ -3049,6 +3049,13 @@
     "team": "Reindeer",
     "attacks": 0,
     "hitsTaken": 1,
+    "ratio": 0
+  },
+  {
+    "user": "LadyMagic",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 4,
     "ratio": 0
   }
 ]
