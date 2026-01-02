@@ -25,9 +25,9 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 967,
+    "hitCount": 968,
     "avgUserRatio": 1.03,
-    "activeUsers": 104
+    "activeUsers": 105
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -43,9 +43,9 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 567,
-    "avgUserRatio": 1.62,
-    "activeUsers": 89
+    "hitCount": 569,
+    "avgUserRatio": 1.61,
+    "activeUsers": 90
   },
   {
     "roomName": "Monorail Station",
@@ -112,6 +112,12 @@
     "hitCount": 180,
     "avgUserRatio": 1.3,
     "activeUsers": 35
+  },
+  {
+    "roomName": "VMK Gallery",
+    "hitCount": 165,
+    "avgUserRatio": 4.2,
+    "activeUsers": 29
   },
   {
     "roomName": "Jungle Cruise Dock",
@@ -184,12 +190,6 @@
     "hitCount": 79,
     "avgUserRatio": 6.87,
     "activeUsers": 11
-  },
-  {
-    "roomName": "VMK Gallery",
-    "hitCount": 69,
-    "avgUserRatio": 1.12,
-    "activeUsers": 23
   },
   {
     "roomName": "Explorer's Tent",

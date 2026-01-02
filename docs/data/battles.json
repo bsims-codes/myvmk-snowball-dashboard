@@ -9388,6 +9388,62 @@
     ]
   },
   {
+    "id": "VMK Gallery-2",
+    "roomName": "VMK Gallery",
+    "start": "2026-01-02T14:52:54.000Z",
+    "end": "2026-01-02T15:10:29.000Z",
+    "durationMinutes": 18,
+    "hitCount": 60,
+    "uniqueUsers": 3,
+    "topAttackers": [
+      {
+        "user": "taymeow",
+        "team": "Reindeer",
+        "attacks": 59
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 1
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Kate.",
+        "team": "Penguin",
+        "hitsTaken": 59
+      },
+      {
+        "user": "taymeow",
+        "team": "Reindeer",
+        "hitsTaken": 1
+      }
+    ],
+    "participants": [
+      {
+        "user": "taymeow",
+        "team": "Reindeer",
+        "attacks": 59,
+        "hitsTaken": 1,
+        "ratio": 59
+      },
+      {
+        "user": "Kate.",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 59,
+        "ratio": 0
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-44",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-28T21:34:32.000Z",
@@ -14239,6 +14295,81 @@
         "attacks": 1,
         "hitsTaken": 0,
         "ratio": 1
+      }
+    ]
+  },
+  {
+    "id": "VMK Gallery-1",
+    "roomName": "VMK Gallery",
+    "start": "2026-01-02T14:42:56.000Z",
+    "end": "2026-01-02T14:49:09.000Z",
+    "durationMinutes": 6,
+    "hitCount": 36,
+    "uniqueUsers": 5,
+    "topAttackers": [
+      {
+        "user": "taymeow",
+        "team": "Reindeer",
+        "attacks": 35
+      },
+      {
+        "user": "Lilasaurus",
+        "team": "Penguin",
+        "attacks": 1
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Kate.",
+        "team": "Penguin",
+        "hitsTaken": 34
+      },
+      {
+        "user": "AmandaEgail",
+        "team": "Reindeer",
+        "hitsTaken": 1
+      },
+      {
+        "user": "RoseBonbon",
+        "team": "Penguin",
+        "hitsTaken": 1
+      }
+    ],
+    "participants": [
+      {
+        "user": "taymeow",
+        "team": "Reindeer",
+        "attacks": 35,
+        "hitsTaken": 0,
+        "ratio": 35
+      },
+      {
+        "user": "Kate.",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 34,
+        "ratio": 0
+      },
+      {
+        "user": "Lilasaurus",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      },
+      {
+        "user": "AmandaEgail",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "RoseBonbon",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
       }
     ]
   },
