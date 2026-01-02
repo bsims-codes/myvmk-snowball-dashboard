@@ -7954,6 +7954,81 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-46",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-02T13:01:03.000Z",
+    "end": "2026-01-02T13:12:11.000Z",
+    "durationMinutes": 11,
+    "hitCount": 71,
+    "uniqueUsers": 5,
+    "topAttackers": [
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 45
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 24
+      },
+      {
+        "user": "AirBiscuits",
+        "team": "Penguin",
+        "attacks": 2
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Jay",
+        "team": "Reindeer",
+        "hitsTaken": 69
+      },
+      {
+        "user": "littlemands",
+        "team": "Reindeer",
+        "hitsTaken": 2
+      }
+    ],
+    "participants": [
+      {
+        "user": "Jay",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 69,
+        "ratio": 0
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 45,
+        "hitsTaken": 0,
+        "ratio": 45
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 24,
+        "hitsTaken": 0,
+        "ratio": 24
+      },
+      {
+        "user": "littlemands",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      },
+      {
+        "user": "AirBiscuits",
+        "team": "Penguin",
+        "attacks": 2,
+        "hitsTaken": 0,
+        "ratio": 2
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-35",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-23T21:32:21.000Z",
