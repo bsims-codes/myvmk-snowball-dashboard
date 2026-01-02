@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 6480,
-    "avgUserRatio": 0.95,
-    "activeUsers": 183
+    "hitCount": 6483,
+    "avgUserRatio": 0.94,
+    "activeUsers": 184
   },
   {
     "roomName": "Town Square",
@@ -37,8 +37,8 @@
   },
   {
     "roomName": "Dungeon",
-    "hitCount": 617,
-    "avgUserRatio": 2.87,
+    "hitCount": 619,
+    "avgUserRatio": 2.9,
     "activeUsers": 62
   },
   {
@@ -66,16 +66,16 @@
     "activeUsers": 42
   },
   {
+    "roomName": "Blue Bayou",
+    "hitCount": 283,
+    "avgUserRatio": 2.25,
+    "activeUsers": 74
+  },
+  {
     "roomName": "Epcot Entrance",
     "hitCount": 282,
     "avgUserRatio": 2.43,
     "activeUsers": 62
-  },
-  {
-    "roomName": "Blue Bayou",
-    "hitCount": 277,
-    "avgUserRatio": 2.31,
-    "activeUsers": 70
   },
   {
     "roomName": "Snow White Hide 'n Seek Forest",
@@ -90,16 +90,16 @@
     "activeUsers": 38
   },
   {
+    "roomName": "Street Party Music Game Lobby",
+    "hitCount": 216,
+    "avgUserRatio": 1.45,
+    "activeUsers": 65
+  },
+  {
     "roomName": "New Orleans Square",
     "hitCount": 213,
     "avgUserRatio": 2.23,
     "activeUsers": 29
-  },
-  {
-    "roomName": "Street Party Music Game Lobby",
-    "hitCount": 203,
-    "avgUserRatio": 1.45,
-    "activeUsers": 61
   },
   {
     "roomName": "Monorail Train",
