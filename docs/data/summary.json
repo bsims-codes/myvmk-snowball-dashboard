@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-02T05:23:19.631Z",
-  "totalRows": 22721,
+  "generatedAt": "2026-01-02T06:29:26.992Z",
+  "totalRows": 22735,
   "totalUsers": 448,
   "teamStats": {
     "Penguin": {
       "users": 201,
-      "attacks": 13107,
+      "attacks": 13121,
       "hitsTaken": 9614
     },
     "Reindeer": {
       "users": 247,
       "attacks": 9614,
-      "hitsTaken": 13107
+      "hitsTaken": 13121
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 13107
+      "count": 13121
     },
     {
       "pair": "Reindeer → Penguin",
@@ -146,14 +146,14 @@
       "team": "Reindeer"
     },
     {
+      "user": "Lilasaurus",
+      "attacks": 244,
+      "team": "Penguin"
+    },
+    {
       "user": "Chime",
       "attacks": 230,
       "team": "Reindeer"
-    },
-    {
-      "user": "Lilasaurus",
-      "attacks": 230,
-      "team": "Penguin"
     }
   ],
   "topVictims": [
@@ -481,18 +481,18 @@
       "ratio": 0.1836734693877551
     },
     {
+      "user": "Lilasaurus",
+      "team": "Penguin",
+      "attacks": 244,
+      "hitsTaken": 127,
+      "ratio": 1.921259842519685
+    },
+    {
       "user": "Chime",
       "team": "Reindeer",
       "attacks": 230,
       "hitsTaken": 139,
       "ratio": 1.6546762589928057
-    },
-    {
-      "user": "Lilasaurus",
-      "team": "Penguin",
-      "attacks": 230,
-      "hitsTaken": 127,
-      "ratio": 1.811023622047244
     },
     {
       "user": "FlameLegend",
@@ -673,7 +673,7 @@
       "user": "AtziriDayre",
       "team": "Reindeer",
       "attacks": 0,
-      "hitsTaken": 169,
+      "hitsTaken": 171,
       "ratio": 0
     },
     {
@@ -719,6 +719,13 @@
       "ratio": 0.16923076923076924
     },
     {
+      "user": "Redsox",
+      "team": "Reindeer",
+      "attacks": 51,
+      "hitsTaken": 98,
+      "ratio": 0.5204081632653061
+    },
+    {
       "user": "PeachySQ",
       "team": "Penguin",
       "attacks": 117,
@@ -752,13 +759,6 @@
       "attacks": 0,
       "hitsTaken": 141,
       "ratio": 0
-    },
-    {
-      "user": "Redsox",
-      "team": "Reindeer",
-      "attacks": 51,
-      "hitsTaken": 86,
-      "ratio": 0.5930232558139535
     },
     {
       "user": "Whitney",
@@ -3423,37 +3423,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.390625345270632,
-      "intercept": 30.905360558272257,
+      "slope": 0.39056105685228737,
+      "intercept": 30.927666009962604,
       "xMin": 0,
       "xMax": 2462,
-      "y1": 30.905360558272257,
-      "y2": 992.6249606145682,
+      "y1": 30.927666009962604,
+      "y2": 992.4889879802942,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3015266113617809,
-      "intercept": 28.16861047204546,
+      "slope": 0.3014820668156787,
+      "intercept": 28.150516424435224,
       "xMin": 0,
       "xMax": 2462,
-      "y1": 28.16861047204546,
-      "y2": 770.52712764475,
+      "y1": 28.150516424435224,
+      "y2": 770.3993649246361,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4728108632374177,
-      "intercept": 34.66152372807881,
+      "slope": 0.47281843306022187,
+      "intercept": 34.717909249226835,
       "xMin": 0,
       "xMax": 2462,
-      "y1": 34.66152372807881,
-      "y2": 1198.7218690186014,
+      "y1": 34.717909249226835,
+      "y2": 1198.796891443493,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 6501,
+      "hitCount": 6513,
       "avgUserRatio": 0.94,
       "activeUsers": 185
     },
@@ -3567,8 +3567,8 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 160,
-      "avgUserRatio": 4.1,
+      "hitCount": 162,
+      "avgUserRatio": 4.17,
       "activeUsers": 27
     },
     {
