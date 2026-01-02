@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-02T22:23:56.025Z",
-  "totalRows": 22944,
+  "generatedAt": "2026-01-02T22:42:28.450Z",
+  "totalRows": 22945,
   "totalUsers": 451,
   "teamStats": {
     "Penguin": {
       "users": 202,
-      "attacks": 13212,
+      "attacks": 13213,
       "hitsTaken": 9732
     },
     "Reindeer": {
       "users": 249,
       "attacks": 9732,
-      "hitsTaken": 13212
+      "hitsTaken": 13213
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 13212
+      "count": 13213
     },
     {
       "pair": "Reindeer → Penguin",
@@ -77,7 +77,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 710,
+      "attacks": 711,
       "team": "Penguin"
     },
     {
@@ -371,9 +371,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 710,
+      "attacks": 711,
       "hitsTaken": 133,
-      "ratio": 5.338345864661654
+      "ratio": 5.345864661654136
     },
     {
       "user": "BuckyBarnes",
@@ -2077,6 +2077,13 @@
       "ratio": 0
     },
     {
+      "user": "SnowCone",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 12,
+      "ratio": 0
+    },
+    {
       "user": "Wizkaileyfa_",
       "team": "Reindeer",
       "attacks": 0,
@@ -2103,13 +2110,6 @@
       "attacks": 2,
       "hitsTaken": 9,
       "ratio": 0.2222222222222222
-    },
-    {
-      "user": "SnowCone",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 11,
-      "ratio": 0
     },
     {
       "user": "awko-taco",
@@ -3444,30 +3444,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.38958556323825566,
-      "intercept": 31.053988552242707,
+      "slope": 0.3895567305651212,
+      "intercept": 31.056808907280033,
       "xMin": 0,
       "xMax": 2463,
-      "y1": 31.053988552242707,
-      "y2": 990.6032308080664,
+      "y1": 31.056808907280033,
+      "y2": 990.5350362891735,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3011738743124233,
-      "intercept": 28.47965729002111,
+      "slope": 0.30113477287289214,
+      "intercept": 28.480723990249885,
       "xMin": 0,
       "xMax": 2463,
-      "y1": 28.47965729002111,
-      "y2": 770.2709097215197,
+      "y1": 28.480723990249885,
+      "y2": 770.1756695761833,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4717680241063011,
-      "intercept": 34.621500359026015,
+      "slope": 0.4717636307769525,
+      "intercept": 34.62568813364938,
       "xMin": 0,
       "xMax": 2463,
-      "y1": 34.621500359026015,
-      "y2": 1196.5861437328456,
+      "y1": 34.62568813364938,
+      "y2": 1196.5795107372835,
       "label": "Reindeer"
     }
   },
@@ -3564,9 +3564,9 @@
     },
     {
       "roomName": "Street Party Music Game Lobby",
-      "hitCount": 219,
-      "avgUserRatio": 1.41,
-      "activeUsers": 67
+      "hitCount": 220,
+      "avgUserRatio": 1.4,
+      "activeUsers": 68
     },
     {
       "roomName": "New Orleans Square",
