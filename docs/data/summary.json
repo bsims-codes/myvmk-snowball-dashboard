@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-02T20:19:32.200Z",
-  "totalRows": 22907,
+  "generatedAt": "2026-01-02T21:13:52.420Z",
+  "totalRows": 22938,
   "totalUsers": 451,
   "teamStats": {
     "Penguin": {
       "users": 202,
-      "attacks": 13195,
-      "hitsTaken": 9712
+      "attacks": 13208,
+      "hitsTaken": 9730
     },
     "Reindeer": {
       "users": 249,
-      "attacks": 9712,
-      "hitsTaken": 13195
+      "attacks": 9730,
+      "hitsTaken": 13208
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 13195
+      "count": 13208
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 9712
+      "count": 9730
     }
   ],
   "topAttackers": [
@@ -77,7 +77,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 700,
+      "attacks": 707,
       "team": "Penguin"
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "user": "bsims",
-      "attacks": 457,
+      "attacks": 458,
       "team": "Penguin"
     },
     {
@@ -147,7 +147,7 @@
     },
     {
       "user": "Lilasaurus",
-      "attacks": 245,
+      "attacks": 249,
       "team": "Penguin"
     },
     {
@@ -369,18 +369,18 @@
       "ratio": 3.2180094786729856
     },
     {
+      "user": "JustForFun",
+      "team": "Penguin",
+      "attacks": 707,
+      "hitsTaken": 132,
+      "ratio": 5.356060606060606
+    },
+    {
       "user": "BuckyBarnes",
       "team": "Penguin",
       "attacks": 728,
       "hitsTaken": 110,
       "ratio": 6.618181818181818
-    },
-    {
-      "user": "JustForFun",
-      "team": "Penguin",
-      "attacks": 700,
-      "hitsTaken": 127,
-      "ratio": 5.511811023622047
     },
     {
       "user": "mikgriz",
@@ -420,9 +420,9 @@
     {
       "user": "bsims",
       "team": "Penguin",
-      "attacks": 457,
-      "hitsTaken": 116,
-      "ratio": 3.939655172413793
+      "attacks": 458,
+      "hitsTaken": 117,
+      "ratio": 3.9145299145299144
     },
     {
       "user": "bunny",
@@ -483,9 +483,9 @@
     {
       "user": "Lilasaurus",
       "team": "Penguin",
-      "attacks": 245,
-      "hitsTaken": 128,
-      "ratio": 1.9140625
+      "attacks": 249,
+      "hitsTaken": 136,
+      "ratio": 1.8308823529411764
     },
     {
       "user": "Chime",
@@ -514,6 +514,13 @@
       "attacks": 174,
       "hitsTaken": 122,
       "ratio": 1.4262295081967213
+    },
+    {
+      "user": "taymeow",
+      "team": "Reindeer",
+      "attacks": 207,
+      "hitsTaken": 86,
+      "ratio": 2.4069767441860463
     },
     {
       "user": "CartNarcs",
@@ -549,13 +556,6 @@
       "attacks": 102,
       "hitsTaken": 160,
       "ratio": 0.6375
-    },
-    {
-      "user": "taymeow",
-      "team": "Reindeer",
-      "attacks": 189,
-      "hitsTaken": 73,
-      "ratio": 2.589041095890411
     },
     {
       "user": "wildgirlpony",
@@ -854,9 +854,9 @@
     {
       "user": "FlyingLittleLemon",
       "team": "Penguin",
-      "attacks": 16,
+      "attacks": 17,
       "hitsTaken": 98,
-      "ratio": 0.16326530612244897
+      "ratio": 0.17346938775510204
     },
     {
       "user": "Neocissa",
@@ -1517,18 +1517,18 @@
       "ratio": 0
     },
     {
+      "user": "PrincessCutezada",
+      "team": "Penguin",
+      "attacks": 7,
+      "hitsTaken": 23,
+      "ratio": 0.30434782608695654
+    },
+    {
       "user": "SpookyPookie",
       "team": "Reindeer",
       "attacks": 5,
       "hitsTaken": 24,
       "ratio": 0.20833333333333334
-    },
-    {
-      "user": "PrincessCutezada",
-      "team": "Penguin",
-      "attacks": 7,
-      "hitsTaken": 22,
-      "ratio": 0.3181818181818182
     },
     {
       "user": "pizzarollz",
@@ -1734,6 +1734,13 @@
       "ratio": 0.23529411764705882
     },
     {
+      "user": "Famous_Vixon",
+      "team": "Penguin",
+      "attacks": 13,
+      "hitsTaken": 8,
+      "ratio": 1.625
+    },
+    {
       "user": "-StrawberryAvalanche-",
       "team": "Penguin",
       "attacks": 11,
@@ -1823,13 +1830,6 @@
       "attacks": 1,
       "hitsTaken": 17,
       "ratio": 0.058823529411764705
-    },
-    {
-      "user": "Famous_Vixon",
-      "team": "Penguin",
-      "attacks": 13,
-      "hitsTaken": 5,
-      "ratio": 2.6
     },
     {
       "user": "tweetier",
@@ -3444,30 +3444,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3894992877579425,
-      "intercept": 31.00829227345634,
+      "slope": 0.389617354379188,
+      "intercept": 31.044250832040326,
       "xMin": 0,
       "xMax": 2463,
-      "y1": 31.00829227345634,
-      "y2": 990.3450380212688,
+      "y1": 31.044250832040326,
+      "y2": 990.6717946679804,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3008447315519561,
-      "intercept": 28.427493896890784,
+      "slope": 0.30116839893819053,
+      "intercept": 28.47607815259594,
       "xMin": 0,
       "xMax": 2463,
-      "y1": 28.427493896890784,
-      "y2": 769.4080677093588,
+      "y1": 28.47607815259594,
+      "y2": 770.2538447373593,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4718199356245016,
-      "intercept": 34.58909552295117,
+      "slope": 0.4718022995209194,
+      "intercept": 34.60788604683315,
       "xMin": 0,
       "xMax": 2463,
-      "y1": 34.58909552295117,
-      "y2": 1196.6815969660986,
+      "y1": 34.60788604683315,
+      "y2": 1196.6569497668575,
       "label": "Reindeer"
     }
   },
@@ -3498,9 +3498,9 @@
     },
     {
       "roomName": "Central Plaza",
-      "hitCount": 968,
-      "avgUserRatio": 1.03,
-      "activeUsers": 105
+      "hitCount": 979,
+      "avgUserRatio": 1.02,
+      "activeUsers": 106
     },
     {
       "roomName": "Fantasyland in The Sky",
@@ -3611,16 +3611,16 @@
       "activeUsers": 29
     },
     {
+      "roomName": "Castle Forecourt",
+      "hitCount": 140,
+      "avgUserRatio": 2.61,
+      "activeUsers": 38
+    },
+    {
       "roomName": "WS - United Kingdom",
       "hitCount": 136,
       "avgUserRatio": 1.19,
       "activeUsers": 38
-    },
-    {
-      "roomName": "Castle Forecourt",
-      "hitCount": 135,
-      "avgUserRatio": 2.7,
-      "activeUsers": 36
     }
   ]
 }
