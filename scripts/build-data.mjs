@@ -7,6 +7,13 @@ const TEAMS_URL = "https://www.myvmk.com/api/getsnowteams";
 const BATTLE_MIN_HITS = 30;
 const BATTLE_MAX_GAP_SECONDS = 120;
 
+// Alert configuration
+const ALERT_THRESHOLD_HITS = 12;        // Minimum hits to trigger alert
+const ALERT_WINDOW_MINUTES = 5;         // Time window to check for hits
+const ALERT_COOLDOWN_MINUTES = 30;      // Minimum time between alerts
+const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL;
+const ALERT_STATE_FILE = "docs/data/alert-state.json";
+
 function loadJSON(relPath, fallback = {}) {
   const p = path.join(process.cwd(), relPath);
   if (!fs.existsSync(p)) return fallback;
@@ -263,6 +270,149 @@ function linearRegression(points) {
   return { slope, intercept };
 }
 
+// --- ALERT SYSTEM ---
+
+function loadAlertState() {
+  const p = path.join(process.cwd(), ALERT_STATE_FILE);
+  if (!fs.existsSync(p)) return { lastAlertTime: null };
+  try {
+    return JSON.parse(fs.readFileSync(p, "utf8"));
+  } catch {
+    return { lastAlertTime: null };
+  }
+}
+
+function saveAlertState(state) {
+  const p = path.join(process.cwd(), ALERT_STATE_FILE);
+  fs.writeFileSync(p, JSON.stringify(state, null, 2));
+}
+
+function countRecentHits(events, windowMinutes) {
+  const now = new Date();
+  const cutoff = new Date(now.getTime() - windowMinutes * 60 * 1000);
+
+  let count = 0;
+  for (const evt of events) {
+    const eventTime = parseEventTime(evt.time);
+    if (eventTime && eventTime >= cutoff) {
+      count++;
+    }
+  }
+  return count;
+}
+
+function getRecentHitsSummary(events, windowMinutes) {
+  const now = new Date();
+  const cutoff = new Date(now.getTime() - windowMinutes * 60 * 1000);
+
+  const recentEvents = events.filter(evt => {
+    const eventTime = parseEventTime(evt.time);
+    return eventTime && eventTime >= cutoff;
+  });
+
+  // Count by room
+  const roomCounts = new Map();
+  const attackerCounts = new Map();
+
+  for (const evt of recentEvents) {
+    roomCounts.set(evt.roomName, (roomCounts.get(evt.roomName) || 0) + 1);
+    if (evt.attacker) {
+      attackerCounts.set(evt.attacker, (attackerCounts.get(evt.attacker) || 0) + 1);
+    }
+  }
+
+  const topRooms = [...roomCounts.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 3)
+    .map(([room, count]) => `${room}: ${count}`);
+
+  const topAttackers = [...attackerCounts.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 3)
+    .map(([user, count]) => `${user}: ${count}`);
+
+  return { totalHits: recentEvents.length, topRooms, topAttackers };
+}
+
+async function sendDiscordAlert(hitCount, summary) {
+  if (!DISCORD_WEBHOOK_URL) {
+    console.log("Discord webhook URL not configured, skipping alert");
+    return false;
+  }
+
+  const embed = {
+    title: "🎯 Snowball Attack Alert!",
+    description: `**${hitCount} hits** detected in the last ${ALERT_WINDOW_MINUTES} minutes!`,
+    color: 0xff6b6b, // Red color
+    fields: [
+      {
+        name: "🏠 Top Rooms",
+        value: summary.topRooms.length > 0 ? summary.topRooms.join("\n") : "N/A",
+        inline: true
+      },
+      {
+        name: "⚔️ Top Attackers",
+        value: summary.topAttackers.length > 0 ? summary.topAttackers.join("\n") : "N/A",
+        inline: true
+      }
+    ],
+    timestamp: new Date().toISOString(),
+    footer: {
+      text: "MyVMK Snow Dashboard"
+    }
+  };
+
+  try {
+    const response = await fetch(DISCORD_WEBHOOK_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ embeds: [embed] })
+    });
+
+    if (!response.ok) {
+      console.error(`Discord webhook failed: HTTP ${response.status}`);
+      return false;
+    }
+
+    console.log("Discord alert sent successfully!");
+    return true;
+  } catch (err) {
+    console.error("Failed to send Discord alert:", err.message);
+    return false;
+  }
+}
+
+async function checkAndSendAlert(events) {
+  const recentHits = countRecentHits(events, ALERT_WINDOW_MINUTES);
+  console.log(`Recent hits (last ${ALERT_WINDOW_MINUTES} min): ${recentHits}`);
+
+  if (recentHits < ALERT_THRESHOLD_HITS) {
+    console.log(`Below threshold (${ALERT_THRESHOLD_HITS}), no alert needed`);
+    return;
+  }
+
+  // Check cooldown
+  const state = loadAlertState();
+  if (state.lastAlertTime) {
+    const lastAlert = new Date(state.lastAlertTime);
+    const cooldownEnd = new Date(lastAlert.getTime() + ALERT_COOLDOWN_MINUTES * 60 * 1000);
+
+    if (new Date() < cooldownEnd) {
+      const remainingMin = Math.ceil((cooldownEnd - new Date()) / 60000);
+      console.log(`Alert on cooldown (${remainingMin} min remaining), skipping`);
+      return;
+    }
+  }
+
+  // Send alert
+  const summary = getRecentHitsSummary(events, ALERT_WINDOW_MINUTES);
+  const sent = await sendDiscordAlert(recentHits, summary);
+
+  if (sent) {
+    saveAlertState({ lastAlertTime: new Date().toISOString() });
+  }
+}
+
 async function main() {
   console.log("Fetching hits data from", HITS_URL);
 
@@ -497,6 +647,10 @@ async function main() {
   console.log("  - docs/data/summary.json");
   console.log("  - docs/data/battles.json");
   console.log("\nBuild complete!");
+
+  // Check for alert conditions
+  console.log("\n--- Alert Check ---");
+  await checkAndSendAlert(events);
 }
 
 main().catch(err => {
