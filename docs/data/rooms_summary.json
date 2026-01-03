@@ -13,7 +13,7 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1928,
+    "hitCount": 1931,
     "avgUserRatio": 1.78,
     "activeUsers": 179
   },
@@ -25,8 +25,8 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 984,
-    "avgUserRatio": 1.01,
+    "hitCount": 990,
+    "avgUserRatio": 1.02,
     "activeUsers": 108
   },
   {
@@ -43,7 +43,7 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 579,
+    "hitCount": 581,
     "avgUserRatio": 1.58,
     "activeUsers": 93
   },
@@ -73,7 +73,7 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 291,
+    "hitCount": 292,
     "avgUserRatio": 2.39,
     "activeUsers": 66
   },
@@ -126,16 +126,16 @@
     "activeUsers": 29
   },
   {
+    "roomName": "Pixar Pier Entrance",
+    "hitCount": 162,
+    "avgUserRatio": 1.32,
+    "activeUsers": 38
+  },
+  {
     "roomName": "Pirate Treehouse",
     "hitCount": 160,
     "avgUserRatio": 1.51,
     "activeUsers": 41
-  },
-  {
-    "roomName": "Pixar Pier Entrance",
-    "hitCount": 156,
-    "avgUserRatio": 1.37,
-    "activeUsers": 37
   },
   {
     "roomName": "Gallery",
@@ -240,6 +240,12 @@
     "activeUsers": 16
   },
   {
+    "roomName": "VMK Central",
+    "hitCount": 38,
+    "avgUserRatio": 1.16,
+    "activeUsers": 16
+  },
+  {
     "roomName": "Autopia Space Race",
     "hitCount": 38,
     "avgUserRatio": 2.49,
@@ -250,12 +256,6 @@
     "hitCount": 36,
     "avgUserRatio": 1.2,
     "activeUsers": 17
-  },
-  {
-    "roomName": "VMK Central",
-    "hitCount": 35,
-    "avgUserRatio": 1.04,
-    "activeUsers": 15
   },
   {
     "roomName": "WS - Norway",
@@ -276,16 +276,16 @@
     "activeUsers": 20
   },
   {
+    "roomName": "WS - Mexico",
+    "hitCount": 30,
+    "avgUserRatio": 0.84,
+    "activeUsers": 12
+  },
+  {
     "roomName": "WS - Germany",
     "hitCount": 29,
     "avgUserRatio": 1.26,
     "activeUsers": 3
-  },
-  {
-    "roomName": "WS - Mexico",
-    "hitCount": 28,
-    "avgUserRatio": 0.82,
-    "activeUsers": 12
   },
   {
     "roomName": "Discovery Island",
