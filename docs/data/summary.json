@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-03T23:23:59.542Z",
-  "totalRows": 23104,
+  "generatedAt": "2026-01-03T23:26:05.892Z",
+  "totalRows": 23105,
   "totalUsers": 458,
   "teamStats": {
     "Penguin": {
       "users": 206,
       "attacks": 13279,
-      "hitsTaken": 9825
+      "hitsTaken": 9826
     },
     "Reindeer": {
       "users": 252,
-      "attacks": 9825,
+      "attacks": 9826,
       "hitsTaken": 13279
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 9825
+      "count": 9826
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 2534,
+      "attacks": 2535,
       "team": "Reindeer"
     },
     {
@@ -229,7 +229,7 @@
     },
     {
       "user": "Winnie",
-      "hitsTaken": 267,
+      "hitsTaken": 268,
       "team": "Penguin"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 2534,
+      "attacks": 2535,
       "hitsTaken": 794,
-      "ratio": 3.191435768261965
+      "ratio": 3.1926952141057936
     },
     {
       "user": "CaptainBubbles",
@@ -316,8 +316,8 @@
       "user": "Winnie",
       "team": "Penguin",
       "attacks": 1056,
-      "hitsTaken": 267,
-      "ratio": 3.955056179775281
+      "hitsTaken": 268,
+      "ratio": 3.9402985074626864
     },
     {
       "user": "TaterTotCasserole",
@@ -3493,30 +3493,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.38686544774739606,
-      "intercept": 30.92982684551127,
+      "slope": 0.38685538935991604,
+      "intercept": 30.931672988731748,
       "xMin": 0,
-      "xMax": 2534,
-      "y1": 30.92982684551127,
-      "y2": 1011.2468714374129,
+      "xMax": 2535,
+      "y1": 30.931672988731748,
+      "y2": 1011.6100850161189,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.302636415627894,
-      "intercept": 28.18587881979221,
+      "slope": 0.3027627639514303,
+      "intercept": 28.18258862858717,
       "xMin": 0,
-      "xMax": 2534,
-      "y1": 28.18587881979221,
-      "y2": 795.0665560208756,
+      "xMax": 2535,
+      "y1": 28.18258862858717,
+      "y2": 795.686195245463,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4628659129428763,
-      "intercept": 34.64818414815968,
+      "slope": 0.4626966104737783,
+      "intercept": 34.652948831288306,
       "xMin": 0,
-      "xMax": 2534,
-      "y1": 34.64818414815968,
-      "y2": 1207.5504075454085,
+      "xMax": 2535,
+      "y1": 34.652948831288306,
+      "y2": 1207.5888563823164,
       "label": "Reindeer"
     }
   },
@@ -3655,8 +3655,8 @@
     },
     {
       "roomName": "Pixar Pier Entrance",
-      "hitCount": 155,
-      "avgUserRatio": 1.41,
+      "hitCount": 156,
+      "avgUserRatio": 1.37,
       "activeUsers": 37
     },
     {
