@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-02T23:59:21.870Z",
-  "totalRows": 22947,
+  "generatedAt": "2026-01-03T02:01:28.036Z",
+  "totalRows": 22950,
   "totalUsers": 451,
   "teamStats": {
     "Penguin": {
       "users": 202,
-      "attacks": 13214,
-      "hitsTaken": 9733
+      "attacks": 13216,
+      "hitsTaken": 9734
     },
     "Reindeer": {
       "users": 249,
-      "attacks": 9733,
-      "hitsTaken": 13214
+      "attacks": 9734,
+      "hitsTaken": 13216
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 13214
+      "count": 13216
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 9733
+      "count": 9734
     }
   ],
   "topAttackers": [
@@ -57,7 +57,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 939,
+      "attacks": 941,
       "team": "Penguin"
     },
     {
@@ -218,14 +218,14 @@
       "team": "Reindeer"
     },
     {
+      "user": "TaterTotCasserole",
+      "hitsTaken": 289,
+      "team": "Penguin"
+    },
+    {
       "user": "RockStar_Olivia",
       "hitsTaken": 289,
       "team": "Reindeer"
-    },
-    {
-      "user": "TaterTotCasserole",
-      "hitsTaken": 288,
-      "team": "Penguin"
     },
     {
       "user": "Winnie",
@@ -322,9 +322,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 939,
-      "hitsTaken": 288,
-      "ratio": 3.2604166666666665
+      "attacks": 941,
+      "hitsTaken": 289,
+      "ratio": 3.2560553633217992
     },
     {
       "user": "PepaRaindrops",
@@ -1132,6 +1132,13 @@
       "ratio": 0
     },
     {
+      "user": "Bernardo_S_Rocks",
+      "team": "Reindeer",
+      "attacks": 39,
+      "hitsTaken": 30,
+      "ratio": 1.3
+    },
+    {
       "user": "Nigel",
       "team": "Reindeer",
       "attacks": 1,
@@ -1144,13 +1151,6 @@
       "attacks": 3,
       "hitsTaken": 63,
       "ratio": 0.047619047619047616
-    },
-    {
-      "user": "Bernardo_S_Rocks",
-      "team": "Reindeer",
-      "attacks": 38,
-      "hitsTaken": 28,
-      "ratio": 1.3571428571428572
     },
     {
       "user": "therealbear",
@@ -3444,30 +3444,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.38964611257576587,
-      "intercept": 31.05496819229246,
+      "slope": 0.38964262449430964,
+      "intercept": 31.059205693693112,
       "xMin": 0,
       "xMax": 2463,
-      "y1": 31.05496819229246,
-      "y2": 990.7533434664037,
+      "y1": 31.059205693693112,
+      "y2": 990.7489898231778,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.30121478128310464,
-      "intercept": 28.478949901609184,
+      "slope": 0.3012535644625666,
+      "intercept": 28.478380653775837,
       "xMin": 0,
       "xMax": 2463,
-      "y1": 28.478949901609184,
-      "y2": 770.370956201896,
+      "y1": 28.478380653775837,
+      "y2": 770.4659099250774,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4718743005836385,
-      "intercept": 34.623483664335126,
+      "slope": 0.471871524645413,
+      "intercept": 34.62972923333956,
       "xMin": 0,
       "xMax": 2463,
-      "y1": 34.623483664335126,
-      "y2": 1196.8498860018367,
+      "y1": 34.62972923333956,
+      "y2": 1196.8492944349916,
       "label": "Reindeer"
     }
   },
@@ -3480,13 +3480,13 @@
     },
     {
       "roomName": "Town Square",
-      "hitCount": 4205,
+      "hitCount": 4207,
       "avgUserRatio": 1.24,
       "activeUsers": 211
     },
     {
       "roomName": "Main Street",
-      "hitCount": 1923,
+      "hitCount": 1924,
       "avgUserRatio": 1.79,
       "activeUsers": 178
     },
