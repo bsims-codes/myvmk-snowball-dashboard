@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-03T14:57:40.431Z",
-  "totalRows": 22964,
-  "totalUsers": 451,
+  "generatedAt": "2026-01-03T15:21:06.193Z",
+  "totalRows": 22965,
+  "totalUsers": 452,
   "teamStats": {
     "Penguin": {
-      "users": 202,
-      "attacks": 13222,
+      "users": 203,
+      "attacks": 13223,
       "hitsTaken": 9742
     },
     "Reindeer": {
       "users": 249,
       "attacks": 9742,
-      "hitsTaken": 13222
+      "hitsTaken": 13223
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 13222
+      "count": 13223
     },
     {
       "pair": "Reindeer → Penguin",
@@ -610,8 +610,8 @@
       "user": "Dorian_Gray",
       "team": "Reindeer",
       "attacks": 104,
-      "hitsTaken": 121,
-      "ratio": 0.859504132231405
+      "hitsTaken": 122,
+      "ratio": 0.8524590163934426
     },
     {
       "user": "bittahmercenary",
@@ -3127,6 +3127,13 @@
       "ratio": 1
     },
     {
+      "user": "Spot",
+      "team": "Penguin",
+      "attacks": 1,
+      "hitsTaken": 0,
+      "ratio": 1
+    },
+    {
       "user": "tugdotforever",
       "team": "Penguin",
       "attacks": 0,
@@ -3444,30 +3451,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3892475094246665,
-      "intercept": 31.098270939183944,
+      "slope": 0.3893440572921785,
+      "intercept": 31.025915319214867,
       "xMin": 0,
       "xMax": 2471,
-      "y1": 31.098270939183944,
-      "y2": 992.9288667275349,
+      "y1": 31.025915319214867,
+      "y2": 993.095080888188,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3010421113157894,
-      "intercept": 28.522877248428877,
+      "slope": 0.30127961410605897,
+      "intercept": 28.365417057515184,
       "xMin": 0,
       "xMax": 2471,
-      "y1": 28.522877248428877,
-      "y2": 772.3979343097445,
+      "y1": 28.365417057515184,
+      "y2": 772.8273435135869,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.47101661782187393,
-      "intercept": 34.672112888270306,
+      "slope": 0.4710238784494747,
+      "intercept": 34.67584488411734,
       "xMin": 0,
       "xMax": 2471,
-      "y1": 34.672112888270306,
-      "y2": 1198.5541755261206,
+      "y1": 34.67584488411734,
+      "y2": 1198.5758485327694,
       "label": "Reindeer"
     }
   },
@@ -3539,16 +3546,16 @@
       "activeUsers": 44
     },
     {
+      "roomName": "Epcot Entrance",
+      "hitCount": 287,
+      "avgUserRatio": 2.4,
+      "activeUsers": 65
+    },
+    {
       "roomName": "Blue Bayou",
       "hitCount": 286,
       "avgUserRatio": 2.23,
       "activeUsers": 76
-    },
-    {
-      "roomName": "Epcot Entrance",
-      "hitCount": 286,
-      "avgUserRatio": 2.46,
-      "activeUsers": 63
     },
     {
       "roomName": "Shrunken Ned's Shop",
