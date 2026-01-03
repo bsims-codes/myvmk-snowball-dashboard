@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-03T19:18:21.035Z",
-  "totalRows": 22977,
+  "generatedAt": "2026-01-03T19:30:09.688Z",
+  "totalRows": 22978,
   "totalUsers": 453,
   "teamStats": {
     "Penguin": {
       "users": 203,
-      "attacks": 13235,
+      "attacks": 13236,
       "hitsTaken": 9742
     },
     "Reindeer": {
       "users": 250,
       "attacks": 9742,
-      "hitsTaken": 13235
+      "hitsTaken": 13236
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 13235
+      "count": 13236
     },
     {
       "pair": "Reindeer → Penguin",
@@ -57,7 +57,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 947,
+      "attacks": 948,
       "team": "Penguin"
     },
     {
@@ -322,9 +322,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 947,
+      "attacks": 948,
       "hitsTaken": 289,
-      "ratio": 3.2768166089965396
+      "ratio": 3.2802768166089966
     },
     {
       "user": "PepaRaindrops",
@@ -2098,6 +2098,13 @@
       "ratio": 0
     },
     {
+      "user": "awko-taco",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 12,
+      "ratio": 0
+    },
+    {
       "user": "AuroraRoseSkye",
       "team": "Penguin",
       "attacks": 1,
@@ -2110,13 +2117,6 @@
       "attacks": 2,
       "hitsTaken": 9,
       "ratio": 0.2222222222222222
-    },
-    {
-      "user": "awko-taco",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 11,
-      "ratio": 0
     },
     {
       "user": "Mayuri",
@@ -3458,30 +3458,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3890966499140808,
-      "intercept": 30.986150717271887,
+      "slope": 0.3890663033199636,
+      "intercept": 30.989038592304365,
       "xMin": 0,
       "xMax": 2471,
-      "y1": 30.986150717271887,
-      "y2": 992.4439726549657,
+      "y1": 30.989038592304365,
+      "y2": 992.3718740959345,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3008115605412723,
-      "intercept": 28.378123134168778,
+      "slope": 0.30077441704182006,
+      "intercept": 28.37906313317473,
       "xMin": 0,
       "xMax": 2471,
-      "y1": 28.378123134168778,
-      "y2": 771.6834892316525,
+      "y1": 28.37906313317473,
+      "y2": 771.5926476435121,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.471139650940155,
-      "intercept": 34.58063008216404,
+      "slope": 0.4711352905289107,
+      "intercept": 34.5847999986694,
       "xMin": 0,
       "xMax": 2471,
-      "y1": 34.58063008216404,
-      "y2": 1198.766707555287,
+      "y1": 34.5847999986694,
+      "y2": 1198.7601028956078,
       "label": "Reindeer"
     }
   },
@@ -3602,9 +3602,9 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 170,
-      "avgUserRatio": 4.2,
-      "activeUsers": 28
+      "hitCount": 171,
+      "avgUserRatio": 4.09,
+      "activeUsers": 29
     },
     {
       "roomName": "VMK Gallery",
