@@ -287,8 +287,15 @@ function saveAlertState(state) {
   fs.writeFileSync(p, JSON.stringify(state, null, 2));
 }
 
-function countRecentHits(events, windowMinutes) {
+function getNowInEastern() {
+  // Convert current UTC time to Eastern for comparison with API times
   const now = new Date();
+  const easternString = now.toLocaleString('en-US', { timeZone: 'America/New_York' });
+  return new Date(easternString);
+}
+
+function countRecentHits(events, windowMinutes) {
+  const now = getNowInEastern();
   const cutoff = new Date(now.getTime() - windowMinutes * 60 * 1000);
 
   let count = 0;
@@ -302,7 +309,7 @@ function countRecentHits(events, windowMinutes) {
 }
 
 function getRecentHitsSummary(events, windowMinutes) {
-  const now = new Date();
+  const now = getNowInEastern();
   const cutoff = new Date(now.getTime() - windowMinutes * 60 * 1000);
 
   const recentEvents = events.filter(evt => {
