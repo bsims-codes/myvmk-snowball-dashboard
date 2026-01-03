@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-03T19:30:09.688Z",
-  "totalRows": 22978,
+  "generatedAt": "2026-01-03T19:41:11.532Z",
+  "totalRows": 22980,
   "totalUsers": 453,
   "teamStats": {
     "Penguin": {
       "users": 203,
-      "attacks": 13236,
+      "attacks": 13238,
       "hitsTaken": 9742
     },
     "Reindeer": {
       "users": 250,
       "attacks": 9742,
-      "hitsTaken": 13236
+      "hitsTaken": 13238
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 13236
+      "count": 13238
     },
     {
       "pair": "Reindeer → Penguin",
@@ -77,7 +77,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 721,
+      "attacks": 723,
       "team": "Penguin"
     },
     {
@@ -371,9 +371,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 721,
+      "attacks": 723,
       "hitsTaken": 133,
-      "ratio": 5.421052631578948
+      "ratio": 5.43609022556391
     },
     {
       "user": "BuckyBarnes",
@@ -2672,6 +2672,13 @@
       "ratio": 0
     },
     {
+      "user": "JessXxPrincess",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 4,
+      "ratio": 0
+    },
+    {
       "user": "Caribbean_Gal",
       "team": "Reindeer",
       "attacks": 0,
@@ -3016,13 +3023,6 @@
     },
     {
       "user": "Hypnotic",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 2,
-      "ratio": 0
-    },
-    {
-      "user": "JessXxPrincess",
       "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 2,
@@ -3458,30 +3458,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3890663033199636,
-      "intercept": 30.989038592304365,
+      "slope": 0.3890079409483256,
+      "intercept": 30.99469650553527,
       "xMin": 0,
       "xMax": 2471,
-      "y1": 30.989038592304365,
-      "y2": 992.3718740959345,
+      "y1": 30.99469650553527,
+      "y2": 992.2333185888477,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.30077441704182006,
-      "intercept": 28.37906313317473,
+      "slope": 0.3006949580996054,
+      "intercept": 28.381281500874007,
       "xMin": 0,
       "xMax": 2471,
-      "y1": 28.37906313317473,
-      "y2": 771.5926476435121,
+      "y1": 28.381281500874007,
+      "y2": 771.398522964999,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4711352905289107,
-      "intercept": 34.5847999986694,
+      "slope": 0.4711265697064222,
+      "intercept": 34.59313983168013,
       "xMin": 0,
       "xMax": 2471,
-      "y1": 34.5847999986694,
-      "y2": 1198.7601028956078,
+      "y1": 34.59313983168013,
+      "y2": 1198.7468935762495,
       "label": "Reindeer"
     }
   },
@@ -3553,16 +3553,16 @@
       "activeUsers": 44
     },
     {
+      "roomName": "Epcot Entrance",
+      "hitCount": 289,
+      "avgUserRatio": 2.43,
+      "activeUsers": 65
+    },
+    {
       "roomName": "Blue Bayou",
       "hitCount": 287,
       "avgUserRatio": 2.24,
       "activeUsers": 76
-    },
-    {
-      "roomName": "Epcot Entrance",
-      "hitCount": 287,
-      "avgUserRatio": 2.4,
-      "activeUsers": 65
     },
     {
       "roomName": "Shrunken Ned's Shop",
