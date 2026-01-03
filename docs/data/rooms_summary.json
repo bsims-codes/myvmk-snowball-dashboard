@@ -1,19 +1,19 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 6616,
-    "avgUserRatio": 0.94,
-    "activeUsers": 192
+    "hitCount": 6617,
+    "avgUserRatio": 0.93,
+    "activeUsers": 193
   },
   {
     "roomName": "Town Square",
-    "hitCount": 4211,
+    "hitCount": 4212,
     "avgUserRatio": 1.24,
     "activeUsers": 211
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1931,
+    "hitCount": 1932,
     "avgUserRatio": 1.78,
     "activeUsers": 179
   },
@@ -43,9 +43,9 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 581,
-    "avgUserRatio": 1.58,
-    "activeUsers": 93
+    "hitCount": 584,
+    "avgUserRatio": 1.56,
+    "activeUsers": 94
   },
   {
     "roomName": "Monorail Station",
@@ -127,8 +127,8 @@
   },
   {
     "roomName": "Pixar Pier Entrance",
-    "hitCount": 162,
-    "avgUserRatio": 1.32,
+    "hitCount": 166,
+    "avgUserRatio": 1.34,
     "activeUsers": 38
   },
   {
@@ -150,16 +150,16 @@
     "activeUsers": 39
   },
   {
+    "roomName": "Tiki Tiki Tiki Island",
+    "hitCount": 140,
+    "avgUserRatio": 1.67,
+    "activeUsers": 28
+  },
+  {
     "roomName": "WS - United Kingdom",
     "hitCount": 136,
     "avgUserRatio": 1.19,
     "activeUsers": 38
-  },
-  {
-    "roomName": "Tiki Tiki Tiki Island",
-    "hitCount": 133,
-    "avgUserRatio": 1.74,
-    "activeUsers": 24
   },
   {
     "roomName": "Storybookland",
@@ -193,9 +193,9 @@
   },
   {
     "roomName": "Mickey's Courtyard",
-    "hitCount": 68,
-    "avgUserRatio": 1.67,
-    "activeUsers": 23
+    "hitCount": 69,
+    "avgUserRatio": 1.61,
+    "activeUsers": 24
   },
   {
     "roomName": "Explorer's Tent",
@@ -258,6 +258,12 @@
     "activeUsers": 17
   },
   {
+    "roomName": "WS - Mexico",
+    "hitCount": 35,
+    "avgUserRatio": 0.84,
+    "activeUsers": 13
+  },
+  {
     "roomName": "WS - Norway",
     "hitCount": 33,
     "avgUserRatio": 6.6,
@@ -271,15 +277,9 @@
   },
   {
     "roomName": "Forbidden Temple",
-    "hitCount": 31,
-    "avgUserRatio": 1.24,
-    "activeUsers": 20
-  },
-  {
-    "roomName": "WS - Mexico",
-    "hitCount": 30,
-    "avgUserRatio": 0.84,
-    "activeUsers": 12
+    "hitCount": 32,
+    "avgUserRatio": 1.17,
+    "activeUsers": 21
   },
   {
     "roomName": "WS - Germany",
@@ -288,16 +288,16 @@
     "activeUsers": 3
   },
   {
+    "roomName": "Space Mountain Quest Deck",
+    "hitCount": 28,
+    "avgUserRatio": 1.08,
+    "activeUsers": 13
+  },
+  {
     "roomName": "Discovery Island",
     "hitCount": 27,
     "avgUserRatio": 2.08,
     "activeUsers": 6
-  },
-  {
-    "roomName": "Space Mountain Quest Deck",
-    "hitCount": 27,
-    "avgUserRatio": 1.18,
-    "activeUsers": 11
   },
   {
     "roomName": "Inner-Space Ray Room",
