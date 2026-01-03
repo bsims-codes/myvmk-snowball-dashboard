@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-03T22:40:22.340Z",
-  "totalRows": 23031,
+  "generatedAt": "2026-01-03T22:51:04.293Z",
+  "totalRows": 23047,
   "totalUsers": 457,
   "teamStats": {
     "Penguin": {
       "users": 205,
       "attacks": 13266,
-      "hitsTaken": 9765
+      "hitsTaken": 9781
     },
     "Reindeer": {
       "users": 252,
-      "attacks": 9765,
+      "attacks": 9781,
       "hitsTaken": 13266
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 9765
+      "count": 9781
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 2492,
+      "attacks": 2508,
       "team": "Reindeer"
     },
     {
@@ -219,7 +219,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "hitsTaken": 289,
+      "hitsTaken": 290,
       "team": "Penguin"
     },
     {
@@ -259,7 +259,7 @@
     },
     {
       "user": "Devgirlforever",
-      "hitsTaken": 230,
+      "hitsTaken": 236,
       "team": "Penguin"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 2492,
+      "attacks": 2508,
       "hitsTaken": 791,
-      "ratio": 3.150442477876106
+      "ratio": 3.170670037926675
     },
     {
       "user": "CaptainBubbles",
@@ -323,8 +323,8 @@
       "user": "TaterTotCasserole",
       "team": "Penguin",
       "attacks": 948,
-      "hitsTaken": 289,
-      "ratio": 3.2802768166089966
+      "hitsTaken": 290,
+      "ratio": 3.268965517241379
     },
     {
       "user": "PepaRaindrops",
@@ -407,8 +407,8 @@
       "user": "Devgirlforever",
       "team": "Penguin",
       "attacks": 417,
-      "hitsTaken": 230,
-      "ratio": 1.8130434782608695
+      "hitsTaken": 236,
+      "ratio": 1.7669491525423728
     },
     {
       "user": "Jewelsy",
@@ -2105,6 +2105,13 @@
       "ratio": 0
     },
     {
+      "user": "Guest10148946",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 12,
+      "ratio": 0
+    },
+    {
       "user": "AuroraRoseSkye",
       "team": "Penguin",
       "attacks": 1,
@@ -2959,13 +2966,6 @@
       "ratio": 0
     },
     {
-      "user": "Guest10148946",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 3,
-      "ratio": 0
-    },
-    {
       "user": "Julioulia",
       "team": "Reindeer",
       "attacks": 0,
@@ -3486,30 +3486,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3884517302767447,
-      "intercept": 30.81962407001377,
+      "slope": 0.3875148501033824,
+      "intercept": 30.888282822029204,
       "xMin": 0,
-      "xMax": 2492,
-      "y1": 30.81962407001377,
-      "y2": 998.8413359196616,
+      "xMax": 2508,
+      "y1": 30.888282822029204,
+      "y2": 1002.7755268813122,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.30108624148621493,
-      "intercept": 28.15019473387255,
+      "slope": 0.301394433966624,
+      "intercept": 28.208299702433003,
       "xMin": 0,
-      "xMax": 2492,
-      "y1": 28.15019473387255,
-      "y2": 778.4571085175202,
+      "xMax": 2508,
+      "y1": 28.208299702433003,
+      "y2": 784.1055400907261,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4690474973332002,
-      "intercept": 34.467266621195634,
+      "slope": 0.4662925972130015,
+      "intercept": 34.54441312166521,
       "xMin": 0,
-      "xMax": 2492,
-      "y1": 34.467266621195634,
-      "y2": 1203.3336299755306,
+      "xMax": 2508,
+      "y1": 34.54441312166521,
+      "y2": 1204.006246931873,
       "label": "Reindeer"
     }
   },
@@ -3522,15 +3522,15 @@
     },
     {
       "roomName": "Town Square",
-      "hitCount": 4207,
+      "hitCount": 4210,
       "avgUserRatio": 1.24,
       "activeUsers": 211
     },
     {
       "roomName": "Main Street",
-      "hitCount": 1924,
-      "avgUserRatio": 1.79,
-      "activeUsers": 178
+      "hitCount": 1927,
+      "avgUserRatio": 1.78,
+      "activeUsers": 179
     },
     {
       "roomName": "Matterhorn",
@@ -3558,8 +3558,8 @@
     },
     {
       "roomName": "VMK Esplanade",
-      "hitCount": 573,
-      "avgUserRatio": 1.6,
+      "hitCount": 578,
+      "avgUserRatio": 1.59,
       "activeUsers": 92
     },
     {
@@ -3630,9 +3630,9 @@
     },
     {
       "roomName": "Tomorrowland Hub",
-      "hitCount": 180,
-      "avgUserRatio": 1.3,
-      "activeUsers": 35
+      "hitCount": 181,
+      "avgUserRatio": 1.27,
+      "activeUsers": 36
     },
     {
       "roomName": "VMK Gallery",
@@ -3654,8 +3654,8 @@
     },
     {
       "roomName": "Gallery",
-      "hitCount": 145,
-      "avgUserRatio": 2.71,
+      "hitCount": 146,
+      "avgUserRatio": 2.72,
       "activeUsers": 29
     },
     {
