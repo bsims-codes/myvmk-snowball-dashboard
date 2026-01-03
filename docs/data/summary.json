@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-03T21:28:41.537Z",
-  "totalRows": 22984,
-  "totalUsers": 453,
+  "generatedAt": "2026-01-03T21:41:11.946Z",
+  "totalRows": 22998,
+  "totalUsers": 454,
   "teamStats": {
     "Penguin": {
-      "users": 203,
-      "attacks": 13239,
-      "hitsTaken": 9745
+      "users": 204,
+      "attacks": 13242,
+      "hitsTaken": 9756
     },
     "Reindeer": {
       "users": 250,
-      "attacks": 9745,
-      "hitsTaken": 13239
+      "attacks": 9756,
+      "hitsTaken": 13242
     },
     "Unknown": {
       "users": 0,
@@ -22,17 +22,17 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 13239
+      "count": 13242
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 9745
+      "count": 9756
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 2474,
+      "attacks": 2485,
       "team": "Reindeer"
     },
     {
@@ -116,14 +116,14 @@
       "team": "Penguin"
     },
     {
+      "user": "Devgirlforever",
+      "attacks": 400,
+      "team": "Penguin"
+    },
+    {
       "user": "SammyxxFairy",
       "attacks": 398,
       "team": "Reindeer"
-    },
-    {
-      "user": "Devgirlforever",
-      "attacks": 397,
-      "team": "Penguin"
     },
     {
       "user": "BluPirate",
@@ -169,7 +169,7 @@
     },
     {
       "user": "Kronkx",
-      "hitsTaken": 787,
+      "hitsTaken": 790,
       "team": "Reindeer"
     },
     {
@@ -258,13 +258,13 @@
       "team": "Reindeer"
     },
     {
-      "user": "HappyToughFish",
-      "hitsTaken": 228,
+      "user": "Devgirlforever",
+      "hitsTaken": 229,
       "team": "Penguin"
     },
     {
-      "user": "Devgirlforever",
-      "hitsTaken": 226,
+      "user": "HappyToughFish",
+      "hitsTaken": 228,
       "team": "Penguin"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 2474,
-      "hitsTaken": 787,
-      "ratio": 3.1435832274459976
+      "attacks": 2485,
+      "hitsTaken": 790,
+      "ratio": 3.1455696202531644
     },
     {
       "user": "CaptainBubbles",
@@ -413,9 +413,9 @@
     {
       "user": "Devgirlforever",
       "team": "Penguin",
-      "attacks": 397,
-      "hitsTaken": 226,
-      "ratio": 1.7566371681415929
+      "attacks": 400,
+      "hitsTaken": 229,
+      "ratio": 1.7467248908296944
     },
     {
       "user": "bsims",
@@ -2301,6 +2301,13 @@
       "ratio": 0
     },
     {
+      "user": "SpookyCookie",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 8,
+      "ratio": 0
+    },
+    {
       "user": "Rez",
       "team": "Reindeer",
       "attacks": 5,
@@ -3458,30 +3465,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3889979136422182,
-      "intercept": 31.000600337411164,
+      "slope": 0.3887933001811928,
+      "intercept": 30.961523529587947,
       "xMin": 0,
-      "xMax": 2474,
-      "y1": 31.000600337411164,
-      "y2": 993.381438688259,
+      "xMax": 2485,
+      "y1": 30.961523529587947,
+      "y2": 997.1128744798519,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3008155641677579,
-      "intercept": 28.386713034399275,
+      "slope": 0.30110494593927545,
+      "intercept": 28.27827600917703,
       "xMin": 0,
-      "xMax": 2474,
-      "y1": 28.386713034399275,
-      "y2": 772.6044187854322,
+      "xMax": 2485,
+      "y1": 28.27827600917703,
+      "y2": 776.5240666682765,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4708757893440011,
-      "intercept": 34.60126173137083,
+      "slope": 0.4697798105208683,
+      "intercept": 34.63531267423363,
       "xMin": 0,
-      "xMax": 2474,
-      "y1": 34.60126173137083,
-      "y2": 1199.5479645684295,
+      "xMax": 2485,
+      "y1": 34.63531267423363,
+      "y2": 1202.0381418185914,
       "label": "Reindeer"
     }
   },
@@ -3619,6 +3626,12 @@
       "activeUsers": 39
     },
     {
+      "roomName": "Pixar Pier Entrance",
+      "hitCount": 146,
+      "avgUserRatio": 1.42,
+      "activeUsers": 35
+    },
+    {
       "roomName": "Gallery",
       "hitCount": 145,
       "avgUserRatio": 2.71,
@@ -3628,12 +3641,6 @@
       "roomName": "Castle Forecourt",
       "hitCount": 140,
       "avgUserRatio": 2.61,
-      "activeUsers": 38
-    },
-    {
-      "roomName": "WS - United Kingdom",
-      "hitCount": 136,
-      "avgUserRatio": 1.19,
       "activeUsers": 38
     }
   ]
