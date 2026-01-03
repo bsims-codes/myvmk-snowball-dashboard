@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-03T16:55:52.086Z",
-  "totalRows": 22968,
+  "generatedAt": "2026-01-03T17:14:40.871Z",
+  "totalRows": 22972,
   "totalUsers": 452,
   "teamStats": {
     "Penguin": {
       "users": 203,
-      "attacks": 13226,
+      "attacks": 13230,
       "hitsTaken": 9742
     },
     "Reindeer": {
       "users": 249,
       "attacks": 9742,
-      "hitsTaken": 13226
+      "hitsTaken": 13230
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 13226
+      "count": 13230
     },
     {
       "pair": "Reindeer → Penguin",
@@ -77,7 +77,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 714,
+      "attacks": 718,
       "team": "Penguin"
     },
     {
@@ -371,9 +371,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 714,
+      "attacks": 718,
       "hitsTaken": 133,
-      "ratio": 5.368421052631579
+      "ratio": 5.398496240601504
     },
     {
       "user": "BuckyBarnes",
@@ -670,18 +670,18 @@
       "ratio": 0.6607142857142857
     },
     {
+      "user": "AtziriDayre",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 177,
+      "ratio": 0
+    },
+    {
       "user": "Bernie",
       "team": "Reindeer",
       "attacks": 106,
       "hitsTaken": 69,
       "ratio": 1.536231884057971
-    },
-    {
-      "user": "AtziriDayre",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 174,
-      "ratio": 0
     },
     {
       "user": "TheOhanaGryphoness",
@@ -1034,18 +1034,18 @@
       "ratio": 1.6333333333333333
     },
     {
+      "user": "Cali",
+      "team": "Reindeer",
+      "attacks": 2,
+      "hitsTaken": 77,
+      "ratio": 0.025974025974025976
+    },
+    {
       "user": "Diamond-J",
       "team": "Penguin",
       "attacks": 11,
       "hitsTaken": 67,
       "ratio": 0.16417910447761194
-    },
-    {
-      "user": "Cali",
-      "team": "Reindeer",
-      "attacks": 2,
-      "hitsTaken": 76,
-      "ratio": 0.02631578947368421
     },
     {
       "user": "StarportSeventy-Five",
@@ -3451,30 +3451,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3892576457007109,
-      "intercept": 31.0343592777568,
+      "slope": 0.38914196211621416,
+      "intercept": 31.045643465190995,
       "xMin": 0,
       "xMax": 2471,
-      "y1": 31.0343592777568,
-      "y2": 992.8900018042135,
+      "y1": 31.045643465190995,
+      "y2": 992.6154318543562,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.30116209995950516,
-      "intercept": 28.36862101446101,
+      "slope": 0.30100452047799303,
+      "intercept": 28.37295662106479,
       "xMin": 0,
       "xMax": 2471,
-      "y1": 28.36862101446101,
-      "y2": 772.5401700143983,
+      "y1": 28.37295662106479,
+      "y2": 772.1551267221855,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4710107424396778,
-      "intercept": 34.688407016677345,
+      "slope": 0.4709934515925935,
+      "intercept": 34.705147769417486,
       "xMin": 0,
       "xMax": 2471,
-      "y1": 34.688407016677345,
-      "y2": 1198.555951585121,
+      "y1": 34.705147769417486,
+      "y2": 1198.529966654716,
       "label": "Reindeer"
     }
   },
@@ -3499,9 +3499,9 @@
     },
     {
       "roomName": "Matterhorn",
-      "hitCount": 1548,
-      "avgUserRatio": 1.14,
-      "activeUsers": 192
+      "hitCount": 1549,
+      "avgUserRatio": 1.13,
+      "activeUsers": 193
     },
     {
       "roomName": "Central Plaza",
@@ -3595,8 +3595,8 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 167,
-      "avgUserRatio": 4.15,
+      "hitCount": 170,
+      "avgUserRatio": 4.2,
       "activeUsers": 28
     },
     {
