@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-04T22:13:14.658Z",
-  "totalRows": 23660,
+  "generatedAt": "2026-01-04T22:34:41.910Z",
+  "totalRows": 23665,
   "totalUsers": 466,
   "teamStats": {
     "Penguin": {
       "users": 209,
-      "attacks": 13563,
-      "hitsTaken": 10097
+      "attacks": 13567,
+      "hitsTaken": 10098
     },
     "Reindeer": {
       "users": 257,
-      "attacks": 10097,
-      "hitsTaken": 13563
+      "attacks": 10098,
+      "hitsTaken": 13567
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 13563
+      "count": 13567
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 10097
+      "count": 10098
     }
   ],
   "topAttackers": [
@@ -92,7 +92,7 @@
     },
     {
       "user": "Jewelsy",
-      "attacks": 515,
+      "attacks": 516,
       "team": "Reindeer"
     },
     {
@@ -131,12 +131,12 @@
       "team": "Penguin"
     },
     {
-      "user": "Meg",
-      "attacks": 277,
+      "user": "Lilasaurus",
+      "attacks": 281,
       "team": "Penguin"
     },
     {
-      "user": "Lilasaurus",
+      "user": "Meg",
       "attacks": 277,
       "team": "Penguin"
     },
@@ -413,9 +413,9 @@
     {
       "user": "Jewelsy",
       "team": "Reindeer",
-      "attacks": 515,
+      "attacks": 516,
       "hitsTaken": 134,
-      "ratio": 3.843283582089552
+      "ratio": 3.8507462686567164
     },
     {
       "user": "bsims",
@@ -476,9 +476,9 @@
     {
       "user": "Lilasaurus",
       "team": "Penguin",
-      "attacks": 277,
-      "hitsTaken": 136,
-      "ratio": 2.036764705882353
+      "attacks": 281,
+      "hitsTaken": 137,
+      "ratio": 2.051094890510949
     },
     {
       "user": "Magenta",
@@ -649,18 +649,18 @@
       "ratio": 0.4105960264900662
     },
     {
+      "user": "AtziriDayre",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 196,
+      "ratio": 0
+    },
+    {
       "user": "rockin_rachael",
       "team": "Reindeer",
       "attacks": 88,
       "hitsTaken": 104,
       "ratio": 0.8461538461538461
-    },
-    {
-      "user": "AtziriDayre",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 192,
-      "ratio": 0
     },
     {
       "user": "Cool_Beanss",
@@ -3549,30 +3549,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.37504972812871973,
-      "intercept": 31.73030779500964,
+      "slope": 0.37501856168554537,
+      "intercept": 31.738596003672892,
       "xMin": 0,
       "xMax": 2749,
-      "y1": 31.73030779500964,
-      "y2": 1062.7420104208602,
+      "y1": 31.738596003672892,
+      "y2": 1062.664622077237,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3015719062249127,
-      "intercept": 28.74057529125124,
+      "slope": 0.3015780798029243,
+      "intercept": 28.739187518247494,
       "xMin": 0,
       "xMax": 2749,
-      "y1": 28.74057529125124,
-      "y2": 857.7617455035363,
+      "y1": 28.739187518247494,
+      "y2": 857.7773288964863,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4363204416550829,
-      "intercept": 35.63218871832151,
+      "slope": 0.4362734140373236,
+      "intercept": 35.64790297685255,
       "xMin": 0,
       "xMax": 2749,
-      "y1": 35.63218871832151,
-      "y2": 1235.0770828281443,
+      "y1": 35.64790297685255,
+      "y2": 1234.963518165455,
       "label": "Reindeer"
     }
   },
@@ -3603,7 +3603,7 @@
     },
     {
       "roomName": "Central Plaza",
-      "hitCount": 999,
+      "hitCount": 1000,
       "avgUserRatio": 1.02,
       "activeUsers": 110
     },
@@ -3657,9 +3657,9 @@
     },
     {
       "roomName": "Shrunken Ned's Shop",
-      "hitCount": 247,
-      "avgUserRatio": 5.2,
-      "activeUsers": 41
+      "hitCount": 250,
+      "avgUserRatio": 5.03,
+      "activeUsers": 43
     },
     {
       "roomName": "Snow White Hide 'n Seek Forest",
@@ -3711,9 +3711,9 @@
     },
     {
       "roomName": "Pirate Treehouse",
-      "hitCount": 170,
-      "avgUserRatio": 1.53,
-      "activeUsers": 44
+      "hitCount": 171,
+      "avgUserRatio": 1.52,
+      "activeUsers": 45
     },
     {
       "roomName": "Gallery",
