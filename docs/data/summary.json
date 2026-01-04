@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-04T18:46:22.022Z",
-  "totalRows": 23612,
-  "totalUsers": 465,
+  "generatedAt": "2026-01-04T18:57:36.016Z",
+  "totalRows": 23620,
+  "totalUsers": 466,
   "teamStats": {
     "Penguin": {
       "users": 209,
-      "attacks": 13521,
+      "attacks": 13529,
       "hitsTaken": 10091
     },
     "Reindeer": {
-      "users": 256,
+      "users": 257,
       "attacks": 10091,
-      "hitsTaken": 13521
+      "hitsTaken": 13529
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 13521
+      "count": 13529
     },
     {
       "pair": "Reindeer → Penguin",
@@ -57,7 +57,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 963,
+      "attacks": 971,
       "team": "Penguin"
     },
     {
@@ -322,9 +322,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 963,
+      "attacks": 971,
       "hitsTaken": 295,
-      "ratio": 3.2644067796610168
+      "ratio": 3.2915254237288134
     },
     {
       "user": "PepaRaindrops",
@@ -2343,6 +2343,13 @@
       "ratio": 0
     },
     {
+      "user": "Guest10148967",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 8,
+      "ratio": 0
+    },
+    {
       "user": "Rez",
       "team": "Reindeer",
       "attacks": 5,
@@ -3542,30 +3549,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3754154194483627,
-      "intercept": 31.715464765559698,
+      "slope": 0.3752895440876459,
+      "intercept": 31.664508516415886,
       "xMin": 0,
       "xMax": 2749,
-      "y1": 31.715464765559698,
-      "y2": 1063.7324528291088,
+      "y1": 31.664508516415886,
+      "y2": 1063.3354652133546,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3019972853366836,
-      "intercept": 28.74495074144833,
+      "slope": 0.3017036809419081,
+      "intercept": 28.752396653286727,
       "xMin": 0,
       "xMax": 2749,
-      "y1": 28.74495074144833,
-      "y2": 858.9354881319914,
+      "y1": 28.752396653286727,
+      "y2": 858.135815562592,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.43631782633722926,
-      "intercept": 35.61764380637117,
+      "slope": 0.4364215891717401,
+      "intercept": 35.50610795201545,
       "xMin": 0,
       "xMax": 2749,
-      "y1": 35.61764380637117,
-      "y2": 1235.0553484074144,
+      "y1": 35.50610795201545,
+      "y2": 1235.2290565851292,
       "label": "Reindeer"
     }
   },
@@ -3703,16 +3710,16 @@
       "activeUsers": 38
     },
     {
+      "roomName": "Pirate Treehouse",
+      "hitCount": 170,
+      "avgUserRatio": 1.53,
+      "activeUsers": 44
+    },
+    {
       "roomName": "Gallery",
       "hitCount": 163,
       "avgUserRatio": 2.67,
       "activeUsers": 30
-    },
-    {
-      "roomName": "Pirate Treehouse",
-      "hitCount": 162,
-      "avgUserRatio": 1.47,
-      "activeUsers": 43
     },
     {
       "roomName": "Castle Forecourt",
