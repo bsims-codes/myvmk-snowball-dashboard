@@ -25,9 +25,9 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 991,
+    "hitCount": 997,
     "avgUserRatio": 1.02,
-    "activeUsers": 108
+    "activeUsers": 109
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -66,16 +66,16 @@
     "activeUsers": 45
   },
   {
+    "roomName": "Epcot Entrance",
+    "hitCount": 298,
+    "avgUserRatio": 2.38,
+    "activeUsers": 67
+  },
+  {
     "roomName": "Blue Bayou",
     "hitCount": 292,
     "avgUserRatio": 2.23,
     "activeUsers": 78
-  },
-  {
-    "roomName": "Epcot Entrance",
-    "hitCount": 292,
-    "avgUserRatio": 2.39,
-    "activeUsers": 66
   },
   {
     "roomName": "Shrunken Ned's Shop",
@@ -102,16 +102,16 @@
     "activeUsers": 31
   },
   {
+    "roomName": "Jungle Cruise Dock",
+    "hitCount": 189,
+    "avgUserRatio": 4.41,
+    "activeUsers": 30
+  },
+  {
     "roomName": "Monorail Train",
     "hitCount": 189,
     "avgUserRatio": 2.92,
     "activeUsers": 19
-  },
-  {
-    "roomName": "Jungle Cruise Dock",
-    "hitCount": 184,
-    "avgUserRatio": 4.32,
-    "activeUsers": 30
   },
   {
     "roomName": "Tomorrowland Hub",
