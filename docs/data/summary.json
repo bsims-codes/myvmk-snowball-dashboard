@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-04T18:57:36.016Z",
-  "totalRows": 23620,
+  "generatedAt": "2026-01-04T19:12:27.341Z",
+  "totalRows": 23623,
   "totalUsers": 466,
   "teamStats": {
     "Penguin": {
       "users": 209,
-      "attacks": 13529,
+      "attacks": 13532,
       "hitsTaken": 10091
     },
     "Reindeer": {
       "users": 257,
       "attacks": 10091,
-      "hitsTaken": 13529
+      "hitsTaken": 13532
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 13529
+      "count": 13532
     },
     {
       "pair": "Reindeer → Penguin",
@@ -57,7 +57,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 971,
+      "attacks": 973,
       "team": "Penguin"
     },
     {
@@ -147,7 +147,7 @@
     },
     {
       "user": "Lilasaurus",
-      "attacks": 260,
+      "attacks": 261,
       "team": "Penguin"
     },
     {
@@ -322,9 +322,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 971,
+      "attacks": 973,
       "hitsTaken": 295,
-      "ratio": 3.2915254237288134
+      "ratio": 3.298305084745763
     },
     {
       "user": "PepaRaindrops",
@@ -483,9 +483,9 @@
     {
       "user": "Lilasaurus",
       "team": "Penguin",
-      "attacks": 260,
+      "attacks": 261,
       "hitsTaken": 136,
-      "ratio": 1.911764705882353
+      "ratio": 1.9191176470588236
     },
     {
       "user": "Chime",
@@ -1587,6 +1587,13 @@
       "ratio": 0.08
     },
     {
+      "user": "bluedudeman",
+      "team": "Reindeer",
+      "attacks": 3,
+      "hitsTaken": 24,
+      "ratio": 0.125
+    },
+    {
       "user": "LittleCrazySecret",
       "team": "Penguin",
       "attacks": 0,
@@ -1673,13 +1680,6 @@
     {
       "user": "SpookyBrightFairy",
       "team": "Penguin",
-      "attacks": 3,
-      "hitsTaken": 21,
-      "ratio": 0.14285714285714285
-    },
-    {
-      "user": "bluedudeman",
-      "team": "Reindeer",
       "attacks": 3,
       "hitsTaken": 21,
       "ratio": 0.14285714285714285
@@ -3549,30 +3549,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3752895440876459,
-      "intercept": 31.664508516415886,
+      "slope": 0.3752300657913176,
+      "intercept": 31.671545398737564,
       "xMin": 0,
       "xMax": 2749,
-      "y1": 31.664508516415886,
-      "y2": 1063.3354652133546,
+      "y1": 31.671545398737564,
+      "y2": 1063.17899625907,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3017036809419081,
-      "intercept": 28.752396653286727,
+      "slope": 0.3016259686875777,
+      "intercept": 28.753097568036832,
       "xMin": 0,
       "xMax": 2749,
-      "y1": 28.752396653286727,
-      "y2": 858.135815562592,
+      "y1": 28.753097568036832,
+      "y2": 857.9228854901879,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4364215891717401,
-      "intercept": 35.50610795201545,
+      "slope": 0.43641117899354,
+      "intercept": 35.518189855160266,
       "xMin": 0,
       "xMax": 2749,
-      "y1": 35.50610795201545,
-      "y2": 1235.2290565851292,
+      "y1": 35.518189855160266,
+      "y2": 1235.2125209084018,
       "label": "Reindeer"
     }
   },
@@ -3603,9 +3603,9 @@
     },
     {
       "roomName": "Central Plaza",
-      "hitCount": 998,
+      "hitCount": 999,
       "avgUserRatio": 1.02,
-      "activeUsers": 109
+      "activeUsers": 110
     },
     {
       "roomName": "Fantasyland in The Sky",

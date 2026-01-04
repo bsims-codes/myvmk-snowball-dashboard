@@ -25,9 +25,9 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 998,
+    "hitCount": 999,
     "avgUserRatio": 1.02,
-    "activeUsers": 109
+    "activeUsers": 110
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -348,6 +348,12 @@
     "activeUsers": 11
   },
   {
+    "roomName": "WS - France",
+    "hitCount": 8,
+    "avgUserRatio": 0.94,
+    "activeUsers": 8
+  },
+  {
     "roomName": "Discovery Trading Company",
     "hitCount": 7,
     "avgUserRatio": 0.86,
@@ -358,12 +364,6 @@
     "hitCount": 7,
     "avgUserRatio": 2.33,
     "activeUsers": 3
-  },
-  {
-    "roomName": "WS - France",
-    "hitCount": 7,
-    "avgUserRatio": 1.08,
-    "activeUsers": 6
   },
   {
     "roomName": "Star Commander Lobby",
@@ -378,6 +378,12 @@
     "activeUsers": 5
   },
   {
+    "roomName": "Shipwreck Graveyard",
+    "hitCount": 5,
+    "avgUserRatio": 0.63,
+    "activeUsers": 8
+  },
+  {
     "roomName": "Everest Entrance",
     "hitCount": 5,
     "avgUserRatio": 0.83,
@@ -387,12 +393,6 @@
     "roomName": "Big Thunder Mountain",
     "hitCount": 5,
     "avgUserRatio": 0.83,
-    "activeUsers": 6
-  },
-  {
-    "roomName": "Shipwreck Graveyard",
-    "hitCount": 4,
-    "avgUserRatio": 0.67,
     "activeUsers": 6
   },
   {
