@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-04T05:31:28.177Z",
-  "totalRows": 23419,
+  "generatedAt": "2026-01-04T05:49:15.674Z",
+  "totalRows": 23430,
   "totalUsers": 461,
   "teamStats": {
     "Penguin": {
       "users": 208,
-      "attacks": 13470,
-      "hitsTaken": 9949
+      "attacks": 13480,
+      "hitsTaken": 9950
     },
     "Reindeer": {
       "users": 253,
-      "attacks": 9949,
-      "hitsTaken": 13470
+      "attacks": 9950,
+      "hitsTaken": 13480
     },
     "Unknown": {
       "users": 0,
@@ -22,17 +22,17 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 13470
+      "count": 13480
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 9949
+      "count": 9950
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 2617,
+      "attacks": 2618,
       "team": "Reindeer"
     },
     {
@@ -86,14 +86,14 @@
       "team": "Penguin"
     },
     {
+      "user": "Devgirlforever",
+      "attacks": 518,
+      "team": "Penguin"
+    },
+    {
       "user": "Jewelsy",
       "attacks": 515,
       "team": "Reindeer"
-    },
-    {
-      "user": "Devgirlforever",
-      "attacks": 508,
-      "team": "Penguin"
     },
     {
       "user": "bsims",
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 2617,
+      "attacks": 2618,
       "hitsTaken": 809,
-      "ratio": 3.2348578491965387
+      "ratio": 3.2360939431396787
     },
     {
       "user": "CaptainBubbles",
@@ -365,8 +365,8 @@
       "user": "JustForFun",
       "team": "Penguin",
       "attacks": 760,
-      "hitsTaken": 140,
-      "ratio": 5.428571428571429
+      "hitsTaken": 141,
+      "ratio": 5.390070921985815
     },
     {
       "user": "VMKNeec",
@@ -385,9 +385,9 @@
     {
       "user": "Devgirlforever",
       "team": "Penguin",
-      "attacks": 508,
+      "attacks": 518,
       "hitsTaken": 292,
-      "ratio": 1.7397260273972603
+      "ratio": 1.773972602739726
     },
     {
       "user": "mikgriz",
@@ -1783,6 +1783,13 @@
       "ratio": 1.5
     },
     {
+      "user": "SkywayStitch",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 20,
+      "ratio": 0
+    },
+    {
       "user": "Curbur",
       "team": "Penguin",
       "attacks": 15,
@@ -2162,13 +2169,6 @@
     },
     {
       "user": "sarastrawbellar",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 10,
-      "ratio": 0
-    },
-    {
-      "user": "SkywayStitch",
       "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 10,
@@ -3514,37 +3514,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3849407036525885,
-      "intercept": 31.245279091453426,
+      "slope": 0.38481976135036605,
+      "intercept": 31.266101933971633,
       "xMin": 0,
-      "xMax": 2617,
-      "y1": 31.245279091453426,
-      "y2": 1038.6351005502775,
+      "xMax": 2618,
+      "y1": 31.266101933971633,
+      "y2": 1038.72423714923,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3032753113149507,
-      "intercept": 28.19173825282507,
+      "slope": 0.30332719061442476,
+      "intercept": 28.178603223642085,
       "xMin": 0,
-      "xMax": 2617,
-      "y1": 28.19173825282507,
-      "y2": 821.8632279640511,
+      "xMax": 2618,
+      "y1": 28.178603223642085,
+      "y2": 822.2891882522061,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.45694492227685046,
-      "intercept": 35.27215402477318,
+      "slope": 0.4567404601277771,
+      "intercept": 35.3179147103898,
       "xMin": 0,
-      "xMax": 2617,
-      "y1": 35.27215402477318,
-      "y2": 1231.0970156232909,
+      "xMax": 2618,
+      "y1": 35.3179147103898,
+      "y2": 1231.0644393249104,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 6639,
+      "hitCount": 6640,
       "avgUserRatio": 0.92,
       "activeUsers": 195
     },
@@ -3562,8 +3562,8 @@
     },
     {
       "roomName": "Matterhorn",
-      "hitCount": 1553,
-      "avgUserRatio": 1.13,
+      "hitCount": 1563,
+      "avgUserRatio": 1.15,
       "activeUsers": 194
     },
     {
