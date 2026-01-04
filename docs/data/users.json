@@ -51,9 +51,9 @@
   {
     "user": "JustForFun",
     "team": "Penguin",
-    "attacks": 767,
+    "attacks": 768,
     "hitsTaken": 144,
-    "ratio": 5.326388888888889
+    "ratio": 5.333333333333333
   },
   {
     "user": "Mali",
@@ -147,6 +147,13 @@
     "ratio": 1.1446280991735538
   },
   {
+    "user": "Lilasaurus",
+    "team": "Penguin",
+    "attacks": 276,
+    "hitsTaken": 136,
+    "ratio": 2.0294117647058822
+  },
+  {
     "user": "SpideyxLei",
     "team": "Reindeer",
     "attacks": 272,
@@ -159,13 +166,6 @@
     "attacks": 265,
     "hitsTaken": 197,
     "ratio": 1.3451776649746192
-  },
-  {
-    "user": "Lilasaurus",
-    "team": "Penguin",
-    "attacks": 265,
-    "hitsTaken": 136,
-    "ratio": 1.9485294117647058
   },
   {
     "user": "Chime",
@@ -728,6 +728,13 @@
     "ratio": 2.4285714285714284
   },
   {
+    "user": "HugsforaLifetime",
+    "team": "Penguin",
+    "attacks": 17,
+    "hitsTaken": 47,
+    "ratio": 0.3617021276595745
+  },
+  {
     "user": "FISHkars",
     "team": "Reindeer",
     "attacks": 16,
@@ -796,13 +803,6 @@
     "attacks": 12,
     "hitsTaken": 8,
     "ratio": 1.5
-  },
-  {
-    "user": "HugsforaLifetime",
-    "team": "Penguin",
-    "attacks": 12,
-    "hitsTaken": 45,
-    "ratio": 0.26666666666666666
   },
   {
     "user": "Question",
@@ -1232,6 +1232,13 @@
     "ratio": 0.1111111111111111
   },
   {
+    "user": "Guest10148967",
+    "team": "Reindeer",
+    "attacks": 3,
+    "hitsTaken": 28,
+    "ratio": 0.10714285714285714
+  },
+  {
     "user": "Bernardo-S-Rocks",
     "team": "Penguin",
     "attacks": 2,
@@ -1461,13 +1468,6 @@
     "attacks": 1,
     "hitsTaken": 0,
     "ratio": 1
-  },
-  {
-    "user": "Guest10148967",
-    "team": "Reindeer",
-    "attacks": 1,
-    "hitsTaken": 12,
-    "ratio": 0.08333333333333333
   },
   {
     "user": "Ash_Mccash",
@@ -1914,7 +1914,7 @@
     "user": "MuffinSpark",
     "team": "Reindeer",
     "attacks": 0,
-    "hitsTaken": 20,
+    "hitsTaken": 21,
     "ratio": 0
   },
   {
