@@ -14818,6 +14818,45 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-47",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-04T02:18:07.000Z",
+    "end": "2026-01-04T02:27:11.000Z",
+    "durationMinutes": 9,
+    "hitCount": 33,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 33
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 33
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 33,
+        "hitsTaken": 0,
+        "ratio": 33
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 33,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Shrunken Ned's Shop-2",
     "roomName": "Shrunken Ned's Shop",
     "start": "2025-12-29T18:26:32.000Z",
