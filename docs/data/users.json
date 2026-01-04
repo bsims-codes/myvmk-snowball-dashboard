@@ -37,9 +37,9 @@
   {
     "user": "TaterTotCasserole",
     "team": "Penguin",
-    "attacks": 950,
+    "attacks": 954,
     "hitsTaken": 294,
-    "ratio": 3.2312925170068025
+    "ratio": 3.2448979591836733
   },
   {
     "user": "PepaRaindrops",
@@ -1312,8 +1312,8 @@
     "user": "Cali",
     "team": "Reindeer",
     "attacks": 2,
-    "hitsTaken": 77,
-    "ratio": 0.025974025974025976
+    "hitsTaken": 80,
+    "ratio": 0.025
   },
   {
     "user": "fry",
@@ -3238,6 +3238,13 @@
     "team": "Reindeer",
     "attacks": 0,
     "hitsTaken": 5,
+    "ratio": 0
+  },
+  {
+    "user": "bluedudeman",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 1,
     "ratio": 0
   }
 ]

@@ -37,8 +37,8 @@
   },
   {
     "roomName": "Dungeon",
-    "hitCount": 625,
-    "avgUserRatio": 2.58,
+    "hitCount": 626,
+    "avgUserRatio": 2.59,
     "activeUsers": 66
   },
   {
@@ -73,7 +73,7 @@
   },
   {
     "roomName": "Blue Bayou",
-    "hitCount": 292,
+    "hitCount": 293,
     "avgUserRatio": 2.23,
     "activeUsers": 78
   },
@@ -139,9 +139,9 @@
   },
   {
     "roomName": "Pirate Treehouse",
-    "hitCount": 161,
-    "avgUserRatio": 1.5,
-    "activeUsers": 42
+    "hitCount": 162,
+    "avgUserRatio": 1.47,
+    "activeUsers": 43
   },
   {
     "roomName": "Castle Forecourt",
@@ -430,5 +430,11 @@
     "hitCount": 2,
     "avgUserRatio": 0.5,
     "activeUsers": 4
+  },
+  {
+    "roomName": "WS - Canada",
+    "hitCount": 1,
+    "avgUserRatio": 0.5,
+    "activeUsers": 2
   }
 ]

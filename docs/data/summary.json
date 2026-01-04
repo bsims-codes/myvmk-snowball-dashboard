@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-04T16:13:13.172Z",
-  "totalRows": 23576,
-  "totalUsers": 463,
+  "generatedAt": "2026-01-04T16:38:30.495Z",
+  "totalRows": 23580,
+  "totalUsers": 464,
   "teamStats": {
     "Penguin": {
       "users": 208,
-      "attacks": 13490,
+      "attacks": 13494,
       "hitsTaken": 10086
     },
     "Reindeer": {
-      "users": 255,
+      "users": 256,
       "attacks": 10086,
-      "hitsTaken": 13490
+      "hitsTaken": 13494
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 13490
+      "count": 13494
     },
     {
       "pair": "Reindeer → Penguin",
@@ -57,7 +57,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 950,
+      "attacks": 954,
       "team": "Penguin"
     },
     {
@@ -322,9 +322,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 950,
+      "attacks": 954,
       "hitsTaken": 294,
-      "ratio": 3.2312925170068025
+      "ratio": 3.2448979591836733
     },
     {
       "user": "PepaRaindrops",
@@ -1020,6 +1020,13 @@
       "ratio": 0.0641025641025641
     },
     {
+      "user": "Cali",
+      "team": "Reindeer",
+      "attacks": 2,
+      "hitsTaken": 80,
+      "ratio": 0.025
+    },
+    {
       "user": "Konzo",
       "team": "Reindeer",
       "attacks": 37,
@@ -1046,13 +1053,6 @@
       "attacks": 16,
       "hitsTaken": 63,
       "ratio": 0.25396825396825395
-    },
-    {
-      "user": "Cali",
-      "team": "Reindeer",
-      "attacks": 2,
-      "hitsTaken": 77,
-      "ratio": 0.025974025974025976
     },
     {
       "user": "-Misty-",
@@ -3524,34 +3524,41 @@
       "attacks": 0,
       "hitsTaken": 1,
       "ratio": 0
+    },
+    {
+      "user": "bluedudeman",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 1,
+      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.375538026051444,
-      "intercept": 31.797657662659084,
+      "slope": 0.37552102185308833,
+      "intercept": 31.73537565669004,
       "xMin": 0,
       "xMax": 2749,
-      "y1": 31.797657662659084,
-      "y2": 1064.1516912780785,
+      "y1": 31.73537565669004,
+      "y2": 1064.0426647308298,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.30208870405954363,
-      "intercept": 28.898189337676715,
+      "slope": 0.3019448856691272,
+      "intercept": 28.901710157599986,
       "xMin": 0,
       "xMax": 2749,
-      "y1": 28.898189337676715,
-      "y2": 859.3400367973622,
+      "y1": 28.901710157599986,
+      "y2": 858.9482008620306,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.43615292994211474,
-      "intercept": 35.65082960236796,
+      "slope": 0.4362728572721526,
+      "intercept": 35.522468599816676,
       "xMin": 0,
       "xMax": 2749,
-      "y1": 35.65082960236796,
-      "y2": 1234.6352340132414,
+      "y1": 35.522468599816676,
+      "y2": 1234.8365532409641,
       "label": "Reindeer"
     }
   },
@@ -3594,8 +3601,8 @@
     },
     {
       "roomName": "Dungeon",
-      "hitCount": 625,
-      "avgUserRatio": 2.58,
+      "hitCount": 626,
+      "avgUserRatio": 2.59,
       "activeUsers": 66
     },
     {
@@ -3630,7 +3637,7 @@
     },
     {
       "roomName": "Blue Bayou",
-      "hitCount": 292,
+      "hitCount": 293,
       "avgUserRatio": 2.23,
       "activeUsers": 78
     },
@@ -3696,9 +3703,9 @@
     },
     {
       "roomName": "Pirate Treehouse",
-      "hitCount": 161,
-      "avgUserRatio": 1.5,
-      "activeUsers": 42
+      "hitCount": 162,
+      "avgUserRatio": 1.47,
+      "activeUsers": 43
     },
     {
       "roomName": "Castle Forecourt",
