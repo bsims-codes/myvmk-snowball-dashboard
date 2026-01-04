@@ -2,8 +2,8 @@ name: Update Snowball Data
 
 on:
   schedule:
-    # Run every 5 minutes for alert responsiveness
-    - cron: '*/5 * * * *'
+    # Run every minute for faster alert responsiveness
+    - cron: '* * * * *'
   workflow_dispatch:
     # Allow manual trigger from GitHub Actions UI
 
