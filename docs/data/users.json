@@ -2,9 +2,9 @@
   {
     "user": "Kronkx",
     "team": "Reindeer",
-    "attacks": 2749,
-    "hitsTaken": 809,
-    "ratio": 3.3980222496909764
+    "attacks": 2788,
+    "hitsTaken": 824,
+    "ratio": 3.383495145631068
   },
   {
     "user": "CaptainBubbles",
@@ -37,9 +37,9 @@
   {
     "user": "TaterTotCasserole",
     "team": "Penguin",
-    "attacks": 977,
-    "hitsTaken": 297,
-    "ratio": 3.2895622895622894
+    "attacks": 978,
+    "hitsTaken": 300,
+    "ratio": 3.26
   },
   {
     "user": "PepaRaindrops",
@@ -51,9 +51,9 @@
   {
     "user": "JustForFun",
     "team": "Penguin",
-    "attacks": 768,
+    "attacks": 770,
     "hitsTaken": 144,
-    "ratio": 5.333333333333333
+    "ratio": 5.347222222222222
   },
   {
     "user": "Mali",
@@ -79,9 +79,9 @@
   {
     "user": "Devgirlforever",
     "team": "Penguin",
-    "attacks": 533,
-    "hitsTaken": 292,
-    "ratio": 1.8253424657534247
+    "attacks": 540,
+    "hitsTaken": 301,
+    "ratio": 1.7940199335548173
   },
   {
     "user": "Jewelsy",
@@ -142,9 +142,9 @@
   {
     "user": "Lilasaurus",
     "team": "Penguin",
-    "attacks": 281,
-    "hitsTaken": 137,
-    "ratio": 2.051094890510949
+    "attacks": 287,
+    "hitsTaken": 147,
+    "ratio": 1.9523809523809523
   },
   {
     "user": "Meg",
@@ -528,8 +528,8 @@
     "user": "waterfallglow",
     "team": "Reindeer",
     "attacks": 38,
-    "hitsTaken": 90,
-    "ratio": 0.4222222222222222
+    "hitsTaken": 91,
+    "ratio": 0.4175824175824176
   },
   {
     "user": "Konzo",
@@ -693,6 +693,13 @@
     "ratio": 0.1743119266055046
   },
   {
+    "user": "HugsforaLifetime",
+    "team": "Penguin",
+    "attacks": 19,
+    "hitsTaken": 64,
+    "ratio": 0.296875
+  },
+  {
     "user": "Sucrette",
     "team": "Reindeer",
     "attacks": 18,
@@ -726,13 +733,6 @@
     "attacks": 17,
     "hitsTaken": 7,
     "ratio": 2.4285714285714284
-  },
-  {
-    "user": "HugsforaLifetime",
-    "team": "Penguin",
-    "attacks": 17,
-    "hitsTaken": 47,
-    "ratio": 0.3617021276595745
   },
   {
     "user": "FISHkars",
@@ -3259,6 +3259,13 @@
     "team": "Penguin",
     "attacks": 0,
     "hitsTaken": 1,
+    "ratio": 0
+  },
+  {
+    "user": "RavenLunatic",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 2,
     "ratio": 0
   }
 ]

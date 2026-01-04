@@ -1,26 +1,26 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 6801,
-    "avgUserRatio": 0.94,
+    "hitCount": 6822,
+    "avgUserRatio": 0.93,
     "activeUsers": 199
   },
   {
     "roomName": "Town Square",
-    "hitCount": 4213,
+    "hitCount": 4217,
     "avgUserRatio": 1.24,
     "activeUsers": 211
   },
   {
     "roomName": "Main Street",
-    "hitCount": 2003,
+    "hitCount": 2008,
     "avgUserRatio": 1.75,
     "activeUsers": 184
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 1568,
-    "avgUserRatio": 1.15,
+    "hitCount": 1570,
+    "avgUserRatio": 1.14,
     "activeUsers": 194
   },
   {
@@ -31,9 +31,9 @@
   },
   {
     "roomName": "Fantasyland in The Sky",
-    "hitCount": 888,
-    "avgUserRatio": 2.64,
-    "activeUsers": 45
+    "hitCount": 894,
+    "avgUserRatio": 2.51,
+    "activeUsers": 46
   },
   {
     "roomName": "Dungeon",
@@ -43,9 +43,9 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 585,
-    "avgUserRatio": 1.56,
-    "activeUsers": 94
+    "hitCount": 594,
+    "avgUserRatio": 1.55,
+    "activeUsers": 95
   },
   {
     "roomName": "Monorail Station",
@@ -139,9 +139,9 @@
   },
   {
     "roomName": "Gallery",
-    "hitCount": 163,
-    "avgUserRatio": 2.67,
-    "activeUsers": 30
+    "hitCount": 168,
+    "avgUserRatio": 2.44,
+    "activeUsers": 32
   },
   {
     "roomName": "Castle Forecourt",
@@ -175,8 +175,8 @@
   },
   {
     "roomName": "Adventureland Bazaar",
-    "hitCount": 88,
-    "avgUserRatio": 1.48,
+    "hitCount": 89,
+    "avgUserRatio": 1.38,
     "activeUsers": 28
   },
   {
@@ -300,6 +300,12 @@
     "activeUsers": 6
   },
   {
+    "roomName": "Frontierland Dock",
+    "hitCount": 25,
+    "avgUserRatio": 0.82,
+    "activeUsers": 9
+  },
+  {
     "roomName": "Inner-Space Ray Room",
     "hitCount": 24,
     "avgUserRatio": 1.08,
@@ -322,12 +328,6 @@
     "hitCount": 21,
     "avgUserRatio": 2.33,
     "activeUsers": 9
-  },
-  {
-    "roomName": "Frontierland Dock",
-    "hitCount": 21,
-    "avgUserRatio": 0.84,
-    "activeUsers": 6
   },
   {
     "roomName": "Gibbons",
