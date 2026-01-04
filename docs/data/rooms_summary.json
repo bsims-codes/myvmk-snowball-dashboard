@@ -31,9 +31,9 @@
   },
   {
     "roomName": "Fantasyland in The Sky",
-    "hitCount": 883,
-    "avgUserRatio": 2.72,
-    "activeUsers": 43
+    "hitCount": 886,
+    "avgUserRatio": 2.66,
+    "activeUsers": 44
   },
   {
     "roomName": "Dungeon",
@@ -420,6 +420,12 @@
     "activeUsers": 2
   },
   {
+    "roomName": "WS - Canada",
+    "hitCount": 3,
+    "avgUserRatio": 1.5,
+    "activeUsers": 2
+  },
+  {
     "roomName": "Frontierland Cave",
     "hitCount": 2,
     "avgUserRatio": 1,
@@ -430,11 +436,5 @@
     "hitCount": 2,
     "avgUserRatio": 0.5,
     "activeUsers": 4
-  },
-  {
-    "roomName": "WS - Canada",
-    "hitCount": 1,
-    "avgUserRatio": 0.5,
-    "activeUsers": 2
   }
 ]
