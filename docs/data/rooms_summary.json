@@ -169,9 +169,9 @@
   },
   {
     "roomName": "Storybookland",
-    "hitCount": 118,
-    "avgUserRatio": 2.65,
-    "activeUsers": 25
+    "hitCount": 119,
+    "avgUserRatio": 2.59,
+    "activeUsers": 26
   },
   {
     "roomName": "Adventureland Bazaar",
@@ -306,6 +306,12 @@
     "activeUsers": 4
   },
   {
+    "roomName": "Tom Sawyer's Island",
+    "hitCount": 23,
+    "avgUserRatio": 1.47,
+    "activeUsers": 12
+  },
+  {
     "roomName": "WS - America",
     "hitCount": 22,
     "avgUserRatio": 0.91,
@@ -322,12 +328,6 @@
     "hitCount": 21,
     "avgUserRatio": 0.84,
     "activeUsers": 6
-  },
-  {
-    "roomName": "Tom Sawyer's Island",
-    "hitCount": 19,
-    "avgUserRatio": 1.27,
-    "activeUsers": 11
   },
   {
     "roomName": "Gibbons",
