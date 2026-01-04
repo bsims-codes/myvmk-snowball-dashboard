@@ -15088,6 +15088,69 @@
     ]
   },
   {
+    "id": "Autopia Quest Track-1",
+    "roomName": "Autopia Quest Track",
+    "start": "2026-01-03T19:44:10.000Z",
+    "end": "2026-01-03T19:47:33.000Z",
+    "durationMinutes": 3,
+    "hitCount": 32,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "bsims",
+        "team": "Penguin",
+        "attacks": 23
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 7
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 2
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "pizzarollz",
+        "team": "Reindeer",
+        "hitsTaken": 32
+      }
+    ],
+    "participants": [
+      {
+        "user": "pizzarollz",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 32,
+        "ratio": 0
+      },
+      {
+        "user": "bsims",
+        "team": "Penguin",
+        "attacks": 23,
+        "hitsTaken": 0,
+        "ratio": 23
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 7,
+        "hitsTaken": 0,
+        "ratio": 7
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 2,
+        "hitsTaken": 0,
+        "ratio": 2
+      }
+    ]
+  },
+  {
     "id": "Storybookland-1",
     "roomName": "Storybookland",
     "start": "2025-12-23T15:32:53.000Z",
