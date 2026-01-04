@@ -9388,6 +9388,86 @@
     ]
   },
   {
+    "id": "Main Street-8",
+    "roomName": "Main Street",
+    "start": "2026-01-03T23:38:43.000Z",
+    "end": "2026-01-03T23:47:22.000Z",
+    "durationMinutes": 9,
+    "hitCount": 60,
+    "uniqueUsers": 5,
+    "topAttackers": [
+      {
+        "user": "CaptainBubbles",
+        "team": "Reindeer",
+        "attacks": 20
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 19
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 14
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "CaptainBubbles",
+        "team": "Reindeer",
+        "hitsTaken": 24
+      },
+      {
+        "user": "Inferno",
+        "team": "Penguin",
+        "hitsTaken": 16
+      },
+      {
+        "user": "awko-taco",
+        "team": "Reindeer",
+        "hitsTaken": 11
+      }
+    ],
+    "participants": [
+      {
+        "user": "CaptainBubbles",
+        "team": "Reindeer",
+        "attacks": 20,
+        "hitsTaken": 24,
+        "ratio": 0.8333333333333334
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 19,
+        "hitsTaken": 9,
+        "ratio": 2.111111111111111
+      },
+      {
+        "user": "Inferno",
+        "team": "Penguin",
+        "attacks": 2,
+        "hitsTaken": 16,
+        "ratio": 0.125
+      },
+      {
+        "user": "awko-taco",
+        "team": "Reindeer",
+        "attacks": 5,
+        "hitsTaken": 11,
+        "ratio": 0.45454545454545453
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 14,
+        "hitsTaken": 0,
+        "ratio": 14
+      }
+    ]
+  },
+  {
     "id": "VMK Gallery-2",
     "roomName": "VMK Gallery",
     "start": "2026-01-02T14:52:54.000Z",

@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-04T04:29:36.760Z",
-  "totalRows": 23321,
-  "totalUsers": 459,
+  "generatedAt": "2026-01-04T05:01:32.925Z",
+  "totalRows": 23412,
+  "totalUsers": 461,
   "teamStats": {
     "Penguin": {
-      "users": 207,
-      "attacks": 13404,
-      "hitsTaken": 9917
+      "users": 208,
+      "attacks": 13466,
+      "hitsTaken": 9946
     },
     "Reindeer": {
-      "users": 252,
-      "attacks": 9917,
-      "hitsTaken": 13404
+      "users": 253,
+      "attacks": 9946,
+      "hitsTaken": 13466
     },
     "Unknown": {
       "users": 0,
@@ -22,22 +22,22 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 13404
+      "count": 13466
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 9917
+      "count": 9946
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 2610,
+      "attacks": 2614,
       "team": "Reindeer"
     },
     {
       "user": "CaptainBubbles",
-      "attacks": 1425,
+      "attacks": 1445,
       "team": "Reindeer"
     },
     {
@@ -66,12 +66,12 @@
       "team": "Penguin"
     },
     {
-      "user": "Mali",
-      "attacks": 738,
+      "user": "JustForFun",
+      "attacks": 758,
       "team": "Penguin"
     },
     {
-      "user": "JustForFun",
+      "user": "Mali",
       "attacks": 738,
       "team": "Penguin"
     },
@@ -91,18 +91,18 @@
       "team": "Reindeer"
     },
     {
-      "user": "Luckymaxer",
-      "attacks": 487,
+      "user": "Devgirlforever",
+      "attacks": 506,
       "team": "Penguin"
     },
     {
       "user": "bsims",
-      "attacks": 482,
+      "attacks": 492,
       "team": "Penguin"
     },
     {
-      "user": "Devgirlforever",
-      "attacks": 476,
+      "user": "Luckymaxer",
+      "attacks": 487,
       "team": "Penguin"
     },
     {
@@ -159,7 +159,7 @@
   "topVictims": [
     {
       "user": "CaptainBubbles",
-      "hitsTaken": 1108,
+      "hitsTaken": 1139,
       "team": "Reindeer"
     },
     {
@@ -223,14 +223,14 @@
       "team": "Penguin"
     },
     {
+      "user": "Devgirlforever",
+      "hitsTaken": 292,
+      "team": "Penguin"
+    },
+    {
       "user": "RockStar_Olivia",
       "hitsTaken": 289,
       "team": "Reindeer"
-    },
-    {
-      "user": "Devgirlforever",
-      "hitsTaken": 283,
-      "team": "Penguin"
     },
     {
       "user": "Winnie",
@@ -287,16 +287,16 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 2610,
+      "attacks": 2614,
       "hitsTaken": 809,
-      "ratio": 3.2262051915945613
+      "ratio": 3.23114956736712
     },
     {
       "user": "CaptainBubbles",
       "team": "Reindeer",
-      "attacks": 1425,
-      "hitsTaken": 1108,
-      "ratio": 1.286101083032491
+      "attacks": 1445,
+      "hitsTaken": 1139,
+      "ratio": 1.2686567164179106
     },
     {
       "user": "goatduck",
@@ -362,18 +362,18 @@
       "ratio": 0.7821011673151751
     },
     {
+      "user": "JustForFun",
+      "team": "Penguin",
+      "attacks": 758,
+      "hitsTaken": 140,
+      "ratio": 5.414285714285715
+    },
+    {
       "user": "VMKNeec",
       "team": "Penguin",
       "attacks": 679,
       "hitsTaken": 211,
       "ratio": 3.2180094786729856
-    },
-    {
-      "user": "JustForFun",
-      "team": "Penguin",
-      "attacks": 738,
-      "hitsTaken": 139,
-      "ratio": 5.309352517985611
     },
     {
       "user": "BuckyBarnes",
@@ -385,9 +385,9 @@
     {
       "user": "Devgirlforever",
       "team": "Penguin",
-      "attacks": 476,
-      "hitsTaken": 283,
-      "ratio": 1.6819787985865724
+      "attacks": 506,
+      "hitsTaken": 292,
+      "ratio": 1.7328767123287672
     },
     {
       "user": "mikgriz",
@@ -420,9 +420,9 @@
     {
       "user": "bsims",
       "team": "Penguin",
-      "attacks": 482,
+      "attacks": 492,
       "hitsTaken": 118,
-      "ratio": 4.084745762711864
+      "ratio": 4.169491525423729
     },
     {
       "user": "bunny",
@@ -1314,6 +1314,13 @@
       "ratio": 0
     },
     {
+      "user": "masha",
+      "team": "Reindeer",
+      "attacks": 8,
+      "hitsTaken": 36,
+      "ratio": 0.2222222222222222
+    },
+    {
       "user": "SPACEPENNY",
       "team": "Reindeer",
       "attacks": 0,
@@ -1326,6 +1333,13 @@
       "attacks": 10,
       "hitsTaken": 33,
       "ratio": 0.30303030303030304
+    },
+    {
+      "user": "awko-taco",
+      "team": "Reindeer",
+      "attacks": 5,
+      "hitsTaken": 38,
+      "ratio": 0.13157894736842105
     },
     {
       "user": "EdwardCooper",
@@ -1412,13 +1426,6 @@
       "ratio": 0.0625
     },
     {
-      "user": "masha",
-      "team": "Reindeer",
-      "attacks": 8,
-      "hitsTaken": 26,
-      "ratio": 0.3076923076923077
-    },
-    {
       "user": "Focus",
       "team": "Penguin",
       "attacks": 0,
@@ -1466,6 +1473,13 @@
       "attacks": 30,
       "hitsTaken": 3,
       "ratio": 10
+    },
+    {
+      "user": "Inferno",
+      "team": "Penguin",
+      "attacks": 2,
+      "hitsTaken": 31,
+      "ratio": 0.06451612903225806
     },
     {
       "user": "Sandblasted_OctoNuggie",
@@ -1592,13 +1606,6 @@
       "attacks": 6,
       "hitsTaken": 20,
       "ratio": 0.3
-    },
-    {
-      "user": "awko-taco",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 26,
-      "ratio": 0
     },
     {
       "user": "StarsCollide",
@@ -1972,13 +1979,6 @@
       "ratio": 0
     },
     {
-      "user": "Inferno",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 15,
-      "ratio": 0
-    },
-    {
       "user": "strangetowngirl",
       "team": "Penguin",
       "attacks": 0,
@@ -2239,6 +2239,13 @@
     },
     {
       "user": "Marie",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 9,
+      "ratio": 0
+    },
+    {
+      "user": "Emil",
       "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 9,
@@ -2980,6 +2987,13 @@
       "ratio": 0
     },
     {
+      "user": "Darksilverwolf",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 3,
+      "ratio": 0
+    },
+    {
       "user": "Julioulia",
       "team": "Reindeer",
       "attacks": 0,
@@ -3500,39 +3514,39 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.38358544302957215,
-      "intercept": 31.318962708294876,
+      "slope": 0.3852216586828841,
+      "intercept": 31.221671424981167,
       "xMin": 0,
-      "xMax": 2610,
-      "y1": 31.318962708294876,
-      "y2": 1032.4769690154783,
+      "xMax": 2614,
+      "y1": 31.221671424981167,
+      "y2": 1038.19108722204,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3038412376048908,
-      "intercept": 28.233391551420503,
+      "slope": 0.30337412540862047,
+      "intercept": 28.176750130997675,
       "xMin": 0,
-      "xMax": 2610,
-      "y1": 28.233391551420503,
-      "y2": 821.2590217001855,
+      "xMax": 2614,
+      "y1": 28.176750130997675,
+      "y2": 821.1967139491315,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.45402529532201114,
-      "intercept": 35.323139469411174,
+      "slope": 0.4574523086385622,
+      "intercept": 35.24181556632752,
       "xMin": 0,
-      "xMax": 2610,
-      "y1": 35.323139469411174,
-      "y2": 1220.3291602598604,
+      "xMax": 2614,
+      "y1": 35.24181556632752,
+      "y2": 1231.0221503475289,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 6633,
-      "avgUserRatio": 0.93,
-      "activeUsers": 194
+      "hitCount": 6637,
+      "avgUserRatio": 0.92,
+      "activeUsers": 195
     },
     {
       "roomName": "Town Square",
@@ -3542,9 +3556,9 @@
     },
     {
       "roomName": "Main Street",
-      "hitCount": 1940,
-      "avgUserRatio": 1.77,
-      "activeUsers": 181
+      "hitCount": 2000,
+      "avgUserRatio": 1.76,
+      "activeUsers": 183
     },
     {
       "roomName": "Matterhorn",
@@ -3554,7 +3568,7 @@
     },
     {
       "roomName": "Central Plaza",
-      "hitCount": 997,
+      "hitCount": 998,
       "avgUserRatio": 1.02,
       "activeUsers": 109
     },
@@ -3620,7 +3634,7 @@
     },
     {
       "roomName": "Street Party Music Game Lobby",
-      "hitCount": 226,
+      "hitCount": 227,
       "avgUserRatio": 1.36,
       "activeUsers": 70
     },

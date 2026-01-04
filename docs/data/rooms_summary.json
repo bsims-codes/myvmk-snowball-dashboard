@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 6633,
-    "avgUserRatio": 0.93,
-    "activeUsers": 194
+    "hitCount": 6637,
+    "avgUserRatio": 0.92,
+    "activeUsers": 195
   },
   {
     "roomName": "Town Square",
@@ -13,9 +13,9 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 1940,
-    "avgUserRatio": 1.77,
-    "activeUsers": 181
+    "hitCount": 2000,
+    "avgUserRatio": 1.76,
+    "activeUsers": 183
   },
   {
     "roomName": "Matterhorn",
@@ -25,7 +25,7 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 997,
+    "hitCount": 998,
     "avgUserRatio": 1.02,
     "activeUsers": 109
   },
@@ -91,7 +91,7 @@
   },
   {
     "roomName": "Street Party Music Game Lobby",
-    "hitCount": 226,
+    "hitCount": 227,
     "avgUserRatio": 1.36,
     "activeUsers": 70
   },
@@ -186,6 +186,12 @@
     "activeUsers": 26
   },
   {
+    "roomName": "Adventureland Bazaar",
+    "hitCount": 83,
+    "avgUserRatio": 1.54,
+    "activeUsers": 26
+  },
+  {
     "roomName": "Festival of the Lion King",
     "hitCount": 79,
     "avgUserRatio": 6.87,
@@ -208,12 +214,6 @@
     "hitCount": 61,
     "avgUserRatio": 4.62,
     "activeUsers": 13
-  },
-  {
-    "roomName": "Adventureland Bazaar",
-    "hitCount": 58,
-    "avgUserRatio": 0.99,
-    "activeUsers": 22
   },
   {
     "roomName": "Autopia Off Road on Mars",
