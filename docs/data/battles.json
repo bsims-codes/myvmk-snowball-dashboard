@@ -9758,6 +9758,45 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-47",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-04T02:18:07.000Z",
+    "end": "2026-01-04T02:40:10.000Z",
+    "durationMinutes": 22,
+    "hitCount": 57,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 57
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 57
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 57,
+        "hitsTaken": 0,
+        "ratio": 57
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 57,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Frontierland Hub-4",
     "roomName": "Frontierland Hub",
     "start": "2025-12-24T13:27:59.000Z",
@@ -14814,45 +14853,6 @@
         "attacks": 1,
         "hitsTaken": 0,
         "ratio": 1
-      }
-    ]
-  },
-  {
-    "id": "Captain's Quest Quarters-47",
-    "roomName": "Captain's Quest Quarters",
-    "start": "2026-01-04T02:18:07.000Z",
-    "end": "2026-01-04T02:27:11.000Z",
-    "durationMinutes": 9,
-    "hitCount": 33,
-    "uniqueUsers": 2,
-    "topAttackers": [
-      {
-        "user": "Kronkx",
-        "team": "Reindeer",
-        "attacks": 33
-      }
-    ],
-    "topVictims": [
-      {
-        "user": "HappyToughFish",
-        "team": "Penguin",
-        "hitsTaken": 33
-      }
-    ],
-    "participants": [
-      {
-        "user": "Kronkx",
-        "team": "Reindeer",
-        "attacks": 33,
-        "hitsTaken": 0,
-        "ratio": 33
-      },
-      {
-        "user": "HappyToughFish",
-        "team": "Penguin",
-        "attacks": 0,
-        "hitsTaken": 33,
-        "ratio": 0
       }
     ]
   },
