@@ -19,7 +19,7 @@
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 1563,
+    "hitCount": 1568,
     "avgUserRatio": 1.15,
     "activeUsers": 194
   },
@@ -31,9 +31,9 @@
   },
   {
     "roomName": "Fantasyland in The Sky",
-    "hitCount": 886,
-    "avgUserRatio": 2.66,
-    "activeUsers": 44
+    "hitCount": 888,
+    "avgUserRatio": 2.64,
+    "activeUsers": 45
   },
   {
     "roomName": "Dungeon",
@@ -67,9 +67,9 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 298,
-    "avgUserRatio": 2.38,
-    "activeUsers": 67
+    "hitCount": 299,
+    "avgUserRatio": 2.32,
+    "activeUsers": 69
   },
   {
     "roomName": "Blue Bayou",
@@ -150,6 +150,12 @@
     "activeUsers": 39
   },
   {
+    "roomName": "WS - United Kingdom",
+    "hitCount": 140,
+    "avgUserRatio": 1.23,
+    "activeUsers": 40
+  },
+  {
     "roomName": "Tiki Tiki Tiki Island",
     "hitCount": 140,
     "avgUserRatio": 1.67,
@@ -160,12 +166,6 @@
     "hitCount": 136,
     "avgUserRatio": 4.63,
     "activeUsers": 21
-  },
-  {
-    "roomName": "WS - United Kingdom",
-    "hitCount": 136,
-    "avgUserRatio": 1.19,
-    "activeUsers": 38
   },
   {
     "roomName": "Storybookland",
@@ -204,6 +204,12 @@
     "activeUsers": 24
   },
   {
+    "roomName": "Autopia Off Road on Mars",
+    "hitCount": 68,
+    "avgUserRatio": 1.19,
+    "activeUsers": 23
+  },
+  {
     "roomName": "Explorer's Tent",
     "hitCount": 66,
     "avgUserRatio": 3.85,
@@ -214,12 +220,6 @@
     "hitCount": 61,
     "avgUserRatio": 4.62,
     "activeUsers": 13
-  },
-  {
-    "roomName": "Autopia Off Road on Mars",
-    "hitCount": 57,
-    "avgUserRatio": 0.99,
-    "activeUsers": 21
   },
   {
     "roomName": "Nautilus Grotto",
