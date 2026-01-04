@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-04T05:57:33.120Z",
-  "totalRows": 23434,
-  "totalUsers": 461,
+  "generatedAt": "2026-01-04T06:25:05.665Z",
+  "totalRows": 23440,
+  "totalUsers": 462,
   "teamStats": {
     "Penguin": {
       "users": 208,
-      "attacks": 13484,
+      "attacks": 13490,
       "hitsTaken": 9950
     },
     "Reindeer": {
-      "users": 253,
+      "users": 254,
       "attacks": 9950,
-      "hitsTaken": 13484
+      "hitsTaken": 13490
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 13484
+      "count": 13490
     },
     {
       "pair": "Reindeer → Penguin",
@@ -87,7 +87,7 @@
     },
     {
       "user": "Devgirlforever",
-      "attacks": 519,
+      "attacks": 525,
       "team": "Penguin"
     },
     {
@@ -385,9 +385,9 @@
     {
       "user": "Devgirlforever",
       "team": "Penguin",
-      "attacks": 519,
+      "attacks": 525,
       "hitsTaken": 292,
-      "ratio": 1.7773972602739727
+      "ratio": 1.797945205479452
     },
     {
       "user": "mikgriz",
@@ -1142,8 +1142,8 @@
       "user": "Bernardo_S_Rocks",
       "team": "Reindeer",
       "attacks": 39,
-      "hitsTaken": 30,
-      "ratio": 1.3
+      "hitsTaken": 31,
+      "ratio": 1.2580645161290323
     },
     {
       "user": "Nigel",
@@ -2630,6 +2630,13 @@
       "ratio": 0
     },
     {
+      "user": "Amour",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 5,
+      "ratio": 0
+    },
+    {
       "user": "MicksGirl",
       "team": "Penguin",
       "attacks": 2,
@@ -3514,30 +3521,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3847251663143452,
-      "intercept": 31.276248270259508,
+      "slope": 0.38475829269857326,
+      "intercept": 31.21486064750096,
       "xMin": 0,
       "xMax": 2618,
-      "y1": 31.276248270259508,
-      "y2": 1038.4867336812154,
+      "y1": 31.21486064750096,
+      "y2": 1038.5120709323658,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3032008009202145,
-      "intercept": 28.180963463422245,
+      "slope": 0.303176228058964,
+      "intercept": 28.17381097829123,
       "xMin": 0,
       "xMax": 2618,
-      "y1": 28.180963463422245,
-      "y2": 821.9606602725438,
+      "y1": 28.17381097829123,
+      "y2": 821.889176036659,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4567243270166323,
-      "intercept": 35.334359471085016,
+      "slope": 0.45684615522033123,
+      "intercept": 35.214097462825606,
       "xMin": 0,
       "xMax": 2618,
-      "y1": 35.334359471085016,
-      "y2": 1231.0386476006283,
+      "y1": 35.214097462825606,
+      "y2": 1231.2373318296527,
       "label": "Reindeer"
     }
   },
@@ -3550,7 +3557,7 @@
     },
     {
       "roomName": "Town Square",
-      "hitCount": 4212,
+      "hitCount": 4213,
       "avgUserRatio": 1.24,
       "activeUsers": 211
     },
@@ -3622,9 +3629,9 @@
     },
     {
       "roomName": "Shrunken Ned's Shop",
-      "hitCount": 244,
-      "avgUserRatio": 5.26,
-      "activeUsers": 40
+      "hitCount": 247,
+      "avgUserRatio": 5.2,
+      "activeUsers": 41
     },
     {
       "roomName": "Snow White Hide 'n Seek Forest",
