@@ -14418,6 +14418,69 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-48",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-04T02:59:55.000Z",
+    "end": "2026-01-04T03:08:01.000Z",
+    "durationMinutes": 8,
+    "hitCount": 36,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 31
+      },
+      {
+        "user": "UltraBSBL",
+        "team": "Reindeer",
+        "attacks": 5
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Inferno",
+        "team": "Penguin",
+        "hitsTaken": 20
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 16
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 31,
+        "hitsTaken": 0,
+        "ratio": 31
+      },
+      {
+        "user": "Inferno",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 20,
+        "ratio": 0
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 16,
+        "ratio": 0
+      },
+      {
+        "user": "UltraBSBL",
+        "team": "Reindeer",
+        "attacks": 5,
+        "hitsTaken": 0,
+        "ratio": 5
+      }
+    ]
+  },
+  {
     "id": "VMK Gallery-1",
     "roomName": "VMK Gallery",
     "start": "2026-01-02T14:42:56.000Z",
