@@ -2,9 +2,9 @@
   {
     "user": "Kronkx",
     "team": "Reindeer",
-    "attacks": 3038,
+    "attacks": 3059,
     "hitsTaken": 883,
-    "ratio": 3.4405436013590034
+    "ratio": 3.464326160815402
   },
   {
     "user": "CaptainBubbles",
@@ -51,9 +51,9 @@
   {
     "user": "JustForFun",
     "team": "Penguin",
-    "attacks": 807,
-    "hitsTaken": 164,
-    "ratio": 4.920731707317073
+    "attacks": 814,
+    "hitsTaken": 167,
+    "ratio": 4.874251497005988
   },
   {
     "user": "bsims",
@@ -1482,6 +1482,13 @@
     "attacks": 1,
     "hitsTaken": 0,
     "ratio": 1
+  },
+  {
+    "user": "JumboPunkMouse",
+    "team": "Reindeer",
+    "attacks": 1,
+    "hitsTaken": 7,
+    "ratio": 0.14285714285714285
   },
   {
     "user": "Ash_Mccash",
@@ -3343,6 +3350,13 @@
     "team": "Penguin",
     "attacks": 0,
     "hitsTaken": 5,
+    "ratio": 0
+  },
+  {
+    "user": "hades17",
+    "team": "Penguin",
+    "attacks": 0,
+    "hitsTaken": 19,
     "ratio": 0
   }
 ]

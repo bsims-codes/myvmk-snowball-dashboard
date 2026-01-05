@@ -67,9 +67,9 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 320,
-    "avgUserRatio": 2.2,
-    "activeUsers": 75
+    "hitCount": 326,
+    "avgUserRatio": 2.18,
+    "activeUsers": 76
   },
   {
     "roomName": "Blue Bayou",
@@ -120,16 +120,16 @@
     "activeUsers": 30
   },
   {
+    "roomName": "Pixar Pier Entrance",
+    "hitCount": 186,
+    "avgUserRatio": 1.12,
+    "activeUsers": 39
+  },
+  {
     "roomName": "VMK Gallery",
     "hitCount": 176,
     "avgUserRatio": 4.01,
     "activeUsers": 30
-  },
-  {
-    "roomName": "Pixar Pier Entrance",
-    "hitCount": 173,
-    "avgUserRatio": 1.33,
-    "activeUsers": 38
   },
   {
     "roomName": "Pirate Treehouse",
@@ -151,9 +151,9 @@
   },
   {
     "roomName": "Tiki Tiki Tiki Island",
-    "hitCount": 152,
-    "avgUserRatio": 1.64,
-    "activeUsers": 29
+    "hitCount": 153,
+    "avgUserRatio": 1.59,
+    "activeUsers": 30
   },
   {
     "roomName": "Castle Forecourt",
@@ -186,6 +186,12 @@
     "activeUsers": 29
   },
   {
+    "roomName": "Autopia Off Road on Mars",
+    "hitCount": 86,
+    "avgUserRatio": 1.12,
+    "activeUsers": 26
+  },
+  {
     "roomName": "Penny Arcade",
     "hitCount": 85,
     "avgUserRatio": 1.41,
@@ -196,12 +202,6 @@
     "hitCount": 79,
     "avgUserRatio": 6.87,
     "activeUsers": 11
-  },
-  {
-    "roomName": "Autopia Off Road on Mars",
-    "hitCount": 78,
-    "avgUserRatio": 1.13,
-    "activeUsers": 25
   },
   {
     "roomName": "Mickey's Courtyard",
@@ -355,9 +355,9 @@
   },
   {
     "roomName": "Anandapur",
-    "hitCount": 13,
-    "avgUserRatio": 1.18,
-    "activeUsers": 11
+    "hitCount": 14,
+    "avgUserRatio": 1.17,
+    "activeUsers": 12
   },
   {
     "roomName": "Shipwreck Graveyard",

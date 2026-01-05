@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-05T14:58:11.504Z",
-  "totalRows": 25016,
-  "totalUsers": 478,
+  "generatedAt": "2026-01-05T15:20:55.297Z",
+  "totalRows": 25045,
+  "totalUsers": 480,
   "teamStats": {
     "Penguin": {
-      "users": 217,
-      "attacks": 14262,
-      "hitsTaken": 10754
+      "users": 218,
+      "attacks": 14269,
+      "hitsTaken": 10776
     },
     "Reindeer": {
-      "users": 261,
-      "attacks": 10754,
-      "hitsTaken": 14262
+      "users": 262,
+      "attacks": 10776,
+      "hitsTaken": 14269
     },
     "Unknown": {
       "users": 0,
@@ -22,17 +22,17 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 14262
+      "count": 14269
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 10754
+      "count": 10776
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 3038,
+      "attacks": 3059,
       "team": "Reindeer"
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 807,
+      "attacks": 814,
       "team": "Penguin"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 3038,
+      "attacks": 3059,
       "hitsTaken": 883,
-      "ratio": 3.4405436013590034
+      "ratio": 3.464326160815402
     },
     {
       "user": "CaptainBubbles",
@@ -364,9 +364,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 807,
-      "hitsTaken": 164,
-      "ratio": 4.920731707317073
+      "attacks": 814,
+      "hitsTaken": 167,
+      "ratio": 4.874251497005988
     },
     {
       "user": "Devgirlforever",
@@ -1923,6 +1923,13 @@
       "ratio": 0
     },
     {
+      "user": "hades17",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 19,
+      "ratio": 0
+    },
+    {
       "user": "Princess__Aurora",
       "team": "Reindeer",
       "attacks": 17,
@@ -2341,6 +2348,13 @@
       "attacks": 5,
       "hitsTaken": 3,
       "ratio": 1.6666666666666667
+    },
+    {
+      "user": "JumboPunkMouse",
+      "team": "Reindeer",
+      "attacks": 1,
+      "hitsTaken": 7,
+      "ratio": 0.14285714285714285
     },
     {
       "user": "JGoof",
@@ -3633,30 +3647,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3829280888882175,
-      "intercept": 32.29429064513044,
+      "slope": 0.3815438233435206,
+      "intercept": 32.269239467419844,
       "xMin": 0,
-      "xMax": 3038,
-      "y1": 32.29429064513044,
-      "y2": 1195.6298246875351,
+      "xMax": 3059,
+      "y1": 32.269239467419844,
+      "y2": 1199.4117950752493,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.30203128185980804,
-      "intercept": 29.70705003739824,
+      "slope": 0.30209910613555135,
+      "intercept": 29.657558965834024,
       "xMin": 0,
-      "xMax": 3038,
-      "y1": 29.70705003739824,
-      "y2": 947.2780843274951,
+      "xMax": 3059,
+      "y1": 29.657558965834024,
+      "y2": 953.7787246344856,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.443383661389943,
-      "intercept": 36.37491228127415,
+      "slope": 0.4404138190167134,
+      "intercept": 36.34771254303777,
       "xMin": 0,
-      "xMax": 3038,
-      "y1": 36.37491228127415,
-      "y2": 1383.3744755839211,
+      "xMax": 3059,
+      "y1": 36.34771254303777,
+      "y2": 1383.573584915164,
       "label": "Reindeer"
     }
   },
@@ -3729,9 +3743,9 @@
     },
     {
       "roomName": "Epcot Entrance",
-      "hitCount": 320,
-      "avgUserRatio": 2.2,
-      "activeUsers": 75
+      "hitCount": 326,
+      "avgUserRatio": 2.18,
+      "activeUsers": 76
     },
     {
       "roomName": "Blue Bayou",
@@ -3782,16 +3796,16 @@
       "activeUsers": 30
     },
     {
+      "roomName": "Pixar Pier Entrance",
+      "hitCount": 186,
+      "avgUserRatio": 1.12,
+      "activeUsers": 39
+    },
+    {
       "roomName": "VMK Gallery",
       "hitCount": 176,
       "avgUserRatio": 4.01,
       "activeUsers": 30
-    },
-    {
-      "roomName": "Pixar Pier Entrance",
-      "hitCount": 173,
-      "avgUserRatio": 1.33,
-      "activeUsers": 38
     },
     {
       "roomName": "Pirate Treehouse",
