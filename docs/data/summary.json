@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-05T15:20:55.297Z",
-  "totalRows": 25045,
+  "generatedAt": "2026-01-05T15:42:56.871Z",
+  "totalRows": 25053,
   "totalUsers": 480,
   "teamStats": {
     "Penguin": {
       "users": 218,
-      "attacks": 14269,
-      "hitsTaken": 10776
+      "attacks": 14271,
+      "hitsTaken": 10782
     },
     "Reindeer": {
       "users": 262,
-      "attacks": 10776,
-      "hitsTaken": 14269
+      "attacks": 10782,
+      "hitsTaken": 14271
     },
     "Unknown": {
       "users": 0,
@@ -22,17 +22,17 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 14269
+      "count": 14271
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 10776
+      "count": 10782
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 3059,
+      "attacks": 3065,
       "team": "Reindeer"
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 814,
+      "attacks": 816,
       "team": "Penguin"
     },
     {
@@ -174,7 +174,7 @@
     },
     {
       "user": "Kronkx",
-      "hitsTaken": 883,
+      "hitsTaken": 885,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 3059,
-      "hitsTaken": 883,
-      "ratio": 3.464326160815402
+      "attacks": 3065,
+      "hitsTaken": 885,
+      "ratio": 3.463276836158192
     },
     {
       "user": "CaptainBubbles",
@@ -364,9 +364,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 814,
-      "hitsTaken": 167,
-      "ratio": 4.874251497005988
+      "attacks": 816,
+      "hitsTaken": 169,
+      "ratio": 4.828402366863905
     },
     {
       "user": "Devgirlforever",
@@ -1776,6 +1776,13 @@
       "ratio": 0
     },
     {
+      "user": "hades17",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 23,
+      "ratio": 0
+    },
+    {
       "user": "miszpink_",
       "team": "Penguin",
       "attacks": 7,
@@ -1918,13 +1925,6 @@
     {
       "user": "Orfeus",
       "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 19,
-      "ratio": 0
-    },
-    {
-      "user": "hades17",
-      "team": "Penguin",
       "attacks": 0,
       "hitsTaken": 19,
       "ratio": 0
@@ -3647,30 +3647,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3815438233435206,
-      "intercept": 32.269239467419844,
+      "slope": 0.3814329630959346,
+      "intercept": 32.285333282411564,
       "xMin": 0,
-      "xMax": 3059,
-      "y1": 32.269239467419844,
-      "y2": 1199.4117950752493,
+      "xMax": 3065,
+      "y1": 32.285333282411564,
+      "y2": 1201.3773651714512,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.30209910613555135,
-      "intercept": 29.657558965834024,
+      "slope": 0.302163603230845,
+      "intercept": 29.678088157305556,
       "xMin": 0,
-      "xMax": 3059,
-      "y1": 29.657558965834024,
-      "y2": 953.7787246344856,
+      "xMax": 3065,
+      "y1": 29.678088157305556,
+      "y2": 955.8095320598455,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4404138190167134,
-      "intercept": 36.34771254303777,
+      "slope": 0.4400222927983577,
+      "intercept": 36.36137266812254,
       "xMin": 0,
-      "xMax": 3059,
-      "y1": 36.34771254303777,
-      "y2": 1383.573584915164,
+      "xMax": 3065,
+      "y1": 36.36137266812254,
+      "y2": 1385.0297000950889,
       "label": "Reindeer"
     }
   },
@@ -3773,9 +3773,9 @@
     },
     {
       "roomName": "New Orleans Square",
-      "hitCount": 223,
-      "avgUserRatio": 2.04,
-      "activeUsers": 32
+      "hitCount": 226,
+      "avgUserRatio": 1.98,
+      "activeUsers": 33
     },
     {
       "roomName": "Monorail Train",
