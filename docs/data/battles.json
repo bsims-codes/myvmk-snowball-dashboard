@@ -3554,6 +3554,156 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-49",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-04T20:12:37.000Z",
+    "end": "2026-01-04T20:53:00.000Z",
+    "durationMinutes": 40,
+    "hitCount": 261,
+    "uniqueUsers": 15,
+    "topAttackers": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 159
+      },
+      {
+        "user": "Lilasaurus",
+        "team": "Penguin",
+        "attacks": 31
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 25
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "mikey29",
+        "team": "Penguin",
+        "hitsTaken": 117
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "hitsTaken": 91
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "hitsTaken": 14
+      }
+    ],
+    "participants": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 159,
+        "hitsTaken": 91,
+        "ratio": 1.7472527472527473
+      },
+      {
+        "user": "mikey29",
+        "team": "Penguin",
+        "attacks": 10,
+        "hitsTaken": 117,
+        "ratio": 0.08547008547008547
+      },
+      {
+        "user": "Lilasaurus",
+        "team": "Penguin",
+        "attacks": 31,
+        "hitsTaken": 9,
+        "ratio": 3.4444444444444446
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 18,
+        "hitsTaken": 14,
+        "ratio": 1.2857142857142858
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 25,
+        "hitsTaken": 4,
+        "ratio": 6.25
+      },
+      {
+        "user": "BluPirate",
+        "team": "Penguin",
+        "attacks": 4,
+        "hitsTaken": 4,
+        "ratio": 1
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 5,
+        "ratio": 0.2
+      },
+      {
+        "user": "Mali",
+        "team": "Penguin",
+        "attacks": 3,
+        "hitsTaken": 3,
+        "ratio": 1
+      },
+      {
+        "user": "bsims",
+        "team": "Penguin",
+        "attacks": 5,
+        "hitsTaken": 1,
+        "ratio": 5
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 4,
+        "hitsTaken": 1,
+        "ratio": 4
+      },
+      {
+        "user": "Levany",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 5,
+        "ratio": 0
+      },
+      {
+        "user": "ENTERPRISE",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 4,
+        "ratio": 0
+      },
+      {
+        "user": "GabriellaVanilla",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      },
+      {
+        "user": "SharBes",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Matterhorn-5",
     "roomName": "Matterhorn",
     "start": "2025-12-22T21:48:54.000Z",

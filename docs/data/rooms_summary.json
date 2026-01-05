@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 6830,
-    "avgUserRatio": 0.93,
-    "activeUsers": 199
+    "hitCount": 7105,
+    "avgUserRatio": 0.92,
+    "activeUsers": 202
   },
   {
     "roomName": "Town Square",
@@ -13,19 +13,19 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 2012,
+    "hitCount": 2014,
     "avgUserRatio": 1.75,
     "activeUsers": 184
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 1570,
+    "hitCount": 1571,
     "avgUserRatio": 1.14,
     "activeUsers": 194
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 1003,
+    "hitCount": 1004,
     "avgUserRatio": 1.01,
     "activeUsers": 110
   },
@@ -43,39 +43,39 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 594,
+    "hitCount": 596,
     "avgUserRatio": 1.55,
     "activeUsers": 95
   },
   {
     "roomName": "Monorail Station",
-    "hitCount": 553,
-    "avgUserRatio": 2.04,
+    "hitCount": 555,
+    "avgUserRatio": 2.03,
     "activeUsers": 35
   },
   {
     "roomName": "Frontierland Hub",
-    "hitCount": 335,
-    "avgUserRatio": 1.28,
-    "activeUsers": 53
+    "hitCount": 338,
+    "avgUserRatio": 1.31,
+    "activeUsers": 54
   },
   {
     "roomName": "Banquet Hall",
-    "hitCount": 330,
+    "hitCount": 335,
     "avgUserRatio": 2.12,
     "activeUsers": 45
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 299,
-    "avgUserRatio": 2.32,
+    "hitCount": 304,
+    "avgUserRatio": 2.4,
     "activeUsers": 69
   },
   {
     "roomName": "Blue Bayou",
-    "hitCount": 294,
-    "avgUserRatio": 2.23,
-    "activeUsers": 78
+    "hitCount": 299,
+    "avgUserRatio": 2.21,
+    "activeUsers": 80
   },
   {
     "roomName": "Shrunken Ned's Shop",
@@ -91,15 +91,27 @@
   },
   {
     "roomName": "Street Party Music Game Lobby",
-    "hitCount": 227,
+    "hitCount": 228,
     "avgUserRatio": 1.36,
     "activeUsers": 70
   },
   {
     "roomName": "New Orleans Square",
-    "hitCount": 218,
-    "avgUserRatio": 2.09,
-    "activeUsers": 31
+    "hitCount": 223,
+    "avgUserRatio": 2.04,
+    "activeUsers": 32
+  },
+  {
+    "roomName": "Monorail Train",
+    "hitCount": 205,
+    "avgUserRatio": 2.66,
+    "activeUsers": 22
+  },
+  {
+    "roomName": "Tomorrowland Hub",
+    "hitCount": 198,
+    "avgUserRatio": 1.16,
+    "activeUsers": 39
   },
   {
     "roomName": "Jungle Cruise Dock",
@@ -108,21 +120,9 @@
     "activeUsers": 30
   },
   {
-    "roomName": "Monorail Train",
-    "hitCount": 189,
-    "avgUserRatio": 2.92,
-    "activeUsers": 19
-  },
-  {
-    "roomName": "Tomorrowland Hub",
-    "hitCount": 185,
-    "avgUserRatio": 1.23,
-    "activeUsers": 37
-  },
-  {
     "roomName": "VMK Gallery",
-    "hitCount": 174,
-    "avgUserRatio": 4.03,
+    "hitCount": 176,
+    "avgUserRatio": 4.01,
     "activeUsers": 30
   },
   {
@@ -144,15 +144,15 @@
     "activeUsers": 32
   },
   {
-    "roomName": "Castle Forecourt",
-    "hitCount": 145,
-    "avgUserRatio": 2.55,
-    "activeUsers": 39
+    "roomName": "WS - United Kingdom",
+    "hitCount": 148,
+    "avgUserRatio": 1.22,
+    "activeUsers": 41
   },
   {
-    "roomName": "WS - United Kingdom",
-    "hitCount": 140,
-    "avgUserRatio": 1.23,
+    "roomName": "Castle Forecourt",
+    "hitCount": 146,
+    "avgUserRatio": 2.51,
     "activeUsers": 40
   },
   {
@@ -163,27 +163,27 @@
   },
   {
     "roomName": "Autopia Quest Track",
-    "hitCount": 136,
+    "hitCount": 137,
     "avgUserRatio": 4.63,
     "activeUsers": 21
   },
   {
     "roomName": "Storybookland",
-    "hitCount": 119,
-    "avgUserRatio": 2.59,
-    "activeUsers": 26
-  },
-  {
-    "roomName": "Adventureland Bazaar",
-    "hitCount": 89,
-    "avgUserRatio": 1.38,
+    "hitCount": 127,
+    "avgUserRatio": 2.53,
     "activeUsers": 28
   },
   {
     "roomName": "Sci-Fi Dine-In",
-    "hitCount": 87,
-    "avgUserRatio": 2.58,
-    "activeUsers": 26
+    "hitCount": 93,
+    "avgUserRatio": 2.61,
+    "activeUsers": 27
+  },
+  {
+    "roomName": "Adventureland Bazaar",
+    "hitCount": 90,
+    "avgUserRatio": 1.36,
+    "activeUsers": 29
   },
   {
     "roomName": "Penny Arcade",
@@ -198,16 +198,16 @@
     "activeUsers": 11
   },
   {
+    "roomName": "Autopia Off Road on Mars",
+    "hitCount": 77,
+    "avgUserRatio": 1.17,
+    "activeUsers": 24
+  },
+  {
     "roomName": "Mickey's Courtyard",
     "hitCount": 69,
     "avgUserRatio": 1.61,
     "activeUsers": 24
-  },
-  {
-    "roomName": "Autopia Off Road on Mars",
-    "hitCount": 68,
-    "avgUserRatio": 1.19,
-    "activeUsers": 23
   },
   {
     "roomName": "Explorer's Tent",
@@ -235,21 +235,21 @@
   },
   {
     "roomName": "Splash Mountain",
-    "hitCount": 44,
-    "avgUserRatio": 1.23,
+    "hitCount": 49,
+    "avgUserRatio": 1.01,
     "activeUsers": 16
+  },
+  {
+    "roomName": "Autopia Space Race",
+    "hitCount": 42,
+    "avgUserRatio": 2.57,
+    "activeUsers": 14
   },
   {
     "roomName": "VMK Central",
     "hitCount": 38,
     "avgUserRatio": 1.16,
     "activeUsers": 16
-  },
-  {
-    "roomName": "Autopia Space Race",
-    "hitCount": 38,
-    "avgUserRatio": 2.49,
-    "activeUsers": 13
   },
   {
     "roomName": "WS - Mexico",
@@ -294,6 +294,12 @@
     "activeUsers": 13
   },
   {
+    "roomName": "Tom Sawyer's Island",
+    "hitCount": 28,
+    "avgUserRatio": 1.41,
+    "activeUsers": 12
+  },
+  {
     "roomName": "Discovery Island",
     "hitCount": 27,
     "avgUserRatio": 2.08,
@@ -301,8 +307,8 @@
   },
   {
     "roomName": "Frontierland Dock",
-    "hitCount": 25,
-    "avgUserRatio": 0.82,
+    "hitCount": 27,
+    "avgUserRatio": 0.74,
     "activeUsers": 9
   },
   {
@@ -312,10 +318,10 @@
     "activeUsers": 4
   },
   {
-    "roomName": "Tom Sawyer's Island",
+    "roomName": "\"it's a small world\" Imports",
     "hitCount": 23,
-    "avgUserRatio": 1.47,
-    "activeUsers": 12
+    "avgUserRatio": 2.09,
+    "activeUsers": 11
   },
   {
     "roomName": "WS - America",
@@ -324,16 +330,16 @@
     "activeUsers": 9
   },
   {
-    "roomName": "\"it's a small world\" Imports",
-    "hitCount": 21,
-    "avgUserRatio": 2.33,
-    "activeUsers": 9
-  },
-  {
     "roomName": "Gibbons",
     "hitCount": 17,
     "avgUserRatio": 0.88,
     "activeUsers": 11
+  },
+  {
+    "roomName": "Haunted Mansion Stretching Room",
+    "hitCount": 17,
+    "avgUserRatio": 0.86,
+    "activeUsers": 4
   },
   {
     "roomName": "Spell Room",
@@ -349,9 +355,9 @@
   },
   {
     "roomName": "WS - France",
-    "hitCount": 8,
-    "avgUserRatio": 0.94,
-    "activeUsers": 8
+    "hitCount": 10,
+    "avgUserRatio": 1.06,
+    "activeUsers": 9
   },
   {
     "roomName": "Discovery Trading Company",
@@ -364,6 +370,18 @@
     "hitCount": 7,
     "avgUserRatio": 2.33,
     "activeUsers": 3
+  },
+  {
+    "roomName": "WS - Japan",
+    "hitCount": 7,
+    "avgUserRatio": 2.11,
+    "activeUsers": 3
+  },
+  {
+    "roomName": "Big Thunder Mountain",
+    "hitCount": 6,
+    "avgUserRatio": 0.86,
+    "activeUsers": 7
   },
   {
     "roomName": "Star Commander Lobby",
@@ -390,10 +408,10 @@
     "activeUsers": 6
   },
   {
-    "roomName": "Big Thunder Mountain",
+    "roomName": "Frontierland Cave",
     "hitCount": 5,
-    "avgUserRatio": 0.83,
-    "activeUsers": 6
+    "avgUserRatio": 1,
+    "activeUsers": 3
   },
   {
     "roomName": "Golden Horseshoe Mercantile",
@@ -402,22 +420,10 @@
     "activeUsers": 4
   },
   {
-    "roomName": "Haunted Mansion Stretching Room",
-    "hitCount": 4,
-    "avgUserRatio": 1.33,
-    "activeUsers": 3
-  },
-  {
     "roomName": "Mark Twain",
     "hitCount": 3,
     "avgUserRatio": 0.75,
     "activeUsers": 4
-  },
-  {
-    "roomName": "WS - Japan",
-    "hitCount": 3,
-    "avgUserRatio": 1.5,
-    "activeUsers": 2
   },
   {
     "roomName": "WS - Canada",
@@ -426,15 +432,15 @@
     "activeUsers": 2
   },
   {
-    "roomName": "Frontierland Cave",
-    "hitCount": 2,
-    "avgUserRatio": 1,
-    "activeUsers": 2
-  },
-  {
     "roomName": "Inner-Space Shrinking Machine",
     "hitCount": 2,
     "avgUserRatio": 0.5,
     "activeUsers": 4
+  },
+  {
+    "roomName": "WS - Morocco",
+    "hitCount": 2,
+    "avgUserRatio": 1,
+    "activeUsers": 2
   }
 ]
