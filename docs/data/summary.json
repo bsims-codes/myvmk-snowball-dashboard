@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-05T21:00:15.194Z",
-  "totalRows": 25074,
+  "generatedAt": "2026-01-05T21:22:57.218Z",
+  "totalRows": 25079,
   "totalUsers": 480,
   "teamStats": {
     "Penguin": {
       "users": 218,
-      "attacks": 14287,
+      "attacks": 14292,
       "hitsTaken": 10787
     },
     "Reindeer": {
       "users": 262,
       "attacks": 10787,
-      "hitsTaken": 14287
+      "hitsTaken": 14292
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 14287
+      "count": 14292
     },
     {
       "pair": "Reindeer → Penguin",
@@ -67,7 +67,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 832,
+      "attacks": 837,
       "team": "Penguin"
     },
     {
@@ -364,9 +364,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 832,
+      "attacks": 837,
       "hitsTaken": 171,
-      "ratio": 4.8654970760233915
+      "ratio": 4.894736842105263
     },
     {
       "user": "Devgirlforever",
@@ -659,7 +659,7 @@
       "user": "AtziriDayre",
       "team": "Reindeer",
       "attacks": 0,
-      "hitsTaken": 196,
+      "hitsTaken": 201,
       "ratio": 0
     },
     {
@@ -3647,30 +3647,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.38085394741000705,
-      "intercept": 32.342641922169754,
+      "slope": 0.38073128023306374,
+      "intercept": 32.35550046465624,
       "xMin": 0,
       "xMax": 3069,
-      "y1": 32.342641922169754,
-      "y2": 1201.1834065234814,
+      "y1": 32.35550046465624,
+      "y2": 1200.8197994999289,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.3017228836999431,
-      "intercept": 29.707730094398684,
+      "slope": 0.30152933779642394,
+      "intercept": 29.713498643181232,
       "xMin": 0,
       "xMax": 3069,
-      "y1": 29.707730094398684,
-      "y2": 955.6952601695241,
+      "y1": 29.713498643181232,
+      "y2": 955.1070363404062,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.439404561444035,
-      "intercept": 36.43947708283662,
+      "slope": 0.4393882973843038,
+      "intercept": 36.45923067219662,
       "xMin": 0,
       "xMax": 3069,
-      "y1": 36.43947708283662,
-      "y2": 1384.97207615458,
+      "y1": 36.45923067219662,
+      "y2": 1384.941915344625,
       "label": "Reindeer"
     }
   },
@@ -3784,16 +3784,16 @@
       "activeUsers": 22
     },
     {
+      "roomName": "Jungle Cruise Dock",
+      "hitCount": 199,
+      "avgUserRatio": 4.61,
+      "activeUsers": 30
+    },
+    {
       "roomName": "Tomorrowland Hub",
       "hitCount": 198,
       "avgUserRatio": 1.16,
       "activeUsers": 39
-    },
-    {
-      "roomName": "Jungle Cruise Dock",
-      "hitCount": 194,
-      "avgUserRatio": 4.52,
-      "activeUsers": 30
     },
     {
       "roomName": "Pixar Pier Entrance",
