@@ -67,9 +67,9 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 319,
-    "avgUserRatio": 2.23,
-    "activeUsers": 74
+    "hitCount": 320,
+    "avgUserRatio": 2.2,
+    "activeUsers": 75
   },
   {
     "roomName": "Blue Bayou",
@@ -199,9 +199,9 @@
   },
   {
     "roomName": "Autopia Off Road on Mars",
-    "hitCount": 77,
-    "avgUserRatio": 1.17,
-    "activeUsers": 24
+    "hitCount": 78,
+    "avgUserRatio": 1.13,
+    "activeUsers": 25
   },
   {
     "roomName": "Mickey's Courtyard",
@@ -258,6 +258,12 @@
     "activeUsers": 16
   },
   {
+    "roomName": "WS - Norway",
+    "hitCount": 37,
+    "avgUserRatio": 6.17,
+    "activeUsers": 6
+  },
+  {
     "roomName": "WS - Mexico",
     "hitCount": 37,
     "avgUserRatio": 0.87,
@@ -274,12 +280,6 @@
     "hitCount": 36,
     "avgUserRatio": 1.2,
     "activeUsers": 17
-  },
-  {
-    "roomName": "WS - Norway",
-    "hitCount": 33,
-    "avgUserRatio": 6.6,
-    "activeUsers": 5
   },
   {
     "roomName": "Waterpark Pool",

@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-05T14:19:23.991Z",
-  "totalRows": 25010,
-  "totalUsers": 476,
+  "generatedAt": "2026-01-05T14:46:11.852Z",
+  "totalRows": 25016,
+  "totalUsers": 478,
   "teamStats": {
     "Penguin": {
-      "users": 216,
-      "attacks": 14261,
-      "hitsTaken": 10749
+      "users": 217,
+      "attacks": 14262,
+      "hitsTaken": 10754
     },
     "Reindeer": {
-      "users": 260,
-      "attacks": 10749,
-      "hitsTaken": 14261
+      "users": 261,
+      "attacks": 10754,
+      "hitsTaken": 14262
     },
     "Unknown": {
       "users": 0,
@@ -22,17 +22,17 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 14261
+      "count": 14262
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 10749
+      "count": 10754
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 3033,
+      "attacks": 3038,
       "team": "Reindeer"
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 806,
+      "attacks": 807,
       "team": "Penguin"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 3033,
+      "attacks": 3038,
       "hitsTaken": 883,
-      "ratio": 3.434881087202718
+      "ratio": 3.4405436013590034
     },
     {
       "user": "CaptainBubbles",
@@ -364,9 +364,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 806,
+      "attacks": 807,
       "hitsTaken": 164,
-      "ratio": 4.914634146341464
+      "ratio": 4.920731707317073
     },
     {
       "user": "Devgirlforever",
@@ -2721,6 +2721,13 @@
       "ratio": 0
     },
     {
+      "user": "Niki2",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 5,
+      "ratio": 0
+    },
+    {
       "user": "MicksGirl",
       "team": "Penguin",
       "attacks": 2,
@@ -3615,34 +3622,41 @@
       "attacks": 0,
       "hitsTaken": 1,
       "ratio": 0
+    },
+    {
+      "user": "Gwan",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 1,
+      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.3831467151250017,
-      "intercept": 32.41071566118426,
+      "slope": 0.3829280888882175,
+      "intercept": 32.29429064513044,
       "xMin": 0,
-      "xMax": 3033,
-      "y1": 32.41071566118426,
-      "y2": 1194.4947026353143,
+      "xMax": 3038,
+      "y1": 32.29429064513044,
+      "y2": 1195.6298246875351,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.30188362387514994,
-      "intercept": 29.832581666280028,
+      "slope": 0.30203128185980804,
+      "intercept": 29.70705003739824,
       "xMin": 0,
-      "xMax": 3033,
-      "y1": 29.832581666280028,
-      "y2": 945.4456128796098,
+      "xMax": 3038,
+      "y1": 29.70705003739824,
+      "y2": 947.2780843274951,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.44400048568516104,
-      "intercept": 36.49399530527002,
+      "slope": 0.443383661389943,
+      "intercept": 36.37491228127415,
       "xMin": 0,
-      "xMax": 3033,
-      "y1": 36.49399530527002,
-      "y2": 1383.1474683883634,
+      "xMax": 3038,
+      "y1": 36.37491228127415,
+      "y2": 1383.3744755839211,
       "label": "Reindeer"
     }
   },
@@ -3715,9 +3729,9 @@
     },
     {
       "roomName": "Epcot Entrance",
-      "hitCount": 319,
-      "avgUserRatio": 2.23,
-      "activeUsers": 74
+      "hitCount": 320,
+      "avgUserRatio": 2.2,
+      "activeUsers": 75
     },
     {
       "roomName": "Blue Bayou",
