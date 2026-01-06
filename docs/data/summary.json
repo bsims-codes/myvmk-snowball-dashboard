@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-06T04:06:23.637Z",
-  "totalRows": 25182,
+  "generatedAt": "2026-01-06T04:48:21.912Z",
+  "totalRows": 25184,
   "totalUsers": 485,
   "teamStats": {
     "Penguin": {
       "users": 219,
       "attacks": 14377,
-      "hitsTaken": 10805
+      "hitsTaken": 10807
     },
     "Reindeer": {
       "users": 266,
-      "attacks": 10805,
+      "attacks": 10807,
       "hitsTaken": 14377
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 10805
+      "count": 10807
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 3080,
+      "attacks": 3082,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 3080,
+      "attacks": 3082,
       "hitsTaken": 885,
-      "ratio": 3.480225988700565
+      "ratio": 3.4824858757062147
     },
     {
       "user": "CaptainBubbles",
@@ -719,6 +719,13 @@
       "ratio": 0.4807692307692308
     },
     {
+      "user": "HugsforaLifetime",
+      "team": "Penguin",
+      "attacks": 44,
+      "hitsTaken": 110,
+      "ratio": 0.4
+    },
+    {
       "user": "magnumopus",
       "team": "Reindeer",
       "attacks": 0,
@@ -731,13 +738,6 @@
       "attacks": 22,
       "hitsTaken": 130,
       "ratio": 0.16923076923076924
-    },
-    {
-      "user": "HugsforaLifetime",
-      "team": "Penguin",
-      "attacks": 44,
-      "hitsTaken": 108,
-      "ratio": 0.4074074074074074
     },
     {
       "user": "Redsox",
@@ -3682,30 +3682,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3790406661648374,
-      "intercept": 32.24123287554034,
+      "slope": 0.3789056082818912,
+      "intercept": 32.25080651758526,
       "xMin": 0,
-      "xMax": 3080,
-      "y1": 32.24123287554034,
-      "y2": 1199.6864846632395,
+      "xMax": 3082,
+      "y1": 32.25080651758526,
+      "y2": 1200.037891242374,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2999510272591993,
-      "intercept": 29.646593977600418,
+      "slope": 0.29994619903252867,
+      "intercept": 29.656043363056327,
       "xMin": 0,
-      "xMax": 3080,
-      "y1": 29.646593977600418,
-      "y2": 953.4957579359343,
+      "xMax": 3082,
+      "y1": 29.656043363056327,
+      "y2": 954.0902287813097,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.43810471397281103,
-      "intercept": 36.25292693805931,
+      "slope": 0.437817009055825,
+      "intercept": 36.26132174110413,
       "xMin": 0,
-      "xMax": 3080,
-      "y1": 36.25292693805931,
-      "y2": 1385.6154459743173,
+      "xMax": 3082,
+      "y1": 36.26132174110413,
+      "y2": 1385.6133436511568,
       "label": "Reindeer"
     }
   },
@@ -3736,7 +3736,7 @@
     },
     {
       "roomName": "Central Plaza",
-      "hitCount": 1004,
+      "hitCount": 1005,
       "avgUserRatio": 1.01,
       "activeUsers": 110
     },
