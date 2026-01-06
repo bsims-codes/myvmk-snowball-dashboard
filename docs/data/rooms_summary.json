@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 7834,
+    "hitCount": 7838,
     "avgUserRatio": 0.93,
-    "activeUsers": 204
+    "activeUsers": 205
   },
   {
     "roomName": "Town Square",
@@ -19,9 +19,9 @@
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 1606,
-    "avgUserRatio": 1.13,
-    "activeUsers": 196
+    "hitCount": 1607,
+    "avgUserRatio": 1.12,
+    "activeUsers": 197
   },
   {
     "roomName": "Central Plaza",
@@ -54,6 +54,12 @@
     "activeUsers": 38
   },
   {
+    "roomName": "Epcot Entrance",
+    "hitCount": 344,
+    "avgUserRatio": 2.2,
+    "activeUsers": 79
+  },
+  {
     "roomName": "Frontierland Hub",
     "hitCount": 338,
     "avgUserRatio": 1.31,
@@ -66,16 +72,10 @@
     "activeUsers": 46
   },
   {
-    "roomName": "Epcot Entrance",
-    "hitCount": 327,
-    "avgUserRatio": 2.17,
-    "activeUsers": 77
-  },
-  {
     "roomName": "Blue Bayou",
-    "hitCount": 299,
-    "avgUserRatio": 2.21,
-    "activeUsers": 80
+    "hitCount": 302,
+    "avgUserRatio": 2.22,
+    "activeUsers": 81
   },
   {
     "roomName": "Shrunken Ned's Shop",
@@ -102,16 +102,16 @@
     "activeUsers": 33
   },
   {
+    "roomName": "Jungle Cruise Dock",
+    "hitCount": 205,
+    "avgUserRatio": 4.44,
+    "activeUsers": 32
+  },
+  {
     "roomName": "Monorail Train",
     "hitCount": 205,
     "avgUserRatio": 2.66,
     "activeUsers": 22
-  },
-  {
-    "roomName": "Jungle Cruise Dock",
-    "hitCount": 204,
-    "avgUserRatio": 4.57,
-    "activeUsers": 31
   },
   {
     "roomName": "Tomorrowland Hub",
@@ -150,16 +150,16 @@
     "activeUsers": 43
   },
   {
+    "roomName": "Castle Forecourt",
+    "hitCount": 155,
+    "avgUserRatio": 2.48,
+    "activeUsers": 41
+  },
+  {
     "roomName": "Tiki Tiki Tiki Island",
     "hitCount": 153,
     "avgUserRatio": 1.59,
     "activeUsers": 30
-  },
-  {
-    "roomName": "Castle Forecourt",
-    "hitCount": 146,
-    "avgUserRatio": 2.51,
-    "activeUsers": 40
   },
   {
     "roomName": "Autopia Quest Track",
@@ -181,9 +181,9 @@
   },
   {
     "roomName": "Autopia Off Road on Mars",
-    "hitCount": 90,
-    "avgUserRatio": 1.12,
-    "activeUsers": 27
+    "hitCount": 92,
+    "avgUserRatio": 1.1,
+    "activeUsers": 28
   },
   {
     "roomName": "Adventureland Bazaar",
