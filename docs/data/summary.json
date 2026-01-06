@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-06T17:16:41.302Z",
-  "totalRows": 25308,
+  "generatedAt": "2026-01-06T17:41:17.675Z",
+  "totalRows": 25321,
   "totalUsers": 486,
   "teamStats": {
     "Penguin": {
       "users": 219,
-      "attacks": 14393,
+      "attacks": 14406,
       "hitsTaken": 10915
     },
     "Reindeer": {
       "users": 267,
       "attacks": 10915,
-      "hitsTaken": 14393
+      "hitsTaken": 14406
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 14393
+      "count": 14406
     },
     {
       "pair": "Reindeer → Penguin",
@@ -62,7 +62,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 880,
+      "attacks": 893,
       "team": "Penguin"
     },
     {
@@ -364,9 +364,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 880,
+      "attacks": 893,
       "hitsTaken": 172,
-      "ratio": 5.116279069767442
+      "ratio": 5.191860465116279
     },
     {
       "user": "Devgirlforever",
@@ -659,7 +659,7 @@
       "user": "AtziriDayre",
       "team": "Reindeer",
       "attacks": 0,
-      "hitsTaken": 201,
+      "hitsTaken": 202,
       "ratio": 0
     },
     {
@@ -1902,6 +1902,13 @@
       "ratio": 0
     },
     {
+      "user": "AngelElizabeth",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 19,
+      "ratio": 0
+    },
+    {
       "user": "stitchfr",
       "team": "Penguin",
       "attacks": 0,
@@ -2470,13 +2477,6 @@
     },
     {
       "user": "eldercunningham",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 7,
-      "ratio": 0
-    },
-    {
-      "user": "AngelElizabeth",
       "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 7,
@@ -3689,30 +3689,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.37231525154193695,
-      "intercept": 32.686102086371726,
+      "slope": 0.37199461630158365,
+      "intercept": 32.7195973675465,
       "xMin": 0,
       "xMax": 3182,
-      "y1": 32.686102086371726,
-      "y2": 1217.393232492815,
+      "y1": 32.7195973675465,
+      "y2": 1216.4064664391858,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.29904101731403904,
-      "intercept": 30.186770035612035,
+      "slope": 0.29850867346996524,
+      "intercept": 30.20403675795288,
       "xMin": 0,
       "xMax": 3182,
-      "y1": 30.186770035612035,
-      "y2": 981.7352871288844,
+      "y1": 30.20403675795288,
+      "y2": 980.0586357393822,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4245500483792113,
-      "intercept": 36.550697460452845,
+      "slope": 0.42451027814375236,
+      "intercept": 36.601012412213265,
       "xMin": 0,
       "xMax": 3182,
-      "y1": 36.550697460452845,
-      "y2": 1387.4689514031031,
+      "y1": 36.601012412213265,
+      "y2": 1387.3927174656333,
       "label": "Reindeer"
     }
   },
@@ -3737,7 +3737,7 @@
     },
     {
       "roomName": "Matterhorn",
-      "hitCount": 1612,
+      "hitCount": 1613,
       "avgUserRatio": 1.13,
       "activeUsers": 198
     },
@@ -3808,16 +3808,16 @@
       "activeUsers": 35
     },
     {
+      "roomName": "New Orleans Square",
+      "hitCount": 238,
+      "avgUserRatio": 1.94,
+      "activeUsers": 34
+    },
+    {
       "roomName": "Street Party Music Game Lobby",
       "hitCount": 234,
       "avgUserRatio": 1.19,
       "activeUsers": 70
-    },
-    {
-      "roomName": "New Orleans Square",
-      "hitCount": 226,
-      "avgUserRatio": 1.98,
-      "activeUsers": 33
     },
     {
       "roomName": "Jungle Cruise Dock",
