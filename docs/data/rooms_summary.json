@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 7872,
+    "hitCount": 7897,
     "avgUserRatio": 0.92,
     "activeUsers": 206
   },
@@ -103,8 +103,8 @@
   },
   {
     "roomName": "Jungle Cruise Dock",
-    "hitCount": 219,
-    "avgUserRatio": 4.39,
+    "hitCount": 223,
+    "avgUserRatio": 4.45,
     "activeUsers": 35
   },
   {
@@ -210,6 +210,12 @@
     "activeUsers": 24
   },
   {
+    "roomName": "WS - Norway",
+    "hitCount": 67,
+    "avgUserRatio": 9.57,
+    "activeUsers": 7
+  },
+  {
     "roomName": "Explorer's Tent",
     "hitCount": 66,
     "avgUserRatio": 3.85,
@@ -268,12 +274,6 @@
     "hitCount": 38,
     "avgUserRatio": 1.16,
     "activeUsers": 16
-  },
-  {
-    "roomName": "WS - Norway",
-    "hitCount": 37,
-    "avgUserRatio": 6.17,
-    "activeUsers": 6
   },
   {
     "roomName": "WS - Mexico",

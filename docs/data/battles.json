@@ -15950,6 +15950,45 @@
     ]
   },
   {
+    "id": "WS - Norway-2",
+    "roomName": "WS - Norway",
+    "start": "2026-01-06T11:31:28.000Z",
+    "end": "2026-01-06T11:34:20.000Z",
+    "durationMinutes": 3,
+    "hitCount": 30,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 30
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "hitsTaken": 30
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 30,
+        "hitsTaken": 0,
+        "ratio": 30
+      },
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 30,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Matterhorn-10",
     "roomName": "Matterhorn",
     "start": "2025-12-27T01:34:41.000Z",
