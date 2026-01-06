@@ -2,9 +2,9 @@
   {
     "user": "Kronkx",
     "team": "Reindeer",
-    "attacks": 3086,
+    "attacks": 3115,
     "hitsTaken": 888,
-    "ratio": 3.475225225225225
+    "ratio": 3.5078828828828827
   },
   {
     "user": "CaptainBubbles",
@@ -357,18 +357,18 @@
     "ratio": 77
   },
   {
+    "user": "Neocissa",
+    "team": "Penguin",
+    "attacks": 75,
+    "hitsTaken": 39,
+    "ratio": 1.9230769230769231
+  },
+  {
     "user": "Cipolla",
     "team": "Penguin",
     "attacks": 74,
     "hitsTaken": 117,
     "ratio": 0.6324786324786325
-  },
-  {
-    "user": "Neocissa",
-    "team": "Penguin",
-    "attacks": 73,
-    "hitsTaken": 39,
-    "ratio": 1.8717948717948718
   },
   {
     "user": "Rex",
@@ -388,8 +388,8 @@
     "user": "AmandaJeanne",
     "team": "Penguin",
     "attacks": 65,
-    "hitsTaken": 63,
-    "ratio": 1.0317460317460319
+    "hitsTaken": 65,
+    "ratio": 1
   },
   {
     "user": "AstroVioletRose",
@@ -409,8 +409,8 @@
     "user": "SleveMcDichael",
     "team": "Reindeer",
     "attacks": 62,
-    "hitsTaken": 57,
-    "ratio": 1.087719298245614
+    "hitsTaken": 58,
+    "ratio": 1.0689655172413792
   },
   {
     "user": "GlamIceQueen",
@@ -1529,7 +1529,7 @@
     "user": "HappyToughFish",
     "team": "Penguin",
     "attacks": 0,
-    "hitsTaken": 343,
+    "hitsTaken": 370,
     "ratio": 0
   },
   {
@@ -3392,6 +3392,13 @@
     "team": "Reindeer",
     "attacks": 0,
     "hitsTaken": 2,
+    "ratio": 0
+  },
+  {
+    "user": "SteveMcMichaels",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 1,
     "ratio": 0
   }
 ]
