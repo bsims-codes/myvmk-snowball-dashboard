@@ -14314,6 +14314,57 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-50",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-06T11:52:31.000Z",
+    "end": "2026-01-06T11:59:51.000Z",
+    "durationMinutes": 7,
+    "hitCount": 37,
+    "uniqueUsers": 3,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 37
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 36
+      },
+      {
+        "user": "mikgriz",
+        "team": "Penguin",
+        "hitsTaken": 1
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 37,
+        "hitsTaken": 0,
+        "ratio": 37
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 36,
+        "ratio": 0
+      },
+      {
+        "user": "mikgriz",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Main Street-7",
     "roomName": "Main Street",
     "start": "2025-12-29T20:51:44.000Z",
