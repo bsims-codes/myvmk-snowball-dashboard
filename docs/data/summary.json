@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-06T03:05:05.993Z",
-  "totalRows": 25169,
+  "generatedAt": "2026-01-06T04:06:23.637Z",
+  "totalRows": 25182,
   "totalUsers": 485,
   "teamStats": {
     "Penguin": {
       "users": 219,
-      "attacks": 14375,
-      "hitsTaken": 10794
+      "attacks": 14377,
+      "hitsTaken": 10805
     },
     "Reindeer": {
       "users": 266,
-      "attacks": 10794,
-      "hitsTaken": 14375
+      "attacks": 10805,
+      "hitsTaken": 14377
     },
     "Unknown": {
       "users": 0,
@@ -22,17 +22,17 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 14375
+      "count": 14377
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 10794
+      "count": 10805
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 3069,
+      "attacks": 3080,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 3069,
+      "attacks": 3080,
       "hitsTaken": 885,
-      "ratio": 3.4677966101694917
+      "ratio": 3.480225988700565
     },
     {
       "user": "CaptainBubbles",
@@ -1181,6 +1181,13 @@
       "ratio": 0.047619047619047616
     },
     {
+      "user": "Inferno",
+      "team": "Penguin",
+      "attacks": 2,
+      "hitsTaken": 63,
+      "ratio": 0.031746031746031744
+    },
+    {
       "user": "Bernardo-S-Rocks",
       "team": "Penguin",
       "attacks": 2,
@@ -1270,13 +1277,6 @@
       "attacks": 5,
       "hitsTaken": 49,
       "ratio": 0.10204081632653061
-    },
-    {
-      "user": "Inferno",
-      "team": "Penguin",
-      "attacks": 2,
-      "hitsTaken": 52,
-      "ratio": 0.038461538461538464
     },
     {
       "user": "MissAnnaNovang",
@@ -1461,6 +1461,13 @@
       "ratio": 0.21428571428571427
     },
     {
+      "user": "PrincessCutezada",
+      "team": "Penguin",
+      "attacks": 10,
+      "hitsTaken": 24,
+      "ratio": 0.4166666666666667
+    },
+    {
       "user": "Focus",
       "team": "Penguin",
       "attacks": 0,
@@ -1536,13 +1543,6 @@
       "attacks": 7,
       "hitsTaken": 25,
       "ratio": 0.28
-    },
-    {
-      "user": "PrincessCutezada",
-      "team": "Penguin",
-      "attacks": 8,
-      "hitsTaken": 24,
-      "ratio": 0.3333333333333333
     },
     {
       "user": "RadLongDog1",
@@ -2056,6 +2056,13 @@
       "ratio": 0
     },
     {
+      "user": "Simpleplanfangirl",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 15,
+      "ratio": 0
+    },
+    {
       "user": "walkingtourguide",
       "team": "Penguin",
       "attacks": 1,
@@ -2162,13 +2169,6 @@
     },
     {
       "user": "Wizkaileyfa_",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 13,
-      "ratio": 0
-    },
-    {
-      "user": "Simpleplanfangirl",
       "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 13,
@@ -3682,30 +3682,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.37980930275462693,
-      "intercept": 32.18470032777071,
+      "slope": 0.3790406661648374,
+      "intercept": 32.24123287554034,
       "xMin": 0,
-      "xMax": 3069,
-      "y1": 32.18470032777071,
-      "y2": 1197.8194504817209,
+      "xMax": 3080,
+      "y1": 32.24123287554034,
+      "y2": 1199.6864846632395,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.30002716152584097,
-      "intercept": 29.59410754824674,
+      "slope": 0.2999510272591993,
+      "intercept": 29.646593977600418,
       "xMin": 0,
-      "xMax": 3069,
-      "y1": 29.59410754824674,
-      "y2": 950.3774662710526,
+      "xMax": 3080,
+      "y1": 29.646593977600418,
+      "y2": 953.4957579359343,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.43969843095622196,
-      "intercept": 36.198853895708794,
+      "slope": 0.43810471397281103,
+      "intercept": 36.25292693805931,
       "xMin": 0,
-      "xMax": 3069,
-      "y1": 36.198853895708794,
-      "y2": 1385.633338500354,
+      "xMax": 3080,
+      "y1": 36.25292693805931,
+      "y2": 1385.6154459743173,
       "label": "Reindeer"
     }
   },
@@ -3718,13 +3718,13 @@
     },
     {
       "roomName": "Town Square",
-      "hitCount": 4222,
+      "hitCount": 4231,
       "avgUserRatio": 1.23,
       "activeUsers": 212
     },
     {
       "roomName": "Main Street",
-      "hitCount": 2015,
+      "hitCount": 2017,
       "avgUserRatio": 1.74,
       "activeUsers": 185
     },
@@ -3766,9 +3766,9 @@
     },
     {
       "roomName": "Epcot Entrance",
-      "hitCount": 347,
-      "avgUserRatio": 2.21,
-      "activeUsers": 80
+      "hitCount": 349,
+      "avgUserRatio": 2.2,
+      "activeUsers": 81
     },
     {
       "roomName": "Banquet Hall",
