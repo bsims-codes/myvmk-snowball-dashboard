@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-07T23:14:43.423Z",
-  "totalRows": 25918,
+  "generatedAt": "2026-01-07T23:32:44.126Z",
+  "totalRows": 25919,
   "totalUsers": 494,
   "teamStats": {
     "Penguin": {
       "users": 221,
-      "attacks": 14774,
+      "attacks": 14775,
       "hitsTaken": 11144
     },
     "Reindeer": {
       "users": 273,
       "attacks": 11144,
-      "hitsTaken": 14774
+      "hitsTaken": 14775
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 14774
+      "count": 14775
     },
     {
       "pair": "Reindeer → Penguin",
@@ -57,7 +57,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 1024,
+      "attacks": 1025,
       "team": "Penguin"
     },
     {
@@ -322,9 +322,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 1024,
+      "attacks": 1025,
       "hitsTaken": 312,
-      "ratio": 3.282051282051282
+      "ratio": 3.28525641025641
     },
     {
       "user": "Winnie",
@@ -526,8 +526,8 @@
       "user": "tizzi",
       "team": "Reindeer",
       "attacks": 119,
-      "hitsTaken": 186,
-      "ratio": 0.6397849462365591
+      "hitsTaken": 187,
+      "ratio": 0.6363636363636364
     },
     {
       "user": "Tobyy",
@@ -3745,30 +3745,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3596175634050473,
-      "intercept": 33.598040468963525,
+      "slope": 0.3596018645352846,
+      "intercept": 33.60016047188251,
       "xMin": 0,
       "xMax": 3343,
-      "y1": 33.598040468963525,
-      "y2": 1235.7995549320367,
+      "y1": 33.60016047188251,
+      "y2": 1235.7491936133388,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2948946338346896,
-      "intercept": 30.71143293993799,
+      "slope": 0.2948618879241991,
+      "intercept": 30.712287809592574,
       "xMin": 0,
       "xMax": 3343,
-      "y1": 30.71143293993799,
-      "y2": 1016.5441938493053,
+      "y1": 30.712287809592574,
+      "y2": 1016.4355791401902,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.40405027693407475,
-      "intercept": 37.62367660749696,
+      "slope": 0.4040556985102359,
+      "intercept": 37.62711829964078,
       "xMin": 0,
       "xMax": 3343,
-      "y1": 37.62367660749696,
-      "y2": 1388.3637523981088,
+      "y1": 37.62711829964078,
+      "y2": 1388.3853184193595,
       "label": "Reindeer"
     }
   },
@@ -3918,10 +3918,10 @@
       "activeUsers": 32
     },
     {
-      "roomName": "WS - United Kingdom",
-      "hitCount": 158,
-      "avgUserRatio": 1.27,
-      "activeUsers": 43
+      "roomName": "Tiki Tiki Tiki Island",
+      "hitCount": 159,
+      "avgUserRatio": 1.56,
+      "activeUsers": 32
     }
   ]
 }
