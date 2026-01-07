@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 7940,
+    "hitCount": 8035,
     "avgUserRatio": 0.92,
-    "activeUsers": 206
+    "activeUsers": 209
   },
   {
     "roomName": "Town Square",
@@ -13,15 +13,15 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 2017,
+    "hitCount": 2018,
     "avgUserRatio": 1.74,
     "activeUsers": 185
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 1613,
-    "avgUserRatio": 1.13,
-    "activeUsers": 198
+    "hitCount": 1735,
+    "avgUserRatio": 1.09,
+    "activeUsers": 212
   },
   {
     "roomName": "Central Plaza",
@@ -37,9 +37,9 @@
   },
   {
     "roomName": "Dungeon",
-    "hitCount": 627,
-    "avgUserRatio": 2.56,
-    "activeUsers": 67
+    "hitCount": 628,
+    "avgUserRatio": 2.53,
+    "activeUsers": 68
   },
   {
     "roomName": "VMK Esplanade",
@@ -73,8 +73,8 @@
   },
   {
     "roomName": "Blue Bayou",
-    "hitCount": 306,
-    "avgUserRatio": 2.22,
+    "hitCount": 307,
+    "avgUserRatio": 2.2,
     "activeUsers": 81
   },
   {
@@ -84,16 +84,16 @@
     "activeUsers": 46
   },
   {
-    "roomName": "Snow White Hide 'n Seek Forest",
-    "hitCount": 238,
-    "avgUserRatio": 3.02,
+    "roomName": "New Orleans Square",
+    "hitCount": 240,
+    "avgUserRatio": 1.89,
     "activeUsers": 35
   },
   {
-    "roomName": "New Orleans Square",
-    "hitCount": 238,
-    "avgUserRatio": 1.94,
-    "activeUsers": 34
+    "roomName": "Snow White Hide 'n Seek Forest",
+    "hitCount": 239,
+    "avgUserRatio": 2.97,
+    "activeUsers": 36
   },
   {
     "roomName": "Street Party Music Game Lobby",
@@ -150,16 +150,16 @@
     "activeUsers": 43
   },
   {
+    "roomName": "Tiki Tiki Tiki Island",
+    "hitCount": 158,
+    "avgUserRatio": 1.55,
+    "activeUsers": 32
+  },
+  {
     "roomName": "Castle Forecourt",
     "hitCount": 156,
     "avgUserRatio": 2.42,
     "activeUsers": 42
-  },
-  {
-    "roomName": "Tiki Tiki Tiki Island",
-    "hitCount": 153,
-    "avgUserRatio": 1.59,
-    "activeUsers": 30
   },
   {
     "roomName": "Autopia Quest Track",
@@ -235,9 +235,9 @@
   },
   {
     "roomName": "Elephant Bathing Pool",
-    "hitCount": 52,
-    "avgUserRatio": 1.96,
-    "activeUsers": 14
+    "hitCount": 55,
+    "avgUserRatio": 1.93,
+    "activeUsers": 15
   },
   {
     "roomName": "Splash Mountain",
@@ -348,15 +348,15 @@
     "activeUsers": 11
   },
   {
+    "roomName": "Spell Room",
+    "hitCount": 19,
+    "avgUserRatio": 1.15,
+    "activeUsers": 14
+  },
+  {
     "roomName": "Gibbons",
     "hitCount": 18,
     "avgUserRatio": 0.89,
-    "activeUsers": 12
-  },
-  {
-    "roomName": "Spell Room",
-    "hitCount": 16,
-    "avgUserRatio": 1.1,
     "activeUsers": 12
   },
   {
