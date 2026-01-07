@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-07T22:35:08.841Z",
-  "totalRows": 25907,
+  "generatedAt": "2026-01-07T22:49:09.321Z",
+  "totalRows": 25918,
   "totalUsers": 494,
   "teamStats": {
     "Penguin": {
       "users": 221,
-      "attacks": 14763,
+      "attacks": 14774,
       "hitsTaken": 11144
     },
     "Reindeer": {
       "users": 273,
       "attacks": 11144,
-      "hitsTaken": 14763
+      "hitsTaken": 14774
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 14763
+      "count": 14774
     },
     {
       "pair": "Reindeer → Penguin",
@@ -62,7 +62,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 936,
+      "attacks": 947,
       "team": "Penguin"
     },
     {
@@ -268,6 +268,11 @@
       "team": "Penguin"
     },
     {
+      "user": "AtziriDayre",
+      "hitsTaken": 215,
+      "team": "Reindeer"
+    },
+    {
       "user": "VMKNeec",
       "hitsTaken": 214,
       "team": "Penguin"
@@ -275,11 +280,6 @@
     {
       "user": "bittahmercenary",
       "hitsTaken": 214,
-      "team": "Penguin"
-    },
-    {
-      "user": "mikey29",
-      "hitsTaken": 206,
       "team": "Penguin"
     }
   ],
@@ -357,9 +357,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 936,
+      "attacks": 947,
       "hitsTaken": 173,
-      "ratio": 5.410404624277457
+      "ratio": 5.473988439306359
     },
     {
       "user": "MagicMinnieMare",
@@ -642,6 +642,13 @@
       "ratio": 0.037383177570093455
     },
     {
+      "user": "AtziriDayre",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 215,
+      "ratio": 0
+    },
+    {
       "user": "OGBlondie_",
       "team": "Penguin",
       "attacks": 153,
@@ -654,13 +661,6 @@
       "attacks": 62,
       "hitsTaken": 151,
       "ratio": 0.4105960264900662
-    },
-    {
-      "user": "AtziriDayre",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 204,
-      "ratio": 0
     },
     {
       "user": "rockin_rachael",
@@ -3745,30 +3745,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3598822785142923,
-      "intercept": 33.56989840188305,
+      "slope": 0.3596175634050473,
+      "intercept": 33.598040468963525,
       "xMin": 0,
       "xMax": 3343,
-      "y1": 33.56989840188305,
-      "y2": 1236.656355475162,
+      "y1": 33.598040468963525,
+      "y2": 1235.7995549320367,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.29536289274545424,
-      "intercept": 30.69483083438398,
+      "slope": 0.2948946338346896,
+      "intercept": 30.71143293993799,
       "xMin": 0,
       "xMax": 3343,
-      "y1": 30.69483083438398,
-      "y2": 1018.0929812824376,
+      "y1": 30.71143293993799,
+      "y2": 1016.5441938493053,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.40408141587855934,
-      "intercept": 37.582112459521376,
+      "slope": 0.40405027693407475,
+      "intercept": 37.62367660749696,
       "xMin": 0,
       "xMax": 3343,
-      "y1": 37.582112459521376,
-      "y2": 1388.4262857415451,
+      "y1": 37.62367660749696,
+      "y2": 1388.3637523981088,
       "label": "Reindeer"
     }
   },
@@ -3852,16 +3852,16 @@
       "activeUsers": 81
     },
     {
+      "roomName": "Jungle Cruise Dock",
+      "hitCount": 267,
+      "avgUserRatio": 4.5,
+      "activeUsers": 37
+    },
+    {
       "roomName": "Shrunken Ned's Shop",
       "hitCount": 265,
       "avgUserRatio": 4.89,
       "activeUsers": 47
-    },
-    {
-      "roomName": "Jungle Cruise Dock",
-      "hitCount": 256,
-      "avgUserRatio": 4.35,
-      "activeUsers": 37
     },
     {
       "roomName": "Snow White Hide 'n Seek Forest",
