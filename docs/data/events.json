@@ -259018,5 +259018,55 @@
     "value": 1.07692,
     "attackerTeam": "Reindeer",
     "victimTeam": "Penguin"
+  },
+  {
+    "time": "2026-01-07 15:38:37",
+    "attacker": "Kronkx",
+    "victim": "Retro",
+    "roomId": "11",
+    "roomName": "Jungle Cruise Dock",
+    "value": 1.10345,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2026-01-07 15:38:44",
+    "attacker": "Retro",
+    "victim": "Kronkx",
+    "roomId": "11",
+    "roomName": "Jungle Cruise Dock",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2026-01-07 15:50:23",
+    "attacker": "Kronkx",
+    "victim": "OceanWish",
+    "roomId": "76",
+    "roomName": "Captain's Quest Quarters",
+    "value": 1.0625,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2026-01-07 15:50:39",
+    "attacker": "Kronkx",
+    "victim": "DrowsyAquaPotato",
+    "roomId": "39",
+    "roomName": "Fantasyland in The Sky",
+    "value": 1.03226,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2026-01-07 15:50:47",
+    "attacker": "Kronkx",
+    "victim": "DrowsyAquaPotato",
+    "roomId": "39",
+    "roomName": "Fantasyland in The Sky",
+    "value": 1.06452,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
   }
 ]
