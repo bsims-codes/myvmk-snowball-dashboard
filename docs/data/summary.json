@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-07T13:24:37.180Z",
-  "totalRows": 25830,
+  "generatedAt": "2026-01-07T13:53:33.563Z",
+  "totalRows": 25845,
   "totalUsers": 493,
   "teamStats": {
     "Penguin": {
       "users": 220,
       "attacks": 14738,
-      "hitsTaken": 11092
+      "hitsTaken": 11107
     },
     "Reindeer": {
       "users": 273,
-      "attacks": 11092,
+      "attacks": 11107,
       "hitsTaken": 14738
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 11092
+      "count": 11107
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 3291,
+      "attacks": 3306,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 3291,
+      "attacks": 3306,
       "hitsTaken": 888,
-      "ratio": 3.706081081081081
+      "ratio": 3.722972972972973
     },
     {
       "user": "CaptainBubbles",
@@ -1888,6 +1888,13 @@
       "ratio": 1.5
     },
     {
+      "user": "Ash_Mccash",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 20,
+      "ratio": 0
+    },
+    {
       "user": "MargieDisMom",
       "team": "Reindeer",
       "attacks": 0,
@@ -2628,13 +2635,6 @@
       "attacks": 1,
       "hitsTaken": 4,
       "ratio": 0.25
-    },
-    {
-      "user": "Ash_Mccash",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 5,
-      "ratio": 0
     },
     {
       "user": "bbgigi",
@@ -3738,30 +3738,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3635554539470935,
-      "intercept": 33.34556313295451,
+      "slope": 0.3625468697915417,
+      "intercept": 33.417801521780135,
       "xMin": 0,
-      "xMax": 3291,
-      "y1": 33.34556313295451,
-      "y2": 1229.8065620728391,
+      "xMax": 3306,
+      "y1": 33.417801521780135,
+      "y2": 1231.997753052617,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2962097049253389,
-      "intercept": 30.574824403683433,
+      "slope": 0.2961004042726927,
+      "intercept": 30.650328371950252,
       "xMin": 0,
-      "xMax": 3291,
-      "y1": 30.574824403683433,
-      "y2": 1005.4009633129738,
+      "xMax": 3306,
+      "y1": 30.650328371950252,
+      "y2": 1009.5582648974723,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.41053075880748957,
-      "intercept": 37.305468217242954,
+      "slope": 0.4085830277995239,
+      "intercept": 37.36215498253,
       "xMin": 0,
-      "xMax": 3291,
-      "y1": 37.305468217242954,
-      "y2": 1388.3621954526911,
+      "xMax": 3306,
+      "y1": 37.36215498253,
+      "y2": 1388.1376448877559,
       "label": "Reindeer"
     }
   },
@@ -3804,9 +3804,9 @@
     },
     {
       "roomName": "Dungeon",
-      "hitCount": 628,
-      "avgUserRatio": 2.53,
-      "activeUsers": 68
+      "hitCount": 629,
+      "avgUserRatio": 2.5,
+      "activeUsers": 69
     },
     {
       "roomName": "VMK Esplanade",
@@ -3846,9 +3846,15 @@
     },
     {
       "roomName": "Shrunken Ned's Shop",
-      "hitCount": 264,
-      "avgUserRatio": 4.99,
-      "activeUsers": 46
+      "hitCount": 265,
+      "avgUserRatio": 4.89,
+      "activeUsers": 47
+    },
+    {
+      "roomName": "Street Party Music Game Lobby",
+      "hitCount": 246,
+      "avgUserRatio": 1.16,
+      "activeUsers": 72
     },
     {
       "roomName": "New Orleans Square",
@@ -3861,12 +3867,6 @@
       "hitCount": 239,
       "avgUserRatio": 2.97,
       "activeUsers": 36
-    },
-    {
-      "roomName": "Street Party Music Game Lobby",
-      "hitCount": 235,
-      "avgUserRatio": 1.17,
-      "activeUsers": 71
     },
     {
       "roomName": "Jungle Cruise Dock",
@@ -3900,9 +3900,9 @@
     },
     {
       "roomName": "Pirate Treehouse",
-      "hitCount": 171,
-      "avgUserRatio": 1.52,
-      "activeUsers": 45
+      "hitCount": 173,
+      "avgUserRatio": 1.49,
+      "activeUsers": 46
     },
     {
       "roomName": "Gallery",

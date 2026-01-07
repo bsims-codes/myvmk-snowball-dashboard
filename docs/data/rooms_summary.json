@@ -37,9 +37,9 @@
   },
   {
     "roomName": "Dungeon",
-    "hitCount": 628,
-    "avgUserRatio": 2.53,
-    "activeUsers": 68
+    "hitCount": 629,
+    "avgUserRatio": 2.5,
+    "activeUsers": 69
   },
   {
     "roomName": "VMK Esplanade",
@@ -79,9 +79,15 @@
   },
   {
     "roomName": "Shrunken Ned's Shop",
-    "hitCount": 264,
-    "avgUserRatio": 4.99,
-    "activeUsers": 46
+    "hitCount": 265,
+    "avgUserRatio": 4.89,
+    "activeUsers": 47
+  },
+  {
+    "roomName": "Street Party Music Game Lobby",
+    "hitCount": 246,
+    "avgUserRatio": 1.16,
+    "activeUsers": 72
   },
   {
     "roomName": "New Orleans Square",
@@ -94,12 +100,6 @@
     "hitCount": 239,
     "avgUserRatio": 2.97,
     "activeUsers": 36
-  },
-  {
-    "roomName": "Street Party Music Game Lobby",
-    "hitCount": 235,
-    "avgUserRatio": 1.17,
-    "activeUsers": 71
   },
   {
     "roomName": "Jungle Cruise Dock",
@@ -133,9 +133,9 @@
   },
   {
     "roomName": "Pirate Treehouse",
-    "hitCount": 171,
-    "avgUserRatio": 1.52,
-    "activeUsers": 45
+    "hitCount": 173,
+    "avgUserRatio": 1.49,
+    "activeUsers": 46
   },
   {
     "roomName": "Gallery",
