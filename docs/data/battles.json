@@ -5713,6 +5713,86 @@
     ]
   },
   {
+    "id": "Fantasyland in The Sky-4",
+    "roomName": "Fantasyland in The Sky",
+    "start": "2026-01-06T23:14:52.000Z",
+    "end": "2026-01-06T23:29:43.000Z",
+    "durationMinutes": 15,
+    "hitCount": 160,
+    "uniqueUsers": 5,
+    "topAttackers": [
+      {
+        "user": "Annie",
+        "team": "Penguin",
+        "attacks": 146
+      },
+      {
+        "user": "Simpleplanfangirl",
+        "team": "Reindeer",
+        "attacks": 13
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 1
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Orcool",
+        "team": "Reindeer",
+        "hitsTaken": 75
+      },
+      {
+        "user": "Simpleplanfangirl",
+        "team": "Reindeer",
+        "hitsTaken": 71
+      },
+      {
+        "user": "Annie",
+        "team": "Penguin",
+        "hitsTaken": 11
+      }
+    ],
+    "participants": [
+      {
+        "user": "Annie",
+        "team": "Penguin",
+        "attacks": 146,
+        "hitsTaken": 11,
+        "ratio": 13.272727272727273
+      },
+      {
+        "user": "Simpleplanfangirl",
+        "team": "Reindeer",
+        "attacks": 13,
+        "hitsTaken": 71,
+        "ratio": 0.18309859154929578
+      },
+      {
+        "user": "Orcool",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 75,
+        "ratio": 0
+      },
+      {
+        "user": "GuestPassPlus",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 3,
+        "ratio": 0
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-15",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-20T14:15:15.000Z",
