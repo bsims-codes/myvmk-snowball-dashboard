@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-07T05:14:41.700Z",
-  "totalRows": 25781,
+  "generatedAt": "2026-01-07T05:42:36.558Z",
+  "totalRows": 25790,
   "totalUsers": 493,
   "teamStats": {
     "Penguin": {
       "users": 220,
       "attacks": 14738,
-      "hitsTaken": 11043
+      "hitsTaken": 11052
     },
     "Reindeer": {
       "users": 273,
-      "attacks": 11043,
+      "attacks": 11052,
       "hitsTaken": 14738
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 11043
+      "count": 11052
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 3242,
+      "attacks": 3251,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 3242,
+      "attacks": 3251,
       "hitsTaken": 888,
-      "ratio": 3.650900900900901
+      "ratio": 3.661036036036036
     },
     {
       "user": "CaptainBubbles",
@@ -698,6 +698,13 @@
       "ratio": 0.3359375
     },
     {
+      "user": "HugsforaLifetime",
+      "team": "Penguin",
+      "attacks": 45,
+      "hitsTaken": 125,
+      "ratio": 0.36
+    },
+    {
       "user": "chloeandre",
       "team": "Reindeer",
       "attacks": 47,
@@ -710,13 +717,6 @@
       "attacks": 153,
       "hitsTaken": 9,
       "ratio": 17
-    },
-    {
-      "user": "HugsforaLifetime",
-      "team": "Penguin",
-      "attacks": 45,
-      "hitsTaken": 116,
-      "ratio": 0.3879310344827586
     },
     {
       "user": "Simpleplanfangirl",
@@ -3738,30 +3738,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3668418940429042,
-      "intercept": 33.11044448210931,
+      "slope": 0.3662515828156001,
+      "intercept": 33.15288373059974,
       "xMin": 0,
-      "xMax": 3242,
-      "y1": 33.11044448210931,
-      "y2": 1222.4118649692048,
+      "xMax": 3251,
+      "y1": 33.15288373059974,
+      "y2": 1223.8367794641158,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2965227012150457,
-      "intercept": 30.33112922496662,
+      "slope": 0.29650117333239534,
+      "intercept": 30.37348048830526,
       "xMin": 0,
-      "xMax": 3242,
-      "y1": 30.33112922496662,
-      "y2": 991.6577265641448,
+      "xMax": 3251,
+      "y1": 30.37348048830526,
+      "y2": 994.2987949919226,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4169914806324779,
-      "intercept": 37.1178134775661,
+      "slope": 0.41579344995957523,
+      "intercept": 37.15256700017133,
       "xMin": 0,
-      "xMax": 3242,
-      "y1": 37.1178134775661,
-      "y2": 1389.0041936880596,
+      "xMax": 3251,
+      "y1": 37.15256700017133,
+      "y2": 1388.8970728187503,
       "label": "Reindeer"
     }
   },
