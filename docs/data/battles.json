@@ -15399,6 +15399,45 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-51",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-07T01:24:42.000Z",
+    "end": "2026-01-07T01:42:58.000Z",
+    "durationMinutes": 18,
+    "hitCount": 35,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 35
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 35
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 35,
+        "hitsTaken": 0,
+        "ratio": 35
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 35,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Blue Bayou-1",
     "roomName": "Blue Bayou",
     "start": "2025-12-24T21:36:55.000Z",
