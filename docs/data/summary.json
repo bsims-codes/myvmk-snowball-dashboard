@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-07T19:55:16.463Z",
-  "totalRows": 25899,
+  "generatedAt": "2026-01-07T20:12:46.494Z",
+  "totalRows": 25902,
   "totalUsers": 493,
   "teamStats": {
     "Penguin": {
       "users": 220,
       "attacks": 14762,
-      "hitsTaken": 11137
+      "hitsTaken": 11140
     },
     "Reindeer": {
       "users": 273,
-      "attacks": 11137,
+      "attacks": 11140,
       "hitsTaken": 14762
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 11137
+      "count": 11140
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 3336,
+      "attacks": 3339,
       "team": "Reindeer"
     },
     {
@@ -268,13 +268,13 @@
       "team": "Penguin"
     },
     {
-      "user": "bittahmercenary",
+      "user": "VMKNeec",
       "hitsTaken": 214,
       "team": "Penguin"
     },
     {
-      "user": "VMKNeec",
-      "hitsTaken": 211,
+      "user": "bittahmercenary",
+      "hitsTaken": 214,
       "team": "Penguin"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 3336,
+      "attacks": 3339,
       "hitsTaken": 888,
-      "ratio": 3.7567567567567566
+      "ratio": 3.760135135135135
     },
     {
       "user": "CaptainBubbles",
@@ -386,8 +386,8 @@
       "user": "VMKNeec",
       "team": "Penguin",
       "attacks": 679,
-      "hitsTaken": 211,
-      "ratio": 3.2180094786729856
+      "hitsTaken": 214,
+      "ratio": 3.1728971962616823
     },
     {
       "user": "BuckyBarnes",
@@ -3738,30 +3738,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3600495949011456,
-      "intercept": 33.61881448611609,
+      "slope": 0.35993527940420494,
+      "intercept": 33.62871479284439,
       "xMin": 0,
-      "xMax": 3336,
-      "y1": 33.61881448611609,
-      "y2": 1234.7442630763376,
+      "xMax": 3339,
+      "y1": 33.62871479284439,
+      "y2": 1235.4526127234847,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2949668098865023,
-      "intercept": 30.830454329342967,
+      "slope": 0.2951655925702381,
+      "intercept": 30.83075237490066,
       "xMin": 0,
-      "xMax": 3336,
-      "y1": 30.830454329342967,
-      "y2": 1014.8397321107146,
+      "xMax": 3339,
+      "y1": 30.83075237490066,
+      "y2": 1016.3886659669257,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4047438322866083,
-      "intercept": 37.56178732536279,
+      "slope": 0.4043614326022523,
+      "intercept": 37.5729437392341,
       "xMin": 0,
-      "xMax": 3336,
-      "y1": 37.56178732536279,
-      "y2": 1387.787211833488,
+      "xMax": 3339,
+      "y1": 37.5729437392341,
+      "y2": 1387.7357671981545,
       "label": "Reindeer"
     }
   },
@@ -3870,8 +3870,8 @@
     },
     {
       "roomName": "New Orleans Square",
-      "hitCount": 240,
-      "avgUserRatio": 1.89,
+      "hitCount": 243,
+      "avgUserRatio": 1.8,
       "activeUsers": 35
     },
     {
