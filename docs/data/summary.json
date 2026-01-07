@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-07T19:10:04.161Z",
-  "totalRows": 25869,
+  "generatedAt": "2026-01-07T19:29:52.825Z",
+  "totalRows": 25897,
   "totalUsers": 493,
   "teamStats": {
     "Penguin": {
       "users": 220,
       "attacks": 14762,
-      "hitsTaken": 11107
+      "hitsTaken": 11135
     },
     "Reindeer": {
       "users": 273,
-      "attacks": 11107,
+      "attacks": 11135,
       "hitsTaken": 14762
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 11107
+      "count": 11135
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 3306,
+      "attacks": 3334,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 3306,
+      "attacks": 3334,
       "hitsTaken": 888,
-      "ratio": 3.722972972972973
+      "ratio": 3.7545045045045047
     },
     {
       "user": "CaptainBubbles",
@@ -922,6 +922,13 @@
       "ratio": 0.038834951456310676
     },
     {
+      "user": "BlueSorcerer",
+      "team": "Penguin",
+      "attacks": 28,
+      "hitsTaken": 75,
+      "ratio": 0.37333333333333335
+    },
+    {
       "user": "Bib",
       "team": "Reindeer",
       "attacks": 51,
@@ -1123,13 +1130,6 @@
       "attacks": 15,
       "hitsTaken": 62,
       "ratio": 0.24193548387096775
-    },
-    {
-      "user": "BlueSorcerer",
-      "team": "Penguin",
-      "attacks": 28,
-      "hitsTaken": 47,
-      "ratio": 0.5957446808510638
     },
     {
       "user": "Ormonddude",
@@ -3738,30 +3738,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.36202158600574447,
-      "intercept": 33.47639673756064,
+      "slope": 0.3601831068772669,
+      "intercept": 33.60920503285887,
       "xMin": 0,
-      "xMax": 3306,
-      "y1": 33.47639673756064,
-      "y2": 1230.3197600725518,
+      "xMax": 3334,
+      "y1": 33.60920503285887,
+      "y2": 1234.4596833616667,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2950998947687332,
-      "intercept": 30.685160697381637,
+      "slope": 0.29498134201928944,
+      "intercept": 30.820388314142043,
       "xMin": 0,
-      "xMax": 3306,
-      "y1": 30.685160697381637,
-      "y2": 1006.2854128028137,
+      "xMax": 3334,
+      "y1": 30.820388314142043,
+      "y2": 1014.288182606453,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4085980915931007,
-      "intercept": 37.4494542002763,
+      "slope": 0.40499906965822297,
+      "intercept": 37.554341975661856,
       "xMin": 0,
-      "xMax": 3306,
-      "y1": 37.4494542002763,
-      "y2": 1388.2747450070672,
+      "xMax": 3334,
+      "y1": 37.554341975661856,
+      "y2": 1387.821240216177,
       "label": "Reindeer"
     }
   },
@@ -3851,6 +3851,12 @@
       "activeUsers": 47
     },
     {
+      "roomName": "Jungle Cruise Dock",
+      "hitCount": 254,
+      "avgUserRatio": 4.46,
+      "activeUsers": 36
+    },
+    {
       "roomName": "Snow White Hide 'n Seek Forest",
       "hitCount": 246,
       "avgUserRatio": 3.08,
@@ -3867,12 +3873,6 @@
       "hitCount": 240,
       "avgUserRatio": 1.89,
       "activeUsers": 35
-    },
-    {
-      "roomName": "Jungle Cruise Dock",
-      "hitCount": 226,
-      "avgUserRatio": 4.36,
-      "activeUsers": 36
     },
     {
       "roomName": "Monorail Train",
