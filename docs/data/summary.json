@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-07T18:16:50.094Z",
-  "totalRows": 25855,
+  "generatedAt": "2026-01-07T18:51:20.218Z",
+  "totalRows": 25869,
   "totalUsers": 493,
   "teamStats": {
     "Penguin": {
       "users": 220,
-      "attacks": 14748,
+      "attacks": 14762,
       "hitsTaken": 11107
     },
     "Reindeer": {
       "users": 273,
       "attacks": 11107,
-      "hitsTaken": 14748
+      "hitsTaken": 14762
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 14748
+      "count": 14762
     },
     {
       "pair": "Reindeer → Penguin",
@@ -62,7 +62,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 922,
+      "attacks": 936,
       "team": "Penguin"
     },
     {
@@ -355,18 +355,18 @@
       "ratio": 0.09117082533589252
     },
     {
+      "user": "JustForFun",
+      "team": "Penguin",
+      "attacks": 936,
+      "hitsTaken": 173,
+      "ratio": 5.410404624277457
+    },
+    {
       "user": "MagicMinnieMare",
       "team": "Reindeer",
       "attacks": 450,
       "hitsTaken": 654,
       "ratio": 0.6880733944954128
-    },
-    {
-      "user": "JustForFun",
-      "team": "Penguin",
-      "attacks": 922,
-      "hitsTaken": 173,
-      "ratio": 5.329479768786127
     },
     {
       "user": "Devgirlforever",
@@ -551,6 +551,13 @@
       "ratio": 0.8717948717948718
     },
     {
+      "user": "dizlindsey",
+      "team": "Reindeer",
+      "attacks": 166,
+      "hitsTaken": 113,
+      "ratio": 1.4690265486725664
+    },
+    {
       "user": "Tinkfaniam",
       "team": "Reindeer",
       "attacks": 129,
@@ -563,13 +570,6 @@
       "attacks": 115,
       "hitsTaken": 157,
       "ratio": 0.732484076433121
-    },
-    {
-      "user": "dizlindsey",
-      "team": "Reindeer",
-      "attacks": 166,
-      "hitsTaken": 106,
-      "ratio": 1.5660377358490567
     },
     {
       "user": "lotuskitty",
@@ -915,6 +915,13 @@
       "ratio": 0.8771929824561403
     },
     {
+      "user": "Cali",
+      "team": "Reindeer",
+      "attacks": 4,
+      "hitsTaken": 103,
+      "ratio": 0.038834951456310676
+    },
+    {
       "user": "Bib",
       "team": "Reindeer",
       "attacks": 51,
@@ -927,13 +934,6 @@
       "attacks": 27,
       "hitsTaken": 75,
       "ratio": 0.36
-    },
-    {
-      "user": "Cali",
-      "team": "Reindeer",
-      "attacks": 4,
-      "hitsTaken": 96,
-      "ratio": 0.041666666666666664
     },
     {
       "user": "Diamond-K",
@@ -3738,30 +3738,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3623088185673316,
-      "intercept": 33.443216016108806,
+      "slope": 0.36202158600574447,
+      "intercept": 33.47639673756064,
       "xMin": 0,
       "xMax": 3306,
-      "y1": 33.443216016108806,
-      "y2": 1231.2361701997072,
+      "y1": 33.47639673756064,
+      "y2": 1230.3197600725518,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2956869132270063,
-      "intercept": 30.664588198764143,
+      "slope": 0.2950998947687332,
+      "intercept": 30.685160697381637,
       "xMin": 0,
       "xMax": 3306,
-      "y1": 30.664588198764143,
-      "y2": 1008.205523327247,
+      "y1": 30.685160697381637,
+      "y2": 1006.2854128028137,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4085543300609802,
-      "intercept": 37.39995258612708,
+      "slope": 0.4085980915931007,
+      "intercept": 37.4494542002763,
       "xMin": 0,
       "xMax": 3306,
-      "y1": 37.39995258612708,
-      "y2": 1388.0805677677274,
+      "y1": 37.4494542002763,
+      "y2": 1388.2747450070672,
       "label": "Reindeer"
     }
   },
@@ -3840,8 +3840,8 @@
     },
     {
       "roomName": "Blue Bayou",
-      "hitCount": 307,
-      "avgUserRatio": 2.2,
+      "hitCount": 314,
+      "avgUserRatio": 2.28,
       "activeUsers": 81
     },
     {
@@ -3849,6 +3849,12 @@
       "hitCount": 265,
       "avgUserRatio": 4.89,
       "activeUsers": 47
+    },
+    {
+      "roomName": "Snow White Hide 'n Seek Forest",
+      "hitCount": 246,
+      "avgUserRatio": 3.08,
+      "activeUsers": 37
     },
     {
       "roomName": "Street Party Music Game Lobby",
@@ -3861,12 +3867,6 @@
       "hitCount": 240,
       "avgUserRatio": 1.89,
       "activeUsers": 35
-    },
-    {
-      "roomName": "Snow White Hide 'n Seek Forest",
-      "hitCount": 239,
-      "avgUserRatio": 2.97,
-      "activeUsers": 36
     },
     {
       "roomName": "Jungle Cruise Dock",
