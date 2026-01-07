@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-07T19:49:24.601Z",
-  "totalRows": 25897,
+  "generatedAt": "2026-01-07T19:55:16.463Z",
+  "totalRows": 25899,
   "totalUsers": 493,
   "teamStats": {
     "Penguin": {
       "users": 220,
       "attacks": 14762,
-      "hitsTaken": 11135
+      "hitsTaken": 11137
     },
     "Reindeer": {
       "users": 273,
-      "attacks": 11135,
+      "attacks": 11137,
       "hitsTaken": 14762
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 11135
+      "count": 11137
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 3334,
+      "attacks": 3336,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 3334,
+      "attacks": 3336,
       "hitsTaken": 888,
-      "ratio": 3.7545045045045047
+      "ratio": 3.7567567567567566
     },
     {
       "user": "CaptainBubbles",
@@ -3022,6 +3022,13 @@
       "ratio": 0
     },
     {
+      "user": "agentish",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 3,
+      "ratio": 0
+    },
+    {
       "user": "blackoutvmk",
       "team": "Penguin",
       "attacks": 0,
@@ -3512,13 +3519,6 @@
       "ratio": 0
     },
     {
-      "user": "agentish",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 1,
-      "ratio": 0
-    },
-    {
       "user": "hamtercat",
       "team": "Reindeer",
       "attacks": 0,
@@ -3738,30 +3738,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3601831068772669,
-      "intercept": 33.60920503285887,
+      "slope": 0.3600495949011456,
+      "intercept": 33.61881448611609,
       "xMin": 0,
-      "xMax": 3334,
-      "y1": 33.60920503285887,
-      "y2": 1234.4596833616667,
+      "xMax": 3336,
+      "y1": 33.61881448611609,
+      "y2": 1234.7442630763376,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.29498134201928944,
-      "intercept": 30.820388314142043,
+      "slope": 0.2949668098865023,
+      "intercept": 30.830454329342967,
       "xMin": 0,
-      "xMax": 3334,
-      "y1": 30.820388314142043,
-      "y2": 1014.288182606453,
+      "xMax": 3336,
+      "y1": 30.830454329342967,
+      "y2": 1014.8397321107146,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.40499906965822297,
-      "intercept": 37.554341975661856,
+      "slope": 0.4047438322866083,
+      "intercept": 37.56178732536279,
       "xMin": 0,
-      "xMax": 3334,
-      "y1": 37.554341975661856,
-      "y2": 1387.821240216177,
+      "xMax": 3336,
+      "y1": 37.56178732536279,
+      "y2": 1387.787211833488,
       "label": "Reindeer"
     }
   },
@@ -3786,9 +3786,9 @@
     },
     {
       "roomName": "Matterhorn",
-      "hitCount": 1735,
+      "hitCount": 1737,
       "avgUserRatio": 1.09,
-      "activeUsers": 212
+      "activeUsers": 213
     },
     {
       "roomName": "Fantasyland in The Sky",
