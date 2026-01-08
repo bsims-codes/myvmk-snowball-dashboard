@@ -392,18 +392,18 @@
     "ratio": 0.9701492537313433
   },
   {
+    "user": "AstroVioletRose",
+    "team": "Reindeer",
+    "attacks": 64,
+    "hitsTaken": 19,
+    "ratio": 3.3684210526315788
+  },
+  {
     "user": "Magenta",
     "team": "Penguin",
     "attacks": 64,
     "hitsTaken": 394,
     "ratio": 0.16243654822335024
-  },
-  {
-    "user": "AstroVioletRose",
-    "team": "Reindeer",
-    "attacks": 63,
-    "hitsTaken": 19,
-    "ratio": 3.3157894736842106
   },
   {
     "user": "SleveMcDichael",
@@ -3483,6 +3483,13 @@
     "team": "Penguin",
     "attacks": 0,
     "hitsTaken": 6,
+    "ratio": 0
+  },
+  {
+    "user": "FlyingShinyGirl",
+    "team": "Penguin",
+    "attacks": 0,
+    "hitsTaken": 1,
     "ratio": 0
   }
 ]
