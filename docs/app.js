@@ -2704,7 +2704,7 @@ function renderHeatmap() {
   }
 
   // Build grid HTML
-  let html = '<div class="heatmap-grid" style="grid-template-columns: auto repeat(24, 1fr);">';
+  let html = '<div class="heatmap-grid" style="grid-template-columns: 30px repeat(24, minmax(20px, 1fr));">';
 
   // Header row with hours
   html += '<div class="heatmap-label"></div>';

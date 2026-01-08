@@ -493,13 +493,14 @@
 
       /* Heatmap styles */
       .heatmap-grid {
-        display: inline-grid;
-        gap: 2px;
+        display: grid;
+        gap: 3px;
         font-size: 0.7rem;
+        width: 100%;
       }
       .heatmap-cell {
-        width: 20px;
-        height: 20px;
+        aspect-ratio: 1;
+        min-height: 20px;
         border-radius: 3px;
         display: flex;
         align-items: center;
@@ -511,6 +512,8 @@
         justify-content: center;
         font-weight: 500;
         color: var(--text-muted);
+        white-space: nowrap;
+        font-size: 0.65rem;
       }
 
       /* Battles */
