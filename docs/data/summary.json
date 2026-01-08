@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-08T22:00:16.197Z",
-  "totalRows": 26638,
+  "generatedAt": "2026-01-08T22:23:19.739Z",
+  "totalRows": 26639,
   "totalUsers": 501,
   "teamStats": {
     "Penguin": {
       "users": 226,
       "attacks": 15220,
-      "hitsTaken": 11418
+      "hitsTaken": 11419
     },
     "Reindeer": {
       "users": 275,
-      "attacks": 11418,
+      "attacks": 11419,
       "hitsTaken": 15220
     },
     "Unknown": {
@@ -26,7 +26,7 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 11418
+      "count": 11419
     }
   ],
   "topAttackers": [
@@ -687,7 +687,7 @@
       "user": "Cool_Beanss",
       "team": "Penguin",
       "attacks": 0,
-      "hitsTaken": 189,
+      "hitsTaken": 190,
       "ratio": 0
     },
     {
@@ -847,9 +847,9 @@
     {
       "user": "Rex",
       "team": "Reindeer",
-      "attacks": 67,
+      "attacks": 68,
       "hitsTaken": 57,
-      "ratio": 1.1754385964912282
+      "ratio": 1.1929824561403508
     },
     {
       "user": "dietdrkellp",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3463222308652582,
-      "intercept": 34.8233368284225,
+      "slope": 0.34631993432820385,
+      "intercept": 34.82476653886196,
       "xMin": 0,
       "xMax": 3538,
-      "y1": 34.8233368284225,
-      "y2": 1260.111389629706,
+      "y1": 34.82476653886196,
+      "y2": 1260.1046941920472,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2882063821400013,
-      "intercept": 31.246661617018578,
+      "slope": 0.288199623421243,
+      "intercept": 31.251563251238586,
       "xMin": 0,
       "xMax": 3538,
-      "y1": 31.246661617018578,
-      "y2": 1050.9208416283432,
+      "y1": 31.251563251238586,
+      "y2": 1050.9018309155963,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.385995016033333,
-      "intercept": 39.318941479750556,
+      "slope": 0.3859938495079613,
+      "intercept": 39.31758629988579,
       "xMin": 0,
       "xMax": 3538,
-      "y1": 39.318941479750556,
-      "y2": 1404.9693082056826,
+      "y1": 39.31758629988579,
+      "y2": 1404.9638258590528,
       "label": "Reindeer"
     }
   },
@@ -3823,7 +3823,7 @@
     },
     {
       "roomName": "Town Square",
-      "hitCount": 4259,
+      "hitCount": 4260,
       "avgUserRatio": 1.22,
       "activeUsers": 214
     },
