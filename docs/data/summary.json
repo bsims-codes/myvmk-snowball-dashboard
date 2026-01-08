@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-08T22:23:19.739Z",
-  "totalRows": 26639,
+  "generatedAt": "2026-01-08T22:42:41.839Z",
+  "totalRows": 26645,
   "totalUsers": 501,
   "teamStats": {
     "Penguin": {
       "users": 226,
-      "attacks": 15220,
+      "attacks": 15226,
       "hitsTaken": 11419
     },
     "Reindeer": {
       "users": 275,
       "attacks": 11419,
-      "hitsTaken": 15220
+      "hitsTaken": 15226
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 15220
+      "count": 15226
     },
     {
       "pair": "Reindeer → Penguin",
@@ -47,7 +47,7 @@
     },
     {
       "user": "Winnie",
-      "attacks": 1163,
+      "attacks": 1169,
       "team": "Penguin"
     },
     {
@@ -274,7 +274,7 @@
     },
     {
       "user": "AtziriDayre",
-      "hitsTaken": 217,
+      "hitsTaken": 219,
       "team": "Reindeer"
     },
     {
@@ -315,9 +315,9 @@
     {
       "user": "Winnie",
       "team": "Penguin",
-      "attacks": 1163,
+      "attacks": 1169,
       "hitsTaken": 275,
-      "ratio": 4.2290909090909095
+      "ratio": 4.250909090909091
     },
     {
       "user": "kazino",
@@ -561,8 +561,8 @@
       "user": "dizlindsey",
       "team": "Reindeer",
       "attacks": 170,
-      "hitsTaken": 113,
-      "ratio": 1.5044247787610618
+      "hitsTaken": 116,
+      "ratio": 1.4655172413793103
     },
     {
       "user": "Tinkfaniam",
@@ -645,7 +645,7 @@
       "user": "AtziriDayre",
       "team": "Reindeer",
       "attacks": 0,
-      "hitsTaken": 217,
+      "hitsTaken": 219,
       "ratio": 0
     },
     {
@@ -1314,6 +1314,13 @@
       "ratio": 0.037037037037037035
     },
     {
+      "user": "Art",
+      "team": "Reindeer",
+      "attacks": 3,
+      "hitsTaken": 51,
+      "ratio": 0.058823529411764705
+    },
+    {
       "user": "MissAnnaNovang",
       "team": "Reindeer",
       "attacks": 0,
@@ -1326,13 +1333,6 @@
       "attacks": 18,
       "hitsTaken": 35,
       "ratio": 0.5142857142857142
-    },
-    {
-      "user": "Art",
-      "team": "Reindeer",
-      "attacks": 3,
-      "hitsTaken": 50,
-      "ratio": 0.06
     },
     {
       "user": "FreakyGoldenOnion",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.34631993432820385,
-      "intercept": 34.82476653886196,
+      "slope": 0.34620012455651417,
+      "intercept": 34.83899536238336,
       "xMin": 0,
       "xMax": 3538,
-      "y1": 34.82476653886196,
-      "y2": 1260.1046941920472,
+      "y1": 34.83899536238336,
+      "y2": 1259.6950360433307,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.288199623421243,
-      "intercept": 31.251563251238586,
+      "slope": 0.28795485520731356,
+      "intercept": 31.260441664948637,
       "xMin": 0,
       "xMax": 3538,
-      "y1": 31.251563251238586,
-      "y2": 1050.9018309155963,
+      "y1": 31.260441664948637,
+      "y2": 1050.044719388424,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3859938495079613,
-      "intercept": 39.31758629988579,
+      "slope": 0.3860105773001413,
+      "intercept": 39.338709882944315,
       "xMin": 0,
       "xMax": 3538,
-      "y1": 39.31758629988579,
-      "y2": 1404.9638258590528,
+      "y1": 39.338709882944315,
+      "y2": 1405.0441323708444,
       "label": "Reindeer"
     }
   },
@@ -3906,16 +3906,16 @@
       "activeUsers": 49
     },
     {
+      "roomName": "Snow White Hide 'n Seek Forest",
+      "hitCount": 253,
+      "avgUserRatio": 2.88,
+      "activeUsers": 40
+    },
+    {
       "roomName": "Street Party Music Game Lobby",
       "hitCount": 248,
       "avgUserRatio": 1.15,
       "activeUsers": 73
-    },
-    {
-      "roomName": "Snow White Hide 'n Seek Forest",
-      "hitCount": 247,
-      "avgUserRatio": 3.02,
-      "activeUsers": 38
     },
     {
       "roomName": "New Orleans Square",
