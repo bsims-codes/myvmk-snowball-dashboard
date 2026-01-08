@@ -14234,6 +14234,79 @@
     ]
   },
   {
+    "id": "Dungeon-5",
+    "roomName": "Dungeon",
+    "start": "2026-01-08T11:54:24.000Z",
+    "end": "2026-01-08T11:58:57.000Z",
+    "durationMinutes": 5,
+    "hitCount": 40,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "FlameLegend",
+        "team": "Reindeer",
+        "attacks": 20
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 19
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 1
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "hitsTaken": 20
+      },
+      {
+        "user": "FlameLegend",
+        "team": "Reindeer",
+        "hitsTaken": 19
+      },
+      {
+        "user": "aldisneyfans",
+        "team": "Penguin",
+        "hitsTaken": 1
+      }
+    ],
+    "participants": [
+      {
+        "user": "FlameLegend",
+        "team": "Reindeer",
+        "attacks": 20,
+        "hitsTaken": 19,
+        "ratio": 1.0526315789473684
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 19,
+        "hitsTaken": 20,
+        "ratio": 0.95
+      },
+      {
+        "user": "aldisneyfans",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-37",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-25T00:09:27.000Z",

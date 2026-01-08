@@ -37,9 +37,9 @@
   },
   {
     "roomName": "Dungeon",
-    "hitCount": 630,
-    "avgUserRatio": 2.47,
-    "activeUsers": 70
+    "hitCount": 670,
+    "avgUserRatio": 2.23,
+    "activeUsers": 72
   },
   {
     "roomName": "VMK Esplanade",
@@ -216,6 +216,12 @@
     "activeUsers": 24
   },
   {
+    "roomName": "Nautilus Grotto",
+    "hitCount": 68,
+    "avgUserRatio": 1.79,
+    "activeUsers": 19
+  },
+  {
     "roomName": "WS - Norway",
     "hitCount": 67,
     "avgUserRatio": 9.57,
@@ -226,12 +232,6 @@
     "hitCount": 66,
     "avgUserRatio": 3.85,
     "activeUsers": 14
-  },
-  {
-    "roomName": "Nautilus Grotto",
-    "hitCount": 65,
-    "avgUserRatio": 1.72,
-    "activeUsers": 18
   },
   {
     "roomName": "Lost Safari Party",
