@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-08T21:53:34.453Z",
-  "totalRows": 26636,
+  "generatedAt": "2026-01-08T22:00:16.197Z",
+  "totalRows": 26638,
   "totalUsers": 501,
   "teamStats": {
     "Penguin": {
       "users": 226,
-      "attacks": 15218,
+      "attacks": 15220,
       "hitsTaken": 11418
     },
     "Reindeer": {
       "users": 275,
       "attacks": 11418,
-      "hitsTaken": 15218
+      "hitsTaken": 15220
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 15218
+      "count": 15220
     },
     {
       "pair": "Reindeer → Penguin",
@@ -52,7 +52,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 1113,
+      "attacks": 1115,
       "team": "Penguin"
     },
     {
@@ -274,7 +274,7 @@
     },
     {
       "user": "AtziriDayre",
-      "hitsTaken": 215,
+      "hitsTaken": 217,
       "team": "Reindeer"
     },
     {
@@ -336,9 +336,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 1113,
+      "attacks": 1115,
       "hitsTaken": 225,
-      "ratio": 4.946666666666666
+      "ratio": 4.955555555555556
     },
     {
       "user": "PepaRaindrops",
@@ -645,7 +645,7 @@
       "user": "AtziriDayre",
       "team": "Reindeer",
       "attacks": 0,
-      "hitsTaken": 215,
+      "hitsTaken": 217,
       "ratio": 0
     },
     {
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.34636988730608737,
-      "intercept": 34.818183363430116,
+      "slope": 0.3463222308652582,
+      "intercept": 34.8233368284225,
       "xMin": 0,
       "xMax": 3538,
-      "y1": 34.818183363430116,
-      "y2": 1260.2748446523672,
+      "y1": 34.8233368284225,
+      "y2": 1260.111389629706,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.28829212088783407,
-      "intercept": 31.243424463684185,
+      "slope": 0.2882063821400013,
+      "intercept": 31.246661617018578,
       "xMin": 0,
       "xMax": 3538,
-      "y1": 31.243424463684185,
-      "y2": 1051.220948164841,
+      "y1": 31.246661617018578,
+      "y2": 1050.9208416283432,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3860002805296944,
-      "intercept": 39.311450170588905,
+      "slope": 0.385995016033333,
+      "intercept": 39.318941479750556,
       "xMin": 0,
       "xMax": 3538,
-      "y1": 39.311450170588905,
-      "y2": 1404.9804426846476,
+      "y1": 39.318941479750556,
+      "y2": 1404.9693082056826,
       "label": "Reindeer"
     }
   },
@@ -3942,16 +3942,16 @@
       "activeUsers": 40
     },
     {
+      "roomName": "Pirate Treehouse",
+      "hitCount": 185,
+      "avgUserRatio": 1.61,
+      "activeUsers": 49
+    },
+    {
       "roomName": "VMK Gallery",
       "hitCount": 185,
       "avgUserRatio": 3.67,
       "activeUsers": 34
-    },
-    {
-      "roomName": "Pirate Treehouse",
-      "hitCount": 183,
-      "avgUserRatio": 1.57,
-      "activeUsers": 49
     },
     {
       "roomName": "Tiki Tiki Tiki Island",
