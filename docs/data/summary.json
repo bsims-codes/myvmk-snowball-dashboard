@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-08T18:52:50.280Z",
-  "totalRows": 26540,
+  "generatedAt": "2026-01-08T19:10:14.622Z",
+  "totalRows": 26542,
   "totalUsers": 501,
   "teamStats": {
     "Penguin": {
       "users": 226,
-      "attacks": 15190,
+      "attacks": 15192,
       "hitsTaken": 11350
     },
     "Reindeer": {
       "users": 275,
       "attacks": 11350,
-      "hitsTaken": 15190
+      "hitsTaken": 15192
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 15190
+      "count": 15192
     },
     {
       "pair": "Reindeer → Penguin",
@@ -52,7 +52,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 1086,
+      "attacks": 1088,
       "team": "Penguin"
     },
     {
@@ -336,9 +336,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 1086,
+      "attacks": 1088,
       "hitsTaken": 206,
-      "ratio": 5.271844660194175
+      "ratio": 5.281553398058253
     },
     {
       "user": "PepaRaindrops",
@@ -978,18 +978,18 @@
       "ratio": 0
     },
     {
+      "user": "Monsta",
+      "team": "Reindeer",
+      "attacks": 21,
+      "hitsTaken": 71,
+      "ratio": 0.29577464788732394
+    },
+    {
       "user": "KristiDB",
       "team": "Reindeer",
       "attacks": 17,
       "hitsTaken": 74,
       "ratio": 0.22972972972972974
-    },
-    {
-      "user": "Monsta",
-      "team": "Reindeer",
-      "attacks": 21,
-      "hitsTaken": 69,
-      "ratio": 0.30434782608695654
     },
     {
       "user": "ArrowToTheHeart",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3488276697182361,
-      "intercept": 34.56222729135603,
+      "slope": 0.34878027280892687,
+      "intercept": 34.56734799821093,
       "xMin": 0,
       "xMax": 3470,
-      "y1": 34.56222729135603,
-      "y2": 1244.9942412136354,
+      "y1": 34.56734799821093,
+      "y2": 1244.834894645187,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2878547410083073,
-      "intercept": 31.00660659592805,
+      "slope": 0.28776803802412093,
+      "intercept": 31.009902072611354,
       "xMin": 0,
       "xMax": 3470,
-      "y1": 31.00660659592805,
-      "y2": 1029.8625578947544,
+      "y1": 31.009902072611354,
+      "y2": 1029.564994016311,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.391418392578077,
-      "intercept": 39.08145906995937,
+      "slope": 0.3914157430115306,
+      "intercept": 39.088841152069556,
       "xMin": 0,
       "xMax": 3470,
-      "y1": 39.08145906995937,
-      "y2": 1397.3032813158866,
+      "y1": 39.088841152069556,
+      "y2": 1397.3014694020808,
       "label": "Reindeer"
     }
   },
@@ -3871,9 +3871,9 @@
     },
     {
       "roomName": "Blue Bayou",
-      "hitCount": 388,
-      "avgUserRatio": 2.76,
-      "activeUsers": 84
+      "hitCount": 390,
+      "avgUserRatio": 2.75,
+      "activeUsers": 85
     },
     {
       "roomName": "Epcot Entrance",
