@@ -16442,6 +16442,45 @@
     ]
   },
   {
+    "id": "Blue Bayou-4",
+    "roomName": "Blue Bayou",
+    "start": "2026-01-08T11:07:07.000Z",
+    "end": "2026-01-08T11:10:27.000Z",
+    "durationMinutes": 3,
+    "hitCount": 33,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 33
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "stitchfr",
+        "team": "Penguin",
+        "hitsTaken": 33
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 33,
+        "hitsTaken": 0,
+        "ratio": 33
+      },
+      {
+        "user": "stitchfr",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 33,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Shrunken Ned's Shop-2",
     "roomName": "Shrunken Ned's Shop",
     "start": "2025-12-29T18:26:32.000Z",
