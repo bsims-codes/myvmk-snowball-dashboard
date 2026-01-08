@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 8095,
-    "avgUserRatio": 0.92,
-    "activeUsers": 211
+    "hitCount": 8110,
+    "avgUserRatio": 0.91,
+    "activeUsers": 212
   },
   {
     "roomName": "Town Square",
@@ -12,16 +12,16 @@
     "activeUsers": 212
   },
   {
-    "roomName": "Main Street",
-    "hitCount": 2018,
-    "avgUserRatio": 1.74,
-    "activeUsers": 185
+    "roomName": "Matterhorn",
+    "hitCount": 2020,
+    "avgUserRatio": 1.06,
+    "activeUsers": 228
   },
   {
-    "roomName": "Matterhorn",
-    "hitCount": 1760,
-    "avgUserRatio": 1.08,
-    "activeUsers": 217
+    "roomName": "Main Street",
+    "hitCount": 2020,
+    "avgUserRatio": 1.74,
+    "activeUsers": 185
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -61,8 +61,8 @@
   },
   {
     "roomName": "Banquet Hall",
-    "hitCount": 338,
-    "avgUserRatio": 2.07,
+    "hitCount": 340,
+    "avgUserRatio": 2.1,
     "activeUsers": 47
   },
   {
@@ -73,15 +73,15 @@
   },
   {
     "roomName": "Blue Bayou",
-    "hitCount": 314,
+    "hitCount": 316,
     "avgUserRatio": 2.28,
-    "activeUsers": 81
+    "activeUsers": 82
   },
   {
     "roomName": "Shrunken Ned's Shop",
-    "hitCount": 268,
-    "avgUserRatio": 4.85,
-    "activeUsers": 48
+    "hitCount": 269,
+    "avgUserRatio": 4.77,
+    "activeUsers": 49
   },
   {
     "roomName": "Jungle Cruise Dock",
@@ -90,16 +90,16 @@
     "activeUsers": 37
   },
   {
+    "roomName": "Street Party Music Game Lobby",
+    "hitCount": 248,
+    "avgUserRatio": 1.15,
+    "activeUsers": 73
+  },
+  {
     "roomName": "Snow White Hide 'n Seek Forest",
     "hitCount": 247,
     "avgUserRatio": 3.02,
     "activeUsers": 38
-  },
-  {
-    "roomName": "Street Party Music Game Lobby",
-    "hitCount": 246,
-    "avgUserRatio": 1.16,
-    "activeUsers": 72
   },
   {
     "roomName": "New Orleans Square",
@@ -133,20 +133,20 @@
   },
   {
     "roomName": "Pirate Treehouse",
-    "hitCount": 175,
-    "avgUserRatio": 1.47,
+    "hitCount": 181,
+    "avgUserRatio": 1.6,
     "activeUsers": 48
+  },
+  {
+    "roomName": "Tiki Tiki Tiki Island",
+    "hitCount": 176,
+    "avgUserRatio": 1.68,
+    "activeUsers": 33
   },
   {
     "roomName": "Gallery",
     "hitCount": 168,
     "avgUserRatio": 2.44,
-    "activeUsers": 32
-  },
-  {
-    "roomName": "Tiki Tiki Tiki Island",
-    "hitCount": 159,
-    "avgUserRatio": 1.56,
     "activeUsers": 32
   },
   {
@@ -175,9 +175,9 @@
   },
   {
     "roomName": "Sci-Fi Dine-In",
-    "hitCount": 93,
-    "avgUserRatio": 2.61,
-    "activeUsers": 27
+    "hitCount": 98,
+    "avgUserRatio": 2.49,
+    "activeUsers": 28
   },
   {
     "roomName": "Autopia Off Road on Mars",
@@ -192,16 +192,16 @@
     "activeUsers": 29
   },
   {
+    "roomName": "Festival of the Lion King",
+    "hitCount": 86,
+    "avgUserRatio": 5.5,
+    "activeUsers": 15
+  },
+  {
     "roomName": "Penny Arcade",
     "hitCount": 85,
     "avgUserRatio": 1.41,
     "activeUsers": 26
-  },
-  {
-    "roomName": "Festival of the Lion King",
-    "hitCount": 82,
-    "avgUserRatio": 5.61,
-    "activeUsers": 14
   },
   {
     "roomName": "Mickey's Courtyard",
@@ -246,6 +246,12 @@
     "activeUsers": 15
   },
   {
+    "roomName": "Forbidden Temple",
+    "hitCount": 49,
+    "avgUserRatio": 1.66,
+    "activeUsers": 25
+  },
+  {
     "roomName": "Splash Mountain",
     "hitCount": 49,
     "avgUserRatio": 1.01,
@@ -256,12 +262,6 @@
     "hitCount": 43,
     "avgUserRatio": 1.07,
     "activeUsers": 17
-  },
-  {
-    "roomName": "Forbidden Temple",
-    "hitCount": 39,
-    "avgUserRatio": 1.32,
-    "activeUsers": 24
   },
   {
     "roomName": "Tom Sawyer's Island",
