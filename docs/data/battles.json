@@ -9823,6 +9823,45 @@
     ]
   },
   {
+    "id": "Snow White Hide 'n Seek Forest-2",
+    "roomName": "Snow White Hide 'n Seek Forest",
+    "start": "2026-01-08T18:01:19.000Z",
+    "end": "2026-01-08T18:09:29.000Z",
+    "durationMinutes": 8,
+    "hitCount": 63,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 63
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "RockStar_Olivia",
+        "team": "Reindeer",
+        "hitsTaken": 63
+      }
+    ],
+    "participants": [
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 63,
+        "hitsTaken": 0,
+        "ratio": 63
+      },
+      {
+        "user": "RockStar_Olivia",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 63,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Main Street-6",
     "roomName": "Main Street",
     "start": "2025-12-25T12:23:58.000Z",

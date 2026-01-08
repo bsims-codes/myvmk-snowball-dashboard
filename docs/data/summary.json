@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-08T22:59:49.183Z",
-  "totalRows": 26652,
+  "generatedAt": "2026-01-08T23:19:10.189Z",
+  "totalRows": 26715,
   "totalUsers": 501,
   "teamStats": {
     "Penguin": {
       "users": 226,
-      "attacks": 15233,
+      "attacks": 15296,
       "hitsTaken": 11419
     },
     "Reindeer": {
       "users": 275,
       "attacks": 11419,
-      "hitsTaken": 15233
+      "hitsTaken": 15296
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 15233
+      "count": 15296
     },
     {
       "pair": "Reindeer → Penguin",
@@ -41,13 +41,13 @@
       "team": "Reindeer"
     },
     {
-      "user": "kazino",
-      "attacks": 1192,
+      "user": "Winnie",
+      "attacks": 1239,
       "team": "Penguin"
     },
     {
-      "user": "Winnie",
-      "attacks": 1176,
+      "user": "kazino",
+      "attacks": 1192,
       "team": "Penguin"
     },
     {
@@ -223,6 +223,11 @@
       "team": "Penguin"
     },
     {
+      "user": "RockStar_Olivia",
+      "hitsTaken": 355,
+      "team": "Reindeer"
+    },
+    {
       "user": "TaterTotCasserole",
       "hitsTaken": 317,
       "team": "Penguin"
@@ -230,11 +235,6 @@
     {
       "user": "Cloudyblue",
       "hitsTaken": 307,
-      "team": "Reindeer"
-    },
-    {
-      "user": "RockStar_Olivia",
-      "hitsTaken": 292,
       "team": "Reindeer"
     },
     {
@@ -315,9 +315,9 @@
     {
       "user": "Winnie",
       "team": "Penguin",
-      "attacks": 1176,
+      "attacks": 1239,
       "hitsTaken": 275,
-      "ratio": 4.276363636363636
+      "ratio": 4.505454545454546
     },
     {
       "user": "kazino",
@@ -516,6 +516,13 @@
       "ratio": 1.65
     },
     {
+      "user": "RockStar_Olivia",
+      "team": "Reindeer",
+      "attacks": 9,
+      "hitsTaken": 355,
+      "ratio": 0.02535211267605634
+    },
+    {
       "user": "taymeow",
       "team": "Reindeer",
       "attacks": 218,
@@ -528,13 +535,6 @@
       "attacks": 119,
       "hitsTaken": 187,
       "ratio": 0.6363636363636364
-    },
-    {
-      "user": "RockStar_Olivia",
-      "team": "Reindeer",
-      "attacks": 9,
-      "hitsTaken": 292,
-      "ratio": 0.030821917808219176
     },
     {
       "user": "Tobyy",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.34604933817162314,
-      "intercept": 34.856186078099796,
+      "slope": 0.34454575189312464,
+      "intercept": 35.01892047635035,
       "xMin": 0,
       "xMax": 3538,
-      "y1": 34.856186078099796,
-      "y2": 1259.1787445293025,
+      "y1": 35.01892047635035,
+      "y2": 1254.0217906742253,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.28766750823646925,
-      "intercept": 31.270937097928282,
+      "slope": 0.28499773561438824,
+      "intercept": 31.37188727129919,
       "xMin": 0,
       "xMax": 3538,
-      "y1": 31.270937097928282,
-      "y2": 1049.0385812385566,
+      "y1": 31.37188727129919,
+      "y2": 1039.6938758750048,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.38601376835455564,
-      "intercept": 39.364031924215745,
+      "slope": 0.3858838687870847,
+      "intercept": 39.598516735710106,
       "xMin": 0,
       "xMax": 3538,
-      "y1": 39.364031924215745,
-      "y2": 1405.0807443626338,
+      "y1": 39.598516735710106,
+      "y2": 1404.8556445044157,
       "label": "Reindeer"
     }
   },
@@ -3894,6 +3894,12 @@
       "activeUsers": 54
     },
     {
+      "roomName": "Snow White Hide 'n Seek Forest",
+      "hitCount": 323,
+      "avgUserRatio": 2.79,
+      "activeUsers": 43
+    },
+    {
       "roomName": "Jungle Cruise Dock",
       "hitCount": 286,
       "avgUserRatio": 3.41,
@@ -3904,12 +3910,6 @@
       "hitCount": 272,
       "avgUserRatio": 4.84,
       "activeUsers": 49
-    },
-    {
-      "roomName": "Snow White Hide 'n Seek Forest",
-      "hitCount": 260,
-      "avgUserRatio": 2.69,
-      "activeUsers": 43
     },
     {
       "roomName": "Street Party Music Game Lobby",
