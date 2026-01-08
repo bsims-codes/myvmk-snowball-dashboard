@@ -7,9 +7,15 @@
   },
   {
     "roomName": "Town Square",
-    "hitCount": 4234,
+    "hitCount": 4257,
     "avgUserRatio": 1.23,
     "activeUsers": 213
+  },
+  {
+    "roomName": "Main Street",
+    "hitCount": 2022,
+    "avgUserRatio": 1.73,
+    "activeUsers": 186
   },
   {
     "roomName": "Matterhorn",
@@ -18,16 +24,10 @@
     "activeUsers": 228
   },
   {
-    "roomName": "Main Street",
-    "hitCount": 2020,
-    "avgUserRatio": 1.74,
-    "activeUsers": 185
-  },
-  {
     "roomName": "Fantasyland in The Sky",
-    "hitCount": 1056,
-    "avgUserRatio": 2.39,
-    "activeUsers": 50
+    "hitCount": 1057,
+    "avgUserRatio": 2.35,
+    "activeUsers": 51
   },
   {
     "roomName": "Central Plaza",
@@ -37,9 +37,9 @@
   },
   {
     "roomName": "Dungeon",
-    "hitCount": 629,
-    "avgUserRatio": 2.5,
-    "activeUsers": 69
+    "hitCount": 630,
+    "avgUserRatio": 2.47,
+    "activeUsers": 70
   },
   {
     "roomName": "VMK Esplanade",
@@ -204,6 +204,12 @@
     "activeUsers": 26
   },
   {
+    "roomName": "Tom Sawyer's Island",
+    "hitCount": 73,
+    "avgUserRatio": 3.92,
+    "activeUsers": 15
+  },
+  {
     "roomName": "Mickey's Courtyard",
     "hitCount": 69,
     "avgUserRatio": 1.61,
@@ -264,16 +270,10 @@
     "activeUsers": 17
   },
   {
-    "roomName": "Tom Sawyer's Island",
-    "hitCount": 39,
-    "avgUserRatio": 1.77,
-    "activeUsers": 14
-  },
-  {
     "roomName": "VMK Central",
-    "hitCount": 38,
-    "avgUserRatio": 1.16,
-    "activeUsers": 16
+    "hitCount": 43,
+    "avgUserRatio": 1.39,
+    "activeUsers": 17
   },
   {
     "roomName": "WS - Mexico",
@@ -298,6 +298,12 @@
     "hitCount": 33,
     "avgUserRatio": 1.87,
     "activeUsers": 8
+  },
+  {
+    "roomName": "\"it's a small world\" Imports",
+    "hitCount": 29,
+    "avgUserRatio": 2,
+    "activeUsers": 13
   },
   {
     "roomName": "Discovery Island",
@@ -328,12 +334,6 @@
     "hitCount": 24,
     "avgUserRatio": 1.08,
     "activeUsers": 4
-  },
-  {
-    "roomName": "\"it's a small world\" Imports",
-    "hitCount": 23,
-    "avgUserRatio": 2.09,
-    "activeUsers": 11
   },
   {
     "roomName": "WS - America",
