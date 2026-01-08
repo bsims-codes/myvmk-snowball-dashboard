@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-08T12:43:05.587Z",
-  "totalRows": 26293,
-  "totalUsers": 499,
+  "generatedAt": "2026-01-08T13:27:55.911Z",
+  "totalRows": 26306,
+  "totalUsers": 500,
   "teamStats": {
     "Penguin": {
-      "users": 224,
+      "users": 225,
       "attacks": 15083,
-      "hitsTaken": 11210
+      "hitsTaken": 11223
     },
     "Reindeer": {
       "users": 275,
-      "attacks": 11210,
+      "attacks": 11223,
       "hitsTaken": 15083
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 11210
+      "count": 11223
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 3350,
+      "attacks": 3363,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 3350,
+      "attacks": 3363,
       "hitsTaken": 891,
-      "ratio": 3.759820426487093
+      "ratio": 3.774410774410774
     },
     {
       "user": "CaptainBubbles",
@@ -2238,6 +2238,13 @@
       "ratio": 0
     },
     {
+      "user": "AwesomeTroyFan",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 13,
+      "ratio": 0
+    },
+    {
       "user": "Baemax_",
       "team": "Reindeer",
       "attacks": 10,
@@ -3780,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.35617393815647563,
-      "intercept": 33.92408545902161,
+      "slope": 0.35541185098942385,
+      "intercept": 33.91307169574443,
       "xMin": 0,
-      "xMax": 3350,
-      "y1": 33.92408545902161,
-      "y2": 1227.106778283215,
+      "xMax": 3363,
+      "y1": 33.91307169574443,
+      "y2": 1229.163126573177,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2896479807829962,
-      "intercept": 30.541247793973522,
+      "slope": 0.2897686873913658,
+      "intercept": 30.455195058115685,
       "xMin": 0,
-      "xMax": 3350,
-      "y1": 30.541247793973522,
-      "y2": 1000.8619834170108,
+      "xMax": 3363,
+      "y1": 30.455195058115685,
+      "y2": 1004.9472907552789,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.4041116747332448,
-      "intercept": 38.374211368146646,
+      "slope": 0.40246725070201367,
+      "intercept": 38.422218346804726,
       "xMin": 0,
-      "xMax": 3350,
-      "y1": 38.374211368146646,
-      "y2": 1392.1483217245168,
+      "xMax": 3363,
+      "y1": 38.422218346804726,
+      "y2": 1391.9195824576768,
       "label": "Reindeer"
     }
   },
@@ -3852,9 +3859,9 @@
     },
     {
       "roomName": "VMK Esplanade",
-      "hitCount": 600,
-      "avgUserRatio": 1.56,
-      "activeUsers": 97
+      "hitCount": 610,
+      "avgUserRatio": 1.55,
+      "activeUsers": 98
     },
     {
       "roomName": "Monorail Station",
@@ -3930,9 +3937,9 @@
     },
     {
       "roomName": "Pixar Pier Entrance",
-      "hitCount": 186,
-      "avgUserRatio": 1.12,
-      "activeUsers": 39
+      "hitCount": 187,
+      "avgUserRatio": 1.1,
+      "activeUsers": 40
     },
     {
       "roomName": "VMK Gallery",

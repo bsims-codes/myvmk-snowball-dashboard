@@ -43,9 +43,9 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 600,
-    "avgUserRatio": 1.56,
-    "activeUsers": 97
+    "hitCount": 610,
+    "avgUserRatio": 1.55,
+    "activeUsers": 98
   },
   {
     "roomName": "Monorail Station",
@@ -121,9 +121,9 @@
   },
   {
     "roomName": "Pixar Pier Entrance",
-    "hitCount": 186,
-    "avgUserRatio": 1.12,
-    "activeUsers": 39
+    "hitCount": 187,
+    "avgUserRatio": 1.1,
+    "activeUsers": 40
   },
   {
     "roomName": "VMK Gallery",
@@ -414,6 +414,12 @@
     "activeUsers": 3
   },
   {
+    "roomName": "WS - Canada",
+    "hitCount": 5,
+    "avgUserRatio": 1.25,
+    "activeUsers": 4
+  },
+  {
     "roomName": "Golden Horseshoe Mercantile",
     "hitCount": 4,
     "avgUserRatio": 1,
@@ -424,12 +430,6 @@
     "hitCount": 3,
     "avgUserRatio": 0.75,
     "activeUsers": 4
-  },
-  {
-    "roomName": "WS - Canada",
-    "hitCount": 3,
-    "avgUserRatio": 1.5,
-    "activeUsers": 2
   },
   {
     "roomName": "Inner-Space Shrinking Machine",
