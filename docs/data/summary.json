@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-08T21:46:24.113Z",
-  "totalRows": 26634,
+  "generatedAt": "2026-01-08T21:53:34.453Z",
+  "totalRows": 26636,
   "totalUsers": 501,
   "teamStats": {
     "Penguin": {
       "users": 226,
-      "attacks": 15216,
+      "attacks": 15218,
       "hitsTaken": 11418
     },
     "Reindeer": {
       "users": 275,
       "attacks": 11418,
-      "hitsTaken": 15216
+      "hitsTaken": 15218
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 15216
+      "count": 15218
     },
     {
       "pair": "Reindeer → Penguin",
@@ -47,12 +47,12 @@
     },
     {
       "user": "Winnie",
-      "attacks": 1162,
+      "attacks": 1163,
       "team": "Penguin"
     },
     {
       "user": "JustForFun",
-      "attacks": 1112,
+      "attacks": 1113,
       "team": "Penguin"
     },
     {
@@ -315,9 +315,9 @@
     {
       "user": "Winnie",
       "team": "Penguin",
-      "attacks": 1162,
+      "attacks": 1163,
       "hitsTaken": 275,
-      "ratio": 4.225454545454546
+      "ratio": 4.2290909090909095
     },
     {
       "user": "kazino",
@@ -336,9 +336,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 1112,
+      "attacks": 1113,
       "hitsTaken": 225,
-      "ratio": 4.942222222222222
+      "ratio": 4.946666666666666
     },
     {
       "user": "PepaRaindrops",
@@ -1055,18 +1055,18 @@
       "ratio": 1.1
     },
     {
+      "user": "AstroVioletRose",
+      "team": "Reindeer",
+      "attacks": 64,
+      "hitsTaken": 20,
+      "ratio": 3.2
+    },
+    {
       "user": "Kyber",
       "team": "Reindeer",
       "attacks": 47,
       "hitsTaken": 36,
       "ratio": 1.3055555555555556
-    },
-    {
-      "user": "AstroVioletRose",
-      "team": "Reindeer",
-      "attacks": 64,
-      "hitsTaken": 19,
-      "ratio": 3.3684210526315788
     },
     {
       "user": "mrcoolness",
@@ -1258,6 +1258,13 @@
       "ratio": 0
     },
     {
+      "user": "Sucrette",
+      "team": "Reindeer",
+      "attacks": 18,
+      "hitsTaken": 44,
+      "ratio": 0.4090909090909091
+    },
+    {
       "user": "SmileyKileyCat",
       "team": "Reindeer",
       "attacks": 20,
@@ -1270,13 +1277,6 @@
       "attacks": 0,
       "hitsTaken": 62,
       "ratio": 0
-    },
-    {
-      "user": "Sucrette",
-      "team": "Reindeer",
-      "attacks": 18,
-      "hitsTaken": 43,
-      "ratio": 0.4186046511627907
     },
     {
       "user": "22ghosts",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.34641371347999955,
-      "intercept": 34.81323431034738,
+      "slope": 0.34636988730608737,
+      "intercept": 34.818183363430116,
       "xMin": 0,
       "xMax": 3538,
-      "y1": 34.81323431034738,
-      "y2": 1260.4249526025858,
+      "y1": 34.818183363430116,
+      "y2": 1260.2748446523672,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2883756431852396,
-      "intercept": 31.24033872574842,
+      "slope": 0.28829212088783407,
+      "intercept": 31.243424463684185,
       "xMin": 0,
       "xMax": 3538,
-      "y1": 31.24033872574842,
-      "y2": 1051.5133643151262,
+      "y1": 31.243424463684185,
+      "y2": 1051.220948164841,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3860003464626931,
-      "intercept": 39.304174705778074,
+      "slope": 0.3860002805296944,
+      "intercept": 39.311450170588905,
       "xMin": 0,
       "xMax": 3538,
-      "y1": 39.304174705778074,
-      "y2": 1404.9734004907862,
+      "y1": 39.311450170588905,
+      "y2": 1404.9804426846476,
       "label": "Reindeer"
     }
   },
@@ -3895,7 +3895,7 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 285,
+      "hitCount": 286,
       "avgUserRatio": 3.41,
       "activeUsers": 38
     },
@@ -3943,9 +3943,9 @@
     },
     {
       "roomName": "VMK Gallery",
-      "hitCount": 184,
-      "avgUserRatio": 3.77,
-      "activeUsers": 33
+      "hitCount": 185,
+      "avgUserRatio": 3.67,
+      "activeUsers": 34
     },
     {
       "roomName": "Pirate Treehouse",
