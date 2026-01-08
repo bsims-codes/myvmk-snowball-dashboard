@@ -14982,6 +14982,45 @@
     ]
   },
   {
+    "id": "Blue Bayou-3",
+    "roomName": "Blue Bayou",
+    "start": "2026-01-08T09:07:41.000Z",
+    "end": "2026-01-08T09:11:13.000Z",
+    "durationMinutes": 4,
+    "hitCount": 38,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 38
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "MaeBae",
+        "team": "Reindeer",
+        "hitsTaken": 38
+      }
+    ],
+    "participants": [
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 38,
+        "hitsTaken": 0,
+        "ratio": 38
+      },
+      {
+        "user": "MaeBae",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 38,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-31",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-22T21:20:44.000Z",
