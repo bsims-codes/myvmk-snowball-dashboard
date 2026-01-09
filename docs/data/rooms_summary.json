@@ -204,6 +204,12 @@
     "activeUsers": 26
   },
   {
+    "roomName": "Elephant Bathing Pool",
+    "hitCount": 75,
+    "avgUserRatio": 1.96,
+    "activeUsers": 16
+  },
+  {
     "roomName": "Tom Sawyer's Island",
     "hitCount": 73,
     "avgUserRatio": 3.92,
@@ -238,12 +244,6 @@
     "hitCount": 61,
     "avgUserRatio": 4.62,
     "activeUsers": 13
-  },
-  {
-    "roomName": "Elephant Bathing Pool",
-    "hitCount": 55,
-    "avgUserRatio": 1.93,
-    "activeUsers": 15
   },
   {
     "roomName": "Autopia Space Race",
