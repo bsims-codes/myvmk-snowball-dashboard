@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-09T22:59:16.015Z",
-  "totalRows": 27102,
+  "generatedAt": "2026-01-09T23:20:02.573Z",
+  "totalRows": 27104,
   "totalUsers": 508,
   "teamStats": {
     "Penguin": {
       "users": 231,
-      "attacks": 15386,
+      "attacks": 15388,
       "hitsTaken": 11716
     },
     "Reindeer": {
       "users": 277,
       "attacks": 11716,
-      "hitsTaken": 15386
+      "hitsTaken": 15388
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 15386
+      "count": 15388
     },
     {
       "pair": "Reindeer → Penguin",
@@ -52,7 +52,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 1133,
+      "attacks": 1135,
       "team": "Penguin"
     },
     {
@@ -329,9 +329,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 1133,
+      "attacks": 1135,
       "hitsTaken": 232,
-      "ratio": 4.883620689655173
+      "ratio": 4.892241379310345
     },
     {
       "user": "TaterTotCasserole",
@@ -670,18 +670,18 @@
       "ratio": 0.8380952380952381
     },
     {
+      "user": "Simpleplanfangirl",
+      "team": "Reindeer",
+      "attacks": 40,
+      "hitsTaken": 153,
+      "ratio": 0.26143790849673204
+    },
+    {
       "user": "Cipolla",
       "team": "Penguin",
       "attacks": 74,
       "hitsTaken": 118,
       "ratio": 0.6271186440677966
-    },
-    {
-      "user": "Simpleplanfangirl",
-      "team": "Reindeer",
-      "attacks": 40,
-      "hitsTaken": 152,
-      "ratio": 0.2631578947368421
     },
     {
       "user": "Cool_Beanss",
@@ -2168,6 +2168,13 @@
       "ratio": 0
     },
     {
+      "user": "BabySnoops",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 15,
+      "ratio": 0
+    },
+    {
       "user": "walkingtourguide",
       "team": "Penguin",
       "attacks": 1,
@@ -2204,13 +2211,6 @@
     },
     {
       "user": "ReallyCoolGuy",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 14,
-      "ratio": 0
-    },
-    {
-      "user": "BabySnoops",
       "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 14,
@@ -3787,39 +3787,39 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3333495480497999,
-      "intercept": 36.119121097508646,
+      "slope": 0.3333087868462148,
+      "intercept": 36.12399728264039,
       "xMin": 0,
       "xMax": 3831,
-      "y1": 36.119121097508646,
-      "y2": 1313.181239676292,
+      "y1": 36.12399728264039,
+      "y2": 1313.0299596904892,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2857884070714378,
-      "intercept": 31.95135182881597,
+      "slope": 0.2857051569134535,
+      "intercept": 31.95444997998156,
       "xMin": 0,
       "xMax": 3831,
-      "y1": 31.95135182881597,
-      "y2": 1126.8067393194942,
+      "y1": 31.95444997998156,
+      "y2": 1126.490906115422,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.36297198348125814,
-      "intercept": 41.060591297171875,
+      "slope": 0.3629693878257349,
+      "intercept": 41.06808358757819,
       "xMin": 0,
       "xMax": 3831,
-      "y1": 41.060591297171875,
-      "y2": 1431.6062600138719,
+      "y1": 41.06808358757819,
+      "y2": 1431.6038083479687,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 8193,
+      "hitCount": 8195,
       "avgUserRatio": 0.91,
-      "activeUsers": 212
+      "activeUsers": 213
     },
     {
       "roomName": "Town Square",
