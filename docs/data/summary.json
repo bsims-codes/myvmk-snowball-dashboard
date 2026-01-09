@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-09T22:00:35.711Z",
-  "totalRows": 27081,
-  "totalUsers": 507,
+  "generatedAt": "2026-01-09T22:24:29.567Z",
+  "totalRows": 27102,
+  "totalUsers": 508,
   "teamStats": {
     "Penguin": {
       "users": 231,
-      "attacks": 15365,
+      "attacks": 15386,
       "hitsTaken": 11716
     },
     "Reindeer": {
-      "users": 276,
+      "users": 277,
       "attacks": 11716,
-      "hitsTaken": 15365
+      "hitsTaken": 15386
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 15365
+      "count": 15386
     },
     {
       "pair": "Reindeer → Penguin",
@@ -62,7 +62,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 1046,
+      "attacks": 1047,
       "team": "Penguin"
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "user": "Devgirlforever",
-      "attacks": 633,
+      "attacks": 652,
       "team": "Penguin"
     },
     {
@@ -274,7 +274,7 @@
     },
     {
       "user": "AtziriDayre",
-      "hitsTaken": 219,
+      "hitsTaken": 223,
       "team": "Reindeer"
     },
     {
@@ -336,9 +336,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 1046,
+      "attacks": 1047,
       "hitsTaken": 317,
-      "ratio": 3.2996845425867507
+      "ratio": 3.302839116719243
     },
     {
       "user": "PepaRaindrops",
@@ -371,9 +371,9 @@
     {
       "user": "Devgirlforever",
       "team": "Penguin",
-      "attacks": 633,
+      "attacks": 652,
       "hitsTaken": 374,
-      "ratio": 1.6925133689839573
+      "ratio": 1.7433155080213905
     },
     {
       "user": "bsims",
@@ -642,18 +642,18 @@
       "ratio": 0.08737864077669903
     },
     {
+      "user": "AtziriDayre",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 223,
+      "ratio": 0
+    },
+    {
       "user": "bittahmercenary",
       "team": "Penguin",
       "attacks": 8,
       "hitsTaken": 214,
       "ratio": 0.037383177570093455
-    },
-    {
-      "user": "AtziriDayre",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 219,
-      "ratio": 0
     },
     {
       "user": "GlamIceQueen",
@@ -1314,18 +1314,18 @@
       "ratio": 0.37209302325581395
     },
     {
+      "user": "Retro",
+      "team": "Penguin",
+      "attacks": 21,
+      "hitsTaken": 37,
+      "ratio": 0.5675675675675675
+    },
+    {
       "user": "Erudite",
       "team": "Penguin",
       "attacks": 22,
       "hitsTaken": 35,
       "ratio": 0.6285714285714286
-    },
-    {
-      "user": "Retro",
-      "team": "Penguin",
-      "attacks": 20,
-      "hitsTaken": 37,
-      "ratio": 0.5405405405405406
     },
     {
       "user": "sushi",
@@ -2210,6 +2210,13 @@
       "ratio": 0
     },
     {
+      "user": "BabySnoops",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 14,
+      "ratio": 0
+    },
+    {
       "user": "DapperChandler",
       "team": "Penguin",
       "attacks": 8,
@@ -2366,6 +2373,13 @@
     {
       "user": "Niki2",
       "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 11,
+      "ratio": 0
+    },
+    {
+      "user": "amy_rose707",
+      "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 11,
       "ratio": 0
@@ -2569,13 +2583,6 @@
     {
       "user": "SpookyCookie",
       "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 8,
-      "ratio": 0
-    },
-    {
-      "user": "BabySnoops",
-      "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 8,
       "ratio": 0
@@ -3776,48 +3783,41 @@
       "attacks": 0,
       "hitsTaken": 1,
       "ratio": 0
-    },
-    {
-      "user": "Gwan",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 1,
-      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.3334505352941256,
-      "intercept": 36.08765210739957,
+      "slope": 0.3333495480497999,
+      "intercept": 36.119121097508646,
       "xMin": 0,
       "xMax": 3831,
-      "y1": 36.08765210739957,
-      "y2": 1313.5366528191948,
+      "y1": 36.119121097508646,
+      "y2": 1313.181239676292,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.285826912710125,
-      "intercept": 31.974975922309735,
+      "slope": 0.2857884070714378,
+      "intercept": 31.95135182881597,
       "xMin": 0,
       "xMax": 3831,
-      "y1": 31.974975922309735,
-      "y2": 1126.9778785147987,
+      "y1": 31.95135182881597,
+      "y2": 1126.8067393194942,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.36302028510150913,
-      "intercept": 40.984702360703764,
+      "slope": 0.36297198348125814,
+      "intercept": 41.060591297171875,
       "xMin": 0,
       "xMax": 3831,
-      "y1": 40.984702360703764,
-      "y2": 1431.7154145845852,
+      "y1": 41.060591297171875,
+      "y2": 1431.6062600138719,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 8187,
+      "hitCount": 8193,
       "avgUserRatio": 0.91,
       "activeUsers": 212
     },
@@ -3847,9 +3847,9 @@
     },
     {
       "roomName": "Central Plaza",
-      "hitCount": 1012,
+      "hitCount": 1016,
       "avgUserRatio": 1,
-      "activeUsers": 111
+      "activeUsers": 112
     },
     {
       "roomName": "Dungeon",
@@ -3871,15 +3871,15 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 428,
-      "avgUserRatio": 3.02,
+      "hitCount": 432,
+      "avgUserRatio": 3.04,
       "activeUsers": 43
     },
     {
       "roomName": "Blue Bayou",
-      "hitCount": 400,
-      "avgUserRatio": 2.73,
-      "activeUsers": 86
+      "hitCount": 401,
+      "avgUserRatio": 2.7,
+      "activeUsers": 87
     },
     {
       "roomName": "Epcot Entrance",
@@ -3895,9 +3895,9 @@
     },
     {
       "roomName": "Frontierland Hub",
-      "hitCount": 338,
-      "avgUserRatio": 1.31,
-      "activeUsers": 54
+      "hitCount": 340,
+      "avgUserRatio": 1.32,
+      "activeUsers": 55
     },
     {
       "roomName": "Snow White Hide 'n Seek Forest",
