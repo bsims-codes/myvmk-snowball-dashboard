@@ -2,9 +2,9 @@
   {
     "user": "Kronkx",
     "team": "Reindeer",
-    "attacks": 3627,
-    "hitsTaken": 921,
-    "ratio": 3.9381107491856677
+    "attacks": 3657,
+    "hitsTaken": 925,
+    "ratio": 3.9535135135135135
   },
   {
     "user": "CaptainBubbles",
@@ -93,9 +93,9 @@
   {
     "user": "Devgirlforever",
     "team": "Penguin",
-    "attacks": 621,
-    "hitsTaken": 367,
-    "ratio": 1.6920980926430518
+    "attacks": 624,
+    "hitsTaken": 372,
+    "ratio": 1.6774193548387097
   },
   {
     "user": "Jewelsy",
@@ -1050,6 +1050,13 @@
     "ratio": 0.3
   },
   {
+    "user": "ChrisinLiberty",
+    "team": "Penguin",
+    "attacks": 6,
+    "hitsTaken": 17,
+    "ratio": 0.35294117647058826
+  },
+  {
     "user": "BestDestroyBlade",
     "team": "Penguin",
     "attacks": 6,
@@ -1132,13 +1139,6 @@
     "attacks": 5,
     "hitsTaken": 0,
     "ratio": 5
-  },
-  {
-    "user": "ChrisinLiberty",
-    "team": "Penguin",
-    "attacks": 5,
-    "hitsTaken": 17,
-    "ratio": 0.29411764705882354
   },
   {
     "user": "PhatPotato",
@@ -3531,7 +3531,7 @@
     "user": "IreneAdler",
     "team": "Penguin",
     "attacks": 0,
-    "hitsTaken": 38,
+    "hitsTaken": 63,
     "ratio": 0
   }
 ]

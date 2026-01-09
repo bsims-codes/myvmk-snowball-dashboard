@@ -60,6 +60,12 @@
     "activeUsers": 86
   },
   {
+    "roomName": "Jungle Cruise Dock",
+    "hitCount": 355,
+    "avgUserRatio": 3.22,
+    "activeUsers": 39
+  },
+  {
     "roomName": "Epcot Entrance",
     "hitCount": 353,
     "avgUserRatio": 2.23,
@@ -76,12 +82,6 @@
     "hitCount": 338,
     "avgUserRatio": 1.31,
     "activeUsers": 54
-  },
-  {
-    "roomName": "Jungle Cruise Dock",
-    "hitCount": 324,
-    "avgUserRatio": 3.4,
-    "activeUsers": 39
   },
   {
     "roomName": "Snow White Hide 'n Seek Forest",
@@ -109,8 +109,8 @@
   },
   {
     "roomName": "Monorail Train",
-    "hitCount": 205,
-    "avgUserRatio": 2.66,
+    "hitCount": 208,
+    "avgUserRatio": 2.63,
     "activeUsers": 22
   },
   {
