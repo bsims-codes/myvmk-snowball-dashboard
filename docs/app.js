@@ -201,6 +201,37 @@ function applyAdjustedPointsToSummary(summary, events) {
   return summary;
 }
 
+/**
+ * Compute per-user adjusted points from events.
+ */
+function computeUserAdjustedPoints(events) {
+  const totals = {};
+  if (!Array.isArray(events)) return totals;
+
+  for (const evt of events) {
+    const value = Number(evt?.value);
+    if (!Number.isFinite(value)) continue;
+
+    const attacker = evt?.attacker;
+    if (!attacker) continue;
+
+    totals[attacker] = (totals[attacker] || 0) + value;
+  }
+
+  return totals;
+}
+
+/**
+ * Apply adjusted points to users array from events.
+ */
+function applyAdjustedPointsToUsers(users, events) {
+  const userPoints = computeUserAdjustedPoints(events);
+  for (const user of users) {
+    user.adjustedPoints = userPoints[user.user] || 0;
+  }
+  return users;
+}
+
 function safeRatio(attacks, hitsTaken) {
   if (!hitsTaken) return attacks ? attacks / 1 : 0;
   return attacks / hitsTaken;
@@ -597,6 +628,7 @@ async function refreshFromAPI() {
       updateFallbackBanner();
 
       applyAdjustedPointsToSummary(summary, events);
+      applyAdjustedPointsToUsers(users, events);
 
       // Update state with fallback data
       state.allUsers = users;
@@ -1047,6 +1079,7 @@ async function loadAndRefreshData() {
     ]);
 
     applyAdjustedPointsToSummary(summary, events);
+    applyAdjustedPointsToUsers(users, events);
 
     // Clear fallback state when loading from static files succeeds
     state.usingFallback = false;
