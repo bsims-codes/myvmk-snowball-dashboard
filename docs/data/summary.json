@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-09T20:22:19.065Z",
-  "totalRows": 27041,
+  "generatedAt": "2026-01-09T20:42:10.852Z",
+  "totalRows": 27059,
   "totalUsers": 507,
   "teamStats": {
     "Penguin": {
       "users": 231,
       "attacks": 15359,
-      "hitsTaken": 11682
+      "hitsTaken": 11700
     },
     "Reindeer": {
       "users": 276,
-      "attacks": 11682,
+      "attacks": 11700,
       "hitsTaken": 15359
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 11682
+      "count": 11700
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 3797,
+      "attacks": 3815,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 3797,
+      "attacks": 3815,
       "hitsTaken": 951,
-      "ratio": 3.992639327024185
+      "ratio": 4.011566771819138
     },
     {
       "user": "CaptainBubbles",
@@ -880,6 +880,13 @@
       "ratio": 1.0689655172413792
     },
     {
+      "user": "BlueSorcerer",
+      "team": "Penguin",
+      "attacks": 28,
+      "hitsTaken": 91,
+      "ratio": 0.3076923076923077
+    },
+    {
       "user": "MrChemistry",
       "team": "Penguin",
       "attacks": 86,
@@ -927,13 +934,6 @@
       "attacks": 50,
       "hitsTaken": 57,
       "ratio": 0.8771929824561403
-    },
-    {
-      "user": "BlueSorcerer",
-      "team": "Penguin",
-      "attacks": 28,
-      "hitsTaken": 75,
-      "ratio": 0.37333333333333335
     },
     {
       "user": "smoochies",
@@ -1727,6 +1727,13 @@
       "ratio": 0
     },
     {
+      "user": "SpookyBrightFairy",
+      "team": "Penguin",
+      "attacks": 3,
+      "hitsTaken": 23,
+      "ratio": 0.13043478260869565
+    },
+    {
       "user": "NBisthebest",
       "team": "Reindeer",
       "attacks": 6,
@@ -1802,13 +1809,6 @@
       "attacks": 17,
       "hitsTaken": 7,
       "ratio": 2.4285714285714284
-    },
-    {
-      "user": "SpookyBrightFairy",
-      "team": "Penguin",
-      "attacks": 3,
-      "hitsTaken": 21,
-      "ratio": 0.14285714285714285
     },
     {
       "user": "SweetAquaDolphin",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3346752599078269,
-      "intercept": 35.9680925936649,
+      "slope": 0.3336232384978194,
+      "intercept": 36.04897757897501,
       "xMin": 0,
-      "xMax": 3797,
-      "y1": 35.9680925936649,
-      "y2": 1306.730054463684,
+      "xMax": 3815,
+      "y1": 36.04897757897501,
+      "y2": 1308.821632448156,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2860258449280648,
-      "intercept": 31.820650863536475,
+      "slope": 0.2859524692035985,
+      "intercept": 31.90417478385122,
       "xMin": 0,
-      "xMax": 3797,
-      "y1": 31.820650863536475,
-      "y2": 1117.8607840553987,
+      "xMax": 3815,
+      "y1": 31.90417478385122,
+      "y2": 1122.8128447955796,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.36528443613382416,
-      "intercept": 40.91050633610578,
+      "slope": 0.3634068118173106,
+      "intercept": 40.96730738648511,
       "xMin": 0,
-      "xMax": 3797,
-      "y1": 40.91050633610578,
-      "y2": 1427.8955103362362,
+      "xMax": 3815,
+      "y1": 40.96730738648511,
+      "y2": 1427.364294469525,
       "label": "Reindeer"
     }
   },
@@ -3871,8 +3871,8 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 407,
-      "avgUserRatio": 3.01,
+      "hitCount": 423,
+      "avgUserRatio": 3.03,
       "activeUsers": 43
     },
     {
@@ -3907,9 +3907,9 @@
     },
     {
       "roomName": "Shrunken Ned's Shop",
-      "hitCount": 284,
-      "avgUserRatio": 4.15,
-      "activeUsers": 52
+      "hitCount": 286,
+      "avgUserRatio": 4.08,
+      "activeUsers": 53
     },
     {
       "roomName": "Street Party Music Game Lobby",
