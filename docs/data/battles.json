@@ -7599,6 +7599,72 @@
     ]
   },
   {
+    "id": "Adventureland Bazaar-1",
+    "roomName": "Adventureland Bazaar",
+    "start": "2026-01-09T14:16:06.000Z",
+    "end": "2026-01-09T14:24:00.000Z",
+    "durationMinutes": 8,
+    "hitCount": 82,
+    "uniqueUsers": 3,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 73
+      },
+      {
+        "user": "Guest10149064",
+        "team": "Penguin",
+        "attacks": 7
+      },
+      {
+        "user": "PrincessRain",
+        "team": "Penguin",
+        "attacks": 2
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "PrincessRain",
+        "team": "Penguin",
+        "hitsTaken": 49
+      },
+      {
+        "user": "Guest10149064",
+        "team": "Penguin",
+        "hitsTaken": 24
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 9
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 73,
+        "hitsTaken": 9,
+        "ratio": 8.11111111111111
+      },
+      {
+        "user": "PrincessRain",
+        "team": "Penguin",
+        "attacks": 2,
+        "hitsTaken": 49,
+        "ratio": 0.04081632653061224
+      },
+      {
+        "user": "Guest10149064",
+        "team": "Penguin",
+        "attacks": 7,
+        "hitsTaken": 24,
+        "ratio": 0.2916666666666667
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-21",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-21T22:00:05.000Z",
