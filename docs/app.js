@@ -394,13 +394,14 @@ async function fetchLiveData() {
 
     // Track attacker stats
     if (!userStats[attacker]) {
-      userStats[attacker] = { attacks: 0, hitsTaken: 0, team: attackerTeam };
+      userStats[attacker] = { attacks: 0, hitsTaken: 0, team: attackerTeam, adjustedPoints: 0 };
     }
     userStats[attacker].attacks++;
+    userStats[attacker].adjustedPoints += Number.isFinite(value) ? value : 0;
 
     // Track victim stats
     if (!userStats[victim]) {
-      userStats[victim] = { attacks: 0, hitsTaken: 0, team: victimTeam };
+      userStats[victim] = { attacks: 0, hitsTaken: 0, team: victimTeam, adjustedPoints: 0 };
     }
     userStats[victim].hitsTaken++;
 
@@ -418,7 +419,8 @@ async function fetchLiveData() {
     team: stats.team,
     attacks: stats.attacks,
     hitsTaken: stats.hitsTaken,
-    ratio: stats.hitsTaken > 0 ? stats.attacks / stats.hitsTaken : stats.attacks
+    ratio: stats.hitsTaken > 0 ? stats.attacks / stats.hitsTaken : stats.attacks,
+    adjustedPoints: stats.adjustedPoints || 0
   })).sort((a, b) => b.attacks - a.attacks);
 
   // Build team stats
@@ -1352,7 +1354,8 @@ function buildUsersTable() {
     { key: "team", label: "Team" },
     { key: "attacks", label: "Attacks" },
     { key: "hitsTaken", label: "Hits Taken" },
-    { key: "ratio", label: "Ratio" }
+    { key: "ratio", label: "Ratio" },
+    { key: "adjustedPoints", label: "Adj. Pts" }
   ];
 
   const head = `<tr>${headers.map(h => {
@@ -1370,6 +1373,7 @@ function buildUsersTable() {
         <td>${r.attacks}</td>
         <td>${r.hitsTaken}</td>
         <td>${fmt(r.ratio)}</td>
+        <td>${r.adjustedPoints || 0}</td>
       </tr>
     `;
   }).join("");
@@ -1440,7 +1444,7 @@ function updateSelectionUI() {
     return `
       <div class="stat-item">
         <div class="stat-label">${escapeHtml(u.user)} <span class="pill ${teamClass}">${u.team}</span></div>
-        <div class="stat-value">Atk ${u.attacks} | Taken ${u.hitsTaken} | Ratio ${fmt(u.ratio)}</div>
+        <div class="stat-value">Atk ${u.attacks} | Taken ${u.hitsTaken} | Ratio ${fmt(u.ratio)} | Adj. Pts ${u.adjustedPoints || 0}</div>
       </div>
     `;
   }).join("");
