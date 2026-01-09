@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-09T17:29:15.880Z",
-  "totalRows": 26868,
+  "generatedAt": "2026-01-09T17:46:58.473Z",
+  "totalRows": 26910,
   "totalUsers": 505,
   "teamStats": {
     "Penguin": {
       "users": 229,
-      "attacks": 15326,
-      "hitsTaken": 11542
+      "attacks": 15337,
+      "hitsTaken": 11573
     },
     "Reindeer": {
       "users": 276,
-      "attacks": 11542,
-      "hitsTaken": 15326
+      "attacks": 11573,
+      "hitsTaken": 15337
     },
     "Unknown": {
       "users": 0,
@@ -22,17 +22,17 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 15326
+      "count": 15337
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 11542
+      "count": 11573
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 3657,
+      "attacks": 3688,
       "team": "Reindeer"
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "user": "Devgirlforever",
-      "attacks": 624,
+      "attacks": 633,
       "team": "Penguin"
     },
     {
@@ -174,7 +174,7 @@
     },
     {
       "user": "Kronkx",
-      "hitsTaken": 925,
+      "hitsTaken": 929,
       "team": "Reindeer"
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "user": "Devgirlforever",
-      "hitsTaken": 372,
+      "hitsTaken": 374,
       "team": "Penguin"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 3657,
-      "hitsTaken": 925,
-      "ratio": 3.9535135135135135
+      "attacks": 3688,
+      "hitsTaken": 929,
+      "ratio": 3.9698600645855757
     },
     {
       "user": "CaptainBubbles",
@@ -371,9 +371,9 @@
     {
       "user": "Devgirlforever",
       "team": "Penguin",
-      "attacks": 624,
-      "hitsTaken": 372,
-      "ratio": 1.6774193548387097
+      "attacks": 633,
+      "hitsTaken": 374,
+      "ratio": 1.6925133689839573
     },
     {
       "user": "bsims",
@@ -992,6 +992,13 @@
       "ratio": 0.22972972972972974
     },
     {
+      "user": "IreneAdler",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 90,
+      "ratio": 0
+    },
+    {
       "user": "ArrowToTheHeart",
       "team": "Reindeer",
       "attacks": 20,
@@ -1258,13 +1265,6 @@
       "ratio": 0
     },
     {
-      "user": "IreneAdler",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 63,
-      "ratio": 0
-    },
-    {
       "user": "Sucrette",
       "team": "Reindeer",
       "attacks": 18,
@@ -1277,6 +1277,13 @@
       "attacks": 20,
       "hitsTaken": 42,
       "ratio": 0.47619047619047616
+    },
+    {
+      "user": "MissAnnaNovang",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 62,
+      "ratio": 0
     },
     {
       "user": "KiloAye",
@@ -1307,6 +1314,13 @@
       "ratio": 0.6285714285714286
     },
     {
+      "user": "Retro",
+      "team": "Penguin",
+      "attacks": 20,
+      "hitsTaken": 37,
+      "ratio": 0.5405405405405406
+    },
+    {
       "user": "sushi",
       "team": "Reindeer",
       "attacks": 5,
@@ -1326,20 +1340,6 @@
       "attacks": 3,
       "hitsTaken": 53,
       "ratio": 0.05660377358490566
-    },
-    {
-      "user": "MissAnnaNovang",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 55,
-      "ratio": 0
-    },
-    {
-      "user": "Retro",
-      "team": "Penguin",
-      "attacks": 18,
-      "hitsTaken": 35,
-      "ratio": 0.5142857142857142
     },
     {
       "user": "FreakyGoldenOnion",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3391547007267189,
-      "intercept": 35.501183001749034,
+      "slope": 0.3378323144777302,
+      "intercept": 35.627864834808555,
       "xMin": 0,
-      "xMax": 3657,
-      "y1": 35.501183001749034,
-      "y2": 1275.78992355936,
+      "xMax": 3688,
+      "y1": 35.627864834808555,
+      "y2": 1281.5534406286777,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.28519486527799104,
-      "intercept": 31.581953721363476,
+      "slope": 0.28512125309397557,
+      "intercept": 31.70967110703831,
       "xMin": 0,
-      "xMax": 3657,
-      "y1": 31.581953721363476,
-      "y2": 1074.5395760429767,
+      "xMax": 3688,
+      "y1": 31.70967110703831,
+      "y2": 1083.2368525176203,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.37499212781209074,
-      "intercept": 40.27414234722655,
+      "slope": 0.3724283277612317,
+      "intercept": 40.3805383253453,
       "xMin": 0,
-      "xMax": 3657,
-      "y1": 40.27414234722655,
-      "y2": 1411.6203537560425,
+      "xMax": 3688,
+      "y1": 40.3805383253453,
+      "y2": 1413.8962111087678,
       "label": "Reindeer"
     }
   },
@@ -3865,8 +3865,8 @@
     },
     {
       "roomName": "Monorail Station",
-      "hitCount": 561,
-      "avgUserRatio": 1.89,
+      "hitCount": 565,
+      "avgUserRatio": 1.88,
       "activeUsers": 38
     },
     {
@@ -3877,9 +3877,9 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 355,
+      "hitCount": 389,
       "avgUserRatio": 3.22,
-      "activeUsers": 39
+      "activeUsers": 40
     },
     {
       "roomName": "Epcot Entrance",
