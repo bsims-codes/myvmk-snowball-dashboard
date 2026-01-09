@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-09T19:52:23.434Z",
-  "totalRows": 27024,
+  "generatedAt": "2026-01-09T19:58:41.913Z",
+  "totalRows": 27033,
   "totalUsers": 507,
   "teamStats": {
     "Penguin": {
       "users": 231,
-      "attacks": 15357,
-      "hitsTaken": 11667
+      "attacks": 15358,
+      "hitsTaken": 11675
     },
     "Reindeer": {
       "users": 276,
-      "attacks": 11667,
-      "hitsTaken": 15357
+      "attacks": 11675,
+      "hitsTaken": 15358
     },
     "Unknown": {
       "users": 0,
@@ -22,17 +22,17 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 15357
+      "count": 15358
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 11667
+      "count": 11675
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 3782,
+      "attacks": 3790,
       "team": "Reindeer"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "user": "goatduck",
-      "attacks": 1081,
+      "attacks": 1082,
       "team": "Penguin"
     },
     {
@@ -174,7 +174,7 @@
     },
     {
       "user": "Kronkx",
-      "hitsTaken": 949,
+      "hitsTaken": 950,
       "team": "Reindeer"
     },
     {
@@ -189,7 +189,7 @@
     },
     {
       "user": "goatduck",
-      "hitsTaken": 549,
+      "hitsTaken": 556,
       "team": "Penguin"
     },
     {
@@ -269,7 +269,7 @@
     },
     {
       "user": "JustForFun",
-      "hitsTaken": 230,
+      "hitsTaken": 231,
       "team": "Penguin"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 3782,
-      "hitsTaken": 949,
-      "ratio": 3.9852476290832457
+      "attacks": 3790,
+      "hitsTaken": 950,
+      "ratio": 3.9894736842105263
     },
     {
       "user": "CaptainBubbles",
@@ -308,9 +308,9 @@
     {
       "user": "goatduck",
       "team": "Penguin",
-      "attacks": 1081,
-      "hitsTaken": 549,
-      "ratio": 1.9690346083788706
+      "attacks": 1082,
+      "hitsTaken": 556,
+      "ratio": 1.9460431654676258
     },
     {
       "user": "Winnie",
@@ -337,8 +337,8 @@
       "user": "JustForFun",
       "team": "Penguin",
       "attacks": 1131,
-      "hitsTaken": 230,
-      "ratio": 4.917391304347826
+      "hitsTaken": 231,
+      "ratio": 4.896103896103896
     },
     {
       "user": "PepaRaindrops",
@@ -3787,37 +3787,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3349913699160502,
-      "intercept": 35.92838643877732,
+      "slope": 0.3349545639698656,
+      "intercept": 35.94234654440524,
       "xMin": 0,
-      "xMax": 3782,
-      "y1": 35.92838643877732,
-      "y2": 1302.8657474612792,
+      "xMax": 3790,
+      "y1": 35.94234654440524,
+      "y2": 1305.4201439901958,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2852750008876486,
-      "intercept": 31.807999176281136,
+      "slope": 0.28606282867512556,
+      "intercept": 31.788851865534593,
       "xMin": 0,
-      "xMax": 3782,
-      "y1": 31.807999176281136,
-      "y2": 1110.718052533368,
+      "xMax": 3790,
+      "y1": 31.788851865534593,
+      "y2": 1115.9669725442604,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3664344452568272,
-      "intercept": 40.873835155677476,
+      "slope": 0.36580581653002214,
+      "intercept": 40.89379000742432,
       "xMin": 0,
-      "xMax": 3782,
-      "y1": 40.873835155677476,
-      "y2": 1426.728907116998,
+      "xMax": 3790,
+      "y1": 40.89379000742432,
+      "y2": 1427.2978346562081,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 8184,
+      "hitCount": 8187,
       "avgUserRatio": 0.91,
       "activeUsers": 212
     },
@@ -3954,16 +3954,16 @@
       "activeUsers": 34
     },
     {
+      "roomName": "Adventureland Bazaar",
+      "hitCount": 179,
+      "avgUserRatio": 1.24,
+      "activeUsers": 32
+    },
+    {
       "roomName": "Tiki Tiki Tiki Island",
       "hitCount": 176,
       "avgUserRatio": 1.68,
       "activeUsers": 33
-    },
-    {
-      "roomName": "Adventureland Bazaar",
-      "hitCount": 173,
-      "avgUserRatio": 1.36,
-      "activeUsers": 31
     }
   ]
 }
