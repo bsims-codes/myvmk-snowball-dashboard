@@ -15094,6 +15094,45 @@
     ]
   },
   {
+    "id": "Jungle Cruise Dock-1",
+    "roomName": "Jungle Cruise Dock",
+    "start": "2026-01-09T11:39:08.000Z",
+    "end": "2026-01-09T11:43:13.000Z",
+    "durationMinutes": 4,
+    "hitCount": 38,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 38
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "IreneAdler",
+        "team": "Penguin",
+        "hitsTaken": 38
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 38,
+        "hitsTaken": 0,
+        "ratio": 38
+      },
+      {
+        "user": "IreneAdler",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 38,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Blue Bayou-3",
     "roomName": "Blue Bayou",
     "start": "2026-01-08T09:07:41.000Z",
@@ -16938,6 +16977,45 @@
         "team": "Reindeer",
         "attacks": 0,
         "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
+    "id": "Elephant Bathing Pool-1",
+    "roomName": "Elephant Bathing Pool",
+    "start": "2026-01-09T11:12:10.000Z",
+    "end": "2026-01-09T11:16:45.000Z",
+    "durationMinutes": 5,
+    "hitCount": 32,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 32
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "OGBlondie_",
+        "team": "Penguin",
+        "hitsTaken": 32
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 32,
+        "hitsTaken": 0,
+        "ratio": 32
+      },
+      {
+        "user": "OGBlondie_",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 32,
         "ratio": 0
       }
     ]
