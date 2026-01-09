@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-09T20:42:10.852Z",
-  "totalRows": 27059,
+  "generatedAt": "2026-01-09T20:54:12.352Z",
+  "totalRows": 27074,
   "totalUsers": 507,
   "teamStats": {
     "Penguin": {
       "users": 231,
-      "attacks": 15359,
-      "hitsTaken": 11700
+      "attacks": 15363,
+      "hitsTaken": 11711
     },
     "Reindeer": {
       "users": 276,
-      "attacks": 11700,
-      "hitsTaken": 15359
+      "attacks": 11711,
+      "hitsTaken": 15363
     },
     "Unknown": {
       "users": 0,
@@ -22,17 +22,17 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 15359
+      "count": 15363
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 11700
+      "count": 11711
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 3815,
+      "attacks": 3826,
       "team": "Reindeer"
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "user": "bsims",
-      "attacks": 845,
+      "attacks": 849,
       "team": "Penguin"
     },
     {
@@ -174,7 +174,7 @@
     },
     {
       "user": "Kronkx",
-      "hitsTaken": 951,
+      "hitsTaken": 955,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 3815,
-      "hitsTaken": 951,
-      "ratio": 4.011566771819138
+      "attacks": 3826,
+      "hitsTaken": 955,
+      "ratio": 4.006282722513089
     },
     {
       "user": "CaptainBubbles",
@@ -378,9 +378,9 @@
     {
       "user": "bsims",
       "team": "Penguin",
-      "attacks": 845,
-      "hitsTaken": 156,
-      "ratio": 5.416666666666667
+      "attacks": 849,
+      "hitsTaken": 157,
+      "ratio": 5.407643312101911
     },
     {
       "user": "VMKNeec",
@@ -1202,6 +1202,13 @@
       "ratio": 0.07462686567164178
     },
     {
+      "user": "flamesmolderton",
+      "team": "Penguin",
+      "attacks": 3,
+      "hitsTaken": 67,
+      "ratio": 0.04477611940298507
+    },
+    {
       "user": "Bernardo_S_Rocks",
       "team": "Reindeer",
       "attacks": 39,
@@ -1228,13 +1235,6 @@
       "attacks": 1,
       "hitsTaken": 67,
       "ratio": 0.014925373134328358
-    },
-    {
-      "user": "flamesmolderton",
-      "team": "Penguin",
-      "attacks": 3,
-      "hitsTaken": 63,
-      "ratio": 0.047619047619047616
     },
     {
       "user": "Inferno",
@@ -2266,6 +2266,13 @@
       "ratio": 0
     },
     {
+      "user": "Horse",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 13,
+      "ratio": 0
+    },
+    {
       "user": "SerenaVanDerWoodsen",
       "team": "Penguin",
       "attacks": 0,
@@ -2646,13 +2653,6 @@
     {
       "user": "PerfectCircleSofa",
       "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 7,
-      "ratio": 0
-    },
-    {
-      "user": "Horse",
-      "team": "Penguin",
       "attacks": 0,
       "hitsTaken": 7,
       "ratio": 0
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3336232384978194,
-      "intercept": 36.04897757897501,
+      "slope": 0.3334766743913938,
+      "intercept": 36.07690503505481,
       "xMin": 0,
-      "xMax": 3815,
-      "y1": 36.04897757897501,
-      "y2": 1308.821632448156,
+      "xMax": 3826,
+      "y1": 36.07690503505481,
+      "y2": 1311.9586612565274,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2859524692035985,
-      "intercept": 31.90417478385122,
+      "slope": 0.2858316109344462,
+      "intercept": 31.955322974734074,
       "xMin": 0,
-      "xMax": 3815,
-      "y1": 31.90417478385122,
-      "y2": 1122.8128447955796,
+      "xMax": 3826,
+      "y1": 31.955322974734074,
+      "y2": 1125.5470664099253,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3634068118173106,
-      "intercept": 40.96730738648511,
+      "slope": 0.3631140054946359,
+      "intercept": 40.979970042997486,
       "xMin": 0,
-      "xMax": 3815,
-      "y1": 40.96730738648511,
-      "y2": 1427.364294469525,
+      "xMax": 3826,
+      "y1": 40.979970042997486,
+      "y2": 1430.2541550654746,
       "label": "Reindeer"
     }
   },
@@ -3871,8 +3871,8 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 423,
-      "avgUserRatio": 3.03,
+      "hitCount": 428,
+      "avgUserRatio": 3.02,
       "activeUsers": 43
     },
     {
@@ -3955,7 +3955,7 @@
     },
     {
       "roomName": "Adventureland Bazaar",
-      "hitCount": 179,
+      "hitCount": 181,
       "avgUserRatio": 1.24,
       "activeUsers": 32
     },
