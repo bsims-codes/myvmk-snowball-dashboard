@@ -1406,7 +1406,7 @@ function buildUsersTable() {
         <td>${r.attacks}</td>
         <td>${r.hitsTaken}</td>
         <td>${fmt(r.ratio)}</td>
-        <td>${r.adjustedPoints || 0}</td>
+        <td>${(r.adjustedPoints || 0).toFixed(2)}</td>
       </tr>
     `;
   }).join("");
@@ -1477,7 +1477,7 @@ function updateSelectionUI() {
     return `
       <div class="stat-item">
         <div class="stat-label">${escapeHtml(u.user)} <span class="pill ${teamClass}">${u.team}</span></div>
-        <div class="stat-value">Atk ${u.attacks} | Taken ${u.hitsTaken} | Ratio ${fmt(u.ratio)} | Adj. Pts ${u.adjustedPoints || 0}</div>
+        <div class="stat-value">Atk ${u.attacks} | Taken ${u.hitsTaken} | Ratio ${fmt(u.ratio)} | Adj. Pts ${(u.adjustedPoints || 0).toFixed(2)}</div>
       </div>
     `;
   }).join("");
