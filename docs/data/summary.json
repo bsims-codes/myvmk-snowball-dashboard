@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-09T23:46:25.703Z",
-  "totalRows": 27108,
-  "totalUsers": 508,
+  "generatedAt": "2026-01-09T23:53:05.628Z",
+  "totalRows": 27109,
+  "totalUsers": 509,
   "teamStats": {
     "Penguin": {
       "users": 231,
-      "attacks": 15392,
+      "attacks": 15393,
       "hitsTaken": 11716
     },
     "Reindeer": {
-      "users": 277,
+      "users": 278,
       "attacks": 11716,
-      "hitsTaken": 15392
+      "hitsTaken": 15393
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 15392
+      "count": 15393
     },
     {
       "pair": "Reindeer → Penguin",
@@ -52,7 +52,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 1139,
+      "attacks": 1140,
       "team": "Penguin"
     },
     {
@@ -329,9 +329,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 1139,
+      "attacks": 1140,
       "hitsTaken": 232,
-      "ratio": 4.9094827586206895
+      "ratio": 4.913793103448276
     },
     {
       "user": "TaterTotCasserole",
@@ -3787,21 +3787,21 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.33322560374500604,
-      "intercept": 36.13384066736075,
+      "slope": 0.3332063199667476,
+      "intercept": 36.13421974404288,
       "xMin": 0,
       "xMax": 3831,
-      "y1": 36.13384066736075,
-      "y2": 1312.7211286144789,
+      "y1": 36.13421974404288,
+      "y2": 1312.6476315366529,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2855382016764589,
-      "intercept": 31.960681221816355,
+      "slope": 0.28549636837055103,
+      "intercept": 31.962246295511388,
       "xMin": 0,
       "xMax": 3831,
-      "y1": 31.960681221816355,
-      "y2": 1125.8575318443304,
+      "y1": 31.962246295511388,
+      "y2": 1125.6988335230924,
       "label": "Penguin"
     },
     "reindeer": {
@@ -3901,9 +3901,9 @@
     },
     {
       "roomName": "Snow White Hide 'n Seek Forest",
-      "hitCount": 323,
-      "avgUserRatio": 2.79,
-      "activeUsers": 43
+      "hitCount": 324,
+      "avgUserRatio": 2.75,
+      "activeUsers": 44
     },
     {
       "roomName": "Shrunken Ned's Shop",
