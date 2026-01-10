@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-10T11:57:09.608Z",
-  "totalRows": 27537,
+  "generatedAt": "2026-01-10T12:28:32.611Z",
+  "totalRows": 27541,
   "totalUsers": 514,
   "teamStats": {
     "Penguin": {
       "users": 236,
-      "attacks": 15562,
-      "hitsTaken": 11975
+      "attacks": 15565,
+      "hitsTaken": 11976
     },
     "Reindeer": {
       "users": 278,
-      "attacks": 11975,
-      "hitsTaken": 15562
+      "attacks": 11976,
+      "hitsTaken": 15565
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 15562
+      "count": 15565
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 11975
+      "count": 11976
     }
   ],
   "topAttackers": [
@@ -47,7 +47,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 1200,
+      "attacks": 1203,
       "team": "Penguin"
     },
     {
@@ -254,7 +254,7 @@
     },
     {
       "user": "JustForFun",
-      "hitsTaken": 258,
+      "hitsTaken": 259,
       "team": "Penguin"
     },
     {
@@ -322,9 +322,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 1200,
-      "hitsTaken": 258,
-      "ratio": 4.651162790697675
+      "attacks": 1203,
+      "hitsTaken": 259,
+      "ratio": 4.644787644787645
     },
     {
       "user": "kazino",
@@ -2154,6 +2154,13 @@
       "ratio": 0.6
     },
     {
+      "user": "HIPPY",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 16,
+      "ratio": 0
+    },
+    {
       "user": "AppleLimitless",
       "team": "Reindeer",
       "attacks": 0,
@@ -2187,13 +2194,6 @@
       "attacks": 11,
       "hitsTaken": 4,
       "ratio": 2.75
-    },
-    {
-      "user": "HIPPY",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 15,
-      "ratio": 0
     },
     {
       "user": "LunrSaur",
@@ -2560,6 +2560,13 @@
       "ratio": 0.14285714285714285
     },
     {
+      "user": "Mizzpixie",
+      "team": "Reindeer",
+      "attacks": 1,
+      "hitsTaken": 7,
+      "ratio": 0.14285714285714285
+    },
+    {
       "user": "magickate",
       "team": "Reindeer",
       "attacks": 0,
@@ -2884,13 +2891,6 @@
     {
       "user": "bowtiesnmusic",
       "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 5,
-      "ratio": 0
-    },
-    {
-      "user": "Mizzpixie",
-      "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 5,
       "ratio": 0
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3249216639275684,
-      "intercept": 37.15126428085309,
+      "slope": 0.32490015448781745,
+      "intercept": 37.15784969050205,
       "xMin": 0,
       "xMax": 4082,
-      "y1": 37.15126428085309,
-      "y2": 1363.4814964331874,
+      "y1": 37.15784969050205,
+      "y2": 1363.4002803097728,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2878719501505726,
-      "intercept": 32.42483425002939,
+      "slope": 0.2878525876722229,
+      "intercept": 32.426729319834855,
       "xMin": 0,
       "xMax": 4082,
-      "y1": 32.42483425002939,
-      "y2": 1207.5181347646667,
+      "y1": 32.426729319834855,
+      "y2": 1207.4409921978486,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.34655322867131894,
-      "intercept": 42.39042783145337,
+      "slope": 0.3465454813198001,
+      "intercept": 42.40063686139061,
       "xMin": 0,
       "xMax": 4082,
-      "y1": 42.39042783145337,
-      "y2": 1457.0207072677772,
+      "y1": 42.40063686139061,
+      "y2": 1456.9992916088147,
       "label": "Reindeer"
     }
   },
@@ -3841,9 +3841,9 @@
     },
     {
       "roomName": "Fantasyland in The Sky",
-      "hitCount": 1057,
-      "avgUserRatio": 2.35,
-      "activeUsers": 51
+      "hitCount": 1061,
+      "avgUserRatio": 2.33,
+      "activeUsers": 53
     },
     {
       "roomName": "Central Plaza",
