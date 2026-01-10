@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-10T04:57:38.743Z",
-  "totalRows": 27458,
+  "generatedAt": "2026-01-10T05:17:32.090Z",
+  "totalRows": 27482,
   "totalUsers": 512,
   "teamStats": {
     "Penguin": {
       "users": 234,
       "attacks": 15558,
-      "hitsTaken": 11900
+      "hitsTaken": 11924
     },
     "Reindeer": {
       "users": 278,
-      "attacks": 11900,
+      "attacks": 11924,
       "hitsTaken": 15558
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 11900
+      "count": 11924
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 4007,
+      "attacks": 4031,
       "team": "Reindeer"
     },
     {
@@ -194,7 +194,7 @@
     },
     {
       "user": "HappyToughFish",
-      "hitsTaken": 508,
+      "hitsTaken": 527,
       "team": "Penguin"
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "user": "Devgirlforever",
-      "hitsTaken": 381,
+      "hitsTaken": 382,
       "team": "Penguin"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 4007,
+      "attacks": 4031,
       "hitsTaken": 995,
-      "ratio": 4.02713567839196
+      "ratio": 4.051256281407035
     },
     {
       "user": "CaptainBubbles",
@@ -372,8 +372,8 @@
       "user": "Devgirlforever",
       "team": "Penguin",
       "attacks": 671,
-      "hitsTaken": 381,
-      "ratio": 1.7611548556430445
+      "hitsTaken": 382,
+      "ratio": 1.756544502617801
     },
     {
       "user": "bsims",
@@ -460,18 +460,18 @@
       "ratio": 0.7166123778501629
     },
     {
+      "user": "HappyToughFish",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 527,
+      "ratio": 0
+    },
+    {
       "user": "Meg",
       "team": "Penguin",
       "attacks": 279,
       "hitsTaken": 244,
       "ratio": 1.1434426229508197
-    },
-    {
-      "user": "HappyToughFish",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 508,
-      "ratio": 0
     },
     {
       "user": "PuffyOldDragon",
@@ -1440,6 +1440,13 @@
       "ratio": 0.13513513513513514
     },
     {
+      "user": "Focus",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 42,
+      "ratio": 0
+    },
+    {
       "user": "Starbright",
       "team": "Penguin",
       "attacks": 0,
@@ -1501,13 +1508,6 @@
       "attacks": 10,
       "hitsTaken": 28,
       "ratio": 0.35714285714285715
-    },
-    {
-      "user": "Focus",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 38,
-      "ratio": 0
     },
     {
       "user": "CaitlinNoel",
@@ -3787,37 +3787,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3285646219858331,
-      "intercept": 36.848545219025986,
+      "slope": 0.32721488607830596,
+      "intercept": 36.95496100159199,
       "xMin": 0,
-      "xMax": 4007,
-      "y1": 36.848545219025986,
-      "y2": 1353.406985516259,
+      "xMax": 4031,
+      "y1": 36.95496100159199,
+      "y2": 1355.9581667832433,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2878466018801282,
-      "intercept": 32.25079377369116,
+      "slope": 0.28775640890500703,
+      "intercept": 32.361242566330006,
       "xMin": 0,
-      "xMax": 4007,
-      "y1": 32.25079377369116,
-      "y2": 1185.6521275073646,
+      "xMax": 4031,
+      "y1": 32.361242566330006,
+      "y2": 1192.3073268624134,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3529554904692267,
-      "intercept": 42.03640616080075,
+      "slope": 0.35065032391790635,
+      "intercept": 42.10683532445513,
       "xMin": 0,
-      "xMax": 4007,
-      "y1": 42.03640616080075,
-      "y2": 1456.329056470992,
+      "xMax": 4031,
+      "y1": 42.10683532445513,
+      "y2": 1455.5782910375358,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 8303,
+      "hitCount": 8318,
       "avgUserRatio": 0.87,
       "activeUsers": 217
     },
@@ -3853,13 +3853,13 @@
     },
     {
       "roomName": "Dungeon",
-      "hitCount": 691,
-      "avgUserRatio": 2.18,
-      "activeUsers": 75
+      "hitCount": 699,
+      "avgUserRatio": 2.16,
+      "activeUsers": 76
     },
     {
       "roomName": "VMK Esplanade",
-      "hitCount": 650,
+      "hitCount": 651,
       "avgUserRatio": 1.53,
       "activeUsers": 104
     },
