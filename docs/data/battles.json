@@ -7777,6 +7777,79 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-53",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-10T13:37:50.000Z",
+    "end": "2026-01-10T13:50:52.000Z",
+    "durationMinutes": 13,
+    "hitCount": 82,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "Bobo_Here",
+        "team": "Reindeer",
+        "attacks": 61
+      },
+      {
+        "user": "mikey29",
+        "team": "Penguin",
+        "attacks": 14
+      },
+      {
+        "user": "TheOhanaGryphoness",
+        "team": "Penguin",
+        "attacks": 6
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "mikey29",
+        "team": "Penguin",
+        "hitsTaken": 54
+      },
+      {
+        "user": "Bobo_Here",
+        "team": "Reindeer",
+        "hitsTaken": 19
+      },
+      {
+        "user": "TheOhanaGryphoness",
+        "team": "Penguin",
+        "hitsTaken": 8
+      }
+    ],
+    "participants": [
+      {
+        "user": "Bobo_Here",
+        "team": "Reindeer",
+        "attacks": 61,
+        "hitsTaken": 19,
+        "ratio": 3.210526315789474
+      },
+      {
+        "user": "mikey29",
+        "team": "Penguin",
+        "attacks": 14,
+        "hitsTaken": 54,
+        "ratio": 0.25925925925925924
+      },
+      {
+        "user": "TheOhanaGryphoness",
+        "team": "Penguin",
+        "attacks": 6,
+        "hitsTaken": 8,
+        "ratio": 0.75
+      },
+      {
+        "user": "RockStar_Olivia",
+        "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 1,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Adventureland Bazaar-1",
     "roomName": "Adventureland Bazaar",
     "start": "2026-01-09T14:16:06.000Z",
@@ -10574,79 +10647,6 @@
         "team": "Penguin",
         "attacks": 1,
         "hitsTaken": 0,
-        "ratio": 1
-      }
-    ]
-  },
-  {
-    "id": "Captain's Quest Quarters-53",
-    "roomName": "Captain's Quest Quarters",
-    "start": "2026-01-10T13:37:50.000Z",
-    "end": "2026-01-10T13:47:16.000Z",
-    "durationMinutes": 9,
-    "hitCount": 59,
-    "uniqueUsers": 4,
-    "topAttackers": [
-      {
-        "user": "Bobo_Here",
-        "team": "Reindeer",
-        "attacks": 40
-      },
-      {
-        "user": "mikey29",
-        "team": "Penguin",
-        "attacks": 12
-      },
-      {
-        "user": "TheOhanaGryphoness",
-        "team": "Penguin",
-        "attacks": 6
-      }
-    ],
-    "topVictims": [
-      {
-        "user": "mikey29",
-        "team": "Penguin",
-        "hitsTaken": 33
-      },
-      {
-        "user": "Bobo_Here",
-        "team": "Reindeer",
-        "hitsTaken": 17
-      },
-      {
-        "user": "TheOhanaGryphoness",
-        "team": "Penguin",
-        "hitsTaken": 8
-      }
-    ],
-    "participants": [
-      {
-        "user": "Bobo_Here",
-        "team": "Reindeer",
-        "attacks": 40,
-        "hitsTaken": 17,
-        "ratio": 2.3529411764705883
-      },
-      {
-        "user": "mikey29",
-        "team": "Penguin",
-        "attacks": 12,
-        "hitsTaken": 33,
-        "ratio": 0.36363636363636365
-      },
-      {
-        "user": "TheOhanaGryphoness",
-        "team": "Penguin",
-        "attacks": 6,
-        "hitsTaken": 8,
-        "ratio": 0.75
-      },
-      {
-        "user": "RockStar_Olivia",
-        "team": "Reindeer",
-        "attacks": 1,
-        "hitsTaken": 1,
         "ratio": 1
       }
     ]
