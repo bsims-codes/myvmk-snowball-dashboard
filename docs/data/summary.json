@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-10T05:17:32.090Z",
-  "totalRows": 27482,
-  "totalUsers": 512,
+  "generatedAt": "2026-01-10T05:38:10.438Z",
+  "totalRows": 27494,
+  "totalUsers": 513,
   "teamStats": {
     "Penguin": {
-      "users": 234,
+      "users": 235,
       "attacks": 15558,
-      "hitsTaken": 11924
+      "hitsTaken": 11936
     },
     "Reindeer": {
       "users": 278,
-      "attacks": 11924,
+      "attacks": 11936,
       "hitsTaken": 15558
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 11924
+      "count": 11936
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 4031,
+      "attacks": 4043,
       "team": "Reindeer"
     },
     {
@@ -194,7 +194,7 @@
     },
     {
       "user": "HappyToughFish",
-      "hitsTaken": 527,
+      "hitsTaken": 535,
       "team": "Penguin"
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "user": "Devgirlforever",
-      "hitsTaken": 382,
+      "hitsTaken": 384,
       "team": "Penguin"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 4031,
+      "attacks": 4043,
       "hitsTaken": 995,
-      "ratio": 4.051256281407035
+      "ratio": 4.063316582914573
     },
     {
       "user": "CaptainBubbles",
@@ -372,8 +372,8 @@
       "user": "Devgirlforever",
       "team": "Penguin",
       "attacks": 671,
-      "hitsTaken": 382,
-      "ratio": 1.756544502617801
+      "hitsTaken": 384,
+      "ratio": 1.7473958333333333
     },
     {
       "user": "bsims",
@@ -453,18 +453,18 @@
       "ratio": 0.40568475452196384
     },
     {
+      "user": "HappyToughFish",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 535,
+      "ratio": 0
+    },
+    {
       "user": "Cloudyblue",
       "team": "Reindeer",
       "attacks": 220,
       "hitsTaken": 307,
       "ratio": 0.7166123778501629
-    },
-    {
-      "user": "HappyToughFish",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 527,
-      "ratio": 0
     },
     {
       "user": "Meg",
@@ -1433,18 +1433,18 @@
       "ratio": 0.30303030303030304
     },
     {
+      "user": "Focus",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 43,
+      "ratio": 0
+    },
+    {
       "user": "EdwardCooper",
       "team": "Penguin",
       "attacks": 5,
       "hitsTaken": 37,
       "ratio": 0.13513513513513514
-    },
-    {
-      "user": "Focus",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 42,
-      "ratio": 0
     },
     {
       "user": "Starbright",
@@ -3787,37 +3787,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.32721488607830596,
-      "intercept": 36.95496100159199,
+      "slope": 0.326576881466366,
+      "intercept": 37.00419044192746,
       "xMin": 0,
-      "xMax": 4031,
-      "y1": 36.95496100159199,
-      "y2": 1355.9581667832433,
+      "xMax": 4043,
+      "y1": 37.00419044192746,
+      "y2": 1357.354522210445,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.28775640890500703,
-      "intercept": 32.361242566330006,
+      "slope": 0.2878130299452815,
+      "intercept": 32.40523860917961,
       "xMin": 0,
-      "xMax": 4031,
-      "y1": 32.361242566330006,
-      "y2": 1192.3073268624134,
+      "xMax": 4043,
+      "y1": 32.40523860917961,
+      "y2": 1196.0333186779528,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.35065032391790635,
-      "intercept": 42.10683532445513,
+      "slope": 0.3495069191381749,
+      "intercept": 42.141797826543495,
       "xMin": 0,
-      "xMax": 4031,
-      "y1": 42.10683532445513,
-      "y2": 1455.5782910375358,
+      "xMax": 4043,
+      "y1": 42.141797826543495,
+      "y2": 1455.1982719021846,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 8318,
+      "hitCount": 8329,
       "avgUserRatio": 0.87,
       "activeUsers": 217
     },
@@ -3889,9 +3889,9 @@
     },
     {
       "roomName": "Epcot Entrance",
-      "hitCount": 359,
-      "avgUserRatio": 2.22,
-      "activeUsers": 82
+      "hitCount": 360,
+      "avgUserRatio": 2.2,
+      "activeUsers": 83
     },
     {
       "roomName": "Banquet Hall",
