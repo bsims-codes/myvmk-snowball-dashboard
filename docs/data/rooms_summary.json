@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 8197,
-    "avgUserRatio": 0.91,
-    "activeUsers": 213
+    "hitCount": 8234,
+    "avgUserRatio": 0.89,
+    "activeUsers": 215
   },
   {
     "roomName": "Town Square",
@@ -19,7 +19,7 @@
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 2020,
+    "hitCount": 2022,
     "avgUserRatio": 1.06,
     "activeUsers": 228
   },
@@ -37,9 +37,9 @@
   },
   {
     "roomName": "Dungeon",
-    "hitCount": 670,
-    "avgUserRatio": 2.23,
-    "activeUsers": 72
+    "hitCount": 691,
+    "avgUserRatio": 2.18,
+    "activeUsers": 75
   },
   {
     "roomName": "VMK Esplanade",
@@ -55,21 +55,21 @@
   },
   {
     "roomName": "Jungle Cruise Dock",
-    "hitCount": 433,
-    "avgUserRatio": 3.04,
+    "hitCount": 435,
+    "avgUserRatio": 3.05,
     "activeUsers": 43
   },
   {
     "roomName": "Blue Bayou",
-    "hitCount": 402,
+    "hitCount": 404,
     "avgUserRatio": 2.68,
-    "activeUsers": 88
+    "activeUsers": 89
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 355,
-    "avgUserRatio": 2.24,
-    "activeUsers": 81
+    "hitCount": 358,
+    "avgUserRatio": 2.21,
+    "activeUsers": 82
   },
   {
     "roomName": "Banquet Hall",
@@ -85,15 +85,15 @@
   },
   {
     "roomName": "Snow White Hide 'n Seek Forest",
-    "hitCount": 324,
-    "avgUserRatio": 2.75,
-    "activeUsers": 44
+    "hitCount": 325,
+    "avgUserRatio": 2.69,
+    "activeUsers": 45
   },
   {
     "roomName": "Shrunken Ned's Shop",
-    "hitCount": 286,
-    "avgUserRatio": 4.08,
-    "activeUsers": 53
+    "hitCount": 289,
+    "avgUserRatio": 3.88,
+    "activeUsers": 56
   },
   {
     "roomName": "Street Party Music Game Lobby",
@@ -198,6 +198,12 @@
     "activeUsers": 16
   },
   {
+    "roomName": "WS - Norway",
+    "hitCount": 87,
+    "avgUserRatio": 5.25,
+    "activeUsers": 16
+  },
+  {
     "roomName": "Elephant Bathing Pool",
     "hitCount": 87,
     "avgUserRatio": 2.06,
@@ -226,12 +232,6 @@
     "hitCount": 68,
     "avgUserRatio": 1.79,
     "activeUsers": 19
-  },
-  {
-    "roomName": "WS - Norway",
-    "hitCount": 67,
-    "avgUserRatio": 9.57,
-    "activeUsers": 7
   },
   {
     "roomName": "Explorer's Tent",
@@ -264,6 +264,12 @@
     "activeUsers": 15
   },
   {
+    "roomName": "Golden Horseshoe Mercantile",
+    "hitCount": 45,
+    "avgUserRatio": 0.94,
+    "activeUsers": 11
+  },
+  {
     "roomName": "Space Mountain Quest Deck",
     "hitCount": 43,
     "avgUserRatio": 1.07,
@@ -292,12 +298,6 @@
     "hitCount": 36,
     "avgUserRatio": 1.2,
     "activeUsers": 17
-  },
-  {
-    "roomName": "Golden Horseshoe Mercantile",
-    "hitCount": 36,
-    "avgUserRatio": 0.95,
-    "activeUsers": 10
   },
   {
     "roomName": "WS - Germany",
