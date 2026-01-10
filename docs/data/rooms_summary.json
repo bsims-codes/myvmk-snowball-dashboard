@@ -55,9 +55,9 @@
   },
   {
     "roomName": "Jungle Cruise Dock",
-    "hitCount": 476,
-    "avgUserRatio": 3.1,
-    "activeUsers": 44
+    "hitCount": 477,
+    "avgUserRatio": 3.03,
+    "activeUsers": 45
   },
   {
     "roomName": "Blue Bayou",
@@ -126,6 +126,12 @@
     "activeUsers": 50
   },
   {
+    "roomName": "Adventureland Bazaar",
+    "hitCount": 187,
+    "avgUserRatio": 1.2,
+    "activeUsers": 34
+  },
+  {
     "roomName": "Pixar Pier Entrance",
     "hitCount": 187,
     "avgUserRatio": 1.1,
@@ -136,12 +142,6 @@
     "hitCount": 186,
     "avgUserRatio": 3.61,
     "activeUsers": 34
-  },
-  {
-    "roomName": "Adventureland Bazaar",
-    "hitCount": 183,
-    "avgUserRatio": 1.23,
-    "activeUsers": 33
   },
   {
     "roomName": "Tiki Tiki Tiki Island",

@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-10T22:33:47.126Z",
-  "totalRows": 27887,
+  "generatedAt": "2026-01-10T22:46:23.329Z",
+  "totalRows": 27892,
   "totalUsers": 519,
   "teamStats": {
     "Penguin": {
       "users": 239,
       "attacks": 15748,
-      "hitsTaken": 12139
+      "hitsTaken": 12144
     },
     "Reindeer": {
       "users": 280,
-      "attacks": 12139,
+      "attacks": 12144,
       "hitsTaken": 15748
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 12139
+      "count": 12144
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 4151,
+      "attacks": 4156,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 4151,
+      "attacks": 4156,
       "hitsTaken": 1017,
-      "ratio": 4.081612586037365
+      "ratio": 4.086529006882989
     },
     {
       "user": "CaptainBubbles",
@@ -2812,6 +2812,13 @@
       "ratio": 0
     },
     {
+      "user": "Guest10149093",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 6,
+      "ratio": 0
+    },
+    {
       "user": "Joe",
       "team": "Reindeer",
       "attacks": 2,
@@ -3776,41 +3783,34 @@
       "attacks": 0,
       "hitsTaken": 1,
       "ratio": 0
-    },
-    {
-      "user": "floridajen",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 1,
-      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.3223822432781018,
-      "intercept": 37.755452763407156,
+      "slope": 0.32210558814895895,
+      "intercept": 37.77766187069847,
       "xMin": 0,
-      "xMax": 4151,
-      "y1": 37.755452763407156,
-      "y2": 1375.9641446108078,
+      "xMax": 4156,
+      "y1": 37.77766187069847,
+      "y2": 1376.448486217772,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.28639808433384434,
-      "intercept": 32.85259899961474,
+      "slope": 0.28656513013987633,
+      "intercept": 32.726061504537455,
       "xMin": 0,
-      "xMax": 4151,
-      "y1": 32.85259899961474,
-      "y2": 1221.6910470694024,
+      "xMax": 4156,
+      "y1": 32.726061504537455,
+      "y2": 1223.6907423658636,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.34340402311690804,
-      "intercept": 43.16200956486512,
+      "slope": 0.3428549633824193,
+      "intercept": 43.33846189020187,
       "xMin": 0,
-      "xMax": 4151,
-      "y1": 43.16200956486512,
-      "y2": 1468.6321095231506,
+      "xMax": 4156,
+      "y1": 43.33846189020187,
+      "y2": 1468.2436897075363,
       "label": "Reindeer"
     }
   },
@@ -3871,9 +3871,9 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 476,
-      "avgUserRatio": 3.1,
-      "activeUsers": 44
+      "hitCount": 477,
+      "avgUserRatio": 3.03,
+      "activeUsers": 45
     },
     {
       "roomName": "Blue Bayou",
@@ -3942,6 +3942,12 @@
       "activeUsers": 50
     },
     {
+      "roomName": "Adventureland Bazaar",
+      "hitCount": 187,
+      "avgUserRatio": 1.2,
+      "activeUsers": 34
+    },
+    {
       "roomName": "Pixar Pier Entrance",
       "hitCount": 187,
       "avgUserRatio": 1.1,
@@ -3952,12 +3958,6 @@
       "hitCount": 186,
       "avgUserRatio": 3.61,
       "activeUsers": 34
-    },
-    {
-      "roomName": "Adventureland Bazaar",
-      "hitCount": 183,
-      "avgUserRatio": 1.23,
-      "activeUsers": 33
     },
     {
       "roomName": "Tiki Tiki Tiki Island",
