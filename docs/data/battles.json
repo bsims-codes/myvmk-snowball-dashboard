@@ -15554,6 +15554,83 @@
     ]
   },
   {
+    "id": "Snow White Hide 'n Seek Forest-3",
+    "roomName": "Snow White Hide 'n Seek Forest",
+    "start": "2026-01-09T20:40:00.000Z",
+    "end": "2026-01-09T20:45:14.000Z",
+    "durationMinutes": 5,
+    "hitCount": 37,
+    "uniqueUsers": 6,
+    "topAttackers": [
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 14
+      },
+      {
+        "user": "Annie",
+        "team": "Penguin",
+        "attacks": 12
+      },
+      {
+        "user": "mikgriz",
+        "team": "Penguin",
+        "attacks": 6
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "CashisKing",
+        "team": "Reindeer",
+        "hitsTaken": 37
+      }
+    ],
+    "participants": [
+      {
+        "user": "CashisKing",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 37,
+        "ratio": 0
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 14,
+        "hitsTaken": 0,
+        "ratio": 14
+      },
+      {
+        "user": "Annie",
+        "team": "Penguin",
+        "attacks": 12,
+        "hitsTaken": 0,
+        "ratio": 12
+      },
+      {
+        "user": "mikgriz",
+        "team": "Penguin",
+        "attacks": 6,
+        "hitsTaken": 0,
+        "ratio": 6
+      },
+      {
+        "user": "Horse",
+        "team": "Penguin",
+        "attacks": 4,
+        "hitsTaken": 0,
+        "ratio": 4
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Matterhorn-17",
     "roomName": "Matterhorn",
     "start": "2026-01-07T20:52:50.000Z",
@@ -17041,6 +17118,88 @@
       {
         "user": "taymeow",
         "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
+    "id": "Captain's Quest Quarters-52",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-09T20:57:09.000Z",
+    "end": "2026-01-09T21:00:17.000Z",
+    "durationMinutes": 3,
+    "hitCount": 32,
+    "uniqueUsers": 6,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 31
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 1
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Guest10149070",
+        "team": "Penguin",
+        "hitsTaken": 13
+      },
+      {
+        "user": "Naiant",
+        "team": "Penguin",
+        "hitsTaken": 13
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "hitsTaken": 3
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 31,
+        "hitsTaken": 1,
+        "ratio": 31
+      },
+      {
+        "user": "Guest10149070",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 13,
+        "ratio": 0
+      },
+      {
+        "user": "Naiant",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 13,
+        "ratio": 0
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 3,
+        "ratio": 0.3333333333333333
+      },
+      {
+        "user": "mikgriz",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "AirBiscuits",
+        "team": "Penguin",
         "attacks": 0,
         "hitsTaken": 1,
         "ratio": 0

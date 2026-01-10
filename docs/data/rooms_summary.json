@@ -1,26 +1,26 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 8234,
-    "avgUserRatio": 0.89,
-    "activeUsers": 215
+    "hitCount": 8296,
+    "avgUserRatio": 0.87,
+    "activeUsers": 217
   },
   {
     "roomName": "Town Square",
-    "hitCount": 4260,
+    "hitCount": 4264,
     "avgUserRatio": 1.22,
     "activeUsers": 214
   },
   {
     "roomName": "Main Street",
-    "hitCount": 2030,
-    "avgUserRatio": 1.71,
+    "hitCount": 2039,
+    "avgUserRatio": 1.7,
     "activeUsers": 186
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 2022,
-    "avgUserRatio": 1.06,
+    "hitCount": 2024,
+    "avgUserRatio": 1.07,
     "activeUsers": 228
   },
   {
@@ -31,9 +31,9 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 1016,
+    "hitCount": 1021,
     "avgUserRatio": 1,
-    "activeUsers": 112
+    "activeUsers": 113
   },
   {
     "roomName": "Dungeon",
@@ -43,9 +43,9 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 624,
-    "avgUserRatio": 1.57,
-    "activeUsers": 101
+    "hitCount": 644,
+    "avgUserRatio": 1.55,
+    "activeUsers": 103
   },
   {
     "roomName": "Monorail Station",
@@ -61,19 +61,25 @@
   },
   {
     "roomName": "Blue Bayou",
-    "hitCount": 404,
-    "avgUserRatio": 2.68,
-    "activeUsers": 89
+    "hitCount": 406,
+    "avgUserRatio": 2.66,
+    "activeUsers": 90
+  },
+  {
+    "roomName": "Snow White Hide 'n Seek Forest",
+    "hitCount": 362,
+    "avgUserRatio": 3.29,
+    "activeUsers": 48
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 358,
-    "avgUserRatio": 2.21,
+    "hitCount": 359,
+    "avgUserRatio": 2.22,
     "activeUsers": 82
   },
   {
     "roomName": "Banquet Hall",
-    "hitCount": 340,
+    "hitCount": 342,
     "avgUserRatio": 2.1,
     "activeUsers": 47
   },
@@ -84,16 +90,10 @@
     "activeUsers": 55
   },
   {
-    "roomName": "Snow White Hide 'n Seek Forest",
-    "hitCount": 325,
-    "avgUserRatio": 2.69,
-    "activeUsers": 45
-  },
-  {
     "roomName": "Shrunken Ned's Shop",
-    "hitCount": 289,
-    "avgUserRatio": 3.88,
-    "activeUsers": 56
+    "hitCount": 290,
+    "avgUserRatio": 3.83,
+    "activeUsers": 57
   },
   {
     "roomName": "Street Party Music Game Lobby",
@@ -103,9 +103,9 @@
   },
   {
     "roomName": "New Orleans Square",
-    "hitCount": 243,
-    "avgUserRatio": 1.8,
-    "activeUsers": 35
+    "hitCount": 244,
+    "avgUserRatio": 1.78,
+    "activeUsers": 36
   },
   {
     "roomName": "Monorail Train",
@@ -139,9 +139,9 @@
   },
   {
     "roomName": "Adventureland Bazaar",
-    "hitCount": 181,
-    "avgUserRatio": 1.24,
-    "activeUsers": 32
+    "hitCount": 183,
+    "avgUserRatio": 1.23,
+    "activeUsers": 33
   },
   {
     "roomName": "Tiki Tiki Tiki Island",
@@ -180,6 +180,12 @@
     "activeUsers": 30
   },
   {
+    "roomName": "WS - Norway",
+    "hitCount": 111,
+    "avgUserRatio": 3.7,
+    "activeUsers": 18
+  },
+  {
     "roomName": "Sci-Fi Dine-In",
     "hitCount": 99,
     "avgUserRatio": 2.51,
@@ -198,12 +204,6 @@
     "activeUsers": 16
   },
   {
-    "roomName": "WS - Norway",
-    "hitCount": 87,
-    "avgUserRatio": 5.25,
-    "activeUsers": 16
-  },
-  {
     "roomName": "Elephant Bathing Pool",
     "hitCount": 87,
     "avgUserRatio": 2.06,
@@ -214,6 +214,12 @@
     "hitCount": 85,
     "avgUserRatio": 1.41,
     "activeUsers": 26
+  },
+  {
+    "roomName": "Nautilus Grotto",
+    "hitCount": 74,
+    "avgUserRatio": 1.68,
+    "activeUsers": 21
   },
   {
     "roomName": "Tom Sawyer's Island",
@@ -228,28 +234,22 @@
     "activeUsers": 24
   },
   {
-    "roomName": "Nautilus Grotto",
-    "hitCount": 68,
-    "avgUserRatio": 1.79,
-    "activeUsers": 19
+    "roomName": "Explorer's Tent",
+    "hitCount": 69,
+    "avgUserRatio": 3.55,
+    "activeUsers": 16
   },
   {
-    "roomName": "Explorer's Tent",
-    "hitCount": 66,
-    "avgUserRatio": 3.85,
-    "activeUsers": 14
+    "roomName": "Forbidden Temple",
+    "hitCount": 65,
+    "avgUserRatio": 1.56,
+    "activeUsers": 30
   },
   {
     "roomName": "Lost Safari Party",
     "hitCount": 61,
     "avgUserRatio": 4.62,
     "activeUsers": 13
-  },
-  {
-    "roomName": "Forbidden Temple",
-    "hitCount": 57,
-    "avgUserRatio": 1.59,
-    "activeUsers": 27
   },
   {
     "roomName": "Splash Mountain",
@@ -372,6 +372,12 @@
     "activeUsers": 8
   },
   {
+    "roomName": "WS - Canada",
+    "hitCount": 10,
+    "avgUserRatio": 1.67,
+    "activeUsers": 6
+  },
+  {
     "roomName": "Shipwreck Graveyard",
     "hitCount": 9,
     "avgUserRatio": 0.82,
@@ -418,12 +424,6 @@
     "hitCount": 5,
     "avgUserRatio": 1,
     "activeUsers": 3
-  },
-  {
-    "roomName": "WS - Canada",
-    "hitCount": 5,
-    "avgUserRatio": 1.25,
-    "activeUsers": 4
   },
   {
     "roomName": "Mark Twain",
