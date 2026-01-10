@@ -7,8 +7,8 @@
   },
   {
     "roomName": "Town Square",
-    "hitCount": 4265,
-    "avgUserRatio": 1.22,
+    "hitCount": 4266,
+    "avgUserRatio": 1.21,
     "activeUsers": 215
   },
   {
@@ -43,7 +43,7 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 672,
+    "hitCount": 673,
     "avgUserRatio": 1.52,
     "activeUsers": 104
   },
@@ -97,9 +97,9 @@
   },
   {
     "roomName": "Street Party Music Game Lobby",
-    "hitCount": 248,
-    "avgUserRatio": 1.15,
-    "activeUsers": 73
+    "hitCount": 249,
+    "avgUserRatio": 1.14,
+    "activeUsers": 74
   },
   {
     "roomName": "New Orleans Square",
@@ -109,9 +109,9 @@
   },
   {
     "roomName": "Monorail Train",
-    "hitCount": 208,
-    "avgUserRatio": 2.63,
-    "activeUsers": 22
+    "hitCount": 219,
+    "avgUserRatio": 2.57,
+    "activeUsers": 23
   },
   {
     "roomName": "Tomorrowland Hub",
@@ -174,16 +174,16 @@
     "activeUsers": 23
   },
   {
+    "roomName": "WS - Norway",
+    "hitCount": 136,
+    "avgUserRatio": 2.43,
+    "activeUsers": 21
+  },
+  {
     "roomName": "Storybookland",
     "hitCount": 130,
     "avgUserRatio": 2.46,
     "activeUsers": 30
-  },
-  {
-    "roomName": "WS - Norway",
-    "hitCount": 111,
-    "avgUserRatio": 3.7,
-    "activeUsers": 18
   },
   {
     "roomName": "Sci-Fi Dine-In",
@@ -270,15 +270,15 @@
     "activeUsers": 11
   },
   {
+    "roomName": "VMK Central",
+    "hitCount": 44,
+    "avgUserRatio": 1.37,
+    "activeUsers": 18
+  },
+  {
     "roomName": "Space Mountain Quest Deck",
     "hitCount": 43,
     "avgUserRatio": 1.07,
-    "activeUsers": 17
-  },
-  {
-    "roomName": "VMK Central",
-    "hitCount": 43,
-    "avgUserRatio": 1.39,
     "activeUsers": 17
   },
   {
@@ -316,6 +316,12 @@
     "hitCount": 33,
     "avgUserRatio": 1.87,
     "activeUsers": 8
+  },
+  {
+    "roomName": "WS - China",
+    "hitCount": 31,
+    "avgUserRatio": 1.11,
+    "activeUsers": 4
   },
   {
     "roomName": "Anandapur",
@@ -384,6 +390,12 @@
     "activeUsers": 11
   },
   {
+    "roomName": "WS - Italy",
+    "hitCount": 9,
+    "avgUserRatio": 1.5,
+    "activeUsers": 6
+  },
+  {
     "roomName": "Inner-Space Shop",
     "hitCount": 7,
     "avgUserRatio": 2.33,
@@ -406,12 +418,6 @@
     "hitCount": 6,
     "avgUserRatio": 0.76,
     "activeUsers": 7
-  },
-  {
-    "roomName": "WS - Italy",
-    "hitCount": 6,
-    "avgUserRatio": 1.2,
-    "activeUsers": 5
   },
   {
     "roomName": "Everest Entrance",
