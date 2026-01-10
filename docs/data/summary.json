@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-10T16:59:33.303Z",
-  "totalRows": 27709,
+  "generatedAt": "2026-01-10T17:18:12.739Z",
+  "totalRows": 27710,
   "totalUsers": 516,
   "teamStats": {
     "Penguin": {
       "users": 236,
       "attacks": 15703,
-      "hitsTaken": 12006
+      "hitsTaken": 12007
     },
     "Reindeer": {
       "users": 280,
-      "attacks": 12006,
+      "attacks": 12007,
       "hitsTaken": 15703
     },
     "Unknown": {
@@ -26,7 +26,7 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 12006
+      "count": 12007
     }
   ],
   "topAttackers": [
@@ -37,7 +37,7 @@
     },
     {
       "user": "CaptainBubbles",
-      "attacks": 1445,
+      "attacks": 1446,
       "team": "Reindeer"
     },
     {
@@ -294,9 +294,9 @@
     {
       "user": "CaptainBubbles",
       "team": "Reindeer",
-      "attacks": 1445,
+      "attacks": 1446,
       "hitsTaken": 1145,
-      "ratio": 1.262008733624454
+      "ratio": 1.262882096069869
     },
     {
       "user": "SammyxxFairy",
@@ -1002,8 +1002,8 @@
       "user": "PrincessCutezada",
       "team": "Penguin",
       "attacks": 43,
-      "hitsTaken": 51,
-      "ratio": 0.8431372549019608
+      "hitsTaken": 52,
+      "ratio": 0.8269230769230769
     },
     {
       "user": "Monsta",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.32382550391016796,
-      "intercept": 37.44023822430631,
+      "slope": 0.32383125625218556,
+      "intercept": 37.441271778503875,
       "xMin": 0,
       "xMax": 4082,
-      "y1": 37.44023822430631,
-      "y2": 1359.2959451856118,
+      "y1": 37.441271778503875,
+      "y2": 1359.3204597999254,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.28603205555345335,
-      "intercept": 32.645385354974444,
+      "slope": 0.28602971940395894,
+      "intercept": 32.64989267912884,
       "xMin": 0,
       "xMax": 4082,
-      "y1": 32.645385354974444,
-      "y2": 1200.228236124171,
+      "y1": 32.64989267912884,
+      "y2": 1200.2232072860893,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3464443591807879,
-      "intercept": 42.71699638398319,
+      "slope": 0.3464502046239258,
+      "intercept": 42.715453307705644,
       "xMin": 0,
       "xMax": 4082,
-      "y1": 42.71699638398319,
-      "y2": 1456.9028705599594,
+      "y1": 42.715453307705644,
+      "y2": 1456.9251885825709,
       "label": "Reindeer"
     }
   },
@@ -3936,16 +3936,16 @@
       "activeUsers": 39
     },
     {
+      "roomName": "Pirate Treehouse",
+      "hitCount": 187,
+      "avgUserRatio": 1.4,
+      "activeUsers": 50
+    },
+    {
       "roomName": "Pixar Pier Entrance",
       "hitCount": 187,
       "avgUserRatio": 1.1,
       "activeUsers": 40
-    },
-    {
-      "roomName": "Pirate Treehouse",
-      "hitCount": 186,
-      "avgUserRatio": 1.42,
-      "activeUsers": 49
     },
     {
       "roomName": "VMK Gallery",
