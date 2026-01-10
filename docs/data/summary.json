@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-10T05:48:38.097Z",
-  "totalRows": 27510,
-  "totalUsers": 513,
+  "generatedAt": "2026-01-10T05:55:10.402Z",
+  "totalRows": 27516,
+  "totalUsers": 514,
   "teamStats": {
     "Penguin": {
-      "users": 235,
-      "attacks": 15558,
-      "hitsTaken": 11952
+      "users": 236,
+      "attacks": 15561,
+      "hitsTaken": 11955
     },
     "Reindeer": {
       "users": 278,
-      "attacks": 11952,
-      "hitsTaken": 15558
+      "attacks": 11955,
+      "hitsTaken": 15561
     },
     "Unknown": {
       "users": 0,
@@ -22,17 +22,17 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 15558
+      "count": 15561
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 11952
+      "count": 11955
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 4059,
+      "attacks": 4062,
       "team": "Reindeer"
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "user": "Devgirlforever",
-      "attacks": 671,
+      "attacks": 673,
       "team": "Penguin"
     },
     {
@@ -174,7 +174,7 @@
     },
     {
       "user": "Kronkx",
-      "hitsTaken": 995,
+      "hitsTaken": 998,
       "team": "Reindeer"
     },
     {
@@ -194,7 +194,7 @@
     },
     {
       "user": "HappyToughFish",
-      "hitsTaken": 547,
+      "hitsTaken": 549,
       "team": "Penguin"
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "user": "Devgirlforever",
-      "hitsTaken": 384,
+      "hitsTaken": 385,
       "team": "Penguin"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 4059,
-      "hitsTaken": 995,
-      "ratio": 4.079396984924623
+      "attacks": 4062,
+      "hitsTaken": 998,
+      "ratio": 4.070140280561122
     },
     {
       "user": "CaptainBubbles",
@@ -371,9 +371,9 @@
     {
       "user": "Devgirlforever",
       "team": "Penguin",
-      "attacks": 671,
-      "hitsTaken": 384,
-      "ratio": 1.7473958333333333
+      "attacks": 673,
+      "hitsTaken": 385,
+      "ratio": 1.748051948051948
     },
     {
       "user": "bsims",
@@ -449,7 +449,7 @@
       "user": "HappyToughFish",
       "team": "Penguin",
       "attacks": 0,
-      "hitsTaken": 547,
+      "hitsTaken": 549,
       "ratio": 0
     },
     {
@@ -3540,6 +3540,13 @@
       "ratio": 1
     },
     {
+      "user": "ChernyBoggy",
+      "team": "Penguin",
+      "attacks": 1,
+      "hitsTaken": 0,
+      "ratio": 1
+    },
+    {
       "user": "tugdotforever",
       "team": "Penguin",
       "attacks": 0,
@@ -3776,48 +3783,41 @@
       "attacks": 0,
       "hitsTaken": 1,
       "ratio": 0
-    },
-    {
-      "user": "AmandaEgail",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 1,
-      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.3256664359885706,
-      "intercept": 37.07583269190884,
+      "slope": 0.3259107970860433,
+      "intercept": 37.068477014760866,
       "xMin": 0,
-      "xMax": 4059,
-      "y1": 37.07583269190884,
-      "y2": 1358.9558963695167,
+      "xMax": 4062,
+      "y1": 37.068477014760866,
+      "y2": 1360.918134778269,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2877112980071237,
-      "intercept": 32.48168532871813,
+      "slope": 0.2879586776337625,
+      "intercept": 32.33365808372737,
       "xMin": 0,
-      "xMax": 4059,
-      "y1": 32.48168532871813,
-      "y2": 1200.3018439396333,
+      "xMax": 4062,
+      "y1": 32.33365808372737,
+      "y2": 1202.0218066320706,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.34799180959464987,
-      "intercept": 42.18815515453609,
+      "slope": 0.3482277943839413,
+      "intercept": 42.33805471427503,
       "xMin": 0,
-      "xMax": 4059,
-      "y1": 42.18815515453609,
-      "y2": 1454.68691029922,
+      "xMax": 4062,
+      "y1": 42.33805471427503,
+      "y2": 1456.8393555018447,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 8345,
+      "hitCount": 8347,
       "avgUserRatio": 0.86,
       "activeUsers": 218
     },

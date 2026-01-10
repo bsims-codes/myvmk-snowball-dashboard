@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 8345,
+    "hitCount": 8347,
     "avgUserRatio": 0.86,
     "activeUsers": 218
   },
@@ -198,6 +198,12 @@
     "activeUsers": 29
   },
   {
+    "roomName": "Penny Arcade",
+    "hitCount": 89,
+    "avgUserRatio": 1.39,
+    "activeUsers": 27
+  },
+  {
     "roomName": "Festival of the Lion King",
     "hitCount": 88,
     "avgUserRatio": 5.28,
@@ -208,12 +214,6 @@
     "hitCount": 87,
     "avgUserRatio": 2.06,
     "activeUsers": 16
-  },
-  {
-    "roomName": "Penny Arcade",
-    "hitCount": 85,
-    "avgUserRatio": 1.41,
-    "activeUsers": 26
   },
   {
     "roomName": "Nautilus Grotto",
