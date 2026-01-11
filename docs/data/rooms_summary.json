@@ -13,9 +13,9 @@
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 2199,
+    "hitCount": 2202,
     "avgUserRatio": 1.13,
-    "activeUsers": 234
+    "activeUsers": 235
   },
   {
     "roomName": "Main Street",
@@ -79,9 +79,9 @@
   },
   {
     "roomName": "Banquet Hall",
-    "hitCount": 342,
+    "hitCount": 352,
     "avgUserRatio": 2.1,
-    "activeUsers": 47
+    "activeUsers": 48
   },
   {
     "roomName": "Frontierland Hub",
@@ -271,9 +271,15 @@
   },
   {
     "roomName": "Golden Horseshoe Mercantile",
-    "hitCount": 45,
+    "hitCount": 46,
     "avgUserRatio": 0.94,
-    "activeUsers": 11
+    "activeUsers": 12
+  },
+  {
+    "roomName": "Frontierland Dock",
+    "hitCount": 45,
+    "avgUserRatio": 0.86,
+    "activeUsers": 10
   },
   {
     "roomName": "WS - Mexico",
@@ -315,12 +321,6 @@
     "roomName": "Discovery Island",
     "hitCount": 34,
     "avgUserRatio": 1.3,
-    "activeUsers": 10
-  },
-  {
-    "roomName": "Frontierland Dock",
-    "hitCount": 34,
-    "avgUserRatio": 0.77,
     "activeUsers": 10
   },
   {
