@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-11T17:54:11.796Z",
-  "totalRows": 28578,
-  "totalUsers": 529,
+  "generatedAt": "2026-01-11T18:00:40.626Z",
+  "totalRows": 28582,
+  "totalUsers": 530,
   "teamStats": {
     "Penguin": {
-      "users": 245,
+      "users": 246,
       "attacks": 16055,
-      "hitsTaken": 12523
+      "hitsTaken": 12527
     },
     "Reindeer": {
       "users": 284,
-      "attacks": 12523,
+      "attacks": 12527,
       "hitsTaken": 16055
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 12523
+      "count": 12527
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 4429,
+      "attacks": 4433,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 4429,
+      "attacks": 4433,
       "hitsTaken": 1064,
-      "ratio": 4.162593984962406
+      "ratio": 4.166353383458647
     },
     {
       "user": "CaptainBubbles",
@@ -3176,6 +3176,13 @@
       "ratio": 0
     },
     {
+      "user": "Vesta1984",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 4,
+      "ratio": 0
+    },
+    {
       "user": "Road",
       "team": "Reindeer",
       "attacks": 3,
@@ -3776,41 +3783,34 @@
       "attacks": 0,
       "hitsTaken": 1,
       "ratio": 0
-    },
-    {
-      "user": "TinkerLaceyBell",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 1,
-      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.3125504756333965,
-      "intercept": 39.233865014697585,
+      "slope": 0.3123434697229875,
+      "intercept": 39.24919789675514,
       "xMin": 0,
-      "xMax": 4429,
-      "y1": 39.233865014697585,
-      "y2": 1423.5199215950106,
+      "xMax": 4433,
+      "y1": 39.24919789675514,
+      "y2": 1423.8677991787586,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.28385119424518734,
-      "intercept": 33.99473964270734,
+      "slope": 0.28383300571811454,
+      "intercept": 34.00880809057979,
       "xMin": 0,
-      "xMax": 4429,
-      "y1": 33.99473964270734,
-      "y2": 1291.1716789546422,
+      "xMax": 4433,
+      "y1": 34.00880809057979,
+      "y2": 1292.2405224389815,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.32839247086682866,
-      "intercept": 44.82910183208536,
+      "slope": 0.32806383776172676,
+      "intercept": 44.83964024195056,
       "xMin": 0,
-      "xMax": 4429,
-      "y1": 44.82910183208536,
-      "y2": 1499.2793553012696,
+      "xMax": 4433,
+      "y1": 44.83964024195056,
+      "y2": 1499.1466330396852,
       "label": "Reindeer"
     }
   },
@@ -3883,9 +3883,9 @@
     },
     {
       "roomName": "Snow White Hide 'n Seek Forest",
-      "hitCount": 395,
-      "avgUserRatio": 3.08,
-      "activeUsers": 49
+      "hitCount": 398,
+      "avgUserRatio": 3.04,
+      "activeUsers": 50
     },
     {
       "roomName": "Epcot Entrance",
@@ -3961,9 +3961,9 @@
     },
     {
       "roomName": "Gallery",
-      "hitCount": 184,
-      "avgUserRatio": 2.42,
-      "activeUsers": 33
+      "hitCount": 185,
+      "avgUserRatio": 2.35,
+      "activeUsers": 34
     }
   ]
 }
