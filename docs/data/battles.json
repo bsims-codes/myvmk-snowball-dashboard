@@ -6519,6 +6519,86 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-55",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-10T22:55:09.000Z",
+    "end": "2026-01-10T23:12:40.000Z",
+    "durationMinutes": 18,
+    "hitCount": 139,
+    "uniqueUsers": 5,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 70
+      },
+      {
+        "user": "SillyTableWizard",
+        "team": "Reindeer",
+        "attacks": 40
+      },
+      {
+        "user": "MagicalMinne",
+        "team": "Penguin",
+        "attacks": 29
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "MagicalMinne",
+        "team": "Penguin",
+        "hitsTaken": 110
+      },
+      {
+        "user": "SillyTableWizard",
+        "team": "Reindeer",
+        "hitsTaken": 14
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 12
+      }
+    ],
+    "participants": [
+      {
+        "user": "MagicalMinne",
+        "team": "Penguin",
+        "attacks": 29,
+        "hitsTaken": 110,
+        "ratio": 0.2636363636363636
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 70,
+        "hitsTaken": 12,
+        "ratio": 5.833333333333333
+      },
+      {
+        "user": "SillyTableWizard",
+        "team": "Reindeer",
+        "attacks": 40,
+        "hitsTaken": 14,
+        "ratio": 2.857142857142857
+      },
+      {
+        "user": "KristiDB",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      },
+      {
+        "user": "JessXxPrincess",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-33",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-23T20:59:23.000Z",
