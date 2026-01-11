@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-11T13:56:45.734Z",
-  "totalRows": 28442,
+  "generatedAt": "2026-01-11T14:13:15.839Z",
+  "totalRows": 28461,
   "totalUsers": 528,
   "teamStats": {
     "Penguin": {
       "users": 245,
-      "attacks": 15956,
+      "attacks": 15975,
       "hitsTaken": 12486
     },
     "Reindeer": {
       "users": 283,
       "attacks": 12486,
-      "hitsTaken": 15956
+      "hitsTaken": 15975
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 15956
+      "count": 15975
     },
     {
       "pair": "Reindeer → Penguin",
@@ -67,7 +67,7 @@
     },
     {
       "user": "bsims",
-      "attacks": 893,
+      "attacks": 912,
       "team": "Penguin"
     },
     {
@@ -243,6 +243,11 @@
       "team": "Penguin"
     },
     {
+      "user": "wildgirlpony",
+      "hitsTaken": 273,
+      "team": "Reindeer"
+    },
+    {
       "user": "mikgriz",
       "hitsTaken": 267,
       "team": "Penguin"
@@ -265,11 +270,6 @@
     {
       "user": "AtziriDayre",
       "hitsTaken": 259,
-      "team": "Reindeer"
-    },
-    {
-      "user": "wildgirlpony",
-      "hitsTaken": 254,
       "team": "Reindeer"
     },
     {
@@ -371,9 +371,9 @@
     {
       "user": "bsims",
       "team": "Penguin",
-      "attacks": 893,
+      "attacks": 912,
       "hitsTaken": 174,
-      "ratio": 5.132183908045977
+      "ratio": 5.241379310344827
     },
     {
       "user": "Devgirlforever",
@@ -586,6 +586,13 @@
       "ratio": 1.4285714285714286
     },
     {
+      "user": "wildgirlpony",
+      "team": "Reindeer",
+      "attacks": 10,
+      "hitsTaken": 273,
+      "ratio": 0.03663003663003663
+    },
+    {
       "user": "lotuskitty",
       "team": "Reindeer",
       "attacks": 109,
@@ -598,13 +605,6 @@
       "attacks": 115,
       "hitsTaken": 157,
       "ratio": 0.732484076433121
-    },
-    {
-      "user": "wildgirlpony",
-      "team": "Reindeer",
-      "attacks": 10,
-      "hitsTaken": 254,
-      "ratio": 0.03937007874015748
     },
     {
       "user": "xRachelx",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.31264992163771854,
-      "intercept": 39.04322185756002,
+      "slope": 0.3123936992710251,
+      "intercept": 39.0839258500947,
       "xMin": 0,
       "xMax": 4429,
-      "y1": 39.04322185756002,
-      "y2": 1423.7697247910153,
+      "y1": 39.0839258500947,
+      "y2": 1422.6756199214649,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.283436829213958,
-      "intercept": 33.844604055583346,
+      "slope": 0.28283680980973336,
+      "intercept": 33.86247643952983,
       "xMin": 0,
       "xMax": 4429,
-      "y1": 33.844604055583346,
-      "y2": 1289.1863206442035,
+      "y1": 33.86247643952983,
+      "y2": 1286.546707086839,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3284408228732893,
-      "intercept": 44.66825617209098,
+      "slope": 0.3284098834569282,
+      "intercept": 44.741412057195454,
       "xMin": 0,
       "xMax": 4429,
-      "y1": 44.66825617209098,
-      "y2": 1499.3326606778892,
+      "y1": 44.741412057195454,
+      "y2": 1499.2687858879303,
       "label": "Reindeer"
     }
   },
@@ -3930,6 +3930,12 @@
       "activeUsers": 23
     },
     {
+      "roomName": "Pirate Treehouse",
+      "hitCount": 206,
+      "avgUserRatio": 1.5,
+      "activeUsers": 51
+    },
+    {
       "roomName": "Tomorrowland Hub",
       "hitCount": 198,
       "avgUserRatio": 1.16,
@@ -3940,12 +3946,6 @@
       "hitCount": 188,
       "avgUserRatio": 3.62,
       "activeUsers": 34
-    },
-    {
-      "roomName": "Pirate Treehouse",
-      "hitCount": 187,
-      "avgUserRatio": 1.4,
-      "activeUsers": 50
     },
     {
       "roomName": "Adventureland Bazaar",
