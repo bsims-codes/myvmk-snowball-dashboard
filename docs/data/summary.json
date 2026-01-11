@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-11T18:00:40.626Z",
-  "totalRows": 28582,
+  "generatedAt": "2026-01-11T18:33:39.372Z",
+  "totalRows": 28588,
   "totalUsers": 530,
   "teamStats": {
     "Penguin": {
       "users": 246,
       "attacks": 16055,
-      "hitsTaken": 12527
+      "hitsTaken": 12533
     },
     "Reindeer": {
       "users": 284,
-      "attacks": 12527,
+      "attacks": 12533,
       "hitsTaken": 16055
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 12527
+      "count": 12533
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 4433,
+      "attacks": 4439,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 4433,
+      "attacks": 4439,
       "hitsTaken": 1064,
-      "ratio": 4.166353383458647
+      "ratio": 4.171992481203008
     },
     {
       "user": "CaptainBubbles",
@@ -418,18 +418,18 @@
       "ratio": 2.8816568047337277
     },
     {
+      "user": "BluPirate",
+      "team": "Penguin",
+      "attacks": 468,
+      "hitsTaken": 188,
+      "ratio": 2.4893617021276597
+    },
+    {
       "user": "Jewelsy",
       "team": "Reindeer",
       "attacks": 519,
       "hitsTaken": 136,
       "ratio": 3.8161764705882355
-    },
-    {
-      "user": "BluPirate",
-      "team": "Penguin",
-      "attacks": 468,
-      "hitsTaken": 185,
-      "ratio": 2.5297297297297296
     },
     {
       "user": "Lilasaurus",
@@ -3036,6 +3036,13 @@
       "ratio": 0
     },
     {
+      "user": "Vesta1984",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 5,
+      "ratio": 0
+    },
+    {
       "user": "MicksGirl",
       "team": "Penguin",
       "attacks": 2,
@@ -3176,13 +3183,6 @@
       "ratio": 0
     },
     {
-      "user": "Vesta1984",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 4,
-      "ratio": 0
-    },
-    {
       "user": "Road",
       "team": "Reindeer",
       "attacks": 3,
@@ -3240,6 +3240,13 @@
     },
     {
       "user": "PurpleRose",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 3,
+      "ratio": 0
+    },
+    {
+      "user": "scortatia",
       "team": "Penguin",
       "attacks": 0,
       "hitsTaken": 3,
@@ -3750,13 +3757,6 @@
       "ratio": 0
     },
     {
-      "user": "scortatia",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 1,
-      "ratio": 0
-    },
-    {
       "user": "hamtercat",
       "team": "Reindeer",
       "attacks": 0,
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3123434697229875,
-      "intercept": 39.24919789675514,
+      "slope": 0.31207168798009693,
+      "intercept": 39.27298916804998,
       "xMin": 0,
-      "xMax": 4433,
-      "y1": 39.24919789675514,
-      "y2": 1423.8677991787586,
+      "xMax": 4439,
+      "y1": 39.27298916804998,
+      "y2": 1424.5592121117002,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.28383300571811454,
-      "intercept": 34.00880809057979,
+      "slope": 0.2839206935644234,
+      "intercept": 34.02843275565463,
       "xMin": 0,
-      "xMax": 4433,
-      "y1": 34.00880809057979,
-      "y2": 1292.2405224389815,
+      "xMax": 4439,
+      "y1": 34.02843275565463,
+      "y2": 1294.35239148813,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.32806383776172676,
-      "intercept": 44.83964024195056,
+      "slope": 0.32757192127956064,
+      "intercept": 44.85541770903483,
       "xMin": 0,
-      "xMax": 4433,
-      "y1": 44.83964024195056,
-      "y2": 1499.1466330396852,
+      "xMax": 4439,
+      "y1": 44.85541770903483,
+      "y2": 1498.9471762690046,
       "label": "Reindeer"
     }
   },
@@ -3841,9 +3841,9 @@
     },
     {
       "roomName": "Fantasyland in The Sky",
-      "hitCount": 1064,
-      "avgUserRatio": 2.27,
-      "activeUsers": 55
+      "hitCount": 1065,
+      "avgUserRatio": 2.23,
+      "activeUsers": 56
     },
     {
       "roomName": "Central Plaza",
@@ -3871,9 +3871,9 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 487,
-      "avgUserRatio": 2.95,
-      "activeUsers": 49
+      "hitCount": 492,
+      "avgUserRatio": 2.69,
+      "activeUsers": 50
     },
     {
       "roomName": "Blue Bayou",
