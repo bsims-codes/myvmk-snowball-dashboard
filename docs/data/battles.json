@@ -14121,6 +14121,76 @@
     ]
   },
   {
+    "id": "WS - Canada-1",
+    "roomName": "WS - Canada",
+    "start": "2026-01-10T21:51:56.000Z",
+    "end": "2026-01-10T22:05:28.000Z",
+    "durationMinutes": 14,
+    "hitCount": 42,
+    "uniqueUsers": 5,
+    "topAttackers": [
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 20
+      },
+      {
+        "user": "PrincessCutezada",
+        "team": "Penguin",
+        "attacks": 13
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 8
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Art",
+        "team": "Reindeer",
+        "hitsTaken": 42
+      }
+    ],
+    "participants": [
+      {
+        "user": "Art",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 42,
+        "ratio": 0
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 20,
+        "hitsTaken": 0,
+        "ratio": 20
+      },
+      {
+        "user": "PrincessCutezada",
+        "team": "Penguin",
+        "attacks": 13,
+        "hitsTaken": 0,
+        "ratio": 13
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 8,
+        "hitsTaken": 0,
+        "ratio": 8
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Matterhorn-14",
     "roomName": "Matterhorn",
     "start": "2026-01-06T22:03:58.000Z",
@@ -16980,6 +17050,79 @@
       {
         "user": "Kronkx",
         "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
+    "id": "Street Party Music Game Lobby-2",
+    "roomName": "Street Party Music Game Lobby",
+    "start": "2026-01-10T20:55:04.000Z",
+    "end": "2026-01-10T20:58:55.000Z",
+    "durationMinutes": 4,
+    "hitCount": 33,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 31
+      },
+      {
+        "user": "KatGoddess",
+        "team": "Penguin",
+        "attacks": 1
+      },
+      {
+        "user": "AmandaJeanne",
+        "team": "Penguin",
+        "attacks": 1
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "KatGoddess",
+        "team": "Penguin",
+        "hitsTaken": 30
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 2
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "hitsTaken": 1
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 31,
+        "hitsTaken": 2,
+        "ratio": 15.5
+      },
+      {
+        "user": "KatGoddess",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 30,
+        "ratio": 0.03333333333333333
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "AmandaJeanne",
+        "team": "Penguin",
         "attacks": 1,
         "hitsTaken": 0,
         "ratio": 1
