@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-11T20:35:01.269Z",
-  "totalRows": 28595,
+  "generatedAt": "2026-01-11T20:47:15.425Z",
+  "totalRows": 28603,
   "totalUsers": 530,
   "teamStats": {
     "Penguin": {
       "users": 246,
-      "attacks": 16059,
-      "hitsTaken": 12536
+      "attacks": 16062,
+      "hitsTaken": 12541
     },
     "Reindeer": {
       "users": 284,
-      "attacks": 12536,
-      "hitsTaken": 16059
+      "attacks": 12541,
+      "hitsTaken": 16062
     },
     "Unknown": {
       "users": 0,
@@ -22,17 +22,17 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 16059
+      "count": 16062
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 12536
+      "count": 12541
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 4439,
+      "attacks": 4444,
       "team": "Reindeer"
     },
     {
@@ -208,14 +208,14 @@
       "team": "Penguin"
     },
     {
+      "user": "Devgirlforever",
+      "hitsTaken": 390,
+      "team": "Penguin"
+    },
+    {
       "user": "Tarabellah",
       "hitsTaken": 387,
       "team": "Reindeer"
-    },
-    {
-      "user": "Devgirlforever",
-      "hitsTaken": 385,
-      "team": "Penguin"
     },
     {
       "user": "PepaRaindrops",
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 4439,
+      "attacks": 4444,
       "hitsTaken": 1064,
-      "ratio": 4.171992481203008
+      "ratio": 4.176691729323308
     },
     {
       "user": "CaptainBubbles",
@@ -379,8 +379,8 @@
       "user": "Devgirlforever",
       "team": "Penguin",
       "attacks": 673,
-      "hitsTaken": 385,
-      "ratio": 1.748051948051948
+      "hitsTaken": 390,
+      "ratio": 1.7256410256410257
     },
     {
       "user": "VMKNeec",
@@ -2203,11 +2203,25 @@
       "ratio": 0
     },
     {
+      "user": "amy_rose707",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 17,
+      "ratio": 0
+    },
+    {
       "user": "GelatinfishJr",
       "team": "Reindeer",
       "attacks": 6,
       "hitsTaken": 10,
       "ratio": 0.6
+    },
+    {
+      "user": "icyblue",
+      "team": "Penguin",
+      "attacks": 12,
+      "hitsTaken": 4,
+      "ratio": 3
     },
     {
       "user": "HIPPY",
@@ -2322,25 +2336,11 @@
       "ratio": 0
     },
     {
-      "user": "amy_rose707",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 14,
-      "ratio": 0
-    },
-    {
       "user": "DapperChandler",
       "team": "Penguin",
       "attacks": 8,
       "hitsTaken": 5,
       "ratio": 1.6
-    },
-    {
-      "user": "icyblue",
-      "team": "Penguin",
-      "attacks": 9,
-      "hitsTaken": 4,
-      "ratio": 2.25
     },
     {
       "user": "AeroFloyd",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.31200535690213527,
-      "intercept": 39.28641363876688,
+      "slope": 0.3118360172983109,
+      "intercept": 39.307108794432835,
       "xMin": 0,
-      "xMax": 4439,
-      "y1": 39.28641363876688,
-      "y2": 1424.2781929273453,
+      "xMax": 4444,
+      "y1": 39.307108794432835,
+      "y2": 1425.1063696681265,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2837714338145649,
-      "intercept": 34.04664335201668,
+      "slope": 0.2840339072991832,
+      "intercept": 34.04635632889111,
       "xMin": 0,
-      "xMax": 4439,
-      "y1": 34.04664335201668,
-      "y2": 1293.70803805487,
+      "xMax": 4444,
+      "y1": 34.04635632889111,
+      "y2": 1296.2930403664614,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3275565641430988,
-      "intercept": 44.86748463121095,
+      "slope": 0.3271414388503407,
+      "intercept": 44.89217750142059,
       "xMin": 0,
-      "xMax": 4439,
-      "y1": 44.86748463121095,
-      "y2": 1498.8910728624267,
+      "xMax": 4444,
+      "y1": 44.89217750142059,
+      "y2": 1498.7087317523346,
       "label": "Reindeer"
     }
   },
@@ -3841,9 +3841,9 @@
     },
     {
       "roomName": "Fantasyland in The Sky",
-      "hitCount": 1065,
-      "avgUserRatio": 2.23,
-      "activeUsers": 56
+      "hitCount": 1068,
+      "avgUserRatio": 2.21,
+      "activeUsers": 58
     },
     {
       "roomName": "Central Plaza",
@@ -3859,7 +3859,7 @@
     },
     {
       "roomName": "VMK Esplanade",
-      "hitCount": 688,
+      "hitCount": 689,
       "avgUserRatio": 1.52,
       "activeUsers": 104
     },
@@ -3942,6 +3942,12 @@
       "activeUsers": 39
     },
     {
+      "roomName": "Gallery",
+      "hitCount": 188,
+      "avgUserRatio": 2.36,
+      "activeUsers": 34
+    },
+    {
       "roomName": "VMK Gallery",
       "hitCount": 188,
       "avgUserRatio": 3.62,
@@ -3958,12 +3964,6 @@
       "hitCount": 187,
       "avgUserRatio": 1.1,
       "activeUsers": 40
-    },
-    {
-      "roomName": "Gallery",
-      "hitCount": 185,
-      "avgUserRatio": 2.35,
-      "activeUsers": 34
     }
   ]
 }
