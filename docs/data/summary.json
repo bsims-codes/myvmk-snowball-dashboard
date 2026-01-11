@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-11T16:19:37.553Z",
-  "totalRows": 28573,
-  "totalUsers": 528,
+  "generatedAt": "2026-01-11T16:42:57.923Z",
+  "totalRows": 28578,
+  "totalUsers": 529,
   "teamStats": {
     "Penguin": {
       "users": 245,
-      "attacks": 16050,
+      "attacks": 16055,
       "hitsTaken": 12523
     },
     "Reindeer": {
-      "users": 283,
+      "users": 284,
       "attacks": 12523,
-      "hitsTaken": 16050
+      "hitsTaken": 16055
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 16050
+      "count": 16055
     },
     {
       "pair": "Reindeer → Penguin",
@@ -112,7 +112,7 @@
     },
     {
       "user": "BluPirate",
-      "attacks": 463,
+      "attacks": 468,
       "team": "Penguin"
     },
     {
@@ -427,9 +427,9 @@
     {
       "user": "BluPirate",
       "team": "Penguin",
-      "attacks": 463,
+      "attacks": 468,
       "hitsTaken": 185,
-      "ratio": 2.502702702702703
+      "ratio": 2.5297297297297296
     },
     {
       "user": "Lilasaurus",
@@ -3029,6 +3029,13 @@
       "ratio": 0
     },
     {
+      "user": "soccermanman",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 5,
+      "ratio": 0
+    },
+    {
       "user": "MicksGirl",
       "team": "Penguin",
       "attacks": 2,
@@ -3776,41 +3783,34 @@
       "attacks": 0,
       "hitsTaken": 1,
       "ratio": 0
-    },
-    {
-      "user": "ivan",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 1,
-      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.31257580549273994,
-      "intercept": 39.22754301931188,
+      "slope": 0.3125504756333965,
+      "intercept": 39.233865014697585,
       "xMin": 0,
       "xMax": 4429,
-      "y1": 39.22754301931188,
-      "y2": 1423.6257855466572,
+      "y1": 39.233865014697585,
+      "y2": 1423.5199215950106,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.28409178358729653,
-      "intercept": 33.843944142229326,
+      "slope": 0.28385119424518734,
+      "intercept": 33.99473964270734,
       "xMin": 0,
       "xMax": 4429,
-      "y1": 33.843944142229326,
-      "y2": 1292.0864536503657,
+      "y1": 33.99473964270734,
+      "y2": 1291.1716789546422,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3283098881173331,
-      "intercept": 44.98330290983637,
+      "slope": 0.32839247086682866,
+      "intercept": 44.82910183208536,
       "xMin": 0,
       "xMax": 4429,
-      "y1": 44.98330290983637,
-      "y2": 1499.0677973815045,
+      "y1": 44.82910183208536,
+      "y2": 1499.2793553012696,
       "label": "Reindeer"
     }
   },
@@ -3871,9 +3871,9 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 482,
-      "avgUserRatio": 2.9,
-      "activeUsers": 48
+      "hitCount": 487,
+      "avgUserRatio": 2.95,
+      "activeUsers": 49
     },
     {
       "roomName": "Blue Bayou",
