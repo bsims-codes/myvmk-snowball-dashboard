@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 8703,
+    "hitCount": 8717,
     "avgUserRatio": 0.87,
     "activeUsers": 221
   },
@@ -55,9 +55,9 @@
   },
   {
     "roomName": "Jungle Cruise Dock",
-    "hitCount": 478,
-    "avgUserRatio": 2.96,
-    "activeUsers": 46
+    "hitCount": 479,
+    "avgUserRatio": 2.9,
+    "activeUsers": 47
   },
   {
     "roomName": "Blue Bayou",
@@ -186,6 +186,12 @@
     "activeUsers": 30
   },
   {
+    "roomName": "Penny Arcade",
+    "hitCount": 117,
+    "avgUserRatio": 1.5,
+    "activeUsers": 35
+  },
+  {
     "roomName": "Sci-Fi Dine-In",
     "hitCount": 100,
     "avgUserRatio": 2.44,
@@ -196,12 +202,6 @@
     "hitCount": 96,
     "avgUserRatio": 1.03,
     "activeUsers": 29
-  },
-  {
-    "roomName": "Penny Arcade",
-    "hitCount": 96,
-    "avgUserRatio": 1.43,
-    "activeUsers": 30
   },
   {
     "roomName": "Festival of the Lion King",
