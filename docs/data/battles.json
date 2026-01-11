@@ -17777,6 +17777,67 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-54",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-10T19:41:35.000Z",
+    "end": "2026-01-10T19:46:47.000Z",
+    "durationMinutes": 5,
+    "hitCount": 31,
+    "uniqueUsers": 3,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 26
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 5
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "hitsTaken": 24
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 5
+      },
+      {
+        "user": "PrincessXxJess",
+        "team": "Penguin",
+        "hitsTaken": 2
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 26,
+        "hitsTaken": 5,
+        "ratio": 5.2
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 5,
+        "hitsTaken": 24,
+        "ratio": 0.20833333333333334
+      },
+      {
+        "user": "PrincessXxJess",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Banquet Hall-3",
     "roomName": "Banquet Hall",
     "start": "2025-12-29T10:36:24.000Z",

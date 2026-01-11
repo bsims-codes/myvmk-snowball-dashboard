@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 8475,
+    "hitCount": 8516,
     "avgUserRatio": 0.87,
-    "activeUsers": 219
+    "activeUsers": 220
   },
   {
     "roomName": "Town Square",
@@ -157,9 +157,9 @@
   },
   {
     "roomName": "WS - United Kingdom",
-    "hitCount": 158,
-    "avgUserRatio": 1.27,
-    "activeUsers": 43
+    "hitCount": 159,
+    "avgUserRatio": 1.24,
+    "activeUsers": 44
   },
   {
     "roomName": "Castle Forecourt",
@@ -199,9 +199,9 @@
   },
   {
     "roomName": "Penny Arcade",
-    "hitCount": 89,
-    "avgUserRatio": 1.39,
-    "activeUsers": 27
+    "hitCount": 92,
+    "avgUserRatio": 1.3,
+    "activeUsers": 30
   },
   {
     "roomName": "Festival of the Lion King",
@@ -372,6 +372,12 @@
     "activeUsers": 12
   },
   {
+    "roomName": "WS - Japan",
+    "hitCount": 13,
+    "avgUserRatio": 3.08,
+    "activeUsers": 4
+  },
+  {
     "roomName": "Discovery Trading Company",
     "hitCount": 10,
     "avgUserRatio": 1.13,
@@ -402,12 +408,6 @@
     "activeUsers": 3
   },
   {
-    "roomName": "WS - Japan",
-    "hitCount": 7,
-    "avgUserRatio": 2.11,
-    "activeUsers": 3
-  },
-  {
     "roomName": "Big Thunder Mountain",
     "hitCount": 6,
     "avgUserRatio": 0.86,
@@ -420,6 +420,12 @@
     "activeUsers": 7
   },
   {
+    "roomName": "Mark Twain",
+    "hitCount": 6,
+    "avgUserRatio": 1,
+    "activeUsers": 6
+  },
+  {
     "roomName": "Everest Entrance",
     "hitCount": 5,
     "avgUserRatio": 0.83,
@@ -430,12 +436,6 @@
     "hitCount": 5,
     "avgUserRatio": 1,
     "activeUsers": 3
-  },
-  {
-    "roomName": "Mark Twain",
-    "hitCount": 3,
-    "avgUserRatio": 0.75,
-    "activeUsers": 4
   },
   {
     "roomName": "Inner-Space Shrinking Machine",
