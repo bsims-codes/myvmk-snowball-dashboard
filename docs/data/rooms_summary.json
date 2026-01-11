@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 8731,
+    "hitCount": 8735,
     "avgUserRatio": 0.87,
     "activeUsers": 222
   },
@@ -31,8 +31,8 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 1034,
-    "avgUserRatio": 1,
+    "hitCount": 1035,
+    "avgUserRatio": 0.99,
     "activeUsers": 114
   },
   {
@@ -55,8 +55,8 @@
   },
   {
     "roomName": "Jungle Cruise Dock",
-    "hitCount": 496,
-    "avgUserRatio": 2.66,
+    "hitCount": 500,
+    "avgUserRatio": 2.64,
     "activeUsers": 52
   },
   {
@@ -126,6 +126,12 @@
     "activeUsers": 39
   },
   {
+    "roomName": "Adventureland Bazaar",
+    "hitCount": 193,
+    "avgUserRatio": 1.11,
+    "activeUsers": 34
+  },
+  {
     "roomName": "Gallery",
     "hitCount": 188,
     "avgUserRatio": 2.36,
@@ -135,12 +141,6 @@
     "roomName": "VMK Gallery",
     "hitCount": 188,
     "avgUserRatio": 3.62,
-    "activeUsers": 34
-  },
-  {
-    "roomName": "Adventureland Bazaar",
-    "hitCount": 187,
-    "avgUserRatio": 1.2,
     "activeUsers": 34
   },
   {
