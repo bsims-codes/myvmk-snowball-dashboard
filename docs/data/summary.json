@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-12T23:26:07.767Z",
-  "totalRows": 29063,
+  "generatedAt": "2026-01-12T23:35:49.446Z",
+  "totalRows": 29076,
   "totalUsers": 537,
   "teamStats": {
     "Penguin": {
       "users": 249,
-      "attacks": 16244,
+      "attacks": 16257,
       "hitsTaken": 12819
     },
     "Reindeer": {
       "users": 288,
       "attacks": 12819,
-      "hitsTaken": 16244
+      "hitsTaken": 16257
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 16244
+      "count": 16257
     },
     {
       "pair": "Reindeer → Penguin",
@@ -46,13 +46,13 @@
       "team": "Penguin"
     },
     {
-      "user": "TaterTotCasserole",
-      "attacks": 1235,
+      "user": "JustForFun",
+      "attacks": 1246,
       "team": "Penguin"
     },
     {
-      "user": "JustForFun",
-      "attacks": 1235,
+      "user": "TaterTotCasserole",
+      "attacks": 1237,
       "team": "Penguin"
     },
     {
@@ -322,16 +322,16 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 1235,
+      "attacks": 1237,
       "hitsTaken": 371,
-      "ratio": 3.3288409703504045
+      "ratio": 3.334231805929919
     },
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 1235,
+      "attacks": 1246,
       "hitsTaken": 271,
-      "ratio": 4.557195571955719
+      "ratio": 4.597785977859779
     },
     {
       "user": "kazino",
@@ -859,6 +859,13 @@
       "ratio": 0.43010752688172044
     },
     {
+      "user": "awko-taco",
+      "team": "Reindeer",
+      "attacks": 5,
+      "hitsTaken": 127,
+      "ratio": 0.03937007874015748
+    },
+    {
       "user": "maroonsonicsage22",
       "team": "Reindeer",
       "attacks": 15,
@@ -927,13 +934,6 @@
       "attacks": 86,
       "hitsTaken": 33,
       "ratio": 2.606060606060606
-    },
-    {
-      "user": "awko-taco",
-      "team": "Reindeer",
-      "attacks": 5,
-      "hitsTaken": 114,
-      "ratio": 0.043859649122807015
     },
     {
       "user": "PrincessXxJess",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3059620382484569,
-      "intercept": 40.26765056477019,
+      "slope": 0.3057687289107693,
+      "intercept": 40.29693687638095,
       "xMin": 0,
       "xMax": 4693,
-      "y1": 40.26765056477019,
-      "y2": 1476.1474960647786,
+      "y1": 40.29693687638095,
+      "y2": 1475.269581654621,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.28693777366282525,
-      "intercept": 34.65524597711092,
+      "slope": 0.28644560297559274,
+      "intercept": 34.67342056351399,
       "xMin": 0,
       "xMax": 4693,
-      "y1": 34.65524597711092,
-      "y2": 1381.2542177767498,
+      "y1": 34.67342056351399,
+      "y2": 1378.9626353279707,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.31606239030387695,
-      "intercept": 45.92224988186642,
+      "slope": 0.31603999120457216,
+      "intercept": 45.97239001037204,
       "xMin": 0,
       "xMax": 4693,
-      "y1": 45.92224988186642,
-      "y2": 1529.2030475779611,
+      "y1": 45.97239001037204,
+      "y2": 1529.1480687334292,
       "label": "Reindeer"
     }
   },
@@ -3906,16 +3906,16 @@
       "activeUsers": 55
     },
     {
+      "roomName": "Street Party Music Game Lobby",
+      "hitCount": 297,
+      "avgUserRatio": 1.18,
+      "activeUsers": 77
+    },
+    {
       "roomName": "Shrunken Ned's Shop",
       "hitCount": 295,
       "avgUserRatio": 3.8,
       "activeUsers": 58
-    },
-    {
-      "roomName": "Street Party Music Game Lobby",
-      "hitCount": 284,
-      "avgUserRatio": 1.13,
-      "activeUsers": 77
     },
     {
       "roomName": "New Orleans Square",
