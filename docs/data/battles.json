@@ -18136,6 +18136,57 @@
     ]
   },
   {
+    "id": "Blue Bayou-5",
+    "roomName": "Blue Bayou",
+    "start": "2026-01-11T21:27:15.000Z",
+    "end": "2026-01-11T21:34:11.000Z",
+    "durationMinutes": 7,
+    "hitCount": 31,
+    "uniqueUsers": 3,
+    "topAttackers": [
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 24
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 7
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "awko-taco",
+        "team": "Reindeer",
+        "hitsTaken": 31
+      }
+    ],
+    "participants": [
+      {
+        "user": "awko-taco",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 31,
+        "ratio": 0
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 24,
+        "hitsTaken": 0,
+        "ratio": 24
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 7,
+        "hitsTaken": 0,
+        "ratio": 7
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-54",
     "roomName": "Captain's Quest Quarters",
     "start": "2026-01-10T19:41:35.000Z",
