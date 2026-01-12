@@ -7603,6 +7603,55 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-56",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-12T14:03:19.000Z",
+    "end": "2026-01-12T14:20:04.000Z",
+    "durationMinutes": 17,
+    "hitCount": 94,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 87
+      },
+      {
+        "user": "PrincessCutezada",
+        "team": "Penguin",
+        "attacks": 7
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "PrincessCutezada",
+        "team": "Penguin",
+        "hitsTaken": 87
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 7
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 87,
+        "hitsTaken": 7,
+        "ratio": 12.428571428571429
+      },
+      {
+        "user": "PrincessCutezada",
+        "team": "Penguin",
+        "attacks": 7,
+        "hitsTaken": 87,
+        "ratio": 0.08045977011494253
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-13",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-20T11:47:25.000Z",
@@ -14872,55 +14921,6 @@
         "attacks": 0,
         "hitsTaken": 1,
         "ratio": 0
-      }
-    ]
-  },
-  {
-    "id": "Captain's Quest Quarters-56",
-    "roomName": "Captain's Quest Quarters",
-    "start": "2026-01-12T14:03:19.000Z",
-    "end": "2026-01-12T14:10:24.000Z",
-    "durationMinutes": 7,
-    "hitCount": 40,
-    "uniqueUsers": 2,
-    "topAttackers": [
-      {
-        "user": "Kronkx",
-        "team": "Reindeer",
-        "attacks": 39
-      },
-      {
-        "user": "PrincessCutezada",
-        "team": "Penguin",
-        "attacks": 1
-      }
-    ],
-    "topVictims": [
-      {
-        "user": "PrincessCutezada",
-        "team": "Penguin",
-        "hitsTaken": 39
-      },
-      {
-        "user": "Kronkx",
-        "team": "Reindeer",
-        "hitsTaken": 1
-      }
-    ],
-    "participants": [
-      {
-        "user": "Kronkx",
-        "team": "Reindeer",
-        "attacks": 39,
-        "hitsTaken": 1,
-        "ratio": 39
-      },
-      {
-        "user": "PrincessCutezada",
-        "team": "Penguin",
-        "attacks": 1,
-        "hitsTaken": 39,
-        "ratio": 0.02564102564102564
       }
     ]
   },
