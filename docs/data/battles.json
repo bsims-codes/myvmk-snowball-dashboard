@@ -14876,6 +14876,55 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-56",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-12T14:03:19.000Z",
+    "end": "2026-01-12T14:10:24.000Z",
+    "durationMinutes": 7,
+    "hitCount": 40,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 39
+      },
+      {
+        "user": "PrincessCutezada",
+        "team": "Penguin",
+        "attacks": 1
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "PrincessCutezada",
+        "team": "Penguin",
+        "hitsTaken": 39
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 1
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 39,
+        "hitsTaken": 1,
+        "ratio": 39
+      },
+      {
+        "user": "PrincessCutezada",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 39,
+        "ratio": 0.02564102564102564
+      }
+    ]
+  },
+  {
     "id": "Dungeon-5",
     "roomName": "Dungeon",
     "start": "2026-01-08T11:54:24.000Z",

@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-12T18:51:14.293Z",
-  "totalRows": 28955,
+  "generatedAt": "2026-01-12T19:10:30.850Z",
+  "totalRows": 29000,
   "totalUsers": 537,
   "teamStats": {
     "Penguin": {
       "users": 249,
-      "attacks": 16235,
-      "hitsTaken": 12720
+      "attacks": 16236,
+      "hitsTaken": 12764
     },
     "Reindeer": {
       "users": 288,
-      "attacks": 12720,
-      "hitsTaken": 16235
+      "attacks": 12764,
+      "hitsTaken": 16236
     },
     "Unknown": {
       "users": 0,
@@ -22,17 +22,17 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 16235
+      "count": 16236
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 12720
+      "count": 12764
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 4594,
+      "attacks": 4638,
       "team": "Reindeer"
     },
     {
@@ -164,7 +164,7 @@
     },
     {
       "user": "Kronkx",
-      "hitsTaken": 1103,
+      "hitsTaken": 1104,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 4594,
-      "hitsTaken": 1103,
-      "ratio": 4.165004533091569
+      "attacks": 4638,
+      "hitsTaken": 1104,
+      "ratio": 4.201086956521739
     },
     {
       "user": "CaptainBubbles",
@@ -687,8 +687,8 @@
       "user": "TheOhanaGryphoness",
       "team": "Penguin",
       "attacks": 50,
-      "hitsTaken": 146,
-      "ratio": 0.3424657534246575
+      "hitsTaken": 151,
+      "ratio": 0.33112582781456956
     },
     {
       "user": "Cool_Beanss",
@@ -738,6 +738,13 @@
       "attacks": 56,
       "hitsTaken": 115,
       "ratio": 0.48695652173913045
+    },
+    {
+      "user": "PrincessCutezada",
+      "team": "Penguin",
+      "attacks": 60,
+      "hitsTaken": 111,
+      "ratio": 0.5405405405405406
     },
     {
       "user": "chloeandre",
@@ -857,13 +864,6 @@
       "attacks": 15,
       "hitsTaken": 116,
       "ratio": 0.12931034482758622
-    },
-    {
-      "user": "PrincessCutezada",
-      "team": "Penguin",
-      "attacks": 59,
-      "hitsTaken": 72,
-      "ratio": 0.8194444444444444
     },
     {
       "user": "FlyingLittleLemon",
@@ -3787,37 +3787,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3099391143162366,
-      "intercept": 39.88742588994674,
+      "slope": 0.3079090201581411,
+      "intercept": 40.067276830827815,
       "xMin": 0,
-      "xMax": 4594,
-      "y1": 39.88742588994674,
-      "y2": 1463.7477170587379,
+      "xMax": 4638,
+      "y1": 40.067276830827815,
+      "y2": 1468.149312324286,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2870856660512614,
-      "intercept": 34.234741326203284,
+      "slope": 0.2870488491616337,
+      "intercept": 34.423297383028576,
       "xMin": 0,
-      "xMax": 4594,
-      "y1": 34.234741326203284,
-      "y2": 1353.1062911656982,
+      "xMax": 4638,
+      "y1": 34.423297383028576,
+      "y2": 1365.7558597946856,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3223270444139732,
-      "intercept": 45.705660358695326,
+      "slope": 0.3191185704723639,
+      "intercept": 45.81045496788961,
       "xMin": 0,
-      "xMax": 4594,
-      "y1": 45.705660358695326,
-      "y2": 1526.4761023964882,
+      "xMax": 4638,
+      "y1": 45.81045496788961,
+      "y2": 1525.8823848187135,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 8819,
+      "hitCount": 8859,
       "avgUserRatio": 0.86,
       "activeUsers": 222
     },
@@ -3889,9 +3889,9 @@
     },
     {
       "roomName": "Epcot Entrance",
-      "hitCount": 386,
-      "avgUserRatio": 2.28,
-      "activeUsers": 87
+      "hitCount": 391,
+      "avgUserRatio": 2.25,
+      "activeUsers": 88
     },
     {
       "roomName": "Banquet Hall",
