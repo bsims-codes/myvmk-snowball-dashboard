@@ -12097,6 +12097,142 @@
     ]
   },
   {
+    "id": "VMK Esplanade-4",
+    "roomName": "VMK Esplanade",
+    "start": "2026-01-11T19:14:27.000Z",
+    "end": "2026-01-11T19:22:12.000Z",
+    "durationMinutes": 8,
+    "hitCount": 50,
+    "uniqueUsers": 13,
+    "topAttackers": [
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 10
+      },
+      {
+        "user": "Simpleplanfangirl",
+        "team": "Reindeer",
+        "attacks": 9
+      },
+      {
+        "user": "Jambi",
+        "team": "Penguin",
+        "attacks": 9
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Simpleplanfangirl",
+        "team": "Reindeer",
+        "hitsTaken": 19
+      },
+      {
+        "user": "waterfallglow",
+        "team": "Reindeer",
+        "hitsTaken": 10
+      },
+      {
+        "user": "Brittt",
+        "team": "Reindeer",
+        "hitsTaken": 4
+      }
+    ],
+    "participants": [
+      {
+        "user": "Simpleplanfangirl",
+        "team": "Reindeer",
+        "attacks": 9,
+        "hitsTaken": 19,
+        "ratio": 0.47368421052631576
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 10,
+        "hitsTaken": 3,
+        "ratio": 3.3333333333333335
+      },
+      {
+        "user": "Jambi",
+        "team": "Penguin",
+        "attacks": 9,
+        "hitsTaken": 2,
+        "ratio": 4.5
+      },
+      {
+        "user": "waterfallglow",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 10,
+        "ratio": 0
+      },
+      {
+        "user": "Matty",
+        "team": "Penguin",
+        "attacks": 8,
+        "hitsTaken": 2,
+        "ratio": 4
+      },
+      {
+        "user": "Luckymaxer",
+        "team": "Penguin",
+        "attacks": 7,
+        "hitsTaken": 2,
+        "ratio": 3.5
+      },
+      {
+        "user": "Neocissa",
+        "team": "Penguin",
+        "attacks": 4,
+        "hitsTaken": 0,
+        "ratio": 4
+      },
+      {
+        "user": "Brittt",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 4,
+        "ratio": 0
+      },
+      {
+        "user": "soccermanman",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 4,
+        "ratio": 0
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 2,
+        "hitsTaken": 0,
+        "ratio": 2
+      },
+      {
+        "user": "Meg",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      },
+      {
+        "user": "maroonsonicsage22",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Blue Bayou-2",
     "roomName": "Blue Bayou",
     "start": "2025-12-31T13:01:12.000Z",

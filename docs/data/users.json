@@ -2,9 +2,9 @@
   {
     "user": "Kronkx",
     "team": "Reindeer",
-    "attacks": 4543,
-    "hitsTaken": 1090,
-    "ratio": 4.167889908256881
+    "attacks": 4584,
+    "hitsTaken": 1098,
+    "ratio": 4.174863387978142
   },
   {
     "user": "CaptainBubbles",
@@ -37,9 +37,9 @@
   {
     "user": "kazino",
     "team": "Penguin",
-    "attacks": 1192,
+    "attacks": 1193,
     "hitsTaken": 239,
-    "ratio": 4.98744769874477
+    "ratio": 4.99163179916318
   },
   {
     "user": "goatduck",
@@ -58,9 +58,9 @@
   {
     "user": "PepaRaindrops",
     "team": "Penguin",
-    "attacks": 880,
-    "hitsTaken": 379,
-    "ratio": 2.321899736147757
+    "attacks": 882,
+    "hitsTaken": 385,
+    "ratio": 2.290909090909091
   },
   {
     "user": "SammyxxFairy",
@@ -86,9 +86,9 @@
   {
     "user": "Devgirlforever",
     "team": "Penguin",
-    "attacks": 706,
-    "hitsTaken": 417,
-    "ratio": 1.6930455635491606
+    "attacks": 721,
+    "hitsTaken": 441,
+    "ratio": 1.6349206349206349
   },
   {
     "user": "VMKNeec",
@@ -107,9 +107,9 @@
   {
     "user": "Luckymaxer",
     "team": "Penguin",
-    "attacks": 487,
-    "hitsTaken": 169,
-    "ratio": 2.8816568047337277
+    "attacks": 495,
+    "hitsTaken": 173,
+    "ratio": 2.861271676300578
   },
   {
     "user": "BluPirate",
@@ -163,9 +163,9 @@
   {
     "user": "Meg",
     "team": "Penguin",
-    "attacks": 279,
-    "hitsTaken": 247,
-    "ratio": 1.1295546558704452
+    "attacks": 280,
+    "hitsTaken": 253,
+    "ratio": 1.1067193675889329
   },
   {
     "user": "SpideyxLei",
@@ -317,9 +317,9 @@
   {
     "user": "Neocissa",
     "team": "Penguin",
-    "attacks": 98,
-    "hitsTaken": 66,
-    "ratio": 1.4848484848484849
+    "attacks": 103,
+    "hitsTaken": 71,
+    "ratio": 1.4507042253521127
   },
   {
     "user": "IcyWifeyQueen",
@@ -497,6 +497,13 @@
     "ratio": 1.53125
   },
   {
+    "user": "Simpleplanfangirl",
+    "team": "Reindeer",
+    "attacks": 49,
+    "hitsTaken": 174,
+    "ratio": 0.28160919540229884
+  },
+  {
     "user": "Kyber",
     "team": "Reindeer",
     "attacks": 47,
@@ -546,13 +553,6 @@
     "ratio": 0.43010752688172044
   },
   {
-    "user": "Simpleplanfangirl",
-    "team": "Reindeer",
-    "attacks": 40,
-    "hitsTaken": 154,
-    "ratio": 0.2597402597402597
-  },
-  {
     "user": "Bernardo_S_Rocks",
     "team": "Reindeer",
     "attacks": 39,
@@ -563,8 +563,8 @@
     "user": "waterfallglow",
     "team": "Reindeer",
     "attacks": 39,
-    "hitsTaken": 128,
-    "ratio": 0.3046875
+    "hitsTaken": 138,
+    "ratio": 0.2826086956521739
   },
   {
     "user": "Konzo",
@@ -836,8 +836,8 @@
     "user": "maroonsonicsage22",
     "team": "Reindeer",
     "attacks": 15,
-    "hitsTaken": 114,
-    "ratio": 0.13157894736842105
+    "hitsTaken": 116,
+    "ratio": 0.12931034482758622
   },
   {
     "user": "Pollywolly",
@@ -845,6 +845,13 @@
     "attacks": 14,
     "hitsTaken": 74,
     "ratio": 0.1891891891891892
+  },
+  {
+    "user": "Jambi",
+    "team": "Penguin",
+    "attacks": 14,
+    "hitsTaken": 16,
+    "ratio": 0.875
   },
   {
     "user": "PURR",
@@ -950,6 +957,13 @@
     "attacks": 10,
     "hitsTaken": 28,
     "ratio": 0.35714285714285715
+  },
+  {
+    "user": "Matty",
+    "team": "Penguin",
+    "attacks": 10,
+    "hitsTaken": 3,
+    "ratio": 3.3333333333333335
   },
   {
     "user": "doctorseeker",
@@ -1146,13 +1160,6 @@
     "attacks": 5,
     "hitsTaken": 78,
     "ratio": 0.0641025641025641
-  },
-  {
-    "user": "Jambi",
-    "team": "Penguin",
-    "attacks": 5,
-    "hitsTaken": 14,
-    "ratio": 0.35714285714285715
   },
   {
     "user": "AstroSpacePotato",
@@ -1461,13 +1468,6 @@
     "attacks": 2,
     "hitsTaken": 10,
     "ratio": 0.2
-  },
-  {
-    "user": "Matty",
-    "team": "Penguin",
-    "attacks": 2,
-    "hitsTaken": 1,
-    "ratio": 2
   },
   {
     "user": "Inferno",
@@ -3657,7 +3657,7 @@
     "user": "Brittt",
     "team": "Reindeer",
     "attacks": 0,
-    "hitsTaken": 6,
+    "hitsTaken": 10,
     "ratio": 0
   },
   {
@@ -3699,7 +3699,7 @@
     "user": "soccermanman",
     "team": "Reindeer",
     "attacks": 0,
-    "hitsTaken": 5,
+    "hitsTaken": 10,
     "ratio": 0
   },
   {
@@ -3719,6 +3719,13 @@
   {
     "user": "SirenShores",
     "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 1,
+    "ratio": 0
+  },
+  {
+    "user": "Guest10149117",
+    "team": "Penguin",
     "attacks": 0,
     "hitsTaken": 1,
     "ratio": 0

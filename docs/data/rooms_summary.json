@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 8805,
+    "hitCount": 8819,
     "avgUserRatio": 0.86,
     "activeUsers": 222
   },
@@ -31,21 +31,21 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 1035,
-    "avgUserRatio": 0.99,
-    "activeUsers": 114
+    "hitCount": 1038,
+    "avgUserRatio": 0.98,
+    "activeUsers": 115
+  },
+  {
+    "roomName": "VMK Esplanade",
+    "hitCount": 741,
+    "avgUserRatio": 1.54,
+    "activeUsers": 111
   },
   {
     "roomName": "Dungeon",
     "hitCount": 709,
     "avgUserRatio": 2.07,
     "activeUsers": 79
-  },
-  {
-    "roomName": "VMK Esplanade",
-    "hitCount": 690,
-    "avgUserRatio": 1.52,
-    "activeUsers": 104
   },
   {
     "roomName": "Monorail Station",
@@ -85,8 +85,8 @@
   },
   {
     "roomName": "Frontierland Hub",
-    "hitCount": 340,
-    "avgUserRatio": 1.32,
+    "hitCount": 352,
+    "avgUserRatio": 1.24,
     "activeUsers": 55
   },
   {
@@ -133,8 +133,8 @@
   },
   {
     "roomName": "Gallery",
-    "hitCount": 188,
-    "avgUserRatio": 2.36,
+    "hitCount": 190,
+    "avgUserRatio": 2.31,
     "activeUsers": 34
   },
   {
@@ -157,8 +157,8 @@
   },
   {
     "roomName": "Castle Forecourt",
-    "hitCount": 164,
-    "avgUserRatio": 2.33,
+    "hitCount": 167,
+    "avgUserRatio": 2.32,
     "activeUsers": 44
   },
   {
@@ -270,6 +270,12 @@
     "activeUsers": 15
   },
   {
+    "roomName": "Discovery Island",
+    "hitCount": 48,
+    "avgUserRatio": 1.19,
+    "activeUsers": 14
+  },
+  {
     "roomName": "Golden Horseshoe Mercantile",
     "hitCount": 46,
     "avgUserRatio": 0.94,
@@ -316,12 +322,6 @@
     "hitCount": 35,
     "avgUserRatio": 1.4,
     "activeUsers": 7
-  },
-  {
-    "roomName": "Discovery Island",
-    "hitCount": 34,
-    "avgUserRatio": 1.3,
-    "activeUsers": 10
   },
   {
     "roomName": "Waterpark Pool",
