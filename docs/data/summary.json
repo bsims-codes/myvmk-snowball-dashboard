@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-12T19:41:15.490Z",
-  "totalRows": 29054,
+  "generatedAt": "2026-01-12T19:47:56.386Z",
+  "totalRows": 29056,
   "totalUsers": 537,
   "teamStats": {
     "Penguin": {
       "users": 249,
       "attacks": 16242,
-      "hitsTaken": 12812
+      "hitsTaken": 12814
     },
     "Reindeer": {
       "users": 288,
-      "attacks": 12812,
+      "attacks": 12814,
       "hitsTaken": 16242
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 12812
+      "count": 12814
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 4686,
+      "attacks": 4688,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 4686,
+      "attacks": 4688,
       "hitsTaken": 1110,
-      "ratio": 4.221621621621622
+      "ratio": 4.223423423423424
     },
     {
       "user": "CaptainBubbles",
@@ -2350,6 +2350,13 @@
       "ratio": 0
     },
     {
+      "user": "Sheer",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 14,
+      "ratio": 0
+    },
+    {
       "user": "DapperChandler",
       "team": "Penguin",
       "attacks": 8,
@@ -2464,13 +2471,6 @@
     {
       "user": "Fantasmic",
       "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 12,
-      "ratio": 0
-    },
-    {
-      "user": "Sheer",
-      "team": "Penguin",
       "attacks": 0,
       "hitsTaken": 12,
       "ratio": 0
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.30634609494492626,
-      "intercept": 40.23284111494022,
+      "slope": 0.3062458772918075,
+      "intercept": 40.24143957881848,
       "xMin": 0,
-      "xMax": 4686,
-      "y1": 40.23284111494022,
-      "y2": 1475.7706420268646,
+      "xMax": 4688,
+      "y1": 40.24143957881848,
+      "y2": 1475.9221123228122,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2870671476460484,
-      "intercept": 34.61895909758673,
+      "slope": 0.287055214986608,
+      "intercept": 34.628294460372395,
       "xMin": 0,
-      "xMax": 4686,
-      "y1": 34.61895909758673,
-      "y2": 1379.8156129669694,
+      "xMax": 4688,
+      "y1": 34.628294460372395,
+      "y2": 1380.343142317591,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3165910074863676,
-      "intercept": 45.89749438522513,
+      "slope": 0.3164407045519143,
+      "intercept": 45.90237287498782,
       "xMin": 0,
-      "xMax": 4686,
-      "y1": 45.89749438522513,
-      "y2": 1529.4429554663436,
+      "xMax": 4688,
+      "y1": 45.90237287498782,
+      "y2": 1529.376395814362,
       "label": "Reindeer"
     }
   },
@@ -3913,9 +3913,9 @@
     },
     {
       "roomName": "Street Party Music Game Lobby",
-      "hitCount": 282,
-      "avgUserRatio": 1.14,
-      "activeUsers": 76
+      "hitCount": 284,
+      "avgUserRatio": 1.13,
+      "activeUsers": 77
     },
     {
       "roomName": "New Orleans Square",
