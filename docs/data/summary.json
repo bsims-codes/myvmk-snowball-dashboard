@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-12T15:48:26.770Z",
-  "totalRows": 28952,
+  "generatedAt": "2026-01-12T15:59:57.093Z",
+  "totalRows": 28954,
   "totalUsers": 537,
   "teamStats": {
     "Penguin": {
       "users": 249,
       "attacks": 16234,
-      "hitsTaken": 12718
+      "hitsTaken": 12720
     },
     "Reindeer": {
       "users": 288,
-      "attacks": 12718,
+      "attacks": 12720,
       "hitsTaken": 16234
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 12718
+      "count": 12720
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 4592,
+      "attacks": 4594,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 4592,
+      "attacks": 4594,
       "hitsTaken": 1103,
-      "ratio": 4.163191296464189
+      "ratio": 4.165004533091569
     },
     {
       "user": "CaptainBubbles",
@@ -638,8 +638,8 @@
       "user": "Cipolla",
       "team": "Penguin",
       "attacks": 81,
-      "hitsTaken": 150,
-      "ratio": 0.54
+      "hitsTaken": 152,
+      "ratio": 0.5328947368421053
     },
     {
       "user": "Mirk",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3100522609002146,
-      "intercept": 39.876733884833975,
+      "slope": 0.30995510534425336,
+      "intercept": 39.88511975972498,
       "xMin": 0,
-      "xMax": 4592,
-      "y1": 39.876733884833975,
-      "y2": 1463.6367159386195,
+      "xMax": 4594,
+      "y1": 39.88511975972498,
+      "y2": 1463.818873711225,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2871226529173942,
-      "intercept": 34.22489724484691,
+      "slope": 0.28712471115152916,
+      "intercept": 34.233265698579046,
       "xMin": 0,
-      "xMax": 4592,
-      "y1": 34.22489724484691,
-      "y2": 1352.692119441521,
+      "xMax": 4594,
+      "y1": 34.233265698579046,
+      "y2": 1353.284188728704,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3224847774393252,
-      "intercept": 45.69674943594966,
+      "slope": 0.32232902270959735,
+      "intercept": 45.7017918155997,
       "xMin": 0,
-      "xMax": 4592,
-      "y1": 45.69674943594966,
-      "y2": 1526.5468474373308,
+      "xMax": 4594,
+      "y1": 45.7017918155997,
+      "y2": 1526.48132214349,
       "label": "Reindeer"
     }
   },
@@ -3907,8 +3907,8 @@
     },
     {
       "roomName": "Shrunken Ned's Shop",
-      "hitCount": 293,
-      "avgUserRatio": 3.79,
+      "hitCount": 295,
+      "avgUserRatio": 3.8,
       "activeUsers": 58
     },
     {
