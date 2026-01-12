@@ -16,9 +16,9 @@
   {
     "user": "Winnie",
     "team": "Penguin",
-    "attacks": 1356,
+    "attacks": 1361,
     "hitsTaken": 289,
-    "ratio": 4.692041522491349
+    "ratio": 4.709342560553633
   },
   {
     "user": "TaterTotCasserole",
@@ -30,9 +30,9 @@
   {
     "user": "JustForFun",
     "team": "Penguin",
-    "attacks": 1210,
-    "hitsTaken": 264,
-    "ratio": 4.583333333333333
+    "attacks": 1233,
+    "hitsTaken": 271,
+    "ratio": 4.549815498154982
   },
   {
     "user": "kazino",
@@ -791,6 +791,13 @@
     "ratio": 0.32142857142857145
   },
   {
+    "user": "soccermanman",
+    "team": "Reindeer",
+    "attacks": 18,
+    "hitsTaken": 21,
+    "ratio": 0.8571428571428571
+  },
+  {
     "user": "Princess__Aurora",
     "team": "Reindeer",
     "attacks": 17,
@@ -973,6 +980,13 @@
     "ratio": 0.8181818181818182
   },
   {
+    "user": "hurricanehan",
+    "team": "Penguin",
+    "attacks": 9,
+    "hitsTaken": 4,
+    "ratio": 2.25
+  },
+  {
     "user": "HOST_JudyHopps",
     "team": "Penguin",
     "attacks": 9,
@@ -1062,13 +1076,6 @@
     "attacks": 7,
     "hitsTaken": 26,
     "ratio": 0.2692307692307692
-  },
-  {
-    "user": "hurricanehan",
-    "team": "Penguin",
-    "attacks": 7,
-    "hitsTaken": 4,
-    "ratio": 1.75
   },
   {
     "user": "GelatinfishJr",
@@ -1536,8 +1543,8 @@
     "user": "Nigel",
     "team": "Reindeer",
     "attacks": 1,
-    "hitsTaken": 67,
-    "ratio": 0.014925373134328358
+    "hitsTaken": 81,
+    "ratio": 0.012345679012345678
   },
   {
     "user": "TheZaxxonator",
@@ -1907,7 +1914,7 @@
     "user": "Sar.",
     "team": "Reindeer",
     "attacks": 0,
-    "hitsTaken": 40,
+    "hitsTaken": 41,
     "ratio": 0
   },
   {
@@ -3696,13 +3703,6 @@
     "ratio": 0
   },
   {
-    "user": "soccermanman",
-    "team": "Reindeer",
-    "attacks": 0,
-    "hitsTaken": 10,
-    "ratio": 0
-  },
-  {
     "user": "Vesta1984",
     "team": "Penguin",
     "attacks": 0,
@@ -3735,6 +3735,20 @@
     "team": "Penguin",
     "attacks": 0,
     "hitsTaken": 3,
+    "ratio": 0
+  },
+  {
+    "user": "DoctorDewIt",
+    "team": "Penguin",
+    "attacks": 0,
+    "hitsTaken": 11,
+    "ratio": 0
+  },
+  {
+    "user": "WhimsyandWoe",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 4,
     "ratio": 0
   }
 ]
