@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-13T18:01:07.536Z",
-  "totalRows": 29570,
+  "generatedAt": "2026-01-13T18:40:25.795Z",
+  "totalRows": 29573,
   "totalUsers": 543,
   "teamStats": {
     "Penguin": {
       "users": 251,
-      "attacks": 16596,
-      "hitsTaken": 12974
+      "attacks": 16597,
+      "hitsTaken": 12976
     },
     "Reindeer": {
       "users": 292,
-      "attacks": 12974,
-      "hitsTaken": 16596
+      "attacks": 12976,
+      "hitsTaken": 16597
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 16596
+      "count": 16597
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 12974
+      "count": 12976
     }
   ],
   "topAttackers": [
@@ -112,7 +112,7 @@
     },
     {
       "user": "BluPirate",
-      "attacks": 469,
+      "attacks": 470,
       "team": "Penguin"
     },
     {
@@ -420,9 +420,9 @@
     {
       "user": "BluPirate",
       "team": "Penguin",
-      "attacks": 469,
-      "hitsTaken": 188,
-      "ratio": 2.49468085106383
+      "attacks": 470,
+      "hitsTaken": 189,
+      "ratio": 2.486772486772487
     },
     {
       "user": "Jewelsy",
@@ -876,8 +876,8 @@
       "user": "maroonsonicsage22",
       "team": "Reindeer",
       "attacks": 15,
-      "hitsTaken": 116,
-      "ratio": 0.12931034482758622
+      "hitsTaken": 117,
+      "ratio": 0.1282051282051282
     },
     {
       "user": "RavenLunatic",
@@ -1055,6 +1055,13 @@
       "ratio": 0
     },
     {
+      "user": "AstroVioletRose",
+      "team": "Reindeer",
+      "attacks": 73,
+      "hitsTaken": 20,
+      "ratio": 3.65
+    },
+    {
       "user": "Monsta",
       "team": "Reindeer",
       "attacks": 21,
@@ -1067,13 +1074,6 @@
       "attacks": 0,
       "hitsTaken": 92,
       "ratio": 0
-    },
-    {
-      "user": "AstroVioletRose",
-      "team": "Reindeer",
-      "attacks": 71,
-      "hitsTaken": 20,
-      "ratio": 3.55
     },
     {
       "user": "Whispers",
@@ -1958,6 +1958,13 @@
       "ratio": 0
     },
     {
+      "user": "Niki2",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 23,
+      "ratio": 0
+    },
+    {
       "user": "hades17",
       "team": "Penguin",
       "attacks": 0,
@@ -1977,13 +1984,6 @@
       "attacks": 1,
       "hitsTaken": 21,
       "ratio": 0.047619047619047616
-    },
-    {
-      "user": "Niki2",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 22,
-      "ratio": 0
     },
     {
       "user": "Kendell",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.29894512042325716,
-      "intercept": 41.37438557816857,
+      "slope": 0.2989476622241885,
+      "intercept": 41.37844157008815,
       "xMin": 0,
       "xMax": 4776,
-      "y1": 41.37438557816857,
-      "y2": 1469.1362807196447,
+      "y1": 41.37844157008815,
+      "y2": 1469.1524763528125,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27557361001298464,
-      "intercept": 35.827266530873956,
+      "slope": 0.27559303509243194,
+      "intercept": 35.83325810500388,
       "xMin": 0,
       "xMax": 4776,
-      "y1": 35.827266530873956,
-      "y2": 1351.9668279528885,
+      "y1": 35.83325810500388,
+      "y2": 1352.0655937064587,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.31155918528611704,
-      "intercept": 47.09710951164631,
+      "slope": 0.3115535098859892,
+      "intercept": 47.09880321699025,
       "xMin": 0,
       "xMax": 4776,
-      "y1": 47.09710951164631,
-      "y2": 1535.1037784381413,
+      "y1": 47.09880321699025,
+      "y2": 1535.0783664324747,
       "label": "Reindeer"
     }
   },
