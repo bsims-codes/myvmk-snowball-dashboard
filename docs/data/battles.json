@@ -11196,6 +11196,100 @@
     ]
   },
   {
+    "id": "Matterhorn-20",
+    "roomName": "Matterhorn",
+    "start": "2026-01-13T00:28:46.000Z",
+    "end": "2026-01-13T00:37:31.000Z",
+    "durationMinutes": 9,
+    "hitCount": 55,
+    "uniqueUsers": 7,
+    "topAttackers": [
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 38
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 15
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 2
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "charliethehamsterr",
+        "team": "Reindeer",
+        "hitsTaken": 51
+      },
+      {
+        "user": "SavageGuy",
+        "team": "Reindeer",
+        "hitsTaken": 2
+      },
+      {
+        "user": "swtcecile",
+        "team": "Reindeer",
+        "hitsTaken": 1
+      }
+    ],
+    "participants": [
+      {
+        "user": "charliethehamsterr",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 51,
+        "ratio": 0
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 38,
+        "hitsTaken": 0,
+        "ratio": 38
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 15,
+        "hitsTaken": 0,
+        "ratio": 15
+      },
+      {
+        "user": "SavageGuy",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 2,
+        "hitsTaken": 0,
+        "ratio": 2
+      },
+      {
+        "user": "swtcecile",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "Ormonddude",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-25",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-22T11:46:59.000Z",

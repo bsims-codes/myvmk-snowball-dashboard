@@ -16,16 +16,16 @@
   {
     "user": "Winnie",
     "team": "Penguin",
-    "attacks": 1367,
+    "attacks": 1407,
     "hitsTaken": 289,
-    "ratio": 4.730103806228374
+    "ratio": 4.868512110726644
   },
   {
     "user": "JustForFun",
     "team": "Penguin",
-    "attacks": 1281,
+    "attacks": 1299,
     "hitsTaken": 273,
-    "ratio": 4.6923076923076925
+    "ratio": 4.758241758241758
   },
   {
     "user": "TaterTotCasserole",
@@ -343,18 +343,18 @@
     "ratio": 3.206896551724138
   },
   {
+    "user": "HugsforaLifetime",
+    "team": "Penguin",
+    "attacks": 89,
+    "hitsTaken": 235,
+    "ratio": 0.37872340425531914
+  },
+  {
     "user": "rockin_rachael",
     "team": "Reindeer",
     "attacks": 88,
     "hitsTaken": 105,
     "ratio": 0.8380952380952381
-  },
-  {
-    "user": "HugsforaLifetime",
-    "team": "Penguin",
-    "attacks": 87,
-    "hitsTaken": 235,
-    "ratio": 0.3702127659574468
   },
   {
     "user": "MrChemistry",
@@ -444,8 +444,8 @@
     "user": "Myth",
     "team": "Reindeer",
     "attacks": 56,
-    "hitsTaken": 116,
-    "ratio": 0.4827586206896552
+    "hitsTaken": 117,
+    "ratio": 0.47863247863247865
   },
   {
     "user": "Bib",
@@ -612,8 +612,8 @@
     "user": "Ormonddude",
     "team": "Reindeer",
     "attacks": 32,
-    "hitsTaken": 46,
-    "ratio": 0.6956521739130435
+    "hitsTaken": 47,
+    "ratio": 0.6808510638297872
   },
   {
     "user": "Diamond-K",
@@ -2131,7 +2131,7 @@
     "user": "charliethehamsterr",
     "team": "Reindeer",
     "attacks": 0,
-    "hitsTaken": 77,
+    "hitsTaken": 128,
     "ratio": 0
   },
   {
@@ -2572,7 +2572,7 @@
     "user": "CaitlinNoel",
     "team": "Reindeer",
     "attacks": 0,
-    "hitsTaken": 40,
+    "hitsTaken": 41,
     "ratio": 0
   },
   {
@@ -2880,7 +2880,7 @@
     "user": "SavageGuy",
     "team": "Reindeer",
     "attacks": 0,
-    "hitsTaken": 55,
+    "hitsTaken": 57,
     "ratio": 0
   },
   {
@@ -3776,7 +3776,14 @@
     "user": "unbirthday",
     "team": "Reindeer",
     "attacks": 0,
-    "hitsTaken": 2,
+    "hitsTaken": 5,
+    "ratio": 0
+  },
+  {
+    "user": "swtcecile",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 1,
     "ratio": 0
   }
 ]
