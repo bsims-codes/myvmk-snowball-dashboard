@@ -357,6 +357,13 @@
     "ratio": 0.8380952380952381
   },
   {
+    "user": "protozoa",
+    "team": "Reindeer",
+    "attacks": 87,
+    "hitsTaken": 40,
+    "ratio": 2.175
+  },
+  {
     "user": "MrChemistry",
     "team": "Penguin",
     "attacks": 86,
@@ -523,13 +530,6 @@
     "attacks": 47,
     "hitsTaken": 118,
     "ratio": 0.3983050847457627
-  },
-  {
-    "user": "protozoa",
-    "team": "Reindeer",
-    "attacks": 44,
-    "hitsTaken": 40,
-    "ratio": 1.1
   },
   {
     "user": "mrcoolness",
@@ -1669,7 +1669,7 @@
     "user": "HappyToughFish",
     "team": "Penguin",
     "attacks": 0,
-    "hitsTaken": 582,
+    "hitsTaken": 625,
     "ratio": 0
   },
   {

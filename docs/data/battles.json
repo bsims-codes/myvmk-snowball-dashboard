@@ -14518,6 +14518,45 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-57",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-13T02:12:59.000Z",
+    "end": "2026-01-13T02:20:03.000Z",
+    "durationMinutes": 7,
+    "hitCount": 43,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 43
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 43
+      }
+    ],
+    "participants": [
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 43,
+        "hitsTaken": 0,
+        "ratio": 43
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 43,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-23",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-21T23:40:13.000Z",
