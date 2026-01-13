@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-13T18:40:25.795Z",
-  "totalRows": 29573,
-  "totalUsers": 543,
+  "generatedAt": "2026-01-13T18:59:14.795Z",
+  "totalRows": 29620,
+  "totalUsers": 544,
   "teamStats": {
     "Penguin": {
-      "users": 251,
+      "users": 252,
       "attacks": 16597,
-      "hitsTaken": 12976
+      "hitsTaken": 13023
     },
     "Reindeer": {
       "users": 292,
-      "attacks": 12976,
+      "attacks": 13023,
       "hitsTaken": 16597
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 12976
+      "count": 13023
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 4776,
+      "attacks": 4823,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 4776,
+      "attacks": 4823,
       "hitsTaken": 1121,
-      "ratio": 4.260481712756468
+      "ratio": 4.302408563782337
     },
     {
       "user": "CaptainBubbles",
@@ -803,6 +803,13 @@
       "ratio": 0.9342105263157895
     },
     {
+      "user": "BlueSorcerer",
+      "team": "Penguin",
+      "attacks": 28,
+      "hitsTaken": 118,
+      "ratio": 0.23728813559322035
+    },
+    {
       "user": "SleepToken",
       "team": "Penguin",
       "attacks": 5,
@@ -941,13 +948,6 @@
       "attacks": 62,
       "hitsTaken": 58,
       "ratio": 1.0689655172413792
-    },
-    {
-      "user": "BlueSorcerer",
-      "team": "Penguin",
-      "attacks": 28,
-      "hitsTaken": 91,
-      "ratio": 0.3076923076923077
     },
     {
       "user": "MrChemistry",
@@ -2079,6 +2079,13 @@
     {
       "user": "MargieDisMom",
       "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 20,
+      "ratio": 0
+    },
+    {
+      "user": "NikkiTink",
+      "team": "Penguin",
       "attacks": 0,
       "hitsTaken": 20,
       "ratio": 0
@@ -3776,41 +3783,34 @@
       "attacks": 0,
       "hitsTaken": 1,
       "ratio": 0
-    },
-    {
-      "user": "Aquamarine",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 1,
-      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.2989476622241885,
-      "intercept": 41.37844157008815,
+      "slope": 0.29675427902566026,
+      "intercept": 41.572276510519885,
       "xMin": 0,
-      "xMax": 4776,
-      "y1": 41.37844157008815,
-      "y2": 1469.1524763528125,
+      "xMax": 4823,
+      "y1": 41.572276510519885,
+      "y2": 1472.8181642512793,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27559303509243194,
-      "intercept": 35.83325810500388,
+      "slope": 0.27559040502085014,
+      "intercept": 35.88096190582532,
       "xMin": 0,
-      "xMax": 4776,
-      "y1": 35.83325810500388,
-      "y2": 1352.0655937064587,
+      "xMax": 4823,
+      "y1": 35.88096190582532,
+      "y2": 1365.0534853213856,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3115535098859892,
-      "intercept": 47.09880321699025,
+      "slope": 0.3080826112536841,
+      "intercept": 47.38807605148405,
       "xMin": 0,
-      "xMax": 4776,
-      "y1": 47.09880321699025,
-      "y2": 1535.0783664324747,
+      "xMax": 4823,
+      "y1": 47.38807605148405,
+      "y2": 1533.2705101280023,
       "label": "Reindeer"
     }
   },
@@ -3829,9 +3829,9 @@
     },
     {
       "roomName": "Matterhorn",
-      "hitCount": 2435,
-      "avgUserRatio": 1.14,
-      "activeUsers": 243
+      "hitCount": 2437,
+      "avgUserRatio": 1.13,
+      "activeUsers": 244
     },
     {
       "roomName": "Main Street",
@@ -3871,15 +3871,15 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 527,
-      "avgUserRatio": 2.41,
+      "hitCount": 554,
+      "avgUserRatio": 2.42,
       "activeUsers": 58
     },
     {
       "roomName": "Blue Bayou",
-      "hitCount": 449,
-      "avgUserRatio": 2.59,
-      "activeUsers": 98
+      "hitCount": 450,
+      "avgUserRatio": 2.56,
+      "activeUsers": 99
     },
     {
       "roomName": "Snow White Hide 'n Seek Forest",
@@ -3907,9 +3907,9 @@
     },
     {
       "roomName": "Street Party Music Game Lobby",
-      "hitCount": 306,
+      "hitCount": 323,
       "avgUserRatio": 1.22,
-      "activeUsers": 77
+      "activeUsers": 78
     },
     {
       "roomName": "Shrunken Ned's Shop",
