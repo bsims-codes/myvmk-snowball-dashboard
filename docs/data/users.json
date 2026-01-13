@@ -16,16 +16,16 @@
   {
     "user": "Winnie",
     "team": "Penguin",
-    "attacks": 1363,
+    "attacks": 1367,
     "hitsTaken": 289,
-    "ratio": 4.716262975778546
+    "ratio": 4.730103806228374
   },
   {
     "user": "JustForFun",
     "team": "Penguin",
-    "attacks": 1279,
+    "attacks": 1281,
     "hitsTaken": 273,
-    "ratio": 4.684981684981685
+    "ratio": 4.6923076923076925
   },
   {
     "user": "TaterTotCasserole",
@@ -430,8 +430,8 @@
     "user": "GlamIceQueen",
     "team": "Reindeer",
     "attacks": 62,
-    "hitsTaken": 151,
-    "ratio": 0.4105960264900662
+    "hitsTaken": 152,
+    "ratio": 0.40789473684210525
   },
   {
     "user": "Bobo_Here",
@@ -1354,8 +1354,8 @@
     "user": "Art",
     "team": "Reindeer",
     "attacks": 3,
-    "hitsTaken": 169,
-    "ratio": 0.01775147928994083
+    "hitsTaken": 170,
+    "ratio": 0.01764705882352941
   },
   {
     "user": "Mazzy",
@@ -2572,7 +2572,7 @@
     "user": "CaitlinNoel",
     "team": "Reindeer",
     "attacks": 0,
-    "hitsTaken": 38,
+    "hitsTaken": 40,
     "ratio": 0
   },
   {
@@ -3770,6 +3770,13 @@
     "team": "Reindeer",
     "attacks": 0,
     "hitsTaken": 1,
+    "ratio": 0
+  },
+  {
+    "user": "unbirthday",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 2,
     "ratio": 0
   }
 ]
