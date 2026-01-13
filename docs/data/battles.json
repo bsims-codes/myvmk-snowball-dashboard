@@ -10882,6 +10882,79 @@
     ]
   },
   {
+    "id": "Town Square-11",
+    "roomName": "Town Square",
+    "start": "2026-01-13T11:23:45.000Z",
+    "end": "2026-01-13T11:32:38.000Z",
+    "durationMinutes": 9,
+    "hitCount": 59,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 42
+      },
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "attacks": 10
+      },
+      {
+        "user": "Tinkfaniam",
+        "team": "Reindeer",
+        "attacks": 7
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "hitsTaken": 49
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 9
+      },
+      {
+        "user": "PuffyOldDragon",
+        "team": "Reindeer",
+        "hitsTaken": 1
+      }
+    ],
+    "participants": [
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "attacks": 10,
+        "hitsTaken": 49,
+        "ratio": 0.20408163265306123
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 42,
+        "hitsTaken": 9,
+        "ratio": 4.666666666666667
+      },
+      {
+        "user": "Tinkfaniam",
+        "team": "Reindeer",
+        "attacks": 7,
+        "hitsTaken": 0,
+        "ratio": 7
+      },
+      {
+        "user": "PuffyOldDragon",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-44",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-28T21:34:32.000Z",
