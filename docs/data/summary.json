@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-13T16:40:34.088Z",
-  "totalRows": 29505,
+  "generatedAt": "2026-01-13T17:01:40.365Z",
+  "totalRows": 29508,
   "totalUsers": 541,
   "teamStats": {
     "Penguin": {
       "users": 249,
-      "attacks": 16577,
+      "attacks": 16580,
       "hitsTaken": 12928
     },
     "Reindeer": {
       "users": 292,
       "attacks": 12928,
-      "hitsTaken": 16577
+      "hitsTaken": 16580
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 16577
+      "count": 16580
     },
     {
       "pair": "Reindeer → Penguin",
@@ -72,7 +72,7 @@
     },
     {
       "user": "PepaRaindrops",
-      "attacks": 882,
+      "attacks": 885,
       "team": "Penguin"
     },
     {
@@ -343,9 +343,9 @@
     {
       "user": "PepaRaindrops",
       "team": "Penguin",
-      "attacks": 882,
+      "attacks": 885,
       "hitsTaken": 385,
-      "ratio": 2.290909090909091
+      "ratio": 2.2987012987012987
     },
     {
       "user": "Devgirlforever",
@@ -967,7 +967,7 @@
       "user": "HoneyStar",
       "team": "Reindeer",
       "attacks": 0,
-      "hitsTaken": 113,
+      "hitsTaken": 114,
       "ratio": 0
     },
     {
@@ -1076,6 +1076,13 @@
       "ratio": 3.55
     },
     {
+      "user": "Whispers",
+      "team": "Reindeer",
+      "attacks": 26,
+      "hitsTaken": 65,
+      "ratio": 0.4
+    },
+    {
       "user": "ArrowToTheHeart",
       "team": "Reindeer",
       "attacks": 20,
@@ -1095,13 +1102,6 @@
       "attacks": 16,
       "hitsTaken": 74,
       "ratio": 0.21621621621621623
-    },
-    {
-      "user": "Whispers",
-      "team": "Reindeer",
-      "attacks": 26,
-      "hitsTaken": 63,
-      "ratio": 0.4126984126984127
     },
     {
       "user": "shelbitb",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.3002279734060087,
-      "intercept": 41.211547289311426,
+      "slope": 0.3002114009642786,
+      "intercept": 41.216723960692136,
       "xMin": 0,
       "xMax": 4748,
-      "y1": 41.211547289311426,
-      "y2": 1466.6939650210409,
+      "y1": 41.216723960692136,
+      "y2": 1466.620455739087,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2754665365379538,
-      "intercept": 35.669193264146756,
+      "slope": 0.2754379749801134,
+      "intercept": 35.66768536252017,
       "xMin": 0,
       "xMax": 4748,
-      "y1": 35.669193264146756,
-      "y2": 1343.5843087463513,
+      "y1": 35.66768536252017,
+      "y2": 1343.4471905680987,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3136363935502743,
-      "intercept": 46.97860415106035,
+      "slope": 0.31363274247819684,
+      "intercept": 46.990059794142375,
       "xMin": 0,
       "xMax": 4748,
-      "y1": 46.97860415106035,
-      "y2": 1536.1242007277626,
+      "y1": 46.990059794142375,
+      "y2": 1536.118321080621,
       "label": "Reindeer"
     }
   },
@@ -3823,9 +3823,9 @@
     },
     {
       "roomName": "Town Square",
-      "hitCount": 4358,
-      "avgUserRatio": 1.2,
-      "activeUsers": 218
+      "hitCount": 4361,
+      "avgUserRatio": 1.19,
+      "activeUsers": 219
     },
     {
       "roomName": "Matterhorn",
