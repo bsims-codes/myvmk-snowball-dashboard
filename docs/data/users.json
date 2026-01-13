@@ -756,6 +756,13 @@
     "ratio": 0.46511627906976744
   },
   {
+    "user": "soccermanman",
+    "team": "Reindeer",
+    "attacks": 20,
+    "hitsTaken": 22,
+    "ratio": 0.9090909090909091
+  },
+  {
     "user": "Kate.",
     "team": "Penguin",
     "attacks": 19,
@@ -789,13 +796,6 @@
     "attacks": 18,
     "hitsTaken": 56,
     "ratio": 0.32142857142857145
-  },
-  {
-    "user": "soccermanman",
-    "team": "Reindeer",
-    "attacks": 18,
-    "hitsTaken": 22,
-    "ratio": 0.8181818181818182
   },
   {
     "user": "Princess__Aurora",
@@ -1858,7 +1858,7 @@
     "user": "TheGrayceOfMags",
     "team": "Penguin",
     "attacks": 0,
-    "hitsTaken": 4,
+    "hitsTaken": 5,
     "ratio": 0
   },
   {
@@ -3782,6 +3782,13 @@
   {
     "user": "swtcecile",
     "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 1,
+    "ratio": 0
+  },
+  {
+    "user": "tea",
+    "team": "Penguin",
     "attacks": 0,
     "hitsTaken": 1,
     "ratio": 0
