@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-13T17:53:17.758Z",
-  "totalRows": 29564,
+  "generatedAt": "2026-01-13T18:01:07.536Z",
+  "totalRows": 29570,
   "totalUsers": 543,
   "teamStats": {
     "Penguin": {
       "users": 251,
       "attacks": 16596,
-      "hitsTaken": 12968
+      "hitsTaken": 12974
     },
     "Reindeer": {
       "users": 292,
-      "attacks": 12968,
+      "attacks": 12974,
       "hitsTaken": 16596
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 12968
+      "count": 12974
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 4770,
+      "attacks": 4776,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 4770,
+      "attacks": 4776,
       "hitsTaken": 1121,
-      "ratio": 4.255129348795718
+      "ratio": 4.260481712756468
     },
     {
       "user": "CaptainBubbles",
@@ -1433,6 +1433,13 @@
       "ratio": 0.2564102564102564
     },
     {
+      "user": "AirBiscuits",
+      "team": "Penguin",
+      "attacks": 3,
+      "hitsTaken": 44,
+      "ratio": 0.06818181818181818
+    },
+    {
       "user": "Maalik",
       "team": "Reindeer",
       "attacks": 0,
@@ -1452,6 +1459,13 @@
       "attacks": 0,
       "hitsTaken": 47,
       "ratio": 0
+    },
+    {
+      "user": "Lil_Lyssa",
+      "team": "Penguin",
+      "attacks": 10,
+      "hitsTaken": 35,
+      "ratio": 0.2857142857142857
     },
     {
       "user": "Focus",
@@ -1480,20 +1494,6 @@
       "attacks": 0,
       "hitsTaken": 44,
       "ratio": 0
-    },
-    {
-      "user": "Lil_Lyssa",
-      "team": "Penguin",
-      "attacks": 10,
-      "hitsTaken": 33,
-      "ratio": 0.30303030303030304
-    },
-    {
-      "user": "AirBiscuits",
-      "team": "Penguin",
-      "attacks": 3,
-      "hitsTaken": 40,
-      "ratio": 0.075
     },
     {
       "user": "BelleBeast2",
@@ -3787,37 +3787,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2992281816644433,
-      "intercept": 41.3492360745448,
+      "slope": 0.29894512042325716,
+      "intercept": 41.37438557816857,
       "xMin": 0,
-      "xMax": 4770,
-      "y1": 41.3492360745448,
-      "y2": 1468.6676626139392,
+      "xMax": 4776,
+      "y1": 41.37438557816857,
+      "y2": 1469.1362807196447,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2756053188604138,
-      "intercept": 35.799376616207574,
+      "slope": 0.27557361001298464,
+      "intercept": 35.827266530873956,
       "xMin": 0,
-      "xMax": 4770,
-      "y1": 35.799376616207574,
-      "y2": 1350.4367475803813,
+      "xMax": 4776,
+      "y1": 35.827266530873956,
+      "y2": 1351.9668279528885,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3119958972095438,
-      "intercept": 47.08284663528811,
+      "slope": 0.31155918528611704,
+      "intercept": 47.09710951164631,
       "xMin": 0,
-      "xMax": 4770,
-      "y1": 47.08284663528811,
-      "y2": 1535.303276324812,
+      "xMax": 4776,
+      "y1": 47.09710951164631,
+      "y2": 1535.1037784381413,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 9028,
+      "hitCount": 9032,
       "avgUserRatio": 0.9,
       "activeUsers": 223
     },
@@ -3913,9 +3913,9 @@
     },
     {
       "roomName": "Shrunken Ned's Shop",
-      "hitCount": 295,
-      "avgUserRatio": 3.8,
-      "activeUsers": 58
+      "hitCount": 297,
+      "avgUserRatio": 3.74,
+      "activeUsers": 59
     },
     {
       "roomName": "New Orleans Square",
