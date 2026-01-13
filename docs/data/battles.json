@@ -7833,6 +7833,107 @@
     ]
   },
   {
+    "id": "Matterhorn-21",
+    "roomName": "Matterhorn",
+    "start": "2026-01-13T00:51:53.000Z",
+    "end": "2026-01-13T00:59:06.000Z",
+    "durationMinutes": 7,
+    "hitCount": 85,
+    "uniqueUsers": 8,
+    "topAttackers": [
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 62
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 21
+      },
+      {
+        "user": "airham",
+        "team": "Reindeer",
+        "attacks": 1
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "charliethehamsterr",
+        "team": "Reindeer",
+        "hitsTaken": 40
+      },
+      {
+        "user": "Art",
+        "team": "Reindeer",
+        "hitsTaken": 28
+      },
+      {
+        "user": "Aerzie",
+        "team": "Reindeer",
+        "hitsTaken": 11
+      }
+    ],
+    "participants": [
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 62,
+        "hitsTaken": 0,
+        "ratio": 62
+      },
+      {
+        "user": "charliethehamsterr",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 40,
+        "ratio": 0
+      },
+      {
+        "user": "Art",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 28,
+        "ratio": 0
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 21,
+        "hitsTaken": 1,
+        "ratio": 21
+      },
+      {
+        "user": "Aerzie",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 11,
+        "ratio": 0
+      },
+      {
+        "user": "airham",
+        "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 4,
+        "ratio": 0.25
+      },
+      {
+        "user": "Tggrhny",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "BluPirate",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Town Square-8",
     "roomName": "Town Square",
     "start": "2025-12-24T13:08:50.000Z",
