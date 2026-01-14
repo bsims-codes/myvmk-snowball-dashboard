@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-14T23:31:07.975Z",
-  "totalRows": 29815,
+  "generatedAt": "2026-01-14T23:41:38.498Z",
+  "totalRows": 29828,
   "totalUsers": 546,
   "teamStats": {
     "Penguin": {
       "users": 253,
-      "attacks": 16687,
-      "hitsTaken": 13128
+      "attacks": 16698,
+      "hitsTaken": 13130
     },
     "Reindeer": {
       "users": 293,
-      "attacks": 13128,
-      "hitsTaken": 16687
+      "attacks": 13130,
+      "hitsTaken": 16698
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 16687
+      "count": 16698
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 13128
+      "count": 13130
     }
   ],
   "topAttackers": [
@@ -47,7 +47,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 1397,
+      "attacks": 1408,
       "team": "Penguin"
     },
     {
@@ -239,7 +239,7 @@
     },
     {
       "user": "JustForFun",
-      "hitsTaken": 303,
+      "hitsTaken": 305,
       "team": "Penguin"
     },
     {
@@ -315,9 +315,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 1397,
-      "hitsTaken": 303,
-      "ratio": 4.6105610561056105
+      "attacks": 1408,
+      "hitsTaken": 305,
+      "ratio": 4.616393442622951
     },
     {
       "user": "goatduck",
@@ -1797,6 +1797,13 @@
       "ratio": 0.8666666666666667
     },
     {
+      "user": "MiniPunkRose",
+      "team": "Reindeer",
+      "attacks": 2,
+      "hitsTaken": 26,
+      "ratio": 0.07692307692307693
+    },
+    {
       "user": "Evillyn",
       "team": "Reindeer",
       "attacks": 0,
@@ -2338,13 +2345,6 @@
     {
       "user": "strangetowngirl",
       "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 15,
-      "ratio": 0
-    },
-    {
-      "user": "MiniPunkRose",
-      "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 15,
       "ratio": 0
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.29722191720042795,
-      "intercept": 41.81465707733848,
+      "slope": 0.29712058799292257,
+      "intercept": 41.83897420269421,
       "xMin": 0,
       "xMax": 4924,
-      "y1": 41.81465707733848,
-      "y2": 1505.3353773722458,
+      "y1": 41.83897420269421,
+      "y2": 1504.860749479845,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2766706937490056,
-      "intercept": 36.29143646756557,
+      "slope": 0.2764558771403179,
+      "intercept": 36.30230668167082,
       "xMin": 0,
       "xMax": 4924,
-      "y1": 36.29143646756557,
-      "y2": 1398.6179324876691,
+      "y1": 36.30230668167082,
+      "y2": 1397.5710457205962,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.30799034761626143,
-      "intercept": 47.4312132199012,
+      "slope": 0.30797001407324975,
+      "intercept": 47.47125456848959,
       "xMin": 0,
       "xMax": 4924,
-      "y1": 47.4312132199012,
-      "y2": 1563.9756848823724,
+      "y1": 47.47125456848959,
+      "y2": 1563.9156038651713,
       "label": "Reindeer"
     }
   },
