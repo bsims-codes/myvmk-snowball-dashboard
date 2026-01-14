@@ -97,9 +97,9 @@
   },
   {
     "roomName": "Shrunken Ned's Shop",
-    "hitCount": 303,
-    "avgUserRatio": 3.74,
-    "activeUsers": 59
+    "hitCount": 306,
+    "avgUserRatio": 3.69,
+    "activeUsers": 60
   },
   {
     "roomName": "New Orleans Square",
@@ -120,6 +120,12 @@
     "activeUsers": 52
   },
   {
+    "roomName": "Adventureland Bazaar",
+    "hitCount": 201,
+    "avgUserRatio": 1.09,
+    "activeUsers": 36
+  },
+  {
     "roomName": "Tomorrowland Hub",
     "hitCount": 198,
     "avgUserRatio": 1.16,
@@ -130,12 +136,6 @@
     "hitCount": 197,
     "avgUserRatio": 3.48,
     "activeUsers": 37
-  },
-  {
-    "roomName": "Adventureland Bazaar",
-    "hitCount": 194,
-    "avgUserRatio": 1.11,
-    "activeUsers": 35
   },
   {
     "roomName": "Gallery",
@@ -408,6 +408,12 @@
     "activeUsers": 3
   },
   {
+    "roomName": "Inner-Space Shrinking Machine",
+    "hitCount": 7,
+    "avgUserRatio": 1,
+    "activeUsers": 7
+  },
+  {
     "roomName": "Big Thunder Mountain",
     "hitCount": 6,
     "avgUserRatio": 0.86,
@@ -421,12 +427,6 @@
   },
   {
     "roomName": "Mark Twain",
-    "hitCount": 6,
-    "avgUserRatio": 1,
-    "activeUsers": 6
-  },
-  {
-    "roomName": "Inner-Space Shrinking Machine",
     "hitCount": 6,
     "avgUserRatio": 1,
     "activeUsers": 6
