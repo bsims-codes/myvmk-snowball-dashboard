@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 9055,
+    "hitCount": 9088,
     "avgUserRatio": 0.9,
     "activeUsers": 224
   },
@@ -31,7 +31,7 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 1038,
+    "hitCount": 1041,
     "avgUserRatio": 0.98,
     "activeUsers": 115
   },
@@ -61,9 +61,9 @@
   },
   {
     "roomName": "Blue Bayou",
-    "hitCount": 450,
-    "avgUserRatio": 2.56,
-    "activeUsers": 99
+    "hitCount": 473,
+    "avgUserRatio": 1.32,
+    "activeUsers": 100
   },
   {
     "roomName": "Snow White Hide 'n Seek Forest",
@@ -126,16 +126,16 @@
     "activeUsers": 36
   },
   {
+    "roomName": "Tomorrowland Hub",
+    "hitCount": 201,
+    "avgUserRatio": 1.14,
+    "activeUsers": 40
+  },
+  {
     "roomName": "VMK Gallery",
     "hitCount": 198,
     "avgUserRatio": 3.48,
     "activeUsers": 37
-  },
-  {
-    "roomName": "Tomorrowland Hub",
-    "hitCount": 198,
-    "avgUserRatio": 1.16,
-    "activeUsers": 39
   },
   {
     "roomName": "Gallery",
@@ -282,6 +282,12 @@
     "activeUsers": 13
   },
   {
+    "roomName": "Space Mountain Quest Deck",
+    "hitCount": 45,
+    "avgUserRatio": 1.01,
+    "activeUsers": 19
+  },
+  {
     "roomName": "Frontierland Dock",
     "hitCount": 45,
     "avgUserRatio": 0.86,
@@ -292,12 +298,6 @@
     "hitCount": 44,
     "avgUserRatio": 1.08,
     "activeUsers": 17
-  },
-  {
-    "roomName": "Space Mountain Quest Deck",
-    "hitCount": 44,
-    "avgUserRatio": 1.04,
-    "activeUsers": 18
   },
   {
     "roomName": "VMK Central",
