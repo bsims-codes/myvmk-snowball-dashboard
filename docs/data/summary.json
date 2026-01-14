@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-14T19:29:02.732Z",
-  "totalRows": 29804,
+  "generatedAt": "2026-01-14T19:40:27.306Z",
+  "totalRows": 29806,
   "totalUsers": 546,
   "teamStats": {
     "Penguin": {
       "users": 253,
       "attacks": 16678,
-      "hitsTaken": 13126
+      "hitsTaken": 13128
     },
     "Reindeer": {
       "users": 293,
-      "attacks": 13126,
+      "attacks": 13128,
       "hitsTaken": 16678
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 13126
+      "count": 13128
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 4922,
+      "attacks": 4924,
       "team": "Reindeer"
     },
     {
@@ -189,7 +189,7 @@
     },
     {
       "user": "HappyToughFish",
-      "hitsTaken": 626,
+      "hitsTaken": 628,
       "team": "Penguin"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 4922,
+      "attacks": 4924,
       "hitsTaken": 1160,
-      "ratio": 4.243103448275862
+      "ratio": 4.244827586206896
     },
     {
       "user": "CaptainBubbles",
@@ -442,7 +442,7 @@
       "user": "HappyToughFish",
       "team": "Penguin",
       "attacks": 0,
-      "hitsTaken": 626,
+      "hitsTaken": 628,
       "ratio": 0
     },
     {
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.29734951752625005,
-      "intercept": 41.791589959295294,
+      "slope": 0.2972570200678367,
+      "intercept": 41.79991451971611,
       "xMin": 0,
-      "xMax": 4922,
-      "y1": 41.791589959295294,
-      "y2": 1505.3459152234982,
+      "xMax": 4924,
+      "y1": 41.79991451971611,
+      "y2": 1505.493481333744,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27673886780575996,
-      "intercept": 36.288671635621945,
+      "slope": 0.27672754967398283,
+      "intercept": 36.29802532708254,
       "xMin": 0,
-      "xMax": 4922,
-      "y1": 36.288671635621945,
-      "y2": 1398.3973789755726,
+      "xMax": 4924,
+      "y1": 36.29802532708254,
+      "y2": 1398.904479921774,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.30814582927119993,
-      "intercept": 47.392021973632446,
+      "slope": 0.30800657244925517,
+      "intercept": 47.39657788303075,
       "xMin": 0,
-      "xMax": 4922,
-      "y1": 47.392021973632446,
-      "y2": 1564.0857936464784,
+      "xMax": 4924,
+      "y1": 47.39657788303075,
+      "y2": 1564.0209406231631,
       "label": "Reindeer"
     }
   },
@@ -3859,7 +3859,7 @@
     },
     {
       "roomName": "Dungeon",
-      "hitCount": 709,
+      "hitCount": 710,
       "avgUserRatio": 2.07,
       "activeUsers": 79
     },
@@ -3931,9 +3931,9 @@
     },
     {
       "roomName": "Pirate Treehouse",
-      "hitCount": 211,
-      "avgUserRatio": 1.5,
-      "activeUsers": 53
+      "hitCount": 212,
+      "avgUserRatio": 1.47,
+      "activeUsers": 54
     },
     {
       "roomName": "Adventureland Bazaar",
