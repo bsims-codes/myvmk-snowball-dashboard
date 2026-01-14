@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-14T13:54:13.228Z",
-  "totalRows": 29620,
+  "generatedAt": "2026-01-14T14:13:44.337Z",
+  "totalRows": 29638,
   "totalUsers": 544,
   "teamStats": {
     "Penguin": {
       "users": 252,
-      "attacks": 16597,
-      "hitsTaken": 13023
+      "attacks": 16600,
+      "hitsTaken": 13038
     },
     "Reindeer": {
       "users": 292,
-      "attacks": 13023,
-      "hitsTaken": 16597
+      "attacks": 13038,
+      "hitsTaken": 16600
     },
     "Unknown": {
       "users": 0,
@@ -22,17 +22,17 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 16597
+      "count": 16600
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 13023
+      "count": 13038
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 4823,
+      "attacks": 4838,
       "team": "Reindeer"
     },
     {
@@ -164,7 +164,7 @@
     },
     {
       "user": "Kronkx",
-      "hitsTaken": 1121,
+      "hitsTaken": 1124,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 4823,
-      "hitsTaken": 1121,
-      "ratio": 4.302408563782337
+      "attacks": 4838,
+      "hitsTaken": 1124,
+      "ratio": 4.304270462633452
     },
     {
       "user": "CaptainBubbles",
@@ -621,6 +621,13 @@
       "ratio": 0
     },
     {
+      "user": "PrincessCutezada",
+      "team": "Penguin",
+      "attacks": 72,
+      "hitsTaken": 174,
+      "ratio": 0.41379310344827586
+    },
+    {
       "user": "OGBlondie_",
       "team": "Penguin",
       "attacks": 153,
@@ -654,13 +661,6 @@
       "attacks": 41,
       "hitsTaken": 189,
       "ratio": 0.21693121693121692
-    },
-    {
-      "user": "PrincessCutezada",
-      "team": "Penguin",
-      "attacks": 69,
-      "hitsTaken": 159,
-      "ratio": 0.4339622641509434
     },
     {
       "user": "Dorian_Gray",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.29675427902566026,
-      "intercept": 41.572276510519885,
+      "slope": 0.2964533268898847,
+      "intercept": 41.615432595275195,
       "xMin": 0,
-      "xMax": 4823,
-      "y1": 41.572276510519885,
-      "y2": 1472.8181642512793,
+      "xMax": 4838,
+      "y1": 41.615432595275195,
+      "y2": 1475.8566280885373,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27559040502085014,
-      "intercept": 35.88096190582532,
+      "slope": 0.2756171115396465,
+      "intercept": 35.93938701464624,
       "xMin": 0,
-      "xMax": 4823,
-      "y1": 35.88096190582532,
-      "y2": 1365.0534853213856,
+      "xMax": 4838,
+      "y1": 35.93938701464624,
+      "y2": 1369.374972643456,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3080826112536841,
-      "intercept": 47.38807605148405,
+      "slope": 0.3075571334161348,
+      "intercept": 47.4078116774356,
       "xMin": 0,
-      "xMax": 4823,
-      "y1": 47.38807605148405,
-      "y2": 1533.2705101280023,
+      "xMax": 4838,
+      "y1": 47.4078116774356,
+      "y2": 1535.3692231446955,
       "label": "Reindeer"
     }
   },
@@ -3829,8 +3829,8 @@
     },
     {
       "roomName": "Matterhorn",
-      "hitCount": 2437,
-      "avgUserRatio": 1.13,
+      "hitCount": 2449,
+      "avgUserRatio": 1.12,
       "activeUsers": 244
     },
     {
@@ -3913,7 +3913,7 @@
     },
     {
       "roomName": "Shrunken Ned's Shop",
-      "hitCount": 297,
+      "hitCount": 303,
       "avgUserRatio": 3.74,
       "activeUsers": 59
     },
