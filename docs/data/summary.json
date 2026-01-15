@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-15T23:34:04.873Z",
-  "totalRows": 30201,
-  "totalUsers": 551,
+  "generatedAt": "2026-01-15T23:45:12.190Z",
+  "totalRows": 30214,
+  "totalUsers": 552,
   "teamStats": {
     "Penguin": {
       "users": 255,
-      "attacks": 16948,
-      "hitsTaken": 13253
+      "attacks": 16960,
+      "hitsTaken": 13254
     },
     "Reindeer": {
-      "users": 296,
-      "attacks": 13253,
-      "hitsTaken": 16948
+      "users": 297,
+      "attacks": 13254,
+      "hitsTaken": 16960
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 16948
+      "count": 16960
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 13253
+      "count": 13254
     }
   ],
   "topAttackers": [
@@ -37,7 +37,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 1554,
+      "attacks": 1566,
       "team": "Penguin"
     },
     {
@@ -301,9 +301,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 1554,
+      "attacks": 1566,
       "hitsTaken": 321,
-      "ratio": 4.841121495327103
+      "ratio": 4.878504672897196
     },
     {
       "user": "Winnie",
@@ -1720,6 +1720,13 @@
       "ratio": 0.34782608695652173
     },
     {
+      "user": "mercedeskenzxx",
+      "team": "Penguin",
+      "attacks": 3,
+      "hitsTaken": 28,
+      "ratio": 0.10714285714285714
+    },
+    {
       "user": "GabriellaVanilla",
       "team": "Penguin",
       "attacks": 0,
@@ -1743,13 +1750,6 @@
     {
       "user": "bluedudeman",
       "team": "Reindeer",
-      "attacks": 3,
-      "hitsTaken": 27,
-      "ratio": 0.1111111111111111
-    },
-    {
-      "user": "mercedeskenzxx",
-      "team": "Penguin",
       "attacks": 3,
       "hitsTaken": 27,
       "ratio": 0.1111111111111111
@@ -2511,6 +2511,13 @@
       "ratio": 0.2
     },
     {
+      "user": "Mizzpixie",
+      "team": "Reindeer",
+      "attacks": 1,
+      "hitsTaken": 11,
+      "ratio": 0.09090909090909091
+    },
+    {
       "user": "Kenneth123",
       "team": "Penguin",
       "attacks": 0,
@@ -2623,6 +2630,13 @@
       "ratio": 0.2857142857142857
     },
     {
+      "user": "Aka",
+      "team": "Reindeer",
+      "attacks": 1,
+      "hitsTaken": 8,
+      "ratio": 0.125
+    },
+    {
       "user": "happycatyomyno",
       "team": "Reindeer",
       "attacks": 0,
@@ -2701,13 +2715,6 @@
     },
     {
       "user": "JumboPunkMouse",
-      "team": "Reindeer",
-      "attacks": 1,
-      "hitsTaken": 7,
-      "ratio": 0.14285714285714285
-    },
-    {
-      "user": "Mizzpixie",
       "team": "Reindeer",
       "attacks": 1,
       "hitsTaken": 7,
@@ -3776,41 +3783,34 @@
       "attacks": 0,
       "hitsTaken": 1,
       "ratio": 0
-    },
-    {
-      "user": "StormTrooper",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 1,
-      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.29630611088090303,
-      "intercept": 42.40251829057169,
+      "slope": 0.2961073719733003,
+      "intercept": 42.43082372639741,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 42.40251829057169,
-      "y2": 1531.3407254671092,
+      "y1": 42.43082372639741,
+      "y2": 1530.3703678922313,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27336581875461907,
-      "intercept": 36.74784659720818,
+      "slope": 0.2726628367062723,
+      "intercept": 36.94265360283958,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 36.74784659720818,
-      "y2": 1410.411085839169,
+      "y1": 36.94265360283958,
+      "y2": 1407.0734080518578,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3082898267686978,
-      "intercept": 48.24148468358815,
+      "slope": 0.308352467823721,
+      "intercept": 48.10148461222622,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 48.24148468358815,
-      "y2": 1597.3978641962947,
+      "y1": 48.10148461222622,
+      "y2": 1597.572635426424,
       "label": "Reindeer"
     }
   },
@@ -3913,9 +3913,9 @@
     },
     {
       "roomName": "Shrunken Ned's Shop",
-      "hitCount": 307,
-      "avgUserRatio": 3.64,
-      "activeUsers": 61
+      "hitCount": 311,
+      "avgUserRatio": 3.61,
+      "activeUsers": 62
     },
     {
       "roomName": "Pirate Treehouse",
