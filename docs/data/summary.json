@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-15T22:35:46.023Z",
-  "totalRows": 30199,
+  "generatedAt": "2026-01-15T22:50:12.916Z",
+  "totalRows": 30201,
   "totalUsers": 551,
   "teamStats": {
     "Penguin": {
       "users": 255,
-      "attacks": 16946,
+      "attacks": 16948,
       "hitsTaken": 13253
     },
     "Reindeer": {
       "users": 296,
       "attacks": 13253,
-      "hitsTaken": 16946
+      "hitsTaken": 16948
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 16946
+      "count": 16948
     },
     {
       "pair": "Reindeer → Penguin",
@@ -52,7 +52,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 1290,
+      "attacks": 1292,
       "team": "Penguin"
     },
     {
@@ -329,9 +329,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 1290,
+      "attacks": 1292,
       "hitsTaken": 385,
-      "ratio": 3.3506493506493507
+      "ratio": 3.3558441558441556
     },
     {
       "user": "kazino",
@@ -2203,6 +2203,13 @@
       "ratio": 0
     },
     {
+      "user": "amy_rose707",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 19,
+      "ratio": 0
+    },
+    {
       "user": "Princess__Aurora",
       "team": "Reindeer",
       "attacks": 17,
@@ -2268,13 +2275,6 @@
     {
       "user": "hermes",
       "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 17,
-      "ratio": 0
-    },
-    {
-      "user": "amy_rose707",
-      "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 17,
       "ratio": 0
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.29632847869960116,
-      "intercept": 42.39835254350149,
+      "slope": 0.29630611088090303,
+      "intercept": 42.40251829057169,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 42.39835254350149,
-      "y2": 1531.4489580089974,
+      "y1": 42.40251829057169,
+      "y2": 1531.3407254671092,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27341726000156186,
-      "intercept": 36.746457743647575,
+      "slope": 0.27336581875461907,
+      "intercept": 36.74784659720818,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 36.746457743647575,
-      "y2": 1410.668189251496,
+      "y1": 36.74784659720818,
+      "y2": 1410.411085839169,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.30829333813131415,
-      "intercept": 48.233790938893584,
+      "slope": 0.3082898267686978,
+      "intercept": 48.24148468358815,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 48.233790938893584,
-      "y2": 1597.4078150487474,
+      "y1": 48.24148468358815,
+      "y2": 1597.3978641962947,
       "label": "Reindeer"
     }
   },
@@ -3823,7 +3823,7 @@
     },
     {
       "roomName": "Town Square",
-      "hitCount": 4361,
+      "hitCount": 4363,
       "avgUserRatio": 1.19,
       "activeUsers": 219
     },
