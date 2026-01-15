@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-15T13:25:53.672Z",
-  "totalRows": 30013,
-  "totalUsers": 548,
+  "generatedAt": "2026-01-15T13:55:10.777Z",
+  "totalRows": 30048,
+  "totalUsers": 549,
   "teamStats": {
     "Penguin": {
-      "users": 253,
+      "users": 254,
       "attacks": 16847,
-      "hitsTaken": 13166
+      "hitsTaken": 13201
     },
     "Reindeer": {
       "users": 295,
-      "attacks": 13166,
+      "attacks": 13201,
       "hitsTaken": 16847
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 13166
+      "count": 13201
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 4945,
+      "attacks": 4980,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 4945,
+      "attacks": 4980,
       "hitsTaken": 1165,
-      "ratio": 4.244635193133047
+      "ratio": 4.274678111587983
     },
     {
       "user": "CaptainBubbles",
@@ -1620,6 +1620,13 @@
       "attacks": 2,
       "hitsTaken": 33,
       "ratio": 0.06060606060606061
+    },
+    {
+      "user": "Michaeel",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 35,
+      "ratio": 0
     },
     {
       "user": "MoonlightDream",
@@ -3776,41 +3783,34 @@
       "attacks": 0,
       "hitsTaken": 1,
       "ratio": 0
-    },
-    {
-      "user": "AceBlackCrayonz",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 1,
-      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.2961634635828123,
-      "intercept": 42.15249193497811,
+      "slope": 0.294574365936093,
+      "intercept": 42.29525890470455,
       "xMin": 0,
-      "xMax": 4945,
-      "y1": 42.15249193497811,
-      "y2": 1506.680819351985,
+      "xMax": 4980,
+      "y1": 42.29525890470455,
+      "y2": 1509.2756012664477,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2749310071118734,
-      "intercept": 36.38990309053961,
+      "slope": 0.2747414068319125,
+      "intercept": 36.548852645738336,
       "xMin": 0,
-      "xMax": 4945,
-      "y1": 36.38990309053961,
-      "y2": 1395.9237332587536,
+      "xMax": 4980,
+      "y1": 36.548852645738336,
+      "y2": 1404.7610586686626,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.30749159294796485,
-      "intercept": 48.00588604228231,
+      "slope": 0.30508617466857585,
+      "intercept": 48.084802286466655,
       "xMin": 0,
-      "xMax": 4945,
-      "y1": 48.00588604228231,
-      "y2": 1568.5518131699685,
+      "xMax": 4980,
+      "y1": 48.084802286466655,
+      "y2": 1567.4139521359743,
       "label": "Reindeer"
     }
   },
@@ -3829,9 +3829,9 @@
     },
     {
       "roomName": "Matterhorn",
-      "hitCount": 2461,
+      "hitCount": 2496,
       "avgUserRatio": 1.12,
-      "activeUsers": 244
+      "activeUsers": 245
     },
     {
       "roomName": "Main Street",
