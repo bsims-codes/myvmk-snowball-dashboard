@@ -31,7 +31,7 @@
   },
   {
     "roomName": "Central Plaza",
-    "hitCount": 1041,
+    "hitCount": 1045,
     "avgUserRatio": 0.98,
     "activeUsers": 115
   },
@@ -79,9 +79,9 @@
   },
   {
     "roomName": "Banquet Hall",
-    "hitCount": 365,
-    "avgUserRatio": 2.08,
-    "activeUsers": 48
+    "hitCount": 366,
+    "avgUserRatio": 2.04,
+    "activeUsers": 49
   },
   {
     "roomName": "Frontierland Hub",
@@ -91,9 +91,9 @@
   },
   {
     "roomName": "Street Party Music Game Lobby",
-    "hitCount": 323,
-    "avgUserRatio": 1.22,
-    "activeUsers": 78
+    "hitCount": 324,
+    "avgUserRatio": 1.19,
+    "activeUsers": 79
   },
   {
     "roomName": "Shrunken Ned's Shop",
@@ -181,8 +181,8 @@
   },
   {
     "roomName": "Storybookland",
-    "hitCount": 151,
-    "avgUserRatio": 2.56,
+    "hitCount": 152,
+    "avgUserRatio": 2.55,
     "activeUsers": 33
   },
   {
@@ -199,9 +199,9 @@
   },
   {
     "roomName": "Autopia Off Road on Mars",
-    "hitCount": 97,
-    "avgUserRatio": 1,
-    "activeUsers": 30
+    "hitCount": 108,
+    "avgUserRatio": 0.92,
+    "activeUsers": 31
   },
   {
     "roomName": "Festival of the Lion King",
@@ -330,6 +330,12 @@
     "activeUsers": 7
   },
   {
+    "roomName": "Shipwreck Graveyard",
+    "hitCount": 31,
+    "avgUserRatio": 2.58,
+    "activeUsers": 12
+  },
+  {
     "roomName": "WS - China",
     "hitCount": 31,
     "avgUserRatio": 1.11,
@@ -388,12 +394,6 @@
     "hitCount": 13,
     "avgUserRatio": 3.08,
     "activeUsers": 4
-  },
-  {
-    "roomName": "Shipwreck Graveyard",
-    "hitCount": 9,
-    "avgUserRatio": 0.82,
-    "activeUsers": 11
   },
   {
     "roomName": "WS - Italy",
