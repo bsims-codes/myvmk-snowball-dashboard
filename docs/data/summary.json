@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-15T19:59:08.859Z",
-  "totalRows": 30160,
+  "generatedAt": "2026-01-15T20:24:49.309Z",
+  "totalRows": 30199,
   "totalUsers": 551,
   "teamStats": {
     "Penguin": {
       "users": 255,
-      "attacks": 16932,
-      "hitsTaken": 13228
+      "attacks": 16946,
+      "hitsTaken": 13253
     },
     "Reindeer": {
       "users": 296,
-      "attacks": 13228,
-      "hitsTaken": 16932
+      "attacks": 13253,
+      "hitsTaken": 16946
     },
     "Unknown": {
       "users": 0,
@@ -22,22 +22,22 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 16932
+      "count": 16946
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 13228
+      "count": 13253
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 5000,
+      "attacks": 5025,
       "team": "Reindeer"
     },
     {
       "user": "JustForFun",
-      "attacks": 1553,
+      "attacks": 1554,
       "team": "Penguin"
     },
     {
@@ -159,7 +159,7 @@
   "topVictims": [
     {
       "user": "Kronkx",
-      "hitsTaken": 1187,
+      "hitsTaken": 1201,
       "team": "Reindeer"
     },
     {
@@ -189,7 +189,7 @@
     },
     {
       "user": "HappyToughFish",
-      "hitsTaken": 629,
+      "hitsTaken": 630,
       "team": "Penguin"
     },
     {
@@ -268,6 +268,11 @@
       "team": "Penguin"
     },
     {
+      "user": "HugsforaLifetime",
+      "hitsTaken": 262,
+      "team": "Penguin"
+    },
+    {
       "user": "mikey29",
       "hitsTaken": 260,
       "team": "Penguin"
@@ -276,20 +281,15 @@
       "user": "Meg",
       "hitsTaken": 253,
       "team": "Penguin"
-    },
-    {
-      "user": "kazino",
-      "hitsTaken": 239,
-      "team": "Penguin"
     }
   ],
   "scatterPoints": [
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 5000,
-      "hitsTaken": 1187,
-      "ratio": 4.212299915754001
+      "attacks": 5025,
+      "hitsTaken": 1201,
+      "ratio": 4.184013322231474
     },
     {
       "user": "CaptainBubbles",
@@ -301,9 +301,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 1553,
+      "attacks": 1554,
       "hitsTaken": 321,
-      "ratio": 4.838006230529595
+      "ratio": 4.841121495327103
     },
     {
       "user": "Winnie",
@@ -442,7 +442,7 @@
       "user": "HappyToughFish",
       "team": "Penguin",
       "attacks": 0,
-      "hitsTaken": 629,
+      "hitsTaken": 630,
       "ratio": 0
     },
     {
@@ -509,6 +509,13 @@
       "ratio": 0.8803827751196173
     },
     {
+      "user": "HugsforaLifetime",
+      "team": "Penguin",
+      "attacks": 121,
+      "hitsTaken": 262,
+      "ratio": 0.4618320610687023
+    },
+    {
       "user": "RockStar_Olivia",
       "team": "Reindeer",
       "attacks": 10,
@@ -521,13 +528,6 @@
       "attacks": 231,
       "hitsTaken": 140,
       "ratio": 1.65
-    },
-    {
-      "user": "HugsforaLifetime",
-      "team": "Penguin",
-      "attacks": 108,
-      "hitsTaken": 238,
-      "ratio": 0.453781512605042
     },
     {
       "user": "wildgirlpony",
@@ -3787,37 +3787,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2956759325915453,
-      "intercept": 42.38282774607799,
+      "slope": 0.29632847869960116,
+      "intercept": 42.39835254350149,
       "xMin": 0,
-      "xMax": 5000,
-      "y1": 42.38282774607799,
-      "y2": 1520.7624907038044,
+      "xMax": 5025,
+      "y1": 42.39835254350149,
+      "y2": 1531.4489580089974,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2732185280560817,
-      "intercept": 36.67035847416421,
+      "slope": 0.27341726000156186,
+      "intercept": 36.746457743647575,
       "xMin": 0,
-      "xMax": 5000,
-      "y1": 36.67035847416421,
-      "y2": 1402.762998754573,
+      "xMax": 5025,
+      "y1": 36.746457743647575,
+      "y2": 1410.668189251496,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3075382702703528,
-      "intercept": 48.247683311517946,
+      "slope": 0.30829333813131415,
+      "intercept": 48.233790938893584,
       "xMin": 0,
-      "xMax": 5000,
-      "y1": 48.247683311517946,
-      "y2": 1585.939034663282,
+      "xMax": 5025,
+      "y1": 48.233790938893584,
+      "y2": 1597.4078150487474,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 9269,
+      "hitCount": 9308,
       "avgUserRatio": 0.87,
       "activeUsers": 231
     },

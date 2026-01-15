@@ -15680,6 +15680,79 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-59",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-15T15:10:12.000Z",
+    "end": "2026-01-15T15:15:04.000Z",
+    "durationMinutes": 5,
+    "hitCount": 39,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 25
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 13
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 1
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "hitsTaken": 24
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 14
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 1
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 25,
+        "hitsTaken": 14,
+        "ratio": 1.7857142857142858
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 13,
+        "hitsTaken": 24,
+        "ratio": 0.5416666666666666
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Matterhorn-7",
     "roomName": "Matterhorn",
     "start": "2025-12-25T14:18:01.000Z",
