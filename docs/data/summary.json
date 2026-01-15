@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-15T18:56:44.427Z",
-  "totalRows": 30135,
-  "totalUsers": 549,
+  "generatedAt": "2026-01-15T19:18:51.784Z",
+  "totalRows": 30150,
+  "totalUsers": 550,
   "teamStats": {
     "Penguin": {
-      "users": 254,
-      "attacks": 16913,
-      "hitsTaken": 13222
+      "users": 255,
+      "attacks": 16923,
+      "hitsTaken": 13227
     },
     "Reindeer": {
       "users": 295,
-      "attacks": 13222,
-      "hitsTaken": 16913
+      "attacks": 13227,
+      "hitsTaken": 16923
     },
     "Unknown": {
       "users": 0,
@@ -22,22 +22,22 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 16913
+      "count": 16923
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 13222
+      "count": 13227
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 4995,
+      "attacks": 5000,
       "team": "Reindeer"
     },
     {
       "user": "JustForFun",
-      "attacks": 1546,
+      "attacks": 1550,
       "team": "Penguin"
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "user": "goatduck",
-      "attacks": 1111,
+      "attacks": 1116,
       "team": "Penguin"
     },
     {
@@ -159,7 +159,7 @@
   "topVictims": [
     {
       "user": "Kronkx",
-      "hitsTaken": 1177,
+      "hitsTaken": 1187,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 4995,
-      "hitsTaken": 1177,
-      "ratio": 4.243840271877655
+      "attacks": 5000,
+      "hitsTaken": 1187,
+      "ratio": 4.212299915754001
     },
     {
       "user": "CaptainBubbles",
@@ -301,9 +301,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 1546,
+      "attacks": 1550,
       "hitsTaken": 321,
-      "ratio": 4.816199376947041
+      "ratio": 4.8286604361370715
     },
     {
       "user": "Winnie",
@@ -322,9 +322,9 @@
     {
       "user": "goatduck",
       "team": "Penguin",
-      "attacks": 1111,
+      "attacks": 1116,
       "hitsTaken": 572,
-      "ratio": 1.9423076923076923
+      "ratio": 1.951048951048951
     },
     {
       "user": "TaterTotCasserole",
@@ -2875,6 +2875,13 @@
       "ratio": 2
     },
     {
+      "user": "Brickhouze",
+      "team": "Penguin",
+      "attacks": 1,
+      "hitsTaken": 5,
+      "ratio": 0.2
+    },
+    {
       "user": "CandyCars",
       "team": "Penguin",
       "attacks": 0,
@@ -3776,50 +3783,43 @@
       "attacks": 0,
       "hitsTaken": 1,
       "ratio": 0
-    },
-    {
-      "user": "Goblin",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 1,
-      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.29479770228278324,
-      "intercept": 42.404542483416655,
+      "slope": 0.29569707060227185,
+      "intercept": 42.36946664268301,
       "xMin": 0,
-      "xMax": 4995,
-      "y1": 42.404542483416655,
-      "y2": 1514.9190653859189,
+      "xMax": 5000,
+      "y1": 42.36946664268301,
+      "y2": 1520.854819654042,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27343016120441205,
-      "intercept": 36.65587898952897,
+      "slope": 0.27341704632756814,
+      "intercept": 36.51048223403644,
       "xMin": 0,
-      "xMax": 4995,
-      "y1": 36.65587898952897,
-      "y2": 1402.439534205567,
+      "xMax": 5000,
+      "y1": 36.51048223403644,
+      "y2": 1403.5957138718773,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3061342164025528,
-      "intercept": 48.25674207039641,
+      "slope": 0.3074696629896323,
+      "intercept": 48.40037270806088,
       "xMin": 0,
-      "xMax": 4995,
-      "y1": 48.25674207039641,
-      "y2": 1577.3971530011477,
+      "xMax": 5000,
+      "y1": 48.40037270806088,
+      "y2": 1585.7486876562223,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 9249,
+      "hitCount": 9264,
       "avgUserRatio": 0.88,
-      "activeUsers": 229
+      "activeUsers": 230
     },
     {
       "roomName": "Town Square",
