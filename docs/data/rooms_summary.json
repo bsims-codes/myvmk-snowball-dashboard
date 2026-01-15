@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 9160,
-    "avgUserRatio": 0.9,
-    "activeUsers": 224
+    "hitCount": 9233,
+    "avgUserRatio": 0.88,
+    "activeUsers": 229
   },
   {
     "roomName": "Town Square",
@@ -13,7 +13,7 @@
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 2460,
+    "hitCount": 2461,
     "avgUserRatio": 1.12,
     "activeUsers": 244
   },
@@ -61,8 +61,8 @@
   },
   {
     "roomName": "Blue Bayou",
-    "hitCount": 473,
-    "avgUserRatio": 1.32,
+    "hitCount": 474,
+    "avgUserRatio": 1.31,
     "activeUsers": 100
   },
   {
@@ -73,9 +73,9 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 393,
-    "avgUserRatio": 2.25,
-    "activeUsers": 89
+    "hitCount": 394,
+    "avgUserRatio": 2.24,
+    "activeUsers": 90
   },
   {
     "roomName": "Banquet Hall",
@@ -97,9 +97,9 @@
   },
   {
     "roomName": "Shrunken Ned's Shop",
-    "hitCount": 306,
-    "avgUserRatio": 3.69,
-    "activeUsers": 60
+    "hitCount": 307,
+    "avgUserRatio": 3.64,
+    "activeUsers": 61
   },
   {
     "roomName": "New Orleans Square",
@@ -168,6 +168,12 @@
     "activeUsers": 44
   },
   {
+    "roomName": "WS - Norway",
+    "hitCount": 159,
+    "avgUserRatio": 1.88,
+    "activeUsers": 25
+  },
+  {
     "roomName": "Autopia Quest Track",
     "hitCount": 152,
     "avgUserRatio": 3.44,
@@ -178,12 +184,6 @@
     "hitCount": 151,
     "avgUserRatio": 2.56,
     "activeUsers": 33
-  },
-  {
-    "roomName": "WS - Norway",
-    "hitCount": 136,
-    "avgUserRatio": 2.43,
-    "activeUsers": 21
   },
   {
     "roomName": "Sci-Fi Dine-In",

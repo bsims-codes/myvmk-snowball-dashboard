@@ -13609,6 +13609,107 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-58",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-14T20:19:30.000Z",
+    "end": "2026-01-14T20:25:44.000Z",
+    "durationMinutes": 6,
+    "hitCount": 46,
+    "uniqueUsers": 8,
+    "topAttackers": [
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 25
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 6
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 5
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "RavenLunatic",
+        "team": "Reindeer",
+        "hitsTaken": 39
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "hitsTaken": 2
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "hitsTaken": 2
+      }
+    ],
+    "participants": [
+      {
+        "user": "RavenLunatic",
+        "team": "Reindeer",
+        "attacks": 4,
+        "hitsTaken": 39,
+        "ratio": 0.10256410256410256
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 25,
+        "hitsTaken": 2,
+        "ratio": 12.5
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 6,
+        "hitsTaken": 2,
+        "ratio": 3
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 5,
+        "hitsTaken": 1,
+        "ratio": 5
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 3,
+        "hitsTaken": 0,
+        "ratio": 3
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 2,
+        "hitsTaken": 0,
+        "ratio": 2
+      },
+      {
+        "user": "CityscapeNight",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 1,
+        "ratio": 1
+      },
+      {
+        "user": "bellemeansbeauty",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-45",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-30T21:22:56.000Z",
