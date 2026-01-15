@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 9237,
+    "hitCount": 9249,
     "avgUserRatio": 0.88,
     "activeUsers": 229
   },
@@ -61,8 +61,8 @@
   },
   {
     "roomName": "Blue Bayou",
-    "hitCount": 474,
-    "avgUserRatio": 1.31,
+    "hitCount": 489,
+    "avgUserRatio": 1.36,
     "activeUsers": 100
   },
   {
@@ -102,6 +102,12 @@
     "activeUsers": 61
   },
   {
+    "roomName": "Pirate Treehouse",
+    "hitCount": 248,
+    "avgUserRatio": 1.8,
+    "activeUsers": 54
+  },
+  {
     "roomName": "New Orleans Square",
     "hitCount": 244,
     "avgUserRatio": 1.78,
@@ -112,12 +118,6 @@
     "hitCount": 232,
     "avgUserRatio": 2.49,
     "activeUsers": 24
-  },
-  {
-    "roomName": "Pirate Treehouse",
-    "hitCount": 212,
-    "avgUserRatio": 1.47,
-    "activeUsers": 54
   },
   {
     "roomName": "Adventureland Bazaar",

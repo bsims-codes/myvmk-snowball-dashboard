@@ -17150,6 +17150,45 @@
     ]
   },
   {
+    "id": "Pirate Treehouse-3",
+    "roomName": "Pirate Treehouse",
+    "start": "2026-01-15T13:06:45.000Z",
+    "end": "2026-01-15T13:10:37.000Z",
+    "durationMinutes": 4,
+    "hitCount": 36,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 36
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "wildgirlpony",
+        "team": "Reindeer",
+        "hitsTaken": 36
+      }
+    ],
+    "participants": [
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 36,
+        "hitsTaken": 0,
+        "ratio": 36
+      },
+      {
+        "user": "wildgirlpony",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 36,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-48",
     "roomName": "Captain's Quest Quarters",
     "start": "2026-01-04T02:59:55.000Z",
