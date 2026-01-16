@@ -13,9 +13,9 @@
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 2496,
-    "avgUserRatio": 1.12,
-    "activeUsers": 245
+    "hitCount": 2736,
+    "avgUserRatio": 1.08,
+    "activeUsers": 253
   },
   {
     "roomName": "Main Street",
@@ -37,9 +37,9 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 762,
-    "avgUserRatio": 1.71,
-    "activeUsers": 112
+    "hitCount": 816,
+    "avgUserRatio": 2.1,
+    "activeUsers": 115
   },
   {
     "roomName": "Dungeon",
@@ -138,6 +138,12 @@
     "activeUsers": 37
   },
   {
+    "roomName": "Tiki Tiki Tiki Island",
+    "hitCount": 193,
+    "avgUserRatio": 1.37,
+    "activeUsers": 35
+  },
+  {
     "roomName": "Gallery",
     "hitCount": 190,
     "avgUserRatio": 2.31,
@@ -148,12 +154,6 @@
     "hitCount": 187,
     "avgUserRatio": 1.1,
     "activeUsers": 40
-  },
-  {
-    "roomName": "Tiki Tiki Tiki Island",
-    "hitCount": 183,
-    "avgUserRatio": 1.39,
-    "activeUsers": 34
   },
   {
     "roomName": "Castle Forecourt",
