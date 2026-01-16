@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-16T22:18:25.902Z",
-  "totalRows": 30556,
+  "generatedAt": "2026-01-16T22:40:35.490Z",
+  "totalRows": 30562,
   "totalUsers": 554,
   "teamStats": {
     "Penguin": {
       "users": 255,
-      "attacks": 17247,
+      "attacks": 17253,
       "hitsTaken": 13309
     },
     "Reindeer": {
       "users": 299,
       "attacks": 13309,
-      "hitsTaken": 17247
+      "hitsTaken": 17253
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 17247
+      "count": 17253
     },
     {
       "pair": "Reindeer → Penguin",
@@ -52,7 +52,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 1392,
+      "attacks": 1398,
       "team": "Penguin"
     },
     {
@@ -322,9 +322,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 1392,
+      "attacks": 1398,
       "hitsTaken": 405,
-      "ratio": 3.437037037037037
+      "ratio": 3.4518518518518517
     },
     {
       "user": "goatduck",
@@ -796,6 +796,13 @@
       "ratio": 0.16923076923076924
     },
     {
+      "user": "maroonsonicsage22",
+      "team": "Reindeer",
+      "attacks": 15,
+      "hitsTaken": 134,
+      "ratio": 0.11194029850746269
+    },
+    {
       "user": "PeachySQ",
       "team": "Penguin",
       "attacks": 118,
@@ -822,13 +829,6 @@
       "attacks": 5,
       "hitsTaken": 138,
       "ratio": 0.036231884057971016
-    },
-    {
-      "user": "maroonsonicsage22",
-      "team": "Reindeer",
-      "attacks": 15,
-      "hitsTaken": 128,
-      "ratio": 0.1171875
     },
     {
       "user": "TinkerbellNat",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2945080393391816,
-      "intercept": 43.00861371598261,
+      "slope": 0.2944390874888398,
+      "intercept": 43.021294094507134,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 43.00861371598261,
-      "y2": 1522.9115113953703,
+      "y1": 43.021294094507134,
+      "y2": 1522.577708725927,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2665768677303531,
-      "intercept": 37.7722406048797,
+      "slope": 0.26642364530168955,
+      "intercept": 37.776779440240226,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 37.7722406048797,
-      "y2": 1377.3210009499041,
+      "y1": 37.776779440240226,
+      "y2": 1376.5555970812302,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3097459411290769,
-      "intercept": 48.50218988708561,
+      "slope": 0.30973869733127657,
+      "intercept": 48.524769174881634,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 48.50218988708561,
-      "y2": 1604.975544060697,
+      "y1": 48.524769174881634,
+      "y2": 1604.9617232645464,
       "label": "Reindeer"
     }
   },
@@ -3889,8 +3889,8 @@
     },
     {
       "roomName": "Epcot Entrance",
-      "hitCount": 406,
-      "avgUserRatio": 1.92,
+      "hitCount": 412,
+      "avgUserRatio": 1.98,
       "activeUsers": 91
     },
     {
