@@ -266,6 +266,13 @@
     "ratio": 0.8633540372670807
   },
   {
+    "user": "PrincessCutezada",
+    "team": "Penguin",
+    "attacks": 131,
+    "hitsTaken": 182,
+    "ratio": 0.7197802197802198
+  },
+  {
     "user": "HugsforaLifetime",
     "team": "Penguin",
     "attacks": 128,
@@ -278,13 +285,6 @@
     "attacks": 124,
     "hitsTaken": 35,
     "ratio": 3.5428571428571427
-  },
-  {
-    "user": "PrincessCutezada",
-    "team": "Penguin",
-    "attacks": 122,
-    "hitsTaken": 182,
-    "ratio": 0.6703296703296703
   },
   {
     "user": "tizzi",
@@ -3889,6 +3889,13 @@
     "team": "Reindeer",
     "attacks": 0,
     "hitsTaken": 6,
+    "ratio": 0
+  },
+  {
+    "user": "cutefilly",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 9,
     "ratio": 0
   }
 ]
