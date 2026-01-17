@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-16T23:57:51.207Z",
-  "totalRows": 30563,
+  "generatedAt": "2026-01-17T01:18:02.876Z",
+  "totalRows": 30573,
   "totalUsers": 554,
   "teamStats": {
     "Penguin": {
       "users": 255,
-      "attacks": 17254,
-      "hitsTaken": 13309
+      "attacks": 17263,
+      "hitsTaken": 13310
     },
     "Reindeer": {
       "users": 299,
-      "attacks": 13309,
-      "hitsTaken": 17254
+      "attacks": 13310,
+      "hitsTaken": 17263
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 17254
+      "count": 17263
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 13309
+      "count": 13310
     }
   ],
   "topAttackers": [
@@ -52,7 +52,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 1399,
+      "attacks": 1400,
       "team": "Penguin"
     },
     {
@@ -72,7 +72,7 @@
     },
     {
       "user": "PepaRaindrops",
-      "attacks": 886,
+      "attacks": 894,
       "team": "Penguin"
     },
     {
@@ -208,13 +208,13 @@
       "team": "Penguin"
     },
     {
-      "user": "Mali",
+      "user": "TaterTotCasserole",
       "hitsTaken": 406,
       "team": "Penguin"
     },
     {
-      "user": "TaterTotCasserole",
-      "hitsTaken": 405,
+      "user": "Mali",
+      "hitsTaken": 406,
       "team": "Penguin"
     },
     {
@@ -322,9 +322,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 1399,
-      "hitsTaken": 405,
-      "ratio": 3.454320987654321
+      "attacks": 1400,
+      "hitsTaken": 406,
+      "ratio": 3.4482758620689653
     },
     {
       "user": "goatduck",
@@ -343,9 +343,9 @@
     {
       "user": "PepaRaindrops",
       "team": "Penguin",
-      "attacks": 886,
+      "attacks": 894,
       "hitsTaken": 386,
-      "ratio": 2.295336787564767
+      "ratio": 2.316062176165803
     },
     {
       "user": "Devgirlforever",
@@ -1188,6 +1188,13 @@
       "ratio": 1.4848484848484849
     },
     {
+      "user": "Ormonddude",
+      "team": "Reindeer",
+      "attacks": 33,
+      "hitsTaken": 48,
+      "ratio": 0.6875
+    },
+    {
       "user": "Bobo_Here",
       "team": "Reindeer",
       "attacks": 61,
@@ -1200,13 +1207,6 @@
       "attacks": 77,
       "hitsTaken": 3,
       "ratio": 25.666666666666668
-    },
-    {
-      "user": "Ormonddude",
-      "team": "Reindeer",
-      "attacks": 32,
-      "hitsTaken": 47,
-      "ratio": 0.6808510638297872
     },
     {
       "user": "Orcool",
@@ -1405,6 +1405,13 @@
       "ratio": 0.037037037037037035
     },
     {
+      "user": "PreppyPete",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 53,
+      "ratio": 0
+    },
+    {
       "user": "FreakyGoldenOnion",
       "team": "Penguin",
       "attacks": 0,
@@ -1477,13 +1484,6 @@
     {
       "user": "Rigel",
       "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 45,
-      "ratio": 0
-    },
-    {
-      "user": "PreppyPete",
-      "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 45,
       "ratio": 0
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2944273162162524,
-      "intercept": 43.02342472359779,
+      "slope": 0.29440554514432143,
+      "intercept": 43.03886734769561,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 43.02342472359779,
-      "y2": 1522.520688710266,
+      "y1": 43.03886734769561,
+      "y2": 1522.426731697911,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2663980090627103,
-      "intercept": 37.77754412887417,
+      "slope": 0.2664065028127662,
+      "intercept": 37.77083021063491,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 37.77754412887417,
-      "y2": 1376.4275396689932,
+      "y1": 37.77083021063491,
+      "y2": 1376.463506844785,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.30973713797321245,
-      "intercept": 48.528549743387096,
+      "slope": 0.30972245503381185,
+      "intercept": 48.56145971666653,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 48.528549743387096,
-      "y2": 1604.9576680587797,
+      "y1": 48.56145971666653,
+      "y2": 1604.916796261571,
       "label": "Reindeer"
     }
   },
@@ -3823,9 +3823,9 @@
     },
     {
       "roomName": "Town Square",
-      "hitCount": 4363,
+      "hitCount": 4364,
       "avgUserRatio": 1.19,
-      "activeUsers": 219
+      "activeUsers": 220
     },
     {
       "roomName": "Matterhorn",
@@ -3913,8 +3913,8 @@
     },
     {
       "roomName": "Shrunken Ned's Shop",
-      "hitCount": 311,
-      "avgUserRatio": 3.61,
+      "hitCount": 312,
+      "avgUserRatio": 3.63,
       "activeUsers": 62
     },
     {
