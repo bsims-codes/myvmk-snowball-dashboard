@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-17T19:27:05.954Z",
-  "totalRows": 30645,
+  "generatedAt": "2026-01-17T19:35:28.990Z",
+  "totalRows": 30646,
   "totalUsers": 556,
   "teamStats": {
     "Penguin": {
       "users": 255,
-      "attacks": 17326,
+      "attacks": 17327,
       "hitsTaken": 13319
     },
     "Reindeer": {
       "users": 301,
       "attacks": 13319,
-      "hitsTaken": 17326
+      "hitsTaken": 17327
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 17326
+      "count": 17327
     },
     {
       "pair": "Reindeer → Penguin",
@@ -574,9 +574,9 @@
     {
       "user": "PrincessCutezada",
       "team": "Penguin",
-      "attacks": 121,
+      "attacks": 122,
       "hitsTaken": 182,
-      "ratio": 0.6648351648351648
+      "ratio": 0.6703296703296703
     },
     {
       "user": "Tinkfaniam",
@@ -2112,6 +2112,13 @@
       "ratio": 1.2222222222222223
     },
     {
+      "user": "Baemax_",
+      "team": "Reindeer",
+      "attacks": 10,
+      "hitsTaken": 10,
+      "ratio": 1
+    },
+    {
       "user": "MajesticNeonBabe",
       "team": "Penguin",
       "attacks": 12,
@@ -2145,13 +2152,6 @@
       "attacks": 0,
       "hitsTaken": 20,
       "ratio": 0
-    },
-    {
-      "user": "Baemax_",
-      "team": "Reindeer",
-      "attacks": 10,
-      "hitsTaken": 9,
-      "ratio": 1.1111111111111112
     },
     {
       "user": "AuroraRoseSkye",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2943922107801221,
-      "intercept": 43.14246775455099,
+      "slope": 0.2943930126381939,
+      "intercept": 43.14382982745564,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 43.14246775455099,
-      "y2": 1522.4633269246647,
+      "y1": 43.14382982745564,
+      "y2": 1522.46871833438,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.26645555461204823,
-      "intercept": 37.89923131834444,
+      "slope": 0.2664626612664213,
+      "intercept": 37.89753010287882,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 37.89923131834444,
-      "y2": 1376.8383932438867,
+      "y1": 37.89753010287882,
+      "y2": 1376.872402966646,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.309734726593423,
-      "intercept": 48.60499229235717,
+      "slope": 0.3097333486271654,
+      "intercept": 48.60875004790926,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 48.60499229235717,
-      "y2": 1605.0219934243075,
+      "y1": 48.60875004790926,
+      "y2": 1605.0188268994154,
       "label": "Reindeer"
     }
   },
@@ -3853,7 +3853,7 @@
     },
     {
       "roomName": "VMK Esplanade",
-      "hitCount": 828,
+      "hitCount": 829,
       "avgUserRatio": 2.07,
       "activeUsers": 117
     },
