@@ -280,6 +280,13 @@
     "ratio": 3.5428571428571427
   },
   {
+    "user": "PrincessCutezada",
+    "team": "Penguin",
+    "attacks": 121,
+    "hitsTaken": 182,
+    "ratio": 0.6648351648351648
+  },
+  {
     "user": "tizzi",
     "team": "Reindeer",
     "attacks": 119,
@@ -383,13 +390,6 @@
     "attacks": 84,
     "hitsTaken": 153,
     "ratio": 0.5490196078431373
-  },
-  {
-    "user": "PrincessCutezada",
-    "team": "Penguin",
-    "attacks": 83,
-    "hitsTaken": 182,
-    "ratio": 0.45604395604395603
   },
   {
     "user": "GuestPassPlus",
@@ -955,8 +955,8 @@
     "user": "Baemax_",
     "team": "Reindeer",
     "attacks": 10,
-    "hitsTaken": 3,
-    "ratio": 3.3333333333333335
+    "hitsTaken": 9,
+    "ratio": 1.1111111111111112
   },
   {
     "user": "Aerzie",
@@ -1263,8 +1263,8 @@
     "user": "Cali",
     "team": "Reindeer",
     "attacks": 4,
-    "hitsTaken": 132,
-    "ratio": 0.030303030303030304
+    "hitsTaken": 158,
+    "ratio": 0.02531645569620253
   },
   {
     "user": "Erie",
@@ -3882,6 +3882,13 @@
     "team": "Reindeer",
     "attacks": 0,
     "hitsTaken": 2,
+    "ratio": 0
+  },
+  {
+    "user": "Elegance",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 6,
     "ratio": 0
   }
 ]

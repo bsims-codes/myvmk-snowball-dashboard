@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-17T19:14:36.317Z",
-  "totalRows": 30607,
-  "totalUsers": 555,
+  "generatedAt": "2026-01-17T19:27:05.954Z",
+  "totalRows": 30645,
+  "totalUsers": 556,
   "teamStats": {
     "Penguin": {
       "users": 255,
-      "attacks": 17288,
+      "attacks": 17326,
       "hitsTaken": 13319
     },
     "Reindeer": {
-      "users": 300,
+      "users": 301,
       "attacks": 13319,
-      "hitsTaken": 17288
+      "hitsTaken": 17326
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 17288
+      "count": 17326
     },
     {
       "pair": "Reindeer → Penguin",
@@ -572,6 +572,13 @@
       "ratio": 1.3565891472868217
     },
     {
+      "user": "PrincessCutezada",
+      "team": "Penguin",
+      "attacks": 121,
+      "hitsTaken": 182,
+      "ratio": 0.6648351648351648
+    },
+    {
       "user": "Tinkfaniam",
       "team": "Reindeer",
       "attacks": 139,
@@ -619,13 +626,6 @@
       "attacks": 115,
       "hitsTaken": 157,
       "ratio": 0.732484076433121
-    },
-    {
-      "user": "PrincessCutezada",
-      "team": "Penguin",
-      "attacks": 83,
-      "hitsTaken": 182,
-      "ratio": 0.45604395604395603
     },
     {
       "user": "AtziriDayre",
@@ -775,6 +775,13 @@
       "ratio": 17
     },
     {
+      "user": "Cali",
+      "team": "Reindeer",
+      "attacks": 4,
+      "hitsTaken": 158,
+      "ratio": 0.02531645569620253
+    },
+    {
       "user": "PeachySQ",
       "team": "Penguin",
       "attacks": 124,
@@ -864,13 +871,6 @@
       "attacks": 29,
       "hitsTaken": 110,
       "ratio": 0.2636363636363636
-    },
-    {
-      "user": "Cali",
-      "team": "Reindeer",
-      "attacks": 4,
-      "hitsTaken": 132,
-      "ratio": 0.030303030303030304
     },
     {
       "user": "CityscapeNight",
@@ -2147,6 +2147,13 @@
       "ratio": 0
     },
     {
+      "user": "Baemax_",
+      "team": "Reindeer",
+      "attacks": 10,
+      "hitsTaken": 9,
+      "ratio": 1.1111111111111112
+    },
+    {
       "user": "AuroraRoseSkye",
       "team": "Penguin",
       "attacks": 1,
@@ -2453,13 +2460,6 @@
       "attacks": 9,
       "hitsTaken": 4,
       "ratio": 2.25
-    },
-    {
-      "user": "Baemax_",
-      "team": "Reindeer",
-      "attacks": 10,
-      "hitsTaken": 3,
-      "ratio": 3.3333333333333335
     },
     {
       "user": "PrinceGeminii",
@@ -2947,6 +2947,13 @@
     {
       "user": "CatRatt",
       "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 6,
+      "ratio": 0
+    },
+    {
+      "user": "Elegance",
+      "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 6,
       "ratio": 0
@@ -3776,41 +3783,34 @@
       "attacks": 1,
       "hitsTaken": 0,
       "ratio": 1
-    },
-    {
-      "user": "Spot",
-      "team": "Penguin",
-      "attacks": 1,
-      "hitsTaken": 0,
-      "ratio": 1
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.2943559075979085,
-      "intercept": 43.090474895932026,
+      "slope": 0.2943922107801221,
+      "intercept": 43.14246775455099,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 43.090474895932026,
-      "y2": 1522.228910575422,
+      "y1": 43.14246775455099,
+      "y2": 1522.4633269246647,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2663598169365532,
-      "intercept": 37.7845123679035,
+      "slope": 0.26645555461204823,
+      "intercept": 37.89923131834444,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 37.7845123679035,
-      "y2": 1376.2425924740833,
+      "y1": 37.89923131834444,
+      "y2": 1376.8383932438867,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3097105368063504,
-      "intercept": 48.64546322523343,
+      "slope": 0.309734726593423,
+      "intercept": 48.60499229235717,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 48.64546322523343,
-      "y2": 1604.9409106771443,
+      "y1": 48.60499229235717,
+      "y2": 1605.0219934243075,
       "label": "Reindeer"
     }
   },
@@ -3853,14 +3853,14 @@
     },
     {
       "roomName": "VMK Esplanade",
-      "hitCount": 816,
-      "avgUserRatio": 2.1,
-      "activeUsers": 115
+      "hitCount": 828,
+      "avgUserRatio": 2.07,
+      "activeUsers": 117
     },
     {
       "roomName": "Dungeon",
-      "hitCount": 717,
-      "avgUserRatio": 2.05,
+      "hitCount": 743,
+      "avgUserRatio": 2.37,
       "activeUsers": 83
     },
     {
