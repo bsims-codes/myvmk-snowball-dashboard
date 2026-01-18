@@ -14487,6 +14487,93 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-60",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-17T20:34:03.000Z",
+    "end": "2026-01-17T20:37:52.000Z",
+    "durationMinutes": 4,
+    "hitCount": 45,
+    "uniqueUsers": 6,
+    "topAttackers": [
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 13
+      },
+      {
+        "user": "tizzi",
+        "team": "Reindeer",
+        "attacks": 12
+      },
+      {
+        "user": "RavenLunatic",
+        "team": "Reindeer",
+        "attacks": 10
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "tizzi",
+        "team": "Reindeer",
+        "hitsTaken": 14
+      },
+      {
+        "user": "TheOhanaGryphoness",
+        "team": "Penguin",
+        "hitsTaken": 8
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 8
+      }
+    ],
+    "participants": [
+      {
+        "user": "tizzi",
+        "team": "Reindeer",
+        "attacks": 12,
+        "hitsTaken": 14,
+        "ratio": 0.8571428571428571
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 13,
+        "hitsTaken": 7,
+        "ratio": 1.8571428571428572
+      },
+      {
+        "user": "RavenLunatic",
+        "team": "Reindeer",
+        "attacks": 10,
+        "hitsTaken": 7,
+        "ratio": 1.4285714285714286
+      },
+      {
+        "user": "TheOhanaGryphoness",
+        "team": "Penguin",
+        "attacks": 9,
+        "hitsTaken": 8,
+        "ratio": 1.125
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 8,
+        "ratio": 0
+      },
+      {
+        "user": "snout",
+        "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 1,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Town Square-9",
     "roomName": "Town Square",
     "start": "2025-12-24T20:55:21.000Z",
