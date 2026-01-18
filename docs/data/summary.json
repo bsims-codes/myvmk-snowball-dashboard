@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-18T22:37:50.671Z",
-  "totalRows": 30921,
+  "generatedAt": "2026-01-18T22:48:45.837Z",
+  "totalRows": 30931,
   "totalUsers": 560,
   "teamStats": {
     "Penguin": {
       "users": 256,
-      "attacks": 17496,
-      "hitsTaken": 13425
+      "attacks": 17504,
+      "hitsTaken": 13427
     },
     "Reindeer": {
       "users": 304,
-      "attacks": 13425,
-      "hitsTaken": 17496
+      "attacks": 13427,
+      "hitsTaken": 17504
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 17496
+      "count": 17504
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 13425
+      "count": 13427
     }
   ],
   "topAttackers": [
@@ -82,7 +82,7 @@
     },
     {
       "user": "Devgirlforever",
-      "attacks": 757,
+      "attacks": 761,
       "team": "Penguin"
     },
     {
@@ -199,12 +199,12 @@
     },
     {
       "user": "Magenta",
-      "hitsTaken": 514,
+      "hitsTaken": 515,
       "team": "Penguin"
     },
     {
       "user": "Devgirlforever",
-      "hitsTaken": 460,
+      "hitsTaken": 461,
       "team": "Penguin"
     },
     {
@@ -350,9 +350,9 @@
     {
       "user": "Devgirlforever",
       "team": "Penguin",
-      "attacks": 757,
-      "hitsTaken": 460,
-      "ratio": 1.6456521739130434
+      "attacks": 761,
+      "hitsTaken": 461,
+      "ratio": 1.650759219088937
     },
     {
       "user": "bsims",
@@ -448,9 +448,9 @@
     {
       "user": "Magenta",
       "team": "Penguin",
-      "attacks": 97,
-      "hitsTaken": 514,
-      "ratio": 0.188715953307393
+      "attacks": 101,
+      "hitsTaken": 515,
+      "ratio": 0.19611650485436893
     },
     {
       "user": "bunny",
@@ -1188,6 +1188,13 @@
       "ratio": 0.5769230769230769
     },
     {
+      "user": "thatcookiewasgood",
+      "team": "Reindeer",
+      "attacks": 52,
+      "hitsTaken": 30,
+      "ratio": 1.7333333333333334
+    },
+    {
       "user": "Ormonddude",
       "team": "Reindeer",
       "attacks": 33,
@@ -1284,13 +1291,6 @@
       "attacks": 6,
       "hitsTaken": 66,
       "ratio": 0.09090909090909091
-    },
-    {
-      "user": "thatcookiewasgood",
-      "team": "Reindeer",
-      "attacks": 50,
-      "hitsTaken": 22,
-      "ratio": 2.272727272727273
     },
     {
       "user": "therealbear",
@@ -3787,37 +3787,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.29510891744127293,
-      "intercept": 43.47423519893633,
+      "slope": 0.29516174738883516,
+      "intercept": 43.48506527701099,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 43.47423519893633,
-      "y2": 1526.396545341333,
+      "y1": 43.48506527701099,
+      "y2": 1526.6728459059077,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2681998608826153,
-      "intercept": 38.022321544626756,
+      "slope": 0.2683833048728583,
+      "intercept": 38.007665493952985,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 38.022321544626756,
-      "y2": 1385.7266224797688,
+      "y1": 38.007665493952985,
+      "y2": 1386.6337724800658,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3102766932212956,
-      "intercept": 49.06699611398727,
+      "slope": 0.31027433507907565,
+      "intercept": 49.09434336370261,
       "xMin": 0,
       "xMax": 5025,
-      "y1": 49.06699611398727,
-      "y2": 1608.2073795509975,
+      "y1": 49.09434336370261,
+      "y2": 1608.2228771360578,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 9489,
+      "hitCount": 9499,
       "avgUserRatio": 0.88,
       "activeUsers": 234
     },
