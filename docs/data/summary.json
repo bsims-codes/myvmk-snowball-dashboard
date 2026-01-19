@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-19T19:01:59.008Z",
-  "totalRows": 31732,
+  "generatedAt": "2026-01-19T19:24:34.703Z",
+  "totalRows": 31733,
   "totalUsers": 570,
   "teamStats": {
     "Penguin": {
       "users": 265,
-      "attacks": 17838,
+      "attacks": 17839,
       "hitsTaken": 13894
     },
     "Reindeer": {
       "users": 305,
       "attacks": 13894,
-      "hitsTaken": 17838
+      "hitsTaken": 17839
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 17838
+      "count": 17839
     },
     {
       "pair": "Reindeer → Penguin",
@@ -37,7 +37,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 1737,
+      "attacks": 1738,
       "team": "Penguin"
     },
     {
@@ -301,9 +301,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 1737,
+      "attacks": 1738,
       "hitsTaken": 345,
-      "ratio": 5.034782608695652
+      "ratio": 5.0376811594202895
     },
     {
       "user": "TaterTotCasserole",
@@ -915,18 +915,18 @@
       "ratio": 3.2333333333333334
     },
     {
+      "user": "CutieGoldenLady",
+      "team": "Reindeer",
+      "attacks": 42,
+      "hitsTaken": 85,
+      "ratio": 0.49411764705882355
+    },
+    {
       "user": "alphablue",
       "team": "Reindeer",
       "attacks": 32,
       "hitsTaken": 94,
       "ratio": 0.3404255319148936
-    },
-    {
-      "user": "CutieGoldenLady",
-      "team": "Reindeer",
-      "attacks": 42,
-      "hitsTaken": 84,
-      "ratio": 0.5
     },
     {
       "user": "Rex",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2897053118998054,
-      "intercept": 44.92245972808595,
+      "slope": 0.2896902082446332,
+      "intercept": 44.924838765212066,
       "xMin": 0,
       "xMax": 5383,
-      "y1": 44.92245972808595,
-      "y2": 1604.4061536847385,
+      "y1": 44.924838765212066,
+      "y2": 1604.3272297460726,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27293687844134323,
-      "intercept": 39.23099491755547,
+      "slope": 0.2728948895844401,
+      "intercept": 39.233073600359575,
       "xMin": 0,
       "xMax": 5383,
-      "y1": 39.23099491755547,
-      "y2": 1508.4502115673063,
+      "y1": 39.233073600359575,
+      "y2": 1508.2262642334006,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2987631701825361,
-      "intercept": 50.371151438465716,
+      "slope": 0.2987628816673828,
+      "intercept": 50.37485626522774,
       "xMin": 0,
       "xMax": 5383,
-      "y1": 50.371151438465716,
-      "y2": 1658.6132965310576,
+      "y1": 50.37485626522774,
+      "y2": 1658.6154482807492,
       "label": "Reindeer"
     }
   },
@@ -3865,7 +3865,7 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 576,
+      "hitCount": 577,
       "avgUserRatio": 2.48,
       "activeUsers": 63
     },
