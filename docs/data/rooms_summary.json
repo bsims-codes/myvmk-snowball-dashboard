@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 9880,
+    "hitCount": 9882,
     "avgUserRatio": 0.87,
     "activeUsers": 236
   },
@@ -73,9 +73,9 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 418,
-    "avgUserRatio": 1.87,
-    "activeUsers": 92
+    "hitCount": 423,
+    "avgUserRatio": 1.82,
+    "activeUsers": 95
   },
   {
     "roomName": "Banquet Hall",
@@ -132,6 +132,12 @@
     "activeUsers": 36
   },
   {
+    "roomName": "Gallery",
+    "hitCount": 201,
+    "avgUserRatio": 2.54,
+    "activeUsers": 34
+  },
+  {
     "roomName": "Adventureland Bazaar",
     "hitCount": 201,
     "avgUserRatio": 1.09,
@@ -142,12 +148,6 @@
     "hitCount": 201,
     "avgUserRatio": 1.14,
     "activeUsers": 40
-  },
-  {
-    "roomName": "Gallery",
-    "hitCount": 190,
-    "avgUserRatio": 2.31,
-    "activeUsers": 34
   },
   {
     "roomName": "Pixar Pier Entrance",
@@ -276,6 +276,12 @@
     "activeUsers": 13
   },
   {
+    "roomName": "Space Mountain Quest Deck",
+    "hitCount": 58,
+    "avgUserRatio": 0.73,
+    "activeUsers": 22
+  },
+  {
     "roomName": "Autopia Space Race",
     "hitCount": 54,
     "avgUserRatio": 3.19,
@@ -298,12 +304,6 @@
     "hitCount": 47,
     "avgUserRatio": 2.53,
     "activeUsers": 17
-  },
-  {
-    "roomName": "Space Mountain Quest Deck",
-    "hitCount": 45,
-    "avgUserRatio": 1.01,
-    "activeUsers": 19
   },
   {
     "roomName": "Frontierland Dock",
