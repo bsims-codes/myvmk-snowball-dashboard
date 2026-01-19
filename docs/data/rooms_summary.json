@@ -13,7 +13,7 @@
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 2751,
+    "hitCount": 2752,
     "avgUserRatio": 1.1,
     "activeUsers": 253
   },
@@ -61,9 +61,9 @@
   },
   {
     "roomName": "Blue Bayou",
-    "hitCount": 505,
-    "avgUserRatio": 1.43,
-    "activeUsers": 102
+    "hitCount": 506,
+    "avgUserRatio": 1.42,
+    "activeUsers": 103
   },
   {
     "roomName": "Snow White Hide 'n Seek Forest",
@@ -103,8 +103,8 @@
   },
   {
     "roomName": "Pirate Treehouse",
-    "hitCount": 265,
-    "avgUserRatio": 1.65,
+    "hitCount": 266,
+    "avgUserRatio": 1.64,
     "activeUsers": 56
   },
   {
@@ -120,6 +120,12 @@
     "activeUsers": 24
   },
   {
+    "roomName": "VMK Gallery",
+    "hitCount": 215,
+    "avgUserRatio": 3.64,
+    "activeUsers": 40
+  },
+  {
     "roomName": "Adventureland Bazaar",
     "hitCount": 201,
     "avgUserRatio": 1.09,
@@ -130,12 +136,6 @@
     "hitCount": 201,
     "avgUserRatio": 1.14,
     "activeUsers": 40
-  },
-  {
-    "roomName": "VMK Gallery",
-    "hitCount": 198,
-    "avgUserRatio": 3.48,
-    "activeUsers": 37
   },
   {
     "roomName": "Tiki Tiki Tiki Island",
@@ -175,9 +175,9 @@
   },
   {
     "roomName": "Storybookland",
-    "hitCount": 154,
-    "avgUserRatio": 2.48,
-    "activeUsers": 34
+    "hitCount": 157,
+    "avgUserRatio": 2.5,
+    "activeUsers": 35
   },
   {
     "roomName": "Autopia Quest Track",
@@ -216,22 +216,22 @@
     "activeUsers": 18
   },
   {
+    "roomName": "Nautilus Grotto",
+    "hitCount": 81,
+    "avgUserRatio": 1.63,
+    "activeUsers": 23
+  },
+  {
+    "roomName": "WS - Mexico",
+    "hitCount": 80,
+    "avgUserRatio": 1.83,
+    "activeUsers": 23
+  },
+  {
     "roomName": "Tom Sawyer's Island",
     "hitCount": 77,
     "avgUserRatio": 3.52,
     "activeUsers": 17
-  },
-  {
-    "roomName": "WS - Mexico",
-    "hitCount": 75,
-    "avgUserRatio": 1.68,
-    "activeUsers": 22
-  },
-  {
-    "roomName": "Nautilus Grotto",
-    "hitCount": 74,
-    "avgUserRatio": 1.68,
-    "activeUsers": 21
   },
   {
     "roomName": "WS - Canada",
@@ -241,9 +241,9 @@
   },
   {
     "roomName": "Forbidden Temple",
-    "hitCount": 69,
-    "avgUserRatio": 1.53,
-    "activeUsers": 31
+    "hitCount": 71,
+    "avgUserRatio": 1.49,
+    "activeUsers": 32
   },
   {
     "roomName": "Mickey's Courtyard",
