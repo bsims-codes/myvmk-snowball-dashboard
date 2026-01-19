@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 9500,
-    "avgUserRatio": 0.88,
-    "activeUsers": 234
+    "hitCount": 9879,
+    "avgUserRatio": 0.87,
+    "activeUsers": 235
   },
   {
     "roomName": "Town Square",
@@ -13,9 +13,9 @@
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 2752,
-    "avgUserRatio": 1.1,
-    "activeUsers": 253
+    "hitCount": 2932,
+    "avgUserRatio": 1.06,
+    "activeUsers": 260
   },
   {
     "roomName": "Main Street",
@@ -25,7 +25,7 @@
   },
   {
     "roomName": "Fantasyland in The Sky",
-    "hitCount": 1078,
+    "hitCount": 1080,
     "avgUserRatio": 2.05,
     "activeUsers": 58
   },
@@ -67,9 +67,9 @@
   },
   {
     "roomName": "Snow White Hide 'n Seek Forest",
-    "hitCount": 444,
-    "avgUserRatio": 1.99,
-    "activeUsers": 62
+    "hitCount": 457,
+    "avgUserRatio": 2.11,
+    "activeUsers": 64
   },
   {
     "roomName": "Epcot Entrance",
@@ -91,7 +91,7 @@
   },
   {
     "roomName": "Shrunken Ned's Shop",
-    "hitCount": 344,
+    "hitCount": 345,
     "avgUserRatio": 3.49,
     "activeUsers": 64
   },
@@ -126,6 +126,12 @@
     "activeUsers": 40
   },
   {
+    "roomName": "Tiki Tiki Tiki Island",
+    "hitCount": 203,
+    "avgUserRatio": 1.35,
+    "activeUsers": 36
+  },
+  {
     "roomName": "Adventureland Bazaar",
     "hitCount": 201,
     "avgUserRatio": 1.09,
@@ -138,12 +144,6 @@
     "activeUsers": 40
   },
   {
-    "roomName": "Tiki Tiki Tiki Island",
-    "hitCount": 198,
-    "avgUserRatio": 1.34,
-    "activeUsers": 36
-  },
-  {
     "roomName": "Gallery",
     "hitCount": 190,
     "avgUserRatio": 2.31,
@@ -154,6 +154,12 @@
     "hitCount": 187,
     "avgUserRatio": 1.1,
     "activeUsers": 40
+  },
+  {
+    "roomName": "Storybookland",
+    "hitCount": 176,
+    "avgUserRatio": 2.44,
+    "activeUsers": 35
   },
   {
     "roomName": "Castle Forecourt",
@@ -172,12 +178,6 @@
     "hitCount": 159,
     "avgUserRatio": 1.88,
     "activeUsers": 25
-  },
-  {
-    "roomName": "Storybookland",
-    "hitCount": 157,
-    "avgUserRatio": 2.5,
-    "activeUsers": 35
   },
   {
     "roomName": "Autopia Quest Track",
@@ -199,21 +199,21 @@
   },
   {
     "roomName": "Autopia Off Road on Mars",
-    "hitCount": 113,
+    "hitCount": 115,
     "avgUserRatio": 0.93,
     "activeUsers": 31
+  },
+  {
+    "roomName": "Elephant Bathing Pool",
+    "hitCount": 99,
+    "avgUserRatio": 2.19,
+    "activeUsers": 19
   },
   {
     "roomName": "Festival of the Lion King",
     "hitCount": 94,
     "avgUserRatio": 4.28,
     "activeUsers": 21
-  },
-  {
-    "roomName": "Elephant Bathing Pool",
-    "hitCount": 92,
-    "avgUserRatio": 1.97,
-    "activeUsers": 18
   },
   {
     "roomName": "Nautilus Grotto",
@@ -258,16 +258,16 @@
     "activeUsers": 16
   },
   {
+    "roomName": "Splash Mountain",
+    "hitCount": 62,
+    "avgUserRatio": 0.9,
+    "activeUsers": 22
+  },
+  {
     "roomName": "Lost Safari Party",
     "hitCount": 61,
     "avgUserRatio": 4.62,
     "activeUsers": 13
-  },
-  {
-    "roomName": "Splash Mountain",
-    "hitCount": 60,
-    "avgUserRatio": 0.93,
-    "activeUsers": 21
   },
   {
     "roomName": "Autopia Space Race",
@@ -276,15 +276,15 @@
     "activeUsers": 15
   },
   {
+    "roomName": "Golden Horseshoe Mercantile",
+    "hitCount": 49,
+    "avgUserRatio": 0.79,
+    "activeUsers": 16
+  },
+  {
     "roomName": "Discovery Island",
     "hitCount": 48,
     "avgUserRatio": 1.19,
-    "activeUsers": 14
-  },
-  {
-    "roomName": "Golden Horseshoe Mercantile",
-    "hitCount": 48,
-    "avgUserRatio": 0.83,
     "activeUsers": 14
   },
   {
@@ -330,6 +330,12 @@
     "activeUsers": 18
   },
   {
+    "roomName": "Spell Room",
+    "hitCount": 34,
+    "avgUserRatio": 1.59,
+    "activeUsers": 18
+  },
+  {
     "roomName": "Shipwreck Graveyard",
     "hitCount": 31,
     "avgUserRatio": 2.58,
@@ -370,12 +376,6 @@
     "hitCount": 24,
     "avgUserRatio": 0.78,
     "activeUsers": 12
-  },
-  {
-    "roomName": "Spell Room",
-    "hitCount": 22,
-    "avgUserRatio": 1.09,
-    "activeUsers": 16
   },
   {
     "roomName": "Gibbons",

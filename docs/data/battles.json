@@ -5401,6 +5401,128 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-62",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-18T20:14:11.000Z",
+    "end": "2026-01-18T20:30:00.000Z",
+    "durationMinutes": 16,
+    "hitCount": 173,
+    "uniqueUsers": 11,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 62
+      },
+      {
+        "user": "bsims",
+        "team": "Penguin",
+        "attacks": 40
+      },
+      {
+        "user": "PrincessCutezada",
+        "team": "Penguin",
+        "attacks": 31
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "PrincessCutezada",
+        "team": "Penguin",
+        "hitsTaken": 57
+      },
+      {
+        "user": "RavenLunatic",
+        "team": "Reindeer",
+        "hitsTaken": 44
+      },
+      {
+        "user": "bsims",
+        "team": "Penguin",
+        "hitsTaken": 18
+      }
+    ],
+    "participants": [
+      {
+        "user": "PrincessCutezada",
+        "team": "Penguin",
+        "attacks": 31,
+        "hitsTaken": 57,
+        "ratio": 0.543859649122807
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 62,
+        "hitsTaken": 15,
+        "ratio": 4.133333333333334
+      },
+      {
+        "user": "RavenLunatic",
+        "team": "Reindeer",
+        "attacks": 15,
+        "hitsTaken": 44,
+        "ratio": 0.3409090909090909
+      },
+      {
+        "user": "bsims",
+        "team": "Penguin",
+        "attacks": 40,
+        "hitsTaken": 18,
+        "ratio": 2.2222222222222223
+      },
+      {
+        "user": "Simpleplanfangirl",
+        "team": "Reindeer",
+        "attacks": 9,
+        "hitsTaken": 18,
+        "ratio": 0.5
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 13,
+        "hitsTaken": 5,
+        "ratio": 2.6
+      },
+      {
+        "user": "CutieGoldenLady",
+        "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 8,
+        "ratio": 0.125
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 6,
+        "ratio": 0
+      },
+      {
+        "user": "camper",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      },
+      {
+        "user": "snout",
+        "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Monorail Train-1",
     "roomName": "Monorail Train",
     "start": "2025-12-19T15:13:25.000Z",
@@ -7007,6 +7129,116 @@
     ]
   },
   {
+    "id": "Matterhorn-26",
+    "roomName": "Matterhorn",
+    "start": "2026-01-18T20:52:53.000Z",
+    "end": "2026-01-18T21:05:50.000Z",
+    "durationMinutes": 13,
+    "hitCount": 122,
+    "uniqueUsers": 10,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 107
+      },
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "attacks": 15
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Izabelle",
+        "team": "Penguin",
+        "hitsTaken": 56
+      },
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "hitsTaken": 33
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 15
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 107,
+        "hitsTaken": 15,
+        "ratio": 7.133333333333334
+      },
+      {
+        "user": "Izabelle",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 56,
+        "ratio": 0
+      },
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "attacks": 15,
+        "hitsTaken": 33,
+        "ratio": 0.45454545454545453
+      },
+      {
+        "user": "brimmy",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 11,
+        "ratio": 0
+      },
+      {
+        "user": "bellemeansbeauty",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "Naiant",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "Retro",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "miszpink_",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "Jasmineberk",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-22",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-21T22:38:44.000Z",
@@ -7253,6 +7485,114 @@
         "team": "Reindeer",
         "attacks": 0,
         "hitsTaken": 2,
+        "ratio": 0
+      }
+    ]
+  },
+  {
+    "id": "Captain's Quest Quarters-63",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-18T20:32:37.000Z",
+    "end": "2026-01-18T20:43:18.000Z",
+    "durationMinutes": 11,
+    "hitCount": 110,
+    "uniqueUsers": 9,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 72
+      },
+      {
+        "user": "CutieGoldenLady",
+        "team": "Reindeer",
+        "attacks": 21
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 9
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "hitsTaken": 45
+      },
+      {
+        "user": "SleepToken",
+        "team": "Penguin",
+        "hitsTaken": 24
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 12
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 72,
+        "hitsTaken": 12,
+        "ratio": 6
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 9,
+        "hitsTaken": 45,
+        "ratio": 0.2
+      },
+      {
+        "user": "CutieGoldenLady",
+        "team": "Reindeer",
+        "attacks": 21,
+        "hitsTaken": 4,
+        "ratio": 5.25
+      },
+      {
+        "user": "SleepToken",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 24,
+        "ratio": 0
+      },
+      {
+        "user": "bsims",
+        "team": "Penguin",
+        "attacks": 6,
+        "hitsTaken": 6,
+        "ratio": 1
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 2,
+        "hitsTaken": 9,
+        "ratio": 0.2222222222222222
+      },
+      {
+        "user": "Naiant",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 7,
+        "ratio": 0
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      },
+      {
+        "user": "CaptainBubbles",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
         "ratio": 0
       }
     ]
@@ -7867,6 +8207,128 @@
         "team": "Penguin",
         "attacks": 0,
         "hitsTaken": 5,
+        "ratio": 0
+      }
+    ]
+  },
+  {
+    "id": "Captain's Quest Quarters-64",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-18T21:12:42.000Z",
+    "end": "2026-01-18T21:23:49.000Z",
+    "durationMinutes": 11,
+    "hitCount": 96,
+    "uniqueUsers": 11,
+    "topAttackers": [
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 19
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 17
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 14
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "CutieGoldenLady",
+        "team": "Reindeer",
+        "hitsTaken": 33
+      },
+      {
+        "user": "thatcookiewasgood",
+        "team": "Reindeer",
+        "hitsTaken": 15
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "hitsTaken": 12
+      }
+    ],
+    "participants": [
+      {
+        "user": "CutieGoldenLady",
+        "team": "Reindeer",
+        "attacks": 12,
+        "hitsTaken": 33,
+        "ratio": 0.36363636363636365
+      },
+      {
+        "user": "thatcookiewasgood",
+        "team": "Reindeer",
+        "attacks": 12,
+        "hitsTaken": 15,
+        "ratio": 0.8
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 19,
+        "hitsTaken": 6,
+        "ratio": 3.1666666666666665
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 17,
+        "hitsTaken": 5,
+        "ratio": 3.4
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 8,
+        "hitsTaken": 12,
+        "ratio": 0.6666666666666666
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 14,
+        "hitsTaken": 5,
+        "ratio": 2.8
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 8,
+        "hitsTaken": 5,
+        "ratio": 1.6
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 11,
+        "ratio": 0
+      },
+      {
+        "user": "BluPirate",
+        "team": "Penguin",
+        "attacks": 6,
+        "hitsTaken": 1,
+        "ratio": 6
+      },
+      {
+        "user": "waterfallglow",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      },
+      {
+        "user": "eeriee",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
         "ratio": 0
       }
     ]
@@ -13319,6 +13781,121 @@
       {
         "user": "eeriee",
         "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
+    "id": "Matterhorn-25",
+    "roomName": "Matterhorn",
+    "start": "2026-01-18T20:44:40.000Z",
+    "end": "2026-01-18T20:50:33.000Z",
+    "durationMinutes": 6,
+    "hitCount": 49,
+    "uniqueUsers": 10,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 27
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 10
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 7
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Izabelle",
+        "team": "Penguin",
+        "hitsTaken": 18
+      },
+      {
+        "user": "Simpleplanfangirl",
+        "team": "Reindeer",
+        "hitsTaken": 11
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "hitsTaken": 7
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 27,
+        "hitsTaken": 4,
+        "ratio": 6.75
+      },
+      {
+        "user": "Izabelle",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 18,
+        "ratio": 0
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 10,
+        "hitsTaken": 7,
+        "ratio": 1.4285714285714286
+      },
+      {
+        "user": "Simpleplanfangirl",
+        "team": "Reindeer",
+        "attacks": 3,
+        "hitsTaken": 11,
+        "ratio": 0.2727272727272727
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 7,
+        "hitsTaken": 3,
+        "ratio": 2.3333333333333335
+      },
+      {
+        "user": "snout",
+        "team": "Reindeer",
+        "attacks": 2,
+        "hitsTaken": 1,
+        "ratio": 2
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      },
+      {
+        "user": "Chernabog",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "SpookyBrightFairy",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "ENTERPRISE",
+        "team": "Reindeer",
         "attacks": 0,
         "hitsTaken": 1,
         "ratio": 0
