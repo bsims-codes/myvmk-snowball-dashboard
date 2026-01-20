@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-20T02:50:47.812Z",
-  "totalRows": 32007,
+  "generatedAt": "2026-01-20T03:59:43.284Z",
+  "totalRows": 32013,
   "totalUsers": 571,
   "teamStats": {
     "Penguin": {
       "users": 266,
-      "attacks": 17922,
+      "attacks": 17928,
       "hitsTaken": 14085
     },
     "Reindeer": {
       "users": 305,
       "attacks": 14085,
-      "hitsTaken": 17922
+      "hitsTaken": 17928
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 17922
+      "count": 17928
     },
     {
       "pair": "Reindeer → Penguin",
@@ -518,9 +518,9 @@
     {
       "user": "PrincessCutezada",
       "team": "Penguin",
-      "attacks": 179,
+      "attacks": 185,
       "hitsTaken": 243,
-      "ratio": 0.7366255144032922
+      "ratio": 0.7613168724279835
     },
     {
       "user": "FlameLegend",
@@ -1055,6 +1055,13 @@
       "ratio": 0.47761194029850745
     },
     {
+      "user": "Monsta",
+      "team": "Reindeer",
+      "attacks": 21,
+      "hitsTaken": 78,
+      "ratio": 0.2692307692307692
+    },
+    {
       "user": "MagicIshaan",
       "team": "Reindeer",
       "attacks": 37,
@@ -1069,6 +1076,13 @@
       "ratio": 0.043010752688172046
     },
     {
+      "user": "SavageGuy",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 96,
+      "ratio": 0
+    },
+    {
       "user": "FISHkars",
       "team": "Reindeer",
       "attacks": 16,
@@ -1076,25 +1090,11 @@
       "ratio": 0.20253164556962025
     },
     {
-      "user": "SavageGuy",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 95,
-      "ratio": 0
-    },
-    {
       "user": "AstroVioletRose",
       "team": "Reindeer",
       "attacks": 74,
       "hitsTaken": 20,
       "ratio": 3.7
-    },
-    {
-      "user": "Monsta",
-      "team": "Reindeer",
-      "attacks": 21,
-      "hitsTaken": 73,
-      "ratio": 0.2876712328767123
     },
     {
       "user": "IreneAdler",
@@ -3787,37 +3787,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2926396543302084,
-      "intercept": 45.12130628494069,
+      "slope": 0.29264754136949717,
+      "intercept": 45.129289696607536,
       "xMin": 0,
       "xMax": 5485,
-      "y1": 45.12130628494069,
-      "y2": 1650.2498102861337,
+      "y1": 45.129289696607536,
+      "y2": 1650.3010541082995,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27661882685002487,
-      "intercept": 39.66808132247841,
+      "slope": 0.2766687437897839,
+      "intercept": 39.656926195739445,
       "xMin": 0,
       "xMax": 5485,
-      "y1": 39.66808132247841,
-      "y2": 1556.9223465948648,
+      "y1": 39.656926195739445,
+      "y2": 1557.1849858827043,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3010299969846073,
-      "intercept": 50.35274742607297,
+      "slope": 0.30102379367138815,
+      "intercept": 50.37521001374849,
       "xMin": 0,
       "xMax": 5485,
-      "y1": 50.35274742607297,
-      "y2": 1701.502280886644,
+      "y1": 50.37521001374849,
+      "y2": 1701.4907183013124,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 10146,
+      "hitCount": 10151,
       "avgUserRatio": 0.86,
       "activeUsers": 236
     },
@@ -3865,9 +3865,9 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 585,
-      "avgUserRatio": 2.44,
-      "activeUsers": 64
+      "hitCount": 586,
+      "avgUserRatio": 2.42,
+      "activeUsers": 65
     },
     {
       "roomName": "Monorail Station",
