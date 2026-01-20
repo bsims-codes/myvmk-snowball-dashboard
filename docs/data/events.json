@@ -308742,7 +308742,7 @@
   {
     "time": "2026-01-18 17:30:36",
     "attacker": "thatcookiewasgood",
-    "victim": "Guest10149196",
+    "victim": "beckbeck",
     "roomId": "76",
     "roomName": "Captain's Quest Quarters",
     "value": 1.75,
@@ -308772,7 +308772,7 @@
   {
     "time": "2026-01-18 17:30:53",
     "attacker": "thatcookiewasgood",
-    "victim": "Guest10149196",
+    "victim": "beckbeck",
     "roomId": "76",
     "roomName": "Captain's Quest Quarters",
     "value": 1.75,
@@ -320128,5 +320128,45 @@
     "value": 1,
     "attackerTeam": "Penguin",
     "victimTeam": "Reindeer"
+  },
+  {
+    "time": "2026-01-19 22:59:52",
+    "attacker": "Kronkx",
+    "victim": "Rstar",
+    "roomId": "11",
+    "roomName": "Jungle Cruise Dock",
+    "value": 1.03448,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2026-01-19 22:59:58",
+    "attacker": "Kronkx",
+    "victim": "Rstar",
+    "roomId": "11",
+    "roomName": "Jungle Cruise Dock",
+    "value": 1.03448,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2026-01-19 23:00:03",
+    "attacker": "Kronkx",
+    "victim": "Rstar",
+    "roomId": "11",
+    "roomName": "Jungle Cruise Dock",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2026-01-19 23:00:10",
+    "attacker": "Kronkx",
+    "victim": "Rstar",
+    "roomId": "11",
+    "roomName": "Jungle Cruise Dock",
+    "value": 1,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
   }
 ]
