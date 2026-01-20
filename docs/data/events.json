@@ -322228,5 +322228,25 @@
     "value": 1.21429,
     "attackerTeam": "Reindeer",
     "victimTeam": "Penguin"
+  },
+  {
+    "time": "2026-01-20 14:32:26",
+    "attacker": "PuffyOldDragon",
+    "victim": "Luckymaxer",
+    "roomId": "37",
+    "roomName": "Snow White Hide 'n Seek Forest",
+    "value": 1.26923,
+    "attackerTeam": "Reindeer",
+    "victimTeam": "Penguin"
+  },
+  {
+    "time": "2026-01-20 14:32:33",
+    "attacker": "Luckymaxer",
+    "victim": "PuffyOldDragon",
+    "roomId": "37",
+    "roomName": "Snow White Hide 'n Seek Forest",
+    "value": 1,
+    "attackerTeam": "Penguin",
+    "victimTeam": "Reindeer"
   }
 ]
