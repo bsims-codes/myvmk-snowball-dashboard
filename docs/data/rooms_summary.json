@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 9903,
+    "hitCount": 10146,
     "avgUserRatio": 0.86,
     "activeUsers": 236
   },
@@ -49,7 +49,7 @@
   },
   {
     "roomName": "Jungle Cruise Dock",
-    "hitCount": 579,
+    "hitCount": 585,
     "avgUserRatio": 2.44,
     "activeUsers": 64
   },
@@ -204,6 +204,12 @@
     "activeUsers": 31
   },
   {
+    "roomName": "Anandapur",
+    "hitCount": 100,
+    "avgUserRatio": 2.18,
+    "activeUsers": 25
+  },
+  {
     "roomName": "Elephant Bathing Pool",
     "hitCount": 99,
     "avgUserRatio": 2.19,
@@ -214,12 +220,6 @@
     "hitCount": 94,
     "avgUserRatio": 4.28,
     "activeUsers": 21
-  },
-  {
-    "roomName": "Anandapur",
-    "hitCount": 92,
-    "avgUserRatio": 2.15,
-    "activeUsers": 22
   },
   {
     "roomName": "Nautilus Grotto",
