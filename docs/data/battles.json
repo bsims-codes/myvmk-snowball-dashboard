@@ -14974,6 +14974,93 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-67",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-20T13:24:07.000Z",
+    "end": "2026-01-20T13:28:56.000Z",
+    "durationMinutes": 5,
+    "hitCount": 46,
+    "uniqueUsers": 6,
+    "topAttackers": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 29
+      },
+      {
+        "user": "BluPirate",
+        "team": "Penguin",
+        "attacks": 10
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 7
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "hitsTaken": 17
+      },
+      {
+        "user": "BluPirate",
+        "team": "Penguin",
+        "hitsTaken": 10
+      },
+      {
+        "user": "Hannahpea",
+        "team": "Penguin",
+        "hitsTaken": 6
+      }
+    ],
+    "participants": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 29,
+        "hitsTaken": 17,
+        "ratio": 1.7058823529411764
+      },
+      {
+        "user": "BluPirate",
+        "team": "Penguin",
+        "attacks": 10,
+        "hitsTaken": 10,
+        "ratio": 1
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 7,
+        "hitsTaken": 4,
+        "ratio": 1.75
+      },
+      {
+        "user": "Hannahpea",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 6,
+        "ratio": 0
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 6,
+        "ratio": 0
+      },
+      {
+        "user": "Kenneth123",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 3,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-58",
     "roomName": "Captain's Quest Quarters",
     "start": "2026-01-14T20:19:30.000Z",
