@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-20T21:58:55.024Z",
-  "totalRows": 32225,
-  "totalUsers": 572,
+  "generatedAt": "2026-01-20T22:21:43.712Z",
+  "totalRows": 32226,
+  "totalUsers": 573,
   "teamStats": {
     "Penguin": {
       "users": 267,
       "attacks": 18027,
-      "hitsTaken": 14198
+      "hitsTaken": 14199
     },
     "Reindeer": {
-      "users": 305,
-      "attacks": 14198,
+      "users": 306,
+      "attacks": 14199,
       "hitsTaken": 18027
     },
     "Unknown": {
@@ -26,7 +26,7 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 14198
+      "count": 14199
     }
   ],
   "topAttackers": [
@@ -652,8 +652,8 @@
       "user": "OGBlondie_",
       "team": "Penguin",
       "attacks": 153,
-      "hitsTaken": 93,
-      "ratio": 1.6451612903225807
+      "hitsTaken": 94,
+      "ratio": 1.627659574468085
     },
     {
       "user": "Tggrhny",
@@ -3787,21 +3787,21 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2943479716019987,
-      "intercept": 45.315628014024,
+      "slope": 0.29434977177651606,
+      "intercept": 45.31751200717775,
       "xMin": 0,
       "xMax": 5523,
-      "y1": 45.315628014024,
-      "y2": 1670.999475171863,
+      "y1": 45.31751200717775,
+      "y2": 1671.011301528876,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2770550417365287,
-      "intercept": 39.991628265061436,
+      "slope": 0.2770599193766233,
+      "intercept": 39.99561114950377,
       "xMin": 0,
       "xMax": 5523,
-      "y1": 39.991628265061436,
-      "y2": 1570.1666237759093,
+      "y1": 39.99561114950377,
+      "y2": 1570.197545866594,
       "label": "Penguin"
     },
     "reindeer": {
@@ -3853,9 +3853,9 @@
     },
     {
       "roomName": "VMK Esplanade",
-      "hitCount": 831,
-      "avgUserRatio": 2.06,
-      "activeUsers": 118
+      "hitCount": 832,
+      "avgUserRatio": 2.03,
+      "activeUsers": 120
     },
     {
       "roomName": "Dungeon",
