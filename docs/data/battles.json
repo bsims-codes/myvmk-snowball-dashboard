@@ -15520,6 +15520,86 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-71",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-21T14:34:37.000Z",
+    "end": "2026-01-21T14:45:06.000Z",
+    "durationMinutes": 10,
+    "hitCount": 45,
+    "uniqueUsers": 5,
+    "topAttackers": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 36
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 5
+      },
+      {
+        "user": "mikey29",
+        "team": "Penguin",
+        "attacks": 4
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "mikey29",
+        "team": "Penguin",
+        "hitsTaken": 28
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "hitsTaken": 8
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 7
+      }
+    ],
+    "participants": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 36,
+        "hitsTaken": 8,
+        "ratio": 4.5
+      },
+      {
+        "user": "mikey29",
+        "team": "Penguin",
+        "attacks": 4,
+        "hitsTaken": 28,
+        "ratio": 0.14285714285714285
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 7,
+        "ratio": 0
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 5,
+        "hitsTaken": 1,
+        "ratio": 5
+      },
+      {
+        "user": "bao",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-60",
     "roomName": "Captain's Quest Quarters",
     "start": "2026-01-17T20:34:03.000Z",
