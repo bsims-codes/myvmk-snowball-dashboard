@@ -893,6 +893,30 @@
         flex: 1 1 100%;
         max-width: 100%;
       }
+
+      /* Missing from roster panel */
+      #missingRosterPanel table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      #missingRosterPanel th,
+      #missingRosterPanel td {
+        padding: 8px 12px;
+        text-align: left;
+        border-bottom: 1px solid var(--border);
+      }
+
+      #missingRosterPanel th {
+        background: var(--hover-bg);
+        font-weight: 600;
+        position: sticky;
+        top: 0;
+      }
+
+      #missingRosterPanel tr:hover td {
+        background: var(--hover-bg);
+      }
     </style>
   </head>
   <body>
@@ -1219,6 +1243,22 @@
           </div>
           <div class="scroll" style="max-height:600px;">
             <div id="joinDatesPanel"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card admin-card" id="missing-roster-section">
+          <h3 class="section-header" style="display:flex;align-items:center;gap:8px;">
+            <span style="color:#ef4444;">&#128566;</span>
+            Missing from Roster
+            <span id="missingRosterCount" style="font-weight:normal;color:var(--text-muted);font-size:0.875rem;"></span>
+            <button class="section-link-btn" onclick="copySectionLink('missing-roster-section', this)" title="Copy link to section">&#128279;</button>
+          </h3>
+          <p class="legend-note" style="margin-top:0;">
+            Users who participated in snowball fights but aren't in the current roster. May indicate name changes or removed users.
+          </p>
+          <div class="scroll" style="max-height:400px;">
+            <div id="missingRosterPanel"></div>
           </div>
         </div>
       </div>
