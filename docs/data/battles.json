@@ -7230,6 +7230,100 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-69",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-20T20:43:15.000Z",
+    "end": "2026-01-20T21:00:26.000Z",
+    "durationMinutes": 17,
+    "hitCount": 122,
+    "uniqueUsers": 7,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 68
+      },
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 31
+      },
+      {
+        "user": "22ghosts",
+        "team": "Penguin",
+        "attacks": 11
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "hitsTaken": 37
+      },
+      {
+        "user": "eeriee",
+        "team": "Penguin",
+        "hitsTaken": 35
+      },
+      {
+        "user": "22ghosts",
+        "team": "Penguin",
+        "hitsTaken": 27
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 68,
+        "hitsTaken": 8,
+        "ratio": 8.5
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 5,
+        "hitsTaken": 37,
+        "ratio": 0.13513513513513514
+      },
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 31,
+        "hitsTaken": 7,
+        "ratio": 4.428571428571429
+      },
+      {
+        "user": "22ghosts",
+        "team": "Penguin",
+        "attacks": 11,
+        "hitsTaken": 27,
+        "ratio": 0.4074074074074074
+      },
+      {
+        "user": "eeriee",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 35,
+        "ratio": 0
+      },
+      {
+        "user": "Redsox",
+        "team": "Reindeer",
+        "attacks": 7,
+        "hitsTaken": 1,
+        "ratio": 7
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 7,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Matterhorn-26",
     "roomName": "Matterhorn",
     "start": "2026-01-18T20:52:53.000Z",
@@ -15785,6 +15879,45 @@
     ]
   },
   {
+    "id": "Jungle Cruise Dock-2",
+    "roomName": "Jungle Cruise Dock",
+    "start": "2026-01-20T21:31:10.000Z",
+    "end": "2026-01-20T21:35:52.000Z",
+    "durationMinutes": 5,
+    "hitCount": 44,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 44
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "LoudCloudyCar",
+        "team": "Reindeer",
+        "hitsTaken": 44
+      }
+    ],
+    "participants": [
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 44,
+        "hitsTaken": 0,
+        "ratio": 44
+      },
+      {
+        "user": "LoudCloudyCar",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 44,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Frontierland Hub-3",
     "roomName": "Frontierland Hub",
     "start": "2025-12-24T00:00:12.000Z",
@@ -18160,6 +18293,45 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-68",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-20T20:33:06.000Z",
+    "end": "2026-01-20T20:37:19.000Z",
+    "durationMinutes": 4,
+    "hitCount": 37,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 37
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "eeriee",
+        "team": "Penguin",
+        "hitsTaken": 37
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 37,
+        "hitsTaken": 0,
+        "ratio": 37
+      },
+      {
+        "user": "eeriee",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 37,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Snow White Hide 'n Seek Forest-3",
     "roomName": "Snow White Hide 'n Seek Forest",
     "start": "2026-01-09T20:40:00.000Z",
@@ -19878,6 +20050,79 @@
         "attacks": 0,
         "hitsTaken": 1,
         "ratio": 0
+      }
+    ]
+  },
+  {
+    "id": "Captain's Quest Quarters-70",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-20T21:03:46.000Z",
+    "end": "2026-01-20T21:10:27.000Z",
+    "durationMinutes": 7,
+    "hitCount": 32,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "Redsox",
+        "team": "Reindeer",
+        "attacks": 18
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 10
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 4
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "hitsTaken": 17
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 11
+      },
+      {
+        "user": "Redsox",
+        "team": "Reindeer",
+        "hitsTaken": 3
+      }
+    ],
+    "participants": [
+      {
+        "user": "Redsox",
+        "team": "Reindeer",
+        "attacks": 18,
+        "hitsTaken": 3,
+        "ratio": 6
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 4,
+        "hitsTaken": 17,
+        "ratio": 0.23529411764705882
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 11,
+        "ratio": 0
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 10,
+        "hitsTaken": 1,
+        "ratio": 10
       }
     ]
   },
