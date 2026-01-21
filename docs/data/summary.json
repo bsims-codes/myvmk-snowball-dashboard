@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-21T15:36:50.246Z",
-  "totalRows": 32545,
-  "totalUsers": 576,
+  "generatedAt": "2026-01-21T16:00:31.877Z",
+  "totalRows": 32547,
+  "totalUsers": 577,
   "teamStats": {
     "Penguin": {
-      "users": 268,
+      "users": 269,
       "attacks": 18133,
-      "hitsTaken": 14412
+      "hitsTaken": 14414
     },
     "Reindeer": {
       "users": 308,
-      "attacks": 14412,
+      "attacks": 14414,
       "hitsTaken": 18133
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 14412
+      "count": 14414
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 5659,
+      "attacks": 5661,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 5659,
+      "attacks": 5661,
       "hitsTaken": 1334,
-      "ratio": 4.242128935532234
+      "ratio": 4.243628185907046
     },
     {
       "user": "CaptainBubbles",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2897255603376613,
-      "intercept": 46.058660533225,
+      "slope": 0.2896482007911256,
+      "intercept": 46.06253649971038,
       "xMin": 0,
-      "xMax": 5659,
-      "y1": 46.058660533225,
-      "y2": 1685.6156064840502,
+      "xMax": 5661,
+      "y1": 46.06253649971038,
+      "y2": 1685.7610011782722,
       "label": "All"
     },
     "penguin": {
       "slope": 0.27477417630849715,
       "intercept": 41.14504126908175,
       "xMin": 0,
-      "xMax": 5659,
+      "xMax": 5661,
       "y1": 41.14504126908175,
-      "y2": 1596.0921049988672,
+      "y2": 1596.6416533514841,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.29730256736445754,
-      "intercept": 50.77267392222622,
+      "slope": 0.297185949088488,
+      "intercept": 50.77666649884485,
       "xMin": 0,
-      "xMax": 5659,
-      "y1": 50.77267392222622,
-      "y2": 1733.2079026376914,
+      "xMax": 5661,
+      "y1": 50.77666649884485,
+      "y2": 1733.1463242887755,
       "label": "Reindeer"
     }
   },
@@ -3871,9 +3871,9 @@
     },
     {
       "roomName": "Monorail Station",
-      "hitCount": 570,
-      "avgUserRatio": 1.8,
-      "activeUsers": 41
+      "hitCount": 572,
+      "avgUserRatio": 1.77,
+      "activeUsers": 42
     },
     {
       "roomName": "Blue Bayou",
