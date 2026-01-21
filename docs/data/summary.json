@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-21T21:16:06.520Z",
-  "totalRows": 32656,
-  "totalUsers": 578,
+  "generatedAt": "2026-01-21T21:44:16.305Z",
+  "totalRows": 32658,
+  "totalUsers": 579,
   "teamStats": {
     "Penguin": {
       "users": 270,
-      "attacks": 18156,
+      "attacks": 18158,
       "hitsTaken": 14500
     },
     "Reindeer": {
-      "users": 308,
+      "users": 309,
       "attacks": 14500,
-      "hitsTaken": 18156
+      "hitsTaken": 18158
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 18156
+      "count": 18158
     },
     {
       "pair": "Reindeer → Penguin",
@@ -42,7 +42,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 1659,
+      "attacks": 1661,
       "team": "Penguin"
     },
     {
@@ -315,9 +315,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 1659,
+      "attacks": 1661,
       "hitsTaken": 470,
-      "ratio": 3.529787234042553
+      "ratio": 3.5340425531914894
     },
     {
       "user": "Winnie",
@@ -3787,21 +3787,21 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2903478525332399,
-      "intercept": 46.167704533874364,
+      "slope": 0.29032757339741494,
+      "intercept": 46.16786749170842,
       "xMin": 0,
       "xMax": 5680,
-      "y1": 46.167704533874364,
-      "y2": 1695.343506922677,
+      "y1": 46.16786749170842,
+      "y2": 1695.2284843890252,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27477364577300334,
-      "intercept": 41.3133591032179,
+      "slope": 0.27471421585073275,
+      "intercept": 41.31567116600043,
       "xMin": 0,
       "xMax": 5680,
-      "y1": 41.3133591032179,
-      "y2": 1602.0276670938767,
+      "y1": 41.31567116600043,
+      "y2": 1601.6924171981623,
       "label": "Penguin"
     },
     "reindeer": {
