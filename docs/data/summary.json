@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-21T19:56:40.091Z",
-  "totalRows": 32634,
+  "generatedAt": "2026-01-21T20:22:06.532Z",
+  "totalRows": 32643,
   "totalUsers": 578,
   "teamStats": {
     "Penguin": {
       "users": 270,
-      "attacks": 18142,
-      "hitsTaken": 14492
+      "attacks": 18150,
+      "hitsTaken": 14493
     },
     "Reindeer": {
       "users": 308,
-      "attacks": 14492,
-      "hitsTaken": 18142
+      "attacks": 14493,
+      "hitsTaken": 18150
     },
     "Unknown": {
       "users": 0,
@@ -22,17 +22,17 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 18142
+      "count": 18150
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 14492
+      "count": 14493
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 5672,
+      "attacks": 5673,
       "team": "Reindeer"
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 1651,
+      "attacks": 1659,
       "team": "Penguin"
     },
     {
@@ -268,14 +268,14 @@
       "team": "Penguin"
     },
     {
+      "user": "AtziriDayre",
+      "hitsTaken": 272,
+      "team": "Reindeer"
+    },
+    {
       "user": "mikgriz",
       "hitsTaken": 267,
       "team": "Penguin"
-    },
-    {
-      "user": "AtziriDayre",
-      "hitsTaken": 264,
-      "team": "Reindeer"
     },
     {
       "user": "xRachelx",
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 5672,
+      "attacks": 5673,
       "hitsTaken": 1334,
-      "ratio": 4.251874062968516
+      "ratio": 4.252623688155922
     },
     {
       "user": "CaptainBubbles",
@@ -315,9 +315,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 1651,
+      "attacks": 1659,
       "hitsTaken": 470,
-      "ratio": 3.5127659574468084
+      "ratio": 3.529787234042553
     },
     {
       "user": "Winnie",
@@ -638,7 +638,7 @@
       "user": "AtziriDayre",
       "team": "Reindeer",
       "attacks": 0,
-      "hitsTaken": 264,
+      "hitsTaken": 272,
       "ratio": 0
     },
     {
@@ -3519,6 +3519,13 @@
       "ratio": 0
     },
     {
+      "user": "Aleron",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 3,
+      "ratio": 0
+    },
+    {
       "user": "Moogsie",
       "team": "Penguin",
       "attacks": 0,
@@ -3736,13 +3743,6 @@
       "ratio": 0
     },
     {
-      "user": "Aleron",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 2,
-      "ratio": 0
-    },
-    {
       "user": "Pixie",
       "team": "Reindeer",
       "attacks": 0,
@@ -3787,37 +3787,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.28999021238352624,
-      "intercept": 46.159818720275844,
+      "slope": 0.28985947566726117,
+      "intercept": 46.18113286634386,
       "xMin": 0,
-      "xMax": 5672,
-      "y1": 46.159818720275844,
-      "y2": 1690.9843033596367,
+      "xMax": 5673,
+      "y1": 46.18113286634386,
+      "y2": 1690.5539383267164,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27466770951933017,
-      "intercept": 41.30361462584869,
+      "slope": 0.274426247260681,
+      "intercept": 41.317521679970135,
       "xMin": 0,
-      "xMax": 5672,
-      "y1": 41.30361462584869,
-      "y2": 1599.2188630194894,
+      "xMax": 5673,
+      "y1": 41.317521679970135,
+      "y2": 1598.1376223898135,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.29764838538882205,
-      "intercept": 50.87960348376885,
+      "slope": 0.29757819697001403,
+      "intercept": 50.911778324370836,
       "xMin": 0,
-      "xMax": 5672,
-      "y1": 50.87960348376885,
-      "y2": 1739.1412454091674,
+      "xMax": 5673,
+      "y1": 50.911778324370836,
+      "y2": 1739.0728897352603,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 10583,
+      "hitCount": 10584,
       "avgUserRatio": 0.83,
       "activeUsers": 240
     },
@@ -3865,8 +3865,8 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 657,
-      "avgUserRatio": 3.3,
+      "hitCount": 665,
+      "avgUserRatio": 3.42,
       "activeUsers": 68
     },
     {
