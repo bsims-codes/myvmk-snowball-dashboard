@@ -1954,6 +1954,14 @@ function isAdminMode() {
 }
 
 /**
+ * Check if bsims mode is enabled via URL parameter (for suspicious detection)
+ */
+function isBsimsMode() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get("bsims") === "true";
+}
+
+/**
  * Detect potential clone accounts based on suspicious patterns
  * Returns array of suspicious users with details about why they're flagged
  */
@@ -2538,14 +2546,25 @@ async function renderMissingFromRoster() {
 }
 
 /**
- * Initialize admin panel visibility
+ * Initialize admin and bsims panel visibility
  */
 function initAdminPanel() {
+  // Bsims section (suspicious detection only)
+  const bsimsSection = document.getElementById("bsims-section");
+  if (bsimsSection) {
+    if (isBsimsMode()) {
+      bsimsSection.style.display = "block";
+      renderCloneDetection();
+    } else {
+      bsimsSection.style.display = "none";
+    }
+  }
+
+  // Admin section (traitors, join dates, missing from roster)
   const adminSection = document.getElementById("admin-section");
   if (adminSection) {
     if (isAdminMode()) {
       adminSection.style.display = "block";
-      renderCloneDetection();
       renderTraitors();
       initJoinDates();
       renderMissingFromRoster();
