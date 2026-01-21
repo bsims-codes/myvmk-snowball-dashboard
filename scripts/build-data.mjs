@@ -195,6 +195,7 @@ function detectBattles(events) {
 /**
  * Fetch team assignments from the official API.
  * CSV format: Username,Team (0=Reindeer, 1=Penguin)
+ * Returns { teamMap, rosters } where rosters has full team member lists
  */
 async function fetchTeamsFromAPI() {
   console.log("Fetching teams from", TEAMS_URL);
@@ -226,6 +227,8 @@ async function fetchTeamsFromAPI() {
   }
 
   const teamMap = {};
+  const rosters = { Penguin: [], Reindeer: [] };
+
   for (const row of dataRows) {
     const username = normUser(row[usernameIdx]);
     const teamValue = row[teamIdx]?.trim();
@@ -235,13 +238,19 @@ async function fetchTeamsFromAPI() {
     // 0 = Reindeer, 1 = Penguin
     if (teamValue === "0") {
       teamMap[username] = "Reindeer";
+      rosters.Reindeer.push(username);
     } else if (teamValue === "1") {
       teamMap[username] = "Penguin";
+      rosters.Penguin.push(username);
     }
   }
 
+  // Sort rosters alphabetically for consistent output
+  rosters.Penguin.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
+  rosters.Reindeer.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
+
   console.log(`Loaded ${Object.keys(teamMap).length} team assignments from API`);
-  return teamMap;
+  return { teamMap, rosters };
 }
 
 function topN(map, n, keyName, valName) {
@@ -426,10 +435,11 @@ async function main() {
   const roomsMap = loadJSON("docs/data/rooms.json", {});
 
   // Fetch teams from API (authoritative source)
-  const apiTeams = await fetchTeamsFromAPI();
+  const apiData = await fetchTeamsFromAPI();
 
   // Use API teams, or empty if API failed
-  const teamMap = apiTeams || {};
+  const teamMap = apiData?.teamMap || {};
+  const rosters = apiData?.rosters || null;
 
   console.log(`Loaded ${Object.keys(roomsMap).length} room mappings`);
 
@@ -647,12 +657,26 @@ async function main() {
   fs.writeFileSync(path.join(outDir, "summary.json"), JSON.stringify(summary, null, 2));
   fs.writeFileSync(path.join(outDir, "battles.json"), JSON.stringify(battles, null, 2));
 
+  // Save full team roster for historical tracking
+  if (rosters) {
+    const rosterData = {
+      generatedAt: new Date().toISOString(),
+      totals: {
+        Penguin: rosters.Penguin.length,
+        Reindeer: rosters.Reindeer.length
+      },
+      rosters
+    };
+    fs.writeFileSync(path.join(outDir, "roster.json"), JSON.stringify(rosterData, null, 2));
+  }
+
   console.log("\nOutput files written:");
   console.log("  - docs/data/events.json");
   console.log("  - docs/data/users.json");
   console.log("  - docs/data/rooms_summary.json");
   console.log("  - docs/data/summary.json");
   console.log("  - docs/data/battles.json");
+  console.log("  - docs/data/roster.json");
   console.log("\nBuild complete!");
 
   // Check for alert conditions

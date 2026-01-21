@@ -2315,6 +2315,125 @@ async function renderTraitors() {
 }
 
 /**
+ * Load and render user join dates table
+ */
+let joinDatesData = null;
+
+async function loadJoinDates() {
+  try {
+    const response = await fetch("./data/user-join-dates.json");
+    if (!response.ok) return null;
+    return await response.json();
+  } catch (err) {
+    console.warn("Failed to load join dates:", err);
+    return null;
+  }
+}
+
+function renderJoinDatesTable() {
+  const container = document.getElementById("joinDatesPanel");
+  if (!container || !joinDatesData) return;
+
+  const searchInput = document.getElementById("joinDatesSearch");
+  const teamFilter = document.getElementById("joinDatesTeamFilter");
+  const sortOrder = document.getElementById("joinDatesSortOrder");
+
+  const searchTerm = (searchInput?.value || "").toLowerCase();
+  const teamValue = teamFilter?.value || "";
+  const sort = sortOrder?.value || "newest";
+
+  // Filter users
+  let filtered = joinDatesData.users.filter(u => {
+    if (searchTerm && !u.user.toLowerCase().includes(searchTerm)) return false;
+    if (teamValue && u.team !== teamValue) return false;
+    return true;
+  });
+
+  // Sort users
+  if (sort === "newest") {
+    filtered.sort((a, b) => new Date(b.firstSeen) - new Date(a.firstSeen));
+  } else if (sort === "oldest") {
+    filtered.sort((a, b) => new Date(a.firstSeen) - new Date(b.firstSeen));
+  } else if (sort === "alpha") {
+    filtered.sort((a, b) => a.user.toLowerCase().localeCompare(b.user.toLowerCase()));
+  }
+
+  // Update count
+  const countEl = document.getElementById("joinDatesCount");
+  if (countEl) {
+    countEl.textContent = `(${filtered.length} of ${joinDatesData.totalUsers})`;
+  }
+
+  if (filtered.length === 0) {
+    container.innerHTML = `<p style="color:var(--text-muted);text-align:center;padding:20px;">No users found.</p>`;
+    return;
+  }
+
+  // Format date for display
+  const formatDate = (isoString) => {
+    const date = new Date(isoString);
+    return date.toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+      hour: "2-digit",
+      minute: "2-digit"
+    });
+  };
+
+  const rows = filtered.map(u => {
+    const teamClass = u.team.toLowerCase();
+    return `
+      <tr>
+        <td><strong>${escapeHtml(u.user)}</strong></td>
+        <td><span class="pill ${teamClass}">${u.team}</span></td>
+        <td class="date-cell">${formatDate(u.firstSeen)}</td>
+      </tr>
+    `;
+  }).join("");
+
+  container.innerHTML = `
+    <table>
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>Team</th>
+          <th>First Seen</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${rows}
+      </tbody>
+    </table>
+  `;
+}
+
+async function initJoinDates() {
+  const container = document.getElementById("joinDatesPanel");
+  if (!container) return;
+
+  container.innerHTML = `<p style="color:var(--text-muted);text-align:center;padding:20px;">Loading...</p>`;
+
+  joinDatesData = await loadJoinDates();
+
+  if (!joinDatesData) {
+    container.innerHTML = `<p style="color:var(--text-muted);text-align:center;padding:20px;">No join date data available. Run <code>node scripts/extract-join-dates.mjs</code> to generate.</p>`;
+    return;
+  }
+
+  // Set up event listeners for filters
+  const searchInput = document.getElementById("joinDatesSearch");
+  const teamFilter = document.getElementById("joinDatesTeamFilter");
+  const sortOrder = document.getElementById("joinDatesSortOrder");
+
+  searchInput?.addEventListener("input", renderJoinDatesTable);
+  teamFilter?.addEventListener("change", renderJoinDatesTable);
+  sortOrder?.addEventListener("change", renderJoinDatesTable);
+
+  renderJoinDatesTable();
+}
+
+/**
  * Initialize admin panel visibility
  */
 function initAdminPanel() {
@@ -2324,6 +2443,7 @@ function initAdminPanel() {
       adminSection.style.display = "block";
       renderCloneDetection();
       renderTraitors();
+      initJoinDates();
     } else {
       adminSection.style.display = "none";
     }

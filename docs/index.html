@@ -842,6 +842,57 @@
       .sortable-table th.sortable:hover {
         background: var(--hover-bg);
       }
+
+      /* Join dates panel */
+      .join-dates-controls {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 16px;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+
+      .join-dates-controls .filter-select {
+        padding: 8px 12px;
+        border-radius: 6px;
+        border: 1px solid var(--border);
+        background: var(--card-bg);
+        color: var(--text);
+        font-size: 0.875rem;
+      }
+
+      #joinDatesPanel table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      #joinDatesPanel th,
+      #joinDatesPanel td {
+        padding: 8px 12px;
+        text-align: left;
+        border-bottom: 1px solid var(--border);
+      }
+
+      #joinDatesPanel th {
+        background: var(--hover-bg);
+        font-weight: 600;
+        position: sticky;
+        top: 0;
+      }
+
+      #joinDatesPanel tr:hover td {
+        background: var(--hover-bg);
+      }
+
+      #joinDatesPanel .date-cell {
+        color: var(--text-muted);
+        font-size: 0.875rem;
+      }
+
+      .admin-card.full-width {
+        flex: 1 1 100%;
+        max-width: 100%;
+      }
     </style>
   </head>
   <body>
@@ -1139,6 +1190,35 @@
           </p>
           <div class="scroll" style="max-height:500px;">
             <div id="traitorsPanel"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card admin-card full-width" id="join-dates-section">
+          <h3 class="section-header" style="display:flex;align-items:center;gap:8px;">
+            <span style="color:#22c55e;">&#128197;</span>
+            User Join Dates
+            <span id="joinDatesCount" style="font-weight:normal;color:var(--text-muted);font-size:0.875rem;"></span>
+            <button class="section-link-btn" onclick="copySectionLink('join-dates-section', this)" title="Copy link to section">&#128279;</button>
+          </h3>
+          <p class="legend-note" style="margin-top:0;">
+            When users first appeared in team rosters (tracked via git history).
+          </p>
+          <div class="join-dates-controls">
+            <input type="text" id="joinDatesSearch" placeholder="Search username..." class="filter-input" style="width:200px;">
+            <select id="joinDatesTeamFilter" class="filter-select">
+              <option value="">All Teams</option>
+              <option value="Penguin">Penguin</option>
+              <option value="Reindeer">Reindeer</option>
+            </select>
+            <select id="joinDatesSortOrder" class="filter-select">
+              <option value="newest">Newest First</option>
+              <option value="oldest">Oldest First</option>
+              <option value="alpha">A-Z</option>
+            </select>
+          </div>
+          <div class="scroll" style="max-height:600px;">
+            <div id="joinDatesPanel"></div>
           </div>
         </div>
       </div>
