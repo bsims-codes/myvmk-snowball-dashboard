@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-21T16:00:31.877Z",
-  "totalRows": 32547,
-  "totalUsers": 577,
+  "generatedAt": "2026-01-21T16:56:29.421Z",
+  "totalRows": 32553,
+  "totalUsers": 578,
   "teamStats": {
     "Penguin": {
-      "users": 269,
+      "users": 270,
       "attacks": 18133,
-      "hitsTaken": 14414
+      "hitsTaken": 14420
     },
     "Reindeer": {
       "users": 308,
-      "attacks": 14414,
+      "attacks": 14420,
       "hitsTaken": 18133
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 14414
+      "count": 14420
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 5661,
+      "attacks": 5667,
       "team": "Reindeer"
     },
     {
@@ -179,7 +179,7 @@
     },
     {
       "user": "HappyToughFish",
-      "hitsTaken": 768,
+      "hitsTaken": 769,
       "team": "Penguin"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 5661,
+      "attacks": 5667,
       "hitsTaken": 1334,
-      "ratio": 4.243628185907046
+      "ratio": 4.248125937031484
     },
     {
       "user": "CaptainBubbles",
@@ -400,7 +400,7 @@
       "user": "HappyToughFish",
       "team": "Penguin",
       "attacks": 0,
-      "hitsTaken": 768,
+      "hitsTaken": 769,
       "ratio": 0
     },
     {
@@ -3372,6 +3372,13 @@
       "ratio": 0
     },
     {
+      "user": "contozoa",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 4,
+      "ratio": 0
+    },
+    {
       "user": "Zanze",
       "team": "Reindeer",
       "attacks": 0,
@@ -3631,6 +3638,13 @@
       "ratio": 0
     },
     {
+      "user": "Blueclay",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 3,
+      "ratio": 0
+    },
+    {
       "user": "Julioulia",
       "team": "Reindeer",
       "attacks": 0,
@@ -3769,57 +3783,43 @@
       "attacks": 0,
       "hitsTaken": 2,
       "ratio": 0
-    },
-    {
-      "user": "littlemands",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 2,
-      "ratio": 0
-    },
-    {
-      "user": "jollypilot",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 2,
-      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.2896482007911256,
-      "intercept": 46.06253649971038,
+      "slope": 0.28941115920573984,
+      "intercept": 46.08249118034316,
       "xMin": 0,
-      "xMax": 5661,
-      "y1": 46.06253649971038,
-      "y2": 1685.7610011782722,
+      "xMax": 5667,
+      "y1": 46.08249118034316,
+      "y2": 1686.1755303992709,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27477417630849715,
-      "intercept": 41.14504126908175,
+      "slope": 0.27495387697862267,
+      "intercept": 40.97734173144364,
       "xMin": 0,
-      "xMax": 5661,
-      "y1": 41.14504126908175,
-      "y2": 1596.6416533514841,
+      "xMax": 5667,
+      "y1": 40.97734173144364,
+      "y2": 1599.1409625692984,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.297185949088488,
-      "intercept": 50.77666649884485,
+      "slope": 0.29676347484271975,
+      "intercept": 50.9725497534779,
       "xMin": 0,
-      "xMax": 5661,
-      "y1": 50.77666649884485,
-      "y2": 1733.1463242887755,
+      "xMax": 5667,
+      "y1": 50.9725497534779,
+      "y2": 1732.731161687171,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 10499,
+      "hitCount": 10504,
       "avgUserRatio": 0.83,
-      "activeUsers": 238
+      "activeUsers": 239
     },
     {
       "roomName": "Town Square",
@@ -3925,9 +3925,9 @@
     },
     {
       "roomName": "New Orleans Square",
-      "hitCount": 259,
-      "avgUserRatio": 1.68,
-      "activeUsers": 38
+      "hitCount": 260,
+      "avgUserRatio": 1.64,
+      "activeUsers": 39
     },
     {
       "roomName": "Monorail Train",
