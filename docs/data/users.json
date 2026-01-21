@@ -16,9 +16,9 @@
   {
     "user": "TaterTotCasserole",
     "team": "Penguin",
-    "attacks": 1661,
-    "hitsTaken": 470,
-    "ratio": 3.5340425531914894
+    "attacks": 1703,
+    "hitsTaken": 483,
+    "ratio": 3.525879917184265
   },
   {
     "user": "Winnie",
@@ -44,9 +44,9 @@
   {
     "user": "goatduck",
     "team": "Penguin",
-    "attacks": 1147,
+    "attacks": 1162,
     "hitsTaken": 591,
-    "ratio": 1.9407783417935702
+    "ratio": 1.9661590524534687
   },
   {
     "user": "bsims",
@@ -72,9 +72,9 @@
   {
     "user": "Devgirlforever",
     "team": "Penguin",
-    "attacks": 809,
-    "hitsTaken": 517,
-    "ratio": 1.564796905222437
+    "attacks": 819,
+    "hitsTaken": 518,
+    "ratio": 1.5810810810810811
   },
   {
     "user": "Mali",
@@ -238,6 +238,13 @@
     "ratio": 1.4285714285714286
   },
   {
+    "user": "RavenLunatic",
+    "team": "Reindeer",
+    "attacks": 169,
+    "hitsTaken": 524,
+    "ratio": 0.32251908396946566
+  },
+  {
     "user": "CartNarcs",
     "team": "Penguin",
     "attacks": 168,
@@ -271,13 +278,6 @@
     "attacks": 153,
     "hitsTaken": 9,
     "ratio": 17
-  },
-  {
-    "user": "RavenLunatic",
-    "team": "Reindeer",
-    "attacks": 153,
-    "hitsTaken": 459,
-    "ratio": 0.3333333333333333
   },
   {
     "user": "Tinkfaniam",
@@ -766,8 +766,8 @@
     "user": "ArrowToTheHeart",
     "team": "Reindeer",
     "attacks": 20,
-    "hitsTaken": 71,
-    "ratio": 0.28169014084507044
+    "hitsTaken": 74,
+    "ratio": 0.2702702702702703
   },
   {
     "user": "SmileyKileyCat",
@@ -948,8 +948,8 @@
     "user": "Z-Child",
     "team": "Reindeer",
     "attacks": 11,
-    "hitsTaken": 9,
-    "ratio": 1.2222222222222223
+    "hitsTaken": 10,
+    "ratio": 1.1
   },
   {
     "user": "wildgirlpony",
@@ -992,6 +992,13 @@
     "attacks": 10,
     "hitsTaken": 3,
     "ratio": 3.3333333333333335
+  },
+  {
+    "user": "-Tron-",
+    "team": "Penguin",
+    "attacks": 9,
+    "hitsTaken": 27,
+    "ratio": 0.3333333333333333
   },
   {
     "user": "doctorseeker",
@@ -1090,13 +1097,6 @@
     "attacks": 7,
     "hitsTaken": 21,
     "ratio": 0.3333333333333333
-  },
-  {
-    "user": "-Tron-",
-    "team": "Penguin",
-    "attacks": 7,
-    "hitsTaken": 26,
-    "ratio": 0.2692307692307692
   },
   {
     "user": "snout",
@@ -1739,7 +1739,7 @@
     "user": "HappyToughFish",
     "team": "Penguin",
     "attacks": 0,
-    "hitsTaken": 808,
+    "hitsTaken": 809,
     "ratio": 0
   },
   {

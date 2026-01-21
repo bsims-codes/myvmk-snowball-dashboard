@@ -16841,6 +16841,100 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-72",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-21T17:39:34.000Z",
+    "end": "2026-01-21T17:44:08.000Z",
+    "durationMinutes": 5,
+    "hitCount": 41,
+    "uniqueUsers": 7,
+    "topAttackers": [
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 15
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 11
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 10
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "RavenLunatic",
+        "team": "Reindeer",
+        "hitsTaken": 35
+      },
+      {
+        "user": "ArrowToTheHeart",
+        "team": "Reindeer",
+        "hitsTaken": 3
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "hitsTaken": 1
+      }
+    ],
+    "participants": [
+      {
+        "user": "RavenLunatic",
+        "team": "Reindeer",
+        "attacks": 3,
+        "hitsTaken": 35,
+        "ratio": 0.08571428571428572
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 15,
+        "hitsTaken": 0,
+        "ratio": 15
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 10,
+        "hitsTaken": 1,
+        "ratio": 10
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 11,
+        "hitsTaken": 0,
+        "ratio": 11
+      },
+      {
+        "user": "-Tron-",
+        "team": "Penguin",
+        "attacks": 2,
+        "hitsTaken": 1,
+        "ratio": 2
+      },
+      {
+        "user": "ArrowToTheHeart",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 3,
+        "ratio": 0
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-40",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-27T20:31:33.000Z",
