@@ -2350,15 +2350,19 @@ function renderJoinDatesTable() {
   const searchInput = document.getElementById("joinDatesSearch");
   const teamFilter = document.getElementById("joinDatesTeamFilter");
   const sortOrder = document.getElementById("joinDatesSortOrder");
+  const hideBaselineCheckbox = document.getElementById("joinDatesHideBaseline");
 
   const searchTerm = (searchInput?.value || "").toLowerCase();
   const teamValue = teamFilter?.value || "";
   const sort = sortOrder?.value || "newest";
+  const hideBaseline = hideBaselineCheckbox?.checked || false;
 
   // Filter users
   let filtered = joinDatesData.users.filter(u => {
     if (searchTerm && !u.user.toLowerCase().includes(searchTerm)) return false;
     if (teamValue && u.team !== teamValue) return false;
+    // Hide baseline users (source: 'roster') if checkbox is checked
+    if (hideBaseline && u.source === 'roster') return false;
     return true;
   });
 
@@ -2438,10 +2442,12 @@ async function initJoinDates() {
   const searchInput = document.getElementById("joinDatesSearch");
   const teamFilter = document.getElementById("joinDatesTeamFilter");
   const sortOrder = document.getElementById("joinDatesSortOrder");
+  const hideBaselineCheckbox = document.getElementById("joinDatesHideBaseline");
 
   searchInput?.addEventListener("input", renderJoinDatesTable);
   teamFilter?.addEventListener("change", renderJoinDatesTable);
   sortOrder?.addEventListener("change", renderJoinDatesTable);
+  hideBaselineCheckbox?.addEventListener("change", renderJoinDatesTable);
 
   renderJoinDatesTable();
 }

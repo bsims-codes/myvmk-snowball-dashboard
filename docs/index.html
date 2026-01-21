@@ -861,6 +861,19 @@
         font-size: 0.875rem;
       }
 
+      .join-dates-controls .filter-checkbox {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 0.875rem;
+        color: var(--text-muted);
+        cursor: pointer;
+      }
+
+      .join-dates-controls .filter-checkbox input {
+        cursor: pointer;
+      }
+
       #joinDatesPanel table {
         width: 100%;
         border-collapse: collapse;
@@ -1240,6 +1253,10 @@
               <option value="oldest">Oldest First</option>
               <option value="alpha">A-Z</option>
             </select>
+            <label class="filter-checkbox">
+              <input type="checkbox" id="joinDatesHideBaseline">
+              <span>Hide baseline users</span>
+            </label>
           </div>
           <div class="scroll" style="max-height:600px;">
             <div id="joinDatesPanel"></div>
