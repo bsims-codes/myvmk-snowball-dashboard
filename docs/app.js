@@ -560,7 +560,7 @@ async function refreshFromAPI() {
       `${summary.totalUsers?.toLocaleString() || 0} users`;
 
     // Render components
-    renderTeamStats(summary, teamData?.totals);
+    await renderTeamStats(summary, teamData?.totals);
     renderTopLists(summary);
     renderTeamRosters(teamData);
     renderBattlesTable();
@@ -650,7 +650,7 @@ async function refreshFromAPI() {
         `${summary.totalUsers?.toLocaleString() || 0} users`;
 
       // Render components
-      renderTeamStats(summary, teamData?.totals);
+      await renderTeamStats(summary, teamData?.totals);
       renderTopLists(summary);
       renderTeamRosters(teamData);
       renderBattlesTable();
@@ -1107,7 +1107,7 @@ async function loadAndRefreshData() {
     currentTeamData = teamData;
 
     // Render components (pass team totals for accurate member counts)
-    renderTeamStats(summary, teamData?.totals);
+    await renderTeamStats(summary, teamData?.totals);
     renderTopLists(summary);
     renderTeamRosters(teamData);
     renderBattlesTable();
@@ -1265,9 +1265,16 @@ function evaluateFilter(row, conditions) {
   return true;
 }
 
-function renderTeamStats(summary, teamTotals) {
+async function renderTeamStats(summary, teamTotals) {
   const container = document.getElementById("teamStats");
   const ts = summary.teamStats || {};
+
+  // Always fetch team totals from API if not provided
+  let totals = teamTotals;
+  if (!totals) {
+    const teamData = currentTeamData || await fetchTeamData();
+    totals = teamData?.totals;
+  }
 
   const items = [
     { team: "penguin", label: "Penguin", data: ts.Penguin || {} },
@@ -1281,7 +1288,7 @@ function renderTeamStats(summary, teamTotals) {
 
   container.innerHTML = items.map(item => {
     // Use API total if available, otherwise fall back to participant count
-    const totalMembers = teamTotals?.[item.label] ?? item.data.users ?? 0;
+    const totalMembers = totals?.[item.label] ?? item.data.users ?? 0;
     const participants = item.data.users || 0;
     const adjusted = item.data.adjustedPoints || 0;
 
