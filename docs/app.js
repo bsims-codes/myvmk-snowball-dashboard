@@ -2219,15 +2219,21 @@ async function detectTraitors() {
       }
     });
 
-    // Get current team data
-    if (!currentTeamData || !currentTeamData.rosters) {
+    // Always fetch live team data for traitor detection (regardless of data mode)
+    let teamData = currentTeamData;
+    if (!teamData || !teamData.rosters) {
+      teamData = await fetchTeamData();
+    }
+
+    if (!teamData || !teamData.rosters) {
+      console.warn("Could not fetch team data for traitor detection");
       return [];
     }
 
     const traitors = [];
 
     // Check Penguin roster for former Reindeer
-    currentTeamData.rosters.Penguin.forEach(user => {
+    teamData.rosters.Penguin.forEach(user => {
       const preReset = preResetTeams[user.toLowerCase()];
       if (preReset && preReset.team === "Reindeer") {
         traitors.push({
@@ -2239,7 +2245,7 @@ async function detectTraitors() {
     });
 
     // Check Reindeer roster for former Penguin
-    currentTeamData.rosters.Reindeer.forEach(user => {
+    teamData.rosters.Reindeer.forEach(user => {
       const preReset = preResetTeams[user.toLowerCase()];
       if (preReset && preReset.team === "Penguin") {
         traitors.push({
