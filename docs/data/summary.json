@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-21T05:58:33.461Z",
-  "totalRows": 32516,
-  "totalUsers": 575,
+  "generatedAt": "2026-01-21T06:33:37.755Z",
+  "totalRows": 32521,
+  "totalUsers": 576,
   "teamStats": {
     "Penguin": {
-      "users": 267,
+      "users": 268,
       "attacks": 18127,
-      "hitsTaken": 14389
+      "hitsTaken": 14394
     },
     "Reindeer": {
       "users": 308,
-      "attacks": 14389,
+      "attacks": 14394,
       "hitsTaken": 18127
     },
     "Unknown": {
@@ -26,7 +26,7 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 14389
+      "count": 14394
     }
   ],
   "topAttackers": [
@@ -950,6 +950,13 @@
       "ratio": 0.30526315789473685
     },
     {
+      "user": "airham",
+      "team": "Reindeer",
+      "attacks": 79,
+      "hitsTaken": 44,
+      "ratio": 1.7954545454545454
+    },
+    {
       "user": "TrinaBoBina",
       "team": "Reindeer",
       "attacks": 93,
@@ -969,13 +976,6 @@
       "attacks": 86,
       "hitsTaken": 33,
       "ratio": 2.606060606060606
-    },
-    {
-      "user": "airham",
-      "team": "Reindeer",
-      "attacks": 74,
-      "hitsTaken": 44,
-      "ratio": 1.6818181818181819
     },
     {
       "user": "PrincessXxJess",
@@ -1986,6 +1986,13 @@
       "ratio": 2.4285714285714284
     },
     {
+      "user": "BrightEyes",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 24,
+      "ratio": 0
+    },
+    {
       "user": "SweetAquaDolphin",
       "team": "Reindeer",
       "attacks": 0,
@@ -2166,13 +2173,6 @@
       "attacks": 1,
       "hitsTaken": 19,
       "ratio": 0.05263157894736842
-    },
-    {
-      "user": "BrightEyes",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 20,
-      "ratio": 0
     },
     {
       "user": "MargieDisMom",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2900919482437297,
-      "intercept": 45.995641341296206,
+      "slope": 0.29008411534314105,
+      "intercept": 46.00124981100485,
       "xMin": 0,
       "xMax": 5641,
-      "y1": 45.995641341296206,
-      "y2": 1682.4043213841755,
+      "y1": 46.00124981100485,
+      "y2": 1682.3657444616633,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2747857812652143,
-      "intercept": 41.054858397228024,
+      "slope": 0.2747652253112946,
+      "intercept": 41.074036365056074,
       "xMin": 0,
       "xMax": 5641,
-      "y1": 41.054858397228024,
-      "y2": 1591.1214505143018,
+      "y1": 41.074036365056074,
+      "y2": 1591.024672346069,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2978760629357662,
-      "intercept": 50.74542264193407,
+      "slope": 0.29787087209313406,
+      "intercept": 50.740221616572455,
       "xMin": 0,
       "xMax": 5641,
-      "y1": 50.74542264193407,
-      "y2": 1731.0642936625911,
+      "y1": 50.740221616572455,
+      "y2": 1731.0298110939416,
       "label": "Reindeer"
     }
   },
@@ -3877,9 +3877,9 @@
     },
     {
       "roomName": "Blue Bayou",
-      "hitCount": 537,
+      "hitCount": 542,
       "avgUserRatio": 1.31,
-      "activeUsers": 105
+      "activeUsers": 107
     },
     {
       "roomName": "Snow White Hide 'n Seek Forest",

@@ -399,6 +399,13 @@
     "ratio": 0.5490196078431373
   },
   {
+    "user": "airham",
+    "team": "Reindeer",
+    "attacks": 79,
+    "hitsTaken": 44,
+    "ratio": 1.7954545454545454
+  },
+  {
     "user": "Redsox",
     "team": "Reindeer",
     "attacks": 78,
@@ -418,13 +425,6 @@
     "attacks": 74,
     "hitsTaken": 20,
     "ratio": 3.7
-  },
-  {
-    "user": "airham",
-    "team": "Reindeer",
-    "attacks": 74,
-    "hitsTaken": 44,
-    "ratio": 1.6818181818181819
   },
   {
     "user": "AmandaJeanne",
@@ -1816,7 +1816,7 @@
     "user": "BrightEyes",
     "team": "Penguin",
     "attacks": 0,
-    "hitsTaken": 20,
+    "hitsTaken": 24,
     "ratio": 0
   },
   {
@@ -4022,6 +4022,13 @@
     "team": "Reindeer",
     "attacks": 0,
     "hitsTaken": 3,
+    "ratio": 0
+  },
+  {
+    "user": "Kiddy",
+    "team": "Penguin",
+    "attacks": 0,
+    "hitsTaken": 1,
     "ratio": 0
   }
 ]
