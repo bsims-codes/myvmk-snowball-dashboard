@@ -1,26 +1,26 @@
 #!/usr/bin/env node
 
 /**
- * Parses git history to find when each user first appeared in the roster.
+ * Parses git history of roster.json to find when each user first appeared.
+ * Only tracks post-reset users (after 2025-12-18 23:33:32).
  * Outputs a JSON file with user -> { firstSeen, team } mappings.
- *
- * Checks both:
- *   - docs/data/roster.json (full team roster from API - preferred)
- *   - docs/data/users.json (participants only - fallback)
  */
 
 import { execSync } from 'child_process';
 import { writeFileSync } from 'fs';
 
 const ROSTER_FILE_PATH = 'docs/data/roster.json';
-const USERS_FILE_PATH = 'docs/data/users.json';
 const OUTPUT_PATH = 'docs/data/user-join-dates.json';
 
-// Get all commits that touched a file, oldest first
-function getCommits(filePath) {
+// Reset cutoff - last event before reset was 2025-12-18 23:33:32
+// Only track users who joined AFTER this date
+const RESET_CUTOFF = new Date('2025-12-18T23:33:32');
+
+// Get all commits that touched roster.json, oldest first
+function getCommits() {
   try {
     const output = execSync(
-      `git log --reverse --format="%H %aI" --follow -- ${filePath}`,
+      `git log --reverse --format="%H %aI" --follow -- ${ROSTER_FILE_PATH}`,
       { encoding: 'utf-8', maxBuffer: 10 * 1024 * 1024 }
     );
 
@@ -35,11 +35,11 @@ function getCommits(filePath) {
   }
 }
 
-// Get file content at a specific commit
-function getFileAtCommit(hash, filePath) {
+// Get roster.json content at a specific commit
+function getRosterAtCommit(hash) {
   try {
     const content = execSync(
-      `git show ${hash}:${filePath}`,
+      `git show ${hash}:${ROSTER_FILE_PATH}`,
       { encoding: 'utf-8', maxBuffer: 10 * 1024 * 1024 }
     );
     return JSON.parse(content);
@@ -61,103 +61,95 @@ function extractUsersFromRoster(data) {
   return users;
 }
 
-// Extract users from users.json format (array of user objects)
-function extractUsersFromUsersJson(data) {
-  if (!data || !Array.isArray(data)) return [];
-  return data.map(u => ({ user: u.user, team: u.team }));
-}
-
 async function main() {
-  const userFirstSeen = new Map(); // user -> { firstSeen, team, source }
+  console.log('Extracting user join dates from roster.json git history...');
+  console.log(`Reset cutoff: ${RESET_CUTOFF.toISOString()}`);
+  console.log('Only users who joined AFTER this date will be included.\n');
 
-  // First, process roster.json (full team roster - preferred source)
-  console.log('Checking roster.json history...');
-  const rosterCommits = getCommits(ROSTER_FILE_PATH);
-  console.log(`Found ${rosterCommits.length} roster.json commits`);
+  const commits = getCommits();
+  console.log(`Found ${commits.length} roster.json commits to process`);
 
+  if (commits.length === 0) {
+    console.log('\nNo roster.json history found. Make sure roster.json has been committed.');
+    writeFileSync(OUTPUT_PATH, JSON.stringify({
+      generatedAt: new Date().toISOString(),
+      resetCutoff: RESET_CUTOFF.toISOString(),
+      totalUsers: 0,
+      users: []
+    }, null, 2));
+    return;
+  }
+
+  const userFirstSeen = new Map(); // user -> { firstSeen, team }
   let processed = 0;
-  for (const { hash, date } of rosterCommits) {
+  let skippedPreReset = 0;
+
+  for (const { hash, date } of commits) {
     processed++;
-    if (processed % 50 === 0 || processed === rosterCommits.length) {
-      console.log(`Processing roster commit ${processed}/${rosterCommits.length}...`);
+    const commitDate = new Date(date);
+
+    if (processed % 50 === 0 || processed === commits.length) {
+      console.log(`Processing commit ${processed}/${commits.length}...`);
     }
 
-    const data = getFileAtCommit(hash, ROSTER_FILE_PATH);
+    // Skip commits before reset
+    if (commitDate <= RESET_CUTOFF) {
+      skippedPreReset++;
+      continue;
+    }
+
+    const data = getRosterAtCommit(hash);
     const users = extractUsersFromRoster(data);
 
     for (const { user, team } of users) {
       if (!userFirstSeen.has(user)) {
-        userFirstSeen.set(user, { firstSeen: date, team, source: 'roster' });
+        userFirstSeen.set(user, { firstSeen: date, team });
       }
     }
   }
 
-  const rosterUsers = userFirstSeen.size;
-  console.log(`Found ${rosterUsers} users from roster.json\n`);
+  console.log(`\nSkipped ${skippedPreReset} pre-reset commits`);
 
-  // Then, process users.json (participants only - fallback for historical data)
-  console.log('Checking users.json history...');
-  const usersCommits = getCommits(USERS_FILE_PATH);
-  console.log(`Found ${usersCommits.length} users.json commits`);
-
-  processed = 0;
-  for (const { hash, date } of usersCommits) {
-    processed++;
-    if (processed % 50 === 0 || processed === usersCommits.length) {
-      console.log(`Processing users commit ${processed}/${usersCommits.length}...`);
-    }
-
-    const data = getFileAtCommit(hash, USERS_FILE_PATH);
-    const users = extractUsersFromUsersJson(data);
-
-    for (const { user, team } of users) {
-      if (!userFirstSeen.has(user)) {
-        userFirstSeen.set(user, { firstSeen: date, team, source: 'participants' });
-      }
-    }
-  }
-
-  const participantOnlyUsers = userFirstSeen.size - rosterUsers;
-  console.log(`Found ${participantOnlyUsers} additional users from users.json\n`);
-
-  // Convert to sorted array
+  // Convert to sorted array (newest first by default for the output)
   const results = Array.from(userFirstSeen.entries())
     .map(([user, data]) => ({
       user,
       firstSeen: data.firstSeen,
-      team: data.team,
-      source: data.source  // 'roster' or 'participants'
+      team: data.team
     }))
     .sort((a, b) => new Date(a.firstSeen) - new Date(b.firstSeen));
 
   // Write output
   const output = {
     generatedAt: new Date().toISOString(),
+    resetCutoff: RESET_CUTOFF.toISOString(),
     totalUsers: results.length,
     users: results
   };
 
   writeFileSync(OUTPUT_PATH, JSON.stringify(output, null, 2));
-  console.log(`\nDone! Found ${results.length} unique users.`);
+  console.log(`\nDone! Found ${results.length} post-reset users.`);
   console.log(`Output written to ${OUTPUT_PATH}`);
 
   // Show some stats
   const teams = { Reindeer: 0, Penguin: 0 };
   results.forEach(u => teams[u.team]++);
-  console.log(`\nTeam breakdown (at time of first appearance):`);
+  console.log(`\nTeam breakdown:`);
   console.log(`  Reindeer: ${teams.Reindeer}`);
   console.log(`  Penguin: ${teams.Penguin}`);
 
-  // Show first and last 5 users
-  console.log(`\nFirst 5 users seen:`);
-  results.slice(0, 5).forEach(u => {
-    console.log(`  ${u.user} (${u.team}) - ${u.firstSeen}`);
-  });
+  if (results.length > 0) {
+    // Show first and last 5 users
+    console.log(`\nEarliest 5 users (post-reset):`);
+    results.slice(0, 5).forEach(u => {
+      console.log(`  ${u.user} (${u.team}) - ${u.firstSeen}`);
+    });
 
-  console.log(`\nMost recent 5 users:`);
-  results.slice(-5).forEach(u => {
-    console.log(`  ${u.user} (${u.team}) - ${u.firstSeen}`);
-  });
+    console.log(`\nMost recent 5 users:`);
+    results.slice(-5).forEach(u => {
+      console.log(`  ${u.user} (${u.team}) - ${u.firstSeen}`);
+    });
+  }
 }
 
 main().catch(console.error);
