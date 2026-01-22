@@ -7880,6 +7880,74 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-76",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-22T01:42:00.000Z",
+    "end": "2026-01-22T01:55:16.000Z",
+    "durationMinutes": 13,
+    "hitCount": 105,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 98
+      },
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "attacks": 7
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "hitsTaken": 83
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 12
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "hitsTaken": 7
+      }
+    ],
+    "participants": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 98,
+        "hitsTaken": 7,
+        "ratio": 14
+      },
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "attacks": 7,
+        "hitsTaken": 83,
+        "ratio": 0.08433734939759036
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 12,
+        "ratio": 0
+      },
+      {
+        "user": "Focus",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 3,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Matterhorn-18",
     "roomName": "Matterhorn",
     "start": "2026-01-07T21:03:15.000Z",
@@ -19568,6 +19636,45 @@
         "attacks": 1,
         "hitsTaken": 0,
         "ratio": 1
+      }
+    ]
+  },
+  {
+    "id": "Captain's Quest Quarters-75",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-22T01:20:57.000Z",
+    "end": "2026-01-22T01:31:01.000Z",
+    "durationMinutes": 10,
+    "hitCount": 35,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 35
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 35
+      }
+    ],
+    "participants": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 35,
+        "hitsTaken": 0,
+        "ratio": 35
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 35,
+        "ratio": 0
       }
     ]
   },
