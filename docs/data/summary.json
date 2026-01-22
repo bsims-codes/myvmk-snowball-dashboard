@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-22T14:59:45.317Z",
-  "totalRows": 33317,
+  "generatedAt": "2026-01-22T15:32:13.695Z",
+  "totalRows": 33325,
   "totalUsers": 582,
   "teamStats": {
     "Penguin": {
       "users": 273,
       "attacks": 18391,
-      "hitsTaken": 14926
+      "hitsTaken": 14934
     },
     "Reindeer": {
       "users": 309,
-      "attacks": 14926,
+      "attacks": 14934,
       "hitsTaken": 18391
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 14926
+      "count": 14934
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 5717,
+      "attacks": 5725,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 5717,
+      "attacks": 5725,
       "hitsTaken": 1345,
-      "ratio": 4.250557620817844
+      "ratio": 4.256505576208179
     },
     {
       "user": "CaptainBubbles",
@@ -2434,6 +2434,13 @@
       "ratio": 0
     },
     {
+      "user": "Matty",
+      "team": "Penguin",
+      "attacks": 10,
+      "hitsTaken": 4,
+      "ratio": 2.5
+    },
+    {
       "user": "moongirlusagi",
       "team": "Penguin",
       "attacks": 0,
@@ -2546,13 +2553,6 @@
       "ratio": 12
     },
     {
-      "user": "Matty",
-      "team": "Penguin",
-      "attacks": 10,
-      "hitsTaken": 3,
-      "ratio": 3.3333333333333335
-    },
-    {
       "user": "Mizzpixie",
       "team": "Reindeer",
       "attacks": 1,
@@ -2621,6 +2621,13 @@
       "attacks": 2,
       "hitsTaken": 10,
       "ratio": 0.2
+    },
+    {
+      "user": "beckbeck",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 12,
+      "ratio": 0
     },
     {
       "user": "scortatia",
@@ -3274,13 +3281,6 @@
       "ratio": 0
     },
     {
-      "user": "beckbeck",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 5,
-      "ratio": 0
-    },
-    {
       "user": "Blueclay",
       "team": "Penguin",
       "attacks": 0,
@@ -3787,37 +3787,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2927608835346611,
-      "intercept": 46.92909889538674,
+      "slope": 0.29244704996145005,
+      "intercept": 46.96132859056897,
       "xMin": 0,
-      "xMax": 5717,
-      "y1": 46.92909889538674,
-      "y2": 1720.6430700630442,
+      "xMax": 5725,
+      "y1": 46.96132859056897,
+      "y2": 1721.2206896198704,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27219864322211385,
-      "intercept": 42.54111702495064,
+      "slope": 0.27216027155576755,
+      "intercept": 42.57864123431461,
       "xMin": 0,
-      "xMax": 5717,
-      "y1": 42.54111702495064,
-      "y2": 1598.7007603257755,
+      "xMax": 5725,
+      "y1": 42.57864123431461,
+      "y2": 1600.6961958910838,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3026773097699943,
-      "intercept": 51.58636756082976,
+      "slope": 0.302213512725198,
+      "intercept": 51.60317179664205,
       "xMin": 0,
-      "xMax": 5717,
-      "y1": 51.58636756082976,
-      "y2": 1781.9925475158873,
+      "xMax": 5725,
+      "y1": 51.60317179664205,
+      "y2": 1781.7755321484005,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 11085,
+      "hitCount": 11090,
       "avgUserRatio": 0.82,
       "activeUsers": 243
     },
@@ -3907,9 +3907,9 @@
     },
     {
       "roomName": "Shrunken Ned's Shop",
-      "hitCount": 356,
-      "avgUserRatio": 3.49,
-      "activeUsers": 64
+      "hitCount": 359,
+      "avgUserRatio": 3.44,
+      "activeUsers": 65
     },
     {
       "roomName": "Street Party Music Game Lobby",
