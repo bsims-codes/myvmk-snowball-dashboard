@@ -11712,6 +11712,93 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-73",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-21T20:47:52.000Z",
+    "end": "2026-01-21T20:58:15.000Z",
+    "durationMinutes": 10,
+    "hitCount": 62,
+    "uniqueUsers": 6,
+    "topAttackers": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 27
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 17
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 16
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "hitsTaken": 35
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "hitsTaken": 14
+      },
+      {
+        "user": "CityscapeNight",
+        "team": "Penguin",
+        "hitsTaken": 6
+      }
+    ],
+    "participants": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 27,
+        "hitsTaken": 35,
+        "ratio": 0.7714285714285715
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 17,
+        "hitsTaken": 14,
+        "ratio": 1.2142857142857142
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 16,
+        "hitsTaken": 3,
+        "ratio": 5.333333333333333
+      },
+      {
+        "user": "CityscapeNight",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 6,
+        "ratio": 0.16666666666666666
+      },
+      {
+        "user": "Naiant",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 4,
+        "ratio": 0
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Anandapur-1",
     "roomName": "Anandapur",
     "start": "2026-01-18T22:34:24.000Z",
@@ -16444,6 +16531,45 @@
     ]
   },
   {
+    "id": "Jungle Cruise Dock-4",
+    "roomName": "Jungle Cruise Dock",
+    "start": "2026-01-21T21:13:55.000Z",
+    "end": "2026-01-21T21:18:00.000Z",
+    "durationMinutes": 4,
+    "hitCount": 43,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 43
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Myth",
+        "team": "Reindeer",
+        "hitsTaken": 43
+      }
+    ],
+    "participants": [
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 43,
+        "hitsTaken": 0,
+        "ratio": 43
+      },
+      {
+        "user": "Myth",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 43,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-57",
     "roomName": "Captain's Quest Quarters",
     "start": "2026-01-13T02:12:59.000Z",
@@ -20773,6 +20899,69 @@
         "attacks": 14,
         "hitsTaken": 18,
         "ratio": 0.7777777777777778
+      }
+    ]
+  },
+  {
+    "id": "Jungle Cruise Dock-3",
+    "roomName": "Jungle Cruise Dock",
+    "start": "2026-01-21T20:44:15.000Z",
+    "end": "2026-01-21T20:47:22.000Z",
+    "durationMinutes": 3,
+    "hitCount": 31,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 12
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 10
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 9
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "CaitlinNoel",
+        "team": "Reindeer",
+        "hitsTaken": 31
+      }
+    ],
+    "participants": [
+      {
+        "user": "CaitlinNoel",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 31,
+        "ratio": 0
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 12,
+        "hitsTaken": 0,
+        "ratio": 12
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 10,
+        "hitsTaken": 0,
+        "ratio": 10
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 9,
+        "hitsTaken": 0,
+        "ratio": 9
       }
     ]
   },
