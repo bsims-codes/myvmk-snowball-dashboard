@@ -8475,6 +8475,79 @@
     ]
   },
   {
+    "id": "Dungeon-6",
+    "roomName": "Dungeon",
+    "start": "2026-01-22T11:36:04.000Z",
+    "end": "2026-01-22T11:44:11.000Z",
+    "durationMinutes": 8,
+    "hitCount": 96,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 86
+      },
+      {
+        "user": "ZeusJuice",
+        "team": "Reindeer",
+        "attacks": 5
+      },
+      {
+        "user": "grillz",
+        "team": "Penguin",
+        "attacks": 3
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "grillz",
+        "team": "Penguin",
+        "hitsTaken": 46
+      },
+      {
+        "user": "maybe_jolisa",
+        "team": "Penguin",
+        "hitsTaken": 45
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 5
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 86,
+        "hitsTaken": 5,
+        "ratio": 17.2
+      },
+      {
+        "user": "grillz",
+        "team": "Penguin",
+        "attacks": 3,
+        "hitsTaken": 46,
+        "ratio": 0.06521739130434782
+      },
+      {
+        "user": "maybe_jolisa",
+        "team": "Penguin",
+        "attacks": 2,
+        "hitsTaken": 45,
+        "ratio": 0.044444444444444446
+      },
+      {
+        "user": "ZeusJuice",
+        "team": "Reindeer",
+        "attacks": 5,
+        "hitsTaken": 0,
+        "ratio": 5
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-64",
     "roomName": "Captain's Quest Quarters",
     "start": "2026-01-18T21:12:42.000Z",
