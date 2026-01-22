@@ -8935,6 +8935,74 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-78",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-22T13:46:40.000Z",
+    "end": "2026-01-22T14:02:35.000Z",
+    "durationMinutes": 16,
+    "hitCount": 93,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 81
+      },
+      {
+        "user": "mikey29",
+        "team": "Penguin",
+        "attacks": 12
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "mikey29",
+        "team": "Penguin",
+        "hitsTaken": 57
+      },
+      {
+        "user": "Kenneth123",
+        "team": "Penguin",
+        "hitsTaken": 21
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 12
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 81,
+        "hitsTaken": 12,
+        "ratio": 6.75
+      },
+      {
+        "user": "mikey29",
+        "team": "Penguin",
+        "attacks": 12,
+        "hitsTaken": 57,
+        "ratio": 0.21052631578947367
+      },
+      {
+        "user": "Kenneth123",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 21,
+        "ratio": 0
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 3,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Central Plaza-1",
     "roomName": "Central Plaza",
     "start": "2025-12-19T10:06:30.000Z",
