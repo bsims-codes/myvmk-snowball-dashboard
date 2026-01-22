@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-22T22:56:16.921Z",
-  "totalRows": 33673,
+  "generatedAt": "2026-01-22T23:13:38.055Z",
+  "totalRows": 33674,
   "totalUsers": 587,
   "teamStats": {
     "Penguin": {
       "users": 276,
-      "attacks": 18463,
+      "attacks": 18464,
       "hitsTaken": 15210
     },
     "Reindeer": {
       "users": 311,
       "attacks": 15210,
-      "hitsTaken": 18463
+      "hitsTaken": 18464
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 18463
+      "count": 18464
     },
     {
       "pair": "Reindeer → Penguin",
@@ -42,7 +42,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 1716,
+      "attacks": 1717,
       "team": "Penguin"
     },
     {
@@ -315,9 +315,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 1716,
+      "attacks": 1717,
       "hitsTaken": 483,
-      "ratio": 3.5527950310559007
+      "ratio": 3.5548654244306417
     },
     {
       "user": "Winnie",
@@ -1279,18 +1279,18 @@
       "ratio": 0
     },
     {
+      "user": "Jay",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 76,
+      "ratio": 0
+    },
+    {
       "user": "fatale",
       "team": "Reindeer",
       "attacks": 18,
       "hitsTaken": 57,
       "ratio": 0.3157894736842105
-    },
-    {
-      "user": "Jay",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 75,
-      "ratio": 0
     },
     {
       "user": "flamesmolderton",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2867640474327111,
-      "intercept": 47.816456102070966,
+      "slope": 0.28675348848009474,
+      "intercept": 47.81859359272738,
       "xMin": 0,
       "xMax": 5978,
-      "y1": 47.816456102070966,
-      "y2": 1762.091931654818,
+      "y1": 47.81859359272738,
+      "y2": 1762.0309477267338,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2719834305710794,
-      "intercept": 43.49319265333607,
+      "slope": 0.2719546602694579,
+      "intercept": 43.49430498757626,
       "xMin": 0,
       "xMax": 5978,
-      "y1": 43.49319265333607,
-      "y2": 1669.4101406072486,
+      "y1": 43.49430498757626,
+      "y2": 1669.2392640783958,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2935332802906524,
-      "intercept": 52.225615755131265,
+      "slope": 0.2935318591871569,
+      "intercept": 52.22944201251275,
       "xMin": 0,
       "xMax": 5978,
-      "y1": 52.225615755131265,
-      "y2": 1806.9675653326512,
+      "y1": 52.22944201251275,
+      "y2": 1806.9628962333366,
       "label": "Reindeer"
     }
   },
@@ -3901,9 +3901,9 @@
     },
     {
       "roomName": "Shrunken Ned's Shop",
-      "hitCount": 362,
-      "avgUserRatio": 3.41,
-      "activeUsers": 66
+      "hitCount": 363,
+      "avgUserRatio": 3.36,
+      "activeUsers": 67
     },
     {
       "roomName": "Frontierland Hub",
