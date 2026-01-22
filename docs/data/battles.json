@@ -14796,6 +14796,45 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-74",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-22T00:57:14.000Z",
+    "end": "2026-01-22T01:09:40.000Z",
+    "durationMinutes": 12,
+    "hitCount": 47,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 47
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 47
+      }
+    ],
+    "participants": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 47,
+        "hitsTaken": 0,
+        "ratio": 47
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 47,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Matterhorn-16",
     "roomName": "Matterhorn",
     "start": "2026-01-07T20:33:37.000Z",
