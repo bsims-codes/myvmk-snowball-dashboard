@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-22T19:54:42.639Z",
-  "totalRows": 33616,
+  "generatedAt": "2026-01-22T20:12:25.259Z",
+  "totalRows": 33621,
   "totalUsers": 585,
   "teamStats": {
     "Penguin": {
       "users": 275,
-      "attacks": 18426,
+      "attacks": 18431,
       "hitsTaken": 15190
     },
     "Reindeer": {
       "users": 310,
       "attacks": 15190,
-      "hitsTaken": 18426
+      "hitsTaken": 18431
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 18426
+      "count": 18431
     },
     {
       "pair": "Reindeer → Penguin",
@@ -37,7 +37,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 1922,
+      "attacks": 1927,
       "team": "Penguin"
     },
     {
@@ -308,9 +308,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 1922,
+      "attacks": 1927,
       "hitsTaken": 401,
-      "ratio": 4.793017456359102
+      "ratio": 4.805486284289277
     },
     {
       "user": "TaterTotCasserole",
@@ -957,18 +957,18 @@
       "ratio": 1.7954545454545454
     },
     {
+      "user": "CaitlinNoel",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 123,
+      "ratio": 0
+    },
+    {
       "user": "TrinaBoBina",
       "team": "Reindeer",
       "attacks": 93,
       "hitsTaken": 29,
       "ratio": 3.206896551724138
-    },
-    {
-      "user": "CaitlinNoel",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 121,
-      "ratio": 0
     },
     {
       "user": "SleveMcDichael",
@@ -985,6 +985,13 @@
       "ratio": 2.606060606060606
     },
     {
+      "user": "HoneyStar",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 118,
+      "ratio": 0
+    },
+    {
       "user": "PrincessXxJess",
       "team": "Penguin",
       "attacks": 4,
@@ -997,13 +1004,6 @@
       "attacks": 70,
       "hitsTaken": 45,
       "ratio": 1.5555555555555556
-    },
-    {
-      "user": "HoneyStar",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 115,
-      "ratio": 0
     },
     {
       "user": "Bib",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2872365988938515,
-      "intercept": 47.71138134915751,
+      "slope": 0.28716555080380707,
+      "intercept": 47.723285688358445,
       "xMin": 0,
       "xMax": 5967,
-      "y1": 47.71138134915751,
-      "y2": 1761.6521669487695,
+      "y1": 47.723285688358445,
+      "y2": 1761.2401273346752,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27244354766669987,
-      "intercept": 43.60129343874449,
+      "slope": 0.27223814987812545,
+      "intercept": 43.61173765472425,
       "xMin": 0,
       "xMax": 5967,
-      "y1": 43.60129343874449,
-      "y2": 1669.2719423659426,
+      "y1": 43.61173765472425,
+      "y2": 1668.0567779774988,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2939635546216541,
-      "intercept": 51.90513244761545,
+      "slope": 0.29395646225843003,
+      "intercept": 51.924191073437406,
       "xMin": 0,
       "xMax": 5967,
-      "y1": 51.90513244761545,
-      "y2": 1805.9856628750254,
+      "y1": 51.924191073437406,
+      "y2": 1805.9624013694895,
       "label": "Reindeer"
     }
   },
@@ -3865,7 +3865,7 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 767,
+      "hitCount": 769,
       "avgUserRatio": 3.9,
       "activeUsers": 68
     },
@@ -3900,16 +3900,16 @@
       "activeUsers": 49
     },
     {
+      "roomName": "Shrunken Ned's Shop",
+      "hitCount": 362,
+      "avgUserRatio": 3.41,
+      "activeUsers": 66
+    },
+    {
       "roomName": "Frontierland Hub",
       "hitCount": 362,
       "avgUserRatio": 1.37,
       "activeUsers": 57
-    },
-    {
-      "roomName": "Shrunken Ned's Shop",
-      "hitCount": 359,
-      "avgUserRatio": 3.44,
-      "activeUsers": 65
     },
     {
       "roomName": "Street Party Music Game Lobby",
