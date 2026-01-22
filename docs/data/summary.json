@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-22T23:13:38.055Z",
-  "totalRows": 33674,
+  "generatedAt": "2026-01-22T23:33:25.094Z",
+  "totalRows": 33716,
   "totalUsers": 587,
   "teamStats": {
     "Penguin": {
       "users": 276,
-      "attacks": 18464,
-      "hitsTaken": 15210
+      "attacks": 18504,
+      "hitsTaken": 15212
     },
     "Reindeer": {
       "users": 311,
-      "attacks": 15210,
-      "hitsTaken": 18464
+      "attacks": 15212,
+      "hitsTaken": 18504
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 18464
+      "count": 18504
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 15210
+      "count": 15212
     }
   ],
   "topAttackers": [
@@ -37,17 +37,17 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 1959,
+      "attacks": 1961,
       "team": "Penguin"
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 1717,
+      "attacks": 1744,
       "team": "Penguin"
     },
     {
       "user": "Winnie",
-      "attacks": 1608,
+      "attacks": 1619,
       "team": "Penguin"
     },
     {
@@ -224,7 +224,7 @@
     },
     {
       "user": "JustForFun",
-      "hitsTaken": 409,
+      "hitsTaken": 411,
       "team": "Penguin"
     },
     {
@@ -308,23 +308,23 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 1959,
-      "hitsTaken": 409,
-      "ratio": 4.789731051344743
+      "attacks": 1961,
+      "hitsTaken": 411,
+      "ratio": 4.771289537712895
     },
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 1717,
+      "attacks": 1744,
       "hitsTaken": 483,
-      "ratio": 3.5548654244306417
+      "ratio": 3.610766045548654
     },
     {
       "user": "Winnie",
       "team": "Penguin",
-      "attacks": 1608,
+      "attacks": 1619,
       "hitsTaken": 318,
-      "ratio": 5.056603773584905
+      "ratio": 5.091194968553459
     },
     {
       "user": "goatduck",
@@ -985,6 +985,13 @@
       "ratio": 2.606060606060606
     },
     {
+      "user": "Jay",
+      "team": "Reindeer",
+      "attacks": 2,
+      "hitsTaken": 116,
+      "ratio": 0.017241379310344827
+    },
+    {
       "user": "HoneyStar",
       "team": "Reindeer",
       "attacks": 0,
@@ -1276,13 +1283,6 @@
       "team": "Penguin",
       "attacks": 0,
       "hitsTaken": 77,
-      "ratio": 0
-    },
-    {
-      "user": "Jay",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 76,
       "ratio": 0
     },
     {
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.28675348848009474,
-      "intercept": 47.81859359272738,
+      "slope": 0.2863700381569204,
+      "intercept": 47.90435928738411,
       "xMin": 0,
       "xMax": 5978,
-      "y1": 47.81859359272738,
-      "y2": 1762.0309477267338,
+      "y1": 47.90435928738411,
+      "y2": 1759.8244473894542,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2719546602694579,
-      "intercept": 43.49430498757626,
+      "slope": 0.27093077102497437,
+      "intercept": 43.53750589912414,
       "xMin": 0,
       "xMax": 5978,
-      "y1": 43.49430498757626,
-      "y2": 1669.2392640783958,
+      "y1": 43.53750589912414,
+      "y2": 1663.161655086421,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2935318591871569,
-      "intercept": 52.22944201251275,
+      "slope": 0.2934789946864882,
+      "intercept": 52.380067302671165,
       "xMin": 0,
       "xMax": 5978,
-      "y1": 52.22944201251275,
-      "y2": 1806.9628962333366,
+      "y1": 52.380067302671165,
+      "y2": 1806.7974975384977,
       "label": "Reindeer"
     }
   },
@@ -3894,16 +3894,16 @@
       "activeUsers": 95
     },
     {
+      "roomName": "Shrunken Ned's Shop",
+      "hitCount": 405,
+      "avgUserRatio": 3.33,
+      "activeUsers": 67
+    },
+    {
       "roomName": "Banquet Hall",
       "hitCount": 366,
       "avgUserRatio": 2.04,
       "activeUsers": 49
-    },
-    {
-      "roomName": "Shrunken Ned's Shop",
-      "hitCount": 363,
-      "avgUserRatio": 3.36,
-      "activeUsers": 67
     },
     {
       "roomName": "Frontierland Hub",

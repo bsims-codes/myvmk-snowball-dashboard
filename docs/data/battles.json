@@ -16866,6 +16866,74 @@
     ]
   },
   {
+    "id": "Shrunken Ned's Shop-3",
+    "roomName": "Shrunken Ned's Shop",
+    "start": "2026-01-22T18:13:33.000Z",
+    "end": "2026-01-22T18:18:19.000Z",
+    "durationMinutes": 5,
+    "hitCount": 43,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 28
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 11
+      },
+      {
+        "user": "Jay",
+        "team": "Reindeer",
+        "attacks": 2
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Jay",
+        "team": "Reindeer",
+        "hitsTaken": 41
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "hitsTaken": 2
+      }
+    ],
+    "participants": [
+      {
+        "user": "Jay",
+        "team": "Reindeer",
+        "attacks": 2,
+        "hitsTaken": 41,
+        "ratio": 0.04878048780487805
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 28,
+        "hitsTaken": 0,
+        "ratio": 28
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 11,
+        "hitsTaken": 0,
+        "ratio": 11
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 2,
+        "hitsTaken": 2,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Jungle Cruise Dock-4",
     "roomName": "Jungle Cruise Dock",
     "start": "2026-01-21T21:13:55.000Z",
