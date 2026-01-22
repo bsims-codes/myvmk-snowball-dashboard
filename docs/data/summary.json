@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-22T12:38:52.593Z",
-  "totalRows": 33265,
-  "totalUsers": 581,
+  "generatedAt": "2026-01-22T13:31:00.647Z",
+  "totalRows": 33275,
+  "totalUsers": 582,
   "teamStats": {
     "Penguin": {
-      "users": 272,
+      "users": 273,
       "attacks": 18386,
-      "hitsTaken": 14879
+      "hitsTaken": 14889
     },
     "Reindeer": {
       "users": 309,
-      "attacks": 14879,
+      "attacks": 14889,
       "hitsTaken": 18386
     },
     "Unknown": {
@@ -26,7 +26,7 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 14879
+      "count": 14889
     }
   ],
   "topAttackers": [
@@ -57,7 +57,7 @@
     },
     {
       "user": "SammyxxFairy",
-      "attacks": 1383,
+      "attacks": 1393,
       "team": "Reindeer"
     },
     {
@@ -301,9 +301,9 @@
     {
       "user": "SammyxxFairy",
       "team": "Reindeer",
-      "attacks": 1383,
+      "attacks": 1393,
       "hitsTaken": 1195,
-      "ratio": 1.1573221757322176
+      "ratio": 1.1656903765690376
     },
     {
       "user": "JustForFun",
@@ -2777,6 +2777,13 @@
       "ratio": 0
     },
     {
+      "user": "RichElectricRose",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 10,
+      "ratio": 0
+    },
+    {
       "user": "Leahcim",
       "team": "Penguin",
       "attacks": 2,
@@ -3776,41 +3783,34 @@
       "attacks": 0,
       "hitsTaken": 2,
       "ratio": 0
-    },
-    {
-      "user": "NavyGirl",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 2,
-      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.29347821632880494,
-      "intercept": 46.8118290498079,
+      "slope": 0.2935348303975061,
+      "intercept": 46.818192385349946,
       "xMin": 0,
       "xMax": 5680,
-      "y1": 46.8118290498079,
-      "y2": 1713.76809779742,
+      "y1": 46.818192385349946,
+      "y2": 1714.0960290431847,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2717059735200403,
-      "intercept": 42.56691507708909,
+      "slope": 0.2718647314629567,
+      "intercept": 42.41396024476295,
       "xMin": 0,
       "xMax": 5680,
-      "y1": 42.56691507708909,
-      "y2": 1585.8568446709178,
+      "y1": 42.41396024476295,
+      "y2": 1586.605634954357,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.3040590988636808,
-      "intercept": 51.35991392306277,
+      "slope": 0.30407064533429595,
+      "intercept": 51.532105871468914,
       "xMin": 0,
       "xMax": 5680,
-      "y1": 51.35991392306277,
-      "y2": 1778.4155954687699,
+      "y1": 51.532105871468914,
+      "y2": 1778.65337137027,
       "label": "Reindeer"
     }
   },
@@ -3900,16 +3900,16 @@
       "activeUsers": 49
     },
     {
+      "roomName": "Frontierland Hub",
+      "hitCount": 362,
+      "avgUserRatio": 1.37,
+      "activeUsers": 57
+    },
+    {
       "roomName": "Shrunken Ned's Shop",
       "hitCount": 356,
       "avgUserRatio": 3.49,
       "activeUsers": 64
-    },
-    {
-      "roomName": "Frontierland Hub",
-      "hitCount": 352,
-      "avgUserRatio": 1.24,
-      "activeUsers": 55
     },
     {
       "roomName": "Street Party Music Game Lobby",
