@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-22T21:59:43.882Z",
-  "totalRows": 33654,
+  "generatedAt": "2026-01-22T22:24:00.771Z",
+  "totalRows": 33673,
   "totalUsers": 587,
   "teamStats": {
     "Penguin": {
       "users": 276,
-      "attacks": 18444,
+      "attacks": 18463,
       "hitsTaken": 15210
     },
     "Reindeer": {
       "users": 311,
       "attacks": 15210,
-      "hitsTaken": 18444
+      "hitsTaken": 18463
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 18444
+      "count": 18463
     },
     {
       "pair": "Reindeer → Penguin",
@@ -37,7 +37,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 1940,
+      "attacks": 1959,
       "team": "Penguin"
     },
     {
@@ -308,9 +308,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 1940,
+      "attacks": 1959,
       "hitsTaken": 409,
-      "ratio": 4.743276283618582
+      "ratio": 4.789731051344743
     },
     {
       "user": "TaterTotCasserole",
@@ -1685,6 +1685,13 @@
       "ratio": 0.06060606060606061
     },
     {
+      "user": "mpickle",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 35,
+      "ratio": 0
+    },
+    {
       "user": "Michaeel",
       "team": "Penguin",
       "attacks": 0,
@@ -2421,13 +2428,6 @@
     },
     {
       "user": "Carolinerz",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 16,
-      "ratio": 0
-    },
-    {
-      "user": "mpickle",
       "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 16,
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2870347544798058,
-      "intercept": 47.771135093018025,
+      "slope": 0.2867640474327111,
+      "intercept": 47.816456102070966,
       "xMin": 0,
       "xMax": 5978,
-      "y1": 47.771135093018025,
-      "y2": 1763.6648973732972,
+      "y1": 47.816456102070966,
+      "y2": 1762.091931654818,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27276579573719667,
-      "intercept": 43.45344718890395,
+      "slope": 0.2719834305710794,
+      "intercept": 43.49319265333607,
       "xMin": 0,
       "xMax": 5978,
-      "y1": 43.45344718890395,
-      "y2": 1674.0473741058656,
+      "y1": 43.49319265333607,
+      "y2": 1669.4101406072486,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2935602812570661,
-      "intercept": 52.15291686488313,
+      "slope": 0.2935332802906524,
+      "intercept": 52.225615755131265,
       "xMin": 0,
       "xMax": 5978,
-      "y1": 52.15291686488313,
-      "y2": 1807.0562782196243,
+      "y1": 52.225615755131265,
+      "y2": 1806.9675653326512,
       "label": "Reindeer"
     }
   },
@@ -3936,15 +3936,15 @@
       "activeUsers": 24
     },
     {
+      "roomName": "Tomorrowland Hub",
+      "hitCount": 225,
+      "avgUserRatio": 1.25,
+      "activeUsers": 42
+    },
+    {
       "roomName": "VMK Gallery",
       "hitCount": 216,
       "avgUserRatio": 3.56,
-      "activeUsers": 41
-    },
-    {
-      "roomName": "Tomorrowland Hub",
-      "hitCount": 206,
-      "avgUserRatio": 1.12,
       "activeUsers": 41
     },
     {
