@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 11281,
+    "hitCount": 11306,
     "avgUserRatio": 0.81,
     "activeUsers": 245
   },
@@ -13,9 +13,9 @@
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 2932,
-    "avgUserRatio": 1.06,
-    "activeUsers": 260
+    "hitCount": 3504,
+    "avgUserRatio": 0.94,
+    "activeUsers": 280
   },
   {
     "roomName": "Main Street",
@@ -61,9 +61,9 @@
   },
   {
     "roomName": "Blue Bayou",
-    "hitCount": 551,
+    "hitCount": 560,
     "avgUserRatio": 1.29,
-    "activeUsers": 107
+    "activeUsers": 108
   },
   {
     "roomName": "Snow White Hide 'n Seek Forest",
@@ -73,8 +73,8 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 452,
-    "avgUserRatio": 1.79,
+    "hitCount": 459,
+    "avgUserRatio": 1.8,
     "activeUsers": 95
   },
   {
@@ -109,8 +109,8 @@
   },
   {
     "roomName": "New Orleans Square",
-    "hitCount": 268,
-    "avgUserRatio": 1.64,
+    "hitCount": 281,
+    "avgUserRatio": 1.66,
     "activeUsers": 39
   },
   {
@@ -127,9 +127,15 @@
   },
   {
     "roomName": "VMK Gallery",
-    "hitCount": 216,
-    "avgUserRatio": 3.56,
-    "activeUsers": 41
+    "hitCount": 220,
+    "avgUserRatio": 3.53,
+    "activeUsers": 42
+  },
+  {
+    "roomName": "Adventureland Bazaar",
+    "hitCount": 206,
+    "avgUserRatio": 1.12,
+    "activeUsers": 37
   },
   {
     "roomName": "Tiki Tiki Tiki Island",
@@ -142,12 +148,6 @@
     "hitCount": 202,
     "avgUserRatio": 2.47,
     "activeUsers": 35
-  },
-  {
-    "roomName": "Adventureland Bazaar",
-    "hitCount": 201,
-    "avgUserRatio": 1.09,
-    "activeUsers": 36
   },
   {
     "roomName": "Pixar Pier Entrance",
