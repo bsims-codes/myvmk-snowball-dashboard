@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-23T14:46:47.198Z",
-  "totalRows": 34374,
+  "generatedAt": "2026-01-23T15:00:43.538Z",
+  "totalRows": 34415,
   "totalUsers": 593,
   "teamStats": {
     "Penguin": {
       "users": 278,
-      "attacks": 18797,
-      "hitsTaken": 15577
+      "attacks": 18836,
+      "hitsTaken": 15579
     },
     "Reindeer": {
       "users": 315,
-      "attacks": 15577,
-      "hitsTaken": 18797
+      "attacks": 15579,
+      "hitsTaken": 18836
     },
     "Unknown": {
       "users": 0,
@@ -22,22 +22,22 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 18797
+      "count": 18836
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 15577
+      "count": 15579
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 6132,
+      "attacks": 6134,
       "team": "Reindeer"
     },
     {
       "user": "JustForFun",
-      "attacks": 2084,
+      "attacks": 2085,
       "team": "Penguin"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 6132,
+      "attacks": 6134,
       "hitsTaken": 1395,
-      "ratio": 4.395698924731183
+      "ratio": 4.397132616487455
     },
     {
       "user": "SammyxxFairy",
@@ -308,9 +308,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 2084,
+      "attacks": 2085,
       "hitsTaken": 484,
-      "ratio": 4.305785123966942
+      "ratio": 4.3078512396694215
     },
     {
       "user": "TaterTotCasserole",
@@ -502,18 +502,18 @@
       "ratio": 1.3150684931506849
     },
     {
+      "user": "PrincessCutezada",
+      "team": "Penguin",
+      "attacks": 225,
+      "hitsTaken": 260,
+      "ratio": 0.8653846153846154
+    },
+    {
       "user": "Annie",
       "team": "Penguin",
       "attacks": 368,
       "hitsTaken": 113,
       "ratio": 3.256637168141593
-    },
-    {
-      "user": "PrincessCutezada",
-      "team": "Penguin",
-      "attacks": 187,
-      "hitsTaken": 258,
-      "ratio": 0.7248062015503876
     },
     {
       "user": "SpideyxLei",
@@ -1518,6 +1518,13 @@
     },
     {
       "user": "Maalik",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 49,
+      "ratio": 0
+    },
+    {
+      "user": "Brittt",
       "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 49,
@@ -2840,13 +2847,6 @@
       "ratio": 0
     },
     {
-      "user": "Brittt",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 10,
-      "ratio": 0
-    },
-    {
       "user": "RichElectricRose",
       "team": "Penguin",
       "attacks": 0,
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2826395597096412,
-      "intercept": 49.07192194467868,
+      "slope": 0.28258853012707075,
+      "intercept": 49.13425735665499,
       "xMin": 0,
-      "xMax": 6132,
-      "y1": 49.07192194467868,
-      "y2": 1782.2177020841987,
+      "xMax": 6134,
+      "y1": 49.13425735665499,
+      "y2": 1782.532301156107,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27399026670222315,
-      "intercept": 44.499368829749855,
+      "slope": 0.27423307609297265,
+      "intercept": 44.44246457023585,
       "xMin": 0,
-      "xMax": 6132,
-      "y1": 44.499368829749855,
-      "y2": 1724.6076842477821,
+      "xMax": 6134,
+      "y1": 44.44246457023585,
+      "y2": 1726.5881533245301,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2869148001269464,
-      "intercept": 53.42168128398103,
+      "slope": 0.28675777599020313,
+      "intercept": 53.57475985459399,
       "xMin": 0,
-      "xMax": 6132,
-      "y1": 53.42168128398103,
-      "y2": 1812.7832356624165,
+      "xMax": 6134,
+      "y1": 53.57475985459399,
+      "y2": 1812.5469577785,
       "label": "Reindeer"
     }
   },
@@ -3870,16 +3870,16 @@
       "activeUsers": 69
     },
     {
+      "roomName": "Blue Bayou",
+      "hitCount": 601,
+      "avgUserRatio": 1.3,
+      "activeUsers": 109
+    },
+    {
       "roomName": "Monorail Station",
       "hitCount": 572,
       "avgUserRatio": 1.77,
       "activeUsers": 42
-    },
-    {
-      "roomName": "Blue Bayou",
-      "hitCount": 560,
-      "avgUserRatio": 1.29,
-      "activeUsers": 108
     },
     {
       "roomName": "Snow White Hide 'n Seek Forest",

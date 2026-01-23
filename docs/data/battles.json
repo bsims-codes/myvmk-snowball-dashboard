@@ -17891,6 +17891,74 @@
     ]
   },
   {
+    "id": "Blue Bayou-6",
+    "roomName": "Blue Bayou",
+    "start": "2026-01-23T09:55:09.000Z",
+    "end": "2026-01-23T09:59:43.000Z",
+    "durationMinutes": 5,
+    "hitCount": 41,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "PrincessCutezada",
+        "team": "Penguin",
+        "attacks": 38
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 2
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 1
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Brittt",
+        "team": "Reindeer",
+        "hitsTaken": 39
+      },
+      {
+        "user": "PrincessCutezada",
+        "team": "Penguin",
+        "hitsTaken": 2
+      }
+    ],
+    "participants": [
+      {
+        "user": "PrincessCutezada",
+        "team": "Penguin",
+        "attacks": 38,
+        "hitsTaken": 2,
+        "ratio": 19
+      },
+      {
+        "user": "Brittt",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 39,
+        "ratio": 0
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 2,
+        "hitsTaken": 0,
+        "ratio": 2
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-72",
     "roomName": "Captain's Quest Quarters",
     "start": "2026-01-21T17:39:34.000Z",
