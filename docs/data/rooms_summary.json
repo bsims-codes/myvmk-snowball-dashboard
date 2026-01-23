@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 11312,
+    "hitCount": 11313,
     "avgUserRatio": 0.81,
-    "activeUsers": 246
+    "activeUsers": 247
   },
   {
     "roomName": "Town Square",
@@ -25,9 +25,9 @@
   },
   {
     "roomName": "Fantasyland in The Sky",
-    "hitCount": 1080,
-    "avgUserRatio": 2.05,
-    "activeUsers": 58
+    "hitCount": 1087,
+    "avgUserRatio": 2.03,
+    "activeUsers": 59
   },
   {
     "roomName": "Central Plaza",
@@ -37,9 +37,9 @@
   },
   {
     "roomName": "Dungeon",
-    "hitCount": 871,
-    "avgUserRatio": 2.3,
-    "activeUsers": 89
+    "hitCount": 872,
+    "avgUserRatio": 2.27,
+    "activeUsers": 90
   },
   {
     "roomName": "VMK Esplanade",
@@ -222,6 +222,12 @@
     "activeUsers": 21
   },
   {
+    "roomName": "Tom Sawyer's Island",
+    "hitCount": 87,
+    "avgUserRatio": 3.6,
+    "activeUsers": 18
+  },
+  {
     "roomName": "Nautilus Grotto",
     "hitCount": 81,
     "avgUserRatio": 1.63,
@@ -232,12 +238,6 @@
     "hitCount": 80,
     "avgUserRatio": 1.83,
     "activeUsers": 23
-  },
-  {
-    "roomName": "Tom Sawyer's Island",
-    "hitCount": 77,
-    "avgUserRatio": 3.52,
-    "activeUsers": 17
   },
   {
     "roomName": "WS - Canada",

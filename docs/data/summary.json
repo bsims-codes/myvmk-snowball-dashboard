@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-23T16:36:45.788Z",
-  "totalRows": 34423,
-  "totalUsers": 593,
+  "generatedAt": "2026-01-23T17:00:01.277Z",
+  "totalRows": 34442,
+  "totalUsers": 595,
   "teamStats": {
     "Penguin": {
-      "users": 278,
-      "attacks": 18838,
-      "hitsTaken": 15585
+      "users": 279,
+      "attacks": 18839,
+      "hitsTaken": 15603
     },
     "Reindeer": {
-      "users": 315,
-      "attacks": 15585,
-      "hitsTaken": 18838
+      "users": 316,
+      "attacks": 15603,
+      "hitsTaken": 18839
     },
     "Unknown": {
       "users": 0,
@@ -22,17 +22,17 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 18838
+      "count": 18839
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 15585
+      "count": 15603
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 6140,
+      "attacks": 6158,
       "team": "Reindeer"
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "user": "goatduck",
-      "attacks": 1174,
+      "attacks": 1175,
       "team": "Penguin"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 6140,
+      "attacks": 6158,
       "hitsTaken": 1397,
-      "ratio": 4.395132426628489
+      "ratio": 4.408017179670723
     },
     {
       "user": "SammyxxFairy",
@@ -329,9 +329,9 @@
     {
       "user": "goatduck",
       "team": "Penguin",
-      "attacks": 1174,
+      "attacks": 1175,
       "hitsTaken": 599,
-      "ratio": 1.9599332220367278
+      "ratio": 1.9616026711185308
     },
     {
       "user": "kazino",
@@ -2371,6 +2371,13 @@
       "ratio": 0
     },
     {
+      "user": "Theycallmehay",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 18,
+      "ratio": 0
+    },
+    {
       "user": "walkingtourguide",
       "team": "Penguin",
       "attacks": 1,
@@ -3776,50 +3783,43 @@
       "attacks": 0,
       "hitsTaken": 3,
       "ratio": 0
-    },
-    {
-      "user": "JWFIT",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 3,
-      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.28260949698308546,
-      "intercept": 49.14429266567233,
+      "slope": 0.28195793216173853,
+      "intercept": 49.20842938029242,
       "xMin": 0,
-      "xMax": 6140,
-      "y1": 49.14429266567233,
-      "y2": 1784.366604141817,
+      "xMax": 6158,
+      "y1": 49.20842938029242,
+      "y2": 1785.5053756322784,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27433027848711905,
-      "intercept": 44.45800375286105,
+      "slope": 0.27425754549366577,
+      "intercept": 44.527084186849,
       "xMin": 0,
-      "xMax": 6140,
-      "y1": 44.45800375286105,
-      "y2": 1728.845913663772,
+      "xMax": 6158,
+      "y1": 44.527084186849,
+      "y2": 1733.4050493368427,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2867386308674789,
-      "intercept": 53.57692379708968,
+      "slope": 0.28581699188449977,
+      "intercept": 53.61144167266593,
       "xMin": 0,
-      "xMax": 6140,
-      "y1": 53.57692379708968,
-      "y2": 1814.1521173234103,
+      "xMax": 6158,
+      "y1": 53.61144167266593,
+      "y2": 1813.6724776974156,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 11312,
+      "hitCount": 11313,
       "avgUserRatio": 0.81,
-      "activeUsers": 246
+      "activeUsers": 247
     },
     {
       "roomName": "Town Square",
@@ -3841,9 +3841,9 @@
     },
     {
       "roomName": "Fantasyland in The Sky",
-      "hitCount": 1080,
-      "avgUserRatio": 2.05,
-      "activeUsers": 58
+      "hitCount": 1087,
+      "avgUserRatio": 2.03,
+      "activeUsers": 59
     },
     {
       "roomName": "Central Plaza",
@@ -3853,9 +3853,9 @@
     },
     {
       "roomName": "Dungeon",
-      "hitCount": 871,
-      "avgUserRatio": 2.3,
-      "activeUsers": 89
+      "hitCount": 872,
+      "avgUserRatio": 2.27,
+      "activeUsers": 90
     },
     {
       "roomName": "VMK Esplanade",
