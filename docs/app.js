@@ -354,7 +354,7 @@ function detectBattles(events) {
     flush();
   }
 
-  return battles.sort((a, b) => new Date(b.start) - new Date(a.start));
+  return battles.sort((a, b) => new Date(b.end) - new Date(a.end));
 }
 
 /**
