@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-23T21:12:31.814Z",
-  "totalRows": 34531,
+  "generatedAt": "2026-01-23T21:33:26.455Z",
+  "totalRows": 34552,
   "totalUsers": 596,
   "teamStats": {
     "Penguin": {
       "users": 279,
-      "attacks": 18874,
-      "hitsTaken": 15657
+      "attacks": 18883,
+      "hitsTaken": 15669
     },
     "Reindeer": {
       "users": 317,
-      "attacks": 15657,
-      "hitsTaken": 18874
+      "attacks": 15669,
+      "hitsTaken": 18883
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 18874
+      "count": 18883
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 15657
+      "count": 15669
     }
   ],
   "topAttackers": [
@@ -57,7 +57,7 @@
     },
     {
       "user": "SammyxxFairy",
-      "attacks": 1397,
+      "attacks": 1409,
       "team": "Reindeer"
     },
     {
@@ -82,7 +82,7 @@
     },
     {
       "user": "Devgirlforever",
-      "attacks": 821,
+      "attacks": 830,
       "team": "Penguin"
     },
     {
@@ -164,7 +164,7 @@
     },
     {
       "user": "SammyxxFairy",
-      "hitsTaken": 1212,
+      "hitsTaken": 1220,
       "team": "Reindeer"
     },
     {
@@ -203,6 +203,11 @@
       "team": "Penguin"
     },
     {
+      "user": "Devgirlforever",
+      "hitsTaken": 530,
+      "team": "Penguin"
+    },
+    {
       "user": "RavenLunatic",
       "hitsTaken": 530,
       "team": "Reindeer"
@@ -210,11 +215,6 @@
     {
       "user": "TaterTotCasserole",
       "hitsTaken": 529,
-      "team": "Penguin"
-    },
-    {
-      "user": "Devgirlforever",
-      "hitsTaken": 518,
       "team": "Penguin"
     },
     {
@@ -294,9 +294,9 @@
     {
       "user": "SammyxxFairy",
       "team": "Reindeer",
-      "attacks": 1397,
-      "hitsTaken": 1212,
-      "ratio": 1.1526402640264026
+      "attacks": 1409,
+      "hitsTaken": 1220,
+      "ratio": 1.1549180327868853
     },
     {
       "user": "CaptainBubbles",
@@ -343,9 +343,9 @@
     {
       "user": "Devgirlforever",
       "team": "Penguin",
-      "attacks": 821,
-      "hitsTaken": 518,
-      "ratio": 1.584942084942085
+      "attacks": 830,
+      "hitsTaken": 530,
+      "ratio": 1.5660377358490567
     },
     {
       "user": "PepaRaindrops",
@@ -834,8 +834,8 @@
       "user": "maroonsonicsage22",
       "team": "Reindeer",
       "attacks": 15,
-      "hitsTaken": 138,
-      "ratio": 0.10869565217391304
+      "hitsTaken": 139,
+      "ratio": 0.1079136690647482
     },
     {
       "user": "BlueSorcerer",
@@ -3787,37 +3787,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.28176593823123325,
-      "intercept": 49.339498433256885,
+      "slope": 0.28217247348449287,
+      "intercept": 49.34157511706245,
       "xMin": 0,
       "xMax": 6212,
-      "y1": 49.339498433256885,
-      "y2": 1799.6695067256778,
+      "y1": 49.34157511706245,
+      "y2": 1802.1969804027322,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27472692083347255,
-      "intercept": 44.67962897008887,
+      "slope": 0.2752561583814933,
+      "intercept": 44.67763293390139,
       "xMin": 0,
       "xMax": 6212,
-      "y1": 44.67962897008887,
-      "y2": 1751.2832611876204,
+      "y1": 44.67763293390139,
+      "y2": 1754.5688887997378,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.285297175881397,
-      "intercept": 53.69647194289368,
+      "slope": 0.28565189944353303,
+      "intercept": 53.696544356994806,
       "xMin": 0,
       "xMax": 6212,
-      "y1": 53.69647194289368,
-      "y2": 1825.9625285181319,
+      "y1": 53.696544356994806,
+      "y2": 1828.166143700222,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 11390,
+      "hitCount": 11410,
       "avgUserRatio": 0.79,
       "activeUsers": 248
     },
@@ -3889,7 +3889,7 @@
     },
     {
       "roomName": "Epcot Entrance",
-      "hitCount": 459,
+      "hitCount": 460,
       "avgUserRatio": 1.8,
       "activeUsers": 95
     },
