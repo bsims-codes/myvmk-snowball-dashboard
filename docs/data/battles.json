@@ -16463,6 +16463,79 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-81",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-23T16:51:12.000Z",
+    "end": "2026-01-23T16:58:44.000Z",
+    "durationMinutes": 8,
+    "hitCount": 45,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 27
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 17
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 1
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "hitsTaken": 27
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 14
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "hitsTaken": 3
+      }
+    ],
+    "participants": [
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 17,
+        "hitsTaken": 27,
+        "ratio": 0.6296296296296297
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 27,
+        "hitsTaken": 14,
+        "ratio": 1.9285714285714286
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 3,
+        "ratio": 0.3333333333333333
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-71",
     "roomName": "Captain's Quest Quarters",
     "start": "2026-01-21T14:34:37.000Z",
