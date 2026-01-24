@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 11518,
-    "avgUserRatio": 0.79,
-    "activeUsers": 248
+    "hitCount": 11730,
+    "avgUserRatio": 0.78,
+    "activeUsers": 249
   },
   {
     "roomName": "Town Square",
@@ -13,9 +13,9 @@
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 3504,
-    "avgUserRatio": 0.94,
-    "activeUsers": 280
+    "hitCount": 3680,
+    "avgUserRatio": 0.95,
+    "activeUsers": 281
   },
   {
     "roomName": "Main Street",
@@ -36,6 +36,12 @@
     "activeUsers": 115
   },
   {
+    "roomName": "Jungle Cruise Dock",
+    "hitCount": 927,
+    "avgUserRatio": 2.22,
+    "activeUsers": 76
+  },
+  {
     "roomName": "Dungeon",
     "hitCount": 872,
     "avgUserRatio": 2.27,
@@ -46,12 +52,6 @@
     "hitCount": 832,
     "avgUserRatio": 2.03,
     "activeUsers": 120
-  },
-  {
-    "roomName": "Jungle Cruise Dock",
-    "hitCount": 803,
-    "avgUserRatio": 4.06,
-    "activeUsers": 70
   },
   {
     "roomName": "Blue Bayou",
@@ -79,8 +79,8 @@
   },
   {
     "roomName": "Shrunken Ned's Shop",
-    "hitCount": 406,
-    "avgUserRatio": 3.34,
+    "hitCount": 415,
+    "avgUserRatio": 3.01,
     "activeUsers": 67
   },
   {
@@ -121,9 +121,9 @@
   },
   {
     "roomName": "Tomorrowland Hub",
-    "hitCount": 225,
-    "avgUserRatio": 1.25,
-    "activeUsers": 42
+    "hitCount": 234,
+    "avgUserRatio": 1.22,
+    "activeUsers": 43
   },
   {
     "roomName": "VMK Gallery",
@@ -174,16 +174,16 @@
     "activeUsers": 46
   },
   {
+    "roomName": "Autopia Quest Track",
+    "hitCount": 159,
+    "avgUserRatio": 2.95,
+    "activeUsers": 26
+  },
+  {
     "roomName": "WS - Norway",
     "hitCount": 159,
     "avgUserRatio": 1.88,
     "activeUsers": 25
-  },
-  {
-    "roomName": "Autopia Quest Track",
-    "hitCount": 154,
-    "avgUserRatio": 3.38,
-    "activeUsers": 26
   },
   {
     "roomName": "Penny Arcade",
