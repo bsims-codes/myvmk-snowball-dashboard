@@ -65,9 +65,9 @@
   {
     "user": "Devgirlforever",
     "team": "Penguin",
-    "attacks": 998,
-    "hitsTaken": 649,
-    "ratio": 1.5377503852080123
+    "attacks": 1010,
+    "hitsTaken": 659,
+    "ratio": 1.5326251896813354
   },
   {
     "user": "PepaRaindrops",
@@ -140,6 +140,13 @@
     "ratio": 2.372340425531915
   },
   {
+    "user": "protozoa",
+    "team": "Reindeer",
+    "attacks": 429,
+    "hitsTaken": 144,
+    "ratio": 2.9791666666666665
+  },
+  {
     "user": "bunny",
     "team": "Penguin",
     "attacks": 425,
@@ -147,18 +154,11 @@
     "ratio": 2.992957746478873
   },
   {
-    "user": "protozoa",
-    "team": "Reindeer",
-    "attacks": 383,
-    "hitsTaken": 124,
-    "ratio": 3.088709677419355
-  },
-  {
     "user": "Annie",
     "team": "Penguin",
-    "attacks": 368,
-    "hitsTaken": 113,
-    "ratio": 3.256637168141593
+    "attacks": 374,
+    "hitsTaken": 119,
+    "ratio": 3.142857142857143
   },
   {
     "user": "PuffyOldDragon",
@@ -485,9 +485,9 @@
   {
     "user": "Myth",
     "team": "Reindeer",
-    "attacks": 56,
+    "attacks": 59,
     "hitsTaken": 160,
-    "ratio": 0.35
+    "ratio": 0.36875
   },
   {
     "user": "Bib",
@@ -703,8 +703,8 @@
     "user": "BlueSorcerer",
     "team": "Penguin",
     "attacks": 28,
-    "hitsTaken": 126,
-    "ratio": 0.2222222222222222
+    "hitsTaken": 127,
+    "ratio": 0.2204724409448819
   },
   {
     "user": "smoochies",
@@ -1316,6 +1316,13 @@
     "ratio": 0.36363636363636365
   },
   {
+    "user": "Fotogirl",
+    "team": "Penguin",
+    "attacks": 4,
+    "hitsTaken": 9,
+    "ratio": 0.4444444444444444
+  },
+  {
     "user": "flamesmolderton",
     "team": "Penguin",
     "attacks": 3,
@@ -1417,8 +1424,8 @@
     "user": "Art",
     "team": "Reindeer",
     "attacks": 3,
-    "hitsTaken": 241,
-    "ratio": 0.012448132780082987
+    "hitsTaken": 243,
+    "ratio": 0.012345679012345678
   },
   {
     "user": "Mazzy",
@@ -4039,13 +4046,6 @@
     "ratio": 0
   },
   {
-    "user": "Fotogirl",
-    "team": "Penguin",
-    "attacks": 0,
-    "hitsTaken": 6,
-    "ratio": 0
-  },
-  {
     "user": "Hannahpea",
     "team": "Penguin",
     "attacks": 0,
@@ -4182,7 +4182,7 @@
     "user": "Horseytink",
     "team": "Penguin",
     "attacks": 0,
-    "hitsTaken": 5,
+    "hitsTaken": 34,
     "ratio": 0
   }
 ]
