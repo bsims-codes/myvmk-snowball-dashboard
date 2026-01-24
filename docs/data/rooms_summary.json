@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 11823,
+    "hitCount": 11841,
     "avgUserRatio": 0.78,
     "activeUsers": 251
   },
@@ -37,8 +37,8 @@
   },
   {
     "roomName": "Jungle Cruise Dock",
-    "hitCount": 947,
-    "avgUserRatio": 2.18,
+    "hitCount": 962,
+    "avgUserRatio": 2.19,
     "activeUsers": 78
   },
   {
@@ -133,8 +133,8 @@
   },
   {
     "roomName": "Tiki Tiki Tiki Island",
-    "hitCount": 213,
-    "avgUserRatio": 1.37,
+    "hitCount": 215,
+    "avgUserRatio": 1.4,
     "activeUsers": 38
   },
   {
@@ -216,6 +216,12 @@
     "activeUsers": 19
   },
   {
+    "roomName": "Forbidden Temple",
+    "hitCount": 98,
+    "avgUserRatio": 1.42,
+    "activeUsers": 34
+  },
+  {
     "roomName": "Festival of the Lion King",
     "hitCount": 94,
     "avgUserRatio": 4.28,
@@ -244,12 +250,6 @@
     "hitCount": 74,
     "avgUserRatio": 6.73,
     "activeUsers": 11
-  },
-  {
-    "roomName": "Forbidden Temple",
-    "hitCount": 71,
-    "avgUserRatio": 1.49,
-    "activeUsers": 32
   },
   {
     "roomName": "\"it's a small world\" Imports",

@@ -63,18 +63,18 @@
     "ratio": 4.556962025316456
   },
   {
+    "user": "Devgirlforever",
+    "team": "Penguin",
+    "attacks": 998,
+    "hitsTaken": 649,
+    "ratio": 1.5377503852080123
+  },
+  {
     "user": "PepaRaindrops",
     "team": "Penguin",
     "attacks": 995,
     "hitsTaken": 421,
     "ratio": 2.3634204275534443
-  },
-  {
-    "user": "Devgirlforever",
-    "team": "Penguin",
-    "attacks": 965,
-    "hitsTaken": 632,
-    "ratio": 1.5268987341772151
   },
   {
     "user": "Mali",
@@ -147,18 +147,18 @@
     "ratio": 2.992957746478873
   },
   {
+    "user": "protozoa",
+    "team": "Reindeer",
+    "attacks": 383,
+    "hitsTaken": 124,
+    "ratio": 3.088709677419355
+  },
+  {
     "user": "Annie",
     "team": "Penguin",
     "attacks": 368,
     "hitsTaken": 113,
     "ratio": 3.256637168141593
-  },
-  {
-    "user": "protozoa",
-    "team": "Reindeer",
-    "attacks": 354,
-    "hitsTaken": 116,
-    "ratio": 3.0517241379310347
   },
   {
     "user": "PuffyOldDragon",
@@ -703,8 +703,8 @@
     "user": "BlueSorcerer",
     "team": "Penguin",
     "attacks": 28,
-    "hitsTaken": 125,
-    "ratio": 0.224
+    "hitsTaken": 126,
+    "ratio": 0.2222222222222222
   },
   {
     "user": "smoochies",
@@ -1417,8 +1417,8 @@
     "user": "Art",
     "team": "Reindeer",
     "attacks": 3,
-    "hitsTaken": 221,
-    "ratio": 0.013574660633484163
+    "hitsTaken": 241,
+    "ratio": 0.012448132780082987
   },
   {
     "user": "Mazzy",
@@ -3433,7 +3433,7 @@
     "user": "BabySnoops",
     "team": "Reindeer",
     "attacks": 0,
-    "hitsTaken": 16,
+    "hitsTaken": 21,
     "ratio": 0
   },
   {
@@ -4042,7 +4042,7 @@
     "user": "Fotogirl",
     "team": "Penguin",
     "attacks": 0,
-    "hitsTaken": 5,
+    "hitsTaken": 6,
     "ratio": 0
   },
   {
@@ -4098,7 +4098,7 @@
     "user": "JWFIT",
     "team": "Penguin",
     "attacks": 0,
-    "hitsTaken": 7,
+    "hitsTaken": 15,
     "ratio": 0
   },
   {
@@ -4182,7 +4182,7 @@
     "user": "Horseytink",
     "team": "Penguin",
     "attacks": 0,
-    "hitsTaken": 3,
+    "hitsTaken": 5,
     "ratio": 0
   }
 ]
