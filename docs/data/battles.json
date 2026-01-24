@@ -13594,6 +13594,86 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-83",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-24T02:34:05.000Z",
+    "end": "2026-01-24T02:44:54.000Z",
+    "durationMinutes": 11,
+    "hitCount": 58,
+    "uniqueUsers": 5,
+    "topAttackers": [
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 33
+      },
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 24
+      },
+      {
+        "user": "CristianoRonaldo",
+        "team": "Reindeer",
+        "attacks": 1
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "CristianoRonaldo",
+        "team": "Reindeer",
+        "hitsTaken": 28
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "hitsTaken": 11
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 8
+      }
+    ],
+    "participants": [
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 33,
+        "hitsTaken": 11,
+        "ratio": 3
+      },
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 24,
+        "hitsTaken": 5,
+        "ratio": 4.8
+      },
+      {
+        "user": "CristianoRonaldo",
+        "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 28,
+        "ratio": 0.03571428571428571
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 8,
+        "ratio": 0
+      },
+      {
+        "user": "Wavves",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 6,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Town Square-1",
     "roomName": "Town Square",
     "start": "2025-12-19T15:19:18.000Z",
