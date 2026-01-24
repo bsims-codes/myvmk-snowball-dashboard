@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-24T22:46:22.254Z",
-  "totalRows": 35496,
+  "generatedAt": "2026-01-24T22:53:16.265Z",
+  "totalRows": 35501,
   "totalUsers": 598,
   "teamStats": {
     "Penguin": {
       "users": 281,
-      "attacks": 19475,
-      "hitsTaken": 16021
+      "attacks": 19478,
+      "hitsTaken": 16023
     },
     "Reindeer": {
       "users": 317,
-      "attacks": 16021,
-      "hitsTaken": 19475
+      "attacks": 16023,
+      "hitsTaken": 19478
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 19475
+      "count": 19478
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 16021
+      "count": 16023
     }
   ],
   "topAttackers": [
@@ -42,7 +42,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 1902,
+      "attacks": 1905,
       "team": "Penguin"
     },
     {
@@ -209,7 +209,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "hitsTaken": 546,
+      "hitsTaken": 548,
       "team": "Penguin"
     },
     {
@@ -315,9 +315,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 1902,
-      "hitsTaken": 546,
-      "ratio": 3.4835164835164836
+      "attacks": 1905,
+      "hitsTaken": 548,
+      "ratio": 3.4762773722627736
     },
     {
       "user": "Winnie",
@@ -1405,6 +1405,13 @@
       "ratio": 0.375
     },
     {
+      "user": "MaraquanWocky",
+      "team": "Reindeer",
+      "attacks": 12,
+      "hitsTaken": 54,
+      "ratio": 0.2222222222222222
+    },
+    {
       "user": "PreppyPete",
       "team": "Reindeer",
       "attacks": 0,
@@ -1452,13 +1459,6 @@
       "attacks": 0,
       "hitsTaken": 62,
       "ratio": 0
-    },
-    {
-      "user": "MaraquanWocky",
-      "team": "Reindeer",
-      "attacks": 10,
-      "hitsTaken": 51,
-      "ratio": 0.19607843137254902
     },
     {
       "user": "JiminyC",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2827758754766283,
-      "intercept": 50.63800280691797,
+      "slope": 0.2828043673840845,
+      "intercept": 50.64315235066907,
       "xMin": 0,
       "xMax": 6377,
-      "y1": 50.63800280691797,
-      "y2": 1853.8997607213767,
+      "y1": 50.64315235066907,
+      "y2": 1854.0866031589758,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2771647319067086,
-      "intercept": 45.303738950989974,
+      "slope": 0.27727187778960477,
+      "intercept": 45.299797889140166,
       "xMin": 0,
       "xMax": 6377,
-      "y1": 45.303738950989974,
-      "y2": 1812.7832343200707,
+      "y1": 45.299797889140166,
+      "y2": 1813.4625625534497,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2858501720093658,
-      "intercept": 55.51779754589505,
+      "slope": 0.2858472703918699,
+      "intercept": 55.52706639821065,
       "xMin": 0,
       "xMax": 6377,
-      "y1": 55.51779754589505,
-      "y2": 1878.3843444496208,
+      "y1": 55.52706639821065,
+      "y2": 1878.3751096871651,
       "label": "Reindeer"
     }
   },
@@ -3853,8 +3853,8 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 1035,
-      "avgUserRatio": 2.17,
+      "hitCount": 1040,
+      "avgUserRatio": 2.13,
       "activeUsers": 79
     },
     {
