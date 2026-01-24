@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-24T22:53:16.265Z",
-  "totalRows": 35501,
-  "totalUsers": 598,
+  "generatedAt": "2026-01-24T22:59:29.279Z",
+  "totalRows": 35504,
+  "totalUsers": 600,
   "teamStats": {
     "Penguin": {
       "users": 281,
-      "attacks": 19478,
+      "attacks": 19481,
       "hitsTaken": 16023
     },
     "Reindeer": {
-      "users": 317,
+      "users": 319,
       "attacks": 16023,
-      "hitsTaken": 19478
+      "hitsTaken": 19481
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 19478
+      "count": 19481
     },
     {
       "pair": "Reindeer → Penguin",
@@ -460,18 +460,18 @@
       "ratio": 2.372340425531915
     },
     {
+      "user": "HugsforaLifetime",
+      "team": "Penguin",
+      "attacks": 180,
+      "hitsTaken": 409,
+      "ratio": 0.4400977995110024
+    },
+    {
       "user": "protozoa",
       "team": "Reindeer",
       "attacks": 438,
       "hitsTaken": 149,
       "ratio": 2.9395973154362416
-    },
-    {
-      "user": "HugsforaLifetime",
-      "team": "Penguin",
-      "attacks": 177,
-      "hitsTaken": 409,
-      "ratio": 0.43276283618581907
     },
     {
       "user": "bunny",
@@ -3787,21 +3787,21 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2828043673840845,
-      "intercept": 50.64315235066907,
+      "slope": 0.2828172837820447,
+      "intercept": 50.640538486042395,
       "xMin": 0,
       "xMax": 6377,
-      "y1": 50.64315235066907,
-      "y2": 1854.0866031589758,
+      "y1": 50.640538486042395,
+      "y2": 1854.1663571641413,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27727187778960477,
-      "intercept": 45.299797889140166,
+      "slope": 0.27731704179521516,
+      "intercept": 45.2924521153262,
       "xMin": 0,
       "xMax": 6377,
-      "y1": 45.299797889140166,
-      "y2": 1813.4625625534497,
+      "y1": 45.2924521153262,
+      "y2": 1813.743227643413,
       "label": "Penguin"
     },
     "reindeer": {
