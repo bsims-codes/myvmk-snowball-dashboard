@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-24T18:23:10.869Z",
-  "totalRows": 35305,
-  "totalUsers": 597,
+  "generatedAt": "2026-01-24T18:48:50.060Z",
+  "totalRows": 35348,
+  "totalUsers": 598,
   "teamStats": {
     "Penguin": {
-      "users": 280,
-      "attacks": 19386,
-      "hitsTaken": 15919
+      "users": 281,
+      "attacks": 19414,
+      "hitsTaken": 15934
     },
     "Reindeer": {
       "users": 317,
-      "attacks": 15919,
-      "hitsTaken": 19386
+      "attacks": 15934,
+      "hitsTaken": 19414
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 19386
+      "count": 19414
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 15919
+      "count": 15934
     }
   ],
   "topAttackers": [
@@ -82,7 +82,7 @@
     },
     {
       "user": "Devgirlforever",
-      "attacks": 937,
+      "attacks": 965,
       "team": "Penguin"
     },
     {
@@ -142,7 +142,7 @@
     },
     {
       "user": "protozoa",
-      "attacks": 339,
+      "attacks": 354,
       "team": "Reindeer"
     },
     {
@@ -164,7 +164,7 @@
     },
     {
       "user": "SammyxxFairy",
-      "hitsTaken": 1248,
+      "hitsTaken": 1252,
       "team": "Reindeer"
     },
     {
@@ -199,7 +199,7 @@
     },
     {
       "user": "Devgirlforever",
-      "hitsTaken": 627,
+      "hitsTaken": 632,
       "team": "Penguin"
     },
     {
@@ -295,8 +295,8 @@
       "user": "SammyxxFairy",
       "team": "Reindeer",
       "attacks": 1453,
-      "hitsTaken": 1248,
-      "ratio": 1.1642628205128205
+      "hitsTaken": 1252,
+      "ratio": 1.1605431309904153
     },
     {
       "user": "JustForFun",
@@ -336,9 +336,9 @@
     {
       "user": "Devgirlforever",
       "team": "Penguin",
-      "attacks": 937,
-      "hitsTaken": 627,
-      "ratio": 1.4944178628389155
+      "attacks": 965,
+      "hitsTaken": 632,
+      "ratio": 1.5268987341772151
     },
     {
       "user": "kazino",
@@ -518,9 +518,9 @@
     {
       "user": "protozoa",
       "team": "Reindeer",
-      "attacks": 339,
-      "hitsTaken": 109,
-      "ratio": 3.110091743119266
+      "attacks": 354,
+      "hitsTaken": 116,
+      "ratio": 3.0517241379310347
     },
     {
       "user": "SpideyxLei",
@@ -698,6 +698,13 @@
       "ratio": 0.4276729559748428
     },
     {
+      "user": "Art",
+      "team": "Reindeer",
+      "attacks": 3,
+      "hitsTaken": 221,
+      "ratio": 0.013574660633484163
+    },
+    {
       "user": "bittahmercenary",
       "team": "Penguin",
       "attacks": 8,
@@ -717,13 +724,6 @@
       "attacks": 56,
       "hitsTaken": 160,
       "ratio": 0.35
-    },
-    {
-      "user": "Art",
-      "team": "Reindeer",
-      "attacks": 3,
-      "hitsTaken": 204,
-      "ratio": 0.014705882352941176
     },
     {
       "user": "charliethehamsterr",
@@ -848,8 +848,8 @@
       "user": "BlueSorcerer",
       "team": "Penguin",
       "attacks": 28,
-      "hitsTaken": 124,
-      "ratio": 0.22580645161290322
+      "hitsTaken": 125,
+      "ratio": 0.224
     },
     {
       "user": "SoopaVillain",
@@ -3113,6 +3113,13 @@
       "ratio": 0
     },
     {
+      "user": "JWFIT",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 7,
+      "ratio": 0
+    },
+    {
       "user": "lostgirl1",
       "team": "Penguin",
       "attacks": 0,
@@ -3402,6 +3409,13 @@
     {
       "user": "unbirthday",
       "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 5,
+      "ratio": 0
+    },
+    {
+      "user": "Fotogirl",
+      "team": "Penguin",
       "attacks": 0,
       "hitsTaken": 5,
       "ratio": 0
@@ -3769,55 +3783,41 @@
       "attacks": 0,
       "hitsTaken": 3,
       "ratio": 0
-    },
-    {
-      "user": "Tikka",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 3,
-      "ratio": 0
-    },
-    {
-      "user": "TheSurvivor",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 3,
-      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.2822142247605362,
-      "intercept": 50.40967573190614,
+      "slope": 0.28237419224513166,
+      "intercept": 50.45409784696062,
       "xMin": 0,
       "xMax": 6377,
-      "y1": 50.40967573190614,
-      "y2": 1850.0897870298456,
+      "y1": 50.45409784696062,
+      "y2": 1851.1543217941653,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.27542703247671213,
-      "intercept": 45.1292806973022,
+      "slope": 0.2757487378709454,
+      "intercept": 45.120881976176854,
       "xMin": 0,
       "xMax": 6377,
-      "y1": 45.1292806973022,
-      "y2": 1801.5274668012955,
+      "y1": 45.120881976176854,
+      "y2": 1803.5705833791956,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2857748708070359,
-      "intercept": 55.29815414320306,
+      "slope": 0.28588020699140254,
+      "intercept": 55.38068323003733,
       "xMin": 0,
       "xMax": 6377,
-      "y1": 55.29815414320306,
-      "y2": 1877.684505279671,
+      "y1": 55.38068323003733,
+      "y2": 1878.4387632142111,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 11819,
+      "hitCount": 11823,
       "avgUserRatio": 0.78,
       "activeUsers": 251
     },
@@ -3853,9 +3853,9 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 927,
-      "avgUserRatio": 2.22,
-      "activeUsers": 76
+      "hitCount": 947,
+      "avgUserRatio": 2.18,
+      "activeUsers": 78
     },
     {
       "roomName": "Dungeon",
@@ -3925,9 +3925,9 @@
     },
     {
       "roomName": "New Orleans Square",
-      "hitCount": 281,
-      "avgUserRatio": 1.66,
-      "activeUsers": 39
+      "hitCount": 283,
+      "avgUserRatio": 1.63,
+      "activeUsers": 40
     },
     {
       "roomName": "Monorail Train",
@@ -3948,22 +3948,22 @@
       "activeUsers": 42
     },
     {
+      "roomName": "Tiki Tiki Tiki Island",
+      "hitCount": 213,
+      "avgUserRatio": 1.37,
+      "activeUsers": 38
+    },
+    {
       "roomName": "Adventureland Bazaar",
       "hitCount": 206,
       "avgUserRatio": 1.12,
       "activeUsers": 37
     },
     {
-      "roomName": "Tiki Tiki Tiki Island",
-      "hitCount": 203,
-      "avgUserRatio": 1.35,
-      "activeUsers": 36
-    },
-    {
       "roomName": "Gallery",
-      "hitCount": 202,
-      "avgUserRatio": 2.47,
-      "activeUsers": 35
+      "hitCount": 205,
+      "avgUserRatio": 2.4,
+      "activeUsers": 36
     }
   ]
 }
