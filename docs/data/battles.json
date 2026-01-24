@@ -11589,6 +11589,100 @@
     ]
   },
   {
+    "id": "Jungle Cruise Dock-6",
+    "roomName": "Jungle Cruise Dock",
+    "start": "2026-01-24T14:05:31.000Z",
+    "end": "2026-01-24T14:19:30.000Z",
+    "durationMinutes": 14,
+    "hitCount": 70,
+    "uniqueUsers": 7,
+    "topAttackers": [
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 47
+      },
+      {
+        "user": "Annie",
+        "team": "Penguin",
+        "attacks": 10
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 5
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Horseytink",
+        "team": "Penguin",
+        "hitsTaken": 27
+      },
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "hitsTaken": 20
+      },
+      {
+        "user": "Annie",
+        "team": "Penguin",
+        "hitsTaken": 11
+      }
+    ],
+    "participants": [
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 47,
+        "hitsTaken": 20,
+        "ratio": 2.35
+      },
+      {
+        "user": "Horseytink",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 27,
+        "ratio": 0.037037037037037035
+      },
+      {
+        "user": "Annie",
+        "team": "Penguin",
+        "attacks": 10,
+        "hitsTaken": 11,
+        "ratio": 0.9090909090909091
+      },
+      {
+        "user": "Fotogirl",
+        "team": "Penguin",
+        "attacks": 4,
+        "hitsTaken": 6,
+        "ratio": 0.6666666666666666
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 5,
+        "hitsTaken": 5,
+        "ratio": 1
+      },
+      {
+        "user": "Myth",
+        "team": "Reindeer",
+        "attacks": 3,
+        "hitsTaken": 0,
+        "ratio": 3
+      },
+      {
+        "user": "BlueSorcerer",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Central Plaza-4",
     "roomName": "Central Plaza",
     "start": "2025-12-19T15:26:20.000Z",
@@ -13962,100 +14056,6 @@
       },
       {
         "user": "AirBiscuits",
-        "team": "Penguin",
-        "attacks": 0,
-        "hitsTaken": 1,
-        "ratio": 0
-      }
-    ]
-  },
-  {
-    "id": "Jungle Cruise Dock-6",
-    "roomName": "Jungle Cruise Dock",
-    "start": "2026-01-24T14:05:31.000Z",
-    "end": "2026-01-24T14:17:12.000Z",
-    "durationMinutes": 12,
-    "hitCount": 56,
-    "uniqueUsers": 7,
-    "topAttackers": [
-      {
-        "user": "protozoa",
-        "team": "Reindeer",
-        "attacks": 38
-      },
-      {
-        "user": "Annie",
-        "team": "Penguin",
-        "attacks": 6
-      },
-      {
-        "user": "Devgirlforever",
-        "team": "Penguin",
-        "attacks": 5
-      }
-    ],
-    "topVictims": [
-      {
-        "user": "Horseytink",
-        "team": "Penguin",
-        "hitsTaken": 27
-      },
-      {
-        "user": "protozoa",
-        "team": "Reindeer",
-        "hitsTaken": 15
-      },
-      {
-        "user": "Annie",
-        "team": "Penguin",
-        "hitsTaken": 6
-      }
-    ],
-    "participants": [
-      {
-        "user": "protozoa",
-        "team": "Reindeer",
-        "attacks": 38,
-        "hitsTaken": 15,
-        "ratio": 2.533333333333333
-      },
-      {
-        "user": "Horseytink",
-        "team": "Penguin",
-        "attacks": 0,
-        "hitsTaken": 27,
-        "ratio": 0
-      },
-      {
-        "user": "Annie",
-        "team": "Penguin",
-        "attacks": 6,
-        "hitsTaken": 6,
-        "ratio": 1
-      },
-      {
-        "user": "Devgirlforever",
-        "team": "Penguin",
-        "attacks": 5,
-        "hitsTaken": 4,
-        "ratio": 1.25
-      },
-      {
-        "user": "Fotogirl",
-        "team": "Penguin",
-        "attacks": 4,
-        "hitsTaken": 3,
-        "ratio": 1.3333333333333333
-      },
-      {
-        "user": "Myth",
-        "team": "Reindeer",
-        "attacks": 3,
-        "hitsTaken": 0,
-        "ratio": 3
-      },
-      {
-        "user": "BlueSorcerer",
         "team": "Penguin",
         "attacks": 0,
         "hitsTaken": 1,

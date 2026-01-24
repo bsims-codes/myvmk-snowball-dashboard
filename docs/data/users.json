@@ -65,9 +65,9 @@
   {
     "user": "Devgirlforever",
     "team": "Penguin",
-    "attacks": 1010,
-    "hitsTaken": 659,
-    "ratio": 1.5326251896813354
+    "attacks": 1011,
+    "hitsTaken": 660,
+    "ratio": 1.5318181818181817
   },
   {
     "user": "PepaRaindrops",
@@ -142,9 +142,9 @@
   {
     "user": "protozoa",
     "team": "Reindeer",
-    "attacks": 429,
-    "hitsTaken": 144,
-    "ratio": 2.9791666666666665
+    "attacks": 438,
+    "hitsTaken": 149,
+    "ratio": 2.9395973154362416
   },
   {
     "user": "bunny",
@@ -156,9 +156,9 @@
   {
     "user": "Annie",
     "team": "Penguin",
-    "attacks": 374,
-    "hitsTaken": 119,
-    "ratio": 3.142857142857143
+    "attacks": 378,
+    "hitsTaken": 124,
+    "ratio": 3.0483870967741935
   },
   {
     "user": "PuffyOldDragon",
@@ -1319,8 +1319,8 @@
     "user": "Fotogirl",
     "team": "Penguin",
     "attacks": 4,
-    "hitsTaken": 9,
-    "ratio": 0.4444444444444444
+    "hitsTaken": 12,
+    "ratio": 0.3333333333333333
   },
   {
     "user": "flamesmolderton",
@@ -1792,6 +1792,13 @@
     "ratio": 0.0058823529411764705
   },
   {
+    "user": "Horseytink",
+    "team": "Penguin",
+    "attacks": 1,
+    "hitsTaken": 34,
+    "ratio": 0.029411764705882353
+  },
+  {
     "user": "Ash_Mccash",
     "team": "Penguin",
     "attacks": 0,
@@ -1830,7 +1837,7 @@
     "user": "HoneyStar",
     "team": "Reindeer",
     "attacks": 0,
-    "hitsTaken": 118,
+    "hitsTaken": 119,
     "ratio": 0
   },
   {
@@ -4176,13 +4183,6 @@
     "team": "Penguin",
     "attacks": 0,
     "hitsTaken": 6,
-    "ratio": 0
-  },
-  {
-    "user": "Horseytink",
-    "team": "Penguin",
-    "attacks": 0,
-    "hitsTaken": 34,
     "ratio": 0
   }
 ]
