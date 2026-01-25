@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 11877,
+    "hitCount": 11905,
     "avgUserRatio": 0.77,
-    "activeUsers": 252
+    "activeUsers": 253
   },
   {
     "roomName": "Town Square",
@@ -13,9 +13,9 @@
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 3741,
+    "hitCount": 4087,
     "avgUserRatio": 0.93,
-    "activeUsers": 282
+    "activeUsers": 289
   },
   {
     "roomName": "Main Street",
@@ -37,9 +37,9 @@
   },
   {
     "roomName": "Jungle Cruise Dock",
-    "hitCount": 1040,
-    "avgUserRatio": 2.13,
-    "activeUsers": 79
+    "hitCount": 1041,
+    "avgUserRatio": 2.11,
+    "activeUsers": 80
   },
   {
     "roomName": "Dungeon",
@@ -49,9 +49,9 @@
   },
   {
     "roomName": "VMK Esplanade",
-    "hitCount": 834,
-    "avgUserRatio": 2.03,
-    "activeUsers": 120
+    "hitCount": 861,
+    "avgUserRatio": 2.23,
+    "activeUsers": 121
   },
   {
     "roomName": "Blue Bayou",
@@ -84,10 +84,16 @@
     "activeUsers": 68
   },
   {
+    "roomName": "New Orleans Square",
+    "hitCount": 418,
+    "avgUserRatio": 1.77,
+    "activeUsers": 43
+  },
+  {
     "roomName": "Street Party Music Game Lobby",
-    "hitCount": 373,
-    "avgUserRatio": 1.22,
-    "activeUsers": 82
+    "hitCount": 386,
+    "avgUserRatio": 1.23,
+    "activeUsers": 83
   },
   {
     "roomName": "Banquet Hall",
@@ -100,12 +106,6 @@
     "hitCount": 362,
     "avgUserRatio": 1.37,
     "activeUsers": 57
-  },
-  {
-    "roomName": "New Orleans Square",
-    "hitCount": 289,
-    "avgUserRatio": 1.61,
-    "activeUsers": 42
   },
   {
     "roomName": "Pirate Treehouse",
@@ -204,6 +204,12 @@
     "activeUsers": 31
   },
   {
+    "roomName": "Festival of the Lion King",
+    "hitCount": 117,
+    "avgUserRatio": 4.92,
+    "activeUsers": 22
+  },
+  {
     "roomName": "Anandapur",
     "hitCount": 100,
     "avgUserRatio": 2.18,
@@ -226,12 +232,6 @@
     "hitCount": 97,
     "avgUserRatio": 1.71,
     "activeUsers": 24
-  },
-  {
-    "roomName": "Festival of the Lion King",
-    "hitCount": 94,
-    "avgUserRatio": 4.28,
-    "activeUsers": 21
   },
   {
     "roomName": "Tom Sawyer's Island",
