@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-25T19:52:25.797Z",
-  "totalRows": 37709,
+  "generatedAt": "2026-01-25T19:58:16.447Z",
+  "totalRows": 37717,
   "totalUsers": 609,
   "teamStats": {
     "Penguin": {
       "users": 284,
-      "attacks": 21220,
-      "hitsTaken": 16489
+      "attacks": 21224,
+      "hitsTaken": 16493
     },
     "Reindeer": {
       "users": 325,
-      "attacks": 16489,
-      "hitsTaken": 21220
+      "attacks": 16493,
+      "hitsTaken": 21224
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 21220
+      "count": 21224
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 16489
+      "count": 16493
     }
   ],
   "topAttackers": [
@@ -42,7 +42,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 2235,
+      "attacks": 2239,
       "team": "Penguin"
     },
     {
@@ -229,7 +229,7 @@
     },
     {
       "user": "HugsforaLifetime",
-      "hitsTaken": 416,
+      "hitsTaken": 420,
       "team": "Penguin"
     },
     {
@@ -249,7 +249,7 @@
     },
     {
       "user": "MaraquanWocky",
-      "hitsTaken": 380,
+      "hitsTaken": 382,
       "team": "Reindeer"
     },
     {
@@ -274,7 +274,7 @@
     },
     {
       "user": "neko.",
-      "hitsTaken": 302,
+      "hitsTaken": 304,
       "team": "Reindeer"
     },
     {
@@ -301,9 +301,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 2235,
+      "attacks": 2239,
       "hitsTaken": 623,
-      "ratio": 3.5874799357945424
+      "ratio": 3.593900481540931
     },
     {
       "user": "SammyxxFairy",
@@ -463,8 +463,8 @@
       "user": "HugsforaLifetime",
       "team": "Penguin",
       "attacks": 203,
-      "hitsTaken": 416,
-      "ratio": 0.4879807692307692
+      "hitsTaken": 420,
+      "ratio": 0.48333333333333334
     },
     {
       "user": "protozoa",
@@ -525,9 +525,9 @@
     {
       "user": "MaraquanWocky",
       "team": "Reindeer",
-      "attacks": 90,
-      "hitsTaken": 380,
-      "ratio": 0.23684210526315788
+      "attacks": 94,
+      "hitsTaken": 382,
+      "ratio": 0.24607329842931938
     },
     {
       "user": "SpideyxLei",
@@ -572,18 +572,18 @@
       "ratio": 1.65
     },
     {
+      "user": "neko.",
+      "team": "Reindeer",
+      "attacks": 58,
+      "hitsTaken": 304,
+      "ratio": 0.19078947368421054
+    },
+    {
       "user": "tizzi",
       "team": "Reindeer",
       "attacks": 131,
       "hitsTaken": 230,
       "ratio": 0.5695652173913044
-    },
-    {
-      "user": "neko.",
-      "team": "Reindeer",
-      "attacks": 58,
-      "hitsTaken": 302,
-      "ratio": 0.19205298013245034
     },
     {
       "user": "CartNarcs",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2785138791434613,
-      "intercept": 54.06382540154987,
+      "slope": 0.27850134598443854,
+      "intercept": 54.076314480469705,
       "xMin": 0,
       "xMax": 6674,
-      "y1": 54.06382540154987,
-      "y2": 1912.8654548050106,
+      "y1": 54.076314480469705,
+      "y2": 1912.7942975806127,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.26275377578405895,
-      "intercept": 47.46881747988525,
+      "slope": 0.26267894798441455,
+      "intercept": 47.48871651699454,
       "xMin": 0,
       "xMax": 6674,
-      "y1": 47.46881747988525,
-      "y2": 1801.0875170626948,
+      "y1": 47.48871651699454,
+      "y2": 1800.6080153649773,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2877110659126969,
-      "intercept": 60.26395355648265,
+      "slope": 0.2877354692569975,
+      "intercept": 60.2729489410004,
       "xMin": 0,
       "xMax": 6674,
-      "y1": 60.26395355648265,
-      "y2": 1980.4476074578217,
+      "y1": 60.2729489410004,
+      "y2": 1980.6194707622017,
       "label": "Reindeer"
     }
   },
@@ -3823,7 +3823,7 @@
     },
     {
       "roomName": "Matterhorn",
-      "hitCount": 4933,
+      "hitCount": 4941,
       "avgUserRatio": 0.93,
       "activeUsers": 295
     },

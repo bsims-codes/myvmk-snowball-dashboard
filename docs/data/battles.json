@@ -1636,15 +1636,15 @@
     "id": "Matterhorn-30",
     "roomName": "Matterhorn",
     "start": "2026-01-25T13:35:37.000Z",
-    "end": "2026-01-25T14:52:03.000Z",
-    "durationMinutes": 76,
-    "hitCount": 797,
+    "end": "2026-01-25T14:53:15.000Z",
+    "durationMinutes": 78,
+    "hitCount": 805,
     "uniqueUsers": 15,
     "topAttackers": [
       {
         "user": "TaterTotCasserole",
         "team": "Penguin",
-        "attacks": 214
+        "attacks": 218
       },
       {
         "user": "JustForFun",
@@ -1661,12 +1661,12 @@
       {
         "user": "MaraquanWocky",
         "team": "Reindeer",
-        "hitsTaken": 312
+        "hitsTaken": 314
       },
       {
         "user": "neko.",
         "team": "Reindeer",
-        "hitsTaken": 302
+        "hitsTaken": 304
       },
       {
         "user": "TaterTotCasserole",
@@ -1678,23 +1678,23 @@
       {
         "user": "MaraquanWocky",
         "team": "Reindeer",
-        "attacks": 77,
-        "hitsTaken": 312,
-        "ratio": 0.2467948717948718
+        "attacks": 81,
+        "hitsTaken": 314,
+        "ratio": 0.25796178343949044
       },
       {
         "user": "neko.",
         "team": "Reindeer",
         "attacks": 58,
-        "hitsTaken": 302,
-        "ratio": 0.19205298013245034
+        "hitsTaken": 304,
+        "ratio": 0.19078947368421054
       },
       {
         "user": "TaterTotCasserole",
         "team": "Penguin",
-        "attacks": 214,
+        "attacks": 218,
         "hitsTaken": 69,
-        "ratio": 3.101449275362319
+        "ratio": 3.1594202898550723
       },
       {
         "user": "JustForFun",
@@ -1753,18 +1753,18 @@
         "ratio": 0.3333333333333333
       },
       {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 4,
+        "hitsTaken": 5,
+        "ratio": 0.8
+      },
+      {
         "user": "BluPirate",
         "team": "Penguin",
         "attacks": 5,
         "hitsTaken": 0,
         "ratio": 5
-      },
-      {
-        "user": "HugsforaLifetime",
-        "team": "Penguin",
-        "attacks": 4,
-        "hitsTaken": 1,
-        "ratio": 4
       },
       {
         "user": "ToystoryKid",
