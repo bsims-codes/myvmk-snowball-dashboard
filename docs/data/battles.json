@@ -1636,15 +1636,15 @@
     "id": "Matterhorn-30",
     "roomName": "Matterhorn",
     "start": "2026-01-25T13:35:37.000Z",
-    "end": "2026-01-25T14:45:52.000Z",
-    "durationMinutes": 70,
-    "hitCount": 763,
-    "uniqueUsers": 14,
+    "end": "2026-01-25T14:52:03.000Z",
+    "durationMinutes": 76,
+    "hitCount": 797,
+    "uniqueUsers": 15,
     "topAttackers": [
       {
         "user": "TaterTotCasserole",
         "team": "Penguin",
-        "attacks": 193
+        "attacks": 214
       },
       {
         "user": "JustForFun",
@@ -1661,40 +1661,40 @@
       {
         "user": "MaraquanWocky",
         "team": "Reindeer",
-        "hitsTaken": 303
+        "hitsTaken": 312
       },
       {
         "user": "neko.",
         "team": "Reindeer",
-        "hitsTaken": 291
+        "hitsTaken": 302
       },
       {
         "user": "TaterTotCasserole",
         "team": "Penguin",
-        "hitsTaken": 64
+        "hitsTaken": 69
       }
     ],
     "participants": [
       {
         "user": "MaraquanWocky",
         "team": "Reindeer",
-        "attacks": 76,
-        "hitsTaken": 303,
-        "ratio": 0.2508250825082508
+        "attacks": 77,
+        "hitsTaken": 312,
+        "ratio": 0.2467948717948718
       },
       {
         "user": "neko.",
         "team": "Reindeer",
         "attacks": 58,
-        "hitsTaken": 291,
-        "ratio": 0.19931271477663232
+        "hitsTaken": 302,
+        "ratio": 0.19205298013245034
       },
       {
         "user": "TaterTotCasserole",
         "team": "Penguin",
-        "attacks": 193,
-        "hitsTaken": 64,
-        "ratio": 3.015625
+        "attacks": 214,
+        "hitsTaken": 69,
+        "ratio": 3.101449275362319
       },
       {
         "user": "JustForFun",
@@ -1720,9 +1720,9 @@
       {
         "user": "Kronkx",
         "team": "Reindeer",
-        "attacks": 23,
-        "hitsTaken": 11,
-        "ratio": 2.090909090909091
+        "attacks": 30,
+        "hitsTaken": 17,
+        "ratio": 1.7647058823529411
       },
       {
         "user": "PrincessCutezada",
@@ -1748,9 +1748,9 @@
       {
         "user": "Question",
         "team": "Penguin",
-        "attacks": 5,
-        "hitsTaken": 16,
-        "ratio": 0.3125
+        "attacks": 6,
+        "hitsTaken": 18,
+        "ratio": 0.3333333333333333
       },
       {
         "user": "BluPirate",
@@ -1758,6 +1758,13 @@
         "attacks": 5,
         "hitsTaken": 0,
         "ratio": 5
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 4,
+        "hitsTaken": 1,
+        "ratio": 4
       },
       {
         "user": "ToystoryKid",
