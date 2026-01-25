@@ -132,6 +132,12 @@
     "activeUsers": 43
   },
   {
+    "roomName": "Penny Arcade",
+    "hitCount": 225,
+    "avgUserRatio": 1.2,
+    "activeUsers": 51
+  },
+  {
     "roomName": "VMK Gallery",
     "hitCount": 220,
     "avgUserRatio": 3.53,
@@ -172,12 +178,6 @@
     "hitCount": 173,
     "avgUserRatio": 2.19,
     "activeUsers": 47
-  },
-  {
-    "roomName": "Penny Arcade",
-    "hitCount": 173,
-    "avgUserRatio": 1.32,
-    "activeUsers": 46
   },
   {
     "roomName": "Autopia Quest Track",

@@ -16327,6 +16327,128 @@
     ]
   },
   {
+    "id": "Penny Arcade-3",
+    "roomName": "Penny Arcade",
+    "start": "2026-01-25T16:01:42.000Z",
+    "end": "2026-01-25T16:08:47.000Z",
+    "durationMinutes": 7,
+    "hitCount": 49,
+    "uniqueUsers": 11,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 14
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 13
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 9
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 11
+      },
+      {
+        "user": "MatthewC",
+        "team": "Reindeer",
+        "hitsTaken": 9
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "hitsTaken": 8
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 14,
+        "hitsTaken": 11,
+        "ratio": 1.2727272727272727
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 13,
+        "hitsTaken": 6,
+        "ratio": 2.1666666666666665
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 9,
+        "hitsTaken": 8,
+        "ratio": 1.125
+      },
+      {
+        "user": "Cowboy_Pirate",
+        "team": "Reindeer",
+        "attacks": 4,
+        "hitsTaken": 7,
+        "ratio": 0.5714285714285714
+      },
+      {
+        "user": "MatthewC",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 9,
+        "ratio": 0
+      },
+      {
+        "user": "kazino",
+        "team": "Penguin",
+        "attacks": 4,
+        "hitsTaken": 2,
+        "ratio": 2
+      },
+      {
+        "user": "AstroVioletRose",
+        "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 3,
+        "ratio": 0.3333333333333333
+      },
+      {
+        "user": "HugsforaLifetime",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 2,
+        "ratio": 0.5
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 2,
+        "hitsTaken": 0,
+        "ratio": 2
+      },
+      {
+        "user": "Mali",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "bsims",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "Matterhorn-25",
     "roomName": "Matterhorn",
     "start": "2026-01-18T20:44:40.000Z",
