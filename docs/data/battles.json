@@ -14231,6 +14231,93 @@
     ]
   },
   {
+    "id": "Blue Bayou-7",
+    "roomName": "Blue Bayou",
+    "start": "2026-01-24T20:14:38.000Z",
+    "end": "2026-01-24T20:20:54.000Z",
+    "durationMinutes": 6,
+    "hitCount": 54,
+    "uniqueUsers": 6,
+    "topAttackers": [
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 37
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 13
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 4
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "PreppyPete",
+        "team": "Reindeer",
+        "hitsTaken": 33
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "hitsTaken": 6
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "hitsTaken": 6
+      }
+    ],
+    "participants": [
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 37,
+        "hitsTaken": 6,
+        "ratio": 6.166666666666667
+      },
+      {
+        "user": "PreppyPete",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 33,
+        "ratio": 0
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 13,
+        "hitsTaken": 4,
+        "ratio": 3.25
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 4,
+        "hitsTaken": 6,
+        "ratio": 0.6666666666666666
+      },
+      {
+        "user": "velocity.",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 4,
+        "ratio": 0
+      },
+      {
+        "user": "PrincessCutezada",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "VMK Esplanade-5",
     "roomName": "VMK Esplanade",
     "start": "2026-01-15T20:06:01.000Z",
@@ -15285,6 +15372,100 @@
         "attacks": 0,
         "hitsTaken": 1,
         "ratio": 0
+      }
+    ]
+  },
+  {
+    "id": "Fantasyland in The Sky-5",
+    "roomName": "Fantasyland in The Sky",
+    "start": "2026-01-24T19:36:16.000Z",
+    "end": "2026-01-24T19:52:31.000Z",
+    "durationMinutes": 16,
+    "hitCount": 50,
+    "uniqueUsers": 7,
+    "topAttackers": [
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 17
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 14
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 9
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "tortdoggie",
+        "team": "Reindeer",
+        "hitsTaken": 19
+      },
+      {
+        "user": "Guest10149255",
+        "team": "Reindeer",
+        "hitsTaken": 17
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "hitsTaken": 8
+      }
+    ],
+    "participants": [
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 17,
+        "hitsTaken": 8,
+        "ratio": 2.125
+      },
+      {
+        "user": "Guest10149255",
+        "team": "Reindeer",
+        "attacks": 3,
+        "hitsTaken": 17,
+        "ratio": 0.17647058823529413
+      },
+      {
+        "user": "tortdoggie",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 19,
+        "ratio": 0
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 14,
+        "hitsTaken": 1,
+        "ratio": 14
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 6,
+        "hitsTaken": 5,
+        "ratio": 1.2
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 9,
+        "hitsTaken": 0,
+        "ratio": 9
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
       }
     ]
   },
@@ -19818,6 +19999,67 @@
     ]
   },
   {
+    "id": "Epcot Entrance-2",
+    "roomName": "Epcot Entrance",
+    "start": "2026-01-24T20:01:52.000Z",
+    "end": "2026-01-24T20:06:12.000Z",
+    "durationMinutes": 4,
+    "hitCount": 38,
+    "uniqueUsers": 3,
+    "topAttackers": [
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 19
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 19
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "hitsTaken": 19
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 10
+      },
+      {
+        "user": "JessXxPrincess",
+        "team": "Reindeer",
+        "hitsTaken": 9
+      }
+    ],
+    "participants": [
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 19,
+        "hitsTaken": 19,
+        "ratio": 1
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 19,
+        "hitsTaken": 10,
+        "ratio": 1.9
+      },
+      {
+        "user": "JessXxPrincess",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 9,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Jungle Cruise Dock-1",
     "roomName": "Jungle Cruise Dock",
     "start": "2026-01-09T11:39:08.000Z",
@@ -21689,6 +21931,79 @@
         "attacks": 1,
         "hitsTaken": 0,
         "ratio": 1
+      }
+    ]
+  },
+  {
+    "id": "Street Party Music Game Lobby-3",
+    "roomName": "Street Party Music Game Lobby",
+    "start": "2026-01-24T18:53:28.000Z",
+    "end": "2026-01-24T18:58:18.000Z",
+    "durationMinutes": 5,
+    "hitCount": 33,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 16
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 9
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 8
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "jessdreamlight",
+        "team": "Reindeer",
+        "hitsTaken": 18
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 7
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "hitsTaken": 6
+      }
+    ],
+    "participants": [
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 16,
+        "hitsTaken": 6,
+        "ratio": 2.6666666666666665
+      },
+      {
+        "user": "jessdreamlight",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 18,
+        "ratio": 0
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 8,
+        "hitsTaken": 7,
+        "ratio": 1.1428571428571428
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 9,
+        "hitsTaken": 2,
+        "ratio": 4.5
       }
     ]
   },
