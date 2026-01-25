@@ -9179,6 +9179,93 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-84",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-25T13:06:52.000Z",
+    "end": "2026-01-25T13:17:53.000Z",
+    "durationMinutes": 11,
+    "hitCount": 106,
+    "uniqueUsers": 6,
+    "topAttackers": [
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 39
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 35
+      },
+      {
+        "user": "PrincessCutezada",
+        "team": "Penguin",
+        "attacks": 17
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "wildgirlpony",
+        "team": "Reindeer",
+        "hitsTaken": 55
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "hitsTaken": 17
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 16
+      }
+    ],
+    "participants": [
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 39,
+        "hitsTaken": 17,
+        "ratio": 2.2941176470588234
+      },
+      {
+        "user": "wildgirlpony",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 55,
+        "ratio": 0
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 35,
+        "hitsTaken": 16,
+        "ratio": 2.1875
+      },
+      {
+        "user": "PrincessCutezada",
+        "team": "Penguin",
+        "attacks": 17,
+        "hitsTaken": 16,
+        "ratio": 1.0625
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 15,
+        "hitsTaken": 1,
+        "ratio": 15
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Matterhorn-18",
     "roomName": "Matterhorn",
     "start": "2026-01-07T21:03:15.000Z",
