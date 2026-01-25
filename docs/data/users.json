@@ -2,9 +2,9 @@
   {
     "user": "Kronkx",
     "team": "Reindeer",
-    "attacks": 6560,
-    "hitsTaken": 1540,
-    "ratio": 4.259740259740259
+    "attacks": 6566,
+    "hitsTaken": 1543,
+    "ratio": 4.255346727154893
   },
   {
     "user": "JustForFun",
@@ -23,9 +23,9 @@
   {
     "user": "Winnie",
     "team": "Penguin",
-    "attacks": 1936,
-    "hitsTaken": 351,
-    "ratio": 5.515669515669516
+    "attacks": 1955,
+    "hitsTaken": 358,
+    "ratio": 5.460893854748603
   },
   {
     "user": "SammyxxFairy",
@@ -289,9 +289,9 @@
   {
     "user": "Magenta",
     "team": "Penguin",
-    "attacks": 148,
+    "attacks": 150,
     "hitsTaken": 760,
-    "ratio": 0.19473684210526315
+    "ratio": 0.19736842105263158
   },
   {
     "user": "Tinkfaniam",
@@ -434,18 +434,18 @@
     "ratio": 3.7
   },
   {
+    "user": "GlamIceQueen",
+    "team": "Reindeer",
+    "attacks": 71,
+    "hitsTaken": 191,
+    "ratio": 0.3717277486910995
+  },
+  {
     "user": "AmandaJeanne",
     "team": "Penguin",
     "attacks": 71,
     "hitsTaken": 76,
     "ratio": 0.9342105263157895
-  },
-  {
-    "user": "GlamIceQueen",
-    "team": "Reindeer",
-    "attacks": 69,
-    "hitsTaken": 177,
-    "ratio": 0.3898305084745763
   },
   {
     "user": "TheOhanaGryphoness",
@@ -598,8 +598,8 @@
     "user": "waterfallglow",
     "team": "Reindeer",
     "attacks": 39,
-    "hitsTaken": 141,
-    "ratio": 0.2765957446808511
+    "hitsTaken": 142,
+    "ratio": 0.2746478873239437
   },
   {
     "user": "Konzo",
@@ -787,8 +787,8 @@
     "user": "aceair",
     "team": "Reindeer",
     "attacks": 20,
-    "hitsTaken": 252,
-    "ratio": 0.07936507936507936
+    "hitsTaken": 253,
+    "ratio": 0.07905138339920949
   },
   {
     "user": "Kate.",
@@ -1823,7 +1823,7 @@
     "user": "HappyToughFish",
     "team": "Penguin",
     "attacks": 0,
-    "hitsTaken": 1032,
+    "hitsTaken": 1033,
     "ratio": 0
   },
   {
@@ -4211,6 +4211,13 @@
     "team": "Reindeer",
     "attacks": 0,
     "hitsTaken": 4,
+    "ratio": 0
+  },
+  {
+    "user": "Lavenous",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 2,
     "ratio": 0
   }
 ]
