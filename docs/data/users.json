@@ -16,9 +16,9 @@
   {
     "user": "TaterTotCasserole",
     "team": "Penguin",
-    "attacks": 2021,
-    "hitsTaken": 554,
-    "ratio": 3.648014440433213
+    "attacks": 2054,
+    "hitsTaken": 569,
+    "ratio": 3.609841827768014
   },
   {
     "user": "Winnie",
@@ -49,18 +49,18 @@
     "ratio": 1.95
   },
   {
+    "user": "Devgirlforever",
+    "team": "Penguin",
+    "attacks": 1237,
+    "hitsTaken": 768,
+    "ratio": 1.6106770833333333
+  },
+  {
     "user": "kazino",
     "team": "Penguin",
     "attacks": 1193,
     "hitsTaken": 239,
     "ratio": 4.99163179916318
-  },
-  {
-    "user": "Devgirlforever",
-    "team": "Penguin",
-    "attacks": 1178,
-    "hitsTaken": 760,
-    "ratio": 1.55
   },
   {
     "user": "bsims",
@@ -72,9 +72,9 @@
   {
     "user": "PepaRaindrops",
     "team": "Penguin",
-    "attacks": 1024,
-    "hitsTaken": 433,
-    "ratio": 2.3648960739030023
+    "attacks": 1043,
+    "hitsTaken": 440,
+    "ratio": 2.3704545454545456
   },
   {
     "user": "Mali",
@@ -161,6 +161,13 @@
     "ratio": 3.0483870967741935
   },
   {
+    "user": "PrincessCutezada",
+    "team": "Penguin",
+    "attacks": 294,
+    "hitsTaken": 295,
+    "ratio": 0.9966101694915255
+  },
+  {
     "user": "PuffyOldDragon",
     "team": "Reindeer",
     "attacks": 288,
@@ -173,13 +180,6 @@
     "attacks": 280,
     "hitsTaken": 268,
     "ratio": 1.044776119402985
-  },
-  {
-    "user": "PrincessCutezada",
-    "team": "Penguin",
-    "attacks": 277,
-    "hitsTaken": 281,
-    "ratio": 0.9857651245551602
   },
   {
     "user": "SpideyxLei",
@@ -553,6 +553,13 @@
     "ratio": 0.3983050847457627
   },
   {
+    "user": "MaraquanWocky",
+    "team": "Reindeer",
+    "attacks": 45,
+    "hitsTaken": 132,
+    "ratio": 0.3409090909090909
+  },
+  {
     "user": "22ghosts",
     "team": "Penguin",
     "attacks": 43,
@@ -924,13 +931,6 @@
     "ratio": 0.8666666666666667
   },
   {
-    "user": "MaraquanWocky",
-    "team": "Reindeer",
-    "attacks": 13,
-    "hitsTaken": 68,
-    "ratio": 0.19117647058823528
-  },
-  {
     "user": "PrinceGeminii",
     "team": "Penguin",
     "attacks": 12,
@@ -943,6 +943,13 @@
     "attacks": 12,
     "hitsTaken": 8,
     "ratio": 1.5
+  },
+  {
+    "user": "neko.",
+    "team": "Reindeer",
+    "attacks": 12,
+    "hitsTaken": 62,
+    "ratio": 0.1935483870967742
   },
   {
     "user": "Question",
@@ -4232,6 +4239,13 @@
     "team": "Penguin",
     "attacks": 0,
     "hitsTaken": 1,
+    "ratio": 0
+  },
+  {
+    "user": "Jinx",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 2,
     "ratio": 0
   }
 ]

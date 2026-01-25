@@ -6618,6 +6618,93 @@
     ]
   },
   {
+    "id": "Matterhorn-30",
+    "roomName": "Matterhorn",
+    "start": "2026-01-25T13:35:37.000Z",
+    "end": "2026-01-25T13:48:59.000Z",
+    "durationMinutes": 13,
+    "hitCount": 170,
+    "uniqueUsers": 6,
+    "topAttackers": [
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 57
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 33
+      },
+      {
+        "user": "MaraquanWocky",
+        "team": "Reindeer",
+        "attacks": 32
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "MaraquanWocky",
+        "team": "Reindeer",
+        "hitsTaken": 64
+      },
+      {
+        "user": "neko.",
+        "team": "Reindeer",
+        "hitsTaken": 62
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "hitsTaken": 15
+      }
+    ],
+    "participants": [
+      {
+        "user": "MaraquanWocky",
+        "team": "Reindeer",
+        "attacks": 32,
+        "hitsTaken": 64,
+        "ratio": 0.5
+      },
+      {
+        "user": "neko.",
+        "team": "Reindeer",
+        "attacks": 12,
+        "hitsTaken": 62,
+        "ratio": 0.1935483870967742
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 57,
+        "hitsTaken": 8,
+        "ratio": 7.125
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 33,
+        "hitsTaken": 15,
+        "ratio": 2.2
+      },
+      {
+        "user": "PrincessCutezada",
+        "team": "Penguin",
+        "attacks": 17,
+        "hitsTaken": 14,
+        "ratio": 1.2142857142857142
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 19,
+        "hitsTaken": 7,
+        "ratio": 2.7142857142857144
+      }
+    ]
+  },
+  {
     "id": "Monorail Train-1",
     "roomName": "Monorail Train",
     "start": "2025-12-19T15:13:25.000Z",
