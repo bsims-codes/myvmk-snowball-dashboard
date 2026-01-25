@@ -18535,6 +18535,114 @@
     ]
   },
   {
+    "id": "Penny Arcade-2",
+    "roomName": "Penny Arcade",
+    "start": "2026-01-25T00:04:14.000Z",
+    "end": "2026-01-25T00:08:14.000Z",
+    "durationMinutes": 4,
+    "hitCount": 43,
+    "uniqueUsers": 9,
+    "topAttackers": [
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 21
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 12
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 8
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 11
+      },
+      {
+        "user": "Lavenous",
+        "team": "Reindeer",
+        "hitsTaken": 10
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "hitsTaken": 7
+      }
+    ],
+    "participants": [
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 21,
+        "hitsTaken": 7,
+        "ratio": 3
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 12,
+        "hitsTaken": 11,
+        "ratio": 1.0909090909090908
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 8,
+        "hitsTaken": 4,
+        "ratio": 2
+      },
+      {
+        "user": "Lavenous",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 10,
+        "ratio": 0
+      },
+      {
+        "user": "BerryBlitz",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 5,
+        "ratio": 0
+      },
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "attacks": 2,
+        "hitsTaken": 1,
+        "ratio": 2
+      },
+      {
+        "user": "rickymckenna",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 3,
+        "ratio": 0
+      },
+      {
+        "user": "waterfallglow",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "aceair",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Shrunken Ned's Shop-3",
     "roomName": "Shrunken Ned's Shop",
     "start": "2026-01-22T18:13:33.000Z",
