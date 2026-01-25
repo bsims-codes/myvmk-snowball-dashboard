@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-25T16:56:47.808Z",
-  "totalRows": 36731,
+  "generatedAt": "2026-01-25T17:12:39.367Z",
+  "totalRows": 36738,
   "totalUsers": 605,
   "teamStats": {
     "Penguin": {
       "users": 282,
-      "attacks": 20480,
+      "attacks": 20487,
       "hitsTaken": 16251
     },
     "Reindeer": {
       "users": 323,
       "attacks": 16251,
-      "hitsTaken": 20480
+      "hitsTaken": 20487
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 20480
+      "count": 20487
     },
     {
       "pair": "Reindeer → Penguin",
@@ -37,7 +37,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 2532,
+      "attacks": 2539,
       "team": "Penguin"
     },
     {
@@ -294,9 +294,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 2532,
+      "attacks": 2539,
       "hitsTaken": 533,
-      "ratio": 4.75046904315197
+      "ratio": 4.7636022514071295
     },
     {
       "user": "SammyxxFairy",
@@ -726,18 +726,18 @@
       "ratio": 0
     },
     {
+      "user": "Myth",
+      "team": "Reindeer",
+      "attacks": 59,
+      "hitsTaken": 167,
+      "ratio": 0.3532934131736527
+    },
+    {
       "user": "bittahmercenary",
       "team": "Penguin",
       "attacks": 8,
       "hitsTaken": 214,
       "ratio": 0.037383177570093455
-    },
-    {
-      "user": "Myth",
-      "team": "Reindeer",
-      "attacks": 59,
-      "hitsTaken": 160,
-      "ratio": 0.36875
     },
     {
       "user": "velocity.",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.27987207955028726,
-      "intercept": 52.5728360128723,
+      "slope": 0.27977930755317104,
+      "intercept": 52.589733391298736,
       "xMin": 0,
       "xMax": 6573,
-      "y1": 52.5728360128723,
-      "y2": 1892.1720148969105,
+      "y1": 52.589733391298736,
+      "y2": 1891.579121938292,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.26489634358583336,
-      "intercept": 46.91464050676552,
+      "slope": 0.2646368309901101,
+      "intercept": 46.929757716889064,
       "xMin": 0,
       "xMax": 6573,
-      "y1": 46.91464050676552,
-      "y2": 1788.0783068964483,
+      "y1": 46.929757716889064,
+      "y2": 1786.3876478148827,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.28789544447752224,
-      "intercept": 58.004704125938076,
+      "slope": 0.28789530447670664,
+      "intercept": 58.0305427780903,
       "xMin": 0,
       "xMax": 6573,
-      "y1": 58.004704125938076,
-      "y2": 1950.341460676692,
+      "y1": 58.0305427780903,
+      "y2": 1950.3663791034828,
       "label": "Reindeer"
     }
   },
@@ -3871,9 +3871,9 @@
     },
     {
       "roomName": "Blue Bayou",
-      "hitCount": 672,
+      "hitCount": 679,
       "avgUserRatio": 0.9,
-      "activeUsers": 113
+      "activeUsers": 114
     },
     {
       "roomName": "Monorail Station",
