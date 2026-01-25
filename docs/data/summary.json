@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-25T07:35:01.009Z",
-  "totalRows": 36604,
+  "generatedAt": "2026-01-25T07:45:39.558Z",
+  "totalRows": 36605,
   "totalUsers": 605,
   "teamStats": {
     "Penguin": {
       "users": 282,
-      "attacks": 20353,
+      "attacks": 20354,
       "hitsTaken": 16251
     },
     "Reindeer": {
       "users": 323,
       "attacks": 16251,
-      "hitsTaken": 20353
+      "hitsTaken": 20354
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 20353
+      "count": 20354
     },
     {
       "pair": "Reindeer → Penguin",
@@ -42,7 +42,7 @@
     },
     {
       "user": "Winnie",
-      "attacks": 1991,
+      "attacks": 1992,
       "team": "Penguin"
     },
     {
@@ -322,9 +322,9 @@
     {
       "user": "Winnie",
       "team": "Penguin",
-      "attacks": 1991,
+      "attacks": 1992,
       "hitsTaken": 359,
-      "ratio": 5.545961002785515
+      "ratio": 5.548746518105849
     },
     {
       "user": "goatduck",
@@ -1468,6 +1468,13 @@
       "ratio": 0
     },
     {
+      "user": "Pirateboi",
+      "team": "Reindeer",
+      "attacks": 6,
+      "hitsTaken": 54,
+      "ratio": 0.1111111111111111
+    },
+    {
       "user": "JiminyC",
       "team": "Penguin",
       "attacks": 16,
@@ -1494,13 +1501,6 @@
       "attacks": 0,
       "hitsTaken": 60,
       "ratio": 0
-    },
-    {
-      "user": "Pirateboi",
-      "team": "Reindeer",
-      "attacks": 6,
-      "hitsTaken": 53,
-      "ratio": 0.11320754716981132
     },
     {
       "user": "sushi",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.281006132521604,
-      "intercept": 52.30691311168363,
+      "slope": 0.28099384041998304,
+      "intercept": 52.30925088125724,
       "xMin": 0,
       "xMax": 6573,
-      "y1": 52.30691311168363,
-      "y2": 1899.3602221761867,
+      "y1": 52.30925088125724,
+      "y2": 1899.2817639618058,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.26772607364318857,
-      "intercept": 46.81007281784921,
+      "slope": 0.26769288681558273,
+      "intercept": 46.811853133315545,
       "xMin": 0,
       "xMax": 6573,
-      "y1": 46.81007281784921,
-      "y2": 1806.5735548745276,
+      "y1": 46.811853133315545,
+      "y2": 1806.3571981721407,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.28804639709439245,
-      "intercept": 57.52701896682771,
+      "slope": 0.28804526797584534,
+      "intercept": 57.53077670084304,
       "xMin": 0,
       "xMax": 6573,
-      "y1": 57.52701896682771,
-      "y2": 1950.8559870682693,
+      "y1": 57.53077670084304,
+      "y2": 1950.8523231060744,
       "label": "Reindeer"
     }
   },
@@ -3931,8 +3931,8 @@
     },
     {
       "roomName": "Tiki Tiki Tiki Island",
-      "hitCount": 243,
-      "avgUserRatio": 1.53,
+      "hitCount": 244,
+      "avgUserRatio": 1.54,
       "activeUsers": 39
     },
     {
