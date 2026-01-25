@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-25T19:58:16.447Z",
-  "totalRows": 37717,
+  "generatedAt": "2026-01-25T20:20:42.830Z",
+  "totalRows": 37733,
   "totalUsers": 609,
   "teamStats": {
     "Penguin": {
       "users": 284,
-      "attacks": 21224,
-      "hitsTaken": 16493
+      "attacks": 21233,
+      "hitsTaken": 16500
     },
     "Reindeer": {
       "users": 325,
-      "attacks": 16493,
-      "hitsTaken": 21224
+      "attacks": 16500,
+      "hitsTaken": 21233
     },
     "Unknown": {
       "users": 0,
@@ -22,22 +22,22 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 21224
+      "count": 21233
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 16493
+      "count": 16500
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 6674,
+      "attacks": 6676,
       "team": "Reindeer"
     },
     {
       "user": "JustForFun",
-      "attacks": 2721,
+      "attacks": 2730,
       "team": "Penguin"
     },
     {
@@ -132,7 +132,7 @@
     },
     {
       "user": "protozoa",
-      "attacks": 443,
+      "attacks": 447,
       "team": "Reindeer"
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "user": "JustForFun",
-      "hitsTaken": 543,
+      "hitsTaken": 547,
       "team": "Penguin"
     },
     {
@@ -249,7 +249,7 @@
     },
     {
       "user": "MaraquanWocky",
-      "hitsTaken": 382,
+      "hitsTaken": 386,
       "team": "Reindeer"
     },
     {
@@ -268,13 +268,13 @@
       "team": "Penguin"
     },
     {
-      "user": "Cloudyblue",
-      "hitsTaken": 307,
+      "user": "neko.",
+      "hitsTaken": 308,
       "team": "Reindeer"
     },
     {
-      "user": "neko.",
-      "hitsTaken": 304,
+      "user": "Cloudyblue",
+      "hitsTaken": 307,
       "team": "Reindeer"
     },
     {
@@ -287,16 +287,16 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 6674,
+      "attacks": 6676,
       "hitsTaken": 1584,
-      "ratio": 4.213383838383838
+      "ratio": 4.2146464646464645
     },
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 2721,
-      "hitsTaken": 543,
-      "ratio": 5.011049723756906
+      "attacks": 2730,
+      "hitsTaken": 547,
+      "ratio": 4.990859232175502
     },
     {
       "user": "TaterTotCasserole",
@@ -469,9 +469,9 @@
     {
       "user": "protozoa",
       "team": "Reindeer",
-      "attacks": 443,
-      "hitsTaken": 149,
-      "ratio": 2.9731543624161074
+      "attacks": 447,
+      "hitsTaken": 150,
+      "ratio": 2.98
     },
     {
       "user": "PrincessCutezada",
@@ -525,9 +525,9 @@
     {
       "user": "MaraquanWocky",
       "team": "Reindeer",
-      "attacks": 94,
-      "hitsTaken": 382,
-      "ratio": 0.24607329842931938
+      "attacks": 95,
+      "hitsTaken": 386,
+      "ratio": 0.24611398963730569
     },
     {
       "user": "SpideyxLei",
@@ -575,8 +575,8 @@
       "user": "neko.",
       "team": "Reindeer",
       "attacks": 58,
-      "hitsTaken": 304,
-      "ratio": 0.19078947368421054
+      "hitsTaken": 308,
+      "ratio": 0.18831168831168832
     },
     {
       "user": "tizzi",
@@ -1650,6 +1650,13 @@
       "ratio": 0
     },
     {
+      "user": "Question",
+      "team": "Penguin",
+      "attacks": 17,
+      "hitsTaken": 26,
+      "ratio": 0.6538461538461539
+    },
+    {
       "user": "BelleBeast2",
       "team": "Reindeer",
       "attacks": 0,
@@ -1683,13 +1690,6 @@
       "attacks": 0,
       "hitsTaken": 41,
       "ratio": 0
-    },
-    {
-      "user": "Question",
-      "team": "Penguin",
-      "attacks": 17,
-      "hitsTaken": 23,
-      "ratio": 0.7391304347826086
     },
     {
       "user": "BelleMarie",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.27850134598443854,
-      "intercept": 54.076314480469705,
+      "slope": 0.27846339467716813,
+      "intercept": 54.1022660912396,
       "xMin": 0,
-      "xMax": 6674,
-      "y1": 54.076314480469705,
-      "y2": 1912.7942975806127,
+      "xMax": 6676,
+      "y1": 54.1022660912396,
+      "y2": 1913.123888956014,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.26267894798441455,
-      "intercept": 47.48871651699454,
+      "slope": 0.2627636396446782,
+      "intercept": 47.501163011858935,
       "xMin": 0,
-      "xMax": 6674,
-      "y1": 47.48871651699454,
-      "y2": 1800.6080153649773,
+      "xMax": 6676,
+      "y1": 47.501163011858935,
+      "y2": 1801.7112212797306,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2877354692569975,
-      "intercept": 60.2729489410004,
+      "slope": 0.2876458912728946,
+      "intercept": 60.30406518996712,
       "xMin": 0,
-      "xMax": 6674,
-      "y1": 60.2729489410004,
-      "y2": 1980.6194707622017,
+      "xMax": 6676,
+      "y1": 60.30406518996712,
+      "y2": 1980.6280353278114,
       "label": "Reindeer"
     }
   },
@@ -3823,7 +3823,7 @@
     },
     {
       "roomName": "Matterhorn",
-      "hitCount": 4941,
+      "hitCount": 4957,
       "avgUserRatio": 0.93,
       "activeUsers": 295
     },
