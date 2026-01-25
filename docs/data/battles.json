@@ -3094,6 +3094,107 @@
     ]
   },
   {
+    "id": "Matterhorn-30",
+    "roomName": "Matterhorn",
+    "start": "2026-01-25T13:35:37.000Z",
+    "end": "2026-01-25T14:18:01.000Z",
+    "durationMinutes": 42,
+    "hitCount": 547,
+    "uniqueUsers": 8,
+    "topAttackers": [
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 150
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 141
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 115
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "MaraquanWocky",
+        "team": "Reindeer",
+        "hitsTaken": 222
+      },
+      {
+        "user": "neko.",
+        "team": "Reindeer",
+        "hitsTaken": 219
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "hitsTaken": 50
+      }
+    ],
+    "participants": [
+      {
+        "user": "MaraquanWocky",
+        "team": "Reindeer",
+        "attacks": 58,
+        "hitsTaken": 222,
+        "ratio": 0.26126126126126126
+      },
+      {
+        "user": "neko.",
+        "team": "Reindeer",
+        "attacks": 47,
+        "hitsTaken": 219,
+        "ratio": 0.2146118721461187
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 141,
+        "hitsTaken": 50,
+        "ratio": 2.82
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 150,
+        "hitsTaken": 9,
+        "ratio": 16.666666666666668
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 115,
+        "hitsTaken": 25,
+        "ratio": 4.6
+      },
+      {
+        "user": "PrincessCutezada",
+        "team": "Penguin",
+        "attacks": 17,
+        "hitsTaken": 14,
+        "ratio": 1.2142857142857142
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 19,
+        "hitsTaken": 7,
+        "ratio": 2.7142857142857144
+      },
+      {
+        "user": "AstroVioletRose",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-6",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-19T17:40:00.000Z",
@@ -4061,100 +4162,6 @@
         "attacks": 1,
         "hitsTaken": 0,
         "ratio": 1
-      }
-    ]
-  },
-  {
-    "id": "Matterhorn-30",
-    "roomName": "Matterhorn",
-    "start": "2026-01-25T13:35:37.000Z",
-    "end": "2026-01-25T13:59:57.000Z",
-    "durationMinutes": 24,
-    "hitCount": 337,
-    "uniqueUsers": 7,
-    "topAttackers": [
-      {
-        "user": "Devgirlforever",
-        "team": "Penguin",
-        "attacks": 111
-      },
-      {
-        "user": "TaterTotCasserole",
-        "team": "Penguin",
-        "attacks": 91
-      },
-      {
-        "user": "MaraquanWocky",
-        "team": "Reindeer",
-        "attacks": 45
-      }
-    ],
-    "topVictims": [
-      {
-        "user": "MaraquanWocky",
-        "team": "Reindeer",
-        "hitsTaken": 131
-      },
-      {
-        "user": "neko.",
-        "team": "Reindeer",
-        "hitsTaken": 123
-      },
-      {
-        "user": "TaterTotCasserole",
-        "team": "Penguin",
-        "hitsTaken": 38
-      }
-    ],
-    "participants": [
-      {
-        "user": "MaraquanWocky",
-        "team": "Reindeer",
-        "attacks": 45,
-        "hitsTaken": 131,
-        "ratio": 0.3435114503816794
-      },
-      {
-        "user": "neko.",
-        "team": "Reindeer",
-        "attacks": 38,
-        "hitsTaken": 123,
-        "ratio": 0.3089430894308943
-      },
-      {
-        "user": "Devgirlforever",
-        "team": "Penguin",
-        "attacks": 111,
-        "hitsTaken": 24,
-        "ratio": 4.625
-      },
-      {
-        "user": "TaterTotCasserole",
-        "team": "Penguin",
-        "attacks": 91,
-        "hitsTaken": 38,
-        "ratio": 2.3947368421052633
-      },
-      {
-        "user": "PrincessCutezada",
-        "team": "Penguin",
-        "attacks": 17,
-        "hitsTaken": 14,
-        "ratio": 1.2142857142857142
-      },
-      {
-        "user": "PepaRaindrops",
-        "team": "Penguin",
-        "attacks": 19,
-        "hitsTaken": 7,
-        "ratio": 2.7142857142857144
-      },
-      {
-        "user": "JustForFun",
-        "team": "Penguin",
-        "attacks": 16,
-        "hitsTaken": 0,
-        "ratio": 16
       }
     ]
   },
