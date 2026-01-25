@@ -2,9 +2,9 @@
   {
     "user": "Kronkx",
     "team": "Reindeer",
-    "attacks": 6609,
-    "hitsTaken": 1567,
-    "ratio": 4.217613273771538
+    "attacks": 6662,
+    "hitsTaken": 1575,
+    "ratio": 4.22984126984127
   },
   {
     "user": "JustForFun",
@@ -16,9 +16,9 @@
   {
     "user": "TaterTotCasserole",
     "team": "Penguin",
-    "attacks": 2189,
-    "hitsTaken": 609,
-    "ratio": 3.594417077175698
+    "attacks": 2201,
+    "hitsTaken": 615,
+    "ratio": 3.5788617886178864
   },
   {
     "user": "Winnie",
@@ -98,18 +98,18 @@
     "ratio": 3.1728971962616823
   },
   {
+    "user": "mikgriz",
+    "team": "Penguin",
+    "attacks": 547,
+    "hitsTaken": 279,
+    "ratio": 1.960573476702509
+  },
+  {
     "user": "Jewelsy",
     "team": "Reindeer",
     "attacks": 525,
     "hitsTaken": 143,
     "ratio": 3.6713286713286712
-  },
-  {
-    "user": "mikgriz",
-    "team": "Penguin",
-    "attacks": 517,
-    "hitsTaken": 271,
-    "ratio": 1.9077490774907748
   },
   {
     "user": "Luckymaxer",
@@ -392,6 +392,13 @@
     "ratio": 0.8
   },
   {
+    "user": "MaraquanWocky",
+    "team": "Reindeer",
+    "attacks": 87,
+    "hitsTaken": 361,
+    "ratio": 0.2409972299168975
+  },
+  {
     "user": "MrChemistry",
     "team": "Penguin",
     "attacks": 86,
@@ -411,13 +418,6 @@
     "attacks": 79,
     "hitsTaken": 44,
     "ratio": 1.7954545454545454
-  },
-  {
-    "user": "MaraquanWocky",
-    "team": "Reindeer",
-    "attacks": 78,
-    "hitsTaken": 346,
-    "ratio": 0.2254335260115607
   },
   {
     "user": "GuestPassPlus",
@@ -499,9 +499,9 @@
   {
     "user": "neko.",
     "team": "Reindeer",
-    "attacks": 57,
-    "hitsTaken": 259,
-    "ratio": 0.22007722007722008
+    "attacks": 58,
+    "hitsTaken": 281,
+    "ratio": 0.20640569395017794
   },
   {
     "user": "Bib",
@@ -854,6 +854,13 @@
     "ratio": 2.4285714285714284
   },
   {
+    "user": "Question",
+    "team": "Penguin",
+    "attacks": 16,
+    "hitsTaken": 19,
+    "ratio": 0.8421052631578947
+  },
+  {
     "user": "Curbur",
     "team": "Penguin",
     "attacks": 16,
@@ -915,13 +922,6 @@
     "attacks": 14,
     "hitsTaken": 16,
     "ratio": 0.875
-  },
-  {
-    "user": "Question",
-    "team": "Penguin",
-    "attacks": 13,
-    "hitsTaken": 5,
-    "ratio": 2.6
   },
   {
     "user": "PURR",
@@ -4253,6 +4253,13 @@
     "team": "Penguin",
     "attacks": 0,
     "hitsTaken": 2,
+    "ratio": 0
+  },
+  {
+    "user": "Guest10149262",
+    "team": "Penguin",
+    "attacks": 0,
+    "hitsTaken": 35,
     "ratio": 0
   }
 ]
