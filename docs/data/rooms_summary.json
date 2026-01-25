@@ -24,16 +24,16 @@
     "activeUsers": 188
   },
   {
+    "roomName": "Central Plaza",
+    "hitCount": 1138,
+    "avgUserRatio": 0.98,
+    "activeUsers": 117
+  },
+  {
     "roomName": "Fantasyland in The Sky",
     "hitCount": 1137,
     "avgUserRatio": 2.12,
     "activeUsers": 61
-  },
-  {
-    "roomName": "Central Plaza",
-    "hitCount": 1075,
-    "avgUserRatio": 0.99,
-    "activeUsers": 117
   },
   {
     "roomName": "Jungle Cruise Dock",
@@ -181,8 +181,8 @@
   },
   {
     "roomName": "Autopia Quest Track",
-    "hitCount": 159,
-    "avgUserRatio": 2.95,
+    "hitCount": 162,
+    "avgUserRatio": 2.47,
     "activeUsers": 26
   },
   {
@@ -289,9 +289,9 @@
   },
   {
     "roomName": "Autopia Space Race",
-    "hitCount": 55,
-    "avgUserRatio": 3.06,
-    "activeUsers": 16
+    "hitCount": 57,
+    "avgUserRatio": 3,
+    "activeUsers": 17
   },
   {
     "roomName": "Discovery Island",

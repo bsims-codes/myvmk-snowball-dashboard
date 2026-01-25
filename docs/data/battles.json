@@ -12221,6 +12221,74 @@
     ]
   },
   {
+    "id": "Central Plaza-10",
+    "roomName": "Central Plaza",
+    "start": "2026-01-25T16:32:32.000Z",
+    "end": "2026-01-25T16:40:41.000Z",
+    "durationMinutes": 8,
+    "hitCount": 69,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 64
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 5
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "MamaBritt",
+        "team": "Penguin",
+        "hitsTaken": 43
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "hitsTaken": 18
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 5
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 64,
+        "hitsTaken": 5,
+        "ratio": 12.8
+      },
+      {
+        "user": "MamaBritt",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 43,
+        "ratio": 0
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 5,
+        "hitsTaken": 18,
+        "ratio": 0.2777777777777778
+      },
+      {
+        "user": "mikgriz",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 3,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Central Plaza-4",
     "roomName": "Central Plaza",
     "start": "2025-12-19T15:26:20.000Z",
