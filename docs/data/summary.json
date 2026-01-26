@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-26T18:23:45.931Z",
-  "totalRows": 39270,
-  "totalUsers": 613,
+  "generatedAt": "2026-01-26T18:56:56.353Z",
+  "totalRows": 39324,
+  "totalUsers": 614,
   "teamStats": {
     "Penguin": {
-      "users": 286,
-      "attacks": 22209,
-      "hitsTaken": 17061
+      "users": 287,
+      "attacks": 22224,
+      "hitsTaken": 17100
     },
     "Reindeer": {
       "users": 327,
-      "attacks": 17061,
-      "hitsTaken": 22209
+      "attacks": 17100,
+      "hitsTaken": 22224
     },
     "Unknown": {
       "users": 0,
@@ -22,17 +22,17 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 22209
+      "count": 22224
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 17061
+      "count": 17100
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 7135,
+      "attacks": 7174,
       "team": "Reindeer"
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "user": "Winnie",
-      "attacks": 2350,
+      "attacks": 2364,
       "team": "Penguin"
     },
     {
@@ -159,7 +159,7 @@
   "topVictims": [
     {
       "user": "Kronkx",
-      "hitsTaken": 1689,
+      "hitsTaken": 1704,
       "team": "Reindeer"
     },
     {
@@ -238,13 +238,13 @@
       "team": "Penguin"
     },
     {
-      "user": "Mali",
-      "hitsTaken": 409,
+      "user": "Winnie",
+      "hitsTaken": 413,
       "team": "Penguin"
     },
     {
-      "user": "Winnie",
-      "hitsTaken": 402,
+      "user": "Mali",
+      "hitsTaken": 409,
       "team": "Penguin"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 7135,
-      "hitsTaken": 1689,
-      "ratio": 4.224393132030787
+      "attacks": 7174,
+      "hitsTaken": 1704,
+      "ratio": 4.210093896713615
     },
     {
       "user": "JustForFun",
@@ -308,9 +308,9 @@
     {
       "user": "Winnie",
       "team": "Penguin",
-      "attacks": 2350,
-      "hitsTaken": 402,
-      "ratio": 5.845771144278607
+      "attacks": 2364,
+      "hitsTaken": 413,
+      "ratio": 5.723970944309928
     },
     {
       "user": "SammyxxFairy",
@@ -700,9 +700,9 @@
     {
       "user": "eeriee",
       "team": "Penguin",
-      "attacks": 1,
-      "hitsTaken": 247,
-      "ratio": 0.004048582995951417
+      "attacks": 2,
+      "hitsTaken": 249,
+      "ratio": 0.008032128514056224
     },
     {
       "user": "OGBlondie_",
@@ -1748,6 +1748,13 @@
       "ratio": 0.1875
     },
     {
+      "user": "Horseytink",
+      "team": "Penguin",
+      "attacks": 1,
+      "hitsTaken": 37,
+      "ratio": 0.02702702702702703
+    },
+    {
       "user": "TheDeathStar",
       "team": "Reindeer",
       "attacks": 3,
@@ -1837,13 +1844,6 @@
       "attacks": 3,
       "hitsTaken": 32,
       "ratio": 0.09375
-    },
-    {
-      "user": "Horseytink",
-      "team": "Penguin",
-      "attacks": 1,
-      "hitsTaken": 34,
-      "ratio": 0.029411764705882353
     },
     {
       "user": "mpickle",
@@ -2253,6 +2253,13 @@
     },
     {
       "user": "hades17",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 23,
+      "ratio": 0
+    },
+    {
+      "user": "Judge1314",
       "team": "Penguin",
       "attacks": 0,
       "hitsTaken": 23,
@@ -3776,48 +3783,41 @@
       "attacks": 0,
       "hitsTaken": 3,
       "ratio": 0
-    },
-    {
-      "user": "Muuula1",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 3,
-      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.27126214029687795,
-      "intercept": 56.86178412248618,
+      "slope": 0.2716192447650475,
+      "intercept": 56.90640583016619,
       "xMin": 0,
-      "xMax": 7135,
-      "y1": 56.86178412248618,
-      "y2": 1992.3171551407104,
+      "xMax": 7174,
+      "y1": 56.90640583016619,
+      "y2": 2005.502867774617,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2550592107613332,
-      "intercept": 49.77048505120297,
+      "slope": 0.25545427152454486,
+      "intercept": 49.87354704044742,
       "xMin": 0,
-      "xMax": 7135,
-      "y1": 49.77048505120297,
-      "y2": 1869.6179538333154,
+      "xMax": 7174,
+      "y1": 49.87354704044742,
+      "y2": 1882.5024909575322,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2807419987142568,
-      "intercept": 63.4838937213634,
+      "slope": 0.28099323707279883,
+      "intercept": 63.482998629180805,
       "xMin": 0,
-      "xMax": 7135,
-      "y1": 63.4838937213634,
-      "y2": 2066.578054547586,
+      "xMax": 7174,
+      "y1": 63.482998629180805,
+      "y2": 2079.3284813894397,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 12378,
+      "hitCount": 12385,
       "avgUserRatio": 0.79,
       "activeUsers": 262
     },
@@ -3853,7 +3853,7 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 1099,
+      "hitCount": 1101,
       "avgUserRatio": 1.86,
       "activeUsers": 82
     },
@@ -3882,16 +3882,16 @@
       "activeUsers": 42
     },
     {
+      "roomName": "Autopia Quest Track",
+      "hitCount": 548,
+      "avgUserRatio": 10.77,
+      "activeUsers": 28
+    },
+    {
       "roomName": "Epcot Entrance",
       "hitCount": 529,
       "avgUserRatio": 1.78,
       "activeUsers": 100
-    },
-    {
-      "roomName": "Autopia Quest Track",
-      "hitCount": 524,
-      "avgUserRatio": 14.53,
-      "activeUsers": 27
     },
     {
       "roomName": "\"it's a small world\" Imports",

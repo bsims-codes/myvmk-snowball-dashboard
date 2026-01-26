@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 12378,
+    "hitCount": 12385,
     "avgUserRatio": 0.79,
     "activeUsers": 262
   },
@@ -37,7 +37,7 @@
   },
   {
     "roomName": "Jungle Cruise Dock",
-    "hitCount": 1099,
+    "hitCount": 1101,
     "avgUserRatio": 1.86,
     "activeUsers": 82
   },
@@ -66,16 +66,16 @@
     "activeUsers": 42
   },
   {
+    "roomName": "Autopia Quest Track",
+    "hitCount": 548,
+    "avgUserRatio": 10.77,
+    "activeUsers": 28
+  },
+  {
     "roomName": "Epcot Entrance",
     "hitCount": 529,
     "avgUserRatio": 1.78,
     "activeUsers": 100
-  },
-  {
-    "roomName": "Autopia Quest Track",
-    "hitCount": 524,
-    "avgUserRatio": 14.53,
-    "activeUsers": 27
   },
   {
     "roomName": "\"it's a small world\" Imports",
@@ -156,16 +156,16 @@
     "activeUsers": 42
   },
   {
+    "roomName": "Adventureland Bazaar",
+    "hitCount": 212,
+    "avgUserRatio": 1.1,
+    "activeUsers": 38
+  },
+  {
     "roomName": "Gallery",
     "hitCount": 211,
     "avgUserRatio": 2.38,
     "activeUsers": 38
-  },
-  {
-    "roomName": "Adventureland Bazaar",
-    "hitCount": 206,
-    "avgUserRatio": 1.12,
-    "activeUsers": 37
   },
   {
     "roomName": "Storybookland",
@@ -259,9 +259,15 @@
   },
   {
     "roomName": "Explorer's Tent",
-    "hitCount": 72,
-    "avgUserRatio": 3.21,
-    "activeUsers": 18
+    "hitCount": 73,
+    "avgUserRatio": 3.06,
+    "activeUsers": 19
+  },
+  {
+    "roomName": "Space Mountain Quest Deck",
+    "hitCount": 71,
+    "avgUserRatio": 0.74,
+    "activeUsers": 24
   },
   {
     "roomName": "Mickey's Courtyard",
@@ -286,12 +292,6 @@
     "hitCount": 62,
     "avgUserRatio": 0.84,
     "activeUsers": 17
-  },
-  {
-    "roomName": "Space Mountain Quest Deck",
-    "hitCount": 58,
-    "avgUserRatio": 0.73,
-    "activeUsers": 22
   },
   {
     "roomName": "Autopia Space Race",
@@ -409,9 +409,9 @@
   },
   {
     "roomName": "Inner-Space Shrinking Machine",
-    "hitCount": 8,
+    "hitCount": 9,
     "avgUserRatio": 1,
-    "activeUsers": 8
+    "activeUsers": 9
   },
   {
     "roomName": "Inner-Space Shop",
