@@ -78,16 +78,22 @@
     "activeUsers": 67
   },
   {
+    "roomName": "New Orleans Square",
+    "hitCount": 458,
+    "avgUserRatio": 1.74,
+    "activeUsers": 44
+  },
+  {
     "roomName": "Shrunken Ned's Shop",
     "hitCount": 420,
     "avgUserRatio": 2.98,
     "activeUsers": 68
   },
   {
-    "roomName": "New Orleans Square",
-    "hitCount": 418,
-    "avgUserRatio": 1.77,
-    "activeUsers": 43
+    "roomName": "Autopia Quest Track",
+    "hitCount": 415,
+    "avgUserRatio": 11.73,
+    "activeUsers": 27
   },
   {
     "roomName": "Street Party Music Game Lobby",
@@ -156,6 +162,12 @@
     "activeUsers": 37
   },
   {
+    "roomName": "\"it's a small world\" Imports",
+    "hitCount": 206,
+    "avgUserRatio": 1.8,
+    "activeUsers": 44
+  },
+  {
     "roomName": "Storybookland",
     "hitCount": 195,
     "avgUserRatio": 2.23,
@@ -178,12 +190,6 @@
     "hitCount": 173,
     "avgUserRatio": 2.19,
     "activeUsers": 47
-  },
-  {
-    "roomName": "Autopia Quest Track",
-    "hitCount": 162,
-    "avgUserRatio": 2.47,
-    "activeUsers": 26
   },
   {
     "roomName": "WS - Norway",
@@ -252,12 +258,6 @@
     "activeUsers": 12
   },
   {
-    "roomName": "\"it's a small world\" Imports",
-    "hitCount": 76,
-    "avgUserRatio": 2.47,
-    "activeUsers": 23
-  },
-  {
     "roomName": "Explorer's Tent",
     "hitCount": 72,
     "avgUserRatio": 3.21,
@@ -282,6 +282,12 @@
     "activeUsers": 22
   },
   {
+    "roomName": "Golden Horseshoe Mercantile",
+    "hitCount": 62,
+    "avgUserRatio": 0.84,
+    "activeUsers": 17
+  },
+  {
     "roomName": "Space Mountain Quest Deck",
     "hitCount": 58,
     "avgUserRatio": 0.73,
@@ -298,12 +304,6 @@
     "hitCount": 51,
     "avgUserRatio": 1.16,
     "activeUsers": 17
-  },
-  {
-    "roomName": "Golden Horseshoe Mercantile",
-    "hitCount": 49,
-    "avgUserRatio": 0.79,
-    "activeUsers": 16
   },
   {
     "roomName": "Frontierland Dock",
