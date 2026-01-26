@@ -23154,6 +23154,86 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-91",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-26T17:10:35.000Z",
+    "end": "2026-01-26T17:14:40.000Z",
+    "durationMinutes": 4,
+    "hitCount": 35,
+    "uniqueUsers": 5,
+    "topAttackers": [
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 15
+      },
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 12
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 8
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "hitsTaken": 19
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "hitsTaken": 6
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "hitsTaken": 4
+      }
+    ],
+    "participants": [
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 12,
+        "hitsTaken": 19,
+        "ratio": 0.631578947368421
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 15,
+        "hitsTaken": 4,
+        "ratio": 3.75
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 8,
+        "hitsTaken": 6,
+        "ratio": 1.3333333333333333
+      },
+      {
+        "user": "PrincessMichii",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 4,
+        "ratio": 0
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "\"it's a small world\" Imports-6",
     "roomName": "\"it's a small world\" Imports",
     "start": "2026-01-26T11:09:47.000Z",
@@ -23490,6 +23570,93 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-90",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-26T16:54:51.000Z",
+    "end": "2026-01-26T17:02:30.000Z",
+    "durationMinutes": 8,
+    "hitCount": 34,
+    "uniqueUsers": 6,
+    "topAttackers": [
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 19
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 8
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 6
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "hitsTaken": 13
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 9
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "hitsTaken": 5
+      }
+    ],
+    "participants": [
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 19,
+        "hitsTaken": 13,
+        "ratio": 1.4615384615384615
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 8,
+        "hitsTaken": 5,
+        "ratio": 1.6
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 6,
+        "hitsTaken": 4,
+        "ratio": 1.5
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 9,
+        "ratio": 0
+      },
+      {
+        "user": "AuroraRoseSkye",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 1,
+        "ratio": 1
+      },
+      {
+        "user": "PrincessMichii",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Tom Sawyer's Island-1",
     "roomName": "Tom Sawyer's Island",
     "start": "2026-01-08T10:21:27.000Z",
@@ -23694,6 +23861,79 @@
         "attacks": 1,
         "hitsTaken": 0,
         "ratio": 1
+      }
+    ]
+  },
+  {
+    "id": "Captain's Quest Quarters-92",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-26T17:19:51.000Z",
+    "end": "2026-01-26T17:24:28.000Z",
+    "durationMinutes": 5,
+    "hitCount": 33,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 15
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 12
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 6
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "hitsTaken": 16
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "hitsTaken": 12
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "hitsTaken": 3
+      }
+    ],
+    "participants": [
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 15,
+        "hitsTaken": 16,
+        "ratio": 0.9375
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 12,
+        "hitsTaken": 12,
+        "ratio": 1
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 6,
+        "hitsTaken": 3,
+        "ratio": 2
+      },
+      {
+        "user": "PrincessMichii",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
       }
     ]
   },
