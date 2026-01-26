@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 12176,
+    "hitCount": 12237,
     "avgUserRatio": 0.75,
-    "activeUsers": 257
+    "activeUsers": 258
   },
   {
     "roomName": "Matterhorn",
@@ -43,9 +43,9 @@
   },
   {
     "roomName": "Dungeon",
-    "hitCount": 887,
-    "avgUserRatio": 2.24,
-    "activeUsers": 91
+    "hitCount": 892,
+    "avgUserRatio": 2.27,
+    "activeUsers": 92
   },
   {
     "roomName": "VMK Esplanade",
@@ -72,6 +72,12 @@
     "activeUsers": 100
   },
   {
+    "roomName": "Autopia Quest Track",
+    "hitCount": 524,
+    "avgUserRatio": 14.53,
+    "activeUsers": 27
+  },
+  {
     "roomName": "Snow White Hide 'n Seek Forest",
     "hitCount": 476,
     "avgUserRatio": 2.03,
@@ -90,16 +96,16 @@
     "activeUsers": 68
   },
   {
-    "roomName": "Autopia Quest Track",
-    "hitCount": 415,
-    "avgUserRatio": 11.73,
-    "activeUsers": 27
-  },
-  {
     "roomName": "Street Party Music Game Lobby",
     "hitCount": 386,
     "avgUserRatio": 1.23,
     "activeUsers": 83
+  },
+  {
+    "roomName": "\"it's a small world\" Imports",
+    "hitCount": 384,
+    "avgUserRatio": 4.76,
+    "activeUsers": 54
   },
   {
     "roomName": "Banquet Hall",
@@ -160,12 +166,6 @@
     "hitCount": 206,
     "avgUserRatio": 1.12,
     "activeUsers": 37
-  },
-  {
-    "roomName": "\"it's a small world\" Imports",
-    "hitCount": 206,
-    "avgUserRatio": 1.8,
-    "activeUsers": 44
   },
   {
     "roomName": "Storybookland",
