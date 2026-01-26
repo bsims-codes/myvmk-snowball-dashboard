@@ -25087,6 +25087,45 @@
     ]
   },
   {
+    "id": "\"it's a small world\" Imports-4",
+    "roomName": "\"it's a small world\" Imports",
+    "start": "2026-01-26T08:03:59.000Z",
+    "end": "2026-01-26T08:06:56.000Z",
+    "durationMinutes": 3,
+    "hitCount": 30,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 30
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Cinderella",
+        "team": "Reindeer",
+        "hitsTaken": 30
+      }
+    ],
+    "participants": [
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 30,
+        "hitsTaken": 0,
+        "ratio": 30
+      },
+      {
+        "user": "Cinderella",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 30,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Sci-Fi Dine-In-1",
     "roomName": "Sci-Fi Dine-In",
     "start": "2026-01-26T01:23:52.000Z",

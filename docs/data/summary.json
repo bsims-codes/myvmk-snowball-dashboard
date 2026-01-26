@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-26T12:26:41.474Z",
-  "totalRows": 38940,
+  "generatedAt": "2026-01-26T13:24:06.651Z",
+  "totalRows": 38970,
   "totalUsers": 613,
   "teamStats": {
     "Penguin": {
       "users": 286,
-      "attacks": 22049,
+      "attacks": 22079,
       "hitsTaken": 16891
     },
     "Reindeer": {
       "users": 327,
       "attacks": 16891,
-      "hitsTaken": 22049
+      "hitsTaken": 22079
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 22049
+      "count": 22079
     },
     {
       "pair": "Reindeer → Penguin",
@@ -42,7 +42,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 2422,
+      "attacks": 2452,
       "team": "Penguin"
     },
     {
@@ -301,9 +301,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 2422,
+      "attacks": 2452,
       "hitsTaken": 635,
-      "ratio": 3.8141732283464567
+      "ratio": 3.8614173228346456
     },
     {
       "user": "SammyxxFairy",
@@ -1797,6 +1797,13 @@
       "ratio": 0
     },
     {
+      "user": "Cinderella",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 36,
+      "ratio": 0
+    },
+    {
       "user": "PineappleHunter",
       "team": "Penguin",
       "attacks": 0,
@@ -3260,13 +3267,6 @@
       "ratio": 0
     },
     {
-      "user": "Cinderella",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 6,
-      "ratio": 0
-    },
-    {
       "user": "shypolardog",
       "team": "Reindeer",
       "attacks": 0,
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2715183122316009,
-      "intercept": 56.36286902652524,
+      "slope": 0.27122501334156274,
+      "intercept": 56.429434710292014,
       "xMin": 0,
       "xMax": 7036,
-      "y1": 56.36286902652524,
-      "y2": 1966.765713888069,
+      "y1": 56.429434710292014,
+      "y2": 1964.7686285815275,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.25487756394706573,
-      "intercept": 49.42793959141169,
+      "slope": 0.25419492809009925,
+      "intercept": 49.46079014404814,
       "xMin": 0,
       "xMax": 7036,
-      "y1": 49.42793959141169,
-      "y2": 1842.7464795229662,
+      "y1": 49.46079014404814,
+      "y2": 1837.9763041859865,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.28130792914604485,
-      "intercept": 62.81850982694013,
+      "slope": 0.28127372268763945,
+      "intercept": 62.930107194347244,
       "xMin": 0,
       "xMax": 7036,
-      "y1": 62.81850982694013,
-      "y2": 2042.1010992985116,
+      "y1": 62.930107194347244,
+      "y2": 2041.9720200245786,
       "label": "Reindeer"
     }
   },
@@ -3913,9 +3913,9 @@
     },
     {
       "roomName": "\"it's a small world\" Imports",
-      "hitCount": 387,
-      "avgUserRatio": 4.82,
-      "activeUsers": 54
+      "hitCount": 417,
+      "avgUserRatio": 5.27,
+      "activeUsers": 55
     },
     {
       "roomName": "Street Party Music Game Lobby",
