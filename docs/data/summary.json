@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-26T21:42:08.306Z",
-  "totalRows": 39480,
+  "generatedAt": "2026-01-26T21:54:35.658Z",
+  "totalRows": 39481,
   "totalUsers": 615,
   "teamStats": {
     "Penguin": {
       "users": 287,
       "attacks": 22278,
-      "hitsTaken": 17202
+      "hitsTaken": 17203
     },
     "Reindeer": {
       "users": 328,
-      "attacks": 17202,
+      "attacks": 17203,
       "hitsTaken": 22278
     },
     "Unknown": {
@@ -26,7 +26,7 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 17202
+      "count": 17203
     }
   ],
   "topAttackers": [
@@ -107,7 +107,7 @@
     },
     {
       "user": "protozoa",
-      "attacks": 541,
+      "attacks": 542,
       "team": "Reindeer"
     },
     {
@@ -418,18 +418,18 @@
       "ratio": 6.618181818181818
     },
     {
+      "user": "protozoa",
+      "team": "Reindeer",
+      "attacks": 542,
+      "hitsTaken": 167,
+      "ratio": 3.245508982035928
+    },
+    {
       "user": "BluPirate",
       "team": "Penguin",
       "attacks": 505,
       "hitsTaken": 204,
       "ratio": 2.4754901960784315
-    },
-    {
-      "user": "protozoa",
-      "team": "Reindeer",
-      "attacks": 541,
-      "hitsTaken": 167,
-      "ratio": 3.2395209580838324
     },
     {
       "user": "RavenLunatic",
@@ -2350,6 +2350,13 @@
       "ratio": 0.8181818181818182
     },
     {
+      "user": "AuroraRoseSkye",
+      "team": "Penguin",
+      "attacks": 1,
+      "hitsTaken": 19,
+      "ratio": 0.05263157894736842
+    },
+    {
       "user": "MajesticNeonBabe",
       "team": "Penguin",
       "attacks": 12,
@@ -2376,13 +2383,6 @@
       "attacks": 0,
       "hitsTaken": 20,
       "ratio": 0
-    },
-    {
-      "user": "AuroraRoseSkye",
-      "team": "Penguin",
-      "attacks": 1,
-      "hitsTaken": 18,
-      "ratio": 0.05555555555555555
     },
     {
       "user": "BestDestroyBlade",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.27095592659258566,
-      "intercept": 57.180029595515364,
+      "slope": 0.27095312612130007,
+      "intercept": 57.18170878647112,
       "xMin": 0,
       "xMax": 7252,
-      "y1": 57.180029595515364,
-      "y2": 2022.1524092449465,
+      "y1": 57.18170878647112,
+      "y2": 2022.133779418139,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.25584067309422187,
-      "intercept": 50.2241989698375,
+      "slope": 0.2558372552959687,
+      "intercept": 50.22893965210133,
       "xMin": 0,
       "xMax": 7252,
-      "y1": 50.2241989698375,
-      "y2": 1905.5807602491345,
+      "y1": 50.22893965210133,
+      "y2": 1905.5607150584663,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2796436171710137,
-      "intercept": 63.649851385625404,
+      "slope": 0.27964043699012014,
+      "intercept": 63.649027413076674,
       "xMin": 0,
       "xMax": 7252,
-      "y1": 63.649851385625404,
-      "y2": 2091.6253631098166,
+      "y1": 63.649027413076674,
+      "y2": 2091.601476465428,
       "label": "Reindeer"
     }
   },
@@ -3883,9 +3883,9 @@
     },
     {
       "roomName": "\"it's a small world\" Imports",
-      "hitCount": 561,
-      "avgUserRatio": 3.82,
-      "activeUsers": 65
+      "hitCount": 562,
+      "avgUserRatio": 3.76,
+      "activeUsers": 66
     },
     {
       "roomName": "Autopia Quest Track",
