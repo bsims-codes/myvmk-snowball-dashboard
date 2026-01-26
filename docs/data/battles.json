@@ -23035,6 +23035,45 @@
     ]
   },
   {
+    "id": "\"it's a small world\" Imports-6",
+    "roomName": "\"it's a small world\" Imports",
+    "start": "2026-01-26T11:09:47.000Z",
+    "end": "2026-01-26T11:14:09.000Z",
+    "durationMinutes": 4,
+    "hitCount": 35,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 35
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "MaeBae",
+        "team": "Reindeer",
+        "hitsTaken": 35
+      }
+    ],
+    "participants": [
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 35,
+        "hitsTaken": 0,
+        "ratio": 35
+      },
+      {
+        "user": "MaeBae",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 35,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Tiki Tiki Tiki Island-2",
     "roomName": "Tiki Tiki Tiki Island",
     "start": "2026-01-25T14:33:09.000Z",
@@ -23051,7 +23090,7 @@
     ],
     "topVictims": [
       {
-        "user": "Guest10149262",
+        "user": "Mirror_Cat",
         "team": "Penguin",
         "hitsTaken": 35
       }
@@ -23065,7 +23104,7 @@
         "ratio": 35
       },
       {
-        "user": "Guest10149262",
+        "user": "Mirror_Cat",
         "team": "Penguin",
         "attacks": 0,
         "hitsTaken": 35,
