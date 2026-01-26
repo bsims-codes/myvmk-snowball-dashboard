@@ -20148,6 +20148,57 @@
     ]
   },
   {
+    "id": "\"it's a small world\" Imports-5",
+    "roomName": "\"it's a small world\" Imports",
+    "start": "2026-01-26T10:00:53.000Z",
+    "end": "2026-01-26T10:05:25.000Z",
+    "durationMinutes": 5,
+    "hitCount": 41,
+    "uniqueUsers": 3,
+    "topAttackers": [
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 39
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 2
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "MissAnnaNovang",
+        "team": "Reindeer",
+        "hitsTaken": 41
+      }
+    ],
+    "participants": [
+      {
+        "user": "MissAnnaNovang",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 41,
+        "ratio": 0
+      },
+      {
+        "user": "PepaRaindrops",
+        "team": "Penguin",
+        "attacks": 39,
+        "hitsTaken": 0,
+        "ratio": 39
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 2,
+        "hitsTaken": 0,
+        "ratio": 2
+      }
+    ]
+  },
+  {
     "id": "Blue Bayou-6",
     "roomName": "Blue Bayou",
     "start": "2026-01-23T09:55:09.000Z",
