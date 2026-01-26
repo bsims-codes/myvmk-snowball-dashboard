@@ -20228,6 +20228,45 @@
     ]
   },
   {
+    "id": "Tiki Tiki Tiki Island-3",
+    "roomName": "Tiki Tiki Tiki Island",
+    "start": "2026-01-26T12:53:29.000Z",
+    "end": "2026-01-26T12:58:39.000Z",
+    "durationMinutes": 5,
+    "hitCount": 41,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 41
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "eeriee",
+        "team": "Penguin",
+        "hitsTaken": 41
+      }
+    ],
+    "participants": [
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 41,
+        "hitsTaken": 0,
+        "ratio": 41
+      },
+      {
+        "user": "eeriee",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 41,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "\"it's a small world\" Imports-5",
     "roomName": "\"it's a small world\" Imports",
     "start": "2026-01-26T10:00:53.000Z",
