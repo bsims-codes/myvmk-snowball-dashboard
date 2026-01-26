@@ -1100,7 +1100,7 @@ async function loadAndRefreshData() {
     state.victimBreakdown = buildVictimBreakdown(events);
     state.attackerBreakdown = buildAttackerBreakdown(events);
 
-    state.allBattles = battles || [];
+    state.allBattles = (battles || []).sort((a, b) => new Date(b.start) - new Date(a.start));
     state.selectedBattleId = null;
 
     // Store team data for roster filtering
