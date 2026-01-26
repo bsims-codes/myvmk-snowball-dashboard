@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-26T19:19:06.376Z",
-  "totalRows": 39365,
+  "generatedAt": "2026-01-26T19:39:09.723Z",
+  "totalRows": 39388,
   "totalUsers": 614,
   "teamStats": {
     "Penguin": {
       "users": 287,
       "attacks": 22233,
-      "hitsTaken": 17132
+      "hitsTaken": 17155
     },
     "Reindeer": {
       "users": 327,
-      "attacks": 17132,
+      "attacks": 17155,
       "hitsTaken": 22233
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 17132
+      "count": 17155
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 7206,
+      "attacks": 7229,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 7206,
+      "attacks": 7229,
       "hitsTaken": 1710,
-      "ratio": 4.2140350877192985
+      "ratio": 4.227485380116959
     },
     {
       "user": "JustForFun",
@@ -1776,6 +1776,13 @@
       "ratio": 0.27586206896551724
     },
     {
+      "user": "MissyKinz",
+      "team": "Penguin",
+      "attacks": 1,
+      "hitsTaken": 36,
+      "ratio": 0.027777777777777776
+    },
+    {
       "user": "Mrtigerman",
       "team": "Penguin",
       "attacks": 1,
@@ -1872,13 +1879,6 @@
       "attacks": 0,
       "hitsTaken": 35,
       "ratio": 0
-    },
-    {
-      "user": "MissyKinz",
-      "team": "Penguin",
-      "attacks": 1,
-      "hitsTaken": 33,
-      "ratio": 0.030303030303030304
     },
     {
       "user": "Sandblasted_OctoNuggie",
@@ -2009,6 +2009,13 @@
     {
       "user": "Kayleena",
       "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 30,
+      "ratio": 0
+    },
+    {
+      "user": "TinkerLaceyBell",
+      "team": "Penguin",
       "attacks": 0,
       "hitsTaken": 30,
       "ratio": 0
@@ -2987,13 +2994,6 @@
       "ratio": 0
     },
     {
-      "user": "TinkerLaceyBell",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 10,
-      "ratio": 0
-    },
-    {
       "user": "Marie",
       "team": "Reindeer",
       "attacks": 0,
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2712543853898162,
-      "intercept": 56.99485478211367,
+      "slope": 0.2706283817795675,
+      "intercept": 57.07768488075059,
       "xMin": 0,
-      "xMax": 7206,
-      "y1": 56.99485478211367,
-      "y2": 2011.6539559011294,
+      "xMax": 7229,
+      "y1": 57.07768488075059,
+      "y2": 2013.4502567652441,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.25536879073208124,
-      "intercept": 50.012759529670056,
+      "slope": 0.2552891347492601,
+      "intercept": 50.12188213827841,
       "xMin": 0,
-      "xMax": 7206,
-      "y1": 50.012759529670056,
-      "y2": 1890.2002655450476,
+      "xMax": 7229,
+      "y1": 50.12188213827841,
+      "y2": 1895.6070372406798,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.28039972510618816,
-      "intercept": 63.520267797275096,
+      "slope": 0.27943526354503695,
+      "intercept": 63.557239412730866,
       "xMin": 0,
-      "xMax": 7206,
-      "y1": 63.520267797275096,
-      "y2": 2084.080686912467,
+      "xMax": 7229,
+      "y1": 63.557239412730866,
+      "y2": 2083.594759579803,
       "label": "Reindeer"
     }
   },
@@ -3841,9 +3841,9 @@
     },
     {
       "roomName": "Central Plaza",
-      "hitCount": 1138,
-      "avgUserRatio": 0.98,
-      "activeUsers": 117
+      "hitCount": 1139,
+      "avgUserRatio": 0.97,
+      "activeUsers": 118
     },
     {
       "roomName": "Fantasyland in The Sky",
@@ -3888,16 +3888,16 @@
       "activeUsers": 28
     },
     {
+      "roomName": "\"it's a small world\" Imports",
+      "hitCount": 534,
+      "avgUserRatio": 6.06,
+      "activeUsers": 62
+    },
+    {
       "roomName": "Epcot Entrance",
       "hitCount": 529,
       "avgUserRatio": 1.78,
       "activeUsers": 100
-    },
-    {
-      "roomName": "\"it's a small world\" Imports",
-      "hitCount": 514,
-      "avgUserRatio": 6.1,
-      "activeUsers": 61
     },
     {
       "roomName": "Snow White Hide 'n Seek Forest",
@@ -3949,9 +3949,9 @@
     },
     {
       "roomName": "Monorail Train",
-      "hitCount": 255,
-      "avgUserRatio": 2.35,
-      "activeUsers": 27
+      "hitCount": 257,
+      "avgUserRatio": 2.27,
+      "activeUsers": 28
     },
     {
       "roomName": "Tomorrowland Hub",
