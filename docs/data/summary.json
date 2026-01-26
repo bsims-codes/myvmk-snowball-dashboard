@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-26T16:38:13.413Z",
-  "totalRows": 39082,
+  "generatedAt": "2026-01-26T17:03:48.245Z",
+  "totalRows": 39096,
   "totalUsers": 613,
   "teamStats": {
     "Penguin": {
       "users": 286,
       "attacks": 22179,
-      "hitsTaken": 16903
+      "hitsTaken": 16917
     },
     "Reindeer": {
       "users": 327,
-      "attacks": 16903,
+      "attacks": 16917,
       "hitsTaken": 22179
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 16903
+      "count": 16917
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 7047,
+      "attacks": 7061,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 7047,
+      "attacks": 7061,
       "hitsTaken": 1662,
-      "ratio": 4.240072202166065
+      "ratio": 4.24849578820698
     },
     {
       "user": "JustForFun",
@@ -1216,6 +1216,13 @@
       "ratio": 0.20253164556962025
     },
     {
+      "user": "Izabelle",
+      "team": "Penguin",
+      "attacks": 3,
+      "hitsTaken": 92,
+      "ratio": 0.03260869565217391
+    },
+    {
       "user": "SillyTableWizard",
       "team": "Reindeer",
       "attacks": 59,
@@ -1228,13 +1235,6 @@
       "attacks": 26,
       "hitsTaken": 66,
       "ratio": 0.3939393939393939
-    },
-    {
-      "user": "Izabelle",
-      "team": "Penguin",
-      "attacks": 3,
-      "hitsTaken": 89,
-      "ratio": 0.033707865168539325
     },
     {
       "user": "IreneAdler",
@@ -2833,6 +2833,13 @@
       "ratio": 0
     },
     {
+      "user": "Lou",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 13,
+      "ratio": 0
+    },
+    {
       "user": "Jumangi",
       "team": "Reindeer",
       "attacks": 2,
@@ -3776,41 +3783,34 @@
       "attacks": 0,
       "hitsTaken": 3,
       "ratio": 0
-    },
-    {
-      "user": "mindoflove",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 3,
-      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.270938556714171,
-      "intercept": 56.615068038560686,
+      "slope": 0.27055425965108393,
+      "intercept": 56.66352687195895,
       "xMin": 0,
-      "xMax": 7047,
-      "y1": 56.615068038560686,
-      "y2": 1965.9190772033237,
+      "xMax": 7061,
+      "y1": 56.66352687195895,
+      "y2": 1967.0471542682626,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2534369309980504,
-      "intercept": 49.47579283741697,
+      "slope": 0.2535538198048162,
+      "intercept": 49.31690281140349,
       "xMin": 0,
-      "xMax": 7047,
-      "y1": 49.47579283741697,
-      "y2": 1835.4458455806782,
+      "xMax": 7061,
+      "y1": 49.31690281140349,
+      "y2": 1839.660424453211,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.28133930201167906,
-      "intercept": 63.27870728468111,
+      "slope": 0.28066512084313233,
+      "intercept": 63.52685035186542,
       "xMin": 0,
-      "xMax": 7047,
-      "y1": 63.27870728468111,
-      "y2": 2045.8767685609835,
+      "xMax": 7061,
+      "y1": 63.52685035186542,
+      "y2": 2045.303268625223,
       "label": "Reindeer"
     }
   },
@@ -3853,9 +3853,9 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 1067,
-      "avgUserRatio": 2.11,
-      "activeUsers": 81
+      "hitCount": 1078,
+      "avgUserRatio": 2.09,
+      "activeUsers": 82
     },
     {
       "roomName": "Dungeon",
@@ -3895,9 +3895,9 @@
     },
     {
       "roomName": "\"it's a small world\" Imports",
-      "hitCount": 509,
-      "avgUserRatio": 6.26,
-      "activeUsers": 59
+      "hitCount": 512,
+      "avgUserRatio": 6.17,
+      "activeUsers": 60
     },
     {
       "roomName": "Snow White Hide 'n Seek Forest",
