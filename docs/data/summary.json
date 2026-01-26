@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-26T07:04:17.298Z",
-  "totalRows": 38936,
+  "generatedAt": "2026-01-26T07:36:30.096Z",
+  "totalRows": 38939,
   "totalUsers": 613,
   "teamStats": {
     "Penguin": {
       "users": 286,
-      "attacks": 22045,
+      "attacks": 22048,
       "hitsTaken": 16891
     },
     "Reindeer": {
       "users": 327,
       "attacks": 16891,
-      "hitsTaken": 22045
+      "hitsTaken": 22048
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 22045
+      "count": 22048
     },
     {
       "pair": "Reindeer → Penguin",
@@ -47,7 +47,7 @@
     },
     {
       "user": "Winnie",
-      "attacks": 2328,
+      "attacks": 2331,
       "team": "Penguin"
     },
     {
@@ -315,9 +315,9 @@
     {
       "user": "Winnie",
       "team": "Penguin",
-      "attacks": 2328,
+      "attacks": 2331,
       "hitsTaken": 382,
-      "ratio": 6.0942408376963355
+      "ratio": 6.102094240837697
     },
     {
       "user": "CaptainBubbles",
@@ -1258,6 +1258,13 @@
       "ratio": 0.07228915662650602
     },
     {
+      "user": "PrincessMichii",
+      "team": "Reindeer",
+      "attacks": 4,
+      "hitsTaken": 85,
+      "ratio": 0.047058823529411764
+    },
+    {
       "user": "shelbitb",
       "team": "Reindeer",
       "attacks": 32,
@@ -1284,13 +1291,6 @@
       "attacks": 47,
       "hitsTaken": 39,
       "ratio": 1.205128205128205
-    },
-    {
-      "user": "PrincessMichii",
-      "team": "Reindeer",
-      "attacks": 4,
-      "hitsTaken": 82,
-      "ratio": 0.04878048780487805
     },
     {
       "user": "dizzylittleteacup",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2715620524059333,
-      "intercept": 56.35363547556922,
+      "slope": 0.27152567646805864,
+      "intercept": 56.36083862478521,
       "xMin": 0,
       "xMax": 7036,
-      "y1": 56.35363547556922,
-      "y2": 1967.0642362037158,
+      "y1": 56.36083862478521,
+      "y2": 1966.8154982540457,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2549992360047644,
-      "intercept": 49.42058336613707,
+      "slope": 0.2549090212468825,
+      "intercept": 49.42599875040367,
       "xMin": 0,
       "xMax": 7036,
-      "y1": 49.42058336613707,
-      "y2": 1843.5952078956593,
+      "y1": 49.42599875040367,
+      "y2": 1842.9658722434688,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.28130399875213674,
-      "intercept": 62.80415353676611,
+      "slope": 0.2813008000998917,
+      "intercept": 62.81529959092346,
       "xMin": 0,
       "xMax": 7036,
-      "y1": 62.80415353676611,
-      "y2": 2042.0590887568003,
+      "y1": 62.81529959092346,
+      "y2": 2042.0477290937615,
       "label": "Reindeer"
     }
   },
@@ -3912,16 +3912,16 @@
       "activeUsers": 68
     },
     {
+      "roomName": "\"it's a small world\" Imports",
+      "hitCount": 387,
+      "avgUserRatio": 4.82,
+      "activeUsers": 54
+    },
+    {
       "roomName": "Street Party Music Game Lobby",
       "hitCount": 386,
       "avgUserRatio": 1.23,
       "activeUsers": 83
-    },
-    {
-      "roomName": "\"it's a small world\" Imports",
-      "hitCount": 384,
-      "avgUserRatio": 4.76,
-      "activeUsers": 54
     },
     {
       "roomName": "Banquet Hall",
