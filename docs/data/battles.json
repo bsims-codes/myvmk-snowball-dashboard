@@ -24024,6 +24024,100 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-88",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-25T23:40:56.000Z",
+    "end": "2026-01-25T23:43:29.000Z",
+    "durationMinutes": 3,
+    "hitCount": 32,
+    "uniqueUsers": 7,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 26
+      },
+      {
+        "user": "MamaBritt",
+        "team": "Penguin",
+        "attacks": 3
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 3
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "MamaBritt",
+        "team": "Penguin",
+        "hitsTaken": 12
+      },
+      {
+        "user": "eeriee",
+        "team": "Penguin",
+        "hitsTaken": 8
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 5
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 26,
+        "hitsTaken": 5,
+        "ratio": 5.2
+      },
+      {
+        "user": "MamaBritt",
+        "team": "Penguin",
+        "attacks": 3,
+        "hitsTaken": 12,
+        "ratio": 0.25
+      },
+      {
+        "user": "eeriee",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 8,
+        "ratio": 0
+      },
+      {
+        "user": "Focus",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 4,
+        "ratio": 0
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 3,
+        "hitsTaken": 1,
+        "ratio": 3
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "tortdoggie",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-70",
     "roomName": "Captain's Quest Quarters",
     "start": "2026-01-20T21:03:46.000Z",
