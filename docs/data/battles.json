@@ -4122,7 +4122,7 @@
         "ratio": 0
       },
       {
-        "user": "Guest10149255",
+        "user": "PrincessMichii",
         "team": "Reindeer",
         "attacks": 0,
         "hitsTaken": 10,
@@ -8320,7 +8320,7 @@
         "ratio": 0
       },
       {
-        "user": "Guest10149255",
+        "user": "PrincessMichii",
         "team": "Reindeer",
         "attacks": 0,
         "hitsTaken": 1,
@@ -13264,7 +13264,7 @@
         "hitsTaken": 33
       },
       {
-        "user": "Guest10149255",
+        "user": "PrincessMichii",
         "team": "Reindeer",
         "hitsTaken": 31
       },
@@ -13290,7 +13290,7 @@
         "ratio": 0
       },
       {
-        "user": "Guest10149255",
+        "user": "PrincessMichii",
         "team": "Reindeer",
         "attacks": 0,
         "hitsTaken": 31,
@@ -16500,7 +16500,7 @@
         "hitsTaken": 19
       },
       {
-        "user": "Guest10149255",
+        "user": "PrincessMichii",
         "team": "Reindeer",
         "hitsTaken": 17
       },
@@ -16519,7 +16519,7 @@
         "ratio": 2.125
       },
       {
-        "user": "Guest10149255",
+        "user": "PrincessMichii",
         "team": "Reindeer",
         "attacks": 3,
         "hitsTaken": 17,
@@ -25083,6 +25083,79 @@
         "attacks": 1,
         "hitsTaken": 0,
         "ratio": 1
+      }
+    ]
+  },
+  {
+    "id": "Sci-Fi Dine-In-1",
+    "roomName": "Sci-Fi Dine-In",
+    "start": "2026-01-26T01:23:52.000Z",
+    "end": "2026-01-26T01:26:22.000Z",
+    "durationMinutes": 3,
+    "hitCount": 30,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 12
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 9
+      },
+      {
+        "user": "SillyTableWizard",
+        "team": "Reindeer",
+        "attacks": 6
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "LuckyGuestGirl",
+        "team": "Penguin",
+        "hitsTaken": 10
+      },
+      {
+        "user": "SillyTableWizard",
+        "team": "Reindeer",
+        "hitsTaken": 9
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "hitsTaken": 8
+      }
+    ],
+    "participants": [
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 9,
+        "hitsTaken": 8,
+        "ratio": 1.125
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 12,
+        "hitsTaken": 3,
+        "ratio": 4
+      },
+      {
+        "user": "SillyTableWizard",
+        "team": "Reindeer",
+        "attacks": 6,
+        "hitsTaken": 9,
+        "ratio": 0.6666666666666666
+      },
+      {
+        "user": "LuckyGuestGirl",
+        "team": "Penguin",
+        "attacks": 3,
+        "hitsTaken": 10,
+        "ratio": 0.3
       }
     ]
   },
