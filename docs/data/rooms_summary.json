@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 12385,
+    "hitCount": 12391,
     "avgUserRatio": 0.79,
     "activeUsers": 262
   },
@@ -37,8 +37,8 @@
   },
   {
     "roomName": "Jungle Cruise Dock",
-    "hitCount": 1101,
-    "avgUserRatio": 1.86,
+    "hitCount": 1120,
+    "avgUserRatio": 1.67,
     "activeUsers": 82
   },
   {
@@ -115,9 +115,9 @@
   },
   {
     "roomName": "Frontierland Hub",
-    "hitCount": 362,
-    "avgUserRatio": 1.37,
-    "activeUsers": 57
+    "hitCount": 364,
+    "avgUserRatio": 1.35,
+    "activeUsers": 58
   },
   {
     "roomName": "Tiki Tiki Tiki Island",
@@ -157,9 +157,9 @@
   },
   {
     "roomName": "Adventureland Bazaar",
-    "hitCount": 212,
-    "avgUserRatio": 1.1,
-    "activeUsers": 38
+    "hitCount": 213,
+    "avgUserRatio": 1.07,
+    "activeUsers": 39
   },
   {
     "roomName": "Gallery",
@@ -210,16 +210,16 @@
     "activeUsers": 32
   },
   {
+    "roomName": "Forbidden Temple",
+    "hitCount": 117,
+    "avgUserRatio": 1.39,
+    "activeUsers": 36
+  },
+  {
     "roomName": "Festival of the Lion King",
     "hitCount": 117,
     "avgUserRatio": 4.92,
     "activeUsers": 22
-  },
-  {
-    "roomName": "Forbidden Temple",
-    "hitCount": 115,
-    "avgUserRatio": 1.42,
-    "activeUsers": 35
   },
   {
     "roomName": "Anandapur",
@@ -307,9 +307,9 @@
   },
   {
     "roomName": "Frontierland Dock",
-    "hitCount": 48,
-    "avgUserRatio": 0.92,
-    "activeUsers": 11
+    "hitCount": 50,
+    "avgUserRatio": 0.87,
+    "activeUsers": 12
   },
   {
     "roomName": "VMK Central",
