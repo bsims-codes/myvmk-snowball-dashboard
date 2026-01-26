@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-26T18:56:56.353Z",
-  "totalRows": 39324,
+  "generatedAt": "2026-01-26T19:19:06.376Z",
+  "totalRows": 39365,
   "totalUsers": 614,
   "teamStats": {
     "Penguin": {
       "users": 287,
-      "attacks": 22224,
-      "hitsTaken": 17100
+      "attacks": 22233,
+      "hitsTaken": 17132
     },
     "Reindeer": {
       "users": 327,
-      "attacks": 17100,
-      "hitsTaken": 22224
+      "attacks": 17132,
+      "hitsTaken": 22233
     },
     "Unknown": {
       "users": 0,
@@ -22,17 +22,17 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 22224
+      "count": 22233
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 17100
+      "count": 17132
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 7174,
+      "attacks": 7206,
       "team": "Reindeer"
     },
     {
@@ -142,7 +142,7 @@
     },
     {
       "user": "Annie",
-      "attacks": 387,
+      "attacks": 390,
       "team": "Penguin"
     },
     {
@@ -159,7 +159,7 @@
   "topVictims": [
     {
       "user": "Kronkx",
-      "hitsTaken": 1704,
+      "hitsTaken": 1710,
       "team": "Reindeer"
     },
     {
@@ -189,7 +189,7 @@
     },
     {
       "user": "Magenta",
-      "hitsTaken": 820,
+      "hitsTaken": 821,
       "team": "Penguin"
     },
     {
@@ -254,7 +254,7 @@
     },
     {
       "user": "wildgirlpony",
-      "hitsTaken": 391,
+      "hitsTaken": 394,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 7174,
-      "hitsTaken": 1704,
-      "ratio": 4.210093896713615
+      "attacks": 7206,
+      "hitsTaken": 1710,
+      "ratio": 4.2140350877192985
     },
     {
       "user": "JustForFun",
@@ -392,9 +392,9 @@
     {
       "user": "Magenta",
       "team": "Penguin",
-      "attacks": 163,
-      "hitsTaken": 820,
-      "ratio": 0.19878048780487806
+      "attacks": 164,
+      "hitsTaken": 821,
+      "ratio": 0.1997563946406821
     },
     {
       "user": "mikgriz",
@@ -511,9 +511,9 @@
     {
       "user": "Annie",
       "team": "Penguin",
-      "attacks": 387,
+      "attacks": 390,
       "hitsTaken": 125,
-      "ratio": 3.096
+      "ratio": 3.12
     },
     {
       "user": "PuffyOldDragon",
@@ -554,8 +554,8 @@
       "user": "wildgirlpony",
       "team": "Reindeer",
       "attacks": 10,
-      "hitsTaken": 391,
-      "ratio": 0.02557544757033248
+      "hitsTaken": 394,
+      "ratio": 0.025380710659898477
     },
     {
       "user": "FlameLegend",
@@ -1559,6 +1559,13 @@
       "ratio": 0
     },
     {
+      "user": "Judge1314",
+      "team": "Penguin",
+      "attacks": 5,
+      "hitsTaken": 54,
+      "ratio": 0.09259259259259259
+    },
+    {
       "user": "sushi",
       "team": "Reindeer",
       "attacks": 5,
@@ -2253,13 +2260,6 @@
     },
     {
       "user": "hades17",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 23,
-      "ratio": 0
-    },
-    {
-      "user": "Judge1314",
       "team": "Penguin",
       "attacks": 0,
       "hitsTaken": 23,
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2716192447650475,
-      "intercept": 56.90640583016619,
+      "slope": 0.2712543853898162,
+      "intercept": 56.99485478211367,
       "xMin": 0,
-      "xMax": 7174,
-      "y1": 56.90640583016619,
-      "y2": 2005.502867774617,
+      "xMax": 7206,
+      "y1": 56.99485478211367,
+      "y2": 2011.6539559011294,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.25545427152454486,
-      "intercept": 49.87354704044742,
+      "slope": 0.25536879073208124,
+      "intercept": 50.012759529670056,
       "xMin": 0,
-      "xMax": 7174,
-      "y1": 49.87354704044742,
-      "y2": 1882.5024909575322,
+      "xMax": 7206,
+      "y1": 50.012759529670056,
+      "y2": 1890.2002655450476,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.28099323707279883,
-      "intercept": 63.482998629180805,
+      "slope": 0.28039972510618816,
+      "intercept": 63.520267797275096,
       "xMin": 0,
-      "xMax": 7174,
-      "y1": 63.482998629180805,
-      "y2": 2079.3284813894397,
+      "xMax": 7206,
+      "y1": 63.520267797275096,
+      "y2": 2084.080686912467,
       "label": "Reindeer"
     }
   },
@@ -3877,9 +3877,9 @@
     },
     {
       "roomName": "Monorail Station",
-      "hitCount": 576,
-      "avgUserRatio": 1.76,
-      "activeUsers": 42
+      "hitCount": 577,
+      "avgUserRatio": 1.72,
+      "activeUsers": 43
     },
     {
       "roomName": "Autopia Quest Track",
@@ -3943,15 +3943,15 @@
     },
     {
       "roomName": "Pirate Treehouse",
-      "hitCount": 287,
-      "avgUserRatio": 1.65,
-      "activeUsers": 58
+      "hitCount": 290,
+      "avgUserRatio": 1.67,
+      "activeUsers": 59
     },
     {
       "roomName": "Monorail Train",
-      "hitCount": 235,
-      "avgUserRatio": 2.42,
-      "activeUsers": 26
+      "hitCount": 255,
+      "avgUserRatio": 2.35,
+      "activeUsers": 27
     },
     {
       "roomName": "Tomorrowland Hub",
