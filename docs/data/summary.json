@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-27T03:26:45.327Z",
-  "totalRows": 39755,
+  "generatedAt": "2026-01-27T04:30:12.707Z",
+  "totalRows": 39766,
   "totalUsers": 619,
   "teamStats": {
     "Penguin": {
       "users": 290,
-      "attacks": 22442,
+      "attacks": 22453,
       "hitsTaken": 17313
     },
     "Reindeer": {
       "users": 329,
       "attacks": 17313,
-      "hitsTaken": 22442
+      "hitsTaken": 22453
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 22442
+      "count": 22453
     },
     {
       "pair": "Reindeer → Penguin",
@@ -42,7 +42,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 2529,
+      "attacks": 2540,
       "team": "Penguin"
     },
     {
@@ -301,9 +301,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 2529,
+      "attacks": 2540,
       "hitsTaken": 652,
-      "ratio": 3.878834355828221
+      "ratio": 3.895705521472393
     },
     {
       "user": "Winnie",
@@ -2413,6 +2413,13 @@
       "ratio": 0.35714285714285715
     },
     {
+      "user": "magickate",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 19,
+      "ratio": 0
+    },
+    {
       "user": "honeyboo-boochild",
       "team": "Penguin",
       "attacks": 0,
@@ -3169,13 +3176,6 @@
       "ratio": 0.14285714285714285
     },
     {
-      "user": "magickate",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 8,
-      "ratio": 0
-    },
-    {
       "user": "ForeverAvastMacy",
       "team": "Penguin",
       "attacks": 0,
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2705235913715628,
-      "intercept": 57.591374485960756,
+      "slope": 0.2704184191866981,
+      "intercept": 57.61578646943539,
       "xMin": 0,
       "xMax": 7298,
-      "y1": 57.591374485960756,
-      "y2": 2031.872544315626,
+      "y1": 57.61578646943539,
+      "y2": 2031.1294096939582,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.25654821611889245,
-      "intercept": 49.800252305617626,
+      "slope": 0.2562953557475749,
+      "intercept": 49.81266507874433,
       "xMin": 0,
       "xMax": 7298,
-      "y1": 49.800252305617626,
-      "y2": 1922.0891335412948,
+      "y1": 49.81266507874433,
+      "y2": 1920.256171324546,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2787965611954576,
-      "intercept": 64.85937602113566,
+      "slope": 0.27878438030354347,
+      "intercept": 64.90089769239134,
       "xMin": 0,
       "xMax": 7298,
-      "y1": 64.85937602113566,
-      "y2": 2099.5166796255853,
+      "y1": 64.90089769239134,
+      "y2": 2099.4693051476515,
       "label": "Reindeer"
     }
   },
@@ -3877,9 +3877,9 @@
     },
     {
       "roomName": "\"it's a small world\" Imports",
-      "hitCount": 598,
+      "hitCount": 609,
       "avgUserRatio": 3.04,
-      "activeUsers": 71
+      "activeUsers": 72
     },
     {
       "roomName": "Monorail Station",
