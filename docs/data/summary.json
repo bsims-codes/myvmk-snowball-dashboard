@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-27T01:43:58.199Z",
-  "totalRows": 39747,
-  "totalUsers": 618,
+  "generatedAt": "2026-01-27T03:26:45.327Z",
+  "totalRows": 39755,
+  "totalUsers": 619,
   "teamStats": {
     "Penguin": {
       "users": 290,
-      "attacks": 22434,
+      "attacks": 22442,
       "hitsTaken": 17313
     },
     "Reindeer": {
-      "users": 328,
+      "users": 329,
       "attacks": 17313,
-      "hitsTaken": 22434
+      "hitsTaken": 22442
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 22434
+      "count": 22442
     },
     {
       "pair": "Reindeer → Penguin",
@@ -37,12 +37,12 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 2859,
+      "attacks": 2863,
       "team": "Penguin"
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 2525,
+      "attacks": 2529,
       "team": "Penguin"
     },
     {
@@ -294,16 +294,16 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 2859,
+      "attacks": 2863,
       "hitsTaken": 618,
-      "ratio": 4.62621359223301
+      "ratio": 4.632686084142395
     },
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 2525,
+      "attacks": 2529,
       "hitsTaken": 652,
-      "ratio": 3.8726993865030677
+      "ratio": 3.878834355828221
     },
     {
       "user": "Winnie",
@@ -656,18 +656,18 @@
       "ratio": 0.650887573964497
     },
     {
+      "user": "aceair",
+      "team": "Reindeer",
+      "attacks": 20,
+      "hitsTaken": 259,
+      "ratio": 0.07722007722007722
+    },
+    {
       "user": "Dorian_Gray",
       "team": "Reindeer",
       "attacks": 104,
       "hitsTaken": 174,
       "ratio": 0.5977011494252874
-    },
-    {
-      "user": "aceair",
-      "team": "Reindeer",
-      "attacks": 20,
-      "hitsTaken": 255,
-      "ratio": 0.0784313725490196
     },
     {
       "user": "EpicRose",
@@ -3694,6 +3694,13 @@
       "ratio": 0
     },
     {
+      "user": "Drakes",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 4,
+      "ratio": 0
+    },
+    {
       "user": "Dabney",
       "team": "Penguin",
       "attacks": 0,
@@ -3776,41 +3783,34 @@
       "attacks": 0,
       "hitsTaken": 3,
       "ratio": 0
-    },
-    {
-      "user": "Squishyjellyfishbunny",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 3,
-      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.2706059848789797,
-      "intercept": 57.57915389787918,
+      "slope": 0.2705235913715628,
+      "intercept": 57.591374485960756,
       "xMin": 0,
       "xMax": 7298,
-      "y1": 57.57915389787918,
-      "y2": 2032.461631544673,
+      "y1": 57.591374485960756,
+      "y2": 2031.872544315626,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.25675980771200996,
-      "intercept": 49.78853910175736,
+      "slope": 0.25654821611889245,
+      "intercept": 49.800252305617626,
       "xMin": 0,
       "xMax": 7298,
-      "y1": 49.78853910175736,
-      "y2": 1923.621615784006,
+      "y1": 49.800252305617626,
+      "y2": 1922.0891335412948,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2788007161711932,
-      "intercept": 64.8405911225061,
+      "slope": 0.2787965611954576,
+      "intercept": 64.85937602113566,
       "xMin": 0,
       "xMax": 7298,
-      "y1": 64.8405911225061,
-      "y2": 2099.528217739874,
+      "y1": 64.85937602113566,
+      "y2": 2099.5166796255853,
       "label": "Reindeer"
     }
   },
@@ -3823,9 +3823,9 @@
     },
     {
       "roomName": "Matterhorn",
-      "hitCount": 4964,
-      "avgUserRatio": 0.93,
-      "activeUsers": 295
+      "hitCount": 4965,
+      "avgUserRatio": 0.92,
+      "activeUsers": 296
     },
     {
       "roomName": "Town Square",
@@ -3871,9 +3871,9 @@
     },
     {
       "roomName": "Blue Bayou",
-      "hitCount": 740,
-      "avgUserRatio": 0.94,
-      "activeUsers": 117
+      "hitCount": 743,
+      "avgUserRatio": 0.93,
+      "activeUsers": 118
     },
     {
       "roomName": "\"it's a small world\" Imports",
@@ -3907,9 +3907,9 @@
     },
     {
       "roomName": "New Orleans Square",
-      "hitCount": 476,
-      "avgUserRatio": 1.79,
-      "activeUsers": 45
+      "hitCount": 480,
+      "avgUserRatio": 1.76,
+      "activeUsers": 46
     },
     {
       "roomName": "Shrunken Ned's Shop",
