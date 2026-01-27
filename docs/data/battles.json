@@ -21684,6 +21684,79 @@
     ]
   },
   {
+    "id": "Shrunken Ned's Shop-4",
+    "roomName": "Shrunken Ned's Shop",
+    "start": "2026-01-26T20:07:07.000Z",
+    "end": "2026-01-26T20:11:18.000Z",
+    "durationMinutes": 4,
+    "hitCount": 38,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 23
+      },
+      {
+        "user": "RavenLunatic",
+        "team": "Reindeer",
+        "attacks": 9
+      },
+      {
+        "user": "bsims",
+        "team": "Penguin",
+        "attacks": 6
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "RavenLunatic",
+        "team": "Reindeer",
+        "hitsTaken": 28
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "hitsTaken": 6
+      },
+      {
+        "user": "bsims",
+        "team": "Penguin",
+        "hitsTaken": 3
+      }
+    ],
+    "participants": [
+      {
+        "user": "RavenLunatic",
+        "team": "Reindeer",
+        "attacks": 9,
+        "hitsTaken": 28,
+        "ratio": 0.32142857142857145
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 23,
+        "hitsTaken": 6,
+        "ratio": 3.8333333333333335
+      },
+      {
+        "user": "bsims",
+        "team": "Penguin",
+        "attacks": 6,
+        "hitsTaken": 3,
+        "ratio": 2
+      },
+      {
+        "user": "lotuskitty",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Epcot Entrance-2",
     "roomName": "Epcot Entrance",
     "start": "2026-01-24T20:01:52.000Z",
