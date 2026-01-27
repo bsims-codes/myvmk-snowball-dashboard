@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-27T16:49:27.713Z",
-  "totalRows": 39786,
+  "generatedAt": "2026-01-27T17:15:52.239Z",
+  "totalRows": 39810,
   "totalUsers": 619,
   "teamStats": {
     "Penguin": {
       "users": 290,
-      "attacks": 22453,
+      "attacks": 22477,
       "hitsTaken": 17333
     },
     "Reindeer": {
       "users": 329,
       "attacks": 17333,
-      "hitsTaken": 22453
+      "hitsTaken": 22477
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 22453
+      "count": 22477
     },
     {
       "pair": "Reindeer → Penguin",
@@ -37,7 +37,7 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 2863,
+      "attacks": 2887,
       "team": "Penguin"
     },
     {
@@ -294,9 +294,9 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 2863,
+      "attacks": 2887,
       "hitsTaken": 618,
-      "ratio": 4.632686084142395
+      "ratio": 4.671521035598706
     },
     {
       "user": "TaterTotCasserole",
@@ -1020,6 +1020,13 @@
       "ratio": 0.49411764705882355
     },
     {
+      "user": "Nigel",
+      "team": "Reindeer",
+      "attacks": 1,
+      "hitsTaken": 125,
+      "ratio": 0.008
+    },
+    {
       "user": "dietdrkellp",
       "team": "Reindeer",
       "attacks": 29,
@@ -1149,7 +1156,7 @@
       "user": "MissAnnaNovang",
       "team": "Reindeer",
       "attacks": 0,
-      "hitsTaken": 105,
+      "hitsTaken": 106,
       "ratio": 0
     },
     {
@@ -1158,13 +1165,6 @@
       "attacks": 0,
       "hitsTaken": 104,
       "ratio": 0
-    },
-    {
-      "user": "Nigel",
-      "team": "Reindeer",
-      "attacks": 1,
-      "hitsTaken": 102,
-      "ratio": 0.00980392156862745
     },
     {
       "user": "SavageGuy",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.27036698350738103,
-      "intercept": 57.64906205818575,
+      "slope": 0.2700785236150362,
+      "intercept": 57.707048735006964,
       "xMin": 0,
       "xMax": 7298,
-      "y1": 57.64906205818575,
-      "y2": 2030.7873076950525,
+      "y1": 57.707048735006964,
+      "y2": 2028.7401140775412,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2562286932820797,
-      "intercept": 49.90612872662621,
+      "slope": 0.25551064222465175,
+      "intercept": 49.94955789565631,
       "xMin": 0,
       "xMax": 7298,
-      "y1": 49.90612872662621,
-      "y2": 1919.8631322992437,
+      "y1": 49.94955789565631,
+      "y2": 1914.6662248511648,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2787270602548033,
-      "intercept": 64.88392609549724,
+      "slope": 0.278700860004124,
+      "intercept": 64.97449665232789,
       "xMin": 0,
       "xMax": 7298,
-      "y1": 64.88392609549724,
-      "y2": 2099.034011835052,
+      "y1": 64.97449665232789,
+      "y2": 2098.9333729624245,
       "label": "Reindeer"
     }
   },
@@ -3871,13 +3871,13 @@
     },
     {
       "roomName": "Blue Bayou",
-      "hitCount": 743,
-      "avgUserRatio": 0.93,
+      "hitCount": 766,
+      "avgUserRatio": 0.96,
       "activeUsers": 118
     },
     {
       "roomName": "\"it's a small world\" Imports",
-      "hitCount": 609,
+      "hitCount": 610,
       "avgUserRatio": 3.04,
       "activeUsers": 72
     },
