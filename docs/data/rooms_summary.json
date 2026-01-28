@@ -1,19 +1,19 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 12510,
+    "hitCount": 12511,
     "avgUserRatio": 0.77,
     "activeUsers": 262
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 5330,
+    "hitCount": 5484,
     "avgUserRatio": 0.9,
     "activeUsers": 299
   },
   {
     "roomName": "Town Square",
-    "hitCount": 4453,
+    "hitCount": 4454,
     "avgUserRatio": 1.21,
     "activeUsers": 224
   },
@@ -25,8 +25,8 @@
   },
   {
     "roomName": "Jungle Cruise Dock",
-    "hitCount": 1154,
-    "avgUserRatio": 1.57,
+    "hitCount": 1157,
+    "avgUserRatio": 1.56,
     "activeUsers": 85
   },
   {
@@ -61,9 +61,9 @@
   },
   {
     "roomName": "\"it's a small world\" Imports",
-    "hitCount": 610,
-    "avgUserRatio": 3.04,
-    "activeUsers": 72
+    "hitCount": 659,
+    "avgUserRatio": 2.93,
+    "activeUsers": 75
   },
   {
     "roomName": "Monorail Station",
@@ -79,9 +79,9 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 538,
-    "avgUserRatio": 1.37,
-    "activeUsers": 101
+    "hitCount": 539,
+    "avgUserRatio": 1.36,
+    "activeUsers": 102
   },
   {
     "roomName": "Snow White Hide 'n Seek Forest",
@@ -97,9 +97,9 @@
   },
   {
     "roomName": "Shrunken Ned's Shop",
-    "hitCount": 458,
-    "avgUserRatio": 2.59,
-    "activeUsers": 69
+    "hitCount": 459,
+    "avgUserRatio": 2.53,
+    "activeUsers": 71
   },
   {
     "roomName": "Street Party Music Game Lobby",
@@ -169,8 +169,8 @@
   },
   {
     "roomName": "Pixar Pier Entrance",
-    "hitCount": 198,
-    "avgUserRatio": 1.27,
+    "hitCount": 201,
+    "avgUserRatio": 1.22,
     "activeUsers": 42
   },
   {
@@ -235,9 +235,9 @@
   },
   {
     "roomName": "WS - Mexico",
-    "hitCount": 97,
-    "avgUserRatio": 1.71,
-    "activeUsers": 24
+    "hitCount": 98,
+    "avgUserRatio": 1.64,
+    "activeUsers": 25
   },
   {
     "roomName": "Nautilus Grotto",
@@ -270,6 +270,12 @@
     "activeUsers": 25
   },
   {
+    "roomName": "Golden Horseshoe Mercantile",
+    "hitCount": 72,
+    "avgUserRatio": 0.88,
+    "activeUsers": 18
+  },
+  {
     "roomName": "Mickey's Courtyard",
     "hitCount": 70,
     "avgUserRatio": 1.65,
@@ -286,12 +292,6 @@
     "hitCount": 62,
     "avgUserRatio": 0.9,
     "activeUsers": 22
-  },
-  {
-    "roomName": "Golden Horseshoe Mercantile",
-    "hitCount": 62,
-    "avgUserRatio": 0.84,
-    "activeUsers": 17
   },
   {
     "roomName": "Autopia Space Race",

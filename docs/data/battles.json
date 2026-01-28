@@ -7593,6 +7593,128 @@
     ]
   },
   {
+    "id": "Matterhorn-32",
+    "roomName": "Matterhorn",
+    "start": "2026-01-27T20:57:06.000Z",
+    "end": "2026-01-27T21:15:40.000Z",
+    "durationMinutes": 19,
+    "hitCount": 154,
+    "uniqueUsers": 11,
+    "topAttackers": [
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 90
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 34
+      },
+      {
+        "user": "RavenLunatic",
+        "team": "Reindeer",
+        "attacks": 19
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "RavenLunatic",
+        "team": "Reindeer",
+        "hitsTaken": 104
+      },
+      {
+        "user": "Pirateboi",
+        "team": "Reindeer",
+        "hitsTaken": 21
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "hitsTaken": 9
+      }
+    ],
+    "participants": [
+      {
+        "user": "RavenLunatic",
+        "team": "Reindeer",
+        "attacks": 19,
+        "hitsTaken": 104,
+        "ratio": 0.18269230769230768
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 90,
+        "hitsTaken": 9,
+        "ratio": 10
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 34,
+        "hitsTaken": 9,
+        "ratio": 3.7777777777777777
+      },
+      {
+        "user": "Pirateboi",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 21,
+        "ratio": 0
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 11,
+        "hitsTaken": 0,
+        "ratio": 11
+      },
+      {
+        "user": "Tarabellah",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 4,
+        "ratio": 0
+      },
+      {
+        "user": "Sar.",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 3,
+        "ratio": 0
+      },
+      {
+        "user": "AtziriDayre",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "SavageGuy",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "SkywayStitch",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "OceanWish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Matterhorn-28",
     "roomName": "Matterhorn",
     "start": "2026-01-23T20:16:36.000Z",
@@ -17650,6 +17772,93 @@
         "attacks": 0,
         "hitsTaken": 1,
         "ratio": 0
+      }
+    ]
+  },
+  {
+    "id": "\"it's a small world\" Imports-7",
+    "roomName": "\"it's a small world\" Imports",
+    "start": "2026-01-27T21:29:03.000Z",
+    "end": "2026-01-27T21:32:47.000Z",
+    "durationMinutes": 4,
+    "hitCount": 48,
+    "uniqueUsers": 6,
+    "topAttackers": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 24
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 18
+      },
+      {
+        "user": "PrincessMichii",
+        "team": "Reindeer",
+        "attacks": 4
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "PrincessMichii",
+        "team": "Reindeer",
+        "hitsTaken": 13
+      },
+      {
+        "user": "LuckyGuestGirl",
+        "team": "Penguin",
+        "hitsTaken": 12
+      },
+      {
+        "user": "Naiant",
+        "team": "Penguin",
+        "hitsTaken": 12
+      }
+    ],
+    "participants": [
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 24,
+        "hitsTaken": 7,
+        "ratio": 3.4285714285714284
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 18,
+        "hitsTaken": 4,
+        "ratio": 4.5
+      },
+      {
+        "user": "PrincessMichii",
+        "team": "Reindeer",
+        "attacks": 4,
+        "hitsTaken": 13,
+        "ratio": 0.3076923076923077
+      },
+      {
+        "user": "LuckyGuestGirl",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 12,
+        "ratio": 0
+      },
+      {
+        "user": "Naiant",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 12,
+        "ratio": 0
+      },
+      {
+        "user": "Devgirlforever",
+        "team": "Penguin",
+        "attacks": 2,
+        "hitsTaken": 0,
+        "ratio": 2
       }
     ]
   },
