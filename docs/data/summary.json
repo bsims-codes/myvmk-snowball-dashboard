@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-28T23:14:11.957Z",
-  "totalRows": 40508,
+  "generatedAt": "2026-01-28T23:40:35.181Z",
+  "totalRows": 40515,
   "totalUsers": 624,
   "teamStats": {
     "Penguin": {
       "users": 292,
-      "attacks": 22951,
+      "attacks": 22958,
       "hitsTaken": 17557
     },
     "Reindeer": {
       "users": 332,
       "attacks": 17557,
-      "hitsTaken": 22951
+      "hitsTaken": 22958
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 22951
+      "count": 22958
     },
     {
       "pair": "Reindeer → Penguin",
@@ -37,12 +37,12 @@
     },
     {
       "user": "JustForFun",
-      "attacks": 3046,
+      "attacks": 3047,
       "team": "Penguin"
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 2650,
+      "attacks": 2656,
       "team": "Penguin"
     },
     {
@@ -294,16 +294,16 @@
     {
       "user": "JustForFun",
       "team": "Penguin",
-      "attacks": 3046,
+      "attacks": 3047,
       "hitsTaken": 678,
-      "ratio": 4.492625368731564
+      "ratio": 4.494100294985251
     },
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 2650,
+      "attacks": 2656,
       "hitsTaken": 696,
-      "ratio": 3.807471264367816
+      "ratio": 3.8160919540229883
     },
     {
       "user": "Winnie",
@@ -652,8 +652,8 @@
       "user": "lotuskitty",
       "team": "Reindeer",
       "attacks": 110,
-      "hitsTaken": 169,
-      "ratio": 0.650887573964497
+      "hitsTaken": 172,
+      "ratio": 0.6395348837209303
     },
     {
       "user": "aceair",
@@ -708,8 +708,8 @@
       "user": "Myth",
       "team": "Reindeer",
       "attacks": 59,
-      "hitsTaken": 190,
-      "ratio": 0.3105263157894737
+      "hitsTaken": 191,
+      "ratio": 0.3089005235602094
     },
     {
       "user": "OGBlondie_",
@@ -813,8 +813,8 @@
       "user": "Bernie",
       "team": "Reindeer",
       "attacks": 112,
-      "hitsTaken": 84,
-      "ratio": 1.3333333333333333
+      "hitsTaken": 86,
+      "ratio": 1.302325581395349
     },
     {
       "user": "Cool_Beanss",
@@ -1573,18 +1573,18 @@
       "ratio": 0.09259259259259259
     },
     {
+      "user": "Epic_girly",
+      "team": "Reindeer",
+      "attacks": 1,
+      "hitsTaken": 56,
+      "ratio": 0.017857142857142856
+    },
+    {
       "user": "sushi",
       "team": "Reindeer",
       "attacks": 5,
       "hitsTaken": 52,
       "ratio": 0.09615384615384616
-    },
-    {
-      "user": "Epic_girly",
-      "team": "Reindeer",
-      "attacks": 1,
-      "hitsTaken": 55,
-      "ratio": 0.01818181818181818
     },
     {
       "user": "SkateboardNicky",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2721012246921875,
-      "intercept": 58.53816819258466,
+      "slope": 0.27203868158595407,
+      "intercept": 58.553426017906,
       "xMin": 0,
       "xMax": 7367,
-      "y1": 58.53816819258466,
-      "y2": 2063.10789049993,
+      "y1": 58.553426017906,
+      "y2": 2062.6623932616294,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.25648008265245736,
-      "intercept": 50.07808910479981,
+      "slope": 0.2563201623257933,
+      "intercept": 50.086209323156226,
       "xMin": 0,
       "xMax": 7367,
-      "y1": 50.07808910479981,
-      "y2": 1939.5668580054532,
+      "y1": 50.086209323156226,
+      "y2": 1938.3968451772755,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.28177569683603226,
-      "intercept": 66.5044959767297,
+      "slope": 0.2817783594976438,
+      "intercept": 66.53034452557011,
       "xMin": 0,
       "xMax": 7367,
-      "y1": 66.5044959767297,
-      "y2": 2142.3460545677794,
+      "y1": 66.53034452557011,
+      "y2": 2142.3915189447116,
       "label": "Reindeer"
     }
   },
@@ -3877,7 +3877,7 @@
     },
     {
       "roomName": "\"it's a small world\" Imports",
-      "hitCount": 669,
+      "hitCount": 670,
       "avgUserRatio": 2.89,
       "activeUsers": 77
     },
@@ -3913,9 +3913,9 @@
     },
     {
       "roomName": "Shrunken Ned's Shop",
-      "hitCount": 461,
-      "avgUserRatio": 2.5,
-      "activeUsers": 72
+      "hitCount": 462,
+      "avgUserRatio": 2.47,
+      "activeUsers": 73
     },
     {
       "roomName": "Street Party Music Game Lobby",
