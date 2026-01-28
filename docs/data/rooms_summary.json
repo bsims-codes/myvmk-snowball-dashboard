@@ -1,9 +1,9 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 12511,
-    "avgUserRatio": 0.77,
-    "activeUsers": 262
+    "hitCount": 12520,
+    "avgUserRatio": 0.76,
+    "activeUsers": 263
   },
   {
     "roomName": "Matterhorn",
@@ -348,6 +348,12 @@
     "activeUsers": 18
   },
   {
+    "roomName": "WS - France",
+    "hitCount": 34,
+    "avgUserRatio": 0.71,
+    "activeUsers": 13
+  },
+  {
     "roomName": "WS - China",
     "hitCount": 31,
     "avgUserRatio": 1.11,
@@ -370,12 +376,6 @@
     "hitCount": 24,
     "avgUserRatio": 1.08,
     "activeUsers": 4
-  },
-  {
-    "roomName": "WS - France",
-    "hitCount": 24,
-    "avgUserRatio": 0.78,
-    "activeUsers": 12
   },
   {
     "roomName": "Discovery Trading Company",
