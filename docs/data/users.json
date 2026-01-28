@@ -16,9 +16,9 @@
   {
     "user": "TaterTotCasserole",
     "team": "Penguin",
-    "attacks": 2637,
+    "attacks": 2645,
     "hitsTaken": 696,
-    "ratio": 3.788793103448276
+    "ratio": 3.800287356321839
   },
   {
     "user": "Winnie",
@@ -107,9 +107,9 @@
   {
     "user": "mikgriz",
     "team": "Penguin",
-    "attacks": 625,
+    "attacks": 638,
     "hitsTaken": 286,
-    "ratio": 2.1853146853146854
+    "ratio": 2.230769230769231
   },
   {
     "user": "Jewelsy",
@@ -493,8 +493,8 @@
     "user": "Myth",
     "team": "Reindeer",
     "attacks": 59,
-    "hitsTaken": 187,
-    "ratio": 0.3155080213903743
+    "hitsTaken": 188,
+    "ratio": 0.31382978723404253
   },
   {
     "user": "SillyTableWizard",
@@ -1830,8 +1830,8 @@
     "user": "DustOnYourCeiling",
     "team": "Reindeer",
     "attacks": 1,
-    "hitsTaken": 14,
-    "ratio": 0.07142857142857142
+    "hitsTaken": 32,
+    "ratio": 0.03125
   },
   {
     "user": "scortatia",
@@ -4351,6 +4351,13 @@
     "team": "Reindeer",
     "attacks": 0,
     "hitsTaken": 4,
+    "ratio": 0
+  },
+  {
+    "user": "Kirllan",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 2,
     "ratio": 0
   }
 ]

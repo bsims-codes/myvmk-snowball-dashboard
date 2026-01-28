@@ -43,9 +43,9 @@
   },
   {
     "roomName": "Dungeon",
-    "hitCount": 898,
-    "avgUserRatio": 2.22,
-    "activeUsers": 92
+    "hitCount": 901,
+    "avgUserRatio": 2.21,
+    "activeUsers": 93
   },
   {
     "roomName": "VMK Esplanade",
@@ -55,9 +55,9 @@
   },
   {
     "roomName": "Blue Bayou",
-    "hitCount": 766,
-    "avgUserRatio": 0.96,
-    "activeUsers": 118
+    "hitCount": 768,
+    "avgUserRatio": 0.95,
+    "activeUsers": 119
   },
   {
     "roomName": "\"it's a small world\" Imports",
@@ -79,9 +79,9 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 539,
-    "avgUserRatio": 1.36,
-    "activeUsers": 102
+    "hitCount": 540,
+    "avgUserRatio": 1.35,
+    "activeUsers": 103
   },
   {
     "roomName": "Snow White Hide 'n Seek Forest",
@@ -222,6 +222,12 @@
     "activeUsers": 22
   },
   {
+    "roomName": "WS - Mexico",
+    "hitCount": 111,
+    "avgUserRatio": 2,
+    "activeUsers": 27
+  },
+  {
     "roomName": "Anandapur",
     "hitCount": 100,
     "avgUserRatio": 2.18,
@@ -232,12 +238,6 @@
     "hitCount": 99,
     "avgUserRatio": 2.19,
     "activeUsers": 19
-  },
-  {
-    "roomName": "WS - Mexico",
-    "hitCount": 98,
-    "avgUserRatio": 1.64,
-    "activeUsers": 25
   },
   {
     "roomName": "Nautilus Grotto",
@@ -319,9 +319,9 @@
   },
   {
     "roomName": "Waterpark Pool",
-    "hitCount": 41,
-    "avgUserRatio": 1.68,
-    "activeUsers": 11
+    "hitCount": 42,
+    "avgUserRatio": 1.5,
+    "activeUsers": 13
   },
   {
     "roomName": "WS - Germany",
@@ -342,16 +342,16 @@
     "activeUsers": 15
   },
   {
+    "roomName": "WS - France",
+    "hitCount": 35,
+    "avgUserRatio": 0.68,
+    "activeUsers": 14
+  },
+  {
     "roomName": "Spell Room",
     "hitCount": 34,
     "avgUserRatio": 1.59,
     "activeUsers": 18
-  },
-  {
-    "roomName": "WS - France",
-    "hitCount": 34,
-    "avgUserRatio": 0.71,
-    "activeUsers": 13
   },
   {
     "roomName": "WS - China",

@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-28T16:19:13.185Z",
-  "totalRows": 40457,
-  "totalUsers": 622,
+  "generatedAt": "2026-01-28T16:59:34.686Z",
+  "totalRows": 40478,
+  "totalUsers": 623,
   "teamStats": {
     "Penguin": {
       "users": 291,
-      "attacks": 22911,
+      "attacks": 22932,
       "hitsTaken": 17546
     },
     "Reindeer": {
-      "users": 331,
+      "users": 332,
       "attacks": 17546,
-      "hitsTaken": 22911
+      "hitsTaken": 22932
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 22911
+      "count": 22932
     },
     {
       "pair": "Reindeer → Penguin",
@@ -42,7 +42,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 2637,
+      "attacks": 2645,
       "team": "Penguin"
     },
     {
@@ -107,7 +107,7 @@
     },
     {
       "user": "mikgriz",
-      "attacks": 625,
+      "attacks": 638,
       "team": "Penguin"
     },
     {
@@ -301,9 +301,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 2637,
+      "attacks": 2645,
       "hitsTaken": 696,
-      "ratio": 3.788793103448276
+      "ratio": 3.800287356321839
     },
     {
       "user": "Winnie",
@@ -406,9 +406,9 @@
     {
       "user": "mikgriz",
       "team": "Penguin",
-      "attacks": 625,
+      "attacks": 638,
       "hitsTaken": 286,
-      "ratio": 2.1853146853146854
+      "ratio": 2.230769230769231
     },
     {
       "user": "RavenLunatic",
@@ -705,18 +705,18 @@
       "ratio": 0.008032128514056224
     },
     {
+      "user": "Myth",
+      "team": "Reindeer",
+      "attacks": 59,
+      "hitsTaken": 188,
+      "ratio": 0.31382978723404253
+    },
+    {
       "user": "OGBlondie_",
       "team": "Penguin",
       "attacks": 153,
       "hitsTaken": 94,
       "ratio": 1.627659574468085
-    },
-    {
-      "user": "Myth",
-      "team": "Reindeer",
-      "attacks": 59,
-      "hitsTaken": 187,
-      "ratio": 0.3155080213903743
     },
     {
       "user": "Cipolla",
@@ -1965,6 +1965,13 @@
       "ratio": 0.03125
     },
     {
+      "user": "DustOnYourCeiling",
+      "team": "Reindeer",
+      "attacks": 1,
+      "hitsTaken": 32,
+      "ratio": 0.03125
+    },
+    {
       "user": "Rstar",
       "team": "Penguin",
       "attacks": 0,
@@ -2677,13 +2684,6 @@
       "attacks": 4,
       "hitsTaken": 11,
       "ratio": 0.36363636363636365
-    },
-    {
-      "user": "DustOnYourCeiling",
-      "team": "Reindeer",
-      "attacks": 1,
-      "hitsTaken": 14,
-      "ratio": 0.07142857142857142
     },
     {
       "user": "IcyWater_Princess",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2723201598787841,
-      "intercept": 58.45220978516685,
+      "slope": 0.27222176331029396,
+      "intercept": 58.486737147084945,
       "xMin": 0,
       "xMax": 7367,
-      "y1": 58.45220978516685,
-      "y2": 2064.6348276121694,
+      "y1": 58.486737147084945,
+      "y2": 2063.9444674540205,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.256917981169796,
-      "intercept": 50.03578341723439,
+      "slope": 0.2567176171942408,
+      "intercept": 50.03231618067558,
       "xMin": 0,
       "xMax": 7367,
-      "y1": 50.03578341723439,
-      "y2": 1942.7505506951213,
+      "y1": 50.03231618067558,
+      "y2": 1941.2710020506474,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2818369888582921,
-      "intercept": 66.37075726564677,
+      "slope": 0.2818173011848029,
+      "intercept": 66.44267317960967,
       "xMin": 0,
       "xMax": 7367,
-      "y1": 66.37075726564677,
-      "y2": 2142.6638541846846,
+      "y1": 66.44267317960967,
+      "y2": 2142.590731008053,
       "label": "Reindeer"
     }
   },
@@ -3859,9 +3859,9 @@
     },
     {
       "roomName": "Dungeon",
-      "hitCount": 898,
-      "avgUserRatio": 2.22,
-      "activeUsers": 92
+      "hitCount": 901,
+      "avgUserRatio": 2.21,
+      "activeUsers": 93
     },
     {
       "roomName": "VMK Esplanade",
@@ -3871,9 +3871,9 @@
     },
     {
       "roomName": "Blue Bayou",
-      "hitCount": 766,
-      "avgUserRatio": 0.96,
-      "activeUsers": 118
+      "hitCount": 768,
+      "avgUserRatio": 0.95,
+      "activeUsers": 119
     },
     {
       "roomName": "\"it's a small world\" Imports",
@@ -3895,9 +3895,9 @@
     },
     {
       "roomName": "Epcot Entrance",
-      "hitCount": 539,
-      "avgUserRatio": 1.36,
-      "activeUsers": 102
+      "hitCount": 540,
+      "avgUserRatio": 1.35,
+      "activeUsers": 103
     },
     {
       "roomName": "Snow White Hide 'n Seek Forest",
