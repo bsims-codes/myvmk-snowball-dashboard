@@ -93,9 +93,9 @@
   {
     "user": "protozoa",
     "team": "Reindeer",
-    "attacks": 690,
+    "attacks": 695,
     "hitsTaken": 302,
-    "ratio": 2.2847682119205297
+    "ratio": 2.301324503311258
   },
   {
     "user": "VMKNeec",
@@ -1452,8 +1452,8 @@
     "user": "SpookyBrightFairy",
     "team": "Penguin",
     "attacks": 3,
-    "hitsTaken": 31,
-    "ratio": 0.0967741935483871
+    "hitsTaken": 35,
+    "ratio": 0.08571428571428572
   },
   {
     "user": "Road",
@@ -4358,6 +4358,13 @@
     "team": "Reindeer",
     "attacks": 0,
     "hitsTaken": 2,
+    "ratio": 0
+  },
+  {
+    "user": "Princess_of_Cats",
+    "team": "Penguin",
+    "attacks": 0,
+    "hitsTaken": 1,
     "ratio": 0
   }
 ]

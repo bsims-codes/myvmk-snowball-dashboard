@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-28T21:15:08.795Z",
-  "totalRows": 40493,
-  "totalUsers": 623,
+  "generatedAt": "2026-01-28T21:45:20.915Z",
+  "totalRows": 40498,
+  "totalUsers": 624,
   "teamStats": {
     "Penguin": {
-      "users": 291,
+      "users": 292,
       "attacks": 22941,
-      "hitsTaken": 17552
+      "hitsTaken": 17557
     },
     "Reindeer": {
       "users": 332,
-      "attacks": 17552,
+      "attacks": 17557,
       "hitsTaken": 22941
     },
     "Unknown": {
@@ -26,7 +26,7 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 17552
+      "count": 17557
     }
   ],
   "topAttackers": [
@@ -97,7 +97,7 @@
     },
     {
       "user": "protozoa",
-      "attacks": 690,
+      "attacks": 695,
       "team": "Reindeer"
     },
     {
@@ -392,9 +392,9 @@
     {
       "user": "protozoa",
       "team": "Reindeer",
-      "attacks": 690,
+      "attacks": 695,
       "hitsTaken": 302,
-      "ratio": 2.2847682119205297
+      "ratio": 2.301324503311258
     },
     {
       "user": "Magenta",
@@ -1776,6 +1776,13 @@
       "ratio": 0.1875
     },
     {
+      "user": "SpookyBrightFairy",
+      "team": "Penguin",
+      "attacks": 3,
+      "hitsTaken": 35,
+      "ratio": 0.08571428571428572
+    },
+    {
       "user": "Horseytink",
       "team": "Penguin",
       "attacks": 1,
@@ -1914,13 +1921,6 @@
       "attacks": 0,
       "hitsTaken": 35,
       "ratio": 0
-    },
-    {
-      "user": "SpookyBrightFairy",
-      "team": "Penguin",
-      "attacks": 3,
-      "hitsTaken": 31,
-      "ratio": 0.0967741935483871
     },
     {
       "user": "Sandblasted_OctoNuggie",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2722001286776098,
-      "intercept": 58.51032238020187,
+      "slope": 0.2721905402790312,
+      "intercept": 58.51637690496238,
       "xMin": 0,
       "xMax": 7367,
-      "y1": 58.51032238020187,
-      "y2": 2063.808670348153,
+      "y1": 58.51637690496238,
+      "y2": 2063.7440871405856,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2567027070286524,
-      "intercept": 50.04976884618936,
+      "slope": 0.25669046758877506,
+      "intercept": 50.068300276974405,
       "xMin": 0,
       "xMax": 7367,
-      "y1": 50.04976884618936,
-      "y2": 1941.1786115262717,
+      "y1": 50.068300276974405,
+      "y2": 1941.1069750034803,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2817952158359788,
-      "intercept": 66.4712853431019,
+      "slope": 0.28178366706475233,
+      "intercept": 66.4668011462652,
       "xMin": 0,
       "xMax": 7367,
-      "y1": 66.4712853431019,
-      "y2": 2142.4566404067577,
+      "y1": 66.4668011462652,
+      "y2": 2142.3670764122953,
       "label": "Reindeer"
     }
   },
@@ -3871,9 +3871,9 @@
     },
     {
       "roomName": "Blue Bayou",
-      "hitCount": 768,
-      "avgUserRatio": 0.95,
-      "activeUsers": 119
+      "hitCount": 769,
+      "avgUserRatio": 0.94,
+      "activeUsers": 121
     },
     {
       "roomName": "\"it's a small world\" Imports",
@@ -3943,9 +3943,9 @@
     },
     {
       "roomName": "Pirate Treehouse",
-      "hitCount": 291,
-      "avgUserRatio": 1.68,
-      "activeUsers": 59
+      "hitCount": 295,
+      "avgUserRatio": 1.69,
+      "activeUsers": 61
     },
     {
       "roomName": "Monorail Train",
