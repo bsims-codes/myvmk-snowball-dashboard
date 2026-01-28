@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-28T22:28:12.497Z",
-  "totalRows": 40498,
+  "generatedAt": "2026-01-28T22:53:22.205Z",
+  "totalRows": 40501,
   "totalUsers": 624,
   "teamStats": {
     "Penguin": {
       "users": 292,
-      "attacks": 22941,
+      "attacks": 22944,
       "hitsTaken": 17557
     },
     "Reindeer": {
       "users": 332,
       "attacks": 17557,
-      "hitsTaken": 22941
+      "hitsTaken": 22944
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 22941
+      "count": 22944
     },
     {
       "pair": "Reindeer → Penguin",
@@ -71,13 +71,13 @@
       "team": "Penguin"
     },
     {
-      "user": "kazino",
-      "attacks": 1201,
+      "user": "bsims",
+      "attacks": 1203,
       "team": "Penguin"
     },
     {
-      "user": "bsims",
-      "attacks": 1200,
+      "user": "kazino",
+      "attacks": 1201,
       "team": "Penguin"
     },
     {
@@ -350,9 +350,9 @@
     {
       "user": "bsims",
       "team": "Penguin",
-      "attacks": 1200,
+      "attacks": 1203,
       "hitsTaken": 258,
-      "ratio": 4.651162790697675
+      "ratio": 4.662790697674419
     },
     {
       "user": "kazino",
@@ -2329,6 +2329,13 @@
       "ratio": 0
     },
     {
+      "user": "bao",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 22,
+      "ratio": 0
+    },
+    {
       "user": "PhatPotato",
       "team": "Penguin",
       "attacks": 4,
@@ -2386,13 +2393,6 @@
     },
     {
       "user": "BabySnoops",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 21,
-      "ratio": 0
-    },
-    {
-      "user": "bao",
       "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 21,
@@ -3337,6 +3337,13 @@
       "ratio": 0
     },
     {
+      "user": "Aquamarine",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 6,
+      "ratio": 0
+    },
+    {
       "user": "shypolardog",
       "team": "Reindeer",
       "attacks": 0,
@@ -3610,13 +3617,6 @@
       "ratio": 0
     },
     {
-      "user": "Aquamarine",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 4,
-      "ratio": 0
-    },
-    {
       "user": "bailzeb",
       "team": "Reindeer",
       "attacks": 0,
@@ -3787,37 +3787,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2721905402790312,
-      "intercept": 58.51637690496238,
+      "slope": 0.27217354777388575,
+      "intercept": 58.52212001869744,
       "xMin": 0,
       "xMax": 7367,
-      "y1": 58.51637690496238,
-      "y2": 2063.7440871405856,
+      "y1": 58.52212001869744,
+      "y2": 2063.624646468914,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.25669046758877506,
-      "intercept": 50.068300276974405,
+      "slope": 0.25665392948504384,
+      "intercept": 50.06859545348106,
       "xMin": 0,
       "xMax": 7367,
-      "y1": 50.068300276974405,
-      "y2": 1941.1069750034803,
+      "y1": 50.06859545348106,
+      "y2": 1940.838093969799,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.28178366706475233,
-      "intercept": 66.4668011462652,
+      "slope": 0.28178035120479705,
+      "intercept": 66.47816994405574,
       "xMin": 0,
       "xMax": 7367,
-      "y1": 66.4668011462652,
-      "y2": 2142.3670764122953,
+      "y1": 66.47816994405574,
+      "y2": 2142.354017269796,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 12520,
+      "hitCount": 12521,
       "avgUserRatio": 0.76,
       "activeUsers": 263
     },
@@ -3913,9 +3913,9 @@
     },
     {
       "roomName": "Shrunken Ned's Shop",
-      "hitCount": 459,
-      "avgUserRatio": 2.53,
-      "activeUsers": 71
+      "hitCount": 461,
+      "avgUserRatio": 2.5,
+      "activeUsers": 72
     },
     {
       "roomName": "Street Party Music Game Lobby",
