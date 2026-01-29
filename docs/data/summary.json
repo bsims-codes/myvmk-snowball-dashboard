@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-29T19:56:15.754Z",
-  "totalRows": 40788,
+  "generatedAt": "2026-01-29T20:20:41.460Z",
+  "totalRows": 40789,
   "totalUsers": 626,
   "teamStats": {
     "Penguin": {
       "users": 294,
       "attacks": 23114,
-      "hitsTaken": 17674
+      "hitsTaken": 17675
     },
     "Reindeer": {
       "users": 332,
-      "attacks": 17674,
+      "attacks": 17675,
       "hitsTaken": 23114
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 17674
+      "count": 17675
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 7367,
+      "attacks": 7368,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 7367,
+      "attacks": 7368,
       "hitsTaken": 1755,
-      "ratio": 4.197720797720797
+      "ratio": 4.1982905982905985
     },
     {
       "user": "JustForFun",
@@ -1776,6 +1776,13 @@
       "ratio": 0.08333333333333333
     },
     {
+      "user": "Horseytink",
+      "team": "Penguin",
+      "attacks": 1,
+      "hitsTaken": 38,
+      "ratio": 0.02631578947368421
+    },
+    {
       "user": "MoonlightDream",
       "team": "Reindeer",
       "attacks": 6,
@@ -1788,13 +1795,6 @@
       "attacks": 3,
       "hitsTaken": 35,
       "ratio": 0.08571428571428572
-    },
-    {
-      "user": "Horseytink",
-      "team": "Penguin",
-      "attacks": 1,
-      "hitsTaken": 37,
-      "ratio": 0.02702702702702703
     },
     {
       "user": "TheDeathStar",
@@ -3787,39 +3787,39 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2739943961227075,
-      "intercept": 58.78137308585524,
+      "slope": 0.2739682863145691,
+      "intercept": 58.78495482189323,
       "xMin": 0,
-      "xMax": 7367,
-      "y1": 58.78137308585524,
-      "y2": 2077.2980893218414,
+      "xMax": 7368,
+      "y1": 58.78495482189323,
+      "y2": 2077.3832883876385,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2560601827374269,
-      "intercept": 50.42396994187267,
+      "slope": 0.25605712326801155,
+      "intercept": 50.4286050520767,
       "xMin": 0,
-      "xMax": 7367,
-      "y1": 50.42396994187267,
-      "y2": 1936.8193361684969,
+      "xMax": 7368,
+      "y1": 50.4286050520767,
+      "y2": 1937.0574892907857,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2851340535390898,
-      "intercept": 66.76727189557897,
+      "slope": 0.2850920381316455,
+      "intercept": 66.76897212690542,
       "xMin": 0,
-      "xMax": 7367,
-      "y1": 66.76727189557897,
-      "y2": 2167.349844318054,
+      "xMax": 7368,
+      "y1": 66.76897212690542,
+      "y2": 2167.3271090808694,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 12782,
-      "avgUserRatio": 0.76,
-      "activeUsers": 266
+      "hitCount": 12783,
+      "avgUserRatio": 0.75,
+      "activeUsers": 267
     },
     {
       "roomName": "Matterhorn",
