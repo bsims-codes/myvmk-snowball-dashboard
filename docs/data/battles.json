@@ -5360,6 +5360,107 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-93",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-01-28T19:02:43.000Z",
+    "end": "2026-01-28T19:33:02.000Z",
+    "durationMinutes": 30,
+    "hitCount": 232,
+    "uniqueUsers": 8,
+    "topAttackers": [
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 96
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 86
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 42
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "hitsTaken": 92
+      },
+      {
+        "user": "RavenLunatic",
+        "team": "Reindeer",
+        "hitsTaken": 47
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 36
+      }
+    ],
+    "participants": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 86,
+        "hitsTaken": 92,
+        "ratio": 0.9347826086956522
+      },
+      {
+        "user": "JustForFun",
+        "team": "Penguin",
+        "attacks": 96,
+        "hitsTaken": 15,
+        "ratio": 6.4
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 42,
+        "hitsTaken": 23,
+        "ratio": 1.826086956521739
+      },
+      {
+        "user": "RavenLunatic",
+        "team": "Reindeer",
+        "attacks": 7,
+        "hitsTaken": 47,
+        "ratio": 0.14893617021276595
+      },
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 36,
+        "ratio": 0
+      },
+      {
+        "user": "CityscapeNight",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 12,
+        "ratio": 0.08333333333333333
+      },
+      {
+        "user": "TheWatcher",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 5,
+        "ratio": 0
+      },
+      {
+        "user": "Gymnast_Princesss",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Matterhorn-2",
     "roomName": "Matterhorn",
     "start": "2025-12-21T22:09:06.000Z",
