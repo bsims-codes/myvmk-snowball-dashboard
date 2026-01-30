@@ -1883,6 +1883,13 @@
     "ratio": 0.1
   },
   {
+    "user": "AtziriDayre",
+    "team": "Reindeer",
+    "attacks": 1,
+    "hitsTaken": 285,
+    "ratio": 0.0035087719298245615
+  },
+  {
     "user": "Ash_Mccash",
     "team": "Penguin",
     "attacks": 0,
@@ -2153,13 +2160,6 @@
     "team": "Penguin",
     "attacks": 0,
     "hitsTaken": 60,
-    "ratio": 0
-  },
-  {
-    "user": "AtziriDayre",
-    "team": "Reindeer",
-    "attacks": 0,
-    "hitsTaken": 285,
     "ratio": 0
   },
   {
@@ -4371,7 +4371,7 @@
     "user": "TheWatcher",
     "team": "Penguin",
     "attacks": 0,
-    "hitsTaken": 5,
+    "hitsTaken": 6,
     "ratio": 0
   },
   {
