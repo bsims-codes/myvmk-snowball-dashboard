@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-01-30T18:57:06.281Z",
-  "totalRows": 40937,
+  "generatedAt": "2026-01-30T19:27:29.252Z",
+  "totalRows": 40945,
   "totalUsers": 627,
   "teamStats": {
     "Penguin": {
       "users": 294,
-      "attacks": 23241,
-      "hitsTaken": 17696
+      "attacks": 23244,
+      "hitsTaken": 17701
     },
     "Reindeer": {
       "users": 333,
-      "attacks": 17696,
-      "hitsTaken": 23241
+      "attacks": 17701,
+      "hitsTaken": 23244
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 23241
+      "count": 23244
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 17696
+      "count": 17701
     }
   ],
   "topAttackers": [
@@ -635,18 +635,18 @@
       "ratio": 3.5454545454545454
     },
     {
+      "user": "AtziriDayre",
+      "team": "Reindeer",
+      "attacks": 6,
+      "hitsTaken": 288,
+      "ratio": 0.020833333333333332
+    },
+    {
       "user": "dizlindsey",
       "team": "Reindeer",
       "attacks": 170,
       "hitsTaken": 121,
       "ratio": 1.4049586776859504
-    },
-    {
-      "user": "AtziriDayre",
-      "team": "Reindeer",
-      "attacks": 1,
-      "hitsTaken": 285,
-      "ratio": 0.0035087719298245615
     },
     {
       "user": "lotuskitty",
@@ -2742,6 +2742,13 @@
       "ratio": 2.5
     },
     {
+      "user": "TheWatcher",
+      "team": "Penguin",
+      "attacks": 3,
+      "hitsTaken": 11,
+      "ratio": 0.2727272727272727
+    },
+    {
       "user": "moongirlusagi",
       "team": "Penguin",
       "attacks": 0,
@@ -3393,13 +3400,6 @@
       "ratio": 0
     },
     {
-      "user": "TheWatcher",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 6,
-      "ratio": 0
-    },
-    {
       "user": "Joe",
       "team": "Reindeer",
       "attacks": 2,
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.27306946233396123,
-      "intercept": 59.05889539656793,
+      "slope": 0.27307503436608505,
+      "intercept": 59.07007003603623,
       "xMin": 0,
       "xMax": 7368,
-      "y1": 59.05889539656793,
-      "y2": 2071.034693873194,
+      "y1": 59.07007003603623,
+      "y2": 2071.086923245351,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.25371852065489064,
-      "intercept": 50.81667521087389,
+      "slope": 0.25370181942010595,
+      "intercept": 50.83679266538216,
       "xMin": 0,
       "xMax": 7368,
-      "y1": 50.81667521087389,
-      "y2": 1920.2147353961082,
+      "y1": 50.83679266538216,
+      "y2": 1920.1117981527227,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2852027258057629,
-      "intercept": 66.95045544293642,
+      "slope": 0.28521948014109894,
+      "intercept": 66.95518674438033,
       "xMin": 0,
       "xMax": 7368,
-      "y1": 66.95045544293642,
-      "y2": 2168.3241391797974,
+      "y1": 66.95518674438033,
+      "y2": 2168.452316423997,
       "label": "Reindeer"
     }
   },
@@ -3823,9 +3823,9 @@
     },
     {
       "roomName": "Matterhorn",
-      "hitCount": 5588,
+      "hitCount": 5590,
       "avgUserRatio": 0.89,
-      "activeUsers": 302
+      "activeUsers": 303
     },
     {
       "roomName": "Town Square",
@@ -3900,16 +3900,16 @@
       "activeUsers": 28
     },
     {
+      "roomName": "New Orleans Square",
+      "hitCount": 486,
+      "avgUserRatio": 1.72,
+      "activeUsers": 48
+    },
+    {
       "roomName": "Snow White Hide 'n Seek Forest",
       "hitCount": 484,
       "avgUserRatio": 2.02,
       "activeUsers": 68
-    },
-    {
-      "roomName": "New Orleans Square",
-      "hitCount": 480,
-      "avgUserRatio": 1.76,
-      "activeUsers": 46
     },
     {
       "roomName": "Shrunken Ned's Shop",
