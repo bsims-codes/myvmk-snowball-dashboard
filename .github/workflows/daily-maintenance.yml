@@ -1,0 +1,44 @@
+name: Daily Maintenance
+
+on:
+  schedule:
+    # Run daily at 6:00 AM UTC (1:00 AM EST / 2:00 AM EDT)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    # Allow manual trigger from GitHub Actions UI
+
+jobs:
+  update-join-dates:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Fetch full history for join dates extraction
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Extract user join dates
+        run: node scripts/extract-join-dates.mjs
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --quiet docs/data/user-join-dates.json || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/user-join-dates.json
+          git commit -m "Update user join dates $(date -u +'%Y-%m-%d')"
+          git push
