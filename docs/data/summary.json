@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-31T21:34:56.152Z",
-  "totalRows": 41169,
-  "totalUsers": 628,
+  "generatedAt": "2026-01-31T21:48:00.226Z",
+  "totalRows": 41177,
+  "totalUsers": 629,
   "teamStats": {
     "Penguin": {
-      "users": 295,
+      "users": 296,
       "attacks": 23432,
-      "hitsTaken": 17737
+      "hitsTaken": 17745
     },
     "Reindeer": {
       "users": 333,
-      "attacks": 17737,
+      "attacks": 17745,
       "hitsTaken": 23432
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 17737
+      "count": 17745
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 7395,
+      "attacks": 7403,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 7395,
+      "attacks": 7403,
       "hitsTaken": 1758,
-      "ratio": 4.206484641638225
+      "ratio": 4.211035267349261
     },
     {
       "user": "JustForFun",
@@ -1412,17 +1412,17 @@
       "ratio": 0
     },
     {
-      "user": "StarportSeventy-Five",
-      "team": "Reindeer",
+      "user": "Focus",
+      "team": "Penguin",
       "attacks": 0,
       "hitsTaken": 78,
       "ratio": 0
     },
     {
-      "user": "Focus",
-      "team": "Penguin",
+      "user": "StarportSeventy-Five",
+      "team": "Reindeer",
       "attacks": 0,
-      "hitsTaken": 77,
+      "hitsTaken": 78,
       "ratio": 0
     },
     {
@@ -3330,6 +3330,13 @@
       "ratio": 0
     },
     {
+      "user": "WillaKingdomKeeper",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 7,
+      "ratio": 0
+    },
+    {
       "user": "DeputySkippy",
       "team": "Penguin",
       "attacks": 3,
@@ -3776,41 +3783,34 @@
       "attacks": 0,
       "hitsTaken": 3,
       "ratio": 0
-    },
-    {
-      "user": "Fleek",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 3,
-      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.2716396812927462,
-      "intercept": 59.50790503916821,
+      "slope": 0.27143870485194677,
+      "intercept": 59.53010841026159,
       "xMin": 0,
-      "xMax": 7395,
-      "y1": 59.50790503916821,
-      "y2": 2068.283348199026,
+      "xMax": 7403,
+      "y1": 59.53010841026159,
+      "y2": 2068.990840429223,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2515392778707595,
-      "intercept": 50.993194432556976,
+      "slope": 0.2515240617112048,
+      "intercept": 51.016483626549885,
       "xMin": 0,
-      "xMax": 7395,
-      "y1": 50.993194432556976,
-      "y2": 1911.1261542868237,
+      "xMax": 7403,
+      "y1": 51.016483626549885,
+      "y2": 1913.0491124745988,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2843606602049315,
-      "intercept": 67.66986552320571,
+      "slope": 0.28402702138658614,
+      "intercept": 67.6833650353252,
       "xMin": 0,
-      "xMax": 7395,
-      "y1": 67.66986552320571,
-      "y2": 2170.5169477386744,
+      "xMax": 7403,
+      "y1": 67.6833650353252,
+      "y2": 2170.335404360222,
       "label": "Reindeer"
     }
   },
@@ -3841,9 +3841,9 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 1160,
-      "avgUserRatio": 1.56,
-      "activeUsers": 85
+      "hitCount": 1161,
+      "avgUserRatio": 1.55,
+      "activeUsers": 86
     },
     {
       "roomName": "Fantasyland in The Sky",
@@ -3859,9 +3859,9 @@
     },
     {
       "roomName": "Dungeon",
-      "hitCount": 904,
-      "avgUserRatio": 2.17,
-      "activeUsers": 95
+      "hitCount": 905,
+      "avgUserRatio": 2.15,
+      "activeUsers": 96
     },
     {
       "roomName": "VMK Esplanade",
@@ -3877,9 +3877,9 @@
     },
     {
       "roomName": "\"it's a small world\" Imports",
-      "hitCount": 673,
-      "avgUserRatio": 2.86,
-      "activeUsers": 78
+      "hitCount": 679,
+      "avgUserRatio": 2.83,
+      "activeUsers": 79
     },
     {
       "roomName": "Monorail Station",
