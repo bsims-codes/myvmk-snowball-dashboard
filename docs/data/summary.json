@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-31T18:50:26.816Z",
-  "totalRows": 41140,
-  "totalUsers": 627,
+  "generatedAt": "2026-01-31T19:05:31.836Z",
+  "totalRows": 41147,
+  "totalUsers": 628,
   "teamStats": {
     "Penguin": {
-      "users": 294,
+      "users": 295,
       "attacks": 23429,
-      "hitsTaken": 17711
+      "hitsTaken": 17718
     },
     "Reindeer": {
       "users": 333,
-      "attacks": 17711,
+      "attacks": 17718,
       "hitsTaken": 23429
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 17711
+      "count": 17718
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 7369,
+      "attacks": 7376,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 7369,
+      "attacks": 7376,
       "hitsTaken": 1755,
-      "ratio": 4.198860398860399
+      "ratio": 4.202849002849002
     },
     {
       "user": "JustForFun",
@@ -3323,6 +3323,13 @@
       "ratio": 0
     },
     {
+      "user": "Blueberry_ken",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 7,
+      "ratio": 0
+    },
+    {
       "user": "DeputySkippy",
       "team": "Penguin",
       "attacks": 3,
@@ -3776,41 +3783,34 @@
       "attacks": 0,
       "hitsTaken": 3,
       "ratio": 0
-    },
-    {
-      "user": "Matrona",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 3,
-      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.2720083509548858,
-      "intercept": 59.44132895023964,
+      "slope": 0.27183253877920904,
+      "intercept": 59.459987714014,
       "xMin": 0,
-      "xMax": 7369,
-      "y1": 59.44132895023964,
-      "y2": 2063.870867136793,
+      "xMax": 7376,
+      "y1": 59.459987714014,
+      "y2": 2064.49679374946,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.251304176481284,
-      "intercept": 51.129681474117724,
+      "slope": 0.25143845767233997,
+      "intercept": 50.92413587873953,
       "xMin": 0,
-      "xMax": 7369,
-      "y1": 51.129681474117724,
-      "y2": 1902.9901579646994,
+      "xMax": 7376,
+      "y1": 50.92413587873953,
+      "y2": 1905.534199669919,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.28515221216940245,
-      "intercept": 67.39571761878986,
+      "slope": 0.2847874360729628,
+      "intercept": 67.65076215752366,
       "xMin": 0,
-      "xMax": 7369,
-      "y1": 67.39571761878986,
-      "y2": 2168.682369095117,
+      "xMax": 7376,
+      "y1": 67.65076215752366,
+      "y2": 2168.2428906316973,
       "label": "Reindeer"
     }
   },
@@ -3865,9 +3865,9 @@
     },
     {
       "roomName": "VMK Esplanade",
-      "hitCount": 869,
-      "avgUserRatio": 1.71,
-      "activeUsers": 123
+      "hitCount": 876,
+      "avgUserRatio": 1.69,
+      "activeUsers": 124
     },
     {
       "roomName": "Blue Bayou",
