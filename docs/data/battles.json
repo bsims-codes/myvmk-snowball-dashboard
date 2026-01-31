@@ -9621,6 +9621,107 @@
     ]
   },
   {
+    "id": "Matterhorn-35",
+    "roomName": "Matterhorn",
+    "start": "2026-01-30T20:48:42.000Z",
+    "end": "2026-01-30T20:57:54.000Z",
+    "durationMinutes": 9,
+    "hitCount": 118,
+    "uniqueUsers": 8,
+    "topAttackers": [
+      {
+        "user": "mikgriz",
+        "team": "Penguin",
+        "attacks": 67
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 42
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 4
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "aceair",
+        "team": "Reindeer",
+        "hitsTaken": 65
+      },
+      {
+        "user": "Supercatygirl",
+        "team": "Reindeer",
+        "hitsTaken": 49
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "hitsTaken": 1
+      }
+    ],
+    "participants": [
+      {
+        "user": "aceair",
+        "team": "Reindeer",
+        "attacks": 2,
+        "hitsTaken": 65,
+        "ratio": 0.03076923076923077
+      },
+      {
+        "user": "mikgriz",
+        "team": "Penguin",
+        "attacks": 67,
+        "hitsTaken": 0,
+        "ratio": 67
+      },
+      {
+        "user": "Supercatygirl",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 49,
+        "ratio": 0
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 42,
+        "hitsTaken": 0,
+        "ratio": 42
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 4,
+        "hitsTaken": 1,
+        "ratio": 4
+      },
+      {
+        "user": "BelleMarie",
+        "team": "Penguin",
+        "attacks": 3,
+        "hitsTaken": 1,
+        "ratio": 3
+      },
+      {
+        "user": "Sar.",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "maroonsonicsage22",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-27",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-22T12:43:03.000Z",
