@@ -96,6 +96,9 @@ async function main() {
 
   const userFirstSeen = new Map(); // user -> { firstSeen, team, source }
 
+  // Track ALL historical users (for detecting name changes/removals)
+  const allHistoricalUsers = new Map(); // userKey -> { user, team, firstSeen, lastSeen, totalActivity }
+
   // Process users.json history
   console.log('=== Processing users.json history ===');
   const usersCommits = getCommits(USERS_FILE_PATH);
@@ -125,7 +128,25 @@ async function main() {
       const userKey = user.toLowerCase();
       const currentTeamData = currentTeams.get(userKey);
 
-      // Only record if:
+      // Track ALL users for historical record
+      if (!allHistoricalUsers.has(userKey)) {
+        allHistoricalUsers.set(userKey, {
+          user: user,
+          team: team,
+          firstSeen: date,
+          lastSeen: date,
+          totalActivity: 1
+        });
+      } else {
+        const existing = allHistoricalUsers.get(userKey);
+        existing.lastSeen = date;
+        existing.totalActivity++;
+        // Keep the most recent username spelling
+        existing.user = user;
+        existing.team = team;
+      }
+
+      // Only record in userFirstSeen if:
       // 1. User is in current roster
       // 2. Team matches their CURRENT team
       // 3. We haven't recorded them yet
@@ -167,6 +188,25 @@ async function main() {
   const results = Array.from(userFirstSeen.values())
     .sort((a, b) => new Date(a.firstSeen) - new Date(b.firstSeen));
 
+  // Find historical users NOT in current roster (potential name changes or removed users)
+  console.log('\n=== Detecting historical users no longer in roster ===');
+  const missingFromRoster = [];
+  for (const [userKey, data] of allHistoricalUsers) {
+    if (!currentTeams.has(userKey)) {
+      missingFromRoster.push({
+        user: data.user,
+        team: data.team,
+        firstSeen: data.firstSeen,
+        lastSeen: data.lastSeen,
+        totalActivity: data.totalActivity
+      });
+    }
+  }
+
+  // Sort by most recent activity first
+  missingFromRoster.sort((a, b) => new Date(b.lastSeen) - new Date(a.lastSeen));
+  console.log(`Found ${missingFromRoster.length} historical users no longer in roster`);
+
   // Write output
   const output = {
     generatedAt: new Date().toISOString(),
@@ -174,7 +214,8 @@ async function main() {
     totalUsers: results.length,
     fromParticipants: results.filter(u => u.source === 'participants').length,
     fromRosterOnly: results.filter(u => u.source === 'roster').length,
-    users: results
+    users: results,
+    missingFromRoster: missingFromRoster
   };
 
   writeFileSync(OUTPUT_PATH, JSON.stringify(output, null, 2));
@@ -206,6 +247,15 @@ async function main() {
     if (bsims) {
       console.log(`\nbsims: ${bsims.team} - first seen ${bsims.firstSeen} [${bsims.source}]`);
     }
+  }
+
+  // Show missing from roster stats
+  if (missingFromRoster.length > 0) {
+    console.log(`\n=== Users no longer in roster (${missingFromRoster.length} total) ===`);
+    console.log('Most recent 10:');
+    missingFromRoster.slice(0, 10).forEach(u => {
+      console.log(`  ${u.user} (${u.team}) - last seen ${u.lastSeen}`);
+    });
   }
 }
 

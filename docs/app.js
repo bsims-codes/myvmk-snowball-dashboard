@@ -2461,8 +2461,9 @@ async function initJoinDates() {
 }
 
 /**
- * Detect users who participated but aren't in current roster
+ * Detect users who participated historically but aren't in current roster
  * May indicate name changes or removed users
+ * Uses git history data from user-join-dates.json
  */
 async function renderMissingFromRoster() {
   const container = document.getElementById("missingRosterPanel");
@@ -2471,35 +2472,15 @@ async function renderMissingFromRoster() {
   container.innerHTML = `<p style="color:var(--text-muted);text-align:center;padding:20px;">Loading...</p>`;
 
   try {
-    // Get current roster
-    let teamData = currentTeamData;
-    if (!teamData || !teamData.rosters) {
-      teamData = await fetchTeamData();
-    }
+    // Load join dates data which includes historical missing users
+    const joinDatesData = await loadJoinDates();
 
-    if (!teamData || !teamData.rosters) {
-      container.innerHTML = `<p style="color:var(--text-muted);text-align:center;padding:20px;">Could not load roster data.</p>`;
+    if (!joinDatesData || !joinDatesData.missingFromRoster) {
+      container.innerHTML = `<p style="color:var(--text-muted);text-align:center;padding:20px;">Historical data not available. Run extract-join-dates script.</p>`;
       return;
     }
 
-    // Build set of all roster usernames (lowercase for comparison)
-    const rosterSet = new Set();
-    teamData.rosters.Penguin.forEach(u => rosterSet.add(u.toLowerCase()));
-    teamData.rosters.Reindeer.forEach(u => rosterSet.add(u.toLowerCase()));
-
-    // Get all participants from state.users (loaded from users.json)
-    const participants = state.users || [];
-
-    // Find participants not in roster
-    const missing = participants
-      .filter(u => !rosterSet.has(u.user.toLowerCase()))
-      .map(u => ({
-        user: u.user,
-        team: u.team,
-        attacks: u.attacks,
-        hitsTaken: u.hitsTaken
-      }))
-      .sort((a, b) => (b.attacks + b.hitsTaken) - (a.attacks + a.hitsTaken));
+    const missing = joinDatesData.missingFromRoster;
 
     // Update count
     const countEl = document.getElementById("missingRosterCount");
@@ -2508,18 +2489,23 @@ async function renderMissingFromRoster() {
     }
 
     if (missing.length === 0) {
-      container.innerHTML = `<p style="color:var(--text-muted);text-align:center;padding:20px;">All participants are in the current roster.</p>`;
+      container.innerHTML = `<p style="color:var(--text-muted);text-align:center;padding:20px;">All historical participants are in the current roster.</p>`;
       return;
     }
 
     const rows = missing.map(u => {
       const teamClass = u.team?.toLowerCase() || 'unknown';
+      const lastSeenDate = new Date(u.lastSeen).toLocaleDateString('en-US', {
+        month: 'short',
+        day: 'numeric',
+        year: 'numeric'
+      });
       return `
         <tr>
           <td><strong>${escapeHtml(u.user)}</strong></td>
           <td><span class="pill ${teamClass}">${u.team || 'Unknown'}</span></td>
-          <td>${u.attacks}</td>
-          <td>${u.hitsTaken}</td>
+          <td>${lastSeenDate}</td>
+          <td>${u.totalActivity}</td>
         </tr>
       `;
     }).join("");
@@ -2530,8 +2516,8 @@ async function renderMissingFromRoster() {
           <tr>
             <th>Username</th>
             <th>Last Team</th>
-            <th>Attacks</th>
-            <th>Hits Taken</th>
+            <th>Last Seen</th>
+            <th>Activity Count</th>
           </tr>
         </thead>
         <tbody>

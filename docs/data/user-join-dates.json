@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-31T22:40:02.917Z",
+  "generatedAt": "2026-01-31T22:53:07.486Z",
   "resetCutoff": "2025-12-19T04:33:32.000Z",
   "totalUsers": 1382,
   "fromParticipants": 678,
@@ -8296,6 +8296,575 @@
       "firstSeen": "2026-01-31T19:05:32Z",
       "team": "Penguin",
       "source": "participants"
+    }
+  ],
+  "missingFromRoster": [
+    {
+      "user": "PepaRaindrops",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2026-01-29T03:26:57Z",
+      "totalActivity": 709
+    },
+    {
+      "user": "Guest10149279",
+      "team": "Penguin",
+      "firstSeen": "2026-01-27T01:43:58Z",
+      "lastSeen": "2026-01-27T23:42:43Z",
+      "totalActivity": 13
+    },
+    {
+      "user": "Guest10149262",
+      "team": "Penguin",
+      "firstSeen": "2026-01-25T19:39:49Z",
+      "lastSeen": "2026-01-26T15:45:12Z",
+      "totalActivity": 25
+    },
+    {
+      "user": "Guest10149255",
+      "team": "Reindeer",
+      "firstSeen": "2026-01-24T22:59:29Z",
+      "lastSeen": "2026-01-26T06:00:36Z",
+      "totalActivity": 42
+    },
+    {
+      "user": "Guest10149252",
+      "team": "Reindeer",
+      "firstSeen": "2026-01-24T22:59:29Z",
+      "lastSeen": "2026-01-26T01:44:49Z",
+      "totalActivity": 37
+    },
+    {
+      "user": "Guest10149232",
+      "team": "Penguin",
+      "firstSeen": "2026-01-22T20:56:51Z",
+      "lastSeen": "2026-01-23T22:17:02Z",
+      "totalActivity": 25
+    },
+    {
+      "user": "Guest10149244",
+      "team": "Reindeer",
+      "firstSeen": "2026-01-23T17:00:01Z",
+      "lastSeen": "2026-01-23T22:17:02Z",
+      "totalActivity": 11
+    },
+    {
+      "user": "Guest10149219",
+      "team": "Reindeer",
+      "firstSeen": "2026-01-22T20:41:57Z",
+      "lastSeen": "2026-01-23T04:26:42Z",
+      "totalActivity": 9
+    },
+    {
+      "user": "Guest10149196",
+      "team": "Penguin",
+      "firstSeen": "2026-01-18T22:37:51Z",
+      "lastSeen": "2026-01-20T03:59:43Z",
+      "totalActivity": 22
+    },
+    {
+      "user": "RoxanneGoof",
+      "team": "Reindeer",
+      "firstSeen": "2026-01-19T01:02:13Z",
+      "lastSeen": "2026-01-19T20:52:43Z",
+      "totalActivity": 15
+    },
+    {
+      "user": "Guest10149101",
+      "team": "Penguin",
+      "firstSeen": "2026-01-11T06:20:01Z",
+      "lastSeen": "2026-01-13T21:03:18Z",
+      "totalActivity": 65
+    },
+    {
+      "user": "Guest10149117",
+      "team": "Penguin",
+      "firstSeen": "2026-01-12T01:40:43Z",
+      "lastSeen": "2026-01-13T20:39:10Z",
+      "totalActivity": 41
+    },
+    {
+      "user": "Guest10149127",
+      "team": "Reindeer",
+      "firstSeen": "2026-01-13T01:08:19Z",
+      "lastSeen": "2026-01-13T18:59:15Z",
+      "totalActivity": 17
+    },
+    {
+      "user": "Guest10149093",
+      "team": "Penguin",
+      "firstSeen": "2026-01-10T22:33:47Z",
+      "lastSeen": "2026-01-13T01:08:19Z",
+      "totalActivity": 55
+    },
+    {
+      "user": "Guest10011053",
+      "team": "Penguin",
+      "firstSeen": "2026-01-10T04:03:40Z",
+      "lastSeen": "2026-01-10T22:11:55Z",
+      "totalActivity": 18
+    },
+    {
+      "user": "Guest10149070",
+      "team": "Penguin",
+      "firstSeen": "2026-01-10T03:13:30Z",
+      "lastSeen": "2026-01-10T04:03:40Z",
+      "totalActivity": 2
+    },
+    {
+      "user": "Guest10149036",
+      "team": "Reindeer",
+      "firstSeen": "2026-01-07T03:18:59Z",
+      "lastSeen": "2026-01-08T19:29:50Z",
+      "totalActivity": 30
+    },
+    {
+      "user": "Guest10149002",
+      "team": "Penguin",
+      "firstSeen": "2026-01-05T03:44:33Z",
+      "lastSeen": "2026-01-06T04:48:22Z",
+      "totalActivity": 16
+    },
+    {
+      "user": "Guest10148967",
+      "team": "Reindeer",
+      "firstSeen": "2026-01-04T18:57:36Z",
+      "lastSeen": "2026-01-04T23:46:06Z",
+      "totalActivity": 11
+    },
+    {
+      "user": "Guest10148943",
+      "team": "Penguin",
+      "firstSeen": "2026-01-02T20:19:32Z",
+      "lastSeen": "2026-01-03T04:08:06Z",
+      "totalActivity": 8
+    },
+    {
+      "user": "Guest10148917",
+      "team": "Penguin",
+      "firstSeen": "2025-12-31T11:16:58Z",
+      "lastSeen": "2025-12-31T23:17:43Z",
+      "totalActivity": 12
+    },
+    {
+      "user": "BoyInB1ack",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-30T23:16:46Z",
+      "totalActivity": 143
+    },
+    {
+      "user": "Guest10148912",
+      "team": "Penguin",
+      "firstSeen": "2025-12-30T04:37:05Z",
+      "lastSeen": "2025-12-30T23:16:46Z",
+      "totalActivity": 6
+    },
+    {
+      "user": "Guest10148901",
+      "team": "Penguin",
+      "firstSeen": "2025-12-29T03:46:29Z",
+      "lastSeen": "2025-12-29T19:14:29Z",
+      "totalActivity": 7
+    },
+    {
+      "user": "Guest10148894",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-28T04:42:06Z",
+      "lastSeen": "2025-12-28T16:21:31Z",
+      "totalActivity": 8
+    },
+    {
+      "user": "babymonkey",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "Rysnog",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "PixelDust",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "Square",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "BetterDays",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "hannahmontana",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "VMK_Gliss",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "Lissa",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "Cereal",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "HOST_Baloo",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "ObeyTheSun",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "AlecDaMan",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "Yurgle",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "LoopyOldLion",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "LargeMarge",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "katieeelynnn",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "SweetSinger",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "jammiesgummy",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "PuffyCyanPuppy",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "BouncyLittleChicken",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "BeefyPeaches",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "ShyLittleDust",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "Redboba",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "sassytink",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "moonbound",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "Inspire",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "LadyKarrah88",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "MadBubbleAngel",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "summerXhco",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "LavenderLemonDrop",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "BayyeBayye",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "Slurp",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "Gabby93",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "Whispered",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "barefoothanner",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "Hoppingkitten",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "bellaprincess",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "lafufu",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "Formulaone_Kobe",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "chujellysoup",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "Twit",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "Amadar",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "WanderingFreeEzra",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "ShyNewTurtle",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "AntPGN",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "TikiDaddy",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "princessn1996",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "Salud",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "MajesticLittleDuck",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "DarthNihilus",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "Guest10148795",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "Kiss",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "SnowElsa",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "Ripley",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "EllyPantz",
+      "team": "Penguin",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
+    },
+    {
+      "user": "Princess_Sav",
+      "team": "Reindeer",
+      "firstSeen": "2025-12-19T05:19:26Z",
+      "lastSeen": "2025-12-19T05:19:26Z",
+      "totalActivity": 1
     }
   ]
 }
