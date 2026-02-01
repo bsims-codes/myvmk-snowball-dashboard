@@ -226,9 +226,9 @@
   {
     "user": "HugsforaLifetime",
     "team": "Penguin",
-    "attacks": 204,
+    "attacks": 205,
     "hitsTaken": 422,
-    "ratio": 0.4834123222748815
+    "ratio": 0.48578199052132703
   },
   {
     "user": "FlameLegend",
@@ -1547,6 +1547,13 @@
     "ratio": 0.2727272727272727
   },
   {
+    "user": "bailzeb",
+    "team": "Reindeer",
+    "attacks": 3,
+    "hitsTaken": 8,
+    "ratio": 0.375
+  },
+  {
     "user": "Bernardo-S-Rocks",
     "team": "Penguin",
     "attacks": 2,
@@ -2643,13 +2650,6 @@
     "team": "Penguin",
     "attacks": 0,
     "hitsTaken": 195,
-    "ratio": 0
-  },
-  {
-    "user": "bailzeb",
-    "team": "Reindeer",
-    "attacks": 0,
-    "hitsTaken": 7,
     "ratio": 0
   },
   {
@@ -4407,6 +4407,13 @@
     "team": "Reindeer",
     "attacks": 0,
     "hitsTaken": 1,
+    "ratio": 0
+  },
+  {
+    "user": "Guest10149343",
+    "team": "Penguin",
+    "attacks": 0,
+    "hitsTaken": 3,
     "ratio": 0
   }
 ]
