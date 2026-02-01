@@ -1,5 +1,25 @@
 // MyVMK Snowball Dashboard - Frontend
 
+// Analytics helper - sends events to Google Analytics
+const analytics = {
+  _debounceTimers: {},
+
+  // Track an event immediately
+  track(eventName, params = {}) {
+    if (typeof gtag === 'function') {
+      gtag('event', eventName, params);
+    }
+  },
+
+  // Track an event with debounce (for search/filter inputs)
+  trackDebounced(eventName, params = {}, delay = 1000) {
+    clearTimeout(this._debounceTimers[eventName]);
+    this._debounceTimers[eventName] = setTimeout(() => {
+      this.track(eventName, params);
+    }, delay);
+  }
+};
+
 // Dark mode initialization (runs immediately)
 (function initTheme() {
   const saved = localStorage.getItem("theme");
@@ -15,9 +35,11 @@ function toggleDarkMode() {
   if (isDark) {
     html.removeAttribute("data-theme");
     localStorage.setItem("theme", "light");
+    analytics.track('theme_toggle', { theme: 'light' });
   } else {
     html.setAttribute("data-theme", "dark");
     localStorage.setItem("theme", "dark");
+    analytics.track('theme_toggle', { theme: 'dark' });
   }
   updateThemeToggleIcon();
 }
@@ -527,6 +549,7 @@ async function fetchLiveData() {
  * Refresh dashboard with live API data
  */
 async function refreshFromAPI() {
+  analytics.track('data_refresh');
   const refreshBtn = document.getElementById("refreshDataBtn");
   const refreshIcon = document.getElementById("refreshIcon");
 
@@ -1171,6 +1194,7 @@ async function switchDataMode(mode) {
 
   state.dataMode = mode;
   localStorage.setItem("dataMode", mode);
+  analytics.track('data_mode_switch', { mode: mode });
   updateDataModeUI();
   await loadAndRefreshData();
 }
@@ -2823,6 +2847,8 @@ function renderEventsTable() {
 
 function downloadEventsCSV() {
   const events = state.filteredEvents || state.allEvents;
+  analytics.track('csv_download', { event_count: events.length });
+
   const headers = ["Date/Time", "Attacker", "Attacker Team", "Victim", "Room"];
   const rows = events.map(e => [
     e.time,
@@ -2865,6 +2891,9 @@ function compareHeadToHead() {
     statsDiv.innerHTML = `<div style="grid-column:1/-1;color:var(--text-muted);">One or both users not found.</div>`;
     return;
   }
+
+  // Track H2H comparison
+  analytics.track('h2h_comparison', { user1: user1.user, user2: user2.user });
 
   // Count attacks between users
   let user1HitsOnUser2 = 0;
@@ -3187,6 +3216,11 @@ function setupEventListeners() {
     const isMulti = parsedNames.length > 1;
     state.searchNames = isMulti ? parsedNames : [];
 
+    // Track search (debounced)
+    if (raw.trim()) {
+      analytics.trackDebounced('user_search', { search_term: raw.trim(), user_count: parsedNames.length });
+    }
+
     if (isMulti) {
       const matches = state.allUsers.filter(u => state.searchNames.includes(u.user.toLowerCase()));
       state.selectedUsers = new Set(matches.map(m => m.user));
@@ -3214,6 +3248,10 @@ function setupEventListeners() {
   const filterInput = document.getElementById("filterExpr");
   filterInput.addEventListener("input", () => {
     state.filterExpr = filterInput.value || "";
+    // Track filter usage (debounced)
+    if (state.filterExpr.trim()) {
+      analytics.trackDebounced('filter_expression', { filter: state.filterExpr.trim() });
+    }
     applyFilterSort();
     buildUsersTable();
     updateSelectionUI();
@@ -3223,6 +3261,7 @@ function setupEventListeners() {
   const teamFilter = document.getElementById("teamFilter");
   teamFilter.addEventListener("change", () => {
     state.teamFilter = teamFilter.value;
+    analytics.track('team_filter', { team: state.teamFilter });
     applyFilterSort();
     buildUsersTable();
     updateSelectionUI();
@@ -3234,6 +3273,7 @@ function setupEventListeners() {
     const [key, dir] = sortSelect.value.split("-");
     state.sortKey = key;
     state.sortDir = dir;
+    analytics.track('sort_change', { sort_by: key, direction: dir });
     applyFilterSort();
     buildUsersTable();
     updateSelectionUI();
