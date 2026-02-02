@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-02-01T23:59:23.038Z",
-  "totalRows": 41246,
+  "generatedAt": "2026-02-02T02:09:01.292Z",
+  "totalRows": 41258,
   "totalUsers": 631,
   "teamStats": {
     "Penguin": {
       "users": 297,
-      "attacks": 23474,
+      "attacks": 23486,
       "hitsTaken": 17772
     },
     "Reindeer": {
       "users": 334,
       "attacks": 17772,
-      "hitsTaken": 23474
+      "hitsTaken": 23486
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 23474
+      "count": 23486
     },
     {
       "pair": "Reindeer → Penguin",
@@ -42,7 +42,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 2825,
+      "attacks": 2837,
       "team": "Penguin"
     },
     {
@@ -279,7 +279,7 @@
     },
     {
       "user": "neko.",
-      "hitsTaken": 309,
+      "hitsTaken": 320,
       "team": "Reindeer"
     }
   ],
@@ -301,9 +301,9 @@
     {
       "user": "TaterTotCasserole",
       "team": "Penguin",
-      "attacks": 2825,
+      "attacks": 2837,
       "hitsTaken": 728,
-      "ratio": 3.8804945054945055
+      "ratio": 3.896978021978022
     },
     {
       "user": "Winnie",
@@ -572,18 +572,18 @@
       "ratio": 0.026525198938992044
     },
     {
+      "user": "neko.",
+      "team": "Reindeer",
+      "attacks": 58,
+      "hitsTaken": 320,
+      "ratio": 0.18125
+    },
+    {
       "user": "Chime",
       "team": "Reindeer",
       "attacks": 231,
       "hitsTaken": 140,
       "ratio": 1.65
-    },
-    {
-      "user": "neko.",
-      "team": "Reindeer",
-      "attacks": 58,
-      "hitsTaken": 309,
-      "ratio": 0.18770226537216828
     },
     {
       "user": "tizzi",
@@ -985,18 +985,18 @@
       "ratio": 0.42105263157894735
     },
     {
+      "user": "tortdoggie",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 133,
+      "ratio": 0
+    },
+    {
       "user": "PrincessMichii",
       "team": "Reindeer",
       "attacks": 10,
       "hitsTaken": 122,
       "ratio": 0.08196721311475409
-    },
-    {
-      "user": "tortdoggie",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 132,
-      "ratio": 0
     },
     {
       "user": "alphablue",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.270753963614262,
-      "intercept": 59.67713006524121,
+      "slope": 0.270642753426368,
+      "intercept": 59.703807700297226,
       "xMin": 0,
       "xMax": 7418,
-      "y1": 59.67713006524121,
-      "y2": 2068.130032155837,
+      "y1": 59.703807700297226,
+      "y2": 2067.331752617095,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.25081596629082525,
-      "intercept": 51.142815822703255,
+      "slope": 0.25056083644433497,
+      "intercept": 51.15577963887495,
       "xMin": 0,
       "xMax": 7418,
-      "y1": 51.142815822703255,
-      "y2": 1911.6956537680448,
+      "y1": 51.15577963887495,
+      "y2": 1909.8160643829517,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.28338753324540716,
-      "intercept": 67.84890197862634,
+      "slope": 0.28338500951024453,
+      "intercept": 67.89351252223317,
       "xMin": 0,
       "xMax": 7418,
-      "y1": 67.84890197862634,
-      "y2": 2170.0176235930567,
+      "y1": 67.89351252223317,
+      "y2": 2170.043513069227,
       "label": "Reindeer"
     }
   },
@@ -3841,9 +3841,9 @@
     },
     {
       "roomName": "Jungle Cruise Dock",
-      "hitCount": 1162,
-      "avgUserRatio": 1.55,
-      "activeUsers": 86
+      "hitCount": 1173,
+      "avgUserRatio": 1.54,
+      "activeUsers": 87
     },
     {
       "roomName": "Fantasyland in The Sky",
@@ -3877,7 +3877,7 @@
     },
     {
       "roomName": "\"it's a small world\" Imports",
-      "hitCount": 682,
+      "hitCount": 683,
       "avgUserRatio": 2.81,
       "activeUsers": 80
     },
