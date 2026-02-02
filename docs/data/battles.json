@@ -21470,6 +21470,74 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-94",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-02-02T14:52:22.000Z",
+    "end": "2026-02-02T15:02:49.000Z",
+    "durationMinutes": 10,
+    "hitCount": 40,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 36
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 3
+      },
+      {
+        "user": "AmandaJeanne",
+        "team": "Penguin",
+        "attacks": 1
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 39
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "hitsTaken": 1
+      }
+    ],
+    "participants": [
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 39,
+        "ratio": 0
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 36,
+        "hitsTaken": 0,
+        "ratio": 36
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 3,
+        "hitsTaken": 1,
+        "ratio": 3
+      },
+      {
+        "user": "AmandaJeanne",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 0,
+        "ratio": 1
+      }
+    ]
+  },
+  {
     "id": "New Orleans Square-5",
     "roomName": "New Orleans Square",
     "start": "2026-01-25T22:01:55.000Z",
