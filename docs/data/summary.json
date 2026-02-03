@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-02-03T16:02:15.110Z",
-  "totalRows": 41359,
-  "totalUsers": 631,
+  "generatedAt": "2026-02-03T17:02:23.171Z",
+  "totalRows": 41363,
+  "totalUsers": 632,
   "teamStats": {
     "Penguin": {
-      "users": 297,
+      "users": 298,
       "attacks": 23528,
-      "hitsTaken": 17831
+      "hitsTaken": 17835
     },
     "Reindeer": {
       "users": 334,
-      "attacks": 17831,
+      "attacks": 17835,
       "hitsTaken": 23528
     },
     "Unknown": {
@@ -26,13 +26,13 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 17831
+      "count": 17835
     }
   ],
   "topAttackers": [
     {
       "user": "Kronkx",
-      "attacks": 7440,
+      "attacks": 7444,
       "team": "Reindeer"
     },
     {
@@ -287,9 +287,9 @@
     {
       "user": "Kronkx",
       "team": "Reindeer",
-      "attacks": 7440,
+      "attacks": 7444,
       "hitsTaken": 1770,
-      "ratio": 4.203389830508475
+      "ratio": 4.205649717514124
     },
     {
       "user": "JustForFun",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2709254131838313,
-      "intercept": 59.825759075565315,
+      "slope": 0.270828285674953,
+      "intercept": 59.83162586553924,
       "xMin": 0,
-      "xMax": 7440,
-      "y1": 59.825759075565315,
-      "y2": 2075.51083316327,
+      "xMax": 7444,
+      "y1": 59.83162586553924,
+      "y2": 2075.8773844298894,
       "label": "All"
     },
     "penguin": {
       "slope": 0.2498018571970542,
       "intercept": 51.43983264166132,
       "xMin": 0,
-      "xMax": 7440,
+      "xMax": 7444,
       "y1": 51.43983264166132,
-      "y2": 1909.9656501877446,
+      "y2": 1910.9648576165328,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.28420371061285715,
-      "intercept": 67.93308164253101,
+      "slope": 0.2840381831310966,
+      "intercept": 67.9398040008265,
       "xMin": 0,
-      "xMax": 7440,
-      "y1": 67.93308164253101,
-      "y2": 2182.4086886021882,
+      "xMax": 7444,
+      "y1": 67.9398040008265,
+      "y2": 2182.3200392287094,
       "label": "Reindeer"
     }
   },
@@ -3877,9 +3877,9 @@
     },
     {
       "roomName": "\"it's a small world\" Imports",
-      "hitCount": 684,
-      "avgUserRatio": 2.78,
-      "activeUsers": 81
+      "hitCount": 688,
+      "avgUserRatio": 2.75,
+      "activeUsers": 82
     },
     {
       "roomName": "Monorail Station",
