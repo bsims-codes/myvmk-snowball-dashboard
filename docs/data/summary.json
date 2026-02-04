@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-02-04T16:25:05.808Z",
-  "totalRows": 41369,
+  "generatedAt": "2026-02-04T17:11:40.151Z",
+  "totalRows": 41377,
   "totalUsers": 632,
   "teamStats": {
     "Penguin": {
       "users": 298,
-      "attacks": 23534,
-      "hitsTaken": 17835
+      "attacks": 23539,
+      "hitsTaken": 17838
     },
     "Reindeer": {
       "users": 334,
-      "attacks": 17835,
-      "hitsTaken": 23534
+      "attacks": 17838,
+      "hitsTaken": 23539
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 23534
+      "count": 23539
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 17835
+      "count": 17838
     }
   ],
   "topAttackers": [
@@ -47,7 +47,7 @@
     },
     {
       "user": "Winnie",
-      "attacks": 2598,
+      "attacks": 2599,
       "team": "Penguin"
     },
     {
@@ -87,7 +87,7 @@
     },
     {
       "user": "Mali",
-      "attacks": 742,
+      "attacks": 746,
       "team": "Penguin"
     },
     {
@@ -179,7 +179,7 @@
     },
     {
       "user": "MatthewC",
-      "hitsTaken": 1052,
+      "hitsTaken": 1054,
       "team": "Reindeer"
     },
     {
@@ -234,7 +234,7 @@
     },
     {
       "user": "Winnie",
-      "hitsTaken": 430,
+      "hitsTaken": 431,
       "team": "Penguin"
     },
     {
@@ -315,9 +315,9 @@
     {
       "user": "Winnie",
       "team": "Penguin",
-      "attacks": 2598,
-      "hitsTaken": 430,
-      "ratio": 6.0418604651162795
+      "attacks": 2599,
+      "hitsTaken": 431,
+      "ratio": 6.03016241299304
     },
     {
       "user": "CaptainBubbles",
@@ -371,16 +371,16 @@
     {
       "user": "Mali",
       "team": "Penguin",
-      "attacks": 742,
+      "attacks": 746,
       "hitsTaken": 409,
-      "ratio": 1.8141809290953546
+      "ratio": 1.823960880195599
     },
     {
       "user": "MatthewC",
       "team": "Reindeer",
       "attacks": 95,
-      "hitsTaken": 1052,
-      "ratio": 0.0903041825095057
+      "hitsTaken": 1054,
+      "ratio": 0.09013282732447818
     },
     {
       "user": "MagicMinnieMare",
@@ -498,8 +498,8 @@
       "user": "Meg",
       "team": "Penguin",
       "attacks": 280,
-      "hitsTaken": 268,
-      "ratio": 1.044776119402985
+      "hitsTaken": 270,
+      "ratio": 1.037037037037037
     },
     {
       "user": "Cloudyblue",
@@ -581,9 +581,9 @@
     {
       "user": "Chime",
       "team": "Reindeer",
-      "attacks": 231,
-      "hitsTaken": 140,
-      "ratio": 1.65
+      "attacks": 234,
+      "hitsTaken": 143,
+      "ratio": 1.6363636363636365
     },
     {
       "user": "tizzi",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2708289311537438,
-      "intercept": 59.84032252565077,
+      "slope": 0.2708519254647873,
+      "intercept": 59.850086575490714,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 59.84032252565077,
-      "y2": 2075.8908860341194,
+      "y1": 59.850086575490714,
+      "y2": 2076.0718197353676,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2498161130923585,
-      "intercept": 51.43185750743748,
+      "slope": 0.24987515696768584,
+      "intercept": 51.433427958485126,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 51.43185750743748,
-      "y2": 1911.063003366954,
+      "y1": 51.433427958485126,
+      "y2": 1911.5040964259383,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.284036413751827,
-      "intercept": 67.96214308727285,
+      "slope": 0.2840436349681886,
+      "intercept": 67.97702861743477,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 67.96214308727285,
-      "y2": 2182.329207055873,
+      "y1": 67.97702861743477,
+      "y2": 2182.3978473206307,
       "label": "Reindeer"
     }
   },
@@ -3901,9 +3901,9 @@
     },
     {
       "roomName": "Snow White Hide 'n Seek Forest",
-      "hitCount": 489,
-      "avgUserRatio": 1.99,
-      "activeUsers": 70
+      "hitCount": 497,
+      "avgUserRatio": 1.95,
+      "activeUsers": 72
     },
     {
       "roomName": "New Orleans Square",
