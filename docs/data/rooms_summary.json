@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 12899,
+    "hitCount": 12902,
     "avgUserRatio": 0.76,
     "activeUsers": 268
   },
@@ -108,6 +108,12 @@
     "activeUsers": 86
   },
   {
+    "roomName": "Pirate Treehouse",
+    "hitCount": 392,
+    "avgUserRatio": 1.39,
+    "activeUsers": 78
+  },
+  {
     "roomName": "Banquet Hall",
     "hitCount": 372,
     "avgUserRatio": 2.04,
@@ -124,12 +130,6 @@
     "hitCount": 344,
     "avgUserRatio": 1.99,
     "activeUsers": 41
-  },
-  {
-    "roomName": "Pirate Treehouse",
-    "hitCount": 335,
-    "avgUserRatio": 1.57,
-    "activeUsers": 68
   },
   {
     "roomName": "Tomorrowland Hub",

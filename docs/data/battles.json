@@ -18278,6 +18278,107 @@
     ]
   },
   {
+    "id": "Pirate Treehouse-4",
+    "roomName": "Pirate Treehouse",
+    "start": "2026-02-06T14:52:27.000Z",
+    "end": "2026-02-06T15:01:11.000Z",
+    "durationMinutes": 9,
+    "hitCount": 47,
+    "uniqueUsers": 8,
+    "topAttackers": [
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 30
+      },
+      {
+        "user": "alphablue",
+        "team": "Reindeer",
+        "attacks": 9
+      },
+      {
+        "user": "Bib",
+        "team": "Reindeer",
+        "attacks": 8
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "alphablue",
+        "team": "Reindeer",
+        "hitsTaken": 13
+      },
+      {
+        "user": "Bib",
+        "team": "Reindeer",
+        "hitsTaken": 12
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "hitsTaken": 10
+      }
+    ],
+    "participants": [
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 30,
+        "hitsTaken": 10,
+        "ratio": 3
+      },
+      {
+        "user": "alphablue",
+        "team": "Reindeer",
+        "attacks": 9,
+        "hitsTaken": 13,
+        "ratio": 0.6923076923076923
+      },
+      {
+        "user": "Bib",
+        "team": "Reindeer",
+        "attacks": 8,
+        "hitsTaken": 12,
+        "ratio": 0.6666666666666666
+      },
+      {
+        "user": "Josie",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 3,
+        "ratio": 0
+      },
+      {
+        "user": "22ghosts",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 3,
+        "ratio": 0
+      },
+      {
+        "user": "MatthewC",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 3,
+        "ratio": 0
+      },
+      {
+        "user": "HIPPY",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      },
+      {
+        "user": "Whitney",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-74",
     "roomName": "Captain's Quest Quarters",
     "start": "2026-01-22T00:57:14.000Z",
@@ -26123,6 +26224,55 @@
         "attacks": 14,
         "hitsTaken": 18,
         "ratio": 0.7777777777777778
+      }
+    ]
+  },
+  {
+    "id": "Captain's Quest Quarters-95",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-02-06T14:45:03.000Z",
+    "end": "2026-02-06T14:52:52.000Z",
+    "durationMinutes": 8,
+    "hitCount": 31,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 28
+      },
+      {
+        "user": "Wavves",
+        "team": "Penguin",
+        "attacks": 3
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Wavves",
+        "team": "Penguin",
+        "hitsTaken": 28
+      },
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "hitsTaken": 3
+      }
+    ],
+    "participants": [
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 28,
+        "hitsTaken": 3,
+        "ratio": 9.333333333333334
+      },
+      {
+        "user": "Wavves",
+        "team": "Penguin",
+        "attacks": 3,
+        "hitsTaken": 28,
+        "ratio": 0.10714285714285714
       }
     ]
   },
