@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-02-05T07:03:53.162Z",
+  "generatedAt": "2026-02-06T06:59:49.658Z",
   "resetCutoff": "2025-12-18T23:33:32.000Z",
-  "totalUsers": 1450,
+  "totalUsers": 1460,
   "fromParticipants": 682,
-  "fromRosterOnly": 768,
+  "fromRosterOnly": 778,
   "users": [
     {
       "user": "VMKNeec",
@@ -4392,6 +4392,12 @@
       "source": "roster"
     },
     {
+      "user": "Crazyaboutjack.",
+      "firstSeen": "2026-01-21T16:04:44-05:00",
+      "team": "Penguin",
+      "source": "roster"
+    },
+    {
       "user": "CrazyFlamingoLady",
       "firstSeen": "2026-01-21T16:04:44-05:00",
       "team": "Penguin",
@@ -4608,6 +4614,12 @@
       "source": "roster"
     },
     {
+      "user": "EverestSprings",
+      "firstSeen": "2026-01-21T16:04:44-05:00",
+      "team": "Penguin",
+      "source": "roster"
+    },
+    {
       "user": "Exagie",
       "firstSeen": "2026-01-21T16:04:44-05:00",
       "team": "Penguin",
@@ -4741,6 +4753,12 @@
     },
     {
       "user": "gamestar101",
+      "firstSeen": "2026-01-21T16:04:44-05:00",
+      "team": "Penguin",
+      "source": "roster"
+    },
+    {
+      "user": "Garfieldboy",
       "firstSeen": "2026-01-21T16:04:44-05:00",
       "team": "Penguin",
       "source": "roster"
@@ -4915,6 +4933,18 @@
     },
     {
       "user": "Guest10149382",
+      "firstSeen": "2026-01-21T16:04:44-05:00",
+      "team": "Penguin",
+      "source": "roster"
+    },
+    {
+      "user": "Guest10149414",
+      "firstSeen": "2026-01-21T16:04:44-05:00",
+      "team": "Penguin",
+      "source": "roster"
+    },
+    {
+      "user": "Guest10149422",
       "firstSeen": "2026-01-21T16:04:44-05:00",
       "team": "Penguin",
       "source": "roster"
@@ -5340,6 +5370,12 @@
       "source": "roster"
     },
     {
+      "user": "LionJonathan",
+      "firstSeen": "2026-01-21T16:04:44-05:00",
+      "team": "Penguin",
+      "source": "roster"
+    },
+    {
       "user": "LittleJ",
       "firstSeen": "2026-01-21T16:04:44-05:00",
       "team": "Penguin",
@@ -5611,6 +5647,12 @@
     },
     {
       "user": "Mordavia",
+      "firstSeen": "2026-01-21T16:04:44-05:00",
+      "team": "Penguin",
+      "source": "roster"
+    },
+    {
+      "user": "mysticalzen",
       "firstSeen": "2026-01-21T16:04:44-05:00",
       "team": "Penguin",
       "source": "roster"
@@ -6096,6 +6138,12 @@
       "source": "roster"
     },
     {
+      "user": "Severend",
+      "firstSeen": "2026-01-21T16:04:44-05:00",
+      "team": "Penguin",
+      "source": "roster"
+    },
+    {
       "user": "shaiyaei",
       "firstSeen": "2026-01-21T16:04:44-05:00",
       "team": "Penguin",
@@ -6169,6 +6217,12 @@
     },
     {
       "user": "Skuully",
+      "firstSeen": "2026-01-21T16:04:44-05:00",
+      "team": "Penguin",
+      "source": "roster"
+    },
+    {
+      "user": "Sleepy-Princess",
       "firstSeen": "2026-01-21T16:04:44-05:00",
       "team": "Penguin",
       "source": "roster"
@@ -7242,12 +7296,6 @@
       "source": "roster"
     },
     {
-      "user": "Guest10149394",
-      "firstSeen": "2026-01-21T16:04:44-05:00",
-      "team": "Reindeer",
-      "source": "roster"
-    },
-    {
       "user": "Guitar",
       "firstSeen": "2026-01-21T16:04:44-05:00",
       "team": "Reindeer",
@@ -7477,6 +7525,12 @@
     },
     {
       "user": "Ktally",
+      "firstSeen": "2026-01-21T16:04:44-05:00",
+      "team": "Reindeer",
+      "source": "roster"
+    },
+    {
+      "user": "Kurtj",
       "firstSeen": "2026-01-21T16:04:44-05:00",
       "team": "Reindeer",
       "source": "roster"
@@ -7831,6 +7885,12 @@
     },
     {
       "user": "PirateGirl",
+      "firstSeen": "2026-01-21T16:04:44-05:00",
+      "team": "Reindeer",
+      "source": "roster"
+    },
+    {
+      "user": "Pixiefairydust",
       "firstSeen": "2026-01-21T16:04:44-05:00",
       "team": "Reindeer",
       "source": "roster"
@@ -8700,13 +8760,20 @@
       "source": "participants"
     },
     {
-      "user": "Guest10149399",
-      "firstSeen": "2026-02-05T00:56:11Z",
+      "user": "justsomedude",
+      "firstSeen": "2026-02-05T09:10:21Z",
       "team": "Reindeer",
       "source": "participants"
     }
   ],
   "missingFromRoster": [
+    {
+      "user": "Guest10149399",
+      "team": "Reindeer",
+      "firstSeen": "2026-02-05T00:56:11Z",
+      "lastSeen": "2026-02-05T00:56:11Z",
+      "totalActivity": 1
+    },
     {
       "user": "Guest10149343",
       "team": "Penguin",
