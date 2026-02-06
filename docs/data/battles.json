@@ -14178,6 +14178,177 @@
     ]
   },
   {
+    "id": "Pirate Treehouse-5",
+    "roomName": "Pirate Treehouse",
+    "start": "2026-02-06T15:40:12.000Z",
+    "end": "2026-02-06T15:45:05.000Z",
+    "durationMinutes": 5,
+    "hitCount": 64,
+    "uniqueUsers": 18,
+    "topAttackers": [
+      {
+        "user": "Bib",
+        "team": "Reindeer",
+        "attacks": 34
+      },
+      {
+        "user": "alphablue",
+        "team": "Reindeer",
+        "attacks": 18
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 7
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "PineappleHunter",
+        "team": "Penguin",
+        "hitsTaken": 31
+      },
+      {
+        "user": "eeriee",
+        "team": "Penguin",
+        "hitsTaken": 8
+      },
+      {
+        "user": "alphablue",
+        "team": "Reindeer",
+        "hitsTaken": 4
+      }
+    ],
+    "participants": [
+      {
+        "user": "Bib",
+        "team": "Reindeer",
+        "attacks": 34,
+        "hitsTaken": 0,
+        "ratio": 34
+      },
+      {
+        "user": "PineappleHunter",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 31,
+        "ratio": 0
+      },
+      {
+        "user": "alphablue",
+        "team": "Reindeer",
+        "attacks": 18,
+        "hitsTaken": 4,
+        "ratio": 4.5
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 7,
+        "hitsTaken": 4,
+        "ratio": 1.75
+      },
+      {
+        "user": "eeriee",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 8,
+        "ratio": 0
+      },
+      {
+        "user": "Myth",
+        "team": "Reindeer",
+        "attacks": 3,
+        "hitsTaken": 3,
+        "ratio": 1
+      },
+      {
+        "user": "kazino",
+        "team": "Penguin",
+        "attacks": 2,
+        "hitsTaken": 1,
+        "ratio": 2
+      },
+      {
+        "user": "Josie",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      },
+      {
+        "user": "Kiddcv",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      },
+      {
+        "user": "PeachySQ",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "PrinceGeminii",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "BrittLaur",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "ivan",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "Ebeth",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "PrincessXxJess",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "OGBlondie_",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "22ghosts",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "CandyCars",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Matterhorn-13",
     "roomName": "Matterhorn",
     "start": "2026-01-06T21:03:15.000Z",
