@@ -23,9 +23,9 @@
   {
     "user": "Winnie",
     "team": "Penguin",
-    "attacks": 2599,
+    "attacks": 2601,
     "hitsTaken": 431,
-    "ratio": 6.03016241299304
+    "ratio": 6.034802784222737
   },
   {
     "user": "SammyxxFairy",
@@ -77,6 +77,13 @@
     "ratio": 2.5052410901467503
   },
   {
+    "user": "protozoa",
+    "team": "Reindeer",
+    "attacks": 748,
+    "hitsTaken": 305,
+    "ratio": 2.4524590163934428
+  },
+  {
     "user": "Mali",
     "team": "Penguin",
     "attacks": 746,
@@ -96,13 +103,6 @@
     "attacks": 724,
     "hitsTaken": 286,
     "ratio": 2.5314685314685317
-  },
-  {
-    "user": "protozoa",
-    "team": "Reindeer",
-    "attacks": 708,
-    "hitsTaken": 302,
-    "ratio": 2.3443708609271523
   },
   {
     "user": "VMKNeec",
@@ -654,8 +654,8 @@
     "user": "alphablue",
     "team": "Reindeer",
     "attacks": 33,
-    "hitsTaken": 98,
-    "ratio": 0.336734693877551
+    "hitsTaken": 100,
+    "ratio": 0.33
   },
   {
     "user": "Ormonddude",
@@ -1559,6 +1559,13 @@
     "attacks": 3,
     "hitsTaken": 11,
     "ratio": 0.2727272727272727
+  },
+  {
+    "user": "Wavves",
+    "team": "Penguin",
+    "attacks": 3,
+    "hitsTaken": 48,
+    "ratio": 0.0625
   },
   {
     "user": "Bernardo-S-Rocks",
@@ -4239,13 +4246,6 @@
     "team": "Reindeer",
     "attacks": 0,
     "hitsTaken": 3,
-    "ratio": 0
-  },
-  {
-    "user": "Wavves",
-    "team": "Penguin",
-    "attacks": 0,
-    "hitsTaken": 8,
     "ratio": 0
   },
   {

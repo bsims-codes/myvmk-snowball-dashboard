@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-02-06T19:25:06.795Z",
-  "totalRows": 41385,
+  "generatedAt": "2026-02-06T19:52:39.938Z",
+  "totalRows": 41430,
   "totalUsers": 634,
   "teamStats": {
     "Penguin": {
       "users": 299,
-      "attacks": 23544,
-      "hitsTaken": 17841
+      "attacks": 23549,
+      "hitsTaken": 17881
     },
     "Reindeer": {
       "users": 335,
-      "attacks": 17841,
-      "hitsTaken": 23544
+      "attacks": 17881,
+      "hitsTaken": 23549
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 23544
+      "count": 23549
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 17841
+      "count": 17881
     }
   ],
   "topAttackers": [
@@ -47,7 +47,7 @@
     },
     {
       "user": "Winnie",
-      "attacks": 2599,
+      "attacks": 2601,
       "team": "Penguin"
     },
     {
@@ -86,6 +86,11 @@
       "team": "Penguin"
     },
     {
+      "user": "protozoa",
+      "attacks": 748,
+      "team": "Reindeer"
+    },
+    {
       "user": "Mali",
       "attacks": 746,
       "team": "Penguin"
@@ -99,11 +104,6 @@
       "user": "mikgriz",
       "attacks": 724,
       "team": "Penguin"
-    },
-    {
-      "user": "protozoa",
-      "attacks": 708,
-      "team": "Reindeer"
     },
     {
       "user": "VMKNeec",
@@ -315,9 +315,9 @@
     {
       "user": "Winnie",
       "team": "Penguin",
-      "attacks": 2599,
+      "attacks": 2601,
       "hitsTaken": 431,
-      "ratio": 6.03016241299304
+      "ratio": 6.034802784222737
     },
     {
       "user": "CaptainBubbles",
@@ -392,9 +392,9 @@
     {
       "user": "protozoa",
       "team": "Reindeer",
-      "attacks": 708,
-      "hitsTaken": 302,
-      "ratio": 2.3443708609271523
+      "attacks": 748,
+      "hitsTaken": 305,
+      "ratio": 2.4524590163934428
     },
     {
       "user": "mikgriz",
@@ -1002,8 +1002,8 @@
       "user": "alphablue",
       "team": "Reindeer",
       "attacks": 33,
-      "hitsTaken": 98,
-      "ratio": 0.336734693877551
+      "hitsTaken": 100,
+      "ratio": 0.33
     },
     {
       "user": "IcyWifeyQueen",
@@ -1606,6 +1606,13 @@
       "attacks": 3,
       "hitsTaken": 50,
       "ratio": 0.06
+    },
+    {
+      "user": "Wavves",
+      "team": "Penguin",
+      "attacks": 3,
+      "hitsTaken": 48,
+      "ratio": 0.0625
     },
     {
       "user": "Aerzie",
@@ -3281,13 +3288,6 @@
       "ratio": 0
     },
     {
-      "user": "Wavves",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 8,
-      "ratio": 0
-    },
-    {
       "user": "BRlTT",
       "team": "Reindeer",
       "attacks": 3,
@@ -3787,37 +3787,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2708136536878384,
-      "intercept": 59.856920393487115,
+      "slope": 0.2707228777278069,
+      "intercept": 59.93006813449574,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 59.856920393487115,
-      "y2": 2075.793758445756,
+      "y1": 59.93006813449574,
+      "y2": 2075.1911699402904,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.24978654336784356,
-      "intercept": 51.44576172188794,
+      "slope": 0.24961522710733164,
+      "intercept": 51.631783683928965,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 51.44576172188794,
-      "y2": 1910.8567905521154,
+      "y1": 51.631783683928965,
+      "y2": 1909.7675342709056,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2840411857618414,
-      "intercept": 67.98144180442412,
+      "slope": 0.28396785693552595,
+      "intercept": 67.96273587351752,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 67.98144180442412,
-      "y2": 2182.384028615572,
+      "y1": 67.96273587351752,
+      "y2": 2181.8194629015725,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 12856,
+      "hitCount": 12899,
       "avgUserRatio": 0.76,
       "activeUsers": 268
     },
@@ -3943,8 +3943,8 @@
     },
     {
       "roomName": "Pirate Treehouse",
-      "hitCount": 333,
-      "avgUserRatio": 1.54,
+      "hitCount": 335,
+      "avgUserRatio": 1.57,
       "activeUsers": 68
     },
     {
