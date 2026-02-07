@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-02-07T18:24:41.957Z",
-  "totalRows": 41850,
-  "totalUsers": 639,
+  "generatedAt": "2026-02-07T18:56:50.636Z",
+  "totalRows": 41893,
+  "totalUsers": 640,
   "teamStats": {
     "Penguin": {
       "users": 303,
-      "attacks": 23798,
+      "attacks": 23841,
       "hitsTaken": 18052
     },
     "Reindeer": {
-      "users": 336,
+      "users": 337,
       "attacks": 18052,
-      "hitsTaken": 23798
+      "hitsTaken": 23841
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 23798
+      "count": 23841
     },
     {
       "pair": "Reindeer → Penguin",
@@ -147,7 +147,7 @@
     },
     {
       "user": "PrincessCutezada",
-      "attacks": 320,
+      "attacks": 363,
       "team": "Penguin"
     },
     {
@@ -460,6 +460,13 @@
       "ratio": 2.797752808988764
     },
     {
+      "user": "PrincessCutezada",
+      "team": "Penguin",
+      "attacks": 363,
+      "hitsTaken": 297,
+      "ratio": 1.2222222222222223
+    },
+    {
       "user": "Lilasaurus",
       "team": "Penguin",
       "attacks": 453,
@@ -472,13 +479,6 @@
       "attacks": 206,
       "hitsTaken": 423,
       "ratio": 0.48699763593380613
-    },
-    {
-      "user": "PrincessCutezada",
-      "team": "Penguin",
-      "attacks": 320,
-      "hitsTaken": 297,
-      "ratio": 1.0774410774410774
     },
     {
       "user": "bunny",
@@ -1811,6 +1811,13 @@
       "ratio": 0.25806451612903225
     },
     {
+      "user": "Guest10149436",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 39,
+      "ratio": 0
+    },
+    {
       "user": "MoonlightDream",
       "team": "Reindeer",
       "attacks": 6,
@@ -2231,6 +2238,13 @@
       "ratio": 0
     },
     {
+      "user": "AppleLimitless",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 25,
+      "ratio": 0
+    },
+    {
       "user": "disruler",
       "team": "Penguin",
       "attacks": 0,
@@ -2414,13 +2428,6 @@
     },
     {
       "user": "MiLadyMoon",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 21,
-      "ratio": 0
-    },
-    {
-      "user": "AppleLimitless",
       "team": "Reindeer",
       "attacks": 0,
       "hitsTaken": 21,
@@ -3776,41 +3783,34 @@
       "attacks": 0,
       "hitsTaken": 4,
       "ratio": 0
-    },
-    {
-      "user": "NobodysHere",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 4,
-      "ratio": 0
     }
   ],
   "regression": {
     "overall": {
-      "slope": 0.2714246256846563,
-      "intercept": 60.46247307645112,
+      "slope": 0.2714236900235098,
+      "intercept": 60.51720894459044,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 60.46247307645112,
-      "y2": 2080.9473866730327,
+      "y1": 60.51720894459044,
+      "y2": 2080.9951574795973,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2516409010758569,
-      "intercept": 51.86175982130428,
+      "slope": 0.25176249885646446,
+      "intercept": 51.80211109678087,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 51.86175982130428,
-      "y2": 1925.076627429983,
+      "y1": 51.80211109678087,
+      "y2": 1925.9221525843022,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2843395106996796,
-      "intercept": 68.66915493285475,
+      "slope": 0.2842965771064573,
+      "intercept": 68.81646956751277,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 68.66915493285475,
-      "y2": 2185.29247258127,
+      "y1": 68.81646956751277,
+      "y2": 2185.1201895479808,
       "label": "Reindeer"
     }
   },
@@ -3823,9 +3823,9 @@
     },
     {
       "roomName": "Matterhorn",
-      "hitCount": 5815,
+      "hitCount": 5829,
       "avgUserRatio": 0.89,
-      "activeUsers": 308
+      "activeUsers": 310
     },
     {
       "roomName": "Town Square",
@@ -3901,9 +3901,9 @@
     },
     {
       "roomName": "Snow White Hide 'n Seek Forest",
-      "hitCount": 498,
-      "avgUserRatio": 1.91,
-      "activeUsers": 74
+      "hitCount": 520,
+      "avgUserRatio": 2.15,
+      "activeUsers": 76
     },
     {
       "roomName": "New Orleans Square",

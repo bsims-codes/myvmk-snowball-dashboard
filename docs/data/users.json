@@ -163,9 +163,9 @@
   {
     "user": "PrincessCutezada",
     "team": "Penguin",
-    "attacks": 320,
+    "attacks": 363,
     "hitsTaken": 297,
-    "ratio": 1.0774410774410774
+    "ratio": 1.2222222222222223
   },
   {
     "user": "PuffyOldDragon",
@@ -2586,7 +2586,7 @@
     "user": "AppleLimitless",
     "team": "Reindeer",
     "attacks": 0,
-    "hitsTaken": 21,
+    "hitsTaken": 25,
     "ratio": 0
   },
   {
@@ -4470,6 +4470,13 @@
     "team": "Reindeer",
     "attacks": 0,
     "hitsTaken": 1,
+    "ratio": 0
+  },
+  {
+    "user": "Guest10149436",
+    "team": "Reindeer",
+    "attacks": 0,
+    "hitsTaken": 39,
     "ratio": 0
   }
 ]
