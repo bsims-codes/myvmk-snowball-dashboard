@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-02-07T20:47:27.757Z",
-  "totalRows": 41953,
+  "generatedAt": "2026-02-07T21:02:36.058Z",
+  "totalRows": 41969,
   "totalUsers": 642,
   "teamStats": {
     "Penguin": {
       "users": 303,
-      "attacks": 23894,
+      "attacks": 23910,
       "hitsTaken": 18059
     },
     "Reindeer": {
       "users": 339,
       "attacks": 18059,
-      "hitsTaken": 23894
+      "hitsTaken": 23910
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 23894
+      "count": 23910
     },
     {
       "pair": "Reindeer → Penguin",
@@ -47,7 +47,7 @@
     },
     {
       "user": "Winnie",
-      "attacks": 2683,
+      "attacks": 2699,
       "team": "Penguin"
     },
     {
@@ -243,14 +243,14 @@
       "team": "Penguin"
     },
     {
+      "user": "wildgirlpony",
+      "hitsTaken": 414,
+      "team": "Reindeer"
+    },
+    {
       "user": "Mali",
       "hitsTaken": 409,
       "team": "Penguin"
-    },
-    {
-      "user": "wildgirlpony",
-      "hitsTaken": 405,
-      "team": "Reindeer"
     },
     {
       "user": "Tarabellah",
@@ -308,9 +308,9 @@
     {
       "user": "Winnie",
       "team": "Penguin",
-      "attacks": 2683,
+      "attacks": 2699,
       "hitsTaken": 457,
-      "ratio": 5.8708971553610505
+      "ratio": 5.905908096280087
     },
     {
       "user": "SammyxxFairy",
@@ -544,18 +544,18 @@
       "ratio": 1.6748466257668713
     },
     {
+      "user": "wildgirlpony",
+      "team": "Reindeer",
+      "attacks": 10,
+      "hitsTaken": 414,
+      "ratio": 0.024154589371980676
+    },
+    {
       "user": "mikey29",
       "team": "Penguin",
       "attacks": 50,
       "hitsTaken": 370,
       "ratio": 0.13513513513513514
-    },
-    {
-      "user": "wildgirlpony",
-      "team": "Reindeer",
-      "attacks": 10,
-      "hitsTaken": 405,
-      "ratio": 0.024691358024691357
     },
     {
       "user": "FlameLegend",
@@ -876,8 +876,8 @@
       "user": "PrincessMichii",
       "team": "Reindeer",
       "attacks": 17,
-      "hitsTaken": 153,
-      "ratio": 0.1111111111111111
+      "hitsTaken": 154,
+      "ratio": 0.11038961038961038
     },
     {
       "user": "SleepToken",
@@ -1041,6 +1041,13 @@
       "ratio": 0.007874015748031496
     },
     {
+      "user": "TrinaBoBina",
+      "team": "Reindeer",
+      "attacks": 93,
+      "hitsTaken": 34,
+      "ratio": 2.735294117647059
+    },
+    {
       "user": "CutieGoldenLady",
       "team": "Reindeer",
       "attacks": 42,
@@ -1062,25 +1069,18 @@
       "ratio": 0.30526315789473685
     },
     {
+      "user": "KristiDB",
+      "team": "Reindeer",
+      "attacks": 21,
+      "hitsTaken": 102,
+      "ratio": 0.20588235294117646
+    },
+    {
       "user": "airham",
       "team": "Reindeer",
       "attacks": 79,
       "hitsTaken": 44,
       "ratio": 1.7954545454545454
-    },
-    {
-      "user": "KristiDB",
-      "team": "Reindeer",
-      "attacks": 21,
-      "hitsTaken": 101,
-      "ratio": 0.2079207920792079
-    },
-    {
-      "user": "TrinaBoBina",
-      "team": "Reindeer",
-      "attacks": 93,
-      "hitsTaken": 29,
-      "ratio": 3.206896551724138
     },
     {
       "user": "SleveMcDichael",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.27112795322393574,
-      "intercept": 60.621449236324686,
+      "slope": 0.2709473105942922,
+      "intercept": 60.659934116442244,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 60.621449236324686,
-      "y2": 2078.8979330353022,
+      "y1": 60.659934116442244,
+      "y2": 2077.5917141803534,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2511251539472157,
-      "intercept": 51.84073455237857,
+      "slope": 0.25070892745100193,
+      "intercept": 51.866529006212595,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 51.84073455237857,
-      "y2": 1921.2163805354521,
+      "y1": 51.866529006212595,
+      "y2": 1918.143784951471,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2842750482028737,
-      "intercept": 68.99202020222485,
+      "slope": 0.2842671925302997,
+      "intercept": 69.05180483140882,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 68.99202020222485,
-      "y2": 2185.135479024417,
+      "y1": 69.05180483140882,
+      "y2": 2185.1367860269597,
       "label": "Reindeer"
     }
   },
@@ -3924,15 +3924,15 @@
       "activeUsers": 89
     },
     {
+      "roomName": "Forbidden Temple",
+      "hitCount": 411,
+      "avgUserRatio": 0.7,
+      "activeUsers": 88
+    },
+    {
       "roomName": "Street Party Music Game Lobby",
       "hitCount": 405,
       "avgUserRatio": 1.13,
-      "activeUsers": 86
-    },
-    {
-      "roomName": "Forbidden Temple",
-      "hitCount": 395,
-      "avgUserRatio": 0.7,
       "activeUsers": 86
     },
     {
