@@ -73,9 +73,9 @@
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 560,
+    "hitCount": 561,
     "avgUserRatio": 1.46,
-    "activeUsers": 106
+    "activeUsers": 107
   },
   {
     "roomName": "Autopia Quest Track",
@@ -118,6 +118,12 @@
     "hitCount": 372,
     "avgUserRatio": 2.04,
     "activeUsers": 49
+  },
+  {
+    "roomName": "Forbidden Temple",
+    "hitCount": 366,
+    "avgUserRatio": 0.75,
+    "activeUsers": 76
   },
   {
     "roomName": "Frontierland Hub",
@@ -205,15 +211,9 @@
   },
   {
     "roomName": "Autopia Off Road on Mars",
-    "hitCount": 126,
-    "avgUserRatio": 0.91,
-    "activeUsers": 33
-  },
-  {
-    "roomName": "Forbidden Temple",
-    "hitCount": 119,
-    "avgUserRatio": 1.34,
-    "activeUsers": 38
+    "hitCount": 130,
+    "avgUserRatio": 0.96,
+    "activeUsers": 34
   },
   {
     "roomName": "WS - Mexico",
