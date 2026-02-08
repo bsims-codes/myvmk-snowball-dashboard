@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-02-08T19:03:56.112Z",
-  "totalRows": 42159,
-  "totalUsers": 643,
+  "generatedAt": "2026-02-08T19:33:24.694Z",
+  "totalRows": 42160,
+  "totalUsers": 644,
   "teamStats": {
     "Penguin": {
       "users": 303,
       "attacks": 24030,
-      "hitsTaken": 18129
+      "hitsTaken": 18130
     },
     "Reindeer": {
-      "users": 340,
-      "attacks": 18129,
+      "users": 341,
+      "attacks": 18130,
       "hitsTaken": 24030
     },
     "Unknown": {
@@ -26,7 +26,7 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 18129
+      "count": 18130
     }
   ],
   "topAttackers": [
@@ -209,7 +209,7 @@
     },
     {
       "user": "goatduck",
-      "hitsTaken": 661,
+      "hitsTaken": 662,
       "team": "Penguin"
     },
     {
@@ -337,8 +337,8 @@
       "user": "goatduck",
       "team": "Penguin",
       "attacks": 1278,
-      "hitsTaken": 661,
-      "ratio": 1.9334341906202723
+      "hitsTaken": 662,
+      "ratio": 1.9305135951661632
     },
     {
       "user": "Pepa",
@@ -3787,21 +3787,21 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2699634355341463,
-      "intercept": 61.00392267698719,
+      "slope": 0.2699757524854806,
+      "intercept": 61.00488425945411,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 61.00392267698719,
-      "y2": 2070.6117367931724,
+      "y1": 61.00488425945411,
+      "y2": 2070.7043857613717,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.24884202464956873,
-      "intercept": 52.013301617942915,
+      "slope": 0.24887460584429597,
+      "intercept": 52.01424175488789,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 52.013301617942915,
-      "y2": 1904.3933331093326,
+      "y1": 52.01424175488789,
+      "y2": 1904.6368076598271,
       "label": "Penguin"
     },
     "reindeer": {
@@ -3817,9 +3817,9 @@
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 12953,
+      "hitCount": 12954,
       "avgUserRatio": 0.76,
-      "activeUsers": 268
+      "activeUsers": 269
     },
     {
       "roomName": "Matterhorn",
