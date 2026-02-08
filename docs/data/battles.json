@@ -17661,6 +17661,121 @@
     ]
   },
   {
+    "id": "Shrunken Ned's Shop-7",
+    "roomName": "Shrunken Ned's Shop",
+    "start": "2026-02-08T16:00:25.000Z",
+    "end": "2026-02-08T16:09:31.000Z",
+    "durationMinutes": 9,
+    "hitCount": 51,
+    "uniqueUsers": 10,
+    "topAttackers": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 27
+      },
+      {
+        "user": "EVOL",
+        "team": "Reindeer",
+        "attacks": 19
+      },
+      {
+        "user": "BluPirate",
+        "team": "Penguin",
+        "attacks": 5
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "bellemeansbeauty",
+        "team": "Penguin",
+        "hitsTaken": 32
+      },
+      {
+        "user": "Clarinet1230",
+        "team": "Penguin",
+        "hitsTaken": 5
+      },
+      {
+        "user": "Mali",
+        "team": "Penguin",
+        "hitsTaken": 4
+      }
+    ],
+    "participants": [
+      {
+        "user": "bellemeansbeauty",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 32,
+        "ratio": 0
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 27,
+        "hitsTaken": 0,
+        "ratio": 27
+      },
+      {
+        "user": "EVOL",
+        "team": "Reindeer",
+        "attacks": 19,
+        "hitsTaken": 1,
+        "ratio": 19
+      },
+      {
+        "user": "BluPirate",
+        "team": "Penguin",
+        "attacks": 5,
+        "hitsTaken": 1,
+        "ratio": 5
+      },
+      {
+        "user": "Clarinet1230",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 5,
+        "ratio": 0
+      },
+      {
+        "user": "Mali",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 4,
+        "ratio": 0
+      },
+      {
+        "user": "TomatoVine",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 4,
+        "ratio": 0
+      },
+      {
+        "user": "CaitlinNoel",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      },
+      {
+        "user": "Kronkx",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "waterfallglow",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Shrunken Ned's Shop-5",
     "roomName": "Shrunken Ned's Shop",
     "start": "2026-02-08T15:36:57.000Z",

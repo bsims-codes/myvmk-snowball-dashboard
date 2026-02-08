@@ -30,9 +30,9 @@
   {
     "user": "SammyxxFairy",
     "team": "Reindeer",
-    "attacks": 1667,
+    "attacks": 1687,
     "hitsTaken": 1444,
-    "ratio": 1.1544321329639888
+    "ratio": 1.1682825484764543
   },
   {
     "user": "CaptainBubbles",
@@ -364,18 +364,18 @@
     "ratio": 0.5977011494252874
   },
   {
+    "user": "Bib",
+    "team": "Reindeer",
+    "attacks": 99,
+    "hitsTaken": 74,
+    "ratio": 1.337837837837838
+  },
+  {
     "user": "MrChemistry",
     "team": "Penguin",
     "attacks": 99,
     "hitsTaken": 38,
     "ratio": 2.6052631578947367
-  },
-  {
-    "user": "Bib",
-    "team": "Reindeer",
-    "attacks": 98,
-    "hitsTaken": 73,
-    "ratio": 1.3424657534246576
   },
   {
     "user": "IcyWifeyQueen",
@@ -777,6 +777,13 @@
     "ratio": 0.5
   },
   {
+    "user": "EVOL",
+    "team": "Reindeer",
+    "attacks": 23,
+    "hitsTaken": 18,
+    "ratio": 1.2777777777777777
+  },
+  {
     "user": "aceair",
     "team": "Reindeer",
     "attacks": 22,
@@ -822,8 +829,8 @@
     "user": "Kate.",
     "team": "Penguin",
     "attacks": 19,
-    "hitsTaken": 660,
-    "ratio": 0.02878787878787879
+    "hitsTaken": 661,
+    "ratio": 0.028744326777609682
   },
   {
     "user": "FlyingLittleLemon",
@@ -889,6 +896,13 @@
     "ratio": 2.4285714285714284
   },
   {
+    "user": "Leahcim",
+    "team": "Penguin",
+    "attacks": 17,
+    "hitsTaken": 7,
+    "ratio": 2.4285714285714284
+  },
+  {
     "user": "Famous_Vixon",
     "team": "Penguin",
     "attacks": 17,
@@ -915,13 +929,6 @@
     "attacks": 16,
     "hitsTaken": 79,
     "ratio": 0.20253164556962025
-  },
-  {
-    "user": "Leahcim",
-    "team": "Penguin",
-    "attacks": 16,
-    "hitsTaken": 7,
-    "ratio": 2.2857142857142856
   },
   {
     "user": "goodcrystal",
@@ -1421,13 +1428,6 @@
     "ratio": 0.5714285714285714
   },
   {
-    "user": "EVOL",
-    "team": "Reindeer",
-    "attacks": 4,
-    "hitsTaken": 18,
-    "ratio": 0.2222222222222222
-  },
-  {
     "user": "flamesmolderton",
     "team": "Penguin",
     "attacks": 3,
@@ -1578,8 +1578,8 @@
     "user": "Clarinet1230",
     "team": "Penguin",
     "attacks": 3,
-    "hitsTaken": 151,
-    "ratio": 0.019867549668874173
+    "hitsTaken": 156,
+    "ratio": 0.019230769230769232
   },
   {
     "user": "TheWatcher",
@@ -3797,7 +3797,7 @@
     "user": "bellemeansbeauty",
     "team": "Penguin",
     "attacks": 0,
-    "hitsTaken": 12,
+    "hitsTaken": 44,
     "ratio": 0
   },
   {
@@ -4511,7 +4511,7 @@
     "user": "TomatoVine",
     "team": "Penguin",
     "attacks": 0,
-    "hitsTaken": 2,
+    "hitsTaken": 4,
     "ratio": 0
   }
 ]
