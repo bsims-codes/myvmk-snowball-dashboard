@@ -15861,6 +15861,100 @@
     ]
   },
   {
+    "id": "Shrunken Ned's Shop-6",
+    "roomName": "Shrunken Ned's Shop",
+    "start": "2026-02-08T15:50:39.000Z",
+    "end": "2026-02-08T15:58:07.000Z",
+    "durationMinutes": 7,
+    "hitCount": 59,
+    "uniqueUsers": 7,
+    "topAttackers": [
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 33
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 15
+      },
+      {
+        "user": "BluPirate",
+        "team": "Penguin",
+        "attacks": 6
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "hitsTaken": 39
+      },
+      {
+        "user": "BluPirate",
+        "team": "Penguin",
+        "hitsTaken": 13
+      },
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "hitsTaken": 4
+      }
+    ],
+    "participants": [
+      {
+        "user": "HappyToughFish",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 39,
+        "ratio": 0
+      },
+      {
+        "user": "protozoa",
+        "team": "Reindeer",
+        "attacks": 33,
+        "hitsTaken": 4,
+        "ratio": 8.25
+      },
+      {
+        "user": "BluPirate",
+        "team": "Penguin",
+        "attacks": 6,
+        "hitsTaken": 13,
+        "ratio": 0.46153846153846156
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 15,
+        "hitsTaken": 0,
+        "ratio": 15
+      },
+      {
+        "user": "EVOL",
+        "team": "Reindeer",
+        "attacks": 4,
+        "hitsTaken": 1,
+        "ratio": 4
+      },
+      {
+        "user": "waterfallglow",
+        "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 1,
+        "ratio": 1
+      },
+      {
+        "user": "Mali",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Town Square-11",
     "roomName": "Town Square",
     "start": "2026-01-13T11:23:45.000Z",
