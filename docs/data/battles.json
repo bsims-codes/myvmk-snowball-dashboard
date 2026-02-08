@@ -11656,6 +11656,107 @@
     ]
   },
   {
+    "id": "Discovery Trading Company-2",
+    "roomName": "Discovery Trading Company",
+    "start": "2026-02-08T17:53:20.000Z",
+    "end": "2026-02-08T18:03:49.000Z",
+    "durationMinutes": 10,
+    "hitCount": 88,
+    "uniqueUsers": 8,
+    "topAttackers": [
+      {
+        "user": "hopealicious",
+        "team": "Reindeer",
+        "attacks": 48
+      },
+      {
+        "user": "PURR",
+        "team": "Reindeer",
+        "attacks": 38
+      },
+      {
+        "user": "Jessiejoe",
+        "team": "Reindeer",
+        "attacks": 2
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Retro",
+        "team": "Penguin",
+        "hitsTaken": 44
+      },
+      {
+        "user": "MissJazzy",
+        "team": "Penguin",
+        "hitsTaken": 41
+      },
+      {
+        "user": "PeanutPoohBear",
+        "team": "Penguin",
+        "hitsTaken": 1
+      }
+    ],
+    "participants": [
+      {
+        "user": "hopealicious",
+        "team": "Reindeer",
+        "attacks": 48,
+        "hitsTaken": 0,
+        "ratio": 48
+      },
+      {
+        "user": "Retro",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 44,
+        "ratio": 0
+      },
+      {
+        "user": "MissJazzy",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 41,
+        "ratio": 0
+      },
+      {
+        "user": "PURR",
+        "team": "Reindeer",
+        "attacks": 38,
+        "hitsTaken": 0,
+        "ratio": 38
+      },
+      {
+        "user": "Jessiejoe",
+        "team": "Reindeer",
+        "attacks": 2,
+        "hitsTaken": 0,
+        "ratio": 2
+      },
+      {
+        "user": "PeanutPoohBear",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "eeriee",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "Mirk",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-61",
     "roomName": "Captain's Quest Quarters",
     "start": "2026-01-18T17:20:48.000Z",
