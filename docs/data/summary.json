@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-02-08T17:44:16.234Z",
-  "totalRows": 42063,
+  "generatedAt": "2026-02-08T17:58:28.347Z",
+  "totalRows": 42159,
   "totalUsers": 643,
   "teamStats": {
     "Penguin": {
       "users": 303,
-      "attacks": 23934,
+      "attacks": 24030,
       "hitsTaken": 18129
     },
     "Reindeer": {
       "users": 340,
       "attacks": 18129,
-      "hitsTaken": 23934
+      "hitsTaken": 24030
     },
     "Unknown": {
       "users": 0,
@@ -22,7 +22,7 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 23934
+      "count": 24030
     },
     {
       "pair": "Reindeer → Penguin",
@@ -42,7 +42,7 @@
     },
     {
       "user": "TaterTotCasserole",
-      "attacks": 3024,
+      "attacks": 3120,
       "team": "Penguin"
     },
     {
@@ -223,6 +223,11 @@
       "team": "Reindeer"
     },
     {
+      "user": "pizzarollz",
+      "hitsTaken": 545,
+      "team": "Reindeer"
+    },
+    {
       "user": "Pepa",
       "hitsTaken": 477,
       "team": "Penguin"
@@ -231,11 +236,6 @@
       "user": "Winnie",
       "hitsTaken": 457,
       "team": "Penguin"
-    },
-    {
-      "user": "pizzarollz",
-      "hitsTaken": 449,
-      "team": "Reindeer"
     },
     {
       "user": "HugsforaLifetime",
@@ -292,18 +292,18 @@
       "ratio": 4.203274985883682
     },
     {
+      "user": "TaterTotCasserole",
+      "team": "Penguin",
+      "attacks": 3120,
+      "hitsTaken": 780,
+      "ratio": 4
+    },
+    {
       "user": "JustForFun",
       "team": "Penguin",
       "attacks": 3143,
       "hitsTaken": 697,
       "ratio": 4.509325681492109
-    },
-    {
-      "user": "TaterTotCasserole",
-      "team": "Penguin",
-      "attacks": 3024,
-      "hitsTaken": 780,
-      "ratio": 3.876923076923077
     },
     {
       "user": "Winnie",
@@ -502,6 +502,13 @@
       "ratio": 1.037037037037037
     },
     {
+      "user": "pizzarollz",
+      "team": "Reindeer",
+      "attacks": 0,
+      "hitsTaken": 545,
+      "ratio": 0
+    },
+    {
       "user": "Cloudyblue",
       "team": "Reindeer",
       "attacks": 220,
@@ -528,13 +535,6 @@
       "attacks": 95,
       "hitsTaken": 386,
       "ratio": 0.24611398963730569
-    },
-    {
-      "user": "pizzarollz",
-      "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 449,
-      "ratio": 0
     },
     {
       "user": "SpideyxLei",
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.27096096019165333,
-      "intercept": 60.77984787251889,
+      "slope": 0.2699634355341463,
+      "intercept": 61.00392267698719,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 60.77984787251889,
-      "y2": 2077.8132355391863,
+      "y1": 61.00392267698719,
+      "y2": 2070.6117367931724,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2509403228825355,
-      "intercept": 51.899338238519675,
+      "slope": 0.24884202464956873,
+      "intercept": 52.013301617942915,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 51.899338238519675,
-      "y2": 1919.8991017761139,
+      "y1": 52.013301617942915,
+      "y2": 1904.3933331093326,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.28416389863520075,
-      "intercept": 69.29725282319596,
+      "slope": 0.28405735009190014,
+      "intercept": 69.66131009250604,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 69.29725282319596,
-      "y2": 2184.61331426363,
+      "y1": 69.66131009250604,
+      "y2": 2184.1842241766108,
       "label": "Reindeer"
     }
   },
@@ -3954,16 +3954,16 @@
       "activeUsers": 41
     },
     {
+      "roomName": "Gallery",
+      "hitCount": 307,
+      "avgUserRatio": 2.57,
+      "activeUsers": 39
+    },
+    {
       "roomName": "Tomorrowland Hub",
       "hitCount": 267,
       "avgUserRatio": 1.2,
       "activeUsers": 45
-    },
-    {
-      "roomName": "Monorail Train",
-      "hitCount": 257,
-      "avgUserRatio": 2.27,
-      "activeUsers": 28
     }
   ]
 }

@@ -11056,6 +11056,45 @@
     ]
   },
   {
+    "id": "Gallery-1",
+    "roomName": "Gallery",
+    "start": "2026-02-08T12:44:54.000Z",
+    "end": "2026-02-08T12:54:27.000Z",
+    "durationMinutes": 10,
+    "hitCount": 96,
+    "uniqueUsers": 2,
+    "topAttackers": [
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 96
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "pizzarollz",
+        "team": "Reindeer",
+        "hitsTaken": 96
+      }
+    ],
+    "participants": [
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 96,
+        "hitsTaken": 0,
+        "ratio": 96
+      },
+      {
+        "user": "pizzarollz",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 96,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Dungeon-6",
     "roomName": "Dungeon",
     "start": "2026-01-22T11:36:04.000Z",
