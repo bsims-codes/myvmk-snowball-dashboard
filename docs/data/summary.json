@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-02-08T21:54:28.181Z",
-  "totalRows": 42345,
+  "generatedAt": "2026-02-08T22:12:16.643Z",
+  "totalRows": 42358,
   "totalUsers": 647,
   "teamStats": {
     "Penguin": {
       "users": 306,
-      "attacks": 24069,
-      "hitsTaken": 18276
+      "attacks": 24080,
+      "hitsTaken": 18278
     },
     "Reindeer": {
       "users": 341,
-      "attacks": 18276,
-      "hitsTaken": 24069
+      "attacks": 18278,
+      "hitsTaken": 24080
     },
     "Unknown": {
       "users": 0,
@@ -22,11 +22,11 @@
   "teamVsTeam": [
     {
       "pair": "Penguin → Reindeer",
-      "count": 24069
+      "count": 24080
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 18276
+      "count": 18278
     }
   ],
   "topAttackers": [
@@ -1930,6 +1930,13 @@
       "ratio": 5
     },
     {
+      "user": "LunarVeil",
+      "team": "Reindeer",
+      "attacks": 3,
+      "hitsTaken": 33,
+      "ratio": 0.09090909090909091
+    },
+    {
       "user": "GabriellaVanilla",
       "team": "Penguin",
       "attacks": 0,
@@ -2343,13 +2350,6 @@
       "ratio": 0.35294117647058826
     },
     {
-      "user": "LunarVeil",
-      "team": "Reindeer",
-      "attacks": 1,
-      "hitsTaken": 22,
-      "ratio": 0.045454545454545456
-    },
-    {
       "user": "magickate",
       "team": "Reindeer",
       "attacks": 0,
@@ -2684,6 +2684,13 @@
       "attacks": 1,
       "hitsTaken": 16,
       "ratio": 0.0625
+    },
+    {
+      "user": "Guest10149447",
+      "team": "Penguin",
+      "attacks": 14,
+      "hitsTaken": 3,
+      "ratio": 4.666666666666667
     },
     {
       "user": "JGoof",
@@ -3708,13 +3715,6 @@
       "ratio": 0.3333333333333333
     },
     {
-      "user": "Guest10149447",
-      "team": "Penguin",
-      "attacks": 3,
-      "hitsTaken": 1,
-      "ratio": 3
-    },
-    {
       "user": "Julioulia",
       "team": "Reindeer",
       "attacks": 0,
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2707356117932143,
-      "intercept": 61.19264986457419,
+      "slope": 0.2707198142235526,
+      "intercept": 61.2129488560082,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 61.19264986457419,
-      "y2": 2076.5485440532616,
+      "y1": 61.2129488560082,
+      "y2": 2076.451245936134,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.2496852389984855,
-      "intercept": 52.48084432148246,
+      "slope": 0.24967117424883195,
+      "intercept": 52.47907851779599,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 52.48084432148246,
-      "y2": 1911.1377634262085,
+      "y1": 52.47907851779599,
+      "y2": 1911.0312996261011,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2846852271414823,
-      "intercept": 69.60946782321075,
+      "slope": 0.2846725456347578,
+      "intercept": 69.64910493875391,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 69.60946782321075,
-      "y2": 2188.806298664405,
+      "y1": 69.64910493875391,
+      "y2": 2188.7515346438913,
       "label": "Reindeer"
     }
   },
@@ -3907,8 +3907,8 @@
     },
     {
       "roomName": "Snow White Hide 'n Seek Forest",
-      "hitCount": 523,
-      "avgUserRatio": 2.14,
+      "hitCount": 529,
+      "avgUserRatio": 2.15,
       "activeUsers": 78
     },
     {
