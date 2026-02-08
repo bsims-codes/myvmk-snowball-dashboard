@@ -14969,6 +14969,86 @@
     ]
   },
   {
+    "id": "Discovery Trading Company-1",
+    "roomName": "Discovery Trading Company",
+    "start": "2026-02-07T23:56:13.000Z",
+    "end": "2026-02-08T00:04:57.000Z",
+    "durationMinutes": 9,
+    "hitCount": 63,
+    "uniqueUsers": 5,
+    "topAttackers": [
+      {
+        "user": "doctorseeker",
+        "team": "Reindeer",
+        "attacks": 42
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 11
+      },
+      {
+        "user": "tortdoggie",
+        "team": "Reindeer",
+        "attacks": 10
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "GaDawg",
+        "team": "Penguin",
+        "hitsTaken": 38
+      },
+      {
+        "user": "Sleepy-Princess",
+        "team": "Penguin",
+        "hitsTaken": 8
+      },
+      {
+        "user": "doctorseeker",
+        "team": "Reindeer",
+        "hitsTaken": 7
+      }
+    ],
+    "participants": [
+      {
+        "user": "doctorseeker",
+        "team": "Reindeer",
+        "attacks": 42,
+        "hitsTaken": 7,
+        "ratio": 6
+      },
+      {
+        "user": "GaDawg",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 38,
+        "ratio": 0
+      },
+      {
+        "user": "goatduck",
+        "team": "Penguin",
+        "attacks": 11,
+        "hitsTaken": 6,
+        "ratio": 1.8333333333333333
+      },
+      {
+        "user": "tortdoggie",
+        "team": "Reindeer",
+        "attacks": 10,
+        "hitsTaken": 4,
+        "ratio": 2.5
+      },
+      {
+        "user": "Sleepy-Princess",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 8,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-83",
     "roomName": "Captain's Quest Quarters",
     "start": "2026-01-24T02:34:05.000Z",
