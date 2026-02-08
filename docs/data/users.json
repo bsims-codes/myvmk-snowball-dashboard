@@ -420,6 +420,13 @@
     "ratio": 0.7787610619469026
   },
   {
+    "user": "hopealicious",
+    "team": "Reindeer",
+    "attacks": 86,
+    "hitsTaken": 0,
+    "ratio": 86
+  },
+  {
     "user": "Cipolla",
     "team": "Penguin",
     "attacks": 84,
@@ -532,11 +539,11 @@
     "ratio": 0.18125
   },
   {
-    "user": "hopealicious",
+    "user": "PURR",
     "team": "Reindeer",
-    "attacks": 53,
-    "hitsTaken": 0,
-    "ratio": 53
+    "attacks": 57,
+    "hitsTaken": 78,
+    "ratio": 0.7307692307692307
   },
   {
     "user": "Whitney",
@@ -544,13 +551,6 @@
     "attacks": 52,
     "hitsTaken": 84,
     "ratio": 0.6190476190476191
-  },
-  {
-    "user": "PURR",
-    "team": "Reindeer",
-    "attacks": 51,
-    "hitsTaken": 78,
-    "ratio": 0.6538461538461539
   },
   {
     "user": "doctorseeker",
@@ -787,8 +787,8 @@
     "user": "Retro",
     "team": "Penguin",
     "attacks": 24,
-    "hitsTaken": 92,
-    "ratio": 0.2608695652173913
+    "hitsTaken": 120,
+    "ratio": 0.2
   },
   {
     "user": "EVOL",
@@ -1746,8 +1746,8 @@
     "user": "eeriee",
     "team": "Penguin",
     "attacks": 2,
-    "hitsTaken": 258,
-    "ratio": 0.007751937984496124
+    "hitsTaken": 259,
+    "ratio": 0.007722007722007722
   },
   {
     "user": "alpharanda",
@@ -4525,7 +4525,7 @@
     "user": "MissJazzy",
     "team": "Penguin",
     "attacks": 0,
-    "hitsTaken": 42,
+    "hitsTaken": 52,
     "ratio": 0
   }
 ]
