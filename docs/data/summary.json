@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-02-09T23:23:52.629Z",
-  "totalRows": 42488,
-  "totalUsers": 647,
+  "generatedAt": "2026-02-09T23:56:03.391Z",
+  "totalRows": 42489,
+  "totalUsers": 648,
   "teamStats": {
     "Penguin": {
-      "users": 306,
+      "users": 307,
       "attacks": 24081,
-      "hitsTaken": 18407
+      "hitsTaken": 18408
     },
     "Reindeer": {
       "users": 341,
-      "attacks": 18407,
+      "attacks": 18408,
       "hitsTaken": 24081
     },
     "Unknown": {
@@ -26,7 +26,7 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 18407
+      "count": 18408
     }
   ],
   "topAttackers": [
@@ -52,7 +52,7 @@
     },
     {
       "user": "SammyxxFairy",
-      "attacks": 1688,
+      "attacks": 1689,
       "team": "Reindeer"
     },
     {
@@ -315,9 +315,9 @@
     {
       "user": "SammyxxFairy",
       "team": "Reindeer",
-      "attacks": 1688,
+      "attacks": 1689,
       "hitsTaken": 1445,
-      "ratio": 1.1681660899653978
+      "ratio": 1.1688581314878892
     },
     {
       "user": "CaptainBubbles",
@@ -3787,12 +3787,12 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2705845339537713,
-      "intercept": 61.40405565715177,
+      "slope": 0.2705896051700009,
+      "intercept": 61.40308360712571,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 61.40405565715177,
-      "y2": 2075.6353264090253,
+      "y1": 61.40308360712571,
+      "y2": 2075.6721044926126,
       "label": "All"
     },
     "penguin": {
@@ -3805,21 +3805,21 @@
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.28449907020316967,
-      "intercept": 69.77268325365993,
+      "slope": 0.2845061903143617,
+      "intercept": 69.77113271367229,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 69.77268325365993,
-      "y2": 2187.583761846055,
+      "y1": 69.77113271367229,
+      "y2": 2187.6352134137805,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 12957,
-      "avgUserRatio": 0.76,
-      "activeUsers": 270
+      "hitCount": 12958,
+      "avgUserRatio": 0.75,
+      "activeUsers": 271
     },
     {
       "roomName": "Matterhorn",
