@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-02-09T23:56:03.391Z",
-  "totalRows": 42489,
+  "generatedAt": "2026-02-10T01:24:40.425Z",
+  "totalRows": 42490,
   "totalUsers": 648,
   "teamStats": {
     "Penguin": {
       "users": 307,
       "attacks": 24081,
-      "hitsTaken": 18408
+      "hitsTaken": 18409
     },
     "Reindeer": {
       "users": 341,
-      "attacks": 18408,
+      "attacks": 18409,
       "hitsTaken": 24081
     },
     "Unknown": {
@@ -26,7 +26,7 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 18408
+      "count": 18409
     }
   ],
   "topAttackers": [
@@ -1321,6 +1321,13 @@
       "ratio": 0.1891891891891892
     },
     {
+      "user": "Ormonddude",
+      "team": "Reindeer",
+      "attacks": 34,
+      "hitsTaken": 53,
+      "ratio": 0.6415094339622641
+    },
+    {
       "user": "Naiant",
       "team": "Penguin",
       "attacks": 1,
@@ -1340,13 +1347,6 @@
       "attacks": 47,
       "hitsTaken": 39,
       "ratio": 1.205128205128205
-    },
-    {
-      "user": "Ormonddude",
-      "team": "Reindeer",
-      "attacks": 33,
-      "hitsTaken": 53,
-      "ratio": 0.6226415094339622
     },
     {
       "user": "hopealicious",
@@ -3470,6 +3470,13 @@
       "ratio": 0
     },
     {
+      "user": "Kroberts2018",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 6,
+      "ratio": 0
+    },
+    {
       "user": "shypolardog",
       "team": "Reindeer",
       "attacks": 0,
@@ -3583,13 +3590,6 @@
     },
     {
       "user": "BUNNNY",
-      "team": "Penguin",
-      "attacks": 0,
-      "hitsTaken": 5,
-      "ratio": 0
-    },
-    {
-      "user": "Kroberts2018",
       "team": "Penguin",
       "attacks": 0,
       "hitsTaken": 5,
@@ -3787,30 +3787,30 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.2705896051700009,
-      "intercept": 61.40308360712571,
+      "slope": 0.27058869439695904,
+      "intercept": 61.40461981447918,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 61.40308360712571,
-      "y2": 2075.6721044926126,
+      "y1": 61.40461981447918,
+      "y2": 2075.6668609054423,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.24950447989560026,
-      "intercept": 52.82082384945576,
+      "slope": 0.2495016026878729,
+      "intercept": 52.825432803799124,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 52.82082384945576,
-      "y2": 1910.132172192304,
+      "y1": 52.825432803799124,
+      "y2": 1910.115363212325,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.2845061903143617,
-      "intercept": 69.77113271367229,
+      "slope": 0.28450592301514976,
+      "intercept": 69.77008948128044,
       "xMin": 0,
       "xMax": 7444,
-      "y1": 69.77113271367229,
-      "y2": 2187.6352134137805,
+      "y1": 69.77008948128044,
+      "y2": 2187.6321804060553,
       "label": "Reindeer"
     }
   },
@@ -3883,9 +3883,9 @@
     },
     {
       "roomName": "Shrunken Ned's Shop",
-      "hitCount": 642,
-      "avgUserRatio": 2.09,
-      "activeUsers": 93
+      "hitCount": 643,
+      "avgUserRatio": 2.07,
+      "activeUsers": 94
     },
     {
       "roomName": "Monorail Station",
