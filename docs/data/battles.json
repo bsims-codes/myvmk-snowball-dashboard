@@ -13203,6 +13203,86 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-100",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-02-11T16:25:34.000Z",
+    "end": "2026-02-11T16:33:38.000Z",
+    "durationMinutes": 8,
+    "hitCount": 76,
+    "uniqueUsers": 5,
+    "topAttackers": [
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 35
+      },
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "attacks": 20
+      },
+      {
+        "user": "PrincessMichii",
+        "team": "Reindeer",
+        "attacks": 12
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "PrincessMichii",
+        "team": "Reindeer",
+        "hitsTaken": 28
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "hitsTaken": 27
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "hitsTaken": 8
+      }
+    ],
+    "participants": [
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 35,
+        "hitsTaken": 8,
+        "ratio": 4.375
+      },
+      {
+        "user": "PrincessMichii",
+        "team": "Reindeer",
+        "attacks": 12,
+        "hitsTaken": 28,
+        "ratio": 0.42857142857142855
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 9,
+        "hitsTaken": 27,
+        "ratio": 0.3333333333333333
+      },
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "attacks": 20,
+        "hitsTaken": 8,
+        "ratio": 2.5
+      },
+      {
+        "user": "Kenneth123",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 5,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Frontierland Hub-2",
     "roomName": "Frontierland Hub",
     "start": "2025-12-23T23:40:03.000Z",

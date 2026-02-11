@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 13524,
+    "hitCount": 13605,
     "avgUserRatio": 0.74,
     "activeUsers": 275
   },
@@ -84,6 +84,12 @@
     "activeUsers": 44
   },
   {
+    "roomName": "Forbidden Temple",
+    "hitCount": 564,
+    "avgUserRatio": 0.6,
+    "activeUsers": 102
+  },
+  {
     "roomName": "Autopia Quest Track",
     "hitCount": 548,
     "avgUserRatio": 10.77,
@@ -96,12 +102,6 @@
     "activeUsers": 82
   },
   {
-    "roomName": "Forbidden Temple",
-    "hitCount": 519,
-    "avgUserRatio": 0.62,
-    "activeUsers": 97
-  },
-  {
     "roomName": "New Orleans Square",
     "hitCount": 488,
     "avgUserRatio": 1.66,
@@ -109,15 +109,15 @@
   },
   {
     "roomName": "Pirate Treehouse",
-    "hitCount": 456,
-    "avgUserRatio": 1.26,
-    "activeUsers": 89
+    "hitCount": 461,
+    "avgUserRatio": 1.24,
+    "activeUsers": 91
   },
   {
     "roomName": "Street Party Music Game Lobby",
-    "hitCount": 405,
-    "avgUserRatio": 1.13,
-    "activeUsers": 86
+    "hitCount": 406,
+    "avgUserRatio": 1.12,
+    "activeUsers": 87
   },
   {
     "roomName": "Banquet Hall",
@@ -175,9 +175,9 @@
   },
   {
     "roomName": "VMK Gallery",
-    "hitCount": 226,
-    "avgUserRatio": 3.54,
-    "activeUsers": 42
+    "hitCount": 227,
+    "avgUserRatio": 3.47,
+    "activeUsers": 43
   },
   {
     "roomName": "Storybookland",
@@ -223,9 +223,9 @@
   },
   {
     "roomName": "Anandapur",
-    "hitCount": 119,
-    "avgUserRatio": 1.92,
-    "activeUsers": 31
+    "hitCount": 128,
+    "avgUserRatio": 1.88,
+    "activeUsers": 33
   },
   {
     "roomName": "WS - Mexico",
