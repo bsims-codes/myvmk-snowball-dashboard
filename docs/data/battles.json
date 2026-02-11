@@ -12907,6 +12907,57 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-97",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-02-11T14:40:04.000Z",
+    "end": "2026-02-11T15:00:37.000Z",
+    "durationMinutes": 21,
+    "hitCount": 77,
+    "uniqueUsers": 3,
+    "topAttackers": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 77
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Kenneth123",
+        "team": "Penguin",
+        "hitsTaken": 74
+      },
+      {
+        "user": "Blueberry_ken",
+        "team": "Penguin",
+        "hitsTaken": 3
+      }
+    ],
+    "participants": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 77,
+        "hitsTaken": 0,
+        "ratio": 77
+      },
+      {
+        "user": "Kenneth123",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 74,
+        "ratio": 0
+      },
+      {
+        "user": "Blueberry_ken",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 3,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-47",
     "roomName": "Captain's Quest Quarters",
     "start": "2026-01-04T02:18:07.000Z",

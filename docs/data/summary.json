@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-02-11T19:37:29.801Z",
-  "totalRows": 42863,
+  "generatedAt": "2026-02-11T20:04:31.805Z",
+  "totalRows": 42942,
   "totalUsers": 650,
   "teamStats": {
     "Penguin": {
       "users": 309,
       "attacks": 24121,
-      "hitsTaken": 18742
+      "hitsTaken": 18821
     },
     "Reindeer": {
       "users": 341,
-      "attacks": 18742,
+      "attacks": 18821,
       "hitsTaken": 24121
     },
     "Unknown": {
@@ -26,7 +26,7 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 18742
+      "count": 18821
     }
   ],
   "topAttackers": [
@@ -52,7 +52,7 @@
     },
     {
       "user": "SammyxxFairy",
-      "attacks": 1990,
+      "attacks": 2069,
       "team": "Reindeer"
     },
     {
@@ -308,9 +308,9 @@
     {
       "user": "SammyxxFairy",
       "team": "Reindeer",
-      "attacks": 1990,
+      "attacks": 2069,
       "hitsTaken": 1455,
-      "ratio": 1.3676975945017182
+      "ratio": 1.4219931271477664
     },
     {
       "user": "Winnie",
@@ -852,6 +852,13 @@
       "ratio": 0.5950413223140496
     },
     {
+      "user": "Kenneth123",
+      "team": "Penguin",
+      "attacks": 1,
+      "hitsTaken": 190,
+      "ratio": 0.005263157894736842
+    },
+    {
       "user": "Cali",
       "team": "Reindeer",
       "attacks": 6,
@@ -1137,13 +1144,6 @@
       "attacks": 21,
       "hitsTaken": 94,
       "ratio": 0.22340425531914893
-    },
-    {
-      "user": "Kenneth123",
-      "team": "Penguin",
-      "attacks": 1,
-      "hitsTaken": 114,
-      "ratio": 0.008771929824561403
     },
     {
       "user": "Supercatygirl",
@@ -3197,6 +3197,13 @@
       "ratio": 0
     },
     {
+      "user": "Blueberry_ken",
+      "team": "Penguin",
+      "attacks": 0,
+      "hitsTaken": 10,
+      "ratio": 0
+    },
+    {
       "user": "Jessiejoe",
       "team": "Reindeer",
       "attacks": 5,
@@ -3437,13 +3444,6 @@
     {
       "user": "MoonPrincess",
       "team": "Reindeer",
-      "attacks": 0,
-      "hitsTaken": 7,
-      "ratio": 0
-    },
-    {
-      "user": "Blueberry_ken",
-      "team": "Penguin",
       "attacks": 0,
       "hitsTaken": 7,
       "ratio": 0
@@ -3787,39 +3787,39 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.27131159797887433,
-      "intercept": 61.86879769083876,
+      "slope": 0.2714954034144783,
+      "intercept": 61.96814671799192,
       "xMin": 0,
       "xMax": 7470,
-      "y1": 61.86879769083876,
-      "y2": 2088.56643459303,
+      "y1": 61.96814671799192,
+      "y2": 2090.038810224145,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.24913785438265765,
-      "intercept": 53.575715863825806,
+      "slope": 0.2489156227248289,
+      "intercept": 53.93469366435139,
       "xMin": 0,
       "xMax": 7470,
-      "y1": 53.575715863825806,
-      "y2": 1914.6354881022783,
+      "y1": 53.93469366435139,
+      "y2": 1913.3343954188233,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.28542623619146706,
-      "intercept": 70.2430104151249,
+      "slope": 0.28573677984807383,
+      "intercept": 70.13586896912811,
       "xMin": 0,
       "xMax": 7470,
-      "y1": 70.2430104151249,
-      "y2": 2202.3769947653836,
+      "y1": 70.13586896912811,
+      "y2": 2204.5896144342396,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 13252,
+      "hitCount": 13331,
       "avgUserRatio": 0.75,
-      "activeUsers": 273
+      "activeUsers": 274
     },
     {
       "roomName": "Matterhorn",
