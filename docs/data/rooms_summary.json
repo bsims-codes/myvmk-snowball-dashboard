@@ -19,7 +19,7 @@
   },
   {
     "roomName": "Main Street",
-    "hitCount": 2087,
+    "hitCount": 2088,
     "avgUserRatio": 1.68,
     "activeUsers": 189
   },
@@ -61,9 +61,9 @@
   },
   {
     "roomName": "\"it's a small world\" Imports",
-    "hitCount": 688,
-    "avgUserRatio": 2.75,
-    "activeUsers": 82
+    "hitCount": 689,
+    "avgUserRatio": 2.71,
+    "activeUsers": 83
   },
   {
     "roomName": "Shrunken Ned's Shop",
@@ -97,9 +97,9 @@
   },
   {
     "roomName": "New Orleans Square",
-    "hitCount": 486,
-    "avgUserRatio": 1.72,
-    "activeUsers": 48
+    "hitCount": 488,
+    "avgUserRatio": 1.66,
+    "activeUsers": 51
   },
   {
     "roomName": "Pirate Treehouse",
@@ -139,9 +139,9 @@
   },
   {
     "roomName": "Gallery",
-    "hitCount": 307,
-    "avgUserRatio": 2.57,
-    "activeUsers": 39
+    "hitCount": 309,
+    "avgUserRatio": 2.51,
+    "activeUsers": 40
   },
   {
     "roomName": "Tomorrowland Hub",
@@ -205,9 +205,9 @@
   },
   {
     "roomName": "Sci-Fi Dine-In",
-    "hitCount": 165,
-    "avgUserRatio": 2.47,
-    "activeUsers": 34
+    "hitCount": 168,
+    "avgUserRatio": 2.38,
+    "activeUsers": 35
   },
   {
     "roomName": "WS - Norway",
@@ -217,7 +217,7 @@
   },
   {
     "roomName": "Autopia Off Road on Mars",
-    "hitCount": 130,
+    "hitCount": 131,
     "avgUserRatio": 0.96,
     "activeUsers": 34
   },
@@ -265,9 +265,9 @@
   },
   {
     "roomName": "Explorer's Tent",
-    "hitCount": 74,
-    "avgUserRatio": 2.94,
-    "activeUsers": 20
+    "hitCount": 75,
+    "avgUserRatio": 2.82,
+    "activeUsers": 21
   },
   {
     "roomName": "Golden Horseshoe Mercantile",
@@ -288,6 +288,12 @@
     "activeUsers": 24
   },
   {
+    "roomName": "Discovery Island",
+    "hitCount": 68,
+    "avgUserRatio": 1.33,
+    "activeUsers": 18
+  },
+  {
     "roomName": "Lost Safari Party",
     "hitCount": 64,
     "avgUserRatio": 4.45,
@@ -306,12 +312,6 @@
     "activeUsers": 18
   },
   {
-    "roomName": "Discovery Island",
-    "hitCount": 51,
-    "avgUserRatio": 1.16,
-    "activeUsers": 17
-  },
-  {
     "roomName": "Frontierland Dock",
     "hitCount": 51,
     "avgUserRatio": 0.81,
@@ -319,9 +319,9 @@
   },
   {
     "roomName": "VMK Central",
-    "hitCount": 45,
-    "avgUserRatio": 1.28,
-    "activeUsers": 20
+    "hitCount": 47,
+    "avgUserRatio": 1.31,
+    "activeUsers": 21
   },
   {
     "roomName": "Waterpark Pool",
@@ -390,16 +390,16 @@
     "activeUsers": 13
   },
   {
+    "roomName": "WS - Japan",
+    "hitCount": 15,
+    "avgUserRatio": 1.79,
+    "activeUsers": 8
+  },
+  {
     "roomName": "Mark Twain",
     "hitCount": 14,
     "avgUserRatio": 1.17,
     "activeUsers": 12
-  },
-  {
-    "roomName": "WS - Japan",
-    "hitCount": 14,
-    "avgUserRatio": 2.22,
-    "activeUsers": 6
   },
   {
     "roomName": "WS - Italy",
