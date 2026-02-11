@@ -10158,6 +10158,86 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-98",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-02-11T15:03:33.000Z",
+    "end": "2026-02-11T15:34:04.000Z",
+    "durationMinutes": 31,
+    "hitCount": 113,
+    "uniqueUsers": 5,
+    "topAttackers": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 99
+      },
+      {
+        "user": "Kenneth123",
+        "team": "Penguin",
+        "attacks": 13
+      },
+      {
+        "user": "Wavves",
+        "team": "Penguin",
+        "attacks": 1
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Kenneth123",
+        "team": "Penguin",
+        "hitsTaken": 79
+      },
+      {
+        "user": "Wavves",
+        "team": "Penguin",
+        "hitsTaken": 15
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "hitsTaken": 14
+      }
+    ],
+    "participants": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 99,
+        "hitsTaken": 14,
+        "ratio": 7.071428571428571
+      },
+      {
+        "user": "Kenneth123",
+        "team": "Penguin",
+        "attacks": 13,
+        "hitsTaken": 79,
+        "ratio": 0.16455696202531644
+      },
+      {
+        "user": "Wavves",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 15,
+        "ratio": 0.06666666666666667
+      },
+      {
+        "user": "SirRender",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 3,
+        "ratio": 0
+      },
+      {
+        "user": "Focus",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 2,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Captain's Quest Quarters-27",
     "roomName": "Captain's Quest Quarters",
     "start": "2025-12-22T12:43:03.000Z",
@@ -22241,6 +22321,79 @@
     ]
   },
   {
+    "id": "Captain's Quest Quarters-99",
+    "roomName": "Captain's Quest Quarters",
+    "start": "2026-02-11T15:36:09.000Z",
+    "end": "2026-02-11T15:43:28.000Z",
+    "durationMinutes": 7,
+    "hitCount": 41,
+    "uniqueUsers": 4,
+    "topAttackers": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 31
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 7
+      },
+      {
+        "user": "PrincessMichii",
+        "team": "Reindeer",
+        "attacks": 2
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Kenneth123",
+        "team": "Penguin",
+        "hitsTaken": 24
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "hitsTaken": 9
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "hitsTaken": 8
+      }
+    ],
+    "participants": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 31,
+        "hitsTaken": 8,
+        "ratio": 3.875
+      },
+      {
+        "user": "Kenneth123",
+        "team": "Penguin",
+        "attacks": 1,
+        "hitsTaken": 24,
+        "ratio": 0.041666666666666664
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 7,
+        "hitsTaken": 9,
+        "ratio": 0.7777777777777778
+      },
+      {
+        "user": "PrincessMichii",
+        "team": "Reindeer",
+        "attacks": 2,
+        "hitsTaken": 0,
+        "ratio": 2
+      }
+    ]
+  },
+  {
     "id": "Matterhorn-34",
     "roomName": "Matterhorn",
     "start": "2026-01-29T19:50:36.000Z",
@@ -28002,6 +28155,100 @@
         "attacks": 1,
         "hitsTaken": 0,
         "ratio": 1
+      }
+    ]
+  },
+  {
+    "id": "Epcot Entrance-3",
+    "roomName": "Epcot Entrance",
+    "start": "2026-02-11T15:44:42.000Z",
+    "end": "2026-02-11T15:48:34.000Z",
+    "durationMinutes": 4,
+    "hitCount": 30,
+    "uniqueUsers": 7,
+    "topAttackers": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 13
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 9
+      },
+      {
+        "user": "picklequeen",
+        "team": "Penguin",
+        "attacks": 6
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "hitsTaken": 10
+      },
+      {
+        "user": "goofyboutmickey",
+        "team": "Penguin",
+        "hitsTaken": 6
+      },
+      {
+        "user": "FlameLegend",
+        "team": "Reindeer",
+        "hitsTaken": 4
+      }
+    ],
+    "participants": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 13,
+        "hitsTaken": 10,
+        "ratio": 1.3
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 9,
+        "hitsTaken": 2,
+        "ratio": 4.5
+      },
+      {
+        "user": "picklequeen",
+        "team": "Penguin",
+        "attacks": 6,
+        "hitsTaken": 3,
+        "ratio": 2
+      },
+      {
+        "user": "goofyboutmickey",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 6,
+        "ratio": 0
+      },
+      {
+        "user": "FlameLegend",
+        "team": "Reindeer",
+        "attacks": 2,
+        "hitsTaken": 4,
+        "ratio": 0.5
+      },
+      {
+        "user": "TheClaw",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 4,
+        "ratio": 0
+      },
+      {
+        "user": "maroonsonicsage22",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
       }
     ]
   },
