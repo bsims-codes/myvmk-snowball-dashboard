@@ -51,9 +51,9 @@
   {
     "user": "goatduck",
     "team": "Penguin",
-    "attacks": 1294,
+    "attacks": 1300,
     "hitsTaken": 680,
-    "ratio": 1.9029411764705881
+    "ratio": 1.911764705882353
   },
   {
     "user": "bsims",
@@ -1634,8 +1634,8 @@
     "user": "Sleepy-Princess",
     "team": "Penguin",
     "attacks": 3,
-    "hitsTaken": 21,
-    "ratio": 0.14285714285714285
+    "hitsTaken": 24,
+    "ratio": 0.125
   },
   {
     "user": "LunarVeil",
@@ -1643,6 +1643,13 @@
     "attacks": 3,
     "hitsTaken": 33,
     "ratio": 0.09090909090909091
+  },
+  {
+    "user": "pixeIs",
+    "team": "Reindeer",
+    "attacks": 3,
+    "hitsTaken": 6,
+    "ratio": 0.5
   },
   {
     "user": "Bernardo-S-Rocks",
