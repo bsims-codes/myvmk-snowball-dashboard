@@ -1,7 +1,7 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 13486,
+    "hitCount": 13524,
     "avgUserRatio": 0.74,
     "activeUsers": 275
   },
@@ -96,6 +96,12 @@
     "activeUsers": 82
   },
   {
+    "roomName": "Forbidden Temple",
+    "hitCount": 519,
+    "avgUserRatio": 0.62,
+    "activeUsers": 97
+  },
+  {
     "roomName": "New Orleans Square",
     "hitCount": 488,
     "avgUserRatio": 1.66,
@@ -106,12 +112,6 @@
     "hitCount": 456,
     "avgUserRatio": 1.26,
     "activeUsers": 89
-  },
-  {
-    "roomName": "Forbidden Temple",
-    "hitCount": 419,
-    "avgUserRatio": 0.69,
-    "activeUsers": 91
   },
   {
     "roomName": "Street Party Music Game Lobby",
@@ -222,6 +222,12 @@
     "activeUsers": 34
   },
   {
+    "roomName": "Anandapur",
+    "hitCount": 119,
+    "avgUserRatio": 1.92,
+    "activeUsers": 31
+  },
+  {
     "roomName": "WS - Mexico",
     "hitCount": 117,
     "avgUserRatio": 2.14,
@@ -232,12 +238,6 @@
     "hitCount": 117,
     "avgUserRatio": 4.92,
     "activeUsers": 22
-  },
-  {
-    "roomName": "Anandapur",
-    "hitCount": 117,
-    "avgUserRatio": 1.98,
-    "activeUsers": 30
   },
   {
     "roomName": "Elephant Bathing Pool",

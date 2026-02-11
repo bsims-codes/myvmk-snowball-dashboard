@@ -19667,6 +19667,114 @@
     ]
   },
   {
+    "id": "Forbidden Temple-4",
+    "roomName": "Forbidden Temple",
+    "start": "2026-02-11T16:07:13.000Z",
+    "end": "2026-02-11T16:20:23.000Z",
+    "durationMinutes": 13,
+    "hitCount": 47,
+    "uniqueUsers": 9,
+    "topAttackers": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 34
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 6
+      },
+      {
+        "user": "mikgriz",
+        "team": "Penguin",
+        "attacks": 3
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "hitsTaken": 16
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "hitsTaken": 9
+      },
+      {
+        "user": "mikgriz",
+        "team": "Penguin",
+        "hitsTaken": 6
+      }
+    ],
+    "participants": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 34,
+        "hitsTaken": 9,
+        "ratio": 3.7777777777777777
+      },
+      {
+        "user": "Magenta",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 16,
+        "ratio": 0
+      },
+      {
+        "user": "mikgriz",
+        "team": "Penguin",
+        "attacks": 3,
+        "hitsTaken": 6,
+        "ratio": 0.5
+      },
+      {
+        "user": "Winnie",
+        "team": "Penguin",
+        "attacks": 6,
+        "hitsTaken": 2,
+        "ratio": 3
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 3,
+        "hitsTaken": 5,
+        "ratio": 0.6
+      },
+      {
+        "user": "Queen_B",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 6,
+        "ratio": 0
+      },
+      {
+        "user": "FlameLegend",
+        "team": "Reindeer",
+        "attacks": 1,
+        "hitsTaken": 1,
+        "ratio": 1
+      },
+      {
+        "user": "SharBes",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      },
+      {
+        "user": "SkywayStitch",
+        "team": "Reindeer",
+        "attacks": 0,
+        "hitsTaken": 1,
+        "ratio": 0
+      }
+    ]
+  },
+  {
     "id": "Pirate Treehouse-4",
     "roomName": "Pirate Treehouse",
     "start": "2026-02-06T14:52:27.000Z",
@@ -24057,6 +24165,81 @@
         "attacks": 1,
         "hitsTaken": 0,
         "ratio": 1
+      }
+    ]
+  },
+  {
+    "id": "Forbidden Temple-3",
+    "roomName": "Forbidden Temple",
+    "start": "2026-02-11T15:59:33.000Z",
+    "end": "2026-02-11T16:05:04.000Z",
+    "durationMinutes": 6,
+    "hitCount": 38,
+    "uniqueUsers": 5,
+    "topAttackers": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 31
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 7
+      }
+    ],
+    "topVictims": [
+      {
+        "user": "chilly",
+        "team": "Penguin",
+        "hitsTaken": 12
+      },
+      {
+        "user": "ivan",
+        "team": "Penguin",
+        "hitsTaken": 12
+      },
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "hitsTaken": 7
+      }
+    ],
+    "participants": [
+      {
+        "user": "SammyxxFairy",
+        "team": "Reindeer",
+        "attacks": 31,
+        "hitsTaken": 7,
+        "ratio": 4.428571428571429
+      },
+      {
+        "user": "chilly",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 12,
+        "ratio": 0
+      },
+      {
+        "user": "ivan",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 12,
+        "ratio": 0
+      },
+      {
+        "user": "TaterTotCasserole",
+        "team": "Penguin",
+        "attacks": 7,
+        "hitsTaken": 2,
+        "ratio": 3.5
+      },
+      {
+        "user": "SirRender",
+        "team": "Penguin",
+        "attacks": 0,
+        "hitsTaken": 5,
+        "ratio": 0
       }
     ]
   },
