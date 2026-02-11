@@ -16,9 +16,9 @@
   {
     "user": "JustForFun",
     "team": "Penguin",
-    "attacks": 3150,
+    "attacks": 3151,
     "hitsTaken": 701,
-    "ratio": 4.49358059914408
+    "ratio": 4.4950071326676175
   },
   {
     "user": "Winnie",
@@ -30,9 +30,9 @@
   {
     "user": "SammyxxFairy",
     "team": "Reindeer",
-    "attacks": 2336,
-    "hitsTaken": 1590,
-    "ratio": 1.4691823899371068
+    "attacks": 2340,
+    "hitsTaken": 1591,
+    "ratio": 1.4707730986800753
   },
   {
     "user": "CaptainBubbles",
@@ -192,8 +192,8 @@
     "user": "Chime",
     "team": "Reindeer",
     "attacks": 234,
-    "hitsTaken": 143,
-    "ratio": 1.6363636363636365
+    "hitsTaken": 145,
+    "ratio": 1.6137931034482758
   },
   {
     "user": "feeheeheeny",
@@ -1351,6 +1351,13 @@
     "ratio": 0.5
   },
   {
+    "user": "AirBiscuits",
+    "team": "Penguin",
+    "attacks": 5,
+    "hitsTaken": 45,
+    "ratio": 0.1111111111111111
+  },
+  {
     "user": "UltraBSBL",
     "team": "Reindeer",
     "attacks": 5,
@@ -1552,13 +1559,6 @@
     "attacks": 3,
     "hitsTaken": 2,
     "ratio": 1.5
-  },
-  {
-    "user": "AirBiscuits",
-    "team": "Penguin",
-    "attacks": 3,
-    "hitsTaken": 45,
-    "ratio": 0.06666666666666667
   },
   {
     "user": "Inferno",
@@ -2089,7 +2089,7 @@
     "user": "Focus",
     "team": "Penguin",
     "attacks": 0,
-    "hitsTaken": 81,
+    "hitsTaken": 85,
     "ratio": 0
   },
   {
