@@ -1,20 +1,20 @@
 [
   {
     "roomName": "Captain's Quest Quarters",
-    "hitCount": 13629,
-    "avgUserRatio": 0.74,
-    "activeUsers": 275
+    "hitCount": 13757,
+    "avgUserRatio": 0.75,
+    "activeUsers": 277
   },
   {
     "roomName": "Matterhorn",
-    "hitCount": 5831,
+    "hitCount": 5835,
     "avgUserRatio": 0.89,
-    "activeUsers": 311
+    "activeUsers": 312
   },
   {
     "roomName": "Town Square",
-    "hitCount": 4460,
-    "avgUserRatio": 1.21,
+    "hitCount": 4482,
+    "avgUserRatio": 1.2,
     "activeUsers": 228
   },
   {
@@ -25,9 +25,9 @@
   },
   {
     "roomName": "Jungle Cruise Dock",
-    "hitCount": 1176,
+    "hitCount": 1180,
     "avgUserRatio": 1.53,
-    "activeUsers": 88
+    "activeUsers": 90
   },
   {
     "roomName": "Fantasyland in The Sky",
@@ -67,13 +67,19 @@
   },
   {
     "roomName": "Shrunken Ned's Shop",
-    "hitCount": 668,
-    "avgUserRatio": 2.03,
-    "activeUsers": 99
+    "hitCount": 671,
+    "avgUserRatio": 2,
+    "activeUsers": 101
+  },
+  {
+    "roomName": "Autopia Quest Track",
+    "hitCount": 601,
+    "avgUserRatio": 7.21,
+    "activeUsers": 30
   },
   {
     "roomName": "Epcot Entrance",
-    "hitCount": 592,
+    "hitCount": 594,
     "avgUserRatio": 1.45,
     "activeUsers": 108
   },
@@ -88,12 +94,6 @@
     "hitCount": 564,
     "avgUserRatio": 0.6,
     "activeUsers": 102
-  },
-  {
-    "roomName": "Autopia Quest Track",
-    "hitCount": 548,
-    "avgUserRatio": 10.77,
-    "activeUsers": 28
   },
   {
     "roomName": "Snow White Hide 'n Seek Forest",
@@ -180,16 +180,16 @@
     "activeUsers": 43
   },
   {
+    "roomName": "Pixar Pier Entrance",
+    "hitCount": 213,
+    "avgUserRatio": 1.17,
+    "activeUsers": 45
+  },
+  {
     "roomName": "Storybookland",
     "hitCount": 210,
     "avgUserRatio": 2.27,
     "activeUsers": 42
-  },
-  {
-    "roomName": "Pixar Pier Entrance",
-    "hitCount": 204,
-    "avgUserRatio": 1.21,
-    "activeUsers": 43
   },
   {
     "roomName": "WS - United Kingdom",
