@@ -67,21 +67,21 @@
   },
   {
     "roomName": "Shrunken Ned's Shop",
-    "hitCount": 671,
+    "hitCount": 677,
     "avgUserRatio": 2,
-    "activeUsers": 101
+    "activeUsers": 102
+  },
+  {
+    "roomName": "Epcot Entrance",
+    "hitCount": 618,
+    "avgUserRatio": 1.37,
+    "activeUsers": 110
   },
   {
     "roomName": "Autopia Quest Track",
     "hitCount": 601,
     "avgUserRatio": 7.21,
     "activeUsers": 30
-  },
-  {
-    "roomName": "Epcot Entrance",
-    "hitCount": 594,
-    "avgUserRatio": 1.45,
-    "activeUsers": 108
   },
   {
     "roomName": "Monorail Station",
@@ -109,9 +109,9 @@
   },
   {
     "roomName": "Pirate Treehouse",
-    "hitCount": 461,
-    "avgUserRatio": 1.24,
-    "activeUsers": 91
+    "hitCount": 462,
+    "avgUserRatio": 1.23,
+    "activeUsers": 92
   },
   {
     "roomName": "Street Party Music Game Lobby",
@@ -180,16 +180,16 @@
     "activeUsers": 43
   },
   {
+    "roomName": "Storybookland",
+    "hitCount": 213,
+    "avgUserRatio": 2.28,
+    "activeUsers": 43
+  },
+  {
     "roomName": "Pixar Pier Entrance",
     "hitCount": 213,
     "avgUserRatio": 1.17,
     "activeUsers": 45
-  },
-  {
-    "roomName": "Storybookland",
-    "hitCount": 210,
-    "avgUserRatio": 2.27,
-    "activeUsers": 42
   },
   {
     "roomName": "WS - United Kingdom",
@@ -313,15 +313,15 @@
   },
   {
     "roomName": "Frontierland Dock",
-    "hitCount": 51,
-    "avgUserRatio": 0.81,
-    "activeUsers": 14
+    "hitCount": 53,
+    "avgUserRatio": 0.84,
+    "activeUsers": 16
   },
   {
     "roomName": "VMK Central",
-    "hitCount": 47,
-    "avgUserRatio": 1.31,
-    "activeUsers": 21
+    "hitCount": 52,
+    "avgUserRatio": 1.48,
+    "activeUsers": 22
   },
   {
     "roomName": "Waterpark Pool",
