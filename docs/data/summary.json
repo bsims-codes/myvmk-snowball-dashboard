@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-02-12T15:07:24.672Z",
-  "totalRows": 43840,
+  "generatedAt": "2026-02-12T16:04:19.460Z",
+  "totalRows": 43859,
   "totalUsers": 658,
   "teamStats": {
     "Penguin": {
       "users": 313,
       "attacks": 24557,
-      "hitsTaken": 19283
+      "hitsTaken": 19302
     },
     "Reindeer": {
       "users": 345,
-      "attacks": 19283,
+      "attacks": 19302,
       "hitsTaken": 24557
     },
     "Unknown": {
@@ -26,7 +26,7 @@
     },
     {
       "pair": "Reindeer → Penguin",
-      "count": 19283
+      "count": 19302
     }
   ],
   "topAttackers": [
@@ -209,7 +209,7 @@
     },
     {
       "user": "Kate.",
-      "hitsTaken": 704,
+      "hitsTaken": 723,
       "team": "Penguin"
     },
     {
@@ -432,18 +432,18 @@
       "ratio": 6.618181818181818
     },
     {
+      "user": "Kate.",
+      "team": "Penguin",
+      "attacks": 19,
+      "hitsTaken": 723,
+      "ratio": 0.02627939142461964
+    },
+    {
       "user": "BluPirate",
       "team": "Penguin",
       "attacks": 523,
       "hitsTaken": 218,
       "ratio": 2.3990825688073394
-    },
-    {
-      "user": "Kate.",
-      "team": "Penguin",
-      "attacks": 19,
-      "hitsTaken": 704,
-      "ratio": 0.026988636363636364
     },
     {
       "user": "PrincessCutezada",
@@ -551,18 +551,18 @@
       "ratio": 0.024154589371980676
     },
     {
+      "user": "FlameLegend",
+      "team": "Reindeer",
+      "attacks": 209,
+      "hitsTaken": 214,
+      "ratio": 0.9766355140186916
+    },
+    {
       "user": "mikey29",
       "team": "Penguin",
       "attacks": 50,
       "hitsTaken": 370,
       "ratio": 0.13513513513513514
-    },
-    {
-      "user": "FlameLegend",
-      "team": "Reindeer",
-      "attacks": 198,
-      "hitsTaken": 214,
-      "ratio": 0.9252336448598131
     },
     {
       "user": "RockStar_Olivia",
@@ -609,9 +609,9 @@
     {
       "user": "Tinkfaniam",
       "team": "Reindeer",
-      "attacks": 155,
+      "attacks": 163,
       "hitsTaken": 174,
-      "ratio": 0.8908045977011494
+      "ratio": 0.9367816091954023
     },
     {
       "user": "Kenneth123",
@@ -3787,37 +3787,37 @@
   ],
   "regression": {
     "overall": {
-      "slope": 0.27759382973164765,
-      "intercept": 62.674124885723764,
+      "slope": 0.2775915219828543,
+      "intercept": 62.701778705147646,
       "xMin": 0,
       "xMax": 7472,
-      "y1": 62.674124885723764,
-      "y2": 2136.8552206405952,
+      "y1": 62.701778705147646,
+      "y2": 2136.865630961035,
       "label": "All"
     },
     "penguin": {
-      "slope": 0.24882887175147383,
-      "intercept": 54.51047016581408,
+      "slope": 0.2487870857648724,
+      "intercept": 54.59426049115739,
       "xMin": 0,
       "xMax": 7472,
-      "y1": 54.51047016581408,
-      "y2": 1913.7597998928265,
+      "y1": 54.59426049115739,
+      "y2": 1913.531365326284,
       "label": "Penguin"
     },
     "reindeer": {
-      "slope": 0.29581411003178953,
-      "intercept": 71.50957767316908,
+      "slope": 0.29582539806990193,
+      "intercept": 71.48720868983537,
       "xMin": 0,
       "xMax": 7472,
-      "y1": 71.50957767316908,
-      "y2": 2281.8326078307005,
+      "y1": 71.48720868983537,
+      "y2": 2281.8945830681428,
       "label": "Reindeer"
     }
   },
   "topRooms": [
     {
       "roomName": "Captain's Quest Quarters",
-      "hitCount": 13763,
+      "hitCount": 13782,
       "avgUserRatio": 0.74,
       "activeUsers": 277
     },
