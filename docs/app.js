@@ -1,5 +1,8 @@
 // MyVMK Snowball Dashboard - Frontend
 
+// Event has ended - disable API querying and show archived data only
+const EVENT_ENDED = true;
+
 // Analytics helper - sends events to Google Analytics
 const analytics = {
   _debounceTimers: {},
@@ -1096,8 +1099,8 @@ async function loadAndRefreshData() {
       loadJSON(`${basePath}/users.json`),
       loadJSON(`${basePath}/rooms_summary.json`),
       loadJSON(`${basePath}/events.json`),
-      // Only fetch live team data for live mode (pre-reset teams no longer exist in API)
-      state.dataMode === "live" ? fetchTeamData() : Promise.resolve(null),
+      // Skip API calls if event has ended or in pre-reset mode
+      (EVENT_ENDED || state.dataMode !== "live") ? Promise.resolve(null) : fetchTeamData(),
       battlesPromise
     ]);
 
@@ -1293,9 +1296,9 @@ async function renderTeamStats(summary, teamTotals) {
   const container = document.getElementById("teamStats");
   const ts = summary.teamStats || {};
 
-  // Always fetch team totals from API if not provided
+  // Fetch team totals from API if not provided (skip if event has ended)
   let totals = teamTotals;
-  if (!totals) {
+  if (!totals && !EVENT_ENDED) {
     const teamData = currentTeamData || await fetchTeamData();
     totals = teamData?.totals;
   }
@@ -2258,9 +2261,13 @@ async function detectTraitors() {
       }
     });
 
-    // Always fetch live team data for traitor detection (regardless of data mode)
+    // Fetch live team data for traitor detection (skip if event has ended)
     let teamData = currentTeamData;
     if (!teamData || !teamData.rosters) {
+      if (EVENT_ENDED) {
+        // Event ended - can't fetch live team data
+        return [];
+      }
       teamData = await fetchTeamData();
     }
 
@@ -3373,9 +3380,19 @@ function setupEventListeners() {
   dataModeLive?.addEventListener("click", () => switchDataMode("live"));
   dataModePreReset?.addEventListener("click", () => switchDataMode("pre-reset"));
 
-  // Refresh button (only works in live mode)
+  // Refresh button (disabled - event has ended)
   const refreshBtn = document.getElementById("refreshDataBtn");
+  if (EVENT_ENDED && refreshBtn) {
+    refreshBtn.disabled = true;
+    refreshBtn.title = "The 2026 Snowball Fight has ended. Data is now archived.";
+    refreshBtn.style.opacity = "0.5";
+    refreshBtn.style.cursor = "not-allowed";
+  }
   refreshBtn?.addEventListener("click", () => {
+    if (EVENT_ENDED) {
+      alert("The 2026 Snowball Fight has ended! The data shown is the final archived results.");
+      return;
+    }
     if (state.dataMode === "pre-reset") {
       alert("Refresh is only available in Live mode. Switch to Live mode to fetch fresh data.");
       return;

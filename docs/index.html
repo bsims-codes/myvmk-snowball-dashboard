@@ -194,6 +194,220 @@
         font-size: 1.1rem;
       }
 
+      /* Victory Banner */
+      .victory-banner {
+        background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 50%, #1e3a5f 100%);
+        border: 3px solid #ffd700;
+        border-radius: 12px;
+        padding: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      .victory-banner::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 200%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.1), transparent);
+        animation: shimmer 3s infinite;
+        pointer-events: none;
+      }
+
+      @keyframes shimmer {
+        0% { transform: translateX(-50%); }
+        100% { transform: translateX(50%); }
+      }
+
+      .victory-banner h2 {
+        color: #ffd700;
+        margin: 0 0 8px 0;
+        font-size: 1.75rem;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        position: relative;
+      }
+
+      .victory-banner .victory-text {
+        color: #e0e7ff;
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+        position: relative;
+      }
+
+      .victory-banner .winner-highlight {
+        color: #93c5fd;
+        font-weight: 700;
+      }
+
+      /* Team summaries in banner */
+      .victory-banner .team-summaries {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+        position: relative;
+      }
+
+      .victory-banner .banner-team-card {
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 12px;
+        padding: 16px 24px;
+        min-width: 180px;
+        border: 2px solid transparent;
+      }
+
+      .victory-banner .banner-team-card.penguin {
+        border-color: var(--penguin-color);
+      }
+
+      .victory-banner .banner-team-card.reindeer {
+        border-color: var(--reindeer-color);
+      }
+
+      .victory-banner .banner-team-card.winner {
+        background: rgba(59, 130, 246, 0.15);
+        box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+      }
+
+      .victory-banner .banner-team-card img {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 8px;
+      }
+
+      .victory-banner .banner-team-card .team-name {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 4px;
+      }
+
+      .victory-banner .banner-team-card .team-hits {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 4px;
+      }
+
+      .victory-banner .banner-team-card.penguin .team-hits {
+        color: #93c5fd;
+      }
+
+      .victory-banner .banner-team-card.reindeer .team-hits {
+        color: #fca5a5;
+      }
+
+      .victory-banner .banner-team-card .team-members {
+        font-size: 0.85rem;
+        color: #9ca3af;
+      }
+
+      .victory-banner .winner-badge {
+        background: #ffd700;
+        color: #1a1a1a;
+        font-size: 0.7rem;
+        font-weight: 700;
+        padding: 2px 8px;
+        border-radius: 4px;
+        margin-top: 8px;
+        display: inline-block;
+      }
+
+      /* Top performers table */
+      .victory-banner .top-performers {
+        background: rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        padding: 16px;
+        position: relative;
+      }
+
+      .victory-banner .top-performers h3 {
+        color: #ffd700;
+        margin: 0 0 12px 0;
+        font-size: 1.1rem;
+      }
+
+      .victory-banner .performers-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.85rem;
+      }
+
+      .victory-banner .performers-table th {
+        color: #9ca3af;
+        font-weight: 500;
+        text-align: left;
+        padding: 6px 12px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        font-size: 0.75rem;
+        text-transform: uppercase;
+      }
+
+      .victory-banner .performers-table td {
+        padding: 8px 12px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        color: #e0e7ff;
+      }
+
+      .victory-banner .performers-table tr:hover {
+        background: rgba(255, 255, 255, 0.05);
+      }
+
+      .victory-banner .performers-table .rank {
+        color: #ffd700;
+        font-weight: 600;
+        width: 40px;
+      }
+
+      .victory-banner .performers-table .name {
+        font-weight: 500;
+      }
+
+      .victory-banner .performers-table .name.penguin-player {
+        color: #93c5fd;
+      }
+
+      .victory-banner .performers-table .name.reindeer-player {
+        color: #fca5a5;
+      }
+
+      .victory-banner .performers-table .hits {
+        font-weight: 600;
+        color: #4ade80;
+      }
+
+      .victory-banner .performers-table .taken {
+        color: #fb7185;
+      }
+
+      .victory-banner .performers-table .ratio {
+        color: #fbbf24;
+      }
+
+      .victory-banner .performers-table-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+      }
+
+      @media (max-width: 800px) {
+        .victory-banner .performers-table-wrapper {
+          grid-template-columns: 1fr;
+        }
+        .victory-banner .team-summaries {
+          gap: 12px;
+        }
+        .victory-banner .banner-team-card {
+          min-width: 140px;
+          padding: 12px 16px;
+        }
+      }
+
       .team-stats {
         flex: 1;
         display: flex;
@@ -944,6 +1158,82 @@
     <!-- Animated Stars -->
     <div class="stars" id="stars" aria-hidden="true"></div>
 
+    <!-- Victory Banner -->
+    <div class="victory-banner">
+      <h2>The 2026 Snowball Fight Has Ended!</h2>
+      <p class="victory-text">
+        Congratulations to <span class="winner-highlight">Team Penguin</span> for winning by <strong>5,711 points</strong>!
+      </p>
+
+      <div class="team-summaries">
+        <div class="banner-team-card penguin winner">
+          <img src="penguin.png" alt="Penguin">
+          <div class="team-name">Penguin</div>
+          <div class="team-hits">23,472 hits</div>
+          <div class="team-members">296 participants</div>
+          <div class="winner-badge">WINNER</div>
+        </div>
+        <div class="banner-team-card reindeer">
+          <img src="reindeer.png" alt="Reindeer">
+          <div class="team-name">Reindeer</div>
+          <div class="team-hits">17,761 hits</div>
+          <div class="team-members">334 participants</div>
+        </div>
+      </div>
+
+      <div class="top-performers">
+        <h3>Top 20 Performers</h3>
+        <div class="performers-table-wrapper">
+          <table class="performers-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Player</th>
+                <th>Hits</th>
+                <th>Taken</th>
+                <th>Ratio</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td class="rank">1</td><td class="name reindeer-player">Kronkx</td><td class="hits">7,416</td><td class="taken">1,758</td><td class="ratio">4.22</td></tr>
+              <tr><td class="rank">2</td><td class="name penguin-player">JustForFun</td><td class="hits">3,143</td><td class="taken">693</td><td class="ratio">4.54</td></tr>
+              <tr><td class="rank">3</td><td class="name penguin-player">TaterTotCasserole</td><td class="hits">2,825</td><td class="taken">728</td><td class="ratio">3.88</td></tr>
+              <tr><td class="rank">4</td><td class="name penguin-player">Winnie</td><td class="hits">2,598</td><td class="taken">430</td><td class="ratio">6.04</td></tr>
+              <tr><td class="rank">5</td><td class="name reindeer-player">SammyxxFairy</td><td class="hits">1,579</td><td class="taken">1,434</td><td class="ratio">1.10</td></tr>
+              <tr><td class="rank">6</td><td class="name reindeer-player">CaptainBubbles</td><td class="hits">1,446</td><td class="taken">1,146</td><td class="ratio">1.26</td></tr>
+              <tr><td class="rank">7</td><td class="name penguin-player">Devgirlforever</td><td class="hits">1,373</td><td class="taken">861</td><td class="ratio">1.59</td></tr>
+              <tr><td class="rank">8</td><td class="name penguin-player">goatduck</td><td class="hits">1,256</td><td class="taken">648</td><td class="ratio">1.94</td></tr>
+              <tr><td class="rank">9</td><td class="name penguin-player">bsims</td><td class="hits">1,243</td><td class="taken">259</td><td class="ratio">4.80</td></tr>
+              <tr><td class="rank">10</td><td class="name penguin-player">kazino</td><td class="hits">1,201</td><td class="taken">241</td><td class="ratio">4.98</td></tr>
+            </tbody>
+          </table>
+          <table class="performers-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Player</th>
+                <th>Hits</th>
+                <th>Taken</th>
+                <th>Ratio</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td class="rank">11</td><td class="name penguin-player">Pepa</td><td class="hits">1,195</td><td class="taken">477</td><td class="ratio">2.51</td></tr>
+              <tr><td class="rank">12</td><td class="name penguin-player">Mali</td><td class="hits">742</td><td class="taken">409</td><td class="ratio">1.81</td></tr>
+              <tr><td class="rank">13</td><td class="name penguin-player">BuckyBarnes</td><td class="hits">728</td><td class="taken">110</td><td class="ratio">6.62</td></tr>
+              <tr><td class="rank">14</td><td class="name penguin-player">mikgriz</td><td class="hits">724</td><td class="taken">286</td><td class="ratio">2.53</td></tr>
+              <tr><td class="rank">15</td><td class="name reindeer-player">protozoa</td><td class="hits">706</td><td class="taken">302</td><td class="ratio">2.34</td></tr>
+              <tr><td class="rank">16</td><td class="name penguin-player">VMKNeec</td><td class="hits">679</td><td class="taken">215</td><td class="ratio">3.16</td></tr>
+              <tr><td class="rank">17</td><td class="name reindeer-player">Jewelsy</td><td class="hits">533</td><td class="taken">149</td><td class="ratio">3.58</td></tr>
+              <tr><td class="rank">18</td><td class="name penguin-player">BluPirate</td><td class="hits">509</td><td class="taken">204</td><td class="ratio">2.50</td></tr>
+              <tr><td class="rank">19</td><td class="name penguin-player">Luckymaxer</td><td class="hits">498</td><td class="taken">177</td><td class="ratio">2.81</td></tr>
+              <tr><td class="rank">20</td><td class="name penguin-player">Lilasaurus</td><td class="hits">453</td><td class="taken">192</td><td class="ratio">2.36</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
     <div class="header">
       <div class="header-left">
         <h1>MyVMK Snowball Fight Dashboard</h1>
@@ -962,16 +1252,15 @@
       <div class="logo-center">
         <img src="./snowy-logo.png" alt="Snowball Fight" class="logo" />
       </div>
-      <div class="team-stats" id="teamStats"></div>
+      <!-- Team stats moved to victory banner -->
+      <div class="team-stats" id="teamStats" style="display:none;"></div>
       <div class="header-controls">
         <button class="theme-toggle" id="themeToggle" title="Toggle dark mode">🌙</button>
-        <button class="chip-btn" id="refreshDataBtn" title="Refresh data from API" style="display:flex;align-items:center;gap:4px;">
-          <span id="refreshIcon">🔄</span> Refresh
-        </button>
+        <!-- Refresh button hidden - event has ended -->
         <div class="data-mode-indicator">
-          <span class="data-mode-label">Data:</span>
+          <span class="data-mode-label">Archive:</span>
           <div class="data-toggle">
-            <button class="data-toggle-btn active" id="dataModeLive" title="View live data">Live</button>
+            <button class="data-toggle-btn active" id="dataModeLive" title="View final results">Final</button>
             <button class="data-toggle-btn" id="dataModePreReset" title="View pre-reset historical data">Pre-Reset</button>
           </div>
         </div>
