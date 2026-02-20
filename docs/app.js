@@ -665,8 +665,10 @@ async function refreshFromAPI() {
       state.allBattles = battles || [];
       state.selectedBattleId = null;
 
-      // Try to fetch team data separately (may still work even if hits API is down)
-      const teamData = await fetchTeamData().catch(() => null);
+      // Load roster from static file if event ended, otherwise try API
+      const teamData = EVENT_ENDED
+        ? await loadJSON(`${basePath}/roster.json`).catch(() => null)
+        : await fetchTeamData().catch(() => null);
       currentTeamData = teamData;
 
       // Update metadata
@@ -1099,8 +1101,8 @@ async function loadAndRefreshData() {
       loadJSON(`${basePath}/users.json`),
       loadJSON(`${basePath}/rooms_summary.json`),
       loadJSON(`${basePath}/events.json`),
-      // Skip API calls if event has ended or in pre-reset mode
-      (EVENT_ENDED || state.dataMode !== "live") ? Promise.resolve(null) : fetchTeamData(),
+      // Load roster from static file if event ended/pre-reset, otherwise fetch live
+      (EVENT_ENDED || state.dataMode !== "live") ? loadJSON(`${basePath}/roster.json`).catch(() => null) : fetchTeamData(),
       battlesPromise
     ]);
 
