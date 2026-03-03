@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-02T07:03:31.195Z",
+  "generatedAt": "2026-03-03T06:57:12.677Z",
   "resetCutoff": "2025-12-18T23:33:32.000Z",
   "totalUsers": 1540,
   "fromParticipants": 709,
@@ -8910,12 +8910,6 @@
       "source": "participants"
     },
     {
-      "user": "sailormoon_",
-      "firstSeen": "2026-01-25T01:27:59Z",
-      "team": "Reindeer",
-      "source": "participants"
-    },
-    {
       "user": "Cowboy_Pirate",
       "firstSeen": "2026-01-25T03:27:25Z",
       "team": "Reindeer",
@@ -9244,9 +9238,22 @@
       "firstSeen": "2026-02-12T04:36:04Z",
       "team": "Reindeer",
       "source": "participants"
+    },
+    {
+      "user": "sailormoon",
+      "firstSeen": "2026-03-02T23:28:06Z",
+      "team": "Reindeer",
+      "source": "participants"
     }
   ],
   "missingFromRoster": [
+    {
+      "user": "sailormoon_",
+      "team": "Reindeer",
+      "firstSeen": "2026-01-25T01:27:59Z",
+      "lastSeen": "2026-02-12T16:04:20Z",
+      "totalActivity": 179
+    },
     {
       "user": "Guest10149481",
       "team": "Penguin",
