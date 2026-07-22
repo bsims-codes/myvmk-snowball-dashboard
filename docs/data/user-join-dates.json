@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T08:33:06.096Z",
+  "generatedAt": "2026-07-22T08:32:48.877Z",
   "resetCutoff": "2025-12-18T23:33:32.000Z",
   "totalUsers": 1540,
   "fromParticipants": 709,
@@ -2203,12 +2203,6 @@
     },
     {
       "user": "-Tron-",
-      "firstSeen": "2025-12-22T01:26:34Z",
-      "team": "Penguin",
-      "source": "participants"
-    },
-    {
-      "user": "StarsCollide",
       "firstSeen": "2025-12-22T01:26:34Z",
       "team": "Penguin",
       "source": "participants"
@@ -9244,9 +9238,22 @@
       "firstSeen": "2026-07-12T17:34:18Z",
       "team": "Penguin",
       "source": "participants"
+    },
+    {
+      "user": "girlzilla",
+      "firstSeen": "2026-07-21T14:18:50Z",
+      "team": "Penguin",
+      "source": "participants"
     }
   ],
   "missingFromRoster": [
+    {
+      "user": "StarsCollide",
+      "team": "Penguin",
+      "firstSeen": "2025-12-22T01:26:34Z",
+      "lastSeen": "2026-07-12T17:34:18Z",
+      "totalActivity": 756
+    },
     {
       "user": "LuckkyyStarr",
       "team": "Penguin",
