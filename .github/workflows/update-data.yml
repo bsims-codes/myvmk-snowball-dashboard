@@ -1,9 +1,10 @@
 name: Update Snowball Data
 
 on:
-  schedule:
-    # Run every minute for faster alert responsiveness
-    - cron: '* * * * *'
+  # Scheduled updates disabled - the event is over and the site is now a
+  # static memorial. Re-enable by uncommenting the schedule block below.
+  # schedule:
+  #   - cron: '* * * * *'
   workflow_dispatch:
     # Allow manual trigger from GitHub Actions UI
 
